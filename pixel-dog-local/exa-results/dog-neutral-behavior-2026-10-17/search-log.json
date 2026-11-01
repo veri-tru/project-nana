@@ -1,0 +1,264 @@
+{
+  "as_of": "2026-10-17",
+  "topic": "neutral everyday dog behavior",
+  "search_calls": [
+    {
+      "id": 0,
+      "query": "primary study ethogram domestic dogs normal daily behaviours resting sitting standing walking drinking eating grooming video home accelerometer",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "A standardised approach to quantifying activity in domestic dogs | Royal Society Open Science | The Royal Society",
+          "url": "https://royalsocietypublishing.org/rsos/article/11/7/240119/92949/A-standardised-approach-to-quantifying-activity-in"
+        },
+        {
+          "title": "External validation of a collar-mounted triaxial accelerometer for second-by-second monitoring of eight behavioural states in dogs - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5706712/"
+        },
+        {
+          "title": "The Use of Triaxial Accelerometers and Machine Learning Algorithms for Behavioural Identification in Domestic Dogs (Canis familiaris): A Validation Study",
+          "url": "https://doi.org/10.3390/s24185955"
+        },
+        {
+          "title": "Deep Learning Classification of Canine Behavior Using a Single Collar-Mounted Accelerometer: Real-World Validation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228965/"
+        },
+        {
+          "title": "The Use of Triaxial Accelerometers and Machine Learning Algorithms for Behavioural Identification in Domestic Dogs (Canis familiaris): A Validation Study",
+          "url": "https://www.mdpi.com/1424-8220/24/18/5955"
+        },
+        {
+          "title": "Description of movement sensor dataset for dog behavior classification",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8777071/"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "query": "primary research dogs drinking lapping tongue high speed video water 2015",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "Dogs lap using acceleration-driven open pumping | PNAS",
+          "url": "https://www.pnas.org/doi/full/10.1073/pnas.1514842112"
+        },
+        {
+          "title": "Dogs lap using acceleration-driven open pumping - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4703018/"
+        },
+        {
+          "title": "How dogs lap: open pumping driven by acceleration - 68th Annual Meeting of the APS Division of Fluid Dynamics",
+          "url": "https://meetings-archive.aps.org/dfd/2015/g26/8/"
+        },
+        {
+          "title": "Dogs lap using acceleration-driven open pumping",
+          "url": "https://doi.org/10.1073/pnas.1514842112"
+        },
+        {
+          "title": "Dogs lap using acceleration-driven open pumping - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26668382/"
+        },
+        {
+          "title": "Engineers discover precise mechanism underlies the sloppy way dogs raise water into their mouths  | Virginia Tech News | Virginia Tech",
+          "url": "https://news.vt.edu/articles/2015/12/121515-engineering-dogresearch.html"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "query": "dog urination defecation posture ground scratching scent marking observational study sex body size",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "Scent‐Marking Behaviour in a Pack of Free‐Ranging Domestic Dogs",
+          "url": "https://doi.org/10.1111/j.1439-0310.2012.02088.x"
+        },
+        {
+          "title": "Scent marking in shelter dogs: Effects of sex and age - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168159116301794"
+        },
+        {
+          "title": "Elimination Patterns in the Laboratory Beagle",
+          "url": "https://doi.org/10.1163/156853973x00102"
+        },
+        {
+          "title": "Scent marking in shelter dogs: Effects of body size",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168159116303173"
+        },
+        {
+          "title": "Monitoring canid scent marking in space and time using a biologging and machine learning approach | Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-019-57198-w"
+        },
+        {
+          "title": "Effects of gonadectomy on scent-marking behavior of shelter dogs - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1558787818300704"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "query": "domestic dog spontaneous self grooming scratching stretching shaking ethogram observational study",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "Audience effect on domestic dogs' behavioural displays and ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9192729/"
+        },
+        {
+          "title": "Shake It Off: Investigating the Function of a Domestic Dog Behavior in Social Contexts",
+          "url": "https://www.mdpi.com/2076-2615/14/22/3248"
+        },
+        {
+          "title": "Detailed ethogram. - Public Library of Science - Figshare",
+          "url": "https://plos.figshare.com/articles/journal_contribution/Detailed_ethogram_/25408987"
+        },
+        {
+          "title": "N/A",
+          "url": "https://html.scirp.org/file/_5-1400541_1.htm"
+        },
+        {
+          "title": "General ethograms",
+          "url": "https://nc3rs.org.uk/sites/default/files/2022-01/General%20ethograms.pdf"
+        },
+        {
+          "title": "Model results for nocturnal behavioural indicators of stress: Proportion of time spent autogrooming in the shelter dog group.",
+          "url": "https://doi.org/10.1371/journal.pone.0286429.s013"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "query": "dogs at home alone normal behavior resting sleeping video observations study separation no problems",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "Pet dogs home alone: A video-based study",
+          "url": "https://doi.org/10.1016/j.applanim.2021.105463"
+        },
+        {
+          "title": "Video analysis of adult dogs when left home alone",
+          "url": "https://air.unimi.it/handle/2434/226101"
+        },
+        {
+          "title": "Video analysis of adult dogs when left home alone - Ovid",
+          "url": "https://www.ovid.com/journals/jvbe/fulltext/10.1016/j.jveb.2013.04.065~video-analysis-of-adult-dogs-when-left-home-alone"
+        },
+        {
+          "title": "Research Paper Separation anxiety in dogs: What progress has been made in our understanding of the most common behavioral problems in dogs?",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1558787816000216?dgcid=raven_sd_via_email"
+        },
+        {
+          "title": "Factors Influencing Isolation Behavior of Dogs: A Holder-Based Questionnaire and Behavioral and Saliva Cortisol Responses during Separation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10705200/"
+        },
+        {
+          "title": "The effect of time left alone at home on dog welfare",
+          "url": "https://slunik.slu.se/kursfiler/DO0031/40007.1213/The_effect_of_time_left_alone_at_home_on_dog_welfare.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "query": "dog sniffing walking environmental exploration study olfactory sniffing routine walk behavior",
+      "numResults": 6,
+      "results": [
+        {
+          "title": "Dog behaviour on walks and the effect of use of the leash",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7132425/"
+        },
+        {
+          "title": "Exploration Behavior of Pet Dogs During Off-Leash Walks",
+          "url": "https://doi.org/10.13188/2325-4645.1000053"
+        },
+        {
+          "title": "Let me sniff! Nosework induces positive judgment bias in pet dogs",
+          "url": "https://www.ethodog.fr/wp-content/uploads/2020/06/Let-me-sniff-FINAL.pdf"
+        },
+        {
+          "title": "Factors associated with sniffing behaviors between walking dogs in public places",
+          "url": "https://doi.org/10.1016/j.applanim.2021.105464"
+        },
+        {
+          "title": "The value of sniffing: A scoping review of scent activities for canines",
+          "url": "https://doi.org/10.1016/j.applanim.2024.106485"
+        },
+        {
+          "title": "Spatial orientation and exploration behavior of free-ranging domestic dogs",
+          "url": "https://doi.org/10.17185/duepublico/72516"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "query": "dog resting sleeping ethogram lying head up head down changing position study domestic dogs home sleep observations",
+      "numResults": 5,
+      "results": [
+        {
+          "title": "CANID ETHOGRAM- Dogs and Wolves",
+          "url": "https://academics.lmu.edu/media/lmuacademics/cures/urbanecolab/module09/M9_L5_CanidEthogram_Handout.pdf"
+        },
+        {
+          "title": "A Combined Approach to Predicting Rest in Dogs Using Accelerometers",
+          "url": "https://www.mdpi.com/1424-8220/18/8/2649"
+        },
+        {
+          "title": "The Use of Triaxial Accelerometers and Machine Learning Algorithms for Behavioural Identification in Domestic Dogs (Canis familiaris): A Validation Study",
+          "url": "https://doi.org/10.3390/s24185955"
+        },
+        {
+          "title": "Automated monitoring of resting in dogs",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168159115003238"
+        },
+        {
+          "title": "Sleep Duration and Behaviours: A Descriptive Analysis of a Cohort of Dogs up to 12 Months of Age - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7401528/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "query": "domestic dogs stretching waking up routine yawning body shake observational ethogram",
+      "numResults": 5,
+      "results": [
+        {
+          "title": "Mouths wide open: yawning as a communicative behavior in dogs",
+          "url": "https://doi.org/10.25675/3.021217"
+        },
+        {
+          "title": "Shake It Off: Investigating the Function of a Domestic Dog Behavior in Social Contexts",
+          "url": "https://doi.org/10.3390/ani14223248"
+        },
+        {
+          "title": "Yawn, Then Pass It On - Veterinary Practice News",
+          "url": "https://www.veterinarypracticenews.com/yawn-then-pass-it-on/"
+        },
+        {
+          "title": "N/A",
+          "url": "https://html.scirp.org/file/_5-1400541_1.htm"
+        },
+        {
+          "title": "Why Do Dogs Stretch And Shake When They Wake Up? - The Dodo",
+          "url": "https://www.thedodo.com/why-dogs-stretch-shake-2212197337.html"
+        }
+      ]
+    }
+  ],
+  "fetch_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5706712/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4703018/",
+    "https://www.mdpi.com/2076-2615/14/22/3248",
+    "https://www.nature.com/articles/s41598-019-57198-w",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228965/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7132425/",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0168159116301794",
+    "https://doi.org/10.1016/j.applanim.2021.105463",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8777071/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7401528/",
+    "https://www.mdpi.com/1424-8220/24/18/5955",
+    "https://www.mdpi.com/1424-8220/18/8/2649"
+  ],
+  "note": "sources_reviewed is requested search slots, not unique articles; fetch content read only for relevant sections. Search metadata corrected against article text.",
+  "sources_reviewed": 46,
+  "results_returned": 46,
+  "unique_result_urls": 44
+}

@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-17",
+  "method": "Targeted primary-source fetches, no broad literature expansion",
+  "search_queries": 0,
+  "requested_fetch_urls": 3,
+  "urls": [
+    {
+      "source_id": "L05",
+      "url": "https://www.mdpi.com/1424-8220/18/8/2649",
+      "scope": "Sections 3.4 and Discussion; Table 2; head support and side-lying support checked",
+      "findings": [
+        "R02",
+        "R04"
+      ]
+    },
+    {
+      "source_id": "L04",
+      "url": "https://www.mdpi.com/1424-8220/24/18/5955",
+      "scope": "Methods and behavioral-category descriptions; table cells not extracted in this fetch",
+      "findings": [
+        "R09",
+        "R10"
+      ]
+    },
+    {
+      "source_id": "L32",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10135149/",
+      "scope": "Table 1 and coding methods; Paw, Chew, Dig, Lie on Object and merged modifiers",
+      "findings": [
+        "R03",
+        "R07",
+        "R11"
+      ]
+    }
+  ],
+  "limits": "Only these targeted original sources were rechecked. The review does not claim revalidation of every study or community post."
+}

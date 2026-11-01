@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-17",
+  "scope": "User request to include all additional behavior candidates",
+  "sources_reviewed": 36,
+  "sources_reviewed_definition": "Sum of requested numResults, not unique papers or verified sources",
+  "returned_result_count": 36,
+  "unique_result_url_count": 33,
+  "searches": [
+    {
+      "query": "domestic dog empirical study caching food carrying away burying covering nose blanket behavior",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "Domestic dog understanding of containment and occlusion events.",
+          "url": "https://escholarship.org/uc/item/7db2z8wd"
+        },
+        {
+          "title": "Domestic dogs (Canis familiaris) use human and conspecific social cues to locate hidden food.",
+          "url": "https://doi.org/10.1037//0735-7036.113.2.173"
+        },
+        {
+          "title": "Dog Covering Its Food with a Blanket? [Here's Why] - Canine Care Central",
+          "url": "https://caninecarecentral.com/behavior/dog-covering-its-food-with-a-blanket/"
+        },
+        {
+          "title": "Frontiers | Showing—intentional communication—in dogs (Canis familiaris)",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1608797/full"
+        },
+        {
+          "title": "When the owner does not know: comparing puppies and adult dogs’ showing behavior | Animal Cognition | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1007/s10071-023-01744-7"
+        }
+      ]
+    },
+    {
+      "query": "domestic dog sleep resting ethogram nesting bedding circling scratching before lying down study",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "Differences in pre-sleep activity and sleep location are associated with variability in daytime/nighttime sleep electrophysiology in the domestic dog",
+          "url": "https://doi.org/10.1038/s41598-018-25546-x"
+        },
+        {
+          "title": "A Combined Approach to Predicting Rest in Dogs Using Accelerometers",
+          "url": "https://doi.org/10.3390/s18082649"
+        },
+        {
+          "title": "Sleep-wake cycles and other night-time behaviours of the domestic dog Canis familiaris",
+          "url": "https://doi.org/10.1016/0168-1591(93)90013-f"
+        },
+        {
+          "title": "Why Do Dogs Turn in Circles Before Lying Down? | Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/canine-corner/201601/why-do-dogs-turn-in-circles-lying-down"
+        },
+        {
+          "title": "Effects of Human Presence and Voice on the Behaviour of Shelter Dogs and Cats: A Preliminary Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7914542/"
+        }
+      ]
+    },
+    {
+      "query": "dog ethogram sigh sighing sneezing face rubbing paw crossing hind legs extended observational study",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "The Effect of Pet Remedy on the Behaviour of the Domestic Dog ( Canis familiaris )",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126766/"
+        },
+        {
+          "title": "Observational behaviors and emotions to assess welfare of dogs: A systematic review",
+          "url": "https://doi.org/10.1016/j.jveb.2023.12.007"
+        },
+        {
+          "title": "Mouths wide open: yawning as a communicative behavior in dogs",
+          "url": "https://doi.org/10.25675/3.021217"
+        },
+        {
+          "title": "N/A",
+          "url": "https://html.scirp.org/file/_5-1400541_1.htm"
+        },
+        {
+          "title": "Cross-species referential signalling events in domestic dogs (Canis familiaris)",
+          "url": "https://doi.org/10.1007/s10071-018-1181-3"
+        }
+      ]
+    },
+    {
+      "query": "dog sitting lying down postural transition stand sit lie sequence limb movements kinematics study",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "Frontiers | Limb Kinematics, Kinetics and Muscle Dynamics During the Sit-to-Stand Transition in Greyhounds",
+          "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2018.00162/full"
+        },
+        {
+          "title": "Kinematic Characteristics of Canine Hindlimb Movement During Sit-to-Stand and Stand-to-Sit Motions",
+          "url": "https://doi.org/10.1016/j.rvsc.2023.104944"
+        },
+        {
+          "title": "Validation of two-dimensional kinematic analysis of walk and sit-to-stand motions in dogs",
+          "url": "https://doi.org/10.2460/ajvr.68.3.277"
+        },
+        {
+          "title": "Validation of two-dimensional kinematic analysis of walk and sit-to-stand motions in dogs in: American Journal of Veterinary Research Volume 68 Issue 3 ()",
+          "url": "https://avmajournals.avma.org/view/journals/ajvr/68/3/ajvr.68.3.277.xml"
+        },
+        {
+          "title": "Limb Kinematics, Kinetics and Muscle Dynamics During the Sit-to-Stand Transition in Greyhounds",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250835/"
+        }
+      ]
+    },
+    {
+      "query": "\"dogs\" \"caching\" \"food\" \"study\" behaviour burying",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "Observational spatial memory in wolves and dogs | PLOS One",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0290547"
+        },
+        {
+          "title": "Observational spatial memory in wolves and dogs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499247/"
+        },
+        {
+          "title": "Why do dogs bury bones? | Live Science",
+          "url": "https://www.livescience.com/why-do-dogs-bury-bones.html"
+        },
+        {
+          "title": "Revisiting the concept of behavior patterns in animal behavior with an example from food-caching sequences in Wolves ( Canis lupus ), Coyotes ( Canis latrans ), and Red Foxes ( Vulpes vulpes ) ☆",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376635714002423"
+        },
+        {
+          "title": "Why Do Dogs Bury Bones and Other Goodies?",
+          "url": "https://www.dailypaws.com/dogs-puppies/dog-behavior/common-dog-behaviors/why-do-dogs-bury-bones-and-other-things"
+        }
+      ]
+    },
+    {
+      "query": "\"dog\" \"ethogram\" \"sneeze\"",
+      "numResults": 5,
+      "returned_count": 5,
+      "results": [
+        {
+          "title": "[PDF] BEHAVIOURAL STUDY OF LABRADOR RETRIEVER IN ...",
+          "url": "https://repositorio-aberto.up.pt/bitstream/10216/62281/2/Tese%20Mestrado%20Sara%20Tavares.pdf"
+        },
+        {
+          "title": "Effects of contingent and noncontingent reinforcement on the emotional behavior of domestic dogs (Canis familiaris)",
+          "url": "https://doi.org/10.1016/j.jveb.2023.07.002"
+        },
+        {
+          "title": "An Ethogram for the New Guinea Singing (Wild) Dog (Canis ...",
+          "url": "https://www.academia.edu/27345473/An_Ethogram_for_the_New_Guinea_Singing_Wild_Dog_Canis_hallstromi_"
+        },
+        {
+          "title": "Observational behaviors and emotions to assess welfare of dogs: A systematic review",
+          "url": "https://doi.org/10.1016/j.jveb.2023.12.007"
+        },
+        {
+          "title": "Development and evaluation of a canine and feline welfare assessment tool for use in companion animal veterinary clinics",
+          "url": "https://atrium.lib.uoguelph.ca/server/api/core/bitstreams/d0cf7348-079d-44c3-a065-4df3ac38def5/content"
+        }
+      ]
+    },
+    {
+      "query": "\"Kinematic Characteristics of Canine Hindlimb Movement\" stand sit abstract",
+      "numResults": 3,
+      "returned_count": 3,
+      "results": [
+        {
+          "title": "Kinematic characteristics of canine hindlimb movement during ...",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0034528823001893"
+        },
+        {
+          "title": "Kinematic characteristics of canine hindlimb movement during sit-to-stand and stand-to-sit motions",
+          "url": "https://doi.org/10.1016/j.rvsc.2023.104944"
+        },
+        {
+          "title": "Kinematic Characteristics of Canine Hindlimb Movement During Sit-to-Stand and Stand-to-Sit Motions",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4421905"
+        }
+      ]
+    },
+    {
+      "query": "\"Effects of contingent and noncontingent reinforcement\" \"Sneezing\"",
+      "numResults": 3,
+      "returned_count": 3,
+      "results": [
+        {
+          "title": "Effects of contingent and noncontingent reinforcement on the emotional behavior of domestic dogs (Canis familiaris)",
+          "url": "https://doi.org/10.1016/j.jveb.2023.07.002"
+        },
+        {
+          "title": "Effects of contingent and noncontingent reinforcement on the emotional behavior of domestic dogs (Canis familiaris)",
+          "url": "https://pure.qub.ac.uk/en/publications/effects-of-contingent-and-noncontingent-reinforcement-on-the-emot/"
+        },
+        {
+          "title": "Effects of contingent and noncontingent reinforcement on the emotional behavior of domestic dogs (Canis familiaris)",
+          "url": "https://ouci.dntb.gov.ua/en/works/40nodBv9/"
+        }
+      ]
+    }
+  ],
+  "fetches": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5126766/",
+      "used_as_evidence": true,
+      "access": "relevant_full_text"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.rvsc.2023.104944",
+      "used_as_evidence": false,
+      "access": "metadata_only"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-017-12781-x",
+      "used_as_evidence": true,
+      "access": "relevant_full_text"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jveb.2023.07.002",
+      "used_as_evidence": true,
+      "access": "relevant_full_text"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0034528823001893",
+      "used_as_evidence": true,
+      "access": "publisher_abstract_highlights"
+    }
+  ],
+  "inherited_evidence": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10135149/",
+      "access": "Previous immediate candidate investigation, Table 1 retained and rechecked",
+      "source_id": "L32"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-017-12781-x",
+      "access": "DogFACS table also retained from immediately preceding candidate investigation; refetched this turn",
+      "source_id": "L63"
+    }
+  ],
+  "new_literature_sources": 4,
+  "existing_literature_sources_rechecked": 1,
+  "limitations": [
+    "Human hiding food from dogs is not evidence of dogs caching food.",
+    "Wild-canid caching sequences were not imported into domestic-dog rows.",
+    "Nine pending candidates remain user requirements, not reported observations.",
+    "No source content is stored wholesale; only bibliographic metadata and paraphrased observations/definitions."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-11-01",
+  "file": "P1-walk-childlike.png",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "ground_y_px": 1104,
+  "vertical_translation_px": -34,
+  "source_sha256": "549635192567916ce0c2979ef6b95af38c6064d6cf6ff826330c24e72a433137",
+  "final_sha256": "a0ce3c70a5b3d138302668da19bb44369a4428d4a9ebceb0b958183cb9a68c46",
+  "visual_observations": [
+    "Less filled gray regions with broad paper gaps",
+    "Fewer interior fur lines and simpler outline",
+    "Small round dot eyes and low tail remain",
+    "Gray/white palette remains the intended basis"
+  ],
+  "limitations": [
+    "Whole style edit; contours and markings are not pixel-identical",
+    "Fill coverage not numerically measured",
+    "Incomplete filling can weaken marking visibility; owner likeness review pending",
+    "Only one walking example; other actions and P2 unchanged",
+    "No animated frame continuity validation"
+  ],
+  "owner_review": "pending",
+  "other_assets_modified": false
+}

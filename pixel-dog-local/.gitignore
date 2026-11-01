@@ -1,0 +1,32 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+local.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+secrets/
+# User data
+private-data/
+uploads/
+recordings/
+# Build outputs and dependencies
+.gradle/
+build/
+.dart_tool/
+.flutter-plugins*
+Pods/
+DerivedData/
+node_modules/
+.venv/
+__pycache__/
+# Local editor and OS state
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+# Generated delivery archives
+*.zip
+

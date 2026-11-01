@@ -1,0 +1,92 @@
+{
+  "as_of": "2026-11-01",
+  "variants": [
+    {
+      "id": "A",
+      "file": "A-game-64.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "preview_px": [
+        512,
+        512
+      ],
+      "source_px": [
+        1312,
+        1199
+      ],
+      "ground_y": 57,
+      "body_size_px": [
+        54,
+        46
+      ],
+      "rgba_colours": 16,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "review_status": "static_concept_owner_review_pending",
+      "method": "built-in image generation, nearest-neighbor size conversion and palette encoding",
+      "animation_compatibility": "untested"
+    },
+    {
+      "id": "B",
+      "file": "B-rounded-64.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "preview_px": [
+        512,
+        512
+      ],
+      "source_px": [
+        1431,
+        1099
+      ],
+      "ground_y": 57,
+      "body_size_px": [
+        54,
+        42
+      ],
+      "rgba_colours": 256,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "review_status": "static_concept_owner_review_pending",
+      "method": "built-in image generation, nearest-neighbor size conversion and palette encoding",
+      "animation_compatibility": "untested"
+    },
+    {
+      "id": "C",
+      "file": "C-natural-64.png",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "preview_px": [
+        512,
+        512
+      ],
+      "source_px": [
+        1280,
+        1229
+      ],
+      "ground_y": 57,
+      "body_size_px": [
+        54,
+        46
+      ],
+      "rgba_colours": 256,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "review_status": "static_concept_owner_review_pending",
+      "method": "built-in image generation, nearest-neighbor size conversion and palette encoding",
+      "animation_compatibility": "untested"
+    }
+  ]
+}

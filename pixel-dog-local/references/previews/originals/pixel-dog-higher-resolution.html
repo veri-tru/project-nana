@@ -1,0 +1,98 @@
+<div id="pixel-dog-higher-resolution">
+  <div class="viz-row pdr-toolbar">
+    <span>같은 도안 · 같은 표시 크기</span>
+    <label class="form-check">
+      <input id="pdr-grid" class="form-check-input" type="checkbox">
+      <span class="form-check-label">픽셀 격자</span>
+    </label>
+  </div>
+  <div class="pdr-comparison">
+    <figure><figcaption>32 × 32 px</figcaption><div id="pdr-32"></div><div class="text-small text-muted">전체 1,024픽셀</div></figure>
+    <figure><figcaption>64 × 64 px</figcaption><div id="pdr-64"></div><div class="text-small text-muted">전체 4,096픽셀</div></figure>
+    <figure><figcaption>128 × 128 px</figcaption><div id="pdr-128"></div><div class="text-small text-muted">전체 16,384픽셀</div></figure>
+  </div>
+  <style>
+    #pixel-dog-higher-resolution { color:var(--foreground); }
+    #pixel-dog-higher-resolution .pdr-toolbar { justify-content:space-between; gap:12px; margin-bottom:18px; }
+    #pixel-dog-higher-resolution .pdr-comparison { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    #pixel-dog-higher-resolution figure { margin:0; text-align:center; min-width:0; }
+    #pixel-dog-higher-resolution figcaption { font-weight:500; margin-bottom:8px; }
+    #pixel-dog-higher-resolution svg { width:100%; max-width:256px; height:auto; display:block; margin:0 auto 10px; shape-rendering:crispEdges; }
+    #pixel-dog-higher-resolution .pdr-pixel-grid { display:none; stroke:var(--foreground); opacity:.18; fill:none; stroke-width:.07; }
+    #pixel-dog-higher-resolution.pdr-show-grid .pdr-pixel-grid { display:block; }
+    #pixel-dog-higher-resolution .fur { fill:color-mix(in srgb,var(--orange) 44%,var(--background)); }
+    #pixel-dog-higher-resolution .shade { fill:color-mix(in srgb,var(--orange) 65%,var(--foreground) 18%); }
+    #pixel-dog-higher-resolution .light { fill:color-mix(in srgb,var(--orange) 17%,var(--background)); }
+    #pixel-dog-higher-resolution .ink { fill:var(--foreground); }
+    #pixel-dog-higher-resolution .shine { fill:var(--background); }
+    #pixel-dog-higher-resolution .collar { fill:var(--blue); }
+    #pixel-dog-higher-resolution .tag { fill:var(--yellow); }
+    #pixel-dog-higher-resolution .ground { fill:var(--muted); }
+    @media(max-width:520px) { #pixel-dog-higher-resolution .pdr-comparison { grid-template-columns:1fr; gap:24px; } }
+  </style>
+  <script>
+  (() => {
+    const root = document.getElementById('pixel-dog-higher-resolution');
+    const ellipse = (x,y,cx,cy,rx,ry) => ((x-cx)/rx)**2+((y-cy)/ry)**2 <= 1;
+    const polygon = (x,y,points) => {
+      let inside=false;
+      for(let i=0,j=points.length-1;i<points.length;j=i++) {
+        const [xi,yi]=points[i], [xj,yj]=points[j];
+        if((yi>y)!==(yj>y) && x<(xj-xi)*(y-yi)/(yj-yi)+xi) inside=!inside;
+      }
+      return inside;
+    };
+    function dog(x,y) {
+      let p='';
+      if(ellipse(x,y,51,92,34,4)) p='ground';
+      if(polygon(x,y,[[68,74],[79,71],[85,61],[90,62],[91,72],[84,82],[69,86]])) p='shade';
+      if(ellipse(x,y,51,73,24,20)) p='shade';
+      if(ellipse(x,y,50,72,18,20)) p='fur';
+      if(ellipse(x,y,49,70,10,16)) p='light';
+      if(ellipse(x,y,31,85,12,6)||ellipse(x,y,69,85,12,6)) p='fur';
+      if(x>=34&&x<43&&y>=69&&y<91) p='fur';
+      if(x>=57&&x<66&&y>=69&&y<91) p='fur';
+      if(ellipse(x,y,38,89,8,4)||ellipse(x,y,62,89,8,4)) p='light';
+      if(ellipse(x,y,50,58,20,5)) p='collar';
+      if(ellipse(x,y,50,63,3,3)) p='tag';
+      if(ellipse(x,y,26,37,12,21)||ellipse(x,y,74,37,12,21)) p='shade';
+      if(ellipse(x,y,50,33,25,24)) p='fur';
+      if(ellipse(x,y,35,18,10,10)||ellipse(x,y,48,15,12,9)||ellipse(x,y,62,19,10,10)) p='fur';
+      if(ellipse(x,y,24,44,6,12)||ellipse(x,y,76,44,6,12)) p='fur';
+      if(ellipse(x,y,50,45,16,11)) p='light';
+      if(ellipse(x,y,50,43,6,4)) p='ink';
+      if(x>=48&&x<52&&y>=45&&y<50) p='ink';
+      if(ellipse(x,y,50,51,7,2)&&y>=51) p='shade';
+      if(ellipse(x,y,38,34,3.3,4)||ellipse(x,y,62,34,3.3,4)) p='ink';
+      if(ellipse(x,y,37,32.5,1.25,1.4)||ellipse(x,y,61,32.5,1.25,1.4)) p='shine';
+      if(ellipse(x,y,48.5,41.8,2,.8)) p='shade';
+      for(const [cx,cy] of [[24,36],[24,45],[76,36],[76,45],[36,19],[48,16],[61,20],[46,68],[52,75]]) {
+        const d=((x-cx)/2.7)**2+((y-cy)/2.3)**2;
+        if(d>.52&&d<1&&y>cy-.6&&p==='fur') p='shade';
+      }
+      if(y>88&&y<91&&((x>35&&x<36)||(x>39&&x<40)||(x>59&&x<60)||(x>63&&x<64))) p='shade';
+      return p;
+    }
+    const ns='http://www.w3.org/2000/svg';
+    for(const n of [32,64,128]) {
+      const values=Array.from({length:n},(_,j)=>Array.from({length:n},(_,i)=>dog((i+.5)*100/n,(j+.5)*100/n)));
+      const svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('viewBox',`0 0 ${n} ${n}`);
+      svg.setAttribute('role','img');
+      svg.setAttribute('aria-label',`${n} 곱하기 ${n}픽셀 격자에 표현한 앉아 있는 귀가 처진 강아지`);
+      for(let y=0;y<n;y++) for(let x=0;x<n;x++) if(values[y][x]) {
+        const r=document.createElementNS(ns,'rect');
+        for(const [k,v] of Object.entries({x,y,width:1,height:1,class:values[y][x]})) r.setAttribute(k,v);
+        svg.appendChild(r);
+      }
+      const grid=document.createElementNS(ns,'path');
+      let d='';
+      for(let k=0;k<=n;k++) d+=`M${k} 0V${n}M0 ${k}H${n}`;
+      grid.setAttribute('d',d); grid.setAttribute('class','pdr-pixel-grid');
+      svg.appendChild(grid);
+      root.querySelector(`#pdr-${n}`).appendChild(svg);
+    }
+    root.querySelector('#pdr-grid').addEventListener('change',event=>root.classList.toggle('pdr-show-grid',event.target.checked));
+  })();
+  </script>
+</div>

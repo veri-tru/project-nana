@@ -1,0 +1,27 @@
+{
+  "records_preserved": 280,
+  "relations_preserved": 81,
+  "raw_reports_preserved": 23,
+  "behavior_nodes_preserved": 164,
+  "situations_preserved": 46,
+  "findings_preserved": 16,
+  "positive_assessments_preserved": 30,
+  "negative_assessments_preserved": 47,
+  "neutral_assessments_preserved": 51,
+  "field_dictionary_preserved": 51,
+  "original_sources_verified": 86,
+  "allowed_source_metadata_updates": [
+    {
+      "source_id": "L32",
+      "changes": {
+        "access_scope": "full_sections_table1_verified_in_followup",
+        "locator": "기존 Methods·Results·Discussion; 후속 추가 후보 조사 Table 1 (PMC10135149)",
+        "verification_note": "긍정 확장 조사 당시 Table 1 전문 미추출. 2026-10-17 추가 후보 조사에서 PMC 원표를 읽어 코딩 정의 11건을 추가. 기존 기록은 보존하며 세부형별 발생 빈도는 새로 추정하지 않음."
+      }
+    }
+  ],
+  "coverage_items_linked": 28,
+  "new_records": 27,
+  "existing_record_reused": "E171",
+  "status": "passed"
+}

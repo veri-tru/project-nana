@@ -1,0 +1,150 @@
+{
+  "package": "pixel-dog-local",
+  "prepared_date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "status": "handoff_preparation",
+  "pages": [
+    {
+      "slug": "00_project_guidance",
+      "title": "반려견 디지털 트윈 앱 개발 지침과 첫 시제품 범위",
+      "page_id": "page_2bb72844316c8191a60de47d43c6d311",
+      "url": "https://chatgpt.com/space/page_2bb72844316c8191a60de47d43c6d311",
+      "sequence": 7,
+      "local_path": "docs/archive/00_project_guidance.md",
+      "source_snapshot": "provenance/pages/00_project_guidance.json",
+      "characters": 6492
+    },
+    {
+      "slug": "01_data_hierarchy",
+      "title": "반려견 데이터 수집 목록과 위계 및 우선순위",
+      "page_id": "page_bab14abcc9f8819188c55aca75942fcf",
+      "url": "https://chatgpt.com/space/page_bab14abcc9f8819188c55aca75942fcf",
+      "sequence": 0,
+      "local_path": "docs/archive/01_data_hierarchy.md",
+      "source_snapshot": "provenance/pages/01_data_hierarchy.json",
+      "characters": 12659
+    },
+    {
+      "slug": "02_dog_identity_literature",
+      "title": "개의 개체 인식을 위한 행동과 습관 문헌검토",
+      "page_id": "page_d3bfea3d642c8191b43c27b8b4091012",
+      "url": "https://chatgpt.com/space/page_d3bfea3d642c8191b43c27b8b4091012",
+      "sequence": 1,
+      "local_path": "docs/archive/02_dog_identity_literature.md",
+      "source_snapshot": "provenance/pages/02_dog_identity_literature.json",
+      "characters": 12293
+    },
+    {
+      "slug": "03_animation_literature",
+      "title": "반려견 2D 3D 움직임 구현 문헌과 적용안",
+      "page_id": "page_dbd877cfd4108191ba05974570cbf1bb",
+      "url": "https://chatgpt.com/space/page_dbd877cfd4108191ba05974570cbf1bb",
+      "sequence": 0,
+      "local_path": "docs/archive/03_animation_literature.md",
+      "source_snapshot": "provenance/pages/03_animation_literature.json",
+      "characters": 27310
+    },
+    {
+      "slug": "04_jev_feasibility",
+      "title": "Jev와 스마트폰 데이터 기반 반려견 개인화 구현 검토",
+      "page_id": "page_10361e1d34e0819198f8de4fe03dd352",
+      "url": "https://chatgpt.com/space/page_10361e1d34e0819198f8de4fe03dd352",
+      "sequence": 0,
+      "local_path": "docs/archive/04_jev_feasibility.md",
+      "source_snapshot": "provenance/pages/04_jev_feasibility.json",
+      "characters": 9661
+    },
+    {
+      "slug": "05_detailed_design",
+      "title": "Claude Haiku 5.5 기반 반려견 앱 상세 기획과 설계",
+      "page_id": "page_8fca22aa5ebc81919fc79b040858f4b9",
+      "url": "https://chatgpt.com/space/page_8fca22aa5ebc81919fc79b040858f4b9",
+      "sequence": 2,
+      "local_path": "docs/archive/05_detailed_design.md",
+      "source_snapshot": "provenance/pages/05_detailed_design.json",
+      "characters": 17932
+    },
+    {
+      "slug": "06_market_competitors",
+      "title": "반려견 개인화 앱 목표 사용자와 시장 및 경쟁사 분석",
+      "page_id": "page_a5326522de1481919f01b08bbd2027cf",
+      "url": "https://chatgpt.com/space/page_a5326522de1481919f01b08bbd2027cf",
+      "sequence": 1,
+      "local_path": "docs/archive/06_market_competitors.md",
+      "source_snapshot": "provenance/pages/06_market_competitors.json",
+      "characters": 14366
+    },
+    {
+      "slug": "07_competitor_revenue",
+      "title": "반려견 앱 경쟁사의 매출 구조와 사업 현황",
+      "page_id": "page_81ed1bf410ac8191935ae6b2acfb9fc4",
+      "url": "https://chatgpt.com/space/page_81ed1bf410ac8191935ae6b2acfb9fc4",
+      "sequence": 0,
+      "local_path": "docs/archive/07_competitor_revenue.md",
+      "source_snapshot": "provenance/pages/07_competitor_revenue.json",
+      "characters": 8692
+    },
+    {
+      "slug": "08_pixel_pals_benchmark",
+      "title": "Pixel Pals 벤치마킹과 반려견 앱 적용안",
+      "page_id": "page_b7f9051b614881919ab90d1fd484fc4e",
+      "url": "https://chatgpt.com/space/page_b7f9051b614881919ab90d1fd484fc4e",
+      "sequence": 0,
+      "local_path": "docs/archive/08_pixel_pals_benchmark.md",
+      "source_snapshot": "provenance/pages/08_pixel_pals_benchmark.json",
+      "characters": 5381
+    },
+    {
+      "slug": "09_github_research",
+      "title": "픽셀 반려견 외형과 움직임 구현을 위한 GitHub 조사",
+      "page_id": "page_e4ad0a22e6b08191b29b495970da71f8",
+      "url": "https://chatgpt.com/space/page_e4ad0a22e6b08191b29b495970da71f8",
+      "sequence": 0,
+      "local_path": "docs/archive/09_github_research.md",
+      "source_snapshot": "provenance/pages/09_github_research.json",
+      "characters": 8800
+    }
+  ],
+  "previews": [
+    {
+      "title": "10·20·30px 비교",
+      "original_filename": "pixel-dog-resolution.html",
+      "source_type": "existing_local_preview",
+      "source_sha256": "2c50972d86936817ba17c048c6884ed1625ef7b3f6a2d9492214eeb981be7f87",
+      "original_copy": "references/previews/originals/pixel-dog-resolution.html",
+      "standalone_copy": "references/previews/pixel-dog-resolution.html",
+      "transformation": "Original fragment unchanged; added HTML document structure, local theme defaults and navigation."
+    },
+    {
+      "title": "32·64·128px 비교",
+      "original_filename": "pixel-dog-higher-resolution.html",
+      "source_type": "existing_local_preview",
+      "source_sha256": "b354c5720daf10184a84c9de61b848f6178ecf5402f5a8129f5951c3d6d54c20",
+      "original_copy": "references/previews/originals/pixel-dog-higher-resolution.html",
+      "standalone_copy": "references/previews/pixel-dog-higher-resolution.html",
+      "transformation": "Original fragment unchanged; added HTML document structure, local theme defaults and navigation."
+    },
+    {
+      "title": "96×96 · 8프레임 · 8fps",
+      "original_filename": "pixel-dog-96-motion.html",
+      "source_type": "existing_local_preview",
+      "source_sha256": "d08820173d3450f2c8f2fe462913f4f68b99a89f86e70518120cec886cd24aea",
+      "original_copy": "references/previews/originals/pixel-dog-96-motion.html",
+      "standalone_copy": "references/previews/pixel-dog-96-motion.html",
+      "transformation": "Original fragment unchanged; added HTML document structure, local theme defaults and navigation."
+    },
+    {
+      "title": "96×96 · fps 비교",
+      "original_filename": "pixel-dog-96-fps-comparison.html",
+      "source_type": "existing_local_preview",
+      "source_sha256": "fef244b1f90593cddf9d58acd12da37a266ec23946cd436b93330b4a832ef1b2",
+      "original_copy": "references/previews/originals/pixel-dog-96-fps-comparison.html",
+      "standalone_copy": "references/previews/pixel-dog-96-fps-comparison.html",
+      "transformation": "Original fragment unchanged; added HTML document structure, local theme defaults and navigation."
+    }
+  ],
+  "app_implemented": false,
+  "third_party_code_included": false,
+  "third_party_dog_assets_included": false,
+  "automatic_sync": false
+}

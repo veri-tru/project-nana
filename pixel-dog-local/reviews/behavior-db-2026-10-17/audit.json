@@ -1,0 +1,211 @@
+{
+  "as_of": "2026-10-17",
+  "mode": "review_only_no_catalog_migration",
+  "counts": {
+    "behavior_nodes": 187,
+    "situations": 53,
+    "sources": 91,
+    "raw_reports": 23,
+    "records": 307,
+    "relations": 83,
+    "findings": 19,
+    "positive_assessments": 30,
+    "negative_assessments": 47,
+    "neutral_assessments": 69
+  },
+  "claim_counts": {
+    "literature_definition": 49,
+    "literature_observation": 120,
+    "published_owner_report": 26,
+    "design_proposal": 38,
+    "user_requirement": 17,
+    "owner_report": 49,
+    "reported_learned_behavior": 8
+  },
+  "source_type_counts": {
+    "literature": 66,
+    "design_proposal": 4,
+    "user_requirement": 2,
+    "community": 19
+  },
+  "behavior_counts": {
+    "recordable_nodes": 147,
+    "used_nodes": 145,
+    "evidence_linked_nodes_including_review_contexts": 135,
+    "candidate_view_nodes": 120,
+    "proposal_only_nodes": 10
+  },
+  "exact_payload_duplicate_groups": [
+    [
+      "P017",
+      "P019"
+    ],
+    [
+      "P023",
+      "P025"
+    ],
+    [
+      "P036",
+      "P038"
+    ]
+  ],
+  "same_source_behavior_situation_groups": [
+    [
+      "P017",
+      "P019"
+    ],
+    [
+      "P023",
+      "P025"
+    ],
+    [
+      "P036",
+      "P038"
+    ],
+    [
+      "E144",
+      "E145"
+    ],
+    [
+      "E157",
+      "E158"
+    ],
+    [
+      "C_KD01_03",
+      "C_KD01_04"
+    ],
+    [
+      "C_KQ03_01",
+      "C_KQ03_04"
+    ]
+  ],
+  "duplicate_source_urls": [],
+  "duplicate_normalized_source_titles": [],
+  "relation_rows_by_type": {
+    "next": 35,
+    "previous": 32,
+    "concurrent": 12,
+    "alternative": 4
+  },
+  "relation_rows_by_basis": {
+    "study_sequence": 5,
+    "design_proposal": 40,
+    "study_cooccurrence": 2,
+    "reported_cooccurrence": 10,
+    "reported_sequence": 22,
+    "reported_alternative": 4
+  },
+  "canonical_relation_count": 43,
+  "canonical_relations_by_basis": {
+    "design_proposal": 21,
+    "reported_sequence": 11,
+    "reported_alternative": 2,
+    "reported_cooccurrence": 5,
+    "study_sequence": 3,
+    "study_cooccurrence": 1
+  },
+  "assessment_rows": 146,
+  "assessed_unique_records": 142,
+  "positive_negative_overlap": [
+    "E057",
+    "E058",
+    "E079",
+    "E080"
+  ],
+  "records_with_no_context_assessment": 165,
+  "unused_recordable_nodes": [
+    "JUMP",
+    "FRONT_SUPPORT"
+  ],
+  "proposal_only_nodes": [
+    "CACHE_OBJECT",
+    "COVER_OBJECT",
+    "DIG",
+    "HIND_STAND",
+    "LIE_DOWN",
+    "PAW_CROSS",
+    "REST",
+    "SHIFT_SUPPORT",
+    "SIT_SIDE",
+    "SIT_STRAIGHT"
+  ],
+  "unused_situations": [
+    "S_THREAT"
+  ],
+  "sources_with_no_record": [
+    "L15",
+    "L21",
+    "L24",
+    "D04",
+    "L45",
+    "L51",
+    "L60",
+    "C011"
+  ],
+  "source_locator_needs_resolution": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E022",
+    "E030",
+    "E031",
+    "E032",
+    "E033",
+    "E034",
+    "E035",
+    "E036",
+    "E037",
+    "E038",
+    "E039",
+    "E040",
+    "E041",
+    "E042",
+    "E043",
+    "E044",
+    "E045"
+  ],
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": [],
+  "sqlite_json_tables_match": [
+    "behavior_nodes",
+    "situations",
+    "sources",
+    "raw_reports",
+    "records",
+    "relations",
+    "findings",
+    "positive_assessments",
+    "negative_assessments",
+    "neutral_assessments"
+  ],
+  "protected_artifact_sha256": {
+    "data/behavior-db/catalog.seed.json": "cd477694f10f22419fff6e6af22d6b094d7e4e61c643acf1b8cebb859b9ff016",
+    "data/behavior-db/catalog.json": "263784dfa7955244f332f38dabe67e01bb983b0f164c1db22fec14f9f3197796",
+    "data/behavior-db/nana-behaviors.sqlite": "8d7cd2b0a301425028309a013dae89cb547d3cd5a36a6dc86ff014874ba1eba4",
+    "data/behavior-db/schema.sql": "b711d6a04a30313fa33fb6bb99b57e955c91620a75f59fbee8cc876bfb9da73e",
+    "outputs/behavior-db-20261017/behavior-catalog.xlsx": "8f1e3e8a8023844c90e8b3bed4ac3163c60bcb770626f14af61817370cc2eb36"
+  },
+  "limits": [
+    "Exact text/title/URL matching does not prove semantic duplication or study independence.",
+    "Canonical relations retain evidence basis and record identity, not only behavior codes.",
+    "No rows or codes are removed or rewritten by this review."
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "as_of": "2026-11-01",
+  "profile_id": "dog-photo-set-20261101-01",
+  "scope": "original_user_dog_images_including_story_screenshots",
+  "breed": null,
+  "captured_at": null,
+  "owner_confirmed": false,
+  "measurements_performed": false,
+  "taxonomy_ref": "tmp/appearance-review-20261017/support/tagging_contract.json",
+  "sources": [
+    {
+      "id": "P01",
+      "filename": "KakaoTalk_20261101_095408836_03.jpg",
+      "view": "standing_full_body"
+    },
+    {
+      "id": "P02",
+      "filename": "KakaoTalk_20261101_095408836_02.jpg",
+      "view": "standing_closer_full_body"
+    },
+    {
+      "id": "P03",
+      "filename": "KakaoTalk_20261101_095408836_01.jpg",
+      "view": "lying_head_and_body"
+    },
+    {
+      "id": "P04",
+      "filename": "KakaoTalk_20261101_095408836.jpg",
+      "view": "resting_face_closeup"
+    },
+    {
+      "id": "P05",
+      "filename": "KakaoTalk_20261101_095408836_04.jpg",
+      "view": "resting_oblique_head_and_body"
+    },
+    {
+      "id": "P06",
+      "filename": "codex-clipboard-6b7d465a-bfe4-4e1e-a1f6-c0783517c521.png",
+      "path": "C:/Users/verib/AppData/Local/Temp/codex-clipboard-6b7d465a-bfe4-4e1e-a1f6-c0783517c521.png",
+      "kind": "user_provided_story_screenshot",
+      "view": "lying_oblique_head_body_tail",
+      "sha256": "09ddd4bd21a3d61bf3b3edfeda1fd1b111ae0a83d43954fb6a3e4eb1646ba1f4",
+      "received_on": "2026-11-01",
+      "captured_at": null,
+      "displayed_date_text": null,
+      "date_interpretation": "interface_text_only_not_verified_capture_date"
+    },
+    {
+      "id": "P07",
+      "filename": "codex-clipboard-7788edb6-3611-484f-a4a5-f488ec83fecc.png",
+      "path": "C:/Users/verib/AppData/Local/Temp/codex-clipboard-7788edb6-3611-484f-a4a5-f488ec83fecc.png",
+      "kind": "user_provided_story_screenshot",
+      "view": "standing_rear_oblique_body_tail_paws",
+      "sha256": "b7283a7dbe9ae0c8c748377f141d5e073ded3faa15406358c48f83a3a61bbe49",
+      "received_on": "2026-11-01",
+      "captured_at": null,
+      "displayed_date_text": "10월 20일",
+      "date_interpretation": "interface_text_only_not_verified_capture_date"
+    },
+    {
+      "id": "P08",
+      "filename": "codex-clipboard-3d302af2-a0fd-48b6-bfc1-69c5639bb16a.png",
+      "path": "C:/Users/verib/AppData/Local/Temp/codex-clipboard-3d302af2-a0fd-48b6-bfc1-69c5639bb16a.png",
+      "kind": "user_provided_story_screenshot",
+      "view": "standing_front_oblique_open_mouth",
+      "sha256": "333fef68e12ef3333835385722b500623fc074bb9e074753a4c996e90f7efabd",
+      "received_on": "2026-11-01",
+      "captured_at": null,
+      "displayed_date_text": "8월 19일",
+      "date_interpretation": "interface_text_only_not_verified_capture_date"
+    }
+  ],
+  "source_directory": "C:/Users/verib/OneDrive/Documents/카카오톡 받은 파일/",
+  "source_photos_copied": false,
+  "attributes": [
+    {
+      "key": "body_length_class",
+      "label": "몸통 길이감",
+      "observation": "서 있는 원본과 추가 후측면 사진에서 몸통은 약간 긴 장방형 후보로 보임.",
+      "value": null,
+      "candidates": [
+        "slightly_rectangular"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P07"
+      ],
+      "limitation": "원본의 slightly_rectangular 후보 유지. 후측면·앞사선 사진은 정확한 체장비 측정 근거가 아님.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#body_length_class",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "leg_length_class",
+      "label": "다리 길이",
+      "observation": "서 있는 추가 사진에서도 극단적인 단각·장각은 두드러지지 않으며 중간 길이 후보를 유지함.",
+      "value": null,
+      "candidates": [
+        "medium"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P07",
+        "P08"
+      ],
+      "limitation": "발과 다리 하단은 더 잘 보이지만 관절·어깨가 털에 가려 실제 비율은 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#leg_length_class",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "build",
+      "label": "골격·체격",
+      "observation": "후측면·정면 사선에서도 보통 체격 후보를 유지함. 사진별 털 부피 차이가 보임.",
+      "value": null,
+      "candidates": [
+        "medium"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P07",
+        "P08"
+      ],
+      "limitation": "털 부피·자세·조명 차이를 골격·체중·체지방 변화로 판단하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#build",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "chest",
+      "label": "흉곽",
+      "observation": "추가 정면 사선에서 흰 앞가슴 영역이 더 보이나 털이 흉곽 경계를 가려 실제 폭·깊이는 미확인.",
+      "value": null,
+      "candidates": [],
+      "status": "unknown_occluded",
+      "evidence": [
+        "P01",
+        "P02",
+        "P08"
+      ],
+      "limitation": "흰 가슴 무늬의 폭과 실제 흉곽 폭을 동일시하지 않음. 기존 미배정 유지.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#chest",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "tuck",
+      "label": "배선",
+      "observation": "추가 후측면에서 배 아래 윤곽 일부가 보이지만 털·다리와 사선 시점 때문에 들어가는 정도는 미확인.",
+      "value": null,
+      "candidates": [],
+      "status": "unknown_occluded",
+      "evidence": [
+        "P01",
+        "P02",
+        "P07"
+      ],
+      "limitation": "복부가 드러나는 완전한 측면이 아니므로 slight/moderate/strong 미배정 유지.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#tuck",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "topline",
+      "label": "등선",
+      "observation": "추가 서 있는 사진도 등 윤곽이 대체로 수평에 가까운 후보와 양립함.",
+      "value": null,
+      "candidates": [
+        "level"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P07"
+      ],
+      "limitation": "후측면 원근과 털 윤곽의 영향. 누운 사진은 등선 분류 근거로 사용하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#topline",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "head",
+      "label": "머리 형태",
+      "observation": "추가 정면 사선에서도 털을 포함한 얼굴 외곽은 둥근형~둥근 타원형이며 사진별 풍성함 차이가 보임.",
+      "value": null,
+      "candidates": [
+        "round",
+        "oval"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "limitation": "털 윤곽은 관찰되나 두개골 형태·미용 시점·촬영 선후는 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#head",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "muzzle",
+      "label": "주둥이 길이",
+      "observation": "흰 수염에 감싸인 코가 앞으로 돌출함. 추가 사진도 옆얼굴이 아니어서 짧음~중간 후보를 유지함.",
+      "value": null,
+      "candidates": [
+        "short",
+        "medium"
+      ],
+      "status": "unknown_due_to_fur_and_viewpoint",
+      "evidence": [
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "limitation": "입이 열린 프레임은 있지만 코뿌리부터 끝의 길이는 해결되지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#muzzle",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "ears",
+      "label": "귀 형태",
+      "observation": "회색 귀가 얼굴 옆으로 내려오는 짧은 드롭형 후보를 유지함. 후면에서 양쪽 귀의 털 윤곽도 보임.",
+      "value": null,
+      "candidates": [
+        "drop_short"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "limitation": "실제 귀끝·부착점은 털에 가려져 있으며 영구적인 좌우 차이 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#ears",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "tail",
+      "label": "꼬리 형태",
+      "observation": "P07에서 몸통보다 긴 어두운 털이 달린 꼬리가 엉덩이 뒤에서 아래로 늘어져 보임. P06에도 뒤쪽의 긴 꼬리털이 보임.",
+      "value": null,
+      "candidates": [],
+      "status": "visible_furnishing_observed_anatomical_type_unknown",
+      "evidence": [
+        "P01",
+        "P02",
+        "P06",
+        "P07"
+      ],
+      "limitation": "털의 외곽은 보완됐으나 뿌리부터 뼈끝까지의 중심선·실제 길이·평소 말림은 미확인. P08 뒤쪽의 어두운 윤곽으로 꼬리 자세를 확정하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#tail",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "coat_length",
+      "label": "털 길이",
+      "observation": "몸통은 상대적으로 짧고 머리·수염·발 주변은 더 풍성함. 추가 사진에서 꼬리털이 몸통 털보다 뚜렷하게 길어 보임.",
+      "value": null,
+      "candidates": [
+        "short",
+        "medium"
+      ],
+      "regional_observations": {
+        "body": "short_candidate",
+        "head_cheeks_muzzle": "medium_candidate",
+        "lower_legs_paws": "longer_than_body",
+        "tail": "visibly_longer_than_body_in_P06_P07"
+      },
+      "status": "current_appearance_observed_classification_provisional",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "limitation": "사진마다 털 부피와 결의 차이가 있지만 촬영 시점·미용 이력은 미확인. 하나의 현재 미용 상태로 합치지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#coat_length",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "coat_texture",
+      "label": "털 질감",
+      "observation": "몸통에는 잔굴곡이 보이고 얼굴·꼬리의 긴 털은 늘어져 흐름. 약한 웨이브 후보 유지.",
+      "value": null,
+      "candidates": [
+        "wavy"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ],
+      "limitation": "조명·해상도·미용 상태가 달라 선천적 피모 유형과 미용 전 결은 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#coat_texture",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "patterns",
+      "label": "무늬",
+      "observation": "회색~짙은 회색 몸통·귀와 흰 이마 중앙·콧등·주둥이·목·가슴·발 배치가 추가 사진에서도 보임. P07은 목 뒤 흰 털과 다리 하단의 흰색을 보완함.",
+      "value": [
+        "white_patches"
+      ],
+      "candidates": [],
+      "status": "visible_distribution_observed",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "limitation": "뒷목 흰 영역을 목 전체의 완전한 흰 고리로 확장하지 않음. 어두운 사진을 실제 검은 털로 확정하지 않으며 좌우 무늬 경계는 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#patterns",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    },
+    {
+      "key": "overlays",
+      "label": "장식털·부가 외형",
+      "observation": "풍성한 흰 주둥이 수염·볼 털과, P06·P07의 몸통보다 긴 꼬리 장식털이 보임.",
+      "value": null,
+      "candidates": [
+        "beard_brows",
+        "tail_feathering"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "limitation": "beard_brows는 수염 표현 후보로 사용. 별도 눈썹까지 확정하지 않으며 tail_feathering은 긴 털 표현 후보로 꼬리뼈 형태와 별개.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation",
+      "revised_from": "assessment.initial.json#overlays",
+      "change_reason": "2026-11-01 추가 스크린샷 P06~P08 대조. 분류 확정과 보호자 승인은 별도."
+    }
+  ],
+  "body_family": null,
+  "owner_priority_features": [],
+  "behavior_inferred": false,
+  "revision": 2,
+  "previous_revision_ref": "assessment.initial.json",
+  "appearance_timepoint": null,
+  "source_resolution_rule": "use source.path when provided; otherwise source_directory + filename",
+  "context_notes": [
+    {
+      "evidence": [
+        "P06"
+      ],
+      "kind": "visible_pose",
+      "text": "몸을 낮추고 앞발 부근에 주둥이를 둔 한 프레임. 핥는 연속 동작은 확인되지 않음."
+    },
+    {
+      "evidence": [
+        "P06"
+      ],
+      "kind": "embedded_caption_unverified",
+      "text": "그루밍을 언급하는 화면 문구가 있으나 작성자·사실 여부·행동 빈도는 확인하지 않음."
+    },
+    {
+      "evidence": [
+        "P07"
+      ],
+      "kind": "visible_pose",
+      "text": "창 쪽을 향해 서 있는 한 프레임. 기다림·외부 소리 반응·경계 상태는 확정하지 않음."
+    },
+    {
+      "evidence": [
+        "P08"
+      ],
+      "kind": "visible_pose",
+      "text": "앞사선에서 입이 벌어진 한 프레임. 헥헥거림·발성·놀이 동작이나 감정을 확정하지 않음."
+    },
+    {
+      "evidence": [
+        "P08"
+      ],
+      "kind": "embedded_caption_unverified",
+      "text": "새벽 놀이를 언급하는 화면 문구는 직접 관찰 또는 확정된 개체 습관과 구분함."
+    }
+  ]
+}

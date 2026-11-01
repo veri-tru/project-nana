@@ -1,0 +1,125 @@
+강아지의 표정: 문헌 검색 및 근거 정리
+검색일: 2026-11-01
+
+핵심 결론
+
+개는 눈썹·눈꺼풀·귀·입·혀의 움직임으로 감정 및 사회적 상호작용과 관련된 정보를 드러낸다. 그러나 특정 움직임 하나를 특정 감정과 일대일로 연결하는 표정 사전은 연구 근거를 과장한다. 얼굴 움직임의 조합, 몸의 자세, 상대, 행동의 전후 흐름을 함께 관찰하는 것이 타당하다.[1–4, 8–10]
+
+검색 범위와 방법
+
+Exa를 통해 ① 얼굴 움직임과 정서, ② 사회적 의사소통과 해부학·진화, ③ 사람의 표정 해석이라는 세 주제를 검색했다. 총 7회 검색으로 결과 44건을 수집했다. 이 수는 중복 URL·동일 논문·비논문 결과를 포함하므로 독립 논문 44편을 뜻하지 않는다. 학술지·PubMed·PMC의 원논문 자료를 우선해 아래 13편을 정리에 사용했다. 핵심 자료는 본문 일부와 초록을 확인했으며, 모든 논문의 전문을 끝까지 검토한 것은 아니다. 특히 [8], [9], [11]의 방법·결과는 공개 초록에 근거했다.
+
+검색어에는 DogFACS, dog facial expressions, positive anticipation, frustration, human attention, guilty look, relaxed open mouth, context bias, facial muscle anatomy를 사용했다. 검색에서 확인한 주요 연구는 2009–2025년 자료다. 특정 데이터베이스의 전체 문헌을 재현 가능한 방식으로 망라하거나 비뚤림 위험을 정식 평가한 체계적 문헌고찰은 아니다. 여기서 ‘강아지’는 어린 개만을 뜻하지 않으며 성견을 포함한 집개 연구를 다룬다.
+
+1. 연구에서는 표정을 어떻게 측정하는가?
+
+DogFACS(Dog Facial Action Coding System)는 해부학을 바탕으로 눈썹 올리기, 눈 깜박임, 입 벌리기, 귀 움직임 등 관찰 가능한 얼굴 움직임을 구분해 기록한다. 예를 들어 AU101은 눈썹 안쪽 올리기, AU145는 눈 깜박임, AD137은 코 핥기다. 처음부터 ‘슬픔’이나 ‘기쁨’이라고 판정하는 도구는 아니다. 연구자는 이런 움직임이 어떤 실험 조건에서 늘거나 줄어드는지 비교해 정서와의 관련성을 검토한다.[1–3]
+
+이 구분이 중요한 이유는 개의 주관적 경험을 직접 보고받을 수 없기 때문이다. ‘좌절 조건에서 더 자주 나타났다’는 결과는 ‘그 행동을 보면 반드시 좌절한 것이다’와 다르다.[2]
+
+2. 기대감과 좌절: 반복 관찰된 차이는 있지만, 단독 판정은 어렵다
+
+Bremhorst 등(2019)은 먹이를 받을 것으로 기대하는 조건과 먹이에 접근하지 못하는 조건을 비교했다. 긍정적 기대 조건에서는 양쪽 귀의 기저부가 머리 중앙 쪽으로 모이는 움직임(Ears adductor)이 더 흔했다. 좌절을 유발하도록 설계한 조건에서는 눈 깜박임, 입술 벌림, 턱 내림, 코 핥기, 귀를 뒤로 눕히는 움직임(Ears flattener)이 더 흔했다.[1]
+
+후속 연구(2021)는 새로운 개 28마리에게 먹이와 장난감 보상을 사용해 주요 차이를 재현했다. 그러나 각 움직임을 개별 감정 판별 지표로 평가하면 민감도와 특이도에 한계가 있었다. 연구에서 검토한 어느 단일 지표도 해당 감정을 일관되게 정확히 분류하지 못했다.[2]
+
+따라서 코를 핥거나 귀를 눕힌다는 이유만으로 ‘불안’, ‘좌절’, ‘복종’ 중 하나를 확정하면 안 된다. 실제로 Caeiro 등(2017)의 자연스러운 상황 영상 분석에서는 코 핥기가 긍정적 기대 상황에서도 증가했다. 비교 기준과 상황에 따라 같은 움직임의 해석이 달라질 수 있다.[1, 2, 13]
+
+3. 표정에는 사회적 의사소통 기능도 있다
+
+Kaminski 등(2017)은 사람이 개를 바라보는 조건과 등을 돌리는 조건을 비교했다. 사람이 주의를 기울일 때 얼굴 움직임이 증가했으며, 눈썹 안쪽 올리기와 혀 보이기에서 개별 효과가 확인됐다. 이 실험에서는 먹이의 존재만으로 같은 효과가 나타나지 않았다.[3]
+
+이는 표정이 상대의 주의 상태에 따라 달라질 수 있다는 근거다. 다만 개가 사람의 마음을 추론하거나 의식적으로 불쌍한 척한다는 것까지 입증하지는 않는다.[3]
+
+Pedretti 등(2024)은 개 46마리에게 보상을 주지 않는 상황에서 사람·다른 개·보이지 않는 상대 조건을 비교했다. 다른 개가 있을 때 귀 움직임, 코·입술 핥기, 헐떡임 등 여러 행동이 달라졌다. 표정을 해석할 때는 보상을 받는지뿐 아니라 누가 곁에 있는지도 고려해야 한다. 조건별 차이를 곧바로 스트레스 차이라고 단정할 수는 없으며, 이 연구의 검사 후 코르티솔은 조건에 따른 차이가 없었다.[4]
+
+4. ‘웃는 얼굴’과 ‘미안한 얼굴’은 어디까지 해석할 수 있는가?
+
+웃는 것처럼 보이는 얼굴
+
+Palagi 등(2015)은 개끼리 노는 동안 편안하게 입을 벌리는 표정(relaxed open-mouth, ROM)과 앞다리를 낮추는 놀이 자세(play bow)를 관찰했다. 상대의 신호를 본 뒤 1초 이내에 비슷한 신호를 보이는 빠른 모방이 나타났으며, 이런 모방이 포함된 놀이 회차는 더 오래 지속됐다.[5]
+
+놀이 맥락에서 편안한 입 벌림은 놀이 참여와 관련된 신호로 볼 수 있다. 그러나 이 결과를 모든 입 벌림이나 치아 노출에 적용할 수는 없다. 입술 벌림과 턱 내림은 좌절 조건에서도 증가했으므로, 사진 한 장에서 ‘입이 벌어졌다’는 사실만으로 행복을 판정하기 어렵다.[1, 2, 5]
+
+미안한 것처럼 보이는 얼굴
+
+Horowitz(2009)는 개 14마리에게 금지된 간식, 실제 섭취 여부, 보호자에게 제공한 정보와 반응을 조작했다. 보호자가 ‘죄책감의 표현’으로 여기는 행동은 실제 금지 행동 여부보다 보호자가 꾸짖는 조건에서 더 많이 나타났다.[6]
+
+이 결과는 해당 ‘미안한 모습’을 잘못에 대한 도덕적 자각의 증거로 보기 어렵다는 뜻이다. 개에게 죄책감이라는 경험이 전혀 없다고 증명한 연구는 아니다. 또한 연구 대상은 좁은 의미의 얼굴 근육 움직임만이 아니라 보호자가 죄책감으로 해석하는 행동 묶음이었다.[6]
+
+5. 애처로운 눈썹의 진화 설명은 수정 중이다
+
+Kaminski 등(2019)은 개와 늑대의 해부학·행동을 비교하고, 눈썹 안쪽을 올리는 근육 및 움직임의 차이를 보고했다. 사람이 이런 표정을 선호한 것이 가축화 과정에서 선택압으로 작용했을 수 있다는 가설을 제시했다. 인간의 선호에 의한 진화는 관찰된 차이에 대한 해석이며 실험적으로 확정된 역사적 사실은 아니다.[7]
+
+Cunningham 등(2024)은 코요테에서도 해당 근육(LAOM)이 발달해 있음을 확인했다. 연구진은 이 특성이 개의 가축화로 새롭게 생겼다기보다, 개과 동물의 더 오래된 특성이고 회색늑대에서 축소·변형됐을 가능성을 제안했다.[10]
+
+따라서 ‘개만 사람에게 잘 보이려고 눈썹 근육을 진화시켰다’는 단정은 피해야 한다. 사람의 주의에 따른 표정 변화라는 행동 근거와, 그 근육이 언제 어떤 선택압으로 생겼는지에 관한 진화 가설은 별개의 질문이다.[3, 7, 10]
+
+6. 사람은 강아지의 표정을 얼마나 잘 읽는가?
+
+Guo 등(2024)은 참가자 447명에게 얼굴만 보이는 영상과 얼굴·몸이 함께 보이는 영상을 제시했다. 전체 감정 범주를 평균하면 몸도 보일 때 분류 정확도가 더 높은 경향이 있었지만, 효과는 감정 범주별로 달랐다. 얼굴에 나타난 두려움을 행복으로 오인하는 경우도 보고됐다. ‘얼굴이 중요하다’와 ‘얼굴만으로 충분하다’는 구분해야 한다.[8]
+
+Molinaro와 Wynne(2025)은 두 실험에서 각각 대학생 383명과 485명이 개의 정서가 얼마나 긍정적인지와 각성 수준을 평가하게 했다. 개가 등장한 상황의 배경을 제거하거나 다른 상황과 합성하면 평가가 달라졌다. 사람은 개 자체의 행동뿐 아니라 ‘이 상황이라면 즐거울 것’이라는 기대에도 영향을 받았다. 다만 촬영된 개가 한 마리였으므로 모든 개와 상황에 일반화하기는 어렵다.[9]
+
+반대로 얼굴의 정보가 전혀 쓸모없는 것은 아니다. Wilson 등(2025)은 행동 전문가 22명에게 두려움 영상 5개와 좌절 영상 5개 속 얼굴 움직임을 평가하게 했다. 평가자들은 전반적으로 두 범주를 구분했지만, 좌절 영상에 대한 구체적인 묘사 합의는 두려움보다 약했다. 작은 영상 표본과 전문가 집단의 결과를 일반 보호자의 판독 정확도로 해석할 수는 없다.[11]
+
+7. AI의 사진 판독도 검증 범위를 확인해야 한다
+
+Martvel 등(2025)은 여러 대형 비전언어모델의 개 감정 분류를 평가했다. 인터넷 이미지에서는 어느 정도 분류했지만, 배경을 최소화한 통제 실험의 래브라도 얼굴 자료에서는 성능이 우연 수준에 가까워졌다. 배경이나 품종 외형 같은 단서에 의존할 가능성이 드러났다.[12]
+
+이는 그 연구에서 평가한 모델·입력·설정에 대한 결과다. 모든 AI가 감정을 전혀 분류할 수 없다는 뜻은 아니며, 반대로 앱이 감정 이름을 출력한다는 사실만으로 실제 감정 판별이 검증됐다고 볼 수도 없다.[12]
+
+문헌을 바탕으로 제안하는 관찰 원칙
+
+다음은 별도로 검증된 진단 도구가 아니라 위 연구들을 종합한 관찰 방법이다.
+
+• 감정 이름보다 움직임을 먼저 적는다. 예: ‘미안해한다’보다 ‘귀를 뒤로 눕히고 코를 핥으며 몸을 낮춘다’.
+• 눈·귀·입을 따로 관찰한 뒤 몸의 자세와 접근·회피 행동을 함께 본다.
+• 한 장면보다 변화의 순서를 확인한다. 상대가 다가오기 전후, 보상이 제시되거나 철회된 전후를 비교한다.
+• 상황은 해석에 필요한 정보이지만 정답은 아니다. ‘산책줄이 있으니 행복하다’고 먼저 결론 내리지 않는다.
+• ‘관련될 수 있다’와 ‘확정할 수 있다’를 구분한다. 특히 죄책감, 슬픔, 행복을 단일 표정에 고정하지 않는다.
+
+연구 전반의 한계
+
+표본이 작거나 특정 품종에 집중된 실험이 있고, 자연스러운 영상에서는 상황 통제가 어렵다. 감정의 기준값도 대개 실험 상황이나 전문가 판단에서 추정하므로 동물의 주관적 경험 자체를 확인한 것은 아니다. 형태가 다른 여러 품종·연령·일상 상황에서 얼마나 일반화되는지, 얼굴·몸·소리·생리 반응을 결합하면 판별이 얼마나 개선되는지 추가 검증이 필요하다.[1, 2, 8, 11, 12]
+
+참고문헌
+
+[1] Bremhorst, A., et al. (2019). Differences in facial expressions during positive anticipation and frustration in dogs awaiting a reward. Scientific Reports.
+https://www.nature.com/articles/s41598-019-55714-6
+
+[2] Bremhorst, A., Mills, D. S., Würbel, H., & Riemer, S. (2021). Evaluating the accuracy of facial expressions as emotion indicators across contexts in dogs. Animal Cognition.
+https://link.springer.com/article/10.1007/s10071-021-01532-1
+
+[3] Kaminski, J., Hynds, J., Morris, P., & Waller, B. M. (2017). Human attention affects facial expressions in domestic dogs. Scientific Reports.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5648750/
+
+[4] Pedretti, G., et al. (2024). Intra and interspecific audience effect on domestic dogs’ behavioural displays and facial expressions. Scientific Reports.
+https://www.nature.com/articles/s41598-024-58757-6
+
+[5] Palagi, E., Nicotra, V., & Cordoni, G. (2015). Rapid mimicry and emotional contagion in domestic dogs. Royal Society Open Science.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4807458/
+
+[6] Horowitz, A. (2009). Disambiguating the “guilty look”: Salient prompts to a familiar dog behaviour. Behavioural Processes.
+https://pubmed.ncbi.nlm.nih.gov/19520245/
+
+[7] Kaminski, J., Waller, B. M., Diogo, R., Hartstone-Rose, A., & Burrows, A. M. (2019). Evolution of facial muscle anatomy in dogs. Proceedings of the National Academy of Sciences.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6642381/
+
+[8] Guo, K., Correia-Caeiro, C., & Mills, D. S. (2024). Category-dependent contribution of dog facial and bodily cues in human perception of dog emotions. Applied Animal Behaviour Science.
+https://doi.org/10.1016/j.applanim.2024.106427
+
+[9] Molinaro, H. G., & Wynne, C. D. L. (2025). Barking Up the Wrong Tree: Human Perception of Dog Emotions Is Influenced by Extraneous Factors. Anthrozoös.
+https://doi.org/10.1080/08927936.2025.2469400
+
+[10] Cunningham, P., Shankar, M., vonHoldt, B., Brzeski, K. E., & Kienle, S. S. (2024). Coyotes can do ‘puppy dog eyes’ too: comparing interspecific variation in Canis facial expression muscles. Royal Society Open Science.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11444785/
+
+[11] Wilson, B. M., Correia-Caeiro, C., & Mills, D. S. (2025). An adapted Qualitative Behavioural Assessment of dogs’ facial expressions of fear and frustration. Applied Animal Behaviour Science.
+https://doi.org/10.1016/j.applanim.2025.106828
+
+[12] Martvel, G., Zamansky, A., Shimshoni, I., & Bremhorst, A. (2025). Investigating the capabilities of large vision language models in dog emotion recognition. Scientific Reports.
+https://www.nature.com/articles/s41598-025-25199-7
+
+[13] Caeiro, C., Guo, K., & Mills, D. (2017). Dogs and humans respond to emotionally competent stimuli by producing different facial actions. Scientific Reports.
+https://www.nature.com/articles/s41598-017-15091-4

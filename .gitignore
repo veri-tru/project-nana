@@ -1,0 +1,29 @@
+# Local attachments, transfers, and temporary work
+/.codex-attachments/
+/.codex-remote-attachments/
+/cloud-transfer/
+**/tmp/
+*.zip
+
+# Credentials and private source material
+.env
+.env.*
+!.env.example
+local.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+secrets/
+private-data/
+uploads/
+recordings/
+
+# Dependencies, caches, and local editor files
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+Thumbs.db

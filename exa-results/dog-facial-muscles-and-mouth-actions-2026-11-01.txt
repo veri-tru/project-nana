@@ -1,0 +1,128 @@
+개의 안면근육·입술·턱·혀 동작 정리
+작성 및 추가 문헌 확인: 2026-11-01
+
+범위와 용어
+
+감정 이름 대신 해부학적 구조와 관찰 가능한 움직임을 연결했다. DogFACS의 AU(Action Unit)는 해부학을 바탕으로 구분한 움직임이고, AD(Action Descriptor)는 혀 보이기·핥기처럼 관찰되는 동작의 기술이다. AU 역시 근전도 측정값이 아니며 모든 AU가 단일 근육에 일대일로 대응하지 않는다.[1, 2]
+
+앞쪽(rostral)은 코끝 방향, 뒤쪽(caudal)은 귀 방향, 위쪽(dorsal)은 머리 윗면 방향, 아래쪽(ventral)은 아래턱 방향을 가리킨다. 방향은 개의 머리를 기준으로 한다. 근육명은 번역 혼동을 줄이기 위해 원어를 함께 적었다. 아래 내용은 주요 표정 관련 구조를 다루며 전체 두부근육 목록은 아니다.
+
+1. 눈·코·입술: 근육과 관찰 동작
+
+• AU101, 눈썹 안쪽 올리기
+  관련 근육: levator anguli oculi medialis(LAOM; 내측 눈구석 올림근).
+  움직임: 눈 위 안쪽의 피부 융기가 위로, 머리 정중선 쪽으로 비스듬하게 이동한다.
+  구별: 안구 자체를 위로 돌리는 동작과 다르다. 사람의 AU1처럼 전두근(frontalis)만으로 설명하지 않는다. 2017년 논문 표에는 전두근이라고 기재돼 있지만, 2013년 원 개발 논문과 2019년 해부학 연구는 LAOM을 제시한다. 본 정리는 해당 해부학 자료를 따른다.[2, 3, 4, 5]
+
+• AU145, 눈 깜박임 / AU143, 눈 감기
+  관련 근육: orbicularis oculi(안륜근)가 눈꺼풀을 닫는 데 작용한다.
+  움직임: 위·아래 눈꺼풀이 접근해 접촉하며 눈을 덮는다. [3]의 코딩 정의에서 완전히 덮인 시간이 0.5초 미만이면 AU145, 0.5초 이상이면 AU143이다.
+  구별: 눈이 완전히 닫히지 않은 단순한 실눈을 이 두 코드와 동일시하지 않는다.[2, 3]
+
+• 눈 바깥쪽 모서리 당기기
+  관련 근육: retractor anguli oculi lateralis(RAOL; 외측 눈구석 후인근).
+  움직임: 눈꺼풀의 바깥쪽 모서리를 뒤·가쪽, 즉 귀 쪽으로 당긴다.
+  구별: 눈썹 안쪽을 올리는 LAOM과 다른 근육이다. 이 정리에서는 별도의 DogFACS 코드를 임의로 부여하지 않는다.[4]
+
+• AU109+110, 코 주름과 윗입술 올리기 / AU110, 윗입술 올리기
+  관련 근육군: levator nasolabialis(비순거근), caninus(견치근), levator labii maxillaris(상순거근; 인용 논문의 명칭).
+  움직임: AU109+110에서는 코와 윗입술이 위로 이동하며 주둥이 윗면에 주름이 생긴다. AU110은 윗입술이 올라가는 동작이다.
+  구별: 원 개발 논문은 코 주름을 독립적으로 코딩하기 어렵다고 설명한다. 위 근육군 중 하나를 영상만 보고 확정하거나, 모든 경우에 세 근육이 같은 정도로 수축한다고 단정하지 않는다.[2, 3]
+
+• AU12, 입꼬리 뒤로 당기기
+  관련 근육: zygomaticus(관골근).
+  움직임: 입꼬리가 귀 방향으로 이동한다.
+  구별: 사람의 ‘입꼬리를 위로 올린 미소’와 동일한 방향으로 설명하지 않는다.[2, 3, 5]
+
+• AU116, 아랫입술 내리기
+  관련 근육: platysma(광경근).
+  움직임: 아랫입술이 아래쪽으로 이동한다.
+  구별: 아래턱뼈 전체가 내려가는 AU26/AU27과 별개다. 사람의 depressor labii inferioris를 그대로 대응시키지 않는다.[2, 3]
+
+• AU118, 입술 오므리기
+  관련 근육: orbicularis oris(구륜근) 중심. 2017년 설명에는 buccinator(협근)도 함께 기술돼 있다.
+  움직임: 입꼬리가 코끝 쪽으로 이동한다.
+  구별: 입꼬리가 뒤로 이동하는 AU12와 방향이 반대다. 사람의 키스 모양을 그대로 가정하지 않는다.[2, 3, 5]
+
+• AU25, 입술 벌어짐
+  관련 구조: 입술 주변 여러 근육의 작용 또는 이완에 따른 상태로, 단일 수축근을 확정하는 코드가 아니다.
+  움직임: 위·아래 입술 사이가 분리된다.
+  구별: 입술 사이가 벌어져도 위·아래 치아가 반드시 벌어지는 것은 아니다.[2, 3]
+
+2. 턱의 움직임
+
+AU26(Jaw drop): 아래턱이 긴장 징후 없이 편안하게 내려가고 위·아래 치아 사이가 벌어진다.
+AU27(Mouth stretch): 아래턱을 능동적으로 크게 벌려 아래 치아·혀·입안이 드러나는 움직임이다. 입꼬리를 좌우로 늘린다는 뜻이 아니다.[3]
+
+턱을 능동적으로 여는 데는 digastricus(악이복근)가 관여한다. 닫는 데는 temporalis(측두근), masseter(교근), pterygoid muscles(익돌근군)가 관여한다. 따라서 ‘턱이 내려갔다’는 관찰을 ‘교근이 수축했다’로 번역하면 안 된다. AU26과 AU27은 관찰되는 운동 형태의 구분이지, 영상만으로 근육 활성도를 직접 측정한 결과가 아니다.[2, 6, 8]
+
+3. 혀: 근육의 기능과 겉으로 보이는 동작을 분리
+
+외재설근의 주요 기능
+
+• genioglossus(이설근): 혀를 앞으로 내미는 데 작용한다. 섬유 부위에 따라 혀끝을 뒤로 당기는 기능도 있어 ‘이 근육은 무조건 전진만 시킨다’고 단순화하지 않는다.
+• styloglossus(경돌설근): 혀를 뒤로 당기고 위로 올린다.
+• hyoglossus(설골설근): 혀를 뒤로 당기고 아래로 내린다.[6]
+
+내재설근
+
+superior longitudinal, inferior longitudinal, transverse, vertical muscle(상·하종설근, 횡설근, 수직설근)이 혀 내부에 배열된다. 개의 해부 연구에서는 이 근육들이 다수의 신경근 구획으로 이루어져 국소적인 3차원 형태 조절에 협력할 수 있음을 제시했다. 그러므로 혀끝 굽힘이나 코 핥기를 외재설근 한 개에 일대일로 배정하지 않는다.[7]
+
+관찰 동작
+
+• AD19, Tongue show: 혀가 적어도 아랫입술 안쪽까지 전진해 보인다. 길게 입 밖으로 늘어져야만 해당하는 것은 아니다.
+• AD37, Lip wipe: 혀가 윗입술 바깥면에 닿아 입 중앙에서 한쪽 입꼬리 방향으로 쓸고 지나간다.
+• AD137, Nose lick: 혀가 입에서 나와 코 쪽으로 이동해 코 표면을 닦는다.
+• AD126, Panting: 입 벌림(AU26)과 혀 보임(AD19)에 짧고 빠른 호흡이 동반된다. 혀가 보이는 정지 사진만으로 헐떡임을 확정할 수 없다.[3]
+
+혀를 잠깐 내밀었다 넣었지만 접촉 부위가 보이지 않았다면, 우선 ‘짧은 혀 노출’로 기록한다. 코에 닿았다는 근거 없이 코 핥기로 부르거나, 윗입술을 쓸었다는 근거 없이 Lip wipe로 부르지 않는다. 이는 위 동작 정의를 적용한 관찰 원칙이며 새로운 공식 코드는 아니다.
+
+기타 입 동작
+
+• AD33, Blow: 입에서 나오는 공기로 입술이 부푼다.
+• AD35, Suck: 윗입술이 입안으로 빨려 들어간다.
+두 동작 모두 혀가 외부 표면을 핥는 동작과 다르다. 여기서는 [3]에 기재된 코드 번호와 정의를 따른다.[3]
+
+4. 귀는 방향을 별도로 기록
+
+EAD101: 귀가 앞쪽으로 이동한다.
+EAD102: 귀가 위·안쪽으로 이동하며 양쪽 귀 기저부가 가까워진다.
+EAD103: 귀가 뒤쪽으로 이동한다.
+EAD104: 귀가 가쪽·바깥쪽으로 회전한다.
+EAD105: 귀가 아래쪽으로 이동한다.[3]
+
+귀의 방향 변화는 여러 이개근이 관여하므로 이 표에서는 단일 근육을 임의로 지정하지 않았다. 귀 끝의 처진 모양만 보지 말고 개체의 중립 상태와 귀 기저부의 변화를 비교하는 것이 필요하다.
+
+5. 관찰 기록 예시
+
+예시 A: ‘입꼬리가 뒤로 이동(AU12)하고, 턱은 편안하게 내려가며(AU26), 혀가 보인다(AD19).’
+예시 B: ‘윗입술이 올라가고(AU110), 주둥이 윗면의 주름이 함께 나타나면 AU109+110을 검토한다. 치아 노출만으로 턱 벌림은 판정하지 않는다.’
+예시 C: ‘혀가 윗입술 표면을 중앙에서 입꼬리로 쓸었다(AD37). 코 접촉은 관찰되지 않았다.’
+
+위 기록은 동작의 기술이다. 여기에 ‘기쁨’, ‘화남’, ‘미안함’을 자동으로 붙이지 않는다. 또한 겉모습을 통한 근육 대응은 해부학적 설명이며 특정 장면의 근수축을 직접 검증한 결과가 아니다.[1, 2]
+
+출처
+
+[1] AnimalFACS. DogFACS 공식 설명 및 매뉴얼 안내.
+https://animalfacs.github.io/AnimalFACS/DogFACS.html
+
+[2] Waller et al. (2013). Paedomorphic Facial Expressions Give Dogs a Selective Advantage. Table 1: 개와 사람의 AU 및 관련 근육 비교.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3873274/table/pone-0082686-t001/
+
+[3] Bremhorst et al. (2019). Differences in facial expressions during positive anticipation and frustration in dogs awaiting a reward. Table 4: DogFACS 동작 정의.
+https://www.nature.com/articles/s41598-019-55714-6/tables/4
+
+[4] Kaminski et al. (2019). Evolution of facial muscle anatomy in dogs.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6642381/
+
+[5] Kaminski et al. (2017). Human attention affects facial expressions in domestic dogs. Table 3.
+https://www.nature.com/articles/s41598-017-12781-x/tables/3
+
+[6] University of Minnesota. Dissection Lab Guide for Dog and Cat Anatomy: Oral Cavity, Tongue, Pharynx, Larynx, and Associated Muscles. 특히 항목 14–18.
+https://pressbooks.umn.edu/dogcatanatomylabguide/chapter/oral-cavity/
+
+[7] Mu, L., & Sanders, I. (1999). Neuromuscular organization of the canine tongue. The Anatomical Record, 256, 412–424.
+https://pubmed.ncbi.nlm.nih.gov/10589027/
+
+[8] Johnston, N. (2001). Oral Anatomy and Charting. WSAVA World Congress Proceedings.
+https://www.vin.com/apputil/content/defaultadv1.aspx?id=3843698&pId=8708&print=1

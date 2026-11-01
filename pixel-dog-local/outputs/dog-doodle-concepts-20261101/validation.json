@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in image_gen",
+  "visual_gate": "selected after reducing initial over-rendering",
+  "variants": [
+    {
+      "id": "A",
+      "label": "길쭉형",
+      "file": "A-tall.png",
+      "width": 1024,
+      "height": 1536,
+      "pixel_grid": false,
+      "background": "white",
+      "review": {
+        "sparse_line": true,
+        "exaggerated_proportions": true,
+        "limited_gray_fill": true,
+        "owner_likeness": "pending"
+      }
+    },
+    {
+      "id": "B",
+      "label": "통통형",
+      "file": "B-pudgy.png",
+      "width": 1305,
+      "height": 1206,
+      "pixel_grid": false,
+      "background": "white",
+      "review": {
+        "sparse_line": true,
+        "exaggerated_proportions": true,
+        "limited_gray_fill": true,
+        "owner_likeness": "pending"
+      }
+    },
+    {
+      "id": "C",
+      "label": "비대칭형",
+      "file": "C-wonky.png",
+      "width": 1536,
+      "height": 1024,
+      "pixel_grid": false,
+      "background": "white",
+      "review": {
+        "sparse_line": true,
+        "exaggerated_proportions": true,
+        "limited_gray_fill": true,
+        "owner_likeness": "pending"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "selected_on": "2026-11-01",
+  "selected_by": "user",
+  "user_instruction": "약한 안으로 가보자",
+  "variant": "A",
+  "file": "A-weak.png",
+  "sha256": "ad4de8fd39b03f16f0e4a6ed03be23aadca56127addc1be8d63cf5c64740b0f4",
+  "scope": "P1 outline strength reference for subsequent artwork",
+  "retain": ["current gray-white fur coloring and fill", "updated small round dot eyes", "nose without central holes", "irregular non-mirrored pigment gaps"],
+  "other_motion_images_updated": false,
+  "whole_character_likeness_approval": "pending",
+  "animation_approval": "pending"
+}

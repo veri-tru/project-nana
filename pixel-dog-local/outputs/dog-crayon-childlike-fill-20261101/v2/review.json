@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-11-01",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "file": "P1-walk-v2.png",
+  "sha256": "5b1da982ee816d65b87de99f79dc8b9383a59672da63c43bedcceefab074317f",
+  "ground_y_px": 1104,
+  "vertical_translation_px": -1,
+  "method": "image_gen full style edit with translation-only baseline alignment",
+  "fill_density_measured": false,
+  "scope": "one walking pose",
+  "owner_review": "pending",
+  "other_assets_modified": false
+}

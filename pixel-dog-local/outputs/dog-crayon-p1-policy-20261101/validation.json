@@ -1,0 +1,203 @@
+{
+  "as_of": "2026-11-01",
+  "validation": [
+    {
+      "action": "01-walk",
+      "p1": {
+        "file": "P1-01-walk.png",
+        "raw_generated": "P1-01-walk-generated.png",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "vertical_translation_px": 21,
+        "ground_y_px": 1104,
+        "ground_detection": "last row with >=4 dark foreground pixels; visual contact proxy, not skeletal measurement",
+        "source_bounds": {
+          "minX": 38,
+          "maxX": 1232,
+          "minY": 202,
+          "maxY": 1083,
+          "width": 1254,
+          "height": 1254
+        },
+        "aligned_bounds": {
+          "minX": 38,
+          "maxX": 1232,
+          "minY": 223,
+          "maxY": 1104,
+          "width": 1254,
+          "height": 1254
+        },
+        "translated_artwork_mismatches": 0,
+        "sha256": "549635192567916ce0c2979ef6b95af38c6064d6cf6ff826330c24e72a433137"
+      },
+      "p2": {
+        "file": "P2-01-walk.png",
+        "unchanged_from_previous": true,
+        "sha256": "8dc939464bf491cfc8b9c40578a7dd0cfa387f4033dbebc1a9df83dd188fd050"
+      }
+    },
+    {
+      "action": "02-lie",
+      "p1": {
+        "file": "P1-02-lie.png",
+        "raw_generated": "P1-02-lie-generated.png",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "vertical_translation_px": 65,
+        "ground_y_px": 1104,
+        "ground_detection": "last row with >=4 dark foreground pixels; visual contact proxy, not skeletal measurement",
+        "source_bounds": {
+          "minX": 44,
+          "maxX": 1240,
+          "minY": 252,
+          "maxY": 1039,
+          "width": 1254,
+          "height": 1254
+        },
+        "aligned_bounds": {
+          "minX": 44,
+          "maxX": 1240,
+          "minY": 317,
+          "maxY": 1104,
+          "width": 1254,
+          "height": 1254
+        },
+        "translated_artwork_mismatches": 0,
+        "sha256": "5751c138c091f602f3cecc69ce99508d5f333841353322dae4696344796946af"
+      },
+      "p2": {
+        "file": "P2-02-lie.png",
+        "unchanged_from_previous": true,
+        "sha256": "3ad6d2df89122a91b30f15896008c0c11542d985504523d1709de52f7741cb23"
+      }
+    },
+    {
+      "action": "03-paw-hover",
+      "p1": {
+        "file": "P1-03-paw-hover.png",
+        "raw_generated": "P1-03-paw-hover-generated.png",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "vertical_translation_px": -36,
+        "ground_y_px": 1104,
+        "ground_detection": "last row with >=4 dark foreground pixels; visual contact proxy, not skeletal measurement",
+        "source_bounds": {
+          "minX": 195,
+          "maxX": 1193,
+          "minY": 154,
+          "maxY": 1140,
+          "width": 1254,
+          "height": 1254
+        },
+        "aligned_bounds": {
+          "minX": 195,
+          "maxX": 1193,
+          "minY": 118,
+          "maxY": 1104,
+          "width": 1254,
+          "height": 1254
+        },
+        "translated_artwork_mismatches": 0,
+        "sha256": "564083ec0371fe63767045d057e23a1c3ca608a9676253ff373f49af791ea45d"
+      },
+      "p2": {
+        "file": "P2-03-paw-hover.png",
+        "unchanged_from_previous": true,
+        "sha256": "c62798f2be36e93f45c30cd5854e2e9d4008aa3673751c0222bfa8dcd115a8c8"
+      }
+    },
+    {
+      "action": "04-stretch",
+      "p1": {
+        "file": "P1-04-stretch.png",
+        "raw_generated": "P1-04-stretch-generated.png",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "vertical_translation_px": 13,
+        "ground_y_px": 1104,
+        "ground_detection": "last row with >=4 dark foreground pixels; visual contact proxy, not skeletal measurement",
+        "source_bounds": {
+          "minX": 56,
+          "maxX": 1237,
+          "minY": 280,
+          "maxY": 1091,
+          "width": 1254,
+          "height": 1254
+        },
+        "aligned_bounds": {
+          "minX": 56,
+          "maxX": 1237,
+          "minY": 293,
+          "maxY": 1104,
+          "width": 1254,
+          "height": 1254
+        },
+        "translated_artwork_mismatches": 0,
+        "sha256": "966d80a0fd8e9b4fedc2ab9ed3632139297876d56ca1eaee95440dda9e5a4ad1"
+      },
+      "p2": {
+        "file": "P2-04-stretch.png",
+        "unchanged_from_previous": true,
+        "sha256": "93b14e33772870a8a5e6e7d8b43d9649abcc6a72f62214dd994904df00bd193b"
+      }
+    },
+    {
+      "action": "05-shake",
+      "p1": {
+        "file": "P1-05-shake.png",
+        "raw_generated": "P1-05-shake-generated.png",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "vertical_translation_px": -35,
+        "ground_y_px": 1104,
+        "ground_detection": "last row with >=4 dark foreground pixels; visual contact proxy, not skeletal measurement",
+        "source_bounds": {
+          "minX": 94,
+          "maxX": 1232,
+          "minY": 166,
+          "maxY": 1139,
+          "width": 1254,
+          "height": 1254
+        },
+        "aligned_bounds": {
+          "minX": 94,
+          "maxX": 1232,
+          "minY": 131,
+          "maxY": 1104,
+          "width": 1254,
+          "height": 1254
+        },
+        "translated_artwork_mismatches": 0,
+        "sha256": "2519ccb0b0528d9c74315cc1d57da568a6adaef16bd53596b8f0a1d244ad485f"
+      },
+      "p2": {
+        "file": "P2-05-shake.png",
+        "unchanged_from_previous": true,
+        "sha256": "dbb5be89d1699692d842335189903df326e602d238f6a9fd2c5ba24f45de10ce"
+      }
+    }
+  ],
+  "canvas_origin": [
+    0,
+    0
+  ],
+  "body_root_anchor": null,
+  "frame_timing": null,
+  "clip_id": null,
+  "review_status": "static_candidates_owner_review_pending",
+  "limits": [
+    "Dark silhouette baseline is a contact proxy; individual foot contacts remain visual checks.",
+    "No skeleton registration or measured body-ratio invariance.",
+    "No 8fps playback, transitions or timing validation."
+  ]
+}

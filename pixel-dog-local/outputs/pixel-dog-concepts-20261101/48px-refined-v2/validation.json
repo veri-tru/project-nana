@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-01",
+  "method": "image_gen edits; nearest-neighbor alignment; face/paw masks composited onto untouched originals",
+  "variants": [
+    {
+      "id": "A",
+      "file": "A-game-48-v2.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "face_box": {
+        "x0": 4,
+        "x1": 23,
+        "y0": 8,
+        "y1": 27
+      },
+      "feet_from_y": 34,
+      "changed_face_pixels": 265,
+      "changed_paw_pixels": 144,
+      "changed_pixels_outside_edit_regions": 0,
+      "silhouette_and_alpha_preserved": true,
+      "review_status": "owner_review_pending",
+      "transparent_sample_artifacts_removed": 6
+    },
+    {
+      "id": "B",
+      "file": "B-rounded-48-v2.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "face_box": {
+        "x0": 4,
+        "x1": 23,
+        "y0": 11,
+        "y1": 28
+      },
+      "feet_from_y": 35,
+      "changed_face_pixels": 230,
+      "changed_paw_pixels": 108,
+      "changed_pixels_outside_edit_regions": 0,
+      "silhouette_and_alpha_preserved": true,
+      "review_status": "owner_review_pending",
+      "transparent_sample_artifacts_removed": 9
+    },
+    {
+      "id": "C",
+      "file": "C-natural-48-v2.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "face_box": {
+        "x0": 5,
+        "x1": 23,
+        "y0": 8,
+        "y1": 27
+      },
+      "feet_from_y": 34,
+      "changed_face_pixels": 259,
+      "changed_paw_pixels": 124,
+      "changed_pixels_outside_edit_regions": 0,
+      "silhouette_and_alpha_preserved": true,
+      "review_status": "owner_review_pending",
+      "transparent_sample_artifacts_removed": 11
+    }
+  ]
+}

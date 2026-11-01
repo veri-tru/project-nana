@@ -1,0 +1,14 @@
+{
+  "all_records_match_database": 307,
+  "positive_context_annotations_match": 30,
+  "negative_context_annotations_match": 47,
+  "neutral_context_annotations_match": 69,
+  "missing_numeric_values_remain_blank": true,
+  "all_23_original_report_summaries_preserved": true,
+  "representative_behaviors_match": 121,
+  "sequence_steps_and_repeats_preserved": 27,
+  "nine_sheets_tables_filters_frozen_headers": true,
+  "all_source_document_hashes_match": 15,
+  "sqlite_integrity": "ok",
+  "source_date": "2026-10-17"
+}

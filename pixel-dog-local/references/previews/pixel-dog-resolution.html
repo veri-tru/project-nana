@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>10·20·30px 비교</title><style>
+:root{--background:#fffdf8;--foreground:#292b32;--muted:#e8e4dc;--orange:#d08a45;--blue:#4563ff;--yellow:#e8bf56;--border:#d9d6cd;--muted-foreground:#6b6e76;--accent:#4563ff;color-scheme:light;}
+*{box-sizing:border-box}body{margin:0;padding:28px 20px;font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--background);color:var(--foreground)}main{max-width:960px;margin:auto}h1{font-size:24px;font-weight:650;margin:14px 0 6px}a{color:#354bc1}nav,.note{color:var(--muted-foreground);font-size:13px}.note{margin-bottom:26px}.viz-row{display:flex;align-items:center;flex-wrap:wrap}.text-small{font-size:12px}.text-muted{color:var(--muted-foreground)}.form-check{display:inline-flex;align-items:center;gap:7px}.form-check-input{accent-color:var(--blue)}.btn{padding:8px 13px;border:1px solid var(--border);border-radius:7px;font:inherit;background:white;color:var(--foreground);cursor:pointer}.btn-primary{background:var(--blue);color:white;border-color:var(--blue)}.btn:focus-visible,a:focus-visible{outline:3px solid #8f9fff;outline-offset:3px}.tabular-nums{font-variant-numeric:tabular-nums}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}hr{border:0;border-top:1px solid var(--border);margin:24px 0}li{margin:12px 0}
+</style></head><body><main><nav><a href="index.html">참고 시안 목록</a></nav><h1>10·20·30px 비교</h1><p class="note">기존 비교 시안 · 최종 캐릭터 자산이 아닙니다. 로컬 표시용 기본 테마를 적용했습니다.</p><div id="pixel-dog-resolution">
+  <div class="viz-row pdr-toolbar">
+    <span>같은 표시 크기 · 같은 강아지 형태</span>
+    <label class="form-check">
+      <input id="pdr-grid" class="form-check-input" type="checkbox">
+      <span class="form-check-label">픽셀 격자</span>
+    </label>
+  </div>
+  <div class="pdr-comparison">
+    <figure><figcaption>10 × 10 px</figcaption><div id="pdr-10"></div><div class="text-small text-muted">전체 100픽셀</div></figure>
+    <figure><figcaption>20 × 20 px</figcaption><div id="pdr-20"></div><div class="text-small text-muted">전체 400픽셀</div></figure>
+    <figure><figcaption>30 × 30 px</figcaption><div id="pdr-30"></div><div class="text-small text-muted">전체 900픽셀</div></figure>
+  </div>
+  <style>
+    #pixel-dog-resolution { color:var(--foreground); }
+    #pixel-dog-resolution .pdr-toolbar { justify-content:space-between; gap:12px; margin-bottom:18px; }
+    #pixel-dog-resolution .pdr-comparison { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    #pixel-dog-resolution figure { margin:0; text-align:center; min-width:0; }
+    #pixel-dog-resolution figcaption { font-weight:500; margin-bottom:8px; }
+    #pixel-dog-resolution svg { width:100%; max-width:240px; height:auto; display:block; margin:0 auto 10px; shape-rendering:crispEdges; }
+    #pixel-dog-resolution .pdr-pixel-grid { display:none; stroke:var(--foreground); opacity:.18; fill:none; stroke-width:.035; }
+    #pixel-dog-resolution.pdr-show-grid .pdr-pixel-grid { display:block; }
+    #pixel-dog-resolution .fur { fill:color-mix(in srgb,var(--orange) 44%,var(--background)); }
+    #pixel-dog-resolution .shade { fill:color-mix(in srgb,var(--orange) 65%,var(--foreground) 18%); }
+    #pixel-dog-resolution .light { fill:color-mix(in srgb,var(--orange) 17%,var(--background)); }
+    #pixel-dog-resolution .ink { fill:var(--foreground); }
+    #pixel-dog-resolution .shine { fill:var(--background); }
+    #pixel-dog-resolution .collar { fill:var(--blue); }
+    #pixel-dog-resolution .tag { fill:var(--yellow); }
+    #pixel-dog-resolution .ground { fill:var(--muted); }
+    @media(max-width:380px) { #pixel-dog-resolution .pdr-comparison { gap:6px; } }
+  </style>
+  <script>
+  (() => {
+    const root = document.getElementById('pixel-dog-resolution');
+    const ellipse = (x,y,cx,cy,rx,ry) => ((x-cx)/rx)**2+((y-cy)/ry)**2 <= 1;
+    const polygon = (x,y,points) => {
+      let inside=false;
+      for(let i=0,j=points.length-1;i<points.length;j=i++) {
+        const [xi,yi]=points[i], [xj,yj]=points[j];
+        if((yi>y)!==(yj>y) && x<(xj-xi)*(y-yi)/(yj-yi)+xi) inside=!inside;
+      }
+      return inside;
+    };
+    function dog(x,y) {
+      let p='';
+      if(ellipse(x,y,51,92,34,4)) p='ground';
+      if(polygon(x,y,[[68,74],[79,71],[85,61],[90,62],[91,72],[84,82],[69,86]])) p='shade';
+      if(ellipse(x,y,51,73,24,20)) p='shade';
+      if(ellipse(x,y,50,72,18,20)) p='fur';
+      if(ellipse(x,y,49,70,10,16)) p='light';
+      if(ellipse(x,y,31,85,12,6)||ellipse(x,y,69,85,12,6)) p='fur';
+      if(x>=34&&x<43&&y>=69&&y<91) p='fur';
+      if(x>=57&&x<66&&y>=69&&y<91) p='fur';
+      if(ellipse(x,y,38,89,8,4)||ellipse(x,y,62,89,8,4)) p='light';
+      if(ellipse(x,y,50,58,20,5)) p='collar';
+      if(ellipse(x,y,50,63,3,3)) p='tag';
+      if(ellipse(x,y,26,37,12,21)||ellipse(x,y,74,37,12,21)) p='shade';
+      if(ellipse(x,y,50,33,25,24)) p='fur';
+      if(ellipse(x,y,35,18,10,10)||ellipse(x,y,48,15,12,9)||ellipse(x,y,62,19,10,10)) p='fur';
+      if(ellipse(x,y,24,44,6,12)||ellipse(x,y,76,44,6,12)) p='fur';
+      if(ellipse(x,y,50,45,16,11)) p='light';
+      if(ellipse(x,y,50,43,6,4)) p='ink';
+      if(x>=48&&x<52&&y>=45&&y<50) p='ink';
+      if(ellipse(x,y,50,51,7,2)&&y>=51) p='shade';
+      return p;
+    }
+    const ns='http://www.w3.org/2000/svg';
+    for(const n of [10,20,30]) {
+      const values=Array.from({length:n},(_,j)=>Array.from({length:n},(_,i)=>dog((i+.5)*100/n,(j+.5)*100/n)));
+      function detail(cx,cy,w,h,color) {
+        const a=Math.round(cx*n/100-w/2), b=Math.round(cy*n/100-h/2);
+        for(let y=b;y<b+h;y++) for(let x=a;x<a+w;x++) if(values[y]&&x>=0&&x<n) values[y][x]=color;
+      }
+      const eye=n===30?2:1;
+      detail(38,34,eye,eye,'ink'); detail(62,34,eye,eye,'ink');
+      if(n===30) {
+        detail(37,32,1,1,'shine'); detail(61,32,1,1,'shine');
+        detail(36,88,1,1,'shade'); detail(63,88,1,1,'shade');
+      }
+      const svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('viewBox',`0 0 ${n} ${n}`);
+      svg.setAttribute('role','img');
+      svg.setAttribute('aria-label',`${n} 곱하기 ${n}픽셀 격자에 표현한 앉아 있는 귀가 처진 강아지`);
+      for(let y=0;y<n;y++) for(let x=0;x<n;x++) if(values[y][x]) {
+        const r=document.createElementNS(ns,'rect');
+        for(const [k,v] of Object.entries({x,y,width:1,height:1,class:values[y][x]})) r.setAttribute(k,v);
+        svg.appendChild(r);
+      }
+      const grid=document.createElementNS(ns,'path');
+      let d='';
+      for(let k=0;k<=n;k++) d+=`M${k} 0V${n}M0 ${k}H${n}`;
+      grid.setAttribute('d',d); grid.setAttribute('class','pdr-pixel-grid');
+      svg.appendChild(grid);
+      root.querySelector(`#pdr-${n}`).appendChild(svg);
+    }
+    root.querySelector('#pdr-grid').addEventListener('change',event=>root.classList.toggle('pdr-show-grid',event.target.checked));
+  })();
+  </script>
+</div>
+</main></body></html>

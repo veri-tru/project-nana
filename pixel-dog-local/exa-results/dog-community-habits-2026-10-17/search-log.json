@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-17",
+  "provider": "Exa",
+  "parallel_workstreams": 4,
+  "search_calls": 33,
+  "requested_results": 169,
+  "returned_results": 165,
+  "cross_workstream_unique_search_urls": null,
+  "note": "검색요청수와 반환수를 구분. 하위 조사 흐름의 모든 검색 URL을 합치지 않아 전역 중복 제거 수는 산출하지 않음. 선정 19개 원문 URL은 observations.json에서 중복 제거함.",
+  "workstreams": [
+    {
+      "name": "네이버 카페",
+      "search_calls": 6,
+      "requested_results": 30,
+      "returned_results": 30,
+      "within_stream_unique_urls": 28
+    },
+    {
+      "name": "디시 멍멍이",
+      "search_calls": 8,
+      "requested_results": 40,
+      "returned_results": 40,
+      "within_stream_unique_urls": 35
+    },
+    {
+      "name": "더쿠·디미토리",
+      "search_calls": 13,
+      "requested_results": 65,
+      "returned_results": 61,
+      "within_stream_unique_urls": 54
+    },
+    {
+      "name": "국내 커뮤니티 보완·멍냥보감",
+      "search_calls": 6,
+      "requested_results": 34,
+      "returned_results": 34,
+      "within_stream_unique_urls": 33
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://cafe.naver.com/dogpalza",
+      "result": "카페 홈·메뉴만 확인, 보호자 게시글 미확보"
+    },
+    {
+      "url": "https://cafe.naver.com/brown5dyaw",
+      "result": "카페 UI만 확인"
+    },
+    {
+      "url": "https://cafe.naver.com/f-e/cafes/29267081/popular",
+      "result": "메뉴만 확인"
+    }
+  ],
+  "dc_insufficient_text_posts": [
+    "https://gall.dcinside.com/board/view/?id=dog&no=1104510",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1103341",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1091561",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1104559",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1104093",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1101478",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1101477",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1104555",
+    "https://gall.dcinside.com/board/view/?id=dog&no=1104646"
+  ],
+  "root_searches": [
+    {
+      "key": "community_root_rest",
+      "results": [
+        {
+          "title": "Video: Why Does My Dog... Walk in a Circle Before Lying Down? - Vetstreet | Vetstreet",
+          "url": "https://www.vetstreet.com/our-pet-experts/video-why-does-my-dog-walk-in-a-circle-before-lying-down"
+        },
+        {
+          "title": "강아지가 자기 전에 빙글빙글 도는 행동은 왜 하는 걸까요?",
+          "url": "https://www.youtube.com/watch?v=fywtCzxTt8o"
+        },
+        {
+          "title": "강아지가 이불을 긁어요 잠자기 전 빙빙도는 이유 | 펫리코 심리",
+          "url": "https://petrico.site/%ea%b0%95%ec%95%84%ec%a7%80%ea%b0%80-%ec%9d%b4%eb%b6%88%ec%9d%84-%ea%b8%81%ec%96%b4%ec%9a%94-%ec%9e%a0%ec%9e%90%ea%b8%b0-%ec%a0%84-%eb%b9%99%eb%b9%99%eb%8f%84%eb%8a%94-%ec%9d%b4%ec%9c%a0/"
+        },
+        {
+          "title": "10 Dog Sleeping Positions + Their Adorable Meanings | Casper Blog",
+          "url": "https://casper.com/blogs/article/dog-sleeping-positions"
+        },
+        {
+          "title": "회전적 정착 행동 — 강아지가 잠들기 전 빙글도는 본능",
+          "url": "https://pet.no1item.com/entry/%ED%9A%8C%EC%A0%84%EC%A0%81-%EC%A0%95%EC%B0%A9-%ED%96%89%EB%8F%99-%E2%80%94-%EA%B0%95%EC%95%84%EC%A7%80%EA%B0%80-%EC%9E%A0%EB%93%A4%EA%B8%B0-%EC%A0%84-%EB%B9%99%EA%B8%80%EB%8F%84%EB%8A%94-%EB%B3%B8%EB%8A%A5"
+        },
+        {
+          "title": "반려견 이불 파는(?)이유..? ㅣ 궁금할 땐, 아하!",
+          "url": "https://www.a-ha.io/questions/40af1875c9967792967ecdb4dfec3cd4"
+        }
+      ]
+    },
+    {
+      "key": "community_root_greet",
+      "results": [
+        {
+          "title": "물어뜯는습관 | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/c868efbe1b9161e9b2131e18b32f38fc"
+        },
+        {
+          "title": "댕댕이는 왜 양말에 집착할까? - 반려생활",
+          "url": "https://ban-life.com/content/230"
+        },
+        {
+          "title": "`문제행동？놀이행동！` 이것저것 물어뜯는 반려견, 어떻게 대처해야 할까 – 데일리벳",
+          "url": "http://www.dailyvet.co.kr/news/animalwelfare/39555"
+        },
+        {
+          "title": "Chewing and Carrying Shoes/Slippers | Golden Retriever Dog Forums",
+          "url": "https://www.goldenretrieverforum.com/threads/chewing-and-carrying-shoes-slippers.104781/"
+        },
+        {
+          "title": "양말이나 옷을 물거나 손발을 물어요 에 대한 훈련사 답변 | 와요 (WAYO)",
+          "url": "https://wayopet.com/trainer/qna/dyeibflqk5k39jlb"
+        },
+        {
+          "title": "자기전 이불이나 인형등 물어 뜯어요 에 대한 훈련사 답변 | 와요 (WAYO)",
+          "url": "https://wayopet.com/trainer/qna/c6aebux0copihocp"
+        }
+      ]
+    },
+    {
+      "key": "community_root_paws",
+      "results": [
+        {
+          "title": "강아지가 앞다리 한발을 들고보는데 어케하나나욤 | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/638fecef28c5db1a27d8b62113a4aa2b"
+        },
+        {
+          "title": "강아지가 자꾸 한쪽 발을 들고 서있어요 왜그런걸까요 - 아하",
+          "url": "https://www.a-ha.io/questions/461354be82dd317f9a4b7d6e299fff12"
+        },
+        {
+          "title": "강아지 이 행동 뭔가요? | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/edd74c3ee8bb040b1bd81ecf6322ad08"
+        },
+        {
+          "title": "강아지가 한쪽 앞발만 드는 이유 / 보호자에게 관심 받고 싶은 ...",
+          "url": "https://m.blog.naver.com/dolbomvet/221910393708"
+        },
+        {
+          "title": "[기타] 헥헥거리면서 앞발로 다리를 자꾸 긁어요 - 펫시터",
+          "url": "https://wayopet.com/trainer/qna/jd4ltnojejbcpu3e"
+        },
+        {
+          "title": "강아지 헥헥거림 원인 4가지 매거진 - 아이언펫 스토어",
+          "url": "https://ironpet.store/article/%EB%A7%A4%EA%B1%B0%EC%A7%84/8/319/"
+        }
+      ]
+    },
+    {
+      "key": "community_root_postures",
+      "results": [
+        {
+          "title": "강아지의 행동: | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/9128826cd53b924ea49c555eed95e507"
+        },
+        {
+          "title": "강아지 엎드린자세좀 봐주세요 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/48f23cf7b45939c9e839823af32f2c11"
+        },
+        {
+          "title": "#멍냥보감 - Q&A 태그 대표페이지 : 지식iN",
+          "url": "https://kin.naver.com/tag/tagDetail.naver?listType=noanswer&tag=%EB%A9%8D%EB%83%A5%EB%B3%B4%EA%B0%90"
+        },
+        {
+          "title": "커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community?category=%EC%A4%91%ED%98%95%EA%B2%AC"
+        },
+        {
+          "title": "강아지 개인기 자랑하구 가세용!🐾 | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/439137c10405df0d374405194e5c1d70"
+        },
+        {
+          "title": "강아지가 기지개 켜는 자세를 하는 이유 7가지 - 비마이펫 라이프",
+          "url": "https://mypetlife.co.kr/113148/"
+        }
+      ]
+    },
+    {
+      "key": "community_root_stretch",
+      "results": [
+        {
+          "title": "\"강아지 몸털기\" 다양한 상황별 이유 알아보기",
+          "url": "https://hi-an.tistory.com/102"
+        },
+        {
+          "title": "목욕 후 몸 털기 | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/2d3075bf6098c23cdd90b9ef33708104"
+        },
+        {
+          "title": "강아지의 행동: | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/9128826cd53b924ea49c555eed95e507"
+        },
+        {
+          "title": "5개월 강아지, 자꾸 몸을 핥고 쭙쭙거리고 앙앙해요 | 멍냥 커뮤니티 | 멍냥보감",
+          "url": "https://www.mongseng.io/community/397862ac34ae041e30a73daac5c63a84"
+        },
+        {
+          "title": "강아지 몸털기, 왜 하는거야? – 비마이펫 라이프",
+          "url": "https://mypetlife.co.kr/19849/"
+        }
+      ]
+    },
+    {
+      "key": "community_root_stretch2",
+      "results": [
+        {
+          "title": "강아지 기지개, 스트레칭 행동 의미! 카밍 시그널 알아보아요 : 네이버 블로그",
+          "url": "https://m.blog.naver.com/iruda-ah/222843172233"
+        },
+        {
+          "title": "강아지들의 언어 '카밍시그널' 파헤치기 - 반려생활",
+          "url": "https://ban-life.com/content/33"
+        },
+        {
+          "title": "강아지는 표현 으로 말을 하고 있다? 강아지 소통 지름길 카밍시그널 이해하기",
+          "url": "https://www.youtube.com/watch?v=H5vCFyEsEsQ"
+        },
+        {
+          "title": "강아지가 하품과 함께 기지개를 피는 이유는?",
+          "url": "https://problemsolving00.tistory.com/entry/why-dogs-stretch-and-yawn"
+        },
+        {
+          "title": "주인이 오기를 기다리는 강아지 @.@ : 클리앙",
+          "url": "https://www.clien.net/service/board/park/18812115"
+        }
+      ]
+    }
+  ]
+}

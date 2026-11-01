@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-01",
+  "variants": [
+    {
+      "id": "A",
+      "file": "A-game-48.png",
+      "source": "A-game-64.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "method": "nearest-neighbor resize of existing 64px concept",
+      "redrawn": false
+    },
+    {
+      "id": "B",
+      "file": "B-rounded-48.png",
+      "source": "B-rounded-64.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "method": "nearest-neighbor resize of existing 64px concept",
+      "redrawn": false
+    },
+    {
+      "id": "C",
+      "file": "C-natural-48.png",
+      "source": "C-natural-64.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "method": "nearest-neighbor resize of existing 64px concept",
+      "redrawn": false
+    }
+  ]
+}

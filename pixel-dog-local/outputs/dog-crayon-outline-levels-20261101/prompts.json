@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-11-01",
+  "tool": "built-in image_gen",
+  "source": "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-childlike-fill-20261101/v3/P1-walk-v3.png",
+  "face_region_ref": "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-childlike-fill-20261101/v3/review.json",
+  "conditions": {
+    "A": "weaker thinner more broken contour",
+    "B": "current v3 copied unchanged",
+    "C": "stronger thicker more continuous contour"
+  },
+  "items": [
+    {
+      "id": "C",
+      "prompt": "Edit ONLY the external contour and main limb/body boundary line strength of the supplied current P1 crayon dog. Preserve the SAME exact walking pose, anatomy, head/body proportions, gray-white fur marking distribution, existing fur FILL COVERAGE and density, paper, framing, canvas, low feathered tail, and all facial features. In particular leave the approved small ROUND eyes, filled dark NOSE WITHOUT HOLES, mouth and pink tongue completely unchanged. Do not add symmetrical gaps or glossy highlights. The palette stays gray/white with the existing warm dark crayon contour color. Do not change pigment coverage inside the fur regions; this is an OUTLINE comparison, not a new coloring/grooming/pose study. Keep a natural irregular hand-crayon edge, occasional unequal pressure, no perfectly smooth vector lines or uniform mechanical pattern. One dog, same square image, no new props, labels, border or background elements.\nC — STRONG OUTLINE: make the same existing perimeter outline visibly thicker and more continuous, roughly one-and-a-half to twice the current visible line weight. Reinforce the head/ear/body/leg/tail perimeter and the key leg-separation strokes using the SAME dark crayon hue with dry pigment texture. Do not thicken the actual limbs or ears, enlarge the nose/eyes, or add a second border. Retain natural slight hand irregularity and paper tooth, not a smooth vector sticker or a black comic ink outline. Keep fur fill unchanged.",
+      "generated_path": "C:\\Users\\verib\\.codex\\generated_images\\01a1481a-ccb4-7c01-ab9d-59788a0b4db4\\exec-079291e0-4a11-417d-8dbf-0c749b6c26da.png"
+    },
+    {
+      "id": "A",
+      "prompt": "Edit ONLY the external contour and main limb/body boundary line strength of the supplied current P1 crayon dog. Preserve the SAME exact walking pose, anatomy, head/body proportions, gray-white fur marking distribution, existing fur FILL COVERAGE and density, paper, framing, canvas, low feathered tail, and all facial features. In particular leave the approved small ROUND eyes, filled dark NOSE WITHOUT HOLES, mouth and pink tongue completely unchanged. Do not add symmetrical gaps or glossy highlights. The palette stays gray/white with the existing warm dark crayon contour color. Do not change pigment coverage inside the fur regions; this is an OUTLINE comparison, not a new coloring/grooming/pose study. Keep a natural irregular hand-crayon edge, occasional unequal pressure, no perfectly smooth vector lines or uniform mechanical pattern. One dog, same square image, no new props, labels, border or background elements.\nA — WEAK OUTLINE: make the existing perimeter outline noticeably FINER and lighter in pressure, about half the visible line weight of the reference. Some outer segments can gently break or fade into the gray fur, but the silhouette, paws and limb separation stay legible. Preserve the underlying silhouette position and coat fill. Leave the nose/eyes/mouth/tongue exactly as in the source. Do not remove fur pigment to weaken the outline.",
+      "generated_path": "C:\\Users\\verib\\.codex\\generated_images\\01a1481a-ccb4-7c01-ab9d-59788a0b4db4\\exec-a139ef92-4399-450a-b5bf-2e42d5b31aec.png"
+    }
+  ],
+  "scope": "outline presence variation, preserving source face and interior outside contour band",
+  "owner_review": "pending"
+}

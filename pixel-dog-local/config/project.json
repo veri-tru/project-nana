@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.2-draft",
+  "project_id": "pixel-dog",
+  "display_name": "반려견 픽셀 캐릭터 앱",
+  "implementation_status": "handoff_ready_app_not_implemented",
+  "as_of": "2026-10-18",
+  "timezone": "Asia/Seoul",
+  "spec_documents": {
+    "current_status": "docs/current-spec.md",
+    "personalization_draft": "docs/personalization-spec.md",
+    "asset_draft": "docs/asset-spec.md"
+  },
+  "scope": {
+    "species": "dog",
+    "cat": "future_project",
+    "platform_goal": [
+      "android",
+      "ios"
+    ]
+  },
+  "animation": {
+    "default_fps": 8,
+    "default_frame_duration_ms": 125,
+    "per_frame_duration": true,
+    "input_clock": "independent",
+    "movement_clock": "elapsed_time",
+    "resolution": {
+      "status": "not_final",
+      "selected_canvas_px": null,
+      "candidate_canvas_px": [[64, 64], [96, 96]],
+      "display_width_dp": null,
+      "display_scale": null,
+      "discussed_candidate_px": [
+        64,
+        64
+      ],
+      "existing_reference_px": [
+        96,
+        96
+      ]
+    }
+  },
+  "g0": {
+    "platform": "android",
+    "language_baseline": "kotlin",
+    "states": [
+      "walk",
+      "rest",
+      "sleep_pose"
+    ],
+    "server_required": false,
+    "ai_required": false
+  },
+  "framework": {
+    "cross_platform": "undecided",
+    "candidates": [
+      "native",
+      "flutter_flame"
+    ]
+  },
+  "ai": {
+    "status": "planning_assumption_not_configured",
+    "provider_assumption": "anthropic",
+    "display_model_assumption": "Claude Haiku 5.5",
+    "model_id": null,
+    "verify_official_capabilities_before_use": true,
+    "runtime_per_frame_calls": false
+  },
+  "evidence": {
+    "source_kinds": [
+      "photo_observation",
+      "video_observation",
+      "owner_report",
+      "breed_reference",
+      "derived",
+      "design_default"
+    ],
+    "owner_review_required_for_personalization": true
+  },
+  "input_plan": {
+    "status": "design_direction_not_implemented",
+    "first_input": ["existing_photo", "short_owner_response"],
+    "video_required_for_first_input": false,
+    "optional_followup": ["photo", "owner_response", "short_video"]
+  },
+  "personalization_draft": {
+    "status": "review_draft_not_implemented",
+    "breed_reference_role": "initial_candidate_only",
+    "mixed_or_unknown_breed_uses_same_profile_flow": true,
+    "identity_feature_limit": 3,
+    "identity_feature_selection": "up_to_limit_without_inferred_fill",
+    "compatibility_default": "untested",
+    "priority": ["individual_appearance_structure", "asset_motion_compatibility", "single_dog_likeness_review"],
+    "ab_proposal": {
+      "shared_clip_and_transition_versions": true,
+      "variable_fields": ["behavior_selection", "frequency", "onset_and_wait_timing"],
+      "clip_internal_speed_fixed": true,
+      "evaluations": ["appearance_likeness", "cuteness", "dog_specific_behavior"]
+    }
+  }
+}
+

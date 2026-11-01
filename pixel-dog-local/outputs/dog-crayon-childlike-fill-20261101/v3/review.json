@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-01",
+  "file": "P1-walk-v3.png",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "regions": [
+    {
+      "label": "eye-near",
+      "left": 222,
+      "top": 398,
+      "width": 46,
+      "height": 48
+    },
+    {
+      "label": "eye-far",
+      "left": 347,
+      "top": 425,
+      "width": 49,
+      "height": 49
+    },
+    {
+      "label": "nose",
+      "left": 240,
+      "top": 478,
+      "width": 82,
+      "height": 67
+    },
+    {
+      "label": "tongue-mouth",
+      "left": 240,
+      "top": 546,
+      "width": 85,
+      "height": 66
+    }
+  ],
+  "changed_inside_regions": 14592,
+  "changed_outside_regions": 0,
+  "sha256": "3c3bf6fda5af28969563bcbe89ad1f90a7cf58714fd6a2fe1b8d4c2255fdf198",
+  "visual_check": "Nose central open voids filled; minor irregular pigment remains. No automatic symmetry measurement.",
+  "owner_review": "pending",
+  "other_poses_modified": false
+}

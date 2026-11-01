@@ -1,0 +1,10 @@
+{
+  "authoring_process_exit_code": -1073740791,
+  "stderr_empty": true,
+  "artifact_saved": true,
+  "artifact_and_database_validation": "passed",
+  "catalog_version": "2.0.0",
+  "sheet_count": 9,
+  "visual_review": "passed: representative behaviors, personalization requirements, sequence steps, corrected E019 classification and E171 posture facets",
+  "note": "Runtime saved the workbook and printed all nine sheets before returning exit -1073740791. Stderr was empty. Independent ZIP/XML and SQLite checks passed: all 307 records and context annotations, blank numeric values, 23 raw summaries, 121 representative behavior counts, 27 sequence steps, 15 source-document hashes, tables, filters and frozen headers. Rendered new-sheet and corrected-row previews were inspected. Do not interpret process status as a clean exit."
+}

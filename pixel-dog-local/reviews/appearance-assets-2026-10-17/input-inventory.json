@@ -1,0 +1,359 @@
+{
+  "inputs": [
+    {
+      "name": "1-디자인_가이드.pdf",
+      "bytes": 8942965,
+      "sha256": "61795a97de959079cbdb4381b9c03b9c61b85be09b9635c87fbbbdaa65897a5b",
+      "pages": [
+        {
+          "page": 1,
+          "chars": 765,
+          "opening": "01  /  SYSTEM OVERVIEW\n322종을 9개 몸통 계열로\n캐릭터 제작 전 외형 그룹화 가이드 · 실제 사진을 참고한 제작 출발점 · 2026-10-17\n322 BREEDS / PRE-PRODUCTION DESIGN GUIDE\n1 / 5\n같은 그룹 = 재사용 가능한 기본 구조\n그룹 안에서도 길이, 흉곽, 등선, 다리·발 굵기는 달라집니다.\n같은 "
+        },
+        {
+          "page": 2,
+          "chars": 852,
+          "opening": "02  /  BODY FAMILIES\n몸통 계열 01-03\n사진은 개체별 참고 예시입니다. 체급·비율 비교용이 아닙니다. 앉거나 누운 자세·얼굴 사진은 몸통 판단에 제한이 있습니다.\n322 BREEDS / PRE-PRODUCTION DESIGN GUIDE\n2 / 5\nB01\n균형정방형\n정방형에 가까운 짧은 본체, 보통 다리, 균형 잡힌 중간 골격.\n008  "
+        },
+        {
+          "page": 3,
+          "chars": 881,
+          "opening": "03  /  BODY FAMILIES\n몸통 계열 04-06\n사진은 개체별 참고 예시입니다. 체급·비율 비교용이 아닙니다. 앉거나 누운 자세·얼굴 사진은 몸통 판단에 제한이 있습니다.\n322 BREEDS / PRE-PRODUCTION DESIGN GUIDE\n3 / 5\nB04\n장각균형형\n긴 다리와 높이 드는 목·머리, 정방형 또는 약간 긴 몸통.\n004  푸들"
+        },
+        {
+          "page": 4,
+          "chars": 896,
+          "opening": "04  /  BODY FAMILIES\n몸통 계열 07-09\n사진은 개체별 참고 예시입니다. 체급·비율 비교용이 아닙니다. 앉거나 누운 자세·얼굴 사진은 몸통 판단에 제한이 있습니다.\n322 BREEDS / PRE-PRODUCTION DESIGN GUIDE\n4 / 5\nB07\n저상장신·굵은골격형\n긴 몸통과 짧은 다리, 넓거나 깊은 흉곽, 굵은 사지·발.\n111"
+        },
+        {
+          "page": 5,
+          "chars": 1265,
+          "opening": "05  /  BUILD RULES & TRACEABILITY\n옵션을 조합하고, 예외를 남기기\n숫자는 원자료에 있는 것만 사용합니다. 사진에서 임의의 길이·비율을 생성하지 않습니다.\n322 BREEDS / PRE-PRODUCTION DESIGN GUIDE\n5 / 5\n01  변종·예외 관리\n004 푸들\n크기 4형 + 곱슬/코드 피모 + 미용\n크기 변경 후 머리"
+        }
+      ]
+    },
+    {
+      "name": "2-개품종_322종_2D외형그룹.xlsx",
+      "bytes": 295315,
+      "sha256": "c845ba570c2bd1ecd5d6fa86cad0b6b181ae35393c314814015ce8db0ba41389",
+      "sheets": [
+        {
+          "name": "그룹 구조",
+          "rows": null,
+          "cols": null,
+          "first_rows": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "322종의 2D 외형 그룹",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "9개 기저 몸통 + 독립 파트 조합 · 한 품종은 한 베이스에 배정하되, 품종별 체형 변형과 대안은 유지합니다.",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "322종 외형 태그",
+          "rows": null,
+          "cols": null,
+          "first_rows": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "322종 · 다차원 외형 설계 태그",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "모든 정성 태그는 디자인 해석입니다. 복수 옵션은 가능한 대안 목록이며, 동시에 합성해도 된다는 뜻은 아닙니다.",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "파트 사전",
+          "rows": null,
+          "cols": null,
+          "first_rows": [
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "파트 사전과 프로토타입 자산 제안",
+              null,
+              null,
+              null
+            ],
+            [
+              "45개는 논리적 원형 종류의 시작 예산입니다. 322종 완제품용 PNG 45장, 자세·프레임·표정까지의 총량을 뜻하지 않습니다.",
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "원자료와 판단근거",
+          "rows": null,
+          "cols": null,
+          "first_rows": [
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "원자료와 해석 근거",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "체고·체장·외모·털·색 원자료는 그대로 옮겼습니다. 머리·귀·꼬리 등의 추가 표준 절 확인은 항목별 판단 근거로 구분했습니다.",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "읽기 전에",
+          "rows": null,
+          "cols": null,
+          "first_rows": [
+            [
+              null,
+              null
+            ],
+            [
+              "분류를 읽는 방법",
+              null
+            ],
+            [
+              "근거와 설계 해석, 변종과 조합의 범위를 먼저 확인하세요.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3-개품종_322종_외형분류_보조자료.zip",
+      "bytes": 428633,
+      "sha256": "b22ff0d94ef43a1232bf6f04781de3b0cc935fc01bdaa5dec5189e9deddc4e5a",
+      "members": [
+        {
+          "name": "README.txt",
+          "bytes": 3076,
+          "compressed": 1598
+        },
+        {
+          "name": "grouping_322.csv",
+          "bytes": 1094449,
+          "compressed": 163324
+        },
+        {
+          "name": "grouping_322.json",
+          "bytes": 1161423,
+          "compressed": 132400
+        },
+        {
+          "name": "groups_summary.csv",
+          "bytes": 2011,
+          "compressed": 1104
+        },
+        {
+          "name": "appearance_query_examples.json",
+          "bytes": 2920,
+          "compressed": 1060
+        },
+        {
+          "name": "tagging_contract.json",
+          "bytes": 3678,
+          "compressed": 1376
+        },
+        {
+          "name": "presentation_config.json",
+          "bytes": 7038,
+          "compressed": 3145
+        },
+        {
+          "name": "source_evidence_322.json",
+          "bytes": 684481,
+          "compressed": 112455
+        },
+        {
+          "name": "comparison_credits.csv",
+          "bytes": 25556,
+          "compressed": 4897
+        },
+        {
+          "name": "comparison_credits.json",
+          "bytes": 39842,
+          "compressed": 5429
+        },
+        {
+          "name": "검증요약.json",
+          "bytes": 921,
+          "compressed": 543
+        }
+      ]
+    }
+  ]
+}

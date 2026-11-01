@@ -1,0 +1,280 @@
+{
+  "as_of": "2026-11-01",
+  "profile_id": "dog-photo-set-20261101-01",
+  "scope": "original_user_dog_photos_only",
+  "breed": null,
+  "captured_at": null,
+  "owner_confirmed": false,
+  "measurements_performed": false,
+  "taxonomy_ref": "tmp/appearance-review-20261017/support/tagging_contract.json",
+  "sources": [
+    {"id": "P01", "filename": "KakaoTalk_20261101_095408836_03.jpg", "view": "standing_full_body"},
+    {"id": "P02", "filename": "KakaoTalk_20261101_095408836_02.jpg", "view": "standing_closer_full_body"},
+    {"id": "P03", "filename": "KakaoTalk_20261101_095408836_01.jpg", "view": "lying_head_and_body"},
+    {"id": "P04", "filename": "KakaoTalk_20261101_095408836.jpg", "view": "resting_face_closeup"},
+    {"id": "P05", "filename": "KakaoTalk_20261101_095408836_04.jpg", "view": "resting_oblique_head_and_body"}
+  ],
+  "source_directory": "C:/Users/verib/OneDrive/Documents/카카오톡 받은 파일/",
+  "source_photos_copied": false,
+  "attributes": [
+    {
+      "key": "body_length_class",
+      "label": "몸통 길이감",
+      "observation": "서 있는 사진에서 몸통이 높이보다 조금 긴 장방형으로 보임.",
+      "value": null,
+      "candidates": [
+        "slightly_rectangular"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "사선·상방 촬영이며 어깨·골반 기준점이 가려져 실제 체장비는 미측정.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "leg_length_class",
+      "label": "다리 길이",
+      "observation": "몸통에 비해 극단적으로 짧거나 긴 형태는 아니며 중간 길이로 보임.",
+      "value": null,
+      "candidates": [
+        "medium"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "몸통 높이와 관절 위치가 털과 촬영각에 영향을 받음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "build",
+      "label": "골격·체격",
+      "observation": "겉모습은 보통 체격 후보. 매우 가늘거나 넓고 육중한 윤곽은 두드러지지 않음.",
+      "value": null,
+      "candidates": [
+        "medium"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "골격 굵기·체중·체지방은 사진으로 판단하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "chest",
+      "label": "흉곽",
+      "observation": "흰 가슴 털은 보이나 가슴의 실제 폭·깊이를 가려 정면·측면 윤곽을 분리하기 어려움.",
+      "value": null,
+      "candidates": [],
+      "status": "unknown_occluded",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "머리가 돌아가 있고 흉곽이 털에 가림. narrow/medium/broad/deep 계열 미배정.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "tuck",
+      "label": "배선",
+      "observation": "복부 아래가 털·다리·사선 시점에 가려 배가 들어가는 정도를 확정하기 어려움.",
+      "value": null,
+      "candidates": [],
+      "status": "unknown_occluded",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "slight/moderate/strong 미배정.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "topline",
+      "label": "등선",
+      "observation": "서 있는 사진의 보이는 등 윤곽은 대체로 수평에 가까움.",
+      "value": null,
+      "candidates": [
+        "level"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "털 윤곽과 자세 영향이 있어 골격의 수평성을 확정하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "head",
+      "label": "머리 형태",
+      "observation": "현재 털·미용을 포함한 얼굴 외곽은 둥글거나 둥근 타원형으로 보임.",
+      "value": null,
+      "candidates": [
+        "round",
+        "oval"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "limitation": "둥근 털 윤곽을 두개골 형태로 해석하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "muzzle",
+      "label": "주둥이 길이",
+      "observation": "코가 앞으로 나오고 흰 수염·입 주변 털이 둥글게 감쌈. 겉보기는 짧음~중간 후보.",
+      "value": null,
+      "candidates": [
+        "short",
+        "medium"
+      ],
+      "status": "unknown_due_to_fur_and_viewpoint",
+      "evidence": [
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "limitation": "옆얼굴의 코뿌리·끝 기준과 입술 경계가 가려 한 태그로 확정하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "ears",
+      "label": "귀 형태",
+      "observation": "양쪽에 회색 귀가 접혀 얼굴 옆으로 내려옴. 턱 아래로 길게 늘어지는 형태보다 짧은 드롭형에 가까움.",
+      "value": null,
+      "candidates": [
+        "drop_short"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P01",
+        "P02",
+        "P04",
+        "P05"
+      ],
+      "limitation": "털에 덮인 실제 귀끝·부착점은 미확인. 좌우의 영구적인 길이 차이도 미확정.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "tail",
+      "label": "꼬리 형태",
+      "observation": "서 있는 사진에서 뒤쪽에 회색 꼬리 일부가 아래로 향해 보임.",
+      "value": null,
+      "candidates": [],
+      "status": "unknown_partly_occluded",
+      "evidence": [
+        "P01",
+        "P02"
+      ],
+      "limitation": "뿌리부터 끝까지 완전한 윤곽이 확인되지 않음. 내려온 자세만으로 straight/sabre 등 형태·길이를 정하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "coat_length",
+      "label": "털 길이",
+      "observation": "현재 모습은 몸통이 비교적 짧고, 머리·볼·주둥이·발 주변의 털은 상대적으로 김.",
+      "value": null,
+      "candidates": [
+        "short",
+        "medium"
+      ],
+      "regional_observations": {
+        "body": "short_candidate",
+        "head_cheeks_muzzle": "medium_candidate",
+        "lower_legs_paws": "longer_than_body"
+      },
+      "status": "current_appearance_observed_classification_provisional",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "limitation": "미용 전 원래 피모 길이·미용 시점·실제 털 길이는 모름.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "coat_texture",
+      "label": "털 질감",
+      "observation": "얼굴 털은 비교적 길게 뻗고 약하게 굽으며 몸통에는 짧은 굴곡이 보임. 약한 웨이브 후보.",
+      "value": null,
+      "candidates": [
+        "wavy"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "limitation": "이중모·강모·촘촘한 곱슬 여부와 선천적인 피모 유형은 미확정.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "patterns",
+      "label": "무늬",
+      "observation": "등·몸통과 귀·얼굴 양옆은 회색 계열, 이마 중앙에서 코 주변·주둥이와 가슴·목·아래쪽 발은 흰색으로 보임.",
+      "value": [
+        "white_patches"
+      ],
+      "candidates": [],
+      "status": "visible_distribution_observed",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "limitation": "회색 안의 밝고 어두운 털 혼합을 merle/roan 등 유전·품종 무늬로 분류하지 않음. 보이지 않는 반대쪽 분포는 미확인.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    },
+    {
+      "key": "overlays",
+      "label": "장식털·부가 외형",
+      "observation": "흰 주둥이 주변 털이 수염처럼 풍성하고 얼굴 위·볼 털이 둥근 윤곽을 만듦.",
+      "value": null,
+      "candidates": [
+        "beard_brows"
+      ],
+      "status": "provisional_design_interpretation",
+      "evidence": [
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "limitation": "수염 표현의 작업 후보이며 독립된 짙은 눈썹·갈기·장식털이 있다는 뜻으로 확대하지 않음.",
+      "owner_review": "unreviewed",
+      "basis": "user_photo_observation_with_separate_design_interpretation"
+    }
+  ],
+  "body_family": null,
+  "owner_priority_features": [],
+  "behavior_inferred": false
+}

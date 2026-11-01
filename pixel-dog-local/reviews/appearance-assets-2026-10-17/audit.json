@@ -1,0 +1,250 @@
+{
+  "breed_rows": 322,
+  "unique_ids": 322,
+  "id_range_complete": true,
+  "all_322_id_sets_match": true,
+  "counts": {
+    "B01": 49,
+    "B02": 100,
+    "B03": 36,
+    "B04": 37,
+    "B05": 14,
+    "B06": 10,
+    "B07": 17,
+    "B08": 7,
+    "B09": 52
+  },
+  "contract_and_xlsx_tag_errors": [],
+  "representative_assignment_errors": [],
+  "unknown_counts": {
+    "body_length_class": 23,
+    "leg_length_class": 2,
+    "build": 0,
+    "chest": 1,
+    "tuck": 20,
+    "topline": 3,
+    "head": 0,
+    "muzzle": 0,
+    "ears": 0,
+    "tail": 21,
+    "coat_length": 0,
+    "coat_texture": 4,
+    "patterns": 7,
+    "overlays": 0
+  },
+  "breeds_with_unknown_tags": 63,
+  "logical_part_sum": 45,
+  "cached_group_counts": [
+    [
+      "B01",
+      "균형정방형",
+      49
+    ],
+    [
+      "B02",
+      "균형장방형",
+      100
+    ],
+    [
+      "B03",
+      "날렵장방형",
+      36
+    ],
+    [
+      "B04",
+      "장각균형형",
+      37
+    ],
+    [
+      "B05",
+      "심흉잘록형",
+      14
+    ],
+    [
+      "B06",
+      "저상장신·보통골격형",
+      10
+    ],
+    [
+      "B07",
+      "저상장신·굵은골격형",
+      17
+    ],
+    [
+      "B08",
+      "단신광폭형",
+      7
+    ],
+    [
+      "B09",
+      "중고각광폭형",
+      52
+    ]
+  ],
+  "cached_part_total": 45,
+  "photo_credit_count": 27,
+  "source_body_length_unconfirmed": 313,
+  "source_length_definition_unconfirmed": 226,
+  "mix_entries": [],
+  "selected_breeds": [
+    {
+      "id": "004",
+      "base": "B04",
+      "ears": [
+        "drop_long"
+      ],
+      "tail": [
+        "straight",
+        "sabre"
+      ],
+      "coat_length": [
+        "medium",
+        "long"
+      ],
+      "coat_texture": [
+        "curly",
+        "cord"
+      ],
+      "variant_options": "토이·미니어처·미디엄·스탠더드 4크기는 스케일 옵션; 곱슬·코드형과 클립별 머리·발·몸·꼬리 볼륨 옵션; B04는 대표 제작 출발점.",
+      "uncertainty": "클립이 사지와 몸통 인상을 크게 바꿈; 품종 내 크기 차를 별도 몸통 그룹으로 분리하지 않음.",
+      "name": "푸들"
+    },
+    {
+      "id": "006",
+      "base": "B06",
+      "ears": [
+        "drop_short"
+      ],
+      "tail": [
+        "over_back"
+      ],
+      "coat_length": [
+        "long"
+      ],
+      "coat_texture": [
+        "silky"
+      ],
+      "variant_options": "장모 기본형; 생활 클립은 털 길이만 변경하고 표준의 긴 몸통을 짧게 바꾸지 않음.",
+      "uncertainty": "장모가 골격을 가림; 낮은 사지와 긴 몸통이라는 정성 분류이며 사진에서 비율을 재지 않음.",
+      "name": "말티즈"
+    },
+    {
+      "id": "010",
+      "base": "B02",
+      "ears": [
+        "drop_short"
+      ],
+      "tail": [
+        "sickle"
+      ],
+      "coat_length": [
+        "medium",
+        "long"
+      ],
+      "coat_texture": [
+        "curly",
+        "double"
+      ],
+      "variant_options": "곱슬 피모의 클립 길이와 머리 구형 미용은 털 옵션; 두개 자체가 구형이라는 뜻은 아님.",
+      "uncertainty": "체장>체고는 원자료 문구이며 다리 길이의 수치 추정은 하지 않음; 구형 머리 클립과 평평한 두개를 구별.",
+      "name": "비숑 프리제"
+    },
+    {
+      "id": "119",
+      "base": "B03",
+      "ears": [
+        "drop_long"
+      ],
+      "tail": [
+        "ring",
+        "straight",
+        "sickle"
+      ],
+      "coat_length": [
+        "long"
+      ],
+      "coat_texture": [
+        "double",
+        "wavy",
+        "curly"
+      ],
+      "variant_options": "직모/반곱슬/곱슬; 청·황 중심이며 문화대전은 검정·탄·흰색·초코·바둑이도 기술; 말린/선/낚시꼬리 대안.",
+      "uncertainty": "체장 비례와 다리 길이 미확인; 사진은 앉은 자세·장모이므로 B02와의 경계를 보류. 문화대전 설명을 FCI 표준으로 표현하지 않음.",
+      "name": "삽살개"
+    },
+    {
+      "id": "120",
+      "base": "B02",
+      "ears": [
+        "upright_triangle"
+      ],
+      "tail": [
+        "ring",
+        "over_back"
+      ],
+      "coat_length": [
+        "medium",
+        "long"
+      ],
+      "coat_texture": [
+        "unknown"
+      ],
+      "variant_options": "흰색 또는 옅은 재색털 혼합; 꼬리는 몸통보다 길고 부드러운 털.",
+      "uncertainty": "백과사전 일반 설명이며 공인 표준 아님; 사진은 울타리·비중립 자세로 다리와 배선 미확인, 몸통 털 길이는 사진보조의 잠정값.",
+      "name": "풍산개"
+    }
+  ],
+  "schema_keys": [
+    "id",
+    "base",
+    "body_length_class",
+    "leg_length_class",
+    "build",
+    "chest",
+    "tuck",
+    "topline",
+    "head",
+    "muzzle",
+    "ears",
+    "tail",
+    "coat_length",
+    "coat_texture",
+    "patterns",
+    "overlays",
+    "base_reason",
+    "deform_notes",
+    "variant_options",
+    "uncertainty",
+    "evidence_basis",
+    "evidence_urls"
+  ],
+  "source_keys": [
+    "id",
+    "ko",
+    "en",
+    "height",
+    "height_basis",
+    "height_numeric_scope",
+    "body_length",
+    "body_ratio",
+    "length_definition",
+    "appearance",
+    "coat",
+    "colors",
+    "sources",
+    "photo"
+  ],
+  "zip_files": [
+    "appearance_query_examples.json",
+    "comparison_credits.csv",
+    "comparison_credits.json",
+    "grouping_322.csv",
+    "grouping_322.json",
+    "groups_summary.csv",
+    "presentation_config.json",
+    "README.txt",
+    "source_evidence_322.json",
+    "tagging_contract.json",
+    "검증요약.json"
+  ]
+}

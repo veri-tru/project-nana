@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "loadedImages": 36,
+  "frameStepWorks": true,
+  "scriptErrors": [],
+  "preservedSourceRectangles": 36,
+  "pixelMismatch": 0,
+  "scope": "packaging, image loading and manual step only; animation quality and device acceptance not run"
+}

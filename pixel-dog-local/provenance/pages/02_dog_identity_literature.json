@@ -1,0 +1,407 @@
+{
+  "title": "개의 개체 인식을 위한 행동과 습관 문헌검토",
+  "page_id": "page_d3bfea3d642c8191b43c27b8b4091012",
+  "url": "https://chatgpt.com/space/page_d3bfea3d642c8191b43c27b8b4091012",
+  "sequence": 1,
+  "updated_at": "2026-10-17T00:41:47.016338Z",
+  "exported_date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "blocks": [
+    {
+      "id": "51e0f5df-ad86-4706-b3bc-5f89f7aba2e6",
+      "kind": "markdown",
+      "hash": "80aea92e80dc26ee0e083733906a9087be15ca7dd9afb60c22cf40066a5e639f",
+      "markdown": "현재 프로젝트는 개를 대상으로 한다. 보호자가 화면 속 캐릭터를 자기 반려견답다고 느끼게 하려면, 특정 상황에서 사용하는 요구 몸짓, 놀이와 보상에 대한 반응, 익숙한 움직임과 일상 루틴을 우선 수집할 가치가 있다. 이는 기존 문헌을 앱 설계에 적용한 우선순위이며, 행동별 식별 효과가 실험으로 확정된 순위는 아니다. 고양이 자료는 후속 프로젝트 참고 절로 구분하고, 현재 반려견의 수집·구현·평가 항목에는 적용하지 않는다."
+    },
+    {
+      "id": "e62f8f66-a831-4d82-a7d0-9265ddd80356",
+      "kind": "markdown",
+      "hash": "0dff1dd8d4b969b938e31b6278853c6f4482eb5ca80678c094b31c59dc6be764",
+      "markdown": "이번 조사에서 외형을 통제한 2D 캐릭터의 행동만으로 보호자가 자기 반려동물을 정확히 고르는지를 검증한 통제실험은 확인하지 못했다. 기존 근거는 개체별 행동 차이, 일부 특성의 안정성, 인간의 음성 개체 변별, 개인화 기기의 질적 사용 경험에 분산되어 있다."
+    },
+    {
+      "id": "fede4a79-0cac-4fac-9e7b-716cd6876ea6",
+      "kind": "markdown",
+      "hash": "7d36cca1244362859163f77f1db38daa7b3abbfcd2935dd8834caba0ee7c6dd1",
+      "markdown": "적용 프로젝트: [반려견 디지털 트윈 앱 개발 지침과 첫 시제품 범위](https://chatgpt.com/space/page_2bb72844316c8191a60de47d43c6d311)"
+    },
+    {
+      "id": "9a1d1b30-7d1f-4b77-b81d-afe058b2b71d",
+      "kind": "markdown",
+      "hash": "076e7f11b8dde9f98470a14c3caea1d1201b6fdd21e9bd0fb3c6c596b217ea43",
+      "markdown": "# 조사 범위"
+    },
+    {
+      "id": "ac54235f-c856-4c7f-8707-1f329239a220",
+      "kind": "markdown",
+      "hash": "caa103aafe889d834904c1fcbb23ec29dcb48bf6b9502f57f3d6aa595f208471",
+      "markdown": "2026년 10월 17일 기준으로 직접 개체 식별, 개의 행동 안정성, 개의 미시적 상호작용, 고양이의 행동과 발성, 디지털·로봇 반려동물의 정체성 경험을 5개 병렬 분기로 조사했다. 통합 단계에서 보호자 평정의 타당도와 일상 활동의 변동성을 보완 검색했다. 개의 연구 결과와 개 관련 사용자 연구를 현재 프로젝트에 적용하며, 고양이 연구는 후속 프로젝트 자료로 보존한다."
+    },
+    {
+      "id": "aedc5b1f-8263-41e2-9402-0e0d24c48296",
+      "kind": "markdown",
+      "hash": "f05de69ff2c86917228fa63bae584b2a1df26ddc7e975d91bae3c8dce66025a8",
+      "markdown": "Exa 검색 요청 결과는 총 375건으로, 중복 논문과 재조회 결과를 포함한 검색 반환량이다. 375편의 원문을 읽었다는 뜻은 아니다. 최종 문헌표에는 15편을 선별하고 통합 단계에서 원문 주요 절 또는 공식 초록을 다시 대조했다. Mirkó와 Ellis 논문은 공식 초록·기관 저장소 요약 중심이며, 나머지는 원문 주요 방법·결과를 확인했다. 이는 탐색적 문헌검토이며 체계적 문헌고찰은 아니다."
+    },
+    {
+      "id": "8fa22219-bc5d-481e-b37e-6ad89389fddd",
+      "kind": "markdown",
+      "hash": "73aaf12694802ceb565222e8fd36c353ece4ec6bd38b335026267d3ddbbdbd8e",
+      "markdown": "동물이 보호자를 알아보는 역방향 연구, 알고리즘의 행동분류 정확도를 보호자 식별 정확도로 제시한 자료, 출처가 불분명한 앱 홍보자료는 핵심 근거로 사용하지 않았다."
+    },
+    {
+      "id": "12324a94-355f-4611-80a3-fde5412b5073",
+      "kind": "markdown",
+      "hash": "05cefb7c7ebbdeda546a20c3b2b9afe17f879b431ed8d8da26f7e31a0ea129c8",
+      "markdown": "# 근거를 구분하는 기준"
+    },
+    {
+      "id": "66d9ac10-5f24-4342-826c-7bc5295767ce",
+      "kind": "markdown",
+      "hash": "b5e8e6a61eaae2174e51a359299dcbe31e4c073b7471db5dcffd5ab6f26669f6",
+      "markdown": "| 구분 | 실제로 필요한 증거 | 이번 조사에서의 상태 |\n| --- | --- | --- |\n| 직접 개체 식별 | 보호자가 행동을 보고 자기 동물을 다른 동물과 구별함 | 2D 행동 재현에 관한 통제실험은 확인하지 못함 |\n| 근접한 지각 근거 | 사람이 서로 다른 동물의 소리를 구별함 | 개의 짖음 동일 개체/다른 개체 판단 연구가 있음. 고양이 결과는 후속 프로젝트에 구분 |\n| 보호자의 개인적 연결감 | 개인화된 기기가 특정 반려동물의 기억과 익숙함을 유발함 | 소규모 질적 HCI 연구가 있음 |\n| 개체차와 안정성 | 개체별 행동 특성이 다르고 일부가 시간에 걸쳐 유지됨 | 성격·보상반응·요구 제스처·활동 연구가 있음 |\n| 앱 설계 가설 | 위 특성을 2D 행동으로 옮기면 자기 동물다움이 높아짐 | 별도 사용자 실험으로 검증해야 함 |"
+    },
+    {
+      "id": "a3ca1fed-df64-4b83-bd73-bc77592cb4da",
+      "kind": "markdown",
+      "hash": "de5e90d24161f94ead095963e1090a1e08dcb240b4180e13821f15704f015469",
+      "markdown": "‘귀엽다’, ‘살아 있는 것 같다’, ‘정이 간다’, ‘익숙하다’, ‘내 반려동물 같다’, ‘여럿 중 내 반려동물을 고를 수 있다’는 서로 다른 결과변수다. 하나의 점수로 합쳐 재현 성공으로 처리하지 않는다."
+    },
+    {
+      "id": "b07adacf-f342-4bf3-870a-4caba47c996b",
+      "kind": "markdown",
+      "hash": "70997562d70cea34c1e7da89a78f932e57f630285972d9e9d1da6443f2462b5f",
+      "markdown": "# 개에서 우선 수집할 행동과 습관"
+    },
+    {
+      "id": "78bda30d-d3db-49aa-ac20-a59e34d4252c",
+      "kind": "markdown",
+      "hash": "60fab7bdb03195d169f12436985b2ad236889d6bdf72ce4703bd0b42ad665b45",
+      "markdown": "아래 구현 항목은 문헌에서 측정한 행동을 개발 변수로 옮긴 제안이다. 관찰된 동작 종류가 같더라도 반응이 나타나는 상황·순서·타이밍을 함께 기록한다."
+    },
+    {
+      "id": "74751268-3c3a-4ce5-afdf-dea9c74dd701",
+      "kind": "markdown",
+      "hash": "d3ce4475554e6efb02547f4029e2ad1444d3954e1a50226e88a003f5b09a66ae",
+      "markdown": "| 후보 | 수집할 특징 | 2D 구현 방향 | 근거와 한계 |\n| --- | --- | --- | --- |\n| 요구할 때의 몸짓 | 사람과 물건 사이 응시, 코·머리·앞발 접촉, 반복과 다음 행동 | 목표물 보기와 보호자 쪽 보기, 접촉 시도의 순서·빈도를 개별화 | 개마다 제스처 레퍼토리가 다름. 장기 안정성과 식별력은 미검증. [Worsley & O’Hara (2018)](https://doi.org/10.1007/s10071-018-1181-3) |\n| 놀이와 보상 반응 | 음식·장난감 선호, 접근 지연, 집중·조작 시간, 포기와 재접근 | 같은 자극에도 바로 접근하거나 지켜보다 접근하고, 관심 유지시간을 다르게 표현 | 보호자 보고와 행동관찰의 수렴 근거. 식별 성공 근거는 아님. [Gerencsér et al. (2018)](https://www.nature.com/articles/s41598-018-22605-1), [Mirkó et al. (2013)](https://real.mtak.hu/10129/) |\n| 접근과 거리 유지 | 먼저 다가오는지, 따라가는지, 가까이 머무는지, 독립 탐색과 확인 응시 | 머무는 거리, 접근 빈도, 탐색 후 돌아보는 행동을 개별화 | 성격검사·보호자 유대 보고의 근거. 구체 이동 경로의 고유성은 별도 확인. [Turcsán et al. (2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/), [Riddoch, Hawkins, & Cross (2022)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353) |\n| 기다림과 지속성 | 반응까지 기다리는 시간, 반복 요구, 포기와 주의 전환 | 즉각 반응·잠시 기다림·다른 행동으로 전환하는 분포를 설정 | 지연보상 기다림의 장기 안정성 근거가 있으나 세부 운동은 동일하지 않음. [Riemer, Mills, & Wright (2014)](https://doi.org/10.1007/s10071-013-0701-4) |\n| 보호자가 기억하는 움직임 | 맞이할 때 꼬리 속도·빈도, 몸 흔들기 등 반복 영상에서 확인되는 특징 | 그 개체의 움직임 리듬과 형태를 대표 동작으로 보존 | Bondi의 소규모 사용사례에서 관련성 보고. 효과 크기·일반화는 미확정. [Xiong, Li, & Chin (2026)](https://dl.acm.org/doi/full/10.1145/3772318.3791971) |\n| 일상 활동과 휴식 | 시간대, 평일·휴일, 보호자 재실, 활동 후 휴식과 장소 선호 | 움직임과 휴식의 비율을 생활 맥락에 맞추고 자료가 쌓이면 갱신 | 개체차와 일간 변동 모두 있음. 무활동만으로 수면을 확정할 수 없음. [Dow et al. (2009)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/) |\n| 개체의 실제 발성 | 짖음 등 실제 발성의 원음, 상황, 길이, 높낮이와 반복 | 실제 녹음을 보조 단서로 사용하고 시각 행동과 별도로 평가 | 짖음 동일/상이 판단 연구에서 자기 개가 포함된 조건의 유의한 수행 이점은 확인되지 않음. 소표본 결과이며 자기 개 선택 과제는 아님. [Molnár et al. (2006)](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf) |"
+    },
+    {
+      "id": "58d69579-38bf-421f-9a49-c359c2174efd",
+      "kind": "markdown",
+      "hash": "81c0ebca0b9880b8e77ef9ac65a327d5dfdc0fab63e95f53be7d363a00ce19c8",
+      "markdown": "눕기 전 회전, 한쪽으로 고개 기울이기, 특정 자세로 잠들기, 특정 장난감만 물고 다니기 등은 보호자가 지목하는 후보로 수집할 수 있다. 다만 이 동작들이 보호자의 자기 동물 식별을 높인다는 직접 근거는 이번 조사에서 확인하지 못했다. ‘문헌으로 검증된 식별 특징’과 ‘해당 동물의 반복 영상으로 확인한 특징’을 구분한다."
+    },
+    {
+      "id": "395e83e5-10c4-4fc2-b36e-e90eb2ac5472",
+      "kind": "markdown",
+      "hash": "dfe1d78e072bcff1e172de8cc5cb8e6078c85927753353eeef17a6cdd0477537",
+      "markdown": "# 중요한 연구 결과"
+    },
+    {
+      "id": "9408f9ad-4a44-462b-9745-bb86eeeb9a38",
+      "kind": "markdown",
+      "hash": "c6261e39cfd3afbbc41acb4e3a4215f3059e8f3e10b7bb4c25234200b46e54f8",
+      "markdown": "## 개의 개체차와 행동 측정"
+    },
+    {
+      "id": "5177698b-2a0b-4f23-9fd3-b28c796f43fa",
+      "kind": "markdown",
+      "hash": "4c04871e6791d862ae91cc4d10c5d7b782e34fe05b4b11b90dc782b56e5c1a20",
+      "markdown": "| 연구 | 설계와 표본 | 확인된 내용 | 해석 범위 |\n| --- | --- | --- | --- |\n| [Worsley & O’Hara (2018)](https://doi.org/10.1007/s10071-018-1181-3) | 37마리, 보호자가 촬영한 가정 동영상 242개 | 집단 전체에서 19종의 지시적 제스처 확인. 같은 목표에도 개마다 쓰는 제스처와 레퍼토리 크기가 다름 | 개체차의 관찰 근거. 19종은 개별 개가 모두 보이는 행동이 아님. 관찰량과 보호자 반응 지연의 영향 가능 |\n| [Gerencsér et al. (2018)](https://www.nature.com/articles/s41598-018-22605-1) | 보호자 설문 2,149건과 별도 행동검증 | 음식과 공·장난감 반응성이 구분되고, 설문 점수가 접근 지연·집중·재접근 등과 관련됨 | 상황별 선호와 반응 강도를 설정할 근거. 모든 놀이 동작의 안정성을 검증한 것은 아님 |\n| [Hirschi et al. (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/) | 반려견 56마리, 수정된 해결불가능 과제 | 사람 응시는 보상 종류·대안·보상 담당자의 영향을 받음 | 응시를 항상 애정이나 도움 요청으로 고정 해석하지 않음 |\n| [Mirkó et al. (2013)](https://real.mtak.hu/10129/) | 보호자 DPQ와 FIDO 행동검사 비교 | 공 가져오기 선호 보고는 실제 공 놀이와 관련됨(r=.47). 활동·훈련가능성의 일부 예상 대응은 확인되지 않음 | 보호자 설명과 관찰이 일부 대응하지만 서로 대체할 수 없음. 초록 수준 확인 |\n| [Turcsán et al. (2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/) | 보더콜리 217마리, 37마리 평균 3.8년 후 재검사 | 사회성·복종, 활동·독립, 새로움 탐색, 문제지향, 좌절내성 등의 요인에 시간적 일관성 | 요인 점수의 안정성. 세부 동작의 형태·속도나 자기 동물 식별을 입증하지 않음 |\n| [Riemer, Mills, & Wright (2014)](https://doi.org/10.1007/s10071-013-0701-4) | 6년 이상 간격, 보호자 평정 13마리·행동과제 10마리 | 최대 지연보상 대기시간 ICC=.80. 앞발 누르기 속도 ICC=.23으로 유의한 안정성 미확인 | 상위 성향의 안정성이 세부 운동 패턴에 그대로 적용되지 않음. 소표본 |\n| [Dow et al. (2009)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/) | 80마리, 활동계 2주 | 개체 간 차이와 개체 내 일간 변동 모두 존재. 주간 총량의 변화 중앙값 10%, 주말 총량은 21% | 하루를 대표 습관으로 고정하지 않음. 7일 관찰이 행동 정체성 학습에 충분하다는 결과는 아님 |\n| [Fratkin et al. (2013)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/) | 31연구의 메타분석 | 행동·성격의 시간적 일관성 전체 r=.43. 연령, 측정 간격과 도구 일치의 영향 | 중간 정도의 순위 안정성. 행동이 불변하거나 모든 상황에 동일하다는 뜻은 아님 |\n| [Molnár et al. (2006)](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf) | 짖음 동일/상이 판단 두 실험 각 60명, 본인 개 포함 추가조건 보호자 8명 | 자기 개 짖음이 포함된 쌍에서 유의한 수행 이점은 관찰되지 않음 | 본인 개를 선택하는 과제가 아니며 추가 표본도 작음. ‘보호자는 자기 개 소리를 못 알아본다’로 단정 금지 |"
+    },
+    {
+      "id": "ff7d3bc8-ac3b-4bf8-a67a-6aa7d454be2e",
+      "kind": "markdown",
+      "hash": "fad174bbe99247d24803c4ed79d56dd5575296ad5821045ca9ab20866baa1c9a",
+      "markdown": "## 후속 고양이 프로젝트 참고 문헌"
+    },
+    {
+      "id": "9bd554b8-029e-4f4a-ad78-e61752942fe2",
+      "kind": "markdown",
+      "hash": "623b5fca9b8b9961702952a5218a3dc74a9a49445e34f80135077317c043db1a",
+      "markdown": "| 연구 | 설계와 표본 | 확인된 내용 | 해석 범위 |\n| --- | --- | --- | --- |\n| [Mikkola et al. (2021)](https://www.mdpi.com/2076-2615/11/7/1991) | 고양이 4,316마리; 재검사 127마리, 평균 66일 | 두려움, 활동·놀이성, 사람 사회성 등 7요인. 재검사 r=.69–.92, 평균 .83 | 보호자 평가의 반복성. 2D 행동 재현의 정확도나 특정 미세행동 식별력은 아님 |\n| [Schalz, Meekings, & Dickins (2021)](https://doi.org/10.46867/ijcp.2021.34.5599) | 고양이 실험 참가자 총 100명, 자연음 조건 50명; 암컷 고양이 6마리 | 자연 울음의 동일/상이 개체 변별 d′=2.38. 음높이를 같게 만들면 성과 감소 | 낯선 고양이 목소리의 개체 변별. ‘내 고양이 고르기’는 아님. d′는 정답률이 아님 |\n| [Ellis, Swindell, & Burman (2015)](https://doi.org/10.1080/08927936.2015.1070005) | 보호자 10명, 자기/낯선 고양이 울음의 4가지 발생 상황 분류 | 자기 고양이 조건에서 참가자의 40%가 우연수준 초과. 낯선 고양이 조건에서는 없음 | 40%는 정답률이 아닌 참가자 비율. 상황 해석이지 개체 식별이 아님. 공식 초록 수준 확인 |\n| [Russo, Schild, & Knörnschild (2025)](https://www.nature.com/articles/s41598-025-31536-7) | 야옹 276개/14마리, 골골 557개/21마리의 음향 분석 | 두 발성 모두 개체 정보를 포함하고, 골골에서 더 강한 정보가 관찰됨 | 통계모델의 분류 결과. 인간이 골골로 자기 고양이를 더 잘 알아본다는 뜻은 아님 |"
+    },
+    {
+      "id": "16d7c83a-f86c-4b02-a094-0ac07ee03eb1",
+      "kind": "markdown",
+      "hash": "8727e1510c85ed238b969e05cc5882a77bc9cf159ae20a9648de977bbadfff4e",
+      "markdown": "아래 고양이 행동 후보의 수집과 구현은 후속 프로젝트에서 검토한다. 고양이에서는 사람 사회성, 활동·놀이성, 낯선 자극에 대한 접근·회피를 상위 설정으로 활용할 수 있다. 비비는 순서, 접촉 부위, 놀이 전 매복, 잠들기 전 동작 등은 별도 영상으로 확인할 후보다. 과도한 그루밍과 배변문제처럼 검사의 문제행동 영역을 곧바로 캐릭터의 개성으로 고정하지 않는다."
+    },
+    {
+      "id": "ddce27d3-9051-406d-a9ef-95a1cf173c0d",
+      "kind": "markdown",
+      "hash": "d9749c3a0472eca9a0051cbe018b4bff61f07d8834022ca4352e019e59a4adf0",
+      "markdown": "# 디지털 재현에 가까운 사용자 연구"
+    },
+    {
+      "id": "5b7bb007-9632-49f9-bf30-82857afd8b46",
+      "kind": "markdown",
+      "hash": "59d9df0c05377c1c59cc4c03ec03967e4a959006afafaf32aa5198218197083a",
+      "markdown": "[Xiong, Li, & Chin (2026)](https://dl.acm.org/doi/full/10.1145/3772318.3791971)의 Bondi는 반려동물 상실 맥락의 개인화 촉각 기기 연구다. 설문 611명, 참여설계 10명, 실제 3주 사용은 4명이었다. 한 보호자는 귀가맞이의 빠른 꼬리 움직임을 중요하게 여겼고, 다른 보호자는 꼬리 없는 코기의 몸 흔들림을 반영하도록 요청했다. 실제 소리와 익숙한 위치·루틴도 개인화에 사용됐다. 이는 특정 동물의 기억을 불러오는 단서에 대한 질적 근거이며, 2D 모바일 캐릭터의 식별 정확도나 치료효과를 입증하지 않는다."
+    },
+    {
+      "id": "1d19c69a-b23f-4e86-81ce-7d5234ea338f",
+      "kind": "markdown",
+      "hash": "fb371c88592d9088076eeece305d91fadfa934e538d0fc2eac102a25c1aebe1b",
+      "markdown": "[Riddoch, Hawkins, & Cross (2022)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353)는 반려견 보호자 153명의 개방형 응답에서 의사소통, 일관성과 예측가능성, 신체적 애정 표현, 근접성, 공동활동 등을 유대에 중요한 행동으로 정리했다. 실제 반려동물과의 관계를 이해하는 근거지만, 특정 행동이 자기 개를 구별하게 한다는 인과적 검증은 아니다."
+    },
+    {
+      "id": "1e48824c-15bf-4051-b51b-9b5091481163",
+      "kind": "markdown",
+      "hash": "a90e58146b07059f4528d142a6b58ed08018602c8dfbc1c9144d0758eee90d32",
+      "markdown": "앱에서는 개체 식별, 익숙함, 유대감을 따로 평가한다. 말하는 동물이나 사람 같은 조언 등 현재 관찰자료에 없는 능력을 추가하는 경우에도 ‘실제 동물 재현’과 ‘창작 기능’을 구분한다."
+    },
+    {
+      "id": "3f0170b2-20d7-4391-bf43-6f88ccb3139c",
+      "kind": "markdown",
+      "hash": "e68b4c7f50f6bc0bd9fffc8630b92375e530132d92f09661754abf317c65159f",
+      "markdown": "# 데이터 수집안"
+    },
+    {
+      "id": "d453b6f3-ec6d-4c85-87f9-ebf848380439",
+      "kind": "markdown",
+      "hash": "4d8ff58320f9f63c30cb6254adc3b748b8d59df9e4462da0a8de5f48d624f828",
+      "markdown": "수집 단위는 ‘동작 한 개’보다 ‘상황과 반응이 연결된 짧은 장면’으로 잡는다. 아래는 문헌 측정 항목을 바탕으로 제안하는 개발용 수집 구조다."
+    },
+    {
+      "id": "80943ffe-b422-4e74-98ff-6ae6fdd7711c",
+      "kind": "markdown",
+      "hash": "c271a1d8807cc1e3ff718972eab3588a1c27191ce49ddde23ad620eb4e6c0bca",
+      "markdown": "| 기록 항목 | 기록할 내용 |\n| --- | --- |\n| 시작 상황 | 보호자 접근, 이름 부르기, 놀이 제안, 평소 식사 준비, 자연스러운 휴식 등 |\n| 환경 | 날짜·시간대, 장소, 보호자 재실, 평일·휴일, 직전 활동 |\n| 첫 반응 | 바라보기, 접근, 접촉, 물건 가져오기, 현재 행동 유지 등 |\n| 반응 지연 | 시작 상황부터 첫 관찰 행동까지의 시간 |\n| 움직임 | 영상으로 확인 가능한 방향·범위·속도·리듬과 신체 부위 |\n| 지속과 순서 | 각 행동 지속시간, 반복 횟수, 다음 행동으로의 전환 |\n| 반응하지 않는 경우 | 관심을 보이지 않음, 다른 행동 지속, 일찍 이탈한 관찰 기회도 기록 |\n| 출처 | 원본 영상과 구간, 보호자 설명, 관찰 코딩, 시스템 추정 구분 |\n| 대표성 | 한 번 관찰됨 / 서로 다른 날 반복 확인 / 자료 부족 |\n| 보호자의 중요도 | ‘이 행동이 특히 우리 동물답다’는 평가와 그 이유 |"
+    },
+    {
+      "id": "46666207-3f21-4e1e-ae49-cfe69036bbce",
+      "kind": "markdown",
+      "hash": "198001e35a33836e67f087220f458445dea6ec41d85bc09d11667556a43dfd6c",
+      "markdown": "먼저 보호자가 가장 특징적이라고 꼽는 장면 3개와, 같은 상황을 서로 다른 날 관찰한 자료를 모으는 파일럿을 제안한다. ‘3개’는 초기 작업량을 줄이기 위한 설계 선택이며 검증된 최소 수량은 아니다. 활동 리듬은 평일과 휴일을 포함해 관찰하되, 특정 기간만으로 모든 개체 특성을 충분히 추정한다고 가정하지 않는다."
+    },
+    {
+      "id": "0d7c01a0-e599-4554-8ecc-a9a52c3f929f",
+      "kind": "markdown",
+      "hash": "b6133fd8dd82f38549f54eb93c225539f154fe0260511a5a64d5f3c8bfdcc88a",
+      "markdown": "자연스럽게 발생하는 행동을 수집한다. 겁주기, 불편한 접촉을 지속하기, 보상을 의도적으로 장시간 막기 등 연구 과제를 가정에서 재현할 필요는 없다."
+    },
+    {
+      "id": "f30c8b8e-93ab-4a04-ab42-20bf524c5d21",
+      "kind": "markdown",
+      "hash": "7d556f43a3afed847907921674c8907175a787150d2d63f72d82f46851022285",
+      "markdown": "# 자기 반려견다움의 검증안"
+    },
+    {
+      "id": "5f827e18-87f6-4a05-bb78-0b29a72718ac",
+      "kind": "markdown",
+      "hash": "08fb7593616c740b7f0aaadf88d3e43d03911571a44833ca69e5b3b5f22250fd",
+      "markdown": "아래는 본 앱을 위한 신규 검증 설계이며, 기존에 타당화된 반려동물 식별검사는 아니다."
+    },
+    {
+      "id": "395994a6-7a27-473d-a607-8c3c97953339",
+      "kind": "markdown",
+      "hash": "ea1c56c087035920b8a654422f4e8fe58722e8d60b1ec975dcc39daf17ea595a",
+      "markdown": "## 행동만으로 구별되는지"
+    },
+    {
+      "id": "28454f41-31e0-4380-883b-8292e7e0367f",
+      "kind": "markdown",
+      "hash": "ceb9e982b2f7f4ee06c004b9dcdc54f9c730571440e6df74c21c0426ebe6437d",
+      "markdown": "동일한 중립적 2D 개 외형 네 개에 본인 반려견의 행동 프로파일 하나와, 기본 활동 수준이 유사한 다른 개의 프로파일 세 개를 적용한다. 제시 순서와 위치를 무작위화하고 이름·털 무늬·고유 장난감 같은 명시적 정체성 단서를 통제한다. 가능한 경우 프로파일 제작에 쓰지 않은 상황이나 날짜의 자료로 평가 장면을 만든다."
+    },
+    {
+      "id": "1204d3ac-e079-4336-86b1-9cdf5dffadbf",
+      "kind": "markdown",
+      "hash": "d9fa9b8c7ff816c2fc75225e9e9ea9c2aa87336a3c9c03b26e6066e2bfbceda2",
+      "markdown": "강제 4지선다 과제라면 우연수준은 25%다. 별도의 ‘어느 것도 가깝지 않다’ 응답을 허용하는 과제는 분리해 분석하며, 그 과제의 우연수준을 그대로 25%로 처리하지 않는다. 동일 보호자와 동일 동물의 반복 시행을 독립 표본으로 계산하지 않는다."
+    },
+    {
+      "id": "b42df76c-b746-4d83-8759-5e0693e144b2",
+      "kind": "markdown",
+      "hash": "5972d0d0cde403bddfe00086b93f2d1946835ec44987c2b769eab23d968c7628",
+      "markdown": "## 어떤 단서가 기여하는지"
+    },
+    {
+      "id": "e3f03625-dc36-46eb-832c-278cfcdb7196",
+      "kind": "markdown",
+      "hash": "d8df881f5377c5028b6883f8bae64905f9464aa7833a28ea4cc487f2a91a3a10",
+      "markdown": "- 외형을 동일하게 유지하고 개인 행동, 일반 행동, 다른 동물 행동을 비교한다."
+    },
+    {
+      "id": "f2af292e-a87d-47ab-b8d3-11cbf02106b3",
+      "kind": "markdown",
+      "hash": "310abdacab2d74fa1adccbb4de9d52077deb8c6112d0e2f07cfb623baca7c21b",
+      "markdown": "- 소리를 포함한 조건과 제외한 조건을 비교한다."
+    },
+    {
+      "id": "bba7fc8b-ddfb-46c3-bb79-15c0f65f0d27",
+      "kind": "markdown",
+      "hash": "d6d10749ddf7820c4905684abebf28e61540c07b3010cef6ca24916a21a43b41",
+      "markdown": "- 행동 순서, 반응 지연, 움직임 리듬을 하나씩 바꿔 추가 기여를 확인한다."
+    },
+    {
+      "id": "4190b083-0629-40fd-b0ae-1ba3c0d7f42f",
+      "kind": "markdown",
+      "hash": "fd6ac04b52874b308807767745c1d6516347832d4bfde34d4111834e9b7e2467",
+      "markdown": "- 이후 외형 개인화 여부와 행동 개인화 여부를 교차해 시각적 유사성과 행동의 기여를 분리한다."
+    },
+    {
+      "id": "c51a239d-cf16-4ad0-88f7-5969c2d04f30",
+      "kind": "markdown",
+      "hash": "1b6b82670a793743df1a138da0aae67d33daca27469ff4113e464c426b4bdb7a",
+      "markdown": "## 어떤 경험이 좋아졌는지"
+    },
+    {
+      "id": "da28df37-4c99-4b00-8884-64a5e9e1c7c4",
+      "kind": "markdown",
+      "hash": "5c85c8a30744af5e53b7a1bd68a47283d35dcf13a97de77b3d39db63c548134e",
+      "markdown": "‘내 동물 같다’, ‘익숙하다’, ‘귀엽다’, ‘생동감이 있다’, ‘다시 상호작용하고 싶다’를 각각 평가한다. 어떤 행동을 보고 판단했는지 자유응답을 받아 사전 보호자 기록 및 원본 영상과 대조한다. 같은 동물을 잘 아는 가족의 독립 평가도 추가할 수 있다."
+    },
+    {
+      "id": "cffaa5dc-d5a1-441f-aceb-ec1ecaec4b29",
+      "kind": "markdown",
+      "hash": "2c4945e924487e23d00f67097c8e9684a3dd2c195e0c35009a1e6978479e4394",
+      "markdown": "수집된 자료는 먼저 개체 내 반복성과 개체 간 차이를 확인한 뒤, 구별에 기여하는 특징을 선택하는 데 사용한다. 다른 동물에게도 흔하고 반복 관찰이 불안정한 행동을 희귀한 ‘고유 습관’으로 우선시하지 않는다."
+    },
+    {
+      "id": "145c894b-3dce-43b5-93b2-71f1ee608ea1",
+      "kind": "markdown",
+      "hash": "26b82e48c1023f75f7a5c03f206262aedb94fa2e27d39c06c10968e44cf885b5",
+      "markdown": "# 첫 시제품에 반영할 제안"
+    },
+    {
+      "id": "b2be6237-694a-4e96-ba40-c9758f99521d",
+      "kind": "markdown",
+      "hash": "c1cd8ddbf7f9c499de260cc5ed3f825d850aa6ae4a3791311ae5fbc15c1156e1",
+      "markdown": "Android의 표시 기능 검증용 걷기·쉬기·잠들기는 유지하되, 자기 반려견다움을 평가하는 단계에는 다음 묶음을 추가한다."
+    },
+    {
+      "id": "62a520c9-5b67-4fb7-8a01-36e943cfb457",
+      "kind": "markdown",
+      "hash": "7648d2a225f61b368ca281ef2ae47ac6b4333d55d552c6fefc3d97d1684b1c38",
+      "markdown": "1. 보호자가 지목한 대표 상호작용 장면 3개를 구현한다."
+    },
+    {
+      "id": "9a2a26c9-e5cd-48ec-873c-28fc2ac831fc",
+      "kind": "markdown",
+      "hash": "a2b5bbfb310d16847d08cf5ca79ba7c15d759f4ead9047537b264bb803baa95d",
+      "markdown": "2. 요구 몸짓의 순서, 선호 자극, 반응 지연, 지속과 종료를 조절할 수 있게 한다."
+    },
+    {
+      "id": "fa76aec2-36e0-411a-9a41-12d890625715",
+      "kind": "markdown",
+      "hash": "c001208da17fb155352e30467984d1e5eb843f64031d57f2df1acf5437b60ab6",
+      "markdown": "3. 개체별로 반응하지 않거나 다른 행동을 유지하는 경우도 관찰자료에 맞게 허용한다."
+    },
+    {
+      "id": "579fa1c4-9e42-4204-998c-ecd5531289a3",
+      "kind": "markdown",
+      "hash": "f8d9e462b46b33439199a5d8a2a3c90833cbd45c068138821022f23de199c51f",
+      "markdown": "4. 실제 소리는 선택 기능으로 두고, 시각 행동의 효과를 평가할 때는 음소거 조건을 함께 둔다."
+    },
+    {
+      "id": "ed1755d2-e1c5-426e-8838-7924b4b053a8",
+      "kind": "markdown",
+      "hash": "896f909e2281441e8ad8fb94e16bcdeaeb4fe66fe6e77114174292c7e959140a",
+      "markdown": "5. 앱·플로팅·위젯이 같은 프로파일을 참조하도록 하되, 위젯의 표현 제약과 행동 프로파일 자체를 구분한다."
+    },
+    {
+      "id": "01bfa11c-1996-4818-9653-d0c04e94258a",
+      "kind": "markdown",
+      "hash": "33d0ca6f4c6c1bdce3bddcb210b8db1644e1bc3ffb50b040583445e30e75aff3",
+      "markdown": "이 시점의 개발 우선순위는 ‘대표 상호작용과 요구 방식 → 보상·놀이 선호와 반응 타이밍 → 특유 움직임 → 일상 리듬과 소리’로 제안한다. 순서는 현재 근거와 2D 구현 범위를 고려한 설계 판단이며, 식별력 순위는 실험 후 갱신한다."
+    },
+    {
+      "id": "e5bcbbe8-35fa-4584-bf25-b20c702f3606",
+      "kind": "markdown",
+      "hash": "6f5962b9446e7a699d9e95593af31ce57b9ed25098291c5996a76df23e7ac560",
+      "markdown": "# 참고문헌"
+    },
+    {
+      "id": "93f429c5-09c0-46fb-bde6-0bcc3c1f984e",
+      "kind": "markdown",
+      "hash": "94f75f509f4e061394333af47e0e5615b9cc2361e252cfce7d88f09e7e1d8944",
+      "markdown": "1. Worsley & O’Hara (2018). [Cross-species referential signalling events in domestic dogs (Canis familiaris)](https://doi.org/10.1007/s10071-018-1181-3)."
+    },
+    {
+      "id": "09438694-44c1-46f5-9efa-e7416cad682d",
+      "kind": "markdown",
+      "hash": "e4b5c6cad31ac7d414588139ed8840d158e81110b21c7831389e05a25bab6f9f",
+      "markdown": "2. Gerencsér et al. (2018). [Development and validation of the Canine Reward Responsiveness Scale – Examining individual differences in reward responsiveness of the domestic dog](https://www.nature.com/articles/s41598-018-22605-1)."
+    },
+    {
+      "id": "6a018d54-1a43-4e8f-81b6-da38dc5cf7ba",
+      "kind": "markdown",
+      "hash": "feb1ba110731be32ec64b3167fca033d86727c0d7d62dd938ef9fe1f32dcd91e",
+      "markdown": "3. Hirschi et al. (2022). [Disentangling help-seeking and giving up: differential human-directed gazing by dogs in a modified unsolvable task paradigm](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/)."
+    },
+    {
+      "id": "f8dde2dc-8e56-44c4-b79b-9dac5550e296",
+      "kind": "markdown",
+      "hash": "277f4bb2ff85937ea219f7201eefdf71005b36c541373e5e7de5e86474eb150c",
+      "markdown": "4. Mirkó et al. (2013). [Association between subjective rating and behaviour coding and the role of experience in making video assessments on the personality of the domestic dog (Canis familiaris)](https://real.mtak.hu/10129/)."
+    },
+    {
+      "id": "2cbd3aa4-d370-4125-9d7a-610c7c9044f0",
+      "kind": "markdown",
+      "hash": "95176d619ab0de4128b9d8aa818a5b6b0e54fd694fbefc54d463d56e1a538af6",
+      "markdown": "5. Dow et al. (2009). [Evaluation of optimal sampling interval for activity monitoring in companion dogs](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/)."
+    },
+    {
+      "id": "8055e568-93e2-4958-8e7d-9fa5b181b238",
+      "kind": "markdown",
+      "hash": "904b6e035e44cc8bca4bfe0bc861229e8c65688b98289d30e622d645734b9467",
+      "markdown": "6. Turcsán et al. (2018). [Personality traits in companion dogs—Results from the VIDOPET](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/)."
+    },
+    {
+      "id": "ba9f151a-9add-4df1-a812-efd41a1d76ca",
+      "kind": "markdown",
+      "hash": "b314e5d75fee83e479a74de59c8f830821a78c5250e9d06ebd88f343926f8694",
+      "markdown": "7. Riemer, Mills, & Wright (2014). [Impulsive for life? The nature of long-term impulsivity in domestic dogs](https://doi.org/10.1007/s10071-013-0701-4)."
+    },
+    {
+      "id": "476e1d0b-e8c8-44d3-8f0f-6fa86fc39d31",
+      "kind": "markdown",
+      "hash": "10cd903d3a2e38e9ec17b5bc84a8d05e27d6125a0f3ebb97e05c759f03e9109c",
+      "markdown": "8. Fratkin et al. (2013). [Personality Consistency in Dogs: A Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/)."
+    },
+    {
+      "id": "c1f03456-7b0c-4bcd-9604-0669f1e76547",
+      "kind": "markdown",
+      "hash": "6141dd2df6cc5e9d82da4d6da2a5ece6423a2c8b858121ac6c5e87c05026cba8",
+      "markdown": "9. Molnár et al. (2006). [Can humans discriminate between dogs on the base of the acoustic parameters of barks?](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf)."
+    },
+    {
+      "id": "865b0b34-2f68-4c64-8830-27cf124a1c4d",
+      "kind": "markdown",
+      "hash": "00aeaec6dd36144bc505c201329b0ab2167cdba3fcc90bad518c1a9d326b46d6",
+      "markdown": "10. Mikkola et al. (2021). [Reliability and Validity of Seven Feline Behavior and Personality Traits](https://www.mdpi.com/2076-2615/11/7/1991)."
+    },
+    {
+      "id": "9b16b13a-d7ee-4e30-a04a-576519ea2def",
+      "kind": "markdown",
+      "hash": "5c50ef28ffdb048ec74acff053bf639a7eadbf6c6ed46b6c1161b481ae6805f0",
+      "markdown": "11. Schalz, Meekings, & Dickins (2021). [Humans Discriminate Individual Large-Billed Crows and Individual Cats by Their Respective Vocalizations](https://doi.org/10.46867/ijcp.2021.34.5599)."
+    },
+    {
+      "id": "2f46ac79-e6e2-41d6-a1a1-6ef4fc6b0904",
+      "kind": "markdown",
+      "hash": "107675a962fc9932d89adf841c041a3a110d13f49de7adc93268523f7ce0715f",
+      "markdown": "12. Ellis, Swindell, & Burman (2015). [Human Classification of Context-Related Vocalizations Emitted by Familiar And Unfamiliar Domestic Cats: An Exploratory Study](https://doi.org/10.1080/08927936.2015.1070005)."
+    },
+    {
+      "id": "0d910bb2-7e48-46b5-8ebb-3b4b1955d267",
+      "kind": "markdown",
+      "hash": "0410d107fc94fc58cb2a12d6772f2aff9f36a399348a8dc5e20fa89077d729f2",
+      "markdown": "13. Russo, Schild, & Knörnschild (2025). [Meows encode less individual information than purrs and show greater variability in domestic than in wild cats](https://www.nature.com/articles/s41598-025-31536-7)."
+    },
+    {
+      "id": "6b719ca2-ffab-4208-a056-f6952f80ad7c",
+      "kind": "markdown",
+      "hash": "7a4b660fc00f9fec726912f45f9fdbf63a52f9c9888bbd9b53431696221ac3ff",
+      "markdown": "14. Xiong, Li, & Chin (2026). [Bondi: Designing Tangible and Multimodal Interfaces for Continuing Bonds in Pet Bereavement](https://dl.acm.org/doi/full/10.1145/3772318.3791971)."
+    },
+    {
+      "id": "fce507ff-abc0-48ba-99e5-5b6c01e79cc5",
+      "kind": "markdown",
+      "hash": "7c628721f85c683862e6f273c61e131fc7090771541eb5f2a411ae50374db9fb",
+      "markdown": "15. Riddoch, Hawkins, & Cross (2022). [Exploring behaviours perceived as important for human—Dog bonding and their translation to a robotic platform](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353)."
+    }
+  ]
+}

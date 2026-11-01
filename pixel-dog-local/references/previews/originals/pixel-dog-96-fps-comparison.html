@@ -1,0 +1,169 @@
+<div id="pixel-dog-96-fps-comparison">
+  <div class="viz-row pdm-top">
+    <span>96 × 96 px · 같은 1초 동작</span>
+    <button type="button" class="btn btn-primary" id="pdm-play" aria-pressed="false">동시 재생</button>
+  </div>
+  <div class="pdm-comparison" id="pdm-comparison" aria-label="초당 프레임 수에 따른 강아지 움직임 비교"></div>
+  <div class="sr-only" id="pdm-announcement" aria-live="polite">재생 준비</div>
+  <style>
+    #pixel-dog-96-fps-comparison { color:var(--foreground); }
+    #pixel-dog-96-fps-comparison .pdm-top { justify-content:space-between; gap:10px; }
+    #pixel-dog-96-fps-comparison .pdm-comparison { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px 20px; margin-top:22px; }
+    #pixel-dog-96-fps-comparison figure { margin:0; min-width:0; text-align:center; }
+    #pixel-dog-96-fps-comparison figcaption { font-weight:500; }
+    #pixel-dog-96-fps-comparison .pdm-stage { display:flex; justify-content:center; margin:8px 0; }
+    #pixel-dog-96-fps-comparison .pdm-stage svg { width:192px; max-width:100%; height:auto; display:block; }
+    #pixel-dog-96-fps-comparison .pdm-art { shape-rendering:crispEdges; }
+    #pixel-dog-96-fps-comparison .fur { fill:color-mix(in srgb,var(--orange) 44%,var(--background)); }
+    #pixel-dog-96-fps-comparison .shade { fill:color-mix(in srgb,var(--orange) 65%,var(--foreground) 18%); }
+    #pixel-dog-96-fps-comparison .light { fill:color-mix(in srgb,var(--orange) 17%,var(--background)); }
+    #pixel-dog-96-fps-comparison .ink { fill:var(--foreground); }
+    #pixel-dog-96-fps-comparison .shine { fill:var(--background); }
+    #pixel-dog-96-fps-comparison .collar { fill:var(--blue); }
+    #pixel-dog-96-fps-comparison .tag { fill:var(--yellow); }
+    #pixel-dog-96-fps-comparison .ground { fill:var(--muted); }
+  </style>
+  <script>
+  (() => {
+    const root = document.getElementById('pixel-dog-96-fps-comparison');
+    const N = 96;
+    const U = 100 / N;
+    const ns = 'http://www.w3.org/2000/svg';
+    const params = Array.from({length:24},(_,i)=>{
+      const t=i/24, wave=Math.sin(t*Math.PI*2);
+      return {tail:22*wave,hx:1.4*wave,hy:-1.5*wave,ear:.7*Math.sin(t*Math.PI*2-.5),open:Math.min(1,Math.abs(t-.5)/.1),breath:2*wave};
+    });
+    const ellipse = (x,y,cx,cy,rx,ry) => ((x-cx)/rx)**2 + ((y-cy)/ry)**2 <= 1;
+    function polygon(x,y,points) {
+      let inside = false;
+      for(let i=0,j=points.length-1;i<points.length;j=i++) {
+        const [xi,yi]=points[i], [xj,yj]=points[j];
+        if((yi>y)!==(yj>y) && x<(xj-xi)*(y-yi)/(yj-yi)+xi) inside=!inside;
+      }
+      return inside;
+    }
+    function pixel(x,y,f,tail) {
+      let p = '';
+      if(ellipse(x,y,51,92,34,4)) p='ground';
+      if(polygon(x,y,tail)) p='shade';
+      const bx=x-f.hx*U*.35;
+      const by=92+(y-92)/(1+f.breath*.008);
+      if(ellipse(bx,by,51,73,24,20)) p='shade';
+      if(ellipse(bx,by,50,72,18,20)) p='fur';
+      if(ellipse(bx,by,49,70,10,16)) p='light';
+      if(ellipse(x,y,31,85,12,6)||ellipse(x,y,69,85,12,6)) p='fur';
+      if(x>=34&&x<43&&y>=69&&y<91) p='fur';
+      if(x>=57&&x<66&&y>=69&&y<91) p='fur';
+      if(ellipse(x,y,38,89,8,4)||ellipse(x,y,62,89,8,4)) p='light';
+      if(ellipse(bx,by,50,58,20,5)) p='collar';
+      if(ellipse(bx,by,50,63,3,3)) p='tag';
+      const hx=x-f.hx*U, hy=y-f.hy*U;
+      const ex=hx-f.ear*U, ey=hy+f.ear*U*.5;
+      if(ellipse(ex,ey,26,37,12,21)||ellipse(ex,ey,74,37,12,21)) p='shade';
+      if(ellipse(hx,hy,50,33,25,24)) p='fur';
+      if(ellipse(hx,hy,35,18,10,10)||ellipse(hx,hy,48,15,12,9)||ellipse(hx,hy,62,19,10,10)) p='fur';
+      if(ellipse(ex,ey,24,44,6,12)||ellipse(ex,ey,76,44,6,12)) p='fur';
+      if(ellipse(hx,hy,50,45,16,11)) p='light';
+      if(ellipse(hx,hy,50,43,6,4)) p='ink';
+      if(hx>=48&&hx<52&&hy>=45&&hy<50) p='ink';
+      if(ellipse(hx,hy,50,51,7,2)&&hy>=51) p='shade';
+      if(f.open>0) {
+        const eyeY=34+(1-f.open)*1.5;
+        if(ellipse(hx,hy,38,eyeY,3.3,4*f.open)||ellipse(hx,hy,62,eyeY,3.3,4*f.open)) p='ink';
+        if(f.open>.75 && (ellipse(hx,hy,37,32.5,1.25,1.4)||ellipse(hx,hy,61,32.5,1.25,1.4))) p='shine';
+      } else {
+        for(const cx of [38,62]) {
+          const dx=hx-cx;
+          if(Math.abs(dx)<3.8 && Math.abs(hy-(35+.07*dx*dx))<.8) p='ink';
+        }
+      }
+      if(ellipse(hx,hy,48.5,41.8,2,.8)) p='shade';
+      for(const [cx,cy] of [[36,19],[48,16],[61,20]]) {
+        const d=((hx-cx)/2.7)**2+((hy-cy)/2.3)**2;
+        if(d>.52&&d<1&&hy>cy-.6&&p==='fur') p='shade';
+      }
+      for(const [cx,cy] of [[24,36],[24,45],[76,36],[76,45]]) {
+        const d=((ex-cx)/2.7)**2+((ey-cy)/2.3)**2;
+        if(d>.52&&d<1&&ey>cy-.6&&p==='fur') p='shade';
+      }
+      if(y>88&&y<91&&((x>35&&x<36)||(x>39&&x<40)||(x>59&&x<60)||(x>63&&x<64))) p='shade';
+      return p;
+    }
+    const framePaths=params.map(f=>{
+      const a=f.tail*Math.PI/180;
+      const tail=[[68,74],[79,71],[85,61],[90,62],[91,72],[84,82],[69,86]].map(([x,y])=>[
+        70+(x-70)*Math.cos(a)-(y-80)*Math.sin(a),
+        80+(x-70)*Math.sin(a)+(y-80)*Math.cos(a)
+      ]);
+      const paths={};
+      for(let y=0;y<N;y++) {
+        const row=Array.from({length:N},(_,x)=>pixel((x+.5)*U,(y+.5)*U,f,tail));
+        for(let x=0;x<N;) {
+          const c=row[x], start=x;
+          while(x<N&&row[x]===c)x++;
+          if(c)paths[c]=(paths[c]||'')+`M${start} ${y}h${x-start}v1H${start}z`;
+        }
+      }
+      return paths;
+    });
+    function svgFrame(index) {
+      const svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('viewBox',`0 0 ${N} ${N}`);
+      svg.setAttribute('class','pdm-art');
+      svg.setAttribute('role','img');
+      svg.setAttribute('aria-label','96 곱하기 96픽셀 강아지가 앉아서 꼬리를 흔들고 눈을 깜빡이는 모습');
+      for(const [color,d] of Object.entries(framePaths[index])) {
+        const path=document.createElementNS(ns,'path');
+        path.setAttribute('class',color); path.setAttribute('d',d); svg.appendChild(path);
+      }
+      return svg;
+    }
+    const play=root.querySelector('#pdm-play');
+    const comparison=root.querySelector('#pdm-comparison');
+    const announcement=root.querySelector('#pdm-announcement');
+    const panels=[4,8,12,24].map(fps=>{
+      const figure=document.createElement('figure');
+      const caption=document.createElement('figcaption');caption.textContent=`${fps} fps`;figure.appendChild(caption);
+      const stage=document.createElement('div');stage.className='pdm-stage';figure.appendChild(stage);
+      const status=document.createElement('div');status.className='text-small text-muted tabular-nums';figure.appendChild(status);
+      comparison.appendChild(figure);
+      return {fps,stage,status,current:-1};
+    });
+    let elapsed=0, start=0, raf=null, running=false;
+    function render(ms) {
+      const phase=(ms%1000)/1000;
+      for(const panel of panels) {
+        const index=Math.min(panel.fps-1,Math.floor(phase*panel.fps));
+        if(index===panel.current)continue;
+        panel.current=index;
+        panel.stage.replaceChildren(svgFrame(index*(24/panel.fps)));
+        panel.status.textContent=`프레임 ${String(index+1).padStart(2,'0')} / ${String(panel.fps).padStart(2,'0')}`;
+      }
+    }
+    function tick(now) {
+      if(!running)return;
+      if(!root.isConnected){stop();return;}
+      elapsed=now-start;render(elapsed);
+      raf=requestAnimationFrame(tick);
+    }
+    function stop() {
+      running=false;if(raf!==null)cancelAnimationFrame(raf);raf=null;
+      play.textContent='동시 재생';play.setAttribute('aria-pressed','false');
+      announcement.textContent='모든 움직임 정지';
+    }
+    function begin() {
+      if(running)return;
+      running=true;start=performance.now()-elapsed;
+      play.textContent='일시정지';play.setAttribute('aria-pressed','true');
+      announcement.textContent='4, 8, 12, 24 fps 동시 재생';
+      raf=requestAnimationFrame(tick);
+    }
+    play.addEventListener('click',()=>running?stop():begin());
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
+    render(0);
+    const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+    reduced.addEventListener('change',e=>{if(e.matches)stop();});
+    if(!reduced.matches)begin();
+  })();
+  </script>
+</div>

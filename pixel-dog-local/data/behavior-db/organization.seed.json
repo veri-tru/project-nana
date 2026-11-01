@@ -1,0 +1,544 @@
+{
+  "version": "2.0.0",
+  "review": "reviews/behavior-db-2026-10-17/report.md",
+  "as_of": "2026-10-17",
+  "new_nodes": [
+    {
+      "node_id": "PAW_OBJECT_AGG",
+      "parent_id": "T_OTHER",
+      "level": 3,
+      "name_ko": "물체를 향한 앞발 동작 종합",
+      "definition": "접촉 여부가 섞인 앞발 뻗기·접촉·누르기 등 원연구 합산 범주. 세부형 발생을 분해하지 않음.",
+      "recordable": 1
+    },
+    {
+      "node_id": "ORAL_MANIP_AGG",
+      "parent_id": "T_ORAL",
+      "level": 3,
+      "name_ko": "입으로 물체 다루기 종합",
+      "definition": "물체를 입으로 다루기와 씹기가 합산된 연구 범주. 구성 동작의 개별 발생량은 미상.",
+      "recordable": 1
+    }
+  ],
+  "node_updates": {
+    "REST_HEAD_UP": {
+      "name_ko": "머리를 스스로 지지하며 쉬기",
+      "definition": "목으로 머리를 유지하는 휴식. 절대적인 머리 높이와 구별한다."
+    },
+    "REST_HEAD_DOWN": {
+      "name_ko": "머리를 외부에 맡기고 쉬기",
+      "definition": "턱이나 머리를 지면·앞발·물체에 맡긴 휴식. 높은 받침도 포함할 수 있으며 위치는 별도 속성이다."
+    },
+    "PAW_FACE_SCRATCH": {
+      "name_ko": "앞발로 얼굴 긁기",
+      "definition": "앞발로 자기 얼굴을 긁는 동작. 부드러운 문지름은 미확인 요청 변형으로 별도 관리."
+    },
+    "CARRY_OBJECT": {
+      "name_ko": "물체를 문 채 옮기기",
+      "definition": "입에 물체를 유지하며 이동함. 특정 상대에게 가져다주는 목적이나 반환은 별도."
+    },
+    "DIG": {
+      "definition": "앞발을 번갈아 펴고 굽혀 바닥·물체를 파는 형태. 단순 표면 긁기와의 구분은 원문 또는 보호자 확인이 필요."
+    }
+  },
+  "record_updates": {
+    "C_KQ01_01": {
+      "situation_id": "S_WALK_CUE",
+      "trigger_text": "보호자가 산책하자고 말함"
+    },
+    "E017": {
+      "posture_detail": "앉거나 누운 상태에서 목으로 머리를 유지",
+      "source_locator": "L05 §3.4; Table 2 Resting-Head Up; 2026-10-17 재검토",
+      "summary": "움직임이 없는 앉거나 누운 상태에서 목으로 머리를 유지하는 휴식 범주를 정의했다."
+    },
+    "E018": {
+      "posture_detail": "앉거나 누운 상태에서 머리를 외부 지지면에 맡김; 높이 무관",
+      "source_locator": "L05 §3.4; Table 2 Rest; 2026-10-17 재검토",
+      "summary": "목으로 머리를 유지하지 않고 외부에 맡긴 휴식 범주를 정의했다. 높은 받침 위의 머리도 포함한다."
+    },
+    "E019": {
+      "claim_type": "literature_mention",
+      "occurrence_status": "MENTION_ONLY",
+      "inclusion_status": "insufficient_detail",
+      "source_locator": "L05 기존 자세 기반 분류의 한계 설명; Table 2 대조; 2026-10-17 재검토",
+      "summary": "옆으로 누운 경우 기존 자세 기반 분류가 실패할 수 있다는 본문 언급이 있다. Table 2의 독립 옆눕기 정의는 아니다.",
+      "limitation": "기존 literature_definition 등록을 정정했다. 옆눕기 형태 자체의 정의 근거로 사용하지 않으며 별도 L04/E174 등과 출처를 구별한다."
+    },
+    "E070": {
+      "behavior_id": "PAW_OBJECT_AGG",
+      "summary": "물체를 향한 앞발 동작을 접촉·비접촉 세부형을 합쳐 코딩했다. 합산 결과로 개별 접촉 여부를 확정할 수 없다."
+    },
+    "E071": {
+      "behavior_id": "ORAL_MANIP_AGG"
+    },
+    "C_KQ03_03": {
+      "behavior_id": "SELF_LICK",
+      "target_text": "자기 앞발 등·배"
+    }
+  },
+  "concept_aliases": {
+    "SIT_STRAIGHT": "SIT",
+    "SIT_SIDE": "SIT",
+    "LIE_CURL": "LIE",
+    "LIE_BELLY": "LIE",
+    "LIE_PRONE": "LIE",
+    "LIE_SIDE": "LIE",
+    "REST_HEAD_UP": "REST",
+    "REST_HEAD_DOWN": "REST",
+    "REST_HEAD_SUPPORTED": "REST",
+    "REST_HEAD_DANGLE": "REST",
+    "PAW_TAP": "PAW_TOUCH",
+    "PAW_REST": "PAW_TOUCH",
+    "PAW_HIGHFIVE": "PAW_TOUCH",
+    "LICK_NOSE": "LICK",
+    "LIP_LICK": "LICK",
+    "SURFACE_LICK": "LICK",
+    "SELF_LICK": "LICK",
+    "SNIFF_AIR": "SNIFF",
+    "SNIFF_GROUND": "SNIFF",
+    "SNIFF_SELF": "SNIFF",
+    "URINATE_LEG": "URINATE",
+    "URINATE_SQUAT": "URINATE",
+    "PAW_FACE_SCRATCH": "SCRATCH_SELF",
+    "RUB_UNDER": "RUB",
+    "PACING": "WALK",
+    "APPROACH_BOUNCY": "APPROACH",
+    "LOOK_FIXED": "LOOK",
+    "JUMP_HIND": "JUMP"
+  },
+  "concept_labels": {
+    "REST": "휴식 자세",
+    "LIE": "누운 자세",
+    "SIT": "앉은 자세"
+  },
+  "kind_sets": {
+    "posture_state": [
+      "SIT",
+      "STAND",
+      "LIE",
+      "REST",
+      "SLEEP",
+      "NEAR",
+      "WAIT",
+      "HIDE",
+      "BODY_BLOCK",
+      "BODY_STIFF",
+      "TAIL_TUCK",
+      "HIND_STAND",
+      "FRONT_SUPPORT",
+      "PAW_HOVER",
+      "PAW_CROSS",
+      "MOUTH_CLOSED",
+      "TONGUE_OUT",
+      "EYE_CLOSED",
+      "EYE_PART_CLOSED",
+      "HOLD_OBJECT",
+      "ORIENT_SIDE"
+    ],
+    "transition": [
+      "SIT_DOWN",
+      "LIE_DOWN",
+      "RISE",
+      "WAKE",
+      "SHIFT_SUPPORT"
+    ],
+    "composite_activity": [
+      "PLAY",
+      "FETCH",
+      "SCENT_SEARCH",
+      "EXPLORE",
+      "KEEP_AWAY_OBJECT",
+      "TAIL_CHASE",
+      "SHADOW_CHASE",
+      "SELF_GROOM",
+      "APPROACH_RETREAT"
+    ],
+    "aggregate_measure": [
+      "ACTIVITY",
+      "RESPONSE_WAIT"
+    ],
+    "aggregate_behavior": [
+      "MANIPULATE",
+      "PAW_OBJECT_AGG",
+      "ORAL_MANIP_AGG",
+      "MOVE",
+      "VOCAL"
+    ],
+    "task_outcome": [
+      "CUE_FOLLOW",
+      "MAINTAIN"
+    ]
+  },
+  "node_facets": {
+    "SIT_STRAIGHT": {
+      "몸통_자세": "곧게 앉음"
+    },
+    "SIT_SIDE": {
+      "몸통_자세": "한쪽 엉덩이로 앉음"
+    },
+    "LIE_PRONE": {
+      "몸통_자세": "배를 아래로"
+    },
+    "LIE_SIDE": {
+      "몸통_자세": "옆면을 아래로"
+    },
+    "LIE_BELLY": {
+      "몸통_자세": "등을 아래로"
+    },
+    "LIE_CURL": {
+      "몸통_자세": "둥글게 말림"
+    },
+    "REST_HEAD_UP": {
+      "머리_지지": "목으로 유지"
+    },
+    "REST_HEAD_DOWN": {
+      "머리_지지": "외부 지지"
+    },
+    "REST_HEAD_SUPPORTED": {
+      "머리_지지": "외부 지지",
+      "머리_위치": "받침 위"
+    },
+    "REST_HEAD_DANGLE": {
+      "머리_위치": "가장자리 아래"
+    },
+    "PAW_TAP": {
+      "접촉_형태": "짧게 건드림"
+    },
+    "PAW_REST": {
+      "접촉_형태": "얹고 유지"
+    },
+    "PAW_HIGHFIVE": {
+      "접촉_대상": "사람 손",
+      "신호": "학습한 하이파이브"
+    },
+    "LICK_NOSE": {
+      "접촉_대상": "자기 코"
+    },
+    "LIP_LICK": {
+      "접촉_대상": "자기 입 주변"
+    },
+    "SELF_LICK": {
+      "접촉_대상": "자기 몸"
+    },
+    "SURFACE_LICK": {
+      "접촉_대상": "외부 표면"
+    },
+    "SNIFF_AIR": {
+      "탐색_대상": "공중"
+    },
+    "SNIFF_GROUND": {
+      "탐색_대상": "지면"
+    },
+    "SNIFF_SELF": {
+      "탐색_대상": "자기 몸"
+    },
+    "URINATE_LEG": {
+      "배뇨_자세": "뒷다리 들기"
+    },
+    "URINATE_SQUAT": {
+      "배뇨_자세": "쪼그림"
+    },
+    "PAW_FACE_SCRATCH": {
+      "사용_부위": "앞발",
+      "접촉_대상": "자기 얼굴"
+    },
+    "RUB_UNDER": {
+      "접촉_부위": "등",
+      "접촉_대상": "낮은 가구"
+    },
+    "PACING": {
+      "이동_경로": "유사 경로 반복"
+    },
+    "APPROACH_BOUNCY": {
+      "접근_형태": "통통 튀는 접근"
+    },
+    "LOOK_FIXED": {
+      "주시_형태": "지속 응시"
+    },
+    "JUMP_HIND": {
+      "도약_지지": "뒷발"
+    }
+  },
+  "record_facets": {
+    "E168": {
+      "머리_지지": "외부 지지",
+      "머리_위치": "침대 가장자리 등"
+    },
+    "E171": {
+      "앞발_배치": "뻗음",
+      "뒷다리_배치": "뻗음"
+    },
+    "C_DC01_01": {
+      "머리_받침": "슬리퍼"
+    },
+    "C_KD01_02": {
+      "머리_받침": "보호자 팔"
+    },
+    "P008": {
+      "앞발_선택지": "나란히 또는 교차",
+      "머리_받침_선택지": "바닥 또는 앞발"
+    },
+    "U015": {
+      "앞발_배치": "교차"
+    },
+    "E144": {
+      "좌우": "왼쪽"
+    },
+    "E145": {
+      "좌우": "오른쪽"
+    },
+    "E157": {
+      "직전_행동": "배뇨"
+    },
+    "E158": {
+      "직전_행동": "배변"
+    },
+    "E070": {
+      "접촉_여부": "접촉과 비접촉 합산"
+    },
+    "E071": {
+      "합산_범위": "입 조작과 씹기"
+    },
+    "E131": {
+      "합산_범위": "속보와 측대보"
+    },
+    "E192": {
+      "동작_근거": "긁기 정의만 확인"
+    },
+    "C_KQ03_03": {
+      "핥는_부위": "앞발 등과 배"
+    }
+  },
+  "contexts": {
+    "S_UNSPEC": "상황 미기재",
+    "S_REQUEST": "요구·상호작용",
+    "S_REST": "휴식",
+    "S_SLEEP": "수면·각성",
+    "S_REUNION": "재회",
+    "S_OWNER_MOVE": "보호자와 함께 있음",
+    "S_VOICE": "사람과 상호작용",
+    "S_PRAISE": "사람과 상호작용",
+    "S_TRAIN": "학습 신호 수행",
+    "S_PLAY": "놀이",
+    "S_TOY": "물체 상호작용",
+    "S_FOOD": "음식·보상",
+    "S_NOVEL": "낯선 환경·대상",
+    "S_SOCIAL": "다른 개와 만남",
+    "S_WALK": "산책 중",
+    "S_WALK_CUE": "산책 제안",
+    "S_GROOM": "목욕·빗질",
+    "S_VET": "진료",
+    "S_HEALTH": "건강·관리 문의",
+    "S_OBJECT": "생활 물체 접촉",
+    "S_ACTIVITY": "일상 활동",
+    "S_THREAT": "위협 접근",
+    "S_AFFECT_COMPARE": "여러 조건 비교",
+    "S_PETTING_CHOICE": "사람 접촉 선택",
+    "S_SCENT_TASK": "보상 냄새 탐색",
+    "S_CHEW_ALONE": "보호자 분리 중 씹기",
+    "S_REWARD_EXPECT": "보상 기대",
+    "S_REWARD_BLOCK": "보상 접근 차단",
+    "S_OWNER_POS_CALM": "보호자가 차분하다고 묘사한 장면",
+    "S_OWNER_POS_EXCITED": "보호자가 신났다고 묘사한 장면",
+    "S_FIREWORKS": "불꽃놀이·폭음",
+    "S_ACUTE_AVERSIVE": "급성 자극",
+    "S_TRAIN_COMPARE": "훈련",
+    "S_REWARD_OMIT": "보상 중단",
+    "S_HUMAN_APPROACH": "낯선 사람 접근",
+    "S_PRE_BITE": "물림 사건 전후",
+    "S_BRIEF_SEPARATION": "보호자 분리",
+    "S_REPETITIVE_REPORT": "반복 행동 보고",
+    "S_RESOURCE_GUARD": "자원 접근 통제",
+    "S_ROUTINE_VALIDATION": "유도·자유 활동 혼합",
+    "S_WATER": "물 마시기",
+    "S_SHAKE_TRANSITION": "사회적 장소",
+    "S_ROUTINE_CODING": "원문 정의의 맥락",
+    "S_ELIM_WALK": "산책 중 배설",
+    "S_MIXED_SELFCARE": "가정·병원 혼합",
+    "S_GUIDED_TASK": "보호자 유도 과제",
+    "S_SLEEP_REPORT": "수면",
+    "S_PUP_OBJECT_PLAY": "물체 놀이",
+    "S_HUMAN_ATTENTION": "사람의 주의·먹이 제시",
+    "S_REWARD_SCHEDULE": "먹이 강화 일정",
+    "S_ISOLATION_DIFFUSER": "낯선 공간의 격리",
+    "S_BED_PREP": "잠자리 준비",
+    "S_FOOD_RELOCATE": "먹이 이동·보관",
+    "S_POSTURE_TRANSITION": "자세 전환"
+  },
+  "requirements": [
+    {
+      "id": "REQ_BED_CIRCLE",
+      "name": "잠자리 회전",
+      "concept": "CIRCLE",
+      "records": [
+        "P009",
+        "U011"
+      ],
+      "note": "같은 개인화 요구로 연결. 실제 습관·회전 횟수 미확인."
+    },
+    {
+      "id": "REQ_PAW_POSITION",
+      "name": "쉬는 자세의 앞발 배치",
+      "concept": "PAW_CROSS",
+      "records": [
+        "P008",
+        "U015"
+      ],
+      "note": "교차·나란히 선택지를 보존하며 머리 받침은 별도 속성."
+    },
+    {
+      "id": "REQ_BED_SURFACE",
+      "name": "잠자리 표면 다루기",
+      "concept": "SCRATCH_SURFACE",
+      "records": [
+        "P010",
+        "U010"
+      ],
+      "note": "파기와 긁기의 경계는 조건부. 원래 DIG/SCRATCH_SURFACE 코드는 각각 유지."
+    },
+    {
+      "id": "REQ_FACE_RUB",
+      "name": "앞발로 얼굴 문지르기",
+      "concept": "SCRATCH_SELF",
+      "records": [
+        "E192"
+      ],
+      "note": "관련 긁기 정의만 확보. 부드러운 문지름 자체는 근거 확인 대기.",
+      "status": "근거 확인 대기",
+      "source": "U02"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "SEQ01",
+      "name": "부름 뒤 관심과 접근",
+      "records": [
+        "P012",
+        "P013",
+        "P014",
+        "P015"
+      ],
+      "template": "CALL_APPROACH",
+      "shared_prefix": 3
+    },
+    {
+      "id": "SEQ02",
+      "name": "냄새 탐색과 이동",
+      "records": [
+        "P016",
+        "P017",
+        "P018",
+        "P019"
+      ],
+      "template": "SNIFF_WALK_WAIT_WALK"
+    },
+    {
+      "id": "SEQ03",
+      "name": "곁에 자리 잡기",
+      "records": [
+        "P020",
+        "P021",
+        "P022"
+      ],
+      "template": "SETTLE_NEAR"
+    },
+    {
+      "id": "SEQ04",
+      "name": "탐색 중 확인",
+      "records": [
+        "P023",
+        "P024",
+        "P025"
+      ],
+      "template": "EXPLORE_CHECK_EXPLORE"
+    },
+    {
+      "id": "SEQ05",
+      "name": "재회 뒤 휴식",
+      "records": [
+        "P026",
+        "P027",
+        "P028"
+      ],
+      "template": "REUNION_REST"
+    },
+    {
+      "id": "SEQ06",
+      "name": "부름 뒤 접근",
+      "records": [
+        "P029",
+        "P030",
+        "P031"
+      ],
+      "template": "CALL_APPROACH",
+      "shared_prefix": 3
+    },
+    {
+      "id": "SEQ07",
+      "name": "장난감 앞 대기",
+      "records": [
+        "P032",
+        "P033",
+        "P034",
+        "P035"
+      ],
+      "template": "TOY_APPROACH_WAIT"
+    },
+    {
+      "id": "SEQ08",
+      "name": "앞발 들기 반복",
+      "records": [
+        "P036",
+        "P037",
+        "P038"
+      ],
+      "template": "PAW_WAIT_PAW"
+    }
+  ],
+  "unit_groups": [
+    [
+      "P017",
+      "P019"
+    ],
+    [
+      "P023",
+      "P025"
+    ],
+    [
+      "P036",
+      "P038"
+    ],
+    [
+      "E183",
+      "E184"
+    ]
+  ],
+  "source_terms": {
+    "E070": "Paw (modifiers combined)",
+    "E071": "Mouth/chew",
+    "E178": "Nose / Nudge",
+    "E179": "Paw / Bring-in",
+    "E180": "Drag",
+    "E181": "Pickup and Drop",
+    "E182": "Tear",
+    "E183": "Lie on Object",
+    "E184": "Lie on Object",
+    "E185": "Approach-retreat",
+    "E186": "Exaggerated Approach",
+    "E187": "Keep Away",
+    "E188": "Chase",
+    "E189": "AU101",
+    "E190": "EAD105",
+    "E191": "AU12",
+    "E192": "Self-scratching"
+  },
+  "mapping_notes": {
+    "E019": "본문 언급만 확인. 독립 행동 정의 근거에서 제외.",
+    "E070": "접촉·비접촉 합산이므로 세부 접촉 행동의 직접 근거로 분해하지 않음.",
+    "E071": "입 조작과 씹기의 합산 범주.",
+    "E131": "원문이 속보와 측대보를 합친 범주.",
+    "E183": "같은 원문 표 항목을 E184와 공유.",
+    "E184": "같은 원문 표 항목을 E183과 공유.",
+    "E192": "긁기만 확인. 문지름 요구를 지지하는 직접 근거가 아님."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-01",
+  "pixel_rules_applied": false,
+  "individualization_policy": "unchanged; docs/personalization-spec.md",
+  "photo_anchoring_prompts": [
+    {
+      "id": "A",
+      "name": "simple-line",
+      "label": "기본 선화",
+      "direction": "Use the fewest thin continuous loose contour lines, minimal internal strokes; retain the actual coat boundaries as large simple gray regions. Face recognizably round and whiskered through outline only.",
+      "prompt": "Draw the EXACT INDIVIDUAL DOG from reference photos 1 and 2 as a cute restrained simple hand-drawn notebook doodle, using reference 3 ONLY for line simplicity. Individual identity OVERRIDES stock cartoon dog anatomy. Full body standing in the SAME pose and orientation as photo 1, head toward camera and body continuing screen right. White background, generous whitespace, one dog only. Preserve actual moderate rectangular torso length, balanced leg length, SHORT BROAD GRAY FLOPPY EARS ending beside the upper cheeks, rounded slightly fluffy face and white moustache muzzle, black small eyes and black nose, broad irregular WHITE blaze from forehead to muzzle, gray upper face around eyes, WHITE neck/chest bib, gray upper legs transitioning into WHITE lower socks/paws. Gray clipped coat/back; no invented white body spots, no invented undercoat patch. TAIL hangs DOWN close to the rear leg as in photo 1 and stays understated/partly occluded: never upright, curling, wagging, or white-tipped by invention. No long beagle/basset ears, giant head, infant anatomy, big smile, tiny body, long neck, tall skinny body, sausage body, crooked limbs, forced asymmetry, sitting pose, fancy dog coat or breed substitution. Deformation is VERY MILD simplification of the ACTUAL visible shapes, not changing anatomy. Thin gently loose black lines, dot-like eyes, simple muzzle, 2-3 fur bumps at cheeks at most. NO photorealism, realistic hair strands, hatching, gradients, painted textures, shadows, watercolors, pixel grid or pixel restrictions. ONLY sparse FLAT neutral gray fill on actual gray regions, white elsewhere. No collar, tongue, blush, decorative symbols, labels, text, watermark, background scene or props. Friendly, cute and calm. Do not copy the reference sheet's generic dogs.\nUse the fewest thin continuous loose contour lines, minimal internal strokes; retain the actual coat boundaries as large simple gray regions. Face recognizably round and whiskered through outline only."
+    },
+    {
+      "id": "B",
+      "name": "soft-line",
+      "label": "부드러운 선화",
+      "direction": "Use soft slightly rounded curves and a very gentle thick/thin pen variation. Smooth small cheek arcs, tiny friendly eyes, normal actual head/body proportion. Do not enlarge the head or shorten the legs; cuteness comes from relaxed curves.",
+      "prompt": "Draw the EXACT INDIVIDUAL DOG from reference photos 1 and 2 as a cute restrained simple hand-drawn notebook doodle, using reference 3 ONLY for line simplicity. Individual identity OVERRIDES stock cartoon dog anatomy. Full body standing in the SAME pose and orientation as photo 1, head toward camera and body continuing screen right. White background, generous whitespace, one dog only. Preserve actual moderate rectangular torso length, balanced leg length, SHORT BROAD GRAY FLOPPY EARS ending beside the upper cheeks, rounded slightly fluffy face and white moustache muzzle, black small eyes and black nose, broad irregular WHITE blaze from forehead to muzzle, gray upper face around eyes, WHITE neck/chest bib, gray upper legs transitioning into WHITE lower socks/paws. Gray clipped coat/back; no invented white body spots, no invented undercoat patch. TAIL hangs DOWN close to the rear leg as in photo 1 and stays understated/partly occluded: never upright, curling, wagging, or white-tipped by invention. No long beagle/basset ears, giant head, infant anatomy, big smile, tiny body, long neck, tall skinny body, sausage body, crooked limbs, forced asymmetry, sitting pose, fancy dog coat or breed substitution. Deformation is VERY MILD simplification of the ACTUAL visible shapes, not changing anatomy. Thin gently loose black lines, dot-like eyes, simple muzzle, 2-3 fur bumps at cheeks at most. NO photorealism, realistic hair strands, hatching, gradients, painted textures, shadows, watercolors, pixel grid or pixel restrictions. ONLY sparse FLAT neutral gray fill on actual gray regions, white elsewhere. No collar, tongue, blush, decorative symbols, labels, text, watermark, background scene or props. Friendly, cute and calm. Do not copy the reference sheet's generic dogs.\nUse soft slightly rounded curves and a very gentle thick/thin pen variation. Smooth small cheek arcs, tiny friendly eyes, normal actual head/body proportion. Do not enlarge the head or shorten the legs; cuteness comes from relaxed curves."
+    },
+    {
+      "id": "C",
+      "name": "loose-line",
+      "label": "가벼운 낙서선",
+      "direction": "Use sparse lightly irregular freehand pen lines, a few tiny broken/overlapping contour connections, white open space, a casual sketchbook feeling. Keep all observed anatomy and markings fixed; playful line without distorted body or misplaced ears.",
+      "prompt": "Draw the EXACT INDIVIDUAL DOG from reference photos 1 and 2 as a cute restrained simple hand-drawn notebook doodle, using reference 3 ONLY for line simplicity. Individual identity OVERRIDES stock cartoon dog anatomy. Full body standing in the SAME pose and orientation as photo 1, head toward camera and body continuing screen right. White background, generous whitespace, one dog only. Preserve actual moderate rectangular torso length, balanced leg length, SHORT BROAD GRAY FLOPPY EARS ending beside the upper cheeks, rounded slightly fluffy face and white moustache muzzle, black small eyes and black nose, broad irregular WHITE blaze from forehead to muzzle, gray upper face around eyes, WHITE neck/chest bib, gray upper legs transitioning into WHITE lower socks/paws. Gray clipped coat/back; no invented white body spots, no invented undercoat patch. TAIL hangs DOWN close to the rear leg as in photo 1 and stays understated/partly occluded: never upright, curling, wagging, or white-tipped by invention. No long beagle/basset ears, giant head, infant anatomy, big smile, tiny body, long neck, tall skinny body, sausage body, crooked limbs, forced asymmetry, sitting pose, fancy dog coat or breed substitution. Deformation is VERY MILD simplification of the ACTUAL visible shapes, not changing anatomy. Thin gently loose black lines, dot-like eyes, simple muzzle, 2-3 fur bumps at cheeks at most. NO photorealism, realistic hair strands, hatching, gradients, painted textures, shadows, watercolors, pixel grid or pixel restrictions. ONLY sparse FLAT neutral gray fill on actual gray regions, white elsewhere. No collar, tongue, blush, decorative symbols, labels, text, watermark, background scene or props. Friendly, cute and calm. Do not copy the reference sheet's generic dogs.\nUse sparse lightly irregular freehand pen lines, a few tiny broken/overlapping contour connections, white open space, a casual sketchbook feeling. Keep all observed anatomy and markings fixed; playful line without distorted body or misplaced ears."
+    }
+  ],
+  "final_simplification_prompts": [
+    {
+      "id": "A",
+      "name": "simple",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-ad95c28e-9ad8-420e-883d-45fa114773da.png",
+      "line": "Economical softly wobbly monoline, open clean face, just a few cheek scallops.",
+      "prompt": "EDIT image 1 ONLY to simplify its drawing style. Image 2 is STYLE guidance for very simple outlined dog doodles. Preserve image 1's SAME individual dog: exact standing pose, rectangular torso, leg length, head size, SHORT rounded floppy ears beside cheeks, white forehead stripe/muzzle/chest and white lower paws, gray back and upper legs, DOWNWARD partly hidden tail. Do not substitute a generic cartoon dog or change anatomy, coat boundaries or ear/tail placement. REMOVE ALL tiny internal fur/hair strokes, crosshatching, mottled shading, gray gradients, paper or paint texture, realistic eye shines and nose highlights. Gray coat becomes ONE uniform flat pale gray shape. White areas remain plain white. Convert the shaggy outer edge into a simple softly scalloped contour with just 2 or 3 bumps at the cheeks. Face simplified to two tiny near-black dots, small black oval nose and one understated mouth stroke. No big cartoon smile or eyelashes. Line treatment: Economical softly wobbly monoline, open clean face, just a few cheek scallops. This should feel easy to draw in a few simple pen curves, charming and calm, without any exaggerated or grotesque deformation. Do not make head larger, ears longer, body stretched, paws tiny, tail upright or new coat markings. White background and existing composition, one complete dog, no other objects, accessories, labels, logo, watermark or shadow. High-resolution smooth strokes, NO PIXEL ART OR GRID."
+    },
+    {
+      "id": "B",
+      "name": "round",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-e4c62a0b-d6da-40bb-a4fb-ecc59c606b8e.png",
+      "line": "Soft flowing rounded pen contours, slight natural line-weight variation, warm approachable expression.",
+      "prompt": "EDIT image 1 ONLY to simplify its drawing style. Image 2 is STYLE guidance for very simple outlined dog doodles. Preserve image 1's SAME individual dog: exact standing pose, rectangular torso, leg length, head size, SHORT rounded floppy ears beside cheeks, white forehead stripe/muzzle/chest and white lower paws, gray back and upper legs, DOWNWARD partly hidden tail. Do not substitute a generic cartoon dog or change anatomy, coat boundaries or ear/tail placement. REMOVE ALL tiny internal fur/hair strokes, crosshatching, mottled shading, gray gradients, paper or paint texture, realistic eye shines and nose highlights. Gray coat becomes ONE uniform flat pale gray shape. White areas remain plain white. Convert the shaggy outer edge into a simple softly scalloped contour with just 2 or 3 bumps at the cheeks. Face simplified to two tiny near-black dots, small black oval nose and one understated mouth stroke. No big cartoon smile or eyelashes. Line treatment: Soft flowing rounded pen contours, slight natural line-weight variation, warm approachable expression. This should feel easy to draw in a few simple pen curves, charming and calm, without any exaggerated or grotesque deformation. Do not make head larger, ears longer, body stretched, paws tiny, tail upright or new coat markings. White background and existing composition, one complete dog, no other objects, accessories, labels, logo, watermark or shadow. High-resolution smooth strokes, NO PIXEL ART OR GRID."
+    },
+    {
+      "id": "C",
+      "name": "loose",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-d04d5181-0bf6-4014-83f0-9fde74675b3b.png",
+      "line": "Light sketchbook contours with a few tiny intentional breaks and overlaps, minimal sparse freehand feeling.",
+      "prompt": "EDIT image 1 ONLY to simplify its drawing style. Image 2 is STYLE guidance for very simple outlined dog doodles. Preserve image 1's SAME individual dog: exact standing pose, rectangular torso, leg length, head size, SHORT rounded floppy ears beside cheeks, white forehead stripe/muzzle/chest and white lower paws, gray back and upper legs, DOWNWARD partly hidden tail. Do not substitute a generic cartoon dog or change anatomy, coat boundaries or ear/tail placement. REMOVE ALL tiny internal fur/hair strokes, crosshatching, mottled shading, gray gradients, paper or paint texture, realistic eye shines and nose highlights. Gray coat becomes ONE uniform flat pale gray shape. White areas remain plain white. Convert the shaggy outer edge into a simple softly scalloped contour with just 2 or 3 bumps at the cheeks. Face simplified to two tiny near-black dots, small black oval nose and one understated mouth stroke. No big cartoon smile or eyelashes. Line treatment: Light sketchbook contours with a few tiny intentional breaks and overlaps, minimal sparse freehand feeling. This should feel easy to draw in a few simple pen curves, charming and calm, without any exaggerated or grotesque deformation. Do not make head larger, ears longer, body stretched, paws tiny, tail upright or new coat markings. White background and existing composition, one complete dog, no other objects, accessories, labels, logo, watermark or shadow. High-resolution smooth strokes, NO PIXEL ART OR GRID."
+    }
+  ],
+  "selected": [
+    {
+      "id": "A",
+      "name": "simple",
+      "label": "기본 선화",
+      "file": "exec-77b5bed4-2367-4ef4-abf7-7fba645f914b.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-77b5bed4-2367-4ef4-abf7-7fba645f914b.png"
+    },
+    {
+      "id": "B",
+      "name": "soft",
+      "label": "부드러운 선화",
+      "file": "exec-e5489c7d-e819-4390-8e23-e7b0b37f5323.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-e5489c7d-e819-4390-8e23-e7b0b37f5323.png"
+    },
+    {
+      "id": "C",
+      "name": "loose",
+      "label": "가벼운 낙서선",
+      "file": "exec-eaa21cdd-f438-472e-acba-33863ae89d2d.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-eaa21cdd-f438-472e-acba-33863ae89d2d.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-11-01",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "review": [
+    {
+      "id": "C",
+      "file": "C-strong.png",
+      "changed_pixels": 310567,
+      "changed_outside_contour_band": 0,
+      "changed_in_protected_face": 0,
+      "sha256": "d84a305539fd18462014116dd513dd9282b23c965a16e99f072090b3367a4341"
+    },
+    {
+      "id": "A",
+      "file": "A-weak.png",
+      "changed_pixels": 308000,
+      "changed_outside_contour_band": 0,
+      "changed_in_protected_face": 0,
+      "sha256": "ad4de8fd39b03f16f0e4a6ed03be23aadca56127addc1be8d63cf5c64740b0f4"
+    },
+    {
+      "id": "B",
+      "file": "B-current.png",
+      "unchanged_from_source": true,
+      "sha256": "3c3bf6fda5af28969563bcbe89ad1f90a7cf58714fd6a2fe1b8d4c2255fdf198"
+    }
+  ],
+  "method": "Built-in image_gen contour edits blended only in a <=12px neighborhood of warm-dark source contours; facial regions protected. B is source file copy.",
+  "limits": [
+    "Changes near contours include adjacent pigment; not a vector stroke-width edit.",
+    "Outline levels are qualitative, not calibrated line widths.",
+    "Strong outlines can extend the visible outer edge near feet without altering underlying pose."
+  ],
+  "owner_review": "pending"
+}

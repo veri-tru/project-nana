@@ -1,0 +1,8 @@
+{
+  "prompt": "Correct the FIRST image's walking animation sprite sheet. Keep EXACTLY 4 columns x 3 rows and twelve complete frames with same scale and body root. Main correction: frames 4,5,6,7 MUST show the dog's NOSE POINTING TO SCREEN RIGHT, looking back over its shoulder toward its tail side, while its BODY AND PAWS WALK TO SCREEN LEFT. Currently it only looks toward the viewer; replace that with a clear backward three-quarter head view. Neck stays anatomically attached and upright, modest plausible turn toward the right-rear-side, no backwards skull or twisted body. Frame1 nose points left; frame2 starts turning toward viewer; frame3 near-front; frames4-7 nose right and eyes directed rear-side. Frames8-10 turn back toward left gradually, frame11 and12 nose left. Preserve evolving walking leg poses, same torso left direction, low gray long furry tail, white paws/chest/blaze/muzzle, short drooping gray ears, tiny dark dot eyes, small relaxed open mouth with tongue. Use second reference's lighter thin broken brown outlines and dense crayon fill, cream paper. No text or borders. Do NOT leave frames4-7 facing front: show rightward nose silhouette.",
+  "refs": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-p1-sequences-20261101/B-walk-sheet.png",
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-outline-levels-20261101/A-weak.png"
+  ],
+  "output": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-a9e82c55-7285-4529-b0e5-79321afdfebb.png"
+}

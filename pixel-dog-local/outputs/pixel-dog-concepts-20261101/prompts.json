@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "requested_output_px": [
+    64,
+    64
+  ],
+  "reference_role": "user-provided photos of the same dog; standing photos for shape and close-ups for face",
+  "variants": [
+    {
+      "id": "A",
+      "prompt": "Use case: stylized-concept. Create ONE pixel-art dog sprite concept based on the SAME individual dog in all five reference photographs. References 1-2 establish standing anatomy and markings; references 3-5 supplement face and fur, not pose. Isolate dog, remove all household objects. Genuine transparent background, no checkerboard baked in, no text, no props, no collar, no shadow. A single full-body standing dog, body facing screen LEFT, head turned gently toward viewer as in reference 2. All four paws grounded on one consistent floor line, whole dog including paws and lowered tail visible, generous transparent padding. Identity: charcoal/salt-and-pepper gray clipped rectangular torso, darker floppy rounded gray ears, fluffy round head with broad WHITE blaze from forehead through nose bridge, white shaggy moustache/beard muzzle, black nose, dark round eyes with restrained highlights, white throat and chest bib, four white lower-leg socks/paws. Body longer than tall, moderate legs, adult dog anatomy. Preserve visible markings from photo; no invented hidden-side patch, no arbitrary mirroring. Closed relaxed mouth. Keep exact same neutral standing pose and direction for style comparison. Pixel-art is the requested final medium: hard square pixels, carefully clustered shapes, limited neutral gray/off-white palette, no smooth painted strokes, blur, gradients or antialiasing. DESIGN FOR AN ACTUAL 64 BY 64 PIXEL CANVAS: whole dog within x=5..58, y=11..56. Draw details that survive reduction to 64x64. If image output must be larger, use an EXACT integer nearest-neighbor enlargement of a 64x64 logical grid; do not add subpixel details. This is a static draft, not a sprite sheet or animation.\nVARIANT A: Classic compact game sprite, clear silhouette and economical pixel clusters, 12-16 neutral colors, thin selective dark outline. Realistic rectangular body proportions, head only mildly enlarged. Most simplified of the three; markings remain strongly readable."
+    },
+    {
+      "id": "B",
+      "prompt": "Use case: stylized-concept. Create ONE pixel-art dog sprite concept based on the SAME individual dog in all five reference photographs. References 1-2 establish standing anatomy and markings; references 3-5 supplement face and fur, not pose. Isolate dog, remove all household objects. Genuine transparent background, no checkerboard baked in, no text, no props, no collar, no shadow. A single full-body standing dog, body facing screen LEFT, head turned gently toward viewer as in reference 2. All four paws grounded on one consistent floor line, whole dog including paws and lowered tail visible, generous transparent padding. Identity: charcoal/salt-and-pepper gray clipped rectangular torso, darker floppy rounded gray ears, fluffy round head with broad WHITE blaze from forehead through nose bridge, white shaggy moustache/beard muzzle, black nose, dark round eyes with restrained highlights, white throat and chest bib, four white lower-leg socks/paws. Body longer than tall, moderate legs, adult dog anatomy. Preserve visible markings from photo; no invented hidden-side patch, no arbitrary mirroring. Closed relaxed mouth. Keep exact same neutral standing pose and direction for style comparison. Pixel-art is the requested final medium: hard square pixels, carefully clustered shapes, limited neutral gray/off-white palette, no smooth painted strokes, blur, gradients or antialiasing. DESIGN FOR AN ACTUAL 64 BY 64 PIXEL CANVAS: whole dog within x=5..58, y=11..56. Draw details that survive reduction to 64x64. If image output must be larger, use an EXACT integer nearest-neighbor enlargement of a 64x64 logical grid; do not add subpixel details. This is a static draft, not a sprite sheet or animation.\nVARIANT B: Rounded friendly character sprite, head moderately enlarged about 20 percent compared with reference, slightly shorter but still rectangular torso, soft rounded contour achieved ONLY through stair-step pixels, 16-20 neutral colors, sparse dark outline. Cute adult likeness, not baby, not huge anime eyes. Same coat map, paws and grounded pose."
+    },
+    {
+      "id": "C",
+      "prompt": "Use case: stylized-concept. Create ONE pixel-art dog sprite concept based on the SAME individual dog in all five reference photographs. References 1-2 establish standing anatomy and markings; references 3-5 supplement face and fur, not pose. Isolate dog, remove all household objects. Genuine transparent background, no checkerboard baked in, no text, no props, no collar, no shadow. A single full-body standing dog, body facing screen LEFT, head turned gently toward viewer as in reference 2. All four paws grounded on one consistent floor line, whole dog including paws and lowered tail visible, generous transparent padding. Identity: charcoal/salt-and-pepper gray clipped rectangular torso, darker floppy rounded gray ears, fluffy round head with broad WHITE blaze from forehead through nose bridge, white shaggy moustache/beard muzzle, black nose, dark round eyes with restrained highlights, white throat and chest bib, four white lower-leg socks/paws. Body longer than tall, moderate legs, adult dog anatomy. Preserve visible markings from photo; no invented hidden-side patch, no arbitrary mirroring. Closed relaxed mouth. Keep exact same neutral standing pose and direction for style comparison. Pixel-art is the requested final medium: hard square pixels, carefully clustered shapes, limited neutral gray/off-white palette, no smooth painted strokes, blur, gradients or antialiasing. DESIGN FOR AN ACTUAL 64 BY 64 PIXEL CANVAS: whole dog within x=5..58, y=11..56. Draw details that survive reduction to 64x64. If image output must be larger, use an EXACT integer nearest-neighbor enlargement of a 64x64 logical grid; do not add subpixel details. This is a static draft, not a sprite sheet or animation.\nVARIANT C: Likeness-focused detailed game sprite with natural adult head/body proportions close to standing photo, 20-28 neutral colors, selective pixel clusters describing the fluffy forehead and beard and short gray torso fur. More nuanced ears and muzzle, no excessive noisy dithering. Same pose and markings; remains readable in a true64x64 sprite."
+    }
+  ],
+  "sources": [
+    {
+      "id": "A",
+      "name": "game",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-6eae1615-c385-4c23-9418-aaef3b1dfc62.png",
+      "colours": 16
+    },
+    {
+      "id": "B",
+      "name": "rounded",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-6c1d1c1f-c932-4d4d-a89d-41c72113ead6.png",
+      "colours": 20
+    },
+    {
+      "id": "C",
+      "name": "natural",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-15385198-4b3a-40e9-8a09-2cfa310e11e4.png",
+      "colours": 28
+    }
+  ]
+}

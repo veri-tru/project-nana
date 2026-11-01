@@ -1,0 +1,7 @@
+{
+  "docs/decisions.md": {
+    "sha256": "959cc9ea2cb0e287d2729d549b54ac0bb4d4f41b5db71f0a7c44367006bdb8ac",
+    "snapshot": "data/behavior-db/source-snapshots/decisions-20261017.md",
+    "reason": "DB 2.0.0 DOC05가 참조한 버전. 2026-11-01 동작 정책 정본화 전에 바이트 단위 보존. 활성 결정 문서의 후속 변경은 과거 조사 DB의 근거로 소급하지 않음."
+  }
+}

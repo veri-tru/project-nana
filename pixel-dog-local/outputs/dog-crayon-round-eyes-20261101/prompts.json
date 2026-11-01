@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-11-01",
+  "tool": "built-in image_gen",
+  "targets": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-prompt-comparison-20261101/P1-with-guidance.png",
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-prompt-comparison-20261101/P2-without-identity-guidance.png"
+  ],
+  "prompt": "Precise local image edit. Modify ONLY the two existing eyes in this dog illustration. Make both eyes the SAME small round dark charcoal-brown crayon dots, approximately 28 pixels in diameter on this 1254 by 1254 canvas. Preserve each eye's exact current center, the spacing, and the head tilt. Circular organic crayon dots, no elongated oval shape, no catchlights, no highlights, no white sclera, no glossy finish, no eyelashes or eyebrows. Keep the original handmade crayon texture and dark contour color. Do not enlarge or move eyes. The entire rest of the image must remain unchanged: head and muzzle outline, nose, mouth/tongue, ears, fur strokes, color patches, body proportions, seated pose, paws, TAIL placement, paper texture, framing and canvas size. Do not reinterpret or redraw the dog. No text or added objects.",
+  "postprocess": "Only generated eye patches composited into source artwork. Eye dot size normalized approximately 32px. All pixels outside listed eye regions verified unchanged.",
+  "user_feedback": {
+    "P3": "AI slop 느낌; exclude from this comparison",
+    "P1_P2": "Make small round eyes and compare only P1/P2"
+  },
+  "owner_approval": "pending"
+}

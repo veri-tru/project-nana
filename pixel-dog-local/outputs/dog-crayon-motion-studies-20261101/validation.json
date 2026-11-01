@@ -1,0 +1,98 @@
+{
+  "as_of": "2026-11-01",
+  "expected": 10,
+  "actual": 10,
+  "files": [
+    {
+      "file": "P1-01-walk.png",
+      "base": "P1",
+      "action": "01-walk",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7b36051e2a76fa67062b0ea79d146e16982a6c3a4c345d877ffccf0031c48fc2"
+    },
+    {
+      "file": "P1-02-lie.png",
+      "base": "P1",
+      "action": "02-lie",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2e3371f5b9b713466f27eacc56d0d6a516a7c28f74e768694d0c3a03fa1d846e"
+    },
+    {
+      "file": "P1-03-paw-hover.png",
+      "base": "P1",
+      "action": "03-paw-hover",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c94e86ae4faff3163133426e21355e92429453dae6fcd0335bc7b7a4fd53bb76"
+    },
+    {
+      "file": "P1-04-stretch.png",
+      "base": "P1",
+      "action": "04-stretch",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dfcc7bb46c35200e2f70606ca91751e4f68c179025827962eb1edbac9a7718f2"
+    },
+    {
+      "file": "P1-05-shake.png",
+      "base": "P1",
+      "action": "05-shake",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c26f53fc77a76b69e824635d43c709b545172d3dd2cb0fd93affc7a5cd3ecefe"
+    },
+    {
+      "file": "P2-01-walk.png",
+      "base": "P2",
+      "action": "01-walk",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8dc939464bf491cfc8b9c40578a7dd0cfa387f4033dbebc1a9df83dd188fd050"
+    },
+    {
+      "file": "P2-02-lie.png",
+      "base": "P2",
+      "action": "02-lie",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3ad6d2df89122a91b30f15896008c0c11542d985504523d1709de52f7741cb23"
+    },
+    {
+      "file": "P2-03-paw-hover.png",
+      "base": "P2",
+      "action": "03-paw-hover",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c62798f2be36e93f45c30cd5854e2e9d4008aa3673751c0222bfa8dcd115a8c8"
+    },
+    {
+      "file": "P2-04-stretch.png",
+      "base": "P2",
+      "action": "04-stretch",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "93b14e33772870a8a5e6e7d8b43d9649abcc6a72f62214dd994904df00bd193b"
+    },
+    {
+      "file": "P2-05-shake.png",
+      "base": "P2",
+      "action": "05-shake",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dbb5be89d1699692d842335189903df326e602d238f6a9fd2c5ba24f45de10ce"
+    }
+  ],
+  "source_images_modified": false,
+  "comparison": {
+    "columns": "5 action types",
+    "rows": [
+      "P1 updated round eyes",
+      "P2 updated round eyes"
+    ],
+    "width": 1800,
+    "height": 804
+  },
+  "validation_scope": "file count, dimensions and hashes; visual assessment documented in README; no animated playback validation"
+}

@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-11-01",
+  "files": [
+    {
+      "name": "A-short.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b0dbd3421fb9d579b9538d8ef22d1fd4e9bf43ddbdda32fdea7fb25b45c25f5a"
+    },
+    {
+      "name": "B-medium.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "283eb26ab0123bb1b12bec65f03923ff2bd5dfb0555550f95f5cc4405d20129b"
+    },
+    {
+      "name": "C-long.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0664d7e0a29007d697d7cbbf51124efdee0aad56663301f2302988248f9f9c7b"
+    }
+  ],
+  "comparison": {
+    "width": 1536,
+    "height": 556
+  },
+  "source_artwork_modified_after_generation": false,
+  "composition_only": "comparison resized and arranged; original artwork unchanged",
+  "approval": "owner_review_pending",
+  "comparison_limit": "Edit variants can shift linework, framing, and marking edges slightly; not a pixel-identical controlled experiment.",
+  "provisional_features": [
+    "Seated pose",
+    "Low tail placement",
+    "Unseen-side interpretation"
+  ],
+  "unverified": [
+    "Owner likeness approval",
+    "Style approval",
+    "Other directions",
+    "Animation compatibility",
+    "Small display user testing"
+  ]
+}

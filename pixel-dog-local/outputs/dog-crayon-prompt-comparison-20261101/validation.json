@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-11-01",
+  "files": [
+    {
+      "file": "P1-with-guidance.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "283eb26ab0123bb1b12bec65f03923ff2bd5dfb0555550f95f5cc4405d20129b"
+    },
+    {
+      "file": "P2-without-identity-guidance.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "765342c8b40ba079fb8fdff1e4904c48cb5f71e3c141df1ace7a4bdca22b189d"
+    },
+    {
+      "file": "P3-minimal.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fd5b945d85cb9af044f5f1510122e30963cc9c88c1a346aa0a9b8e6888d0d5ec"
+    }
+  ],
+  "comparison": {
+    "width": 1536,
+    "height": 556
+  },
+  "originals_unchanged": true,
+  "owner_review": "pending",
+  "replicates_per_condition": 1
+}

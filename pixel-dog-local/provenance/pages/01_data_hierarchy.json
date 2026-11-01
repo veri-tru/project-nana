@@ -1,0 +1,353 @@
+{
+  "title": "반려견 데이터 수집 목록과 위계 및 우선순위",
+  "page_id": "page_bab14abcc9f8819188c55aca75942fcf",
+  "url": "https://chatgpt.com/space/page_bab14abcc9f8819188c55aca75942fcf",
+  "sequence": 0,
+  "updated_at": "2026-10-17T00:49:03.978343Z",
+  "exported_date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "blocks": [
+    {
+      "id": "4aba7f98-4862-47ae-9ec2-a248967ca67d",
+      "kind": "markdown",
+      "hash": "bf49a4d491e1b0f9473e776f77a0c2b40ebea5ac140e42fdee4451c4132bf87f",
+      "markdown": "개를 대상으로 한 첫 데이터 수집은 상황별 상호작용 영상과 그 영상의 행동 기록을 중심으로 구성한다. 보호자가 대표적이라고 고른 장면으로 특징 후보를 찾고, 같은 상황을 반복 관찰한 자료로 반응의 순서·타이밍·빈도를 확인한다. 고양이는 후속 프로젝트에 해당한다."
+    },
+    {
+      "id": "0b362321-c4f6-4029-997c-1b4780a3a439",
+      "kind": "markdown",
+      "hash": "b8336c4fcd51a12932589492c0ad670b74f66df54a49889b609b0ad8c00267c7",
+      "markdown": "우선순위는 개의 행동 관찰·측정 연구, 시간적 안정성 연구, 보호자 경험 연구와 현재 2D 구현 범위를 종합한 설계 판단이다. 어떤 항목이 보호자의 자기 개 식별에 가장 효과적인지를 직접 비교한 순위는 아니다."
+    },
+    {
+      "id": "860c5fb8-8aa3-40a7-b530-4cf529176128",
+      "kind": "markdown",
+      "hash": "2c677f89699aac0a69a2d6f4929f56dd3fe50b66acfa792d891f2f0a7aea3ce0",
+      "markdown": "관련 문서: [개발 지침](https://chatgpt.com/space/page_2bb72844316c8191a60de47d43c6d311) · [행동과 습관 문헌검토](https://chatgpt.com/space/page_d3bfea3d642c8191b43c27b8b4091012)"
+    },
+    {
+      "id": "7ee205df-606e-4f44-be20-8e53e831a51f",
+      "kind": "markdown",
+      "hash": "0d65400fb8a7615ee049f95968ceeb637d7ff0cc749cd3fe57ad870cee7bb7ac",
+      "markdown": "# 데이터 위계"
+    },
+    {
+      "id": "c8fe3667-9b9b-4b1c-9082-78281fac51e0",
+      "kind": "markdown",
+      "hash": "f45fea3ac340c3f043eab60e2acd300a1c8df16488d7a2caeccbdfe1d46546a1",
+      "markdown": "아래 위계는 수집과 저장을 위한 구조다. ‘성격 → 습관 → 동작’의 고정된 인과관계를 뜻하지 않는다. 개체 아래에 관찰 회차, 회차 아래에 상황 장면, 장면 아래에 행동 사건을 둔다. 개체별 프로파일과 사용자 평가는 이 원자료에 연결하는 별도 자료다."
+    },
+    {
+      "id": "1671ac44-65e6-447d-a560-4192e475c5cf",
+      "kind": "markdown",
+      "hash": "baf28d7ddf35a3520e336c7c7d57c4a89d883c3da05cfb65b4e61e3244fb992c",
+      "markdown": "| 단계 | 단위와 연결 | 저장할 내용 | 용도 |\n| --- | --- | --- | --- |\n| 1 개체 | 반려견 한 마리 | 개체 ID, 연령 또는 추정 범위, 함께 사는 사람, 외형 자료, 보호자 설명 | 누구의 자료인지 식별 |\n| 2 관찰 회차 | 특정 날짜·시간의 관찰 | 촬영 일시·장소, 참여자, 직전 활동, 평소와 다른 상태, 원본 파일, 관찰 범위 | 상황 간 비교 조건 확인 |\n| 3 상황 장면 | 하나의 시작 상황과 반응 구간 | 자극과 대상, 시작·종료 시점, 보호자 행동, 관찰 기회 여부 | 반응 지연과 반응률의 기준 |\n| 4 행동 사건 | 구간 안에서 발생한 행동 | 행동 코드, 대상, 시작·종료 시각, 반복, 다음 행동, 가시성 | 동작과 순서를 재현 |\n| 5 파생 프로파일 | 여러 회차·장면의 요약 | 상황별 반응률, 지연·지속의 분포, 자주 나타난 순서, 관찰 일수, 근거 구간 | 앱의 행동 선택 규칙 |\n| 6 재현 평가 | 프로파일·앱 버전별 평가 | 자기 개다움, 익숙함, 귀여움, 식별 선택, 판단 이유 | 개인화의 효과 검증 |"
+    },
+    {
+      "id": "8855ddb4-820c-43e9-996e-e2963d1f47d4",
+      "kind": "markdown",
+      "hash": "8d3431966f614f8f79a4347d041adb254c89567867a7667ea026b5410af18d74",
+      "markdown": "사진·원음·영상은 해당 개체 및 촬영 회차에 연결한다. 보호자 설명은 보고 자료, 영상 코딩은 관찰 자료, 프로파일 값은 파생 자료로 구분한다. 평가에 쓸 영상과 응답에는 용도를 표시해 프로파일 조정에 사용한 자료와 구별한다."
+    },
+    {
+      "id": "c3692326-3db4-4b1d-a432-e45b0e905d09",
+      "kind": "markdown",
+      "hash": "9e849f700d161a4560b44c8547e276d327f133e5825642e9bdcf7de897315952",
+      "markdown": "# 우선순위와 근거 표기"
+    },
+    {
+      "id": "065efaa4-37f9-4e70-94b2-6160c8dfb6c8",
+      "kind": "markdown",
+      "hash": "1246b391c079c84aeb9eb460a3626157fb034c8978475692862291bcbfc5e6df",
+      "markdown": "| 우선순위 | 적용 시점 | 선정 기준 |\n| --- | --- | --- |\n| P0 먼저 수집 | 첫 개체 개인화에 사용 | 자료를 해석하는 데 필수이거나, 상황별 동작을 직접 구현하는 핵심 자료 |\n| P1 다음 단계 | P0의 반복 관찰 자료가 확보된 뒤 | 생활 전반으로 확장하거나 핵심 자료의 해석을 보완하는 자료 |\n| P2 필요할 때 | 구체적인 구현·검증 문제를 해결할 때 | 높은 수집 비용이 들거나 현재 재현 목적의 추가 가치가 불확실한 자료 |"
+    },
+    {
+      "id": "37ae7401-2f27-441c-aaae-19359c6e6aad",
+      "kind": "markdown",
+      "hash": "4a2ac44e77ac5dc14b608323a7a8d04f3879feed5daf2323eeea7bd93dd727d7",
+      "markdown": "근거 표기는 관찰·측정, 시간적 안정성, 보호자 경험, 설계 필수로 구분한다. ‘설계 필수’는 연구로 식별 효과가 증명됐다는 뜻이 아니라 출처 연결·측정·구현을 위해 필요한 항목이라는 뜻이다. 근거 유형과 수집 우선순위는 별개다."
+    },
+    {
+      "id": "4a6b46ce-2522-4ab6-a60f-5f15ebb3d38f",
+      "kind": "markdown",
+      "hash": "6ddb7b4214d9b3cc546214e624b294563b2b8f312948de7ce214e3f4f6a15d42",
+      "markdown": "# P0 수집 목록"
+    },
+    {
+      "id": "6d9604ba-a76c-42c4-8266-a713e68e8b64",
+      "kind": "markdown",
+      "hash": "140effc4c631c012dcc26afda775b31038a76f6de76e671f09adcfc7405af405",
+      "markdown": "## 기반 자료"
+    },
+    {
+      "id": "117829ae-2527-46fd-9d3a-96c1612bd430",
+      "kind": "markdown",
+      "hash": "55bba1ee6fd40801a60c4179d73312e6fda2f98fd4888d053e412d4a302f3500",
+      "markdown": "| 항목 | 구체적으로 수집할 값 | 기록 방법 | 근거와 선정 이유 |\n| --- | --- | --- | --- |\n| 개체 및 보호자 관계 | 개체 ID, 이름·호칭, 연령 또는 추정 범위, 함께 산 기간, 주 상호작용자, 동거 사람·동물 | 개체당 기본 기록, 변경 시 갱신 | 설계 필수. 연령·환경을 기록할 이유는 [R1](https://doi.org/10.1007/s10071-018-1181-3) [R6](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/) |\n| 외형 원자료 | 얼굴과 전신, 좌우 측면에서 보이는 털색·무늬, 귀·꼬리 형태, 체형·비율 | 방향과 촬영일이 표시된 사진, 필요 시 짧은 영상 | 외형 재현을 위한 설계 필수. 행동 식별력의 근거와 별도 |\n| 출처와 수집 방식 | 원본 파일, 촬영자, 날짜, 대표 장면 선정인지 계획 관찰인지, 구간 시각 | 모든 파일·코딩에 연결 | 설계 필수. 관찰량에 따라 제스처 레퍼토리 크기가 달라질 수 있음 [R1](https://doi.org/10.1007/s10071-018-1181-3) |\n| 관찰 맥락 | 시간대, 장소, 보호자 재실·상호작용자, 직전 놀이·식사·휴식, 평소와 다른 활동 제한·컨디션 | 회차마다 짧게 기록, 모르면 미상 | 맥락과 사람 역할에 따른 반응 차이 [R3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/); 일간 활동 변동 [R4](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/) |\n| 보호자가 지목한 대표 장면 | ‘특히 우리 개답다’고 느끼는 행동, 나타나는 상황, 특징이라고 보는 이유, 최근 사례 | 자유응답과 해당 영상 연결 | 보호자 경험 근거 [R8](https://dl.acm.org/doi/full/10.1145/3772318.3791971) [R9](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353). 후보 선정용이며 반복성의 증거와 구분 |"
+    },
+    {
+      "id": "fd55694c-7029-48b8-b795-a766449efa1f",
+      "kind": "markdown",
+      "hash": "d746ee7f77bb5fee59c3d49d292603d07ce5b99511d1be0071a07980245f9211",
+      "markdown": "품종·성별·중성화 여부·체중은 알고 있는 경우 기본 기록에 추가할 수 있다. 모르는 정보 때문에 수집을 막거나, 품종만으로 성격과 동작을 자동 지정하지 않는다. 이름과 외형은 행동만의 식별 실험에서는 단서로 노출하지 않는다."
+    },
+    {
+      "id": "81b03ce8-acb9-4ce2-9b94-b98e6fbb0ec9",
+      "kind": "markdown",
+      "hash": "02f4c3d0817046a3d6c50a5654daccb0a5bf1930049e4af6d9c2b08d5a943524",
+      "markdown": "## 모든 핵심 장면에 붙일 공통 변수"
+    },
+    {
+      "id": "e96e24ae-1484-4581-894a-a80992656165",
+      "kind": "markdown",
+      "hash": "a0df257fbdd57e2e6a268f21161a646035ab22113c74b156b7ccb16b079b7e0c",
+      "markdown": "| 항목 | 수집할 값과 단위 | 관찰 기준 | 근거와 선정 이유 |\n| --- | --- | --- | --- |\n| 시작 상황 | 이름 부르기, 놀이 제안, 식사 준비, 자연스러운 접근 등; 시작 시각 초 | 말·동작·물건의 무엇이 먼저 발생했는지 기록 | 맥락에 따른 반응을 구분 [R2](https://www.nature.com/articles/s41598-018-22605-1) [R3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/); 구체적인 장면 목록은 개발용 선택 |\n| 자극·목표물 | 사람, 음식, 장난감, 문, 휴식 장소 등 대상과 제시 방식 | 동일 자극의 반복인지 다른 자극인지 식별 | 보상 종류에 따른 차이 [R2](https://www.nature.com/articles/s41598-018-22605-1); 목표와 상대에 따른 응시 변화 [R3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/) |\n| 첫 관찰 반응 | 사람 쪽 보기, 물건 쪽 보기, 접근, 접촉, 기존 행동 유지 등 | 해석어 대신 눈으로 확인 가능한 행동 코드 | 제스처·접근·주시를 관찰한 연구 [R1](https://doi.org/10.1007/s10071-018-1181-3) [R2](https://www.nature.com/articles/s41598-018-22605-1) |\n| 반응 지연 | 시작 상황부터 정해 둔 첫 반응까지 초 | 자극 시작이 촬영되지 않았으면 계산 불가 | 접근 지연을 측정한 연구 [R2](https://www.nature.com/articles/s41598-018-22605-1) |\n| 행동 순서 | 사건별 시작·종료 시각, 직전·다음 행동, 동시 발생 여부 | 순서만 저장하지 않고 원래 시각도 보존 | 제스처 반복·변경·반응 대기 관찰 [R1](https://doi.org/10.1007/s10071-018-1181-3); 저장 형식은 설계 제안 |\n| 지속·반복 | 사건 지속시간 초, 반복 횟수, 반복 사이 간격 초 | 동일한 행동의 시작·종료 기준을 사용 | 집중·조작·재접근 측정 [R2](https://www.nature.com/articles/s41598-018-22605-1); 지속성과 운동 속도의 안정성 구분 [R7](https://doi.org/10.1007/s10071-013-0701-4) |\n| 보호자 반응과 결과 | 쓰다듬기·말·보상 제공 시점, 자발적 이탈, 다른 행동 전환, 촬영 종료 | 행동이 멈춘 이유를 단정하지 않고 관찰된 종료 상황 기록 | 상대의 반응과 제스처 종료 관찰 [R1](https://doi.org/10.1007/s10071-018-1181-3) |\n| 무반응과 관찰 기회 | 관찰 가능 시간, 반응 유무, 화면 밖·가림·자극 미확인·중단 | 반응 없음, 관찰 불가, 자극 기회 없음을 구분 | 빈도와 지연을 해석하기 위한 설계 필수 |"
+    },
+    {
+      "id": "653032c3-66b9-47de-8cf0-6e87fba18557",
+      "kind": "markdown",
+      "hash": "0797912310faf7f3660bb8409c58d6af060d48dd1bbb365b55e2187d63078dd9",
+      "markdown": "위 행동 코드는 초기 관찰 사전이다. 별도 타당화된 척도나 감정 분류체계로 제시하지 않는다. 고개 방향만 확인되는 영상은 ‘고개가 사람 쪽을 향함’으로 기록하고, 눈맞춤이나 시선 목표가 확실하지 않으면 그렇게 표시한다."
+    },
+    {
+      "id": "465d6ab8-44d5-4872-a8c2-46848f658d5f",
+      "kind": "markdown",
+      "hash": "1e3b7fcf1a32f332640d3570152780f8b53d0f9d711efb806e3024264eecae38",
+      "markdown": "## 먼저 구현할 행동 영역"
+    },
+    {
+      "id": "0ac089de-5238-4e70-9fde-ca4b149106b7",
+      "kind": "markdown",
+      "hash": "1d2b17ca7095337450c7e05d36290be7f241e32aa30ad42513d05e6dbff9af7b",
+      "markdown": "| 영역 | 추가로 기록할 특징 | 첫 2D 구현에 연결할 값 | 근거 |\n| --- | --- | --- | --- |\n| 요구 방식 | 사람–물건 사이 방향 전환, 코·머리·앞발 접촉, 반복 후 행동 변경 | 제스처의 조합·순서·간격·종료 | 같은 목표에서도 개체별 레퍼토리 차이 [R1](https://doi.org/10.1007/s10071-018-1181-3) |\n| 놀이와 보상 반응 | 음식과 장난감을 구분한 접근, 주시·조작, 떠남과 재접근 | 선호 자극, 접근 지연, 관심 지속 | 설문과 행동관찰의 수렴 근거 [R2](https://www.nature.com/articles/s41598-018-22605-1) |\n| 접근과 접촉 방식 | 먼저 다가옴, 보호자 이동 후 따라감, 접촉 종류, 근처 체류, 이탈 | 접근 여부, 상대적 거리, 접촉 빈도·지속 | 사회성 관련 행동검사 [R5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/); 보호자 유대 경험 [R9](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353) |\n| 개체의 대표 움직임 | 보호자가 지목한 귀가맞이·몸 흔들기 등의 자세, 부위, 리듬 | 관찰 영상에 맞춘 대표 동작 | 개 관련 개인화 사례 [R8](https://dl.acm.org/doi/full/10.1145/3772318.3791971). 해당 개에서 반복 영상 확인 필요 |"
+    },
+    {
+      "id": "c1ce6975-57f4-43b6-9b16-070d2ff827ef",
+      "kind": "markdown",
+      "hash": "841b076251b637a2c18943c85a6b00c4a190b1f27bd623681272ef6f78ccb838",
+      "markdown": "위 네 영역을 모든 개에게 동일한 비중으로 강제하지 않는다. 보호자가 중요하게 여기고 실제로 반복 관찰되는 영역부터 채운다. 거리·각도·속도는 영상의 기준척도와 시야가 확보될 때 수치화하며, 그렇지 않으면 ‘접촉 중·가까이·떨어짐’처럼 정의된 범주나 측정 불가로 기록한다."
+    },
+    {
+      "id": "4d22aa75-9512-411b-b88b-0a39ddc72c73",
+      "kind": "markdown",
+      "hash": "5c22eec91b8ef83f82c1720c27af1c4eec31aee5cb0e29131e41e6d97524c32a",
+      "markdown": "# P1 및 P2 수집 목록"
+    },
+    {
+      "id": "a9856a05-b779-4415-bfe0-b919a6f52e78",
+      "kind": "markdown",
+      "hash": "e897e9432e411213da9cdd8d0ad4076ca564b59d4185b191bc19fd2803d68b32",
+      "markdown": "| 순위 | 항목 | 수집 내용 | 우선순위 이유와 근거 |\n| --- | --- | --- | --- |\n| P1 | 일상 활동·휴식 리듬 | 관찰한 시간대, 활동·비활동 구간, 평일·휴일, 보호자 재실, 관찰하지 못한 구간 | 생활 리듬 확장에 유용하나 짧은 대표 영상으로 하루 비율을 계산할 수 없음 [R4](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/) |\n| P1 | 실제 발성 | 자연 발생한 짖음 등 원음, 상황, 지속·반복 간격, 겹친 소리 | 보조 단서. 자기 개 짖음의 식별 이점은 해당 연구에서 확인되지 않음 [R10](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf) |\n| P1 | 기다림과 포기 | 일상에서 자연스럽게 관찰된 대기, 반복 요구, 이탈, 재접근 | 지연보상 대기 성향의 안정성 근거는 있으나 일상 장면으로의 적용은 별도 확인 [R7](https://doi.org/10.1007/s10071-013-0701-4) |\n| P1 | 성격·보상반응 설문 | 도구·버전·응답자·날짜와 요인 점수, 구체적 사례 | 관찰 프로파일의 보완자료 [R2](https://www.nature.com/articles/s41598-018-22605-1) [R5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/) [R6](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/). 자체 축약 문항에 원척도의 타당도를 부여하지 않음 |\n| P1 | 개체 특유의 생활 습관 후보 | 눕기 전 순서, 선호 휴식 위치, 물건 운반 등 보호자 지목 행동 | 반복 영상과 보호자 평가로 검토하는 탐색 후보. 특정 동작의 식별 효과는 미확정 |\n| P2 | 정밀 운동·표정 수치 | 관절 좌표, 보행 주기, 얼굴 움직임, 정확한 꼬리 각도·속도 | 일반 영상으로 핵심 동작이 구현되지 않을 때 추가하는 기술 자료 |\n| P2 | 센서·자동 분석 | 활동계, 장기 촬영, 자동 행동 인식, 개체별 모델 | 생활 리듬 또는 수작업 비용 문제를 해결할 때 검토. 첫 개인화의 필수 조건은 아님 |"
+    },
+    {
+      "id": "3d894706-b2ac-4a30-98f9-424cf984453a",
+      "kind": "markdown",
+      "hash": "5e3a90659d6de7056fe321fd4611294a45fa07e07e95fea18b3b5b44c56c1526",
+      "markdown": "간단한 대표 움직임을 P0에서 영상으로 확보하는 것과, 그 움직임의 관절 좌표를 P2에서 정밀 추정하는 것은 다른 작업이다. 마찬가지로 한 장면의 기다림은 P0 공통 시간 기록에 포함되지만, 여러 상황에서의 기다림 성향 추정은 P1이다."
+    },
+    {
+      "id": "e351024b-a7f8-4d4b-b816-b8282d72b1f3",
+      "kind": "markdown",
+      "hash": "0f7cd5f084e4b85778bc727dc2cbcf4f2a821826c9f5c079300030322a99d58f",
+      "markdown": "# 수집과 코딩 기준"
+    },
+    {
+      "id": "e9d28a6d-d9f7-4147-90a5-7daf39134098",
+      "kind": "markdown",
+      "hash": "57a209477df6a98c1639adc66fd227c01569389494b9a0711c10e0dc1a58517c",
+      "markdown": "## 대표 장면과 계획 관찰을 분리"
+    },
+    {
+      "id": "c29cf8e8-8483-4c87-a0a2-89acec7108c6",
+      "kind": "markdown",
+      "hash": "31b31b0c8aeea45764ef3067455374dc4dbe255e975f4029d0ef4edfb330072d",
+      "markdown": "대표 장면 자료는 보호자가 특징적이라고 고른 영상이다. 동작의 모양과 후보 습관을 찾는 데 사용한다. 계획 관찰 자료는 미리 정한 일상 상황이나 시간창에 해당하는 관찰 기회를 반응 유무와 관계없이 기록한다. 빈도와 반응률은 이 자료에서 계산한다. 보호자가 잘 나온 영상만 제출한 경우, 그 영상의 사건 수를 하루 행동 빈도로 해석하지 않는다."
+    },
+    {
+      "id": "6af332b8-7c2c-43f9-90a5-5b542fe1f611",
+      "kind": "markdown",
+      "hash": "b2b74f2991e9f3455052a930557a8b0be6ac86130345a552fb457bff53c262b9",
+      "markdown": "제스처 연구에서는 수집된 영상 수가 개체별 레퍼토리 크기와 관련됐고, 활동 연구에서는 개체 내 일간 변동과 평일·주말 차이가 관찰됐다. 따라서 관찰량·관찰시간·날짜 수를 함께 보존한다. [R1](https://doi.org/10.1007/s10071-018-1181-3) [R4](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/)"
+    },
+    {
+      "id": "ea37b043-8ec7-4ce6-9b1a-35e66928bc5f",
+      "kind": "markdown",
+      "hash": "1cc58372cea2c287f9225ba903744749c6b66e1e47ac3611099045c1e812c989",
+      "markdown": "## 한 장면의 기록 양식"
+    },
+    {
+      "id": "76614b6d-7954-47e0-ad5f-2d2a3a5700a2",
+      "kind": "markdown",
+      "hash": "296cde232a13d77ed6a2ef2aaf0a6aa37169548b4d120ce4648f83a57f165765",
+      "markdown": "| 묶음 | 입력 칸 |\n| --- | --- |\n| 연결 정보 | 개체 ID, 회차 ID, 장면 ID, 원본 파일과 구간 |\n| 수집 조건 | 대표 장면/계획 관찰, 날짜·시간, 장소, 상호작용자, 직전 활동 |\n| 시작 | 자극 종류·대상, 자극 시작 시각, 자극을 제시한 사람 |\n| 반응 | 첫 반응 코드·시각, 각 행동의 시작·종료, 대상, 반복 횟수 |\n| 상호작용 결과 | 보호자의 반응과 시각, 보상 제공, 다음 행동, 장면 종료 사유 |\n| 관찰 상태 | 관찰한 전체 시간, 가림·화면 이탈, 반응 없음/판정 불가 |\n| 확인 | 코딩 담당자·기준 버전, 보호자 설명, 대표성 확인 날짜 |"
+    },
+    {
+      "id": "1e2d95aa-1a59-42d4-9e74-49df0b4c8985",
+      "kind": "markdown",
+      "hash": "1f84d408f5c311cee6e932c4ebea441b7dbf4a68785ccbb0843e26b9bafd69a3",
+      "markdown": "## 파생값과 결측 처리"
+    },
+    {
+      "id": "c1f3d11b-5d8b-4a50-bbe8-a65519f03164",
+      "kind": "markdown",
+      "hash": "da77e6af6cd0f3290a312541c257c5b334ff884ed6b12f4275dcb341bdfcc15d",
+      "markdown": "| 값 | 계산·기록 기준 |\n| --- | --- |\n| 상황별 반응률 | 같은 정의의 관찰 기회 중 판정 가능한 기회에서 해당 반응이 나온 비율. 분자·분모·판정 불가 수를 함께 저장 |\n| 반응 지연 | 첫 반응 시각에서 자극 시작 시각을 뺀 값. 관찰 종료까지 무반응이면 0초나 종료 시각의 정확한 반응으로 입력하지 않고 미발생 상태와 관찰시간을 보존 |\n| 행동 지속 | 관찰된 종료 시각에서 시작 시각을 뺀 값. 화면 밖으로 나가거나 촬영이 먼저 끝나면 종료 미확인으로 표시 |\n| 사건 빈도 | 해당 상황에서 기록한 사건 수와 관찰시간 또는 관찰 기회를 함께 제시. 서로 다른 분모의 값을 섞지 않음 |\n| 반복 패턴 | 같은 상황의 여러 날짜에서 확인된 순서·타이밍을 요약. 충분한 관찰 전에는 정확한 발생확률을 확정하지 않음 |\n| 확실성 | 원본 영상 관찰/보호자 보고/파생 추정이라는 출처와 가시성·관찰량을 각각 저장. 검증 없이 신뢰도 백분율을 부여하지 않음 |"
+    },
+    {
+      "id": "374e0f45-6308-4308-935e-906db992ad0d",
+      "kind": "markdown",
+      "hash": "b9aa5ba0c93eaf2e904081e292df5c9189a62f5899e5c661567bca676b338428",
+      "markdown": "활동·비활동은 먼저 관찰 가능한 상태로 기록한다. 짧은 무동작 구간을 곧바로 수면으로 분류하거나, 수면 영상만으로 수면 단계를 추정하지 않는다. ‘불안하다’, ‘삐쳤다’ 같은 해석은 관찰 행동과 분리된 보호자 설명에 둔다."
+    },
+    {
+      "id": "6c7fee75-ec7c-49c3-bde7-a3d0354d310a",
+      "kind": "markdown",
+      "hash": "4d26bc176d0207f0d73d9e34036252297b79c26784321917f14e04c9c4ef1eee",
+      "markdown": "## 반복성과 코딩 일치도"
+    },
+    {
+      "id": "9057fdaa-b350-478c-97cc-3f412732091e",
+      "kind": "markdown",
+      "hash": "3cb3c429714ac02bf837ea350941a5431c76b1e4c6f2abaaf235394a5e38a30b",
+      "markdown": "같은 상황을 서로 다른 날 관찰하고, 새로운 날의 자료에서 기존 패턴이 다시 나타나는지 확인한다. 개의 성격 일관성 메타분석에서는 연령·측정 간격·측정 도구의 일치가 결과와 관련됐다. 한 장기 연구에서는 지연보상 대기는 안정적이었지만 앞발 누르기 속도는 유의한 안정성이 확인되지 않았다. 상위 성향의 반복성과 특정 동작의 반복성을 별도로 확인한다. [R6](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/) [R7](https://doi.org/10.1007/s10071-013-0701-4)"
+    },
+    {
+      "id": "2ea7801d-751c-477f-989b-826c6b804351",
+      "kind": "markdown",
+      "hash": "5b2006aad6b3aa4bc8400f8b2a13d6166040ec97a2fe1d0a6a4fb0fed062e172",
+      "markdown": "개발용 행동 사전에 시작·종료·동시 행동·판정 불가 기준을 작성한다. 일부 동일 영상을 두 코더가 독립적으로 기록해 행동 종류와 시간 기록의 불일치를 점검한다. 제스처 연구도 영상 일부에 관찰자 간 일치도를 평가했다. 필요한 표본 비율과 합격 기준은 본 파일럿의 오류 양상을 확인한 뒤 정하며, 해당 연구의 비율을 그대로 필수 기준으로 채택하지 않는다. [R1](https://doi.org/10.1007/s10071-018-1181-3)"
+    },
+    {
+      "id": "c2c3f78b-7ef3-4360-885e-7fea7874adf9",
+      "kind": "markdown",
+      "hash": "142d3b3ab2d26cf6845e43e3b7c49c480c58cec84be65c3a763a1d0df8dafe12",
+      "markdown": "# 첫 수집과 검증 순서"
+    },
+    {
+      "id": "de9bc0f9-d239-474c-bdd4-9922fc6a9379",
+      "kind": "markdown",
+      "hash": "a00d4ea46e9bf540a98466fe94579d67d72510b6259be2a2217994d878f30a5f",
+      "markdown": "1. 개체 기본 정보와 외형 자료를 등록하고, 보호자가 대표적이라고 꼽는 상호작용 장면 3개를 선정한다. 3개는 초기 작업 범위를 줄이는 설계 선택이며 검증된 최소 수량은 아니다."
+    },
+    {
+      "id": "d30e761f-9a93-48fa-b1ca-1579a0afa1f7",
+      "kind": "markdown",
+      "hash": "ffbe7a0cc8010acb7f9544a89975de7aa279bbd75556c106f6bb377395a14543",
+      "markdown": "2. 선정 장면의 원본 영상을 확보한 뒤, 같은 상황을 서로 다른 날 관찰한다. 자극 시작 전과 이후 반응이 보이는 구간을 기록하고, 자연스러운 무반응도 포함한다. 자료 확보를 위해 불편한 상황이나 장시간 보상 차단을 만들지 않는다."
+    },
+    {
+      "id": "b10966d6-98f5-4b04-863a-f28f7061b848",
+      "kind": "markdown",
+      "hash": "b5f4a749d34862944fe9c0775aa6a725f8e376642fe4a036d3840364bcda9da6",
+      "markdown": "3. 장면별 행동 사건을 코딩하고 관찰 기회·지연·순서·지속·종료를 요약한다. 보호자에게 대표성과 누락된 행동을 확인하되, 원본 관찰값을 보호자 해석으로 덮어쓰지 않는다."
+    },
+    {
+      "id": "099ff47a-e38d-432d-9d90-ae1b5c812a8b",
+      "kind": "markdown",
+      "hash": "5a3a84629c90e95b848ae28a537f8352b92f4fbd8e7aa6e7fbc5de8dc7ccf05d",
+      "markdown": "4. 확보된 근거로 2D 대표 동작과 상황별 전환을 구현한다. 관찰자료에서 추정한 값과 구현 편의를 위해 정한 임시값을 구분하고, 프로파일 버전과 근거 영상 구간을 연결한다."
+    },
+    {
+      "id": "5d11b1f7-bd9e-4951-a58f-1bec9e5df7b8",
+      "kind": "markdown",
+      "hash": "da0250f6c946a29dc6954830c20d9d04a847b9c82cca87ed84cefba1b4301bc1",
+      "markdown": "5. 첫 개인화 결과가 나오면 자기 개다움과 식별을 평가한다. 이후 생활 리듬, 원음, 설문을 추가해 개선 여부를 확인한다."
+    },
+    {
+      "id": "dd0038fe-e845-4e8a-9bc9-d0477c114eb0",
+      "kind": "markdown",
+      "hash": "a17c6d91600812cde9a136351fd3d88c41697c77518d86df5f44d442ff05c778",
+      "markdown": "생활 리듬은 평일과 휴일을 포함하도록 관찰 범위를 확장한다. Dow 등의 7일 구간 비교 결과는 활동 총량의 변동에 대한 근거이며, 모든 개의 행동 재현이 7일 안에 완성된다는 근거는 아니다. [R4](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/)"
+    },
+    {
+      "id": "9facddd8-5d9f-4208-b888-8fd089a3abef",
+      "kind": "markdown",
+      "hash": "5eb848dd4129421be6153ac2d9052268a8b0b6bddb8cae5d232ea1323f315dcf",
+      "markdown": "## 첫 개인화 결과부터 수집할 평가 자료"
+    },
+    {
+      "id": "c58fb358-68e1-4e94-add0-c435c58e638f",
+      "kind": "markdown",
+      "hash": "5a4d25d687305fcf632f7b3e9e289e489d830ce74ebfad9d988d253ff9a35bd8",
+      "markdown": "| 평가 항목 | 기록 내용 | 해석 |\n| --- | --- | --- |\n| 자기 개다움 | 동일한 문항·응답 척도로 평가하고 판단 이유 기록 | 보호자 지각의 결과이며 제작 입력과 구분 |\n| 익숙함·귀여움·생동감 | 각각 별도 문항으로 측정 | 자기 개다움과 합쳐 한 점수로 처리하지 않음 |\n| 행동 식별 | 외형을 같게 한 네 개의 행동 프로파일에서 본인 개 선택, 순서 무작위화 | 강제 4지선다의 우연수준은 25%. 새로 제안하는 검증 설계 |\n| 단서별 기여 | 행동 개인화 여부, 소리 유무, 순서·지연 변경 조건 | 어떤 자료가 재현에 도움이 됐는지 비교 |\n| 평가 연결 | 평가자, 날짜, 앱·프로파일 버전, 평가 장면, 사용한 원자료 | 같은 자료로 조정하고 평가한 결과와 새 자료의 결과를 구별 |"
+    },
+    {
+      "id": "970a367d-99d6-40b0-9442-9c7d984d2f90",
+      "kind": "markdown",
+      "hash": "7dfcf3c44395fae46e2a05f2d83543a63e51f4cabc65e94afa5333c7f6398d7d",
+      "markdown": "‘어느 것도 아니다’를 허용하는 과제는 강제 4지선다와 분리해 분석한다. 동일 보호자·개체의 반복 응답을 독립 표본 수로 세지 않는다. 평가지표와 선택 과제는 본 앱의 개발 제안이며 타당화된 반려견 식별 척도는 아니다."
+    },
+    {
+      "id": "f46d35b9-a5b9-409b-8c0a-810331da54c4",
+      "kind": "markdown",
+      "hash": "704332cbcb246a19c2ea8f899368c96873569abd6bf58ed188dfcd9bdab4ac57",
+      "markdown": "# 문헌 근거"
+    },
+    {
+      "id": "4e0635cc-d974-4739-a0fd-f54e6bd4f4af",
+      "kind": "markdown",
+      "hash": "b86a5a22ac72f3d53d81a16c03b9a780243ea933d97973e554b3a5121fe1b453",
+      "markdown": "| 문헌 | 이 수집안에서 뒷받침하는 범위 |\n| --- | --- |\n| [R1](https://doi.org/10.1007/s10071-018-1181-3) | 개 37마리·가정 영상 242개. 요구 제스처와 개체별 레퍼토리, 관찰량, 보호자 반응 및 코딩 일치도 |\n| [R2](https://www.nature.com/articles/s41598-018-22605-1) | 보호자 설문 2,149건과 행동검증. 음식·장난감 반응성, 접근 지연·집중·조작·재접근 |\n| [R3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/) | 반려견 56마리. 응시에 영향을 주는 보상 종류, 목표, 상호작용 상대의 역할 |\n| [R4](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/) | 개 80마리·활동계 2주. 일간 변동, 평일·주말과 관찰 간격 |\n| [R5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/) | 보더콜리 217마리의 행동검사. 사회성·활동·독립성 등 요인과 일부 장기 재검사 |\n| [R6](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/) | 31연구 메타분석. 성격 일관성과 연령·측정 조건 |\n| [R7](https://doi.org/10.1007/s10071-013-0701-4) | 6년 이상 간격의 소표본 재검사. 대기 성향과 세부 운동 속도의 안정성 차이 |\n| [R8](https://dl.acm.org/doi/full/10.1145/3772318.3791971) | 혼합 종 4명의 3주 사용 연구 중 개 보호자 사례만 적용. 꼬리·몸 흔들림과 원음 개인화의 질적 경험 |\n| [R9](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353) | 반려견 보호자 153명의 개방형 응답. 접촉·근접성·공동활동 등에 대한 유대 경험 |\n| [R10](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf) | 개 짖음 동일/상이 판단. 자기 개 포함 추가조건은 보호자 8명이며 직접 자기 개 선택 과제가 아님 |"
+    },
+    {
+      "id": "696801ce-20c6-450e-83f5-05daac6a8f0e",
+      "kind": "markdown",
+      "hash": "c260503f536fed2abd61f1d87b389d5eae1e72005bfc7a02edeaf5c471dc0bad",
+      "markdown": "R1. Worsley & O’Hara (2018). [Cross-species referential signalling events in domestic dogs (Canis familiaris)](https://doi.org/10.1007/s10071-018-1181-3)."
+    },
+    {
+      "id": "786242d7-7784-4b3f-8919-5130d5a13faa",
+      "kind": "markdown",
+      "hash": "c9c880a1b62d65d660332e0a83e40662dc55ef0854cd120388168c5fe36297d9",
+      "markdown": "R2. Gerencsér et al. (2018). [Development and validation of the Canine Reward Responsiveness Scale](https://www.nature.com/articles/s41598-018-22605-1)."
+    },
+    {
+      "id": "10cd06fb-1f4c-48a3-af48-3f9a3727e4fa",
+      "kind": "markdown",
+      "hash": "14eda9e1156a4d7583e35eb5ae43b299d224c3cd10b14b09b5b60fbb552bec06",
+      "markdown": "R3. Hirschi et al. (2022). [Disentangling help-seeking and giving up](https://pmc.ncbi.nlm.nih.gov/articles/PMC8753593/)."
+    },
+    {
+      "id": "b1477200-c117-4a25-aaf3-f3ed95898b4d",
+      "kind": "markdown",
+      "hash": "c71a0be22825cfc0519e24e8c55b7946ae90a0c338bc4cdbd776a718c2069e05",
+      "markdown": "R4. Dow et al. (2009). [Evaluation of optimal sampling interval for activity monitoring in companion dogs](https://pmc.ncbi.nlm.nih.gov/articles/PMC2907355/)."
+    },
+    {
+      "id": "d0655eb6-79f4-4f80-986b-424fbb74bd92",
+      "kind": "markdown",
+      "hash": "158275787758c72620f4ae174d8de5a87a3e2d19f68ee7bea091c64bfc86ee89",
+      "markdown": "R5. Turcsán et al. (2018). [Personality traits in companion dogs—Results from the VIDOPET](https://pmc.ncbi.nlm.nih.gov/articles/PMC5892901/)."
+    },
+    {
+      "id": "2adbe479-054f-47dc-aa3d-7eb909fb7772",
+      "kind": "markdown",
+      "hash": "0adb55c74e0399bd02d37932322f408e4fab3691c0ff09f7332ef34cb0400d65",
+      "markdown": "R6. Fratkin et al. (2013). [Personality Consistency in Dogs: A Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553070/)."
+    },
+    {
+      "id": "5b26429e-a1a8-4a7c-9dd4-5f0bd6745ffb",
+      "kind": "markdown",
+      "hash": "689c29109ff686b920e1aea0c378b3ee155f7741e29d92649f43cf8d80db4639",
+      "markdown": "R7. Riemer, Mills, & Wright (2014). [Impulsive for life? The nature of long-term impulsivity in domestic dogs](https://doi.org/10.1007/s10071-013-0701-4)."
+    },
+    {
+      "id": "4b35dd70-45d3-473c-9bd6-313bfe4f9672",
+      "kind": "markdown",
+      "hash": "c05431f8272f4eb6a3e1f38da3f4b836f90785ff28c6acbf455c694d0f03493e",
+      "markdown": "R8. Xiong, Li, & Chin (2026). [Bondi: Designing Tangible and Multimodal Interfaces for Continuing Bonds in Pet Bereavement](https://dl.acm.org/doi/full/10.1145/3772318.3791971)."
+    },
+    {
+      "id": "46490b37-866c-4944-9249-34a9f3a818d8",
+      "kind": "markdown",
+      "hash": "c934d6e3ebf900dbcf5faa1d760b8b27ab5db6cabf7c7b665c58fd987c8ecdcc",
+      "markdown": "R9. Riddoch, Hawkins, & Cross (2022). [Exploring behaviours perceived as important for human—Dog bonding and their translation to a robotic platform](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274353)."
+    },
+    {
+      "id": "a2457050-7949-46de-ba3d-d94243f692f1",
+      "kind": "markdown",
+      "hash": "5ef667fbbe25b585f4a23041e1bfbf2f911ed485be6f9e6d594d4b02b4e8f85d",
+      "markdown": "R10. Molnár et al. (2006). [Can humans discriminate between dogs on the base of the acoustic parameters of barks?](https://molcsa.web.elte.hu/irattar/Molnar_etal_2006.pdf)."
+    }
+  ]
+}

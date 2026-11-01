@@ -1,0 +1,56 @@
+{
+  "as_of": "2026-11-01",
+  "review": [
+    {
+      "id": "P1",
+      "file": "P1-round-eyes.png",
+      "width": 1254,
+      "height": 1254,
+      "eye_regions": [
+        {
+          "left": 375,
+          "top": 370,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "left": 521,
+          "top": 398,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "eye_diameter_px_approx": 32,
+      "changed_inside_regions": 6350,
+      "changed_outside_regions": 0,
+      "sha256": "95ce3bea5168e801b59cfb8143a6c1571440f745c4a537970eff766fe099d3c5"
+    },
+    {
+      "id": "P2",
+      "file": "P2-round-eyes.png",
+      "width": 1254,
+      "height": 1254,
+      "eye_regions": [
+        {
+          "left": 388,
+          "top": 346,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "left": 541,
+          "top": 376,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "eye_diameter_px_approx": 32,
+      "changed_inside_regions": 6364,
+      "changed_outside_regions": 0,
+      "sha256": "cf963be296eddc01e301f8592d4942713cf41463627d0388a42da7d7d099f1f4"
+    }
+  ],
+  "method": "Built-in image_gen eye edits; only local generated eye patches scaled to a common size and blended into originals. No hand-drawn replacement eyes.",
+  "excluded": "P3 per user feedback",
+  "owner_review": "pending"
+}

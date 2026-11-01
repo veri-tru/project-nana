@@ -1,0 +1,12 @@
+{
+  "records": 232,
+  "relations": 77,
+  "raw_reports": 23,
+  "sources": 76,
+  "behavior_nodes": 140,
+  "situations": 38,
+  "findings": 12,
+  "positive_assessments": 30,
+  "negative_assessments": 47,
+  "additions_match": true
+}

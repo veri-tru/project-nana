@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-01",
+  "variants": [
+    {
+      "id": "02",
+      "style": "② SD·치비형",
+      "file": "02-chibi-48.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "source_px": [
+        1254,
+        1254
+      ],
+      "body_px": [
+        40,
+        38
+      ],
+      "opaque_colours": 734,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "ground_y": 44,
+      "owner_review": "pending",
+      "animation_compatibility": "untested"
+    },
+    {
+      "id": "03",
+      "style": "③ 둥글둥글형",
+      "file": "03-round-48.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "source_px": [
+        1254,
+        1254
+      ],
+      "body_px": [
+        40,
+        33
+      ],
+      "opaque_colours": 559,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "ground_y": 44,
+      "owner_review": "pending",
+      "animation_compatibility": "untested"
+    },
+    {
+      "id": "04",
+      "style": "④ 기하학형",
+      "file": "04-geometric-48.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "source_px": [
+        1536,
+        1024
+      ],
+      "body_px": [
+        40,
+        26
+      ],
+      "opaque_colours": 4,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "ground_y": 44,
+      "owner_review": "pending",
+      "animation_compatibility": "untested",
+      "enclosed_dark_feature_alpha_recovered": []
+    },
+    {
+      "id": "05",
+      "style": "⑤ 미니멀형",
+      "file": "05-minimal-48.png",
+      "canvas_px": [
+        48,
+        48
+      ],
+      "source_px": [
+        1286,
+        1223
+      ],
+      "body_px": [
+        40,
+        39
+      ],
+      "opaque_colours": 3,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "ground_y": 44,
+      "owner_review": "pending",
+      "animation_compatibility": "untested"
+    }
+  ]
+}

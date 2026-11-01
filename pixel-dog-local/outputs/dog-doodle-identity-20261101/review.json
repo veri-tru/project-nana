@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-11-01",
+  "individualization_policy": "unchanged",
+  "human_likeness_approval": false,
+  "variants": [
+    {
+      "id": "A",
+      "file": "A-simple.png",
+      "width": 1374,
+      "height": 1145,
+      "pixel_grid": false,
+      "photo_features_requested": [
+        "short_gray_floppy_ears",
+        "white_forehead_blaze_and_muzzle",
+        "gray_upper_coat",
+        "white_chest_and_lower_paws",
+        "downward_tail"
+      ],
+      "pose": "standing_photo_reference",
+      "owner_review": "pending",
+      "breed": "not_inferred",
+      "hidden_side_markings": "unconfirmed",
+      "behavior_profile": "not_inferred",
+      "asset_motion_compatibility": "untested"
+    },
+    {
+      "id": "B",
+      "file": "B-soft.png",
+      "width": 1312,
+      "height": 1199,
+      "pixel_grid": false,
+      "photo_features_requested": [
+        "short_gray_floppy_ears",
+        "white_forehead_blaze_and_muzzle",
+        "gray_upper_coat",
+        "white_chest_and_lower_paws",
+        "downward_tail"
+      ],
+      "pose": "standing_photo_reference",
+      "owner_review": "pending",
+      "breed": "not_inferred",
+      "hidden_side_markings": "unconfirmed",
+      "behavior_profile": "not_inferred",
+      "asset_motion_compatibility": "untested"
+    },
+    {
+      "id": "C",
+      "file": "C-loose.png",
+      "width": 1410,
+      "height": 1116,
+      "pixel_grid": false,
+      "photo_features_requested": [
+        "short_gray_floppy_ears",
+        "white_forehead_blaze_and_muzzle",
+        "gray_upper_coat",
+        "white_chest_and_lower_paws",
+        "downward_tail"
+      ],
+      "pose": "standing_photo_reference",
+      "owner_review": "pending",
+      "breed": "not_inferred",
+      "hidden_side_markings": "unconfirmed",
+      "behavior_profile": "not_inferred",
+      "asset_motion_compatibility": "untested"
+    }
+  ]
+}

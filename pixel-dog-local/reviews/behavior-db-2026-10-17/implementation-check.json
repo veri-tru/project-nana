@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "frozen_artifact_hashes_verified": 5,
+  "original_record_ids_preserved": 307,
+  "changed_records": 11,
+  "field_changes_with_exact_history": 31,
+  "all_sources_and_raw_reports_preserved": true,
+  "positive_negative_assessments_preserved": true,
+  "neutral_assessment_corrected_only": "E019",
+  "canonical_relations": 43,
+  "legacy_relations_exactly_reconstructed_with_current_behavior_codes": 83,
+  "sequence_repeat_pairs_preserved": 3,
+  "source_document_hashes_match": 15,
+  "no_individual_measurements_inferred": true
+}

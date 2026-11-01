@@ -1,0 +1,149 @@
+{
+  "as_of": "2026-10-17",
+  "schema_version": "2.0.0",
+  "counts": {
+    "metadata": 7,
+    "behavior_nodes": 189,
+    "situations": 54,
+    "documents": 15,
+    "sources": 91,
+    "raw_reports": 23,
+    "records": 307,
+    "relations": 43,
+    "findings": 17,
+    "positive_assessments": 30,
+    "negative_assessments": 47,
+    "neutral_assessments": 69,
+    "field_dictionary": 63,
+    "original_records": 307,
+    "record_changes": 31,
+    "behavior_concepts": 121,
+    "node_concept_map": 149,
+    "record_organization": 307,
+    "record_facets": 70,
+    "evidence_units": 303,
+    "record_evidence": 307,
+    "personalization_requirements": 4,
+    "requirement_records": 7,
+    "sequence_templates": 7,
+    "sequences": 8,
+    "sequence_steps": 27,
+    "relation_aliases": 83,
+    "context_assessments": 146,
+    "catalog_events": 3,
+    "source_access_events": 3,
+    "concept_links": 4,
+    "review_resolutions": 14,
+    "domains": 8,
+    "recordable_behavior_nodes": 149,
+    "behavior_types_in_records": 146,
+    "evidence_candidates": 221,
+    "proposal_records": 55,
+    "review_records": 31,
+    "next_relations": 35,
+    "expanded_relations": 83,
+    "records_by_claim_type": {
+      "literature_definition": 48,
+      "literature_observation": 120,
+      "literature_mention": 1,
+      "published_owner_report": 26,
+      "design_proposal": 38,
+      "user_requirement": 17,
+      "owner_report": 49,
+      "reported_learned_behavior": 8
+    }
+  },
+  "note": "행 수는 독립 개체 수 또는 행동 발생 횟수가 아님",
+  "documents": [
+    {
+      "document_id": "DOC01",
+      "local_file": "data/behavior-db/organization.seed.json",
+      "sha256": "995f335365eb461e5dcf5d0f631097300db846a5801f9a64d6cd7114a50042b4",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC02",
+      "local_file": "docs/archive/01_data_hierarchy.md",
+      "sha256": "549d7e84424932d18452d4d950236dacc6aada6a040378c178d13724cf54c924",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC03",
+      "local_file": "docs/archive/02_dog_identity_literature.md",
+      "sha256": "8957fcbd96542ae3c9918f9704aefd95f99ca6b38d829b5cb797bbcf24c04274",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC04",
+      "local_file": "docs/archive/05_detailed_design.md",
+      "sha256": "e43c8360c80dcdf9046cbd1b9ed1d6a89665de0f1297cf0e2d2dd839b2861935",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC05",
+      "local_file": "docs/decisions.md",
+      "sha256": "959cc9ea2cb0e287d2729d549b54ac0bb4d4f41b5db71f0a7c44367006bdb8ac",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC06",
+      "local_file": "exa-results/dog-additional-behaviors-2026-10-17/report.md",
+      "sha256": "fc8c5d375f352b2eb8702c409e8e7dc44d9203299463cd4c0e826c813857c0ad",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC07",
+      "local_file": "exa-results/dog-behavior-2026-10-17/report.md",
+      "sha256": "387e12ed4c0a02e9ee72a93f54be95a51f5c9cf54db4f8deab806b8bf10e8c14",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC08",
+      "local_file": "exa-results/dog-community-habits-2026-10-17/observations.json",
+      "sha256": "2a2896ac02030acbc2185a8031e39dd6459b2d48372fab32ef05b3cebb392804",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC09",
+      "local_file": "exa-results/dog-community-habits-2026-10-17/report.md",
+      "sha256": "cc3e7a54f0ef5bb501fcd6b7ca79d5667d1faecd8e0a3d4be7a585df094d46d7",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC10",
+      "local_file": "exa-results/dog-negative-behavior-2026-10-17/report.md",
+      "sha256": "56cb8e46614aee5ff63c0b4510379f1c3e142fda7333d34015e7db5304620414",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC11",
+      "local_file": "exa-results/dog-neutral-behavior-2026-10-17/report.md",
+      "sha256": "8c3109d8ae60a5e4ff160e9f4b1a3009c9c0e10286b88ff0cfa1e52760567b4e",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC12",
+      "local_file": "exa-results/dog-positive-behavior-2026-10-17/report.md",
+      "sha256": "b589e15e7a9d1ca357112cf5829347365aaee833f268b48936f24892407240ab",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC13",
+      "local_file": "exa-results/dog-trust-2026-10-17/report.md",
+      "sha256": "5b5175a264ed27c90bab9278743e849690e0a9722c675209aa59a2b0fd0c1663",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC14",
+      "local_file": "reviews/behavior-db-2026-10-17/report.md",
+      "sha256": "0f294c7933978bd648eb061552ddda22cea0ddf970f32900eab8777630e01cf6",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    },
+    {
+      "document_id": "DOC15",
+      "local_file": "reviews/behavior-db-2026-10-17/source-checks.json",
+      "sha256": "26ec771901a1df05dbdbaf61bda74ea44b43dfb040fd3292cb942840c38d6ee1",
+      "scope": "이 빌드가 구조화한 누적·확장 조사 자료"
+    }
+  ]
+}

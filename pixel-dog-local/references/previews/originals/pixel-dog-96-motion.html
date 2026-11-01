@@ -1,0 +1,199 @@
+<div id="pixel-dog-96-motion">
+  <div class="viz-row pdm-top">
+    <span>96 × 96 px · 8프레임 · 8fps</span>
+    <span class="text-small text-muted">앉아서 반응하기</span>
+  </div>
+  <div class="pdm-stage" id="pdm-stage"></div>
+  <div class="viz-row pdm-controls">
+    <button type="button" class="btn" id="pdm-prev" aria-label="이전 프레임">이전</button>
+    <button type="button" class="btn btn-primary" id="pdm-play" aria-pressed="false">재생</button>
+    <button type="button" class="btn" id="pdm-next" aria-label="다음 프레임">다음</button>
+    <label class="form-check">
+      <input type="checkbox" class="form-check-input" id="pdm-grid">
+      <span class="form-check-label">격자</span>
+    </label>
+  </div>
+  <div class="pdm-status tabular-nums" id="pdm-status">01 / 08 · 기본 자세</div>
+  <div class="sr-only" id="pdm-announcement" aria-live="polite"></div>
+  <hr>
+  <div class="pdm-frames" id="pdm-frames" aria-label="프레임별 동작"></div>
+  <style>
+    #pixel-dog-96-motion { color:var(--foreground); }
+    #pixel-dog-96-motion .pdm-top { justify-content:space-between; gap:10px; }
+    #pixel-dog-96-motion .pdm-stage { display:flex; justify-content:center; margin:10px 0 8px; }
+    #pixel-dog-96-motion .pdm-stage svg { width:288px; max-width:100%; height:auto; display:block; }
+    #pixel-dog-96-motion .pdm-controls { justify-content:center; gap:10px; }
+    #pixel-dog-96-motion .pdm-status { text-align:center; margin:12px 0 18px; }
+    #pixel-dog-96-motion .pdm-frames { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px 12px; margin-top:18px; }
+    #pixel-dog-96-motion figure { margin:0; min-width:0; text-align:center; }
+    #pixel-dog-96-motion .pdm-thumb { display:flex; justify-content:center; margin:8px 0; }
+    #pixel-dog-96-motion .pdm-thumb svg { display:block; width:144px; max-width:100%; height:auto; }
+    #pixel-dog-96-motion .pdm-art { shape-rendering:crispEdges; }
+    #pixel-dog-96-motion .fur { fill:color-mix(in srgb,var(--orange) 44%,var(--background)); }
+    #pixel-dog-96-motion .shade { fill:color-mix(in srgb,var(--orange) 65%,var(--foreground) 18%); }
+    #pixel-dog-96-motion .light { fill:color-mix(in srgb,var(--orange) 17%,var(--background)); }
+    #pixel-dog-96-motion .ink { fill:var(--foreground); }
+    #pixel-dog-96-motion .shine { fill:var(--background); }
+    #pixel-dog-96-motion .collar { fill:var(--blue); }
+    #pixel-dog-96-motion .tag { fill:var(--yellow); }
+    #pixel-dog-96-motion .ground { fill:var(--muted); }
+    #pixel-dog-96-motion .pdm-gridlines { display:none; fill:none; stroke:var(--foreground); stroke-width:.08; opacity:.2; }
+    #pixel-dog-96-motion.pdm-grid-on .pdm-stage .pdm-gridlines { display:block; }
+    @media(max-width:520px) {
+      #pixel-dog-96-motion .pdm-frames { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      #pixel-dog-96-motion .pdm-thumb svg { width:144px; }
+    }
+  </style>
+  <script>
+  (() => {
+    const root = document.getElementById('pixel-dog-96-motion');
+    const N = 96;
+    const U = 100 / N;
+    const ns = 'http://www.w3.org/2000/svg';
+    const labels = ['기본 자세','꼬리 바깥쪽','꼬리 최대 이동','눈 반쯤 감기','눈 감기','눈 다시 뜨기','꼬리 반대 방향','기본 자세로 복귀'];
+    const params = [
+      {tail:0,hx:0,hy:0,ear:0,open:1,breath:0},
+      {tail:16,hx:1,hy:-1,ear:0,open:1,breath:1},
+      {tail:22,hx:1,hy:-2,ear:1,open:1,breath:2},
+      {tail:16,hx:1,hy:-1,ear:1,open:.5,breath:1},
+      {tail:0,hx:0,hy:0,ear:0,open:0,breath:0},
+      {tail:-16,hx:-1,hy:1,ear:-1,open:.5,breath:-1},
+      {tail:-22,hx:-1,hy:1,ear:-1,open:1,breath:-1},
+      {tail:-16,hx:-1,hy:0,ear:0,open:1,breath:0}
+    ];
+    const ellipse = (x,y,cx,cy,rx,ry) => ((x-cx)/rx)**2 + ((y-cy)/ry)**2 <= 1;
+    function polygon(x,y,points) {
+      let inside = false;
+      for(let i=0,j=points.length-1;i<points.length;j=i++) {
+        const [xi,yi]=points[i], [xj,yj]=points[j];
+        if((yi>y)!==(yj>y) && x<(xj-xi)*(y-yi)/(yj-yi)+xi) inside=!inside;
+      }
+      return inside;
+    }
+    function pixel(x,y,f,tail) {
+      let p = '';
+      if(ellipse(x,y,51,92,34,4)) p='ground';
+      if(polygon(x,y,tail)) p='shade';
+      const bx=x-f.hx*U*.35;
+      const by=92+(y-92)/(1+f.breath*.008);
+      if(ellipse(bx,by,51,73,24,20)) p='shade';
+      if(ellipse(bx,by,50,72,18,20)) p='fur';
+      if(ellipse(bx,by,49,70,10,16)) p='light';
+      if(ellipse(x,y,31,85,12,6)||ellipse(x,y,69,85,12,6)) p='fur';
+      if(x>=34&&x<43&&y>=69&&y<91) p='fur';
+      if(x>=57&&x<66&&y>=69&&y<91) p='fur';
+      if(ellipse(x,y,38,89,8,4)||ellipse(x,y,62,89,8,4)) p='light';
+      if(ellipse(bx,by,50,58,20,5)) p='collar';
+      if(ellipse(bx,by,50,63,3,3)) p='tag';
+      const hx=x-f.hx*U, hy=y-f.hy*U;
+      const ex=hx-f.ear*U, ey=hy+f.ear*U*.5;
+      if(ellipse(ex,ey,26,37,12,21)||ellipse(ex,ey,74,37,12,21)) p='shade';
+      if(ellipse(hx,hy,50,33,25,24)) p='fur';
+      if(ellipse(hx,hy,35,18,10,10)||ellipse(hx,hy,48,15,12,9)||ellipse(hx,hy,62,19,10,10)) p='fur';
+      if(ellipse(ex,ey,24,44,6,12)||ellipse(ex,ey,76,44,6,12)) p='fur';
+      if(ellipse(hx,hy,50,45,16,11)) p='light';
+      if(ellipse(hx,hy,50,43,6,4)) p='ink';
+      if(hx>=48&&hx<52&&hy>=45&&hy<50) p='ink';
+      if(ellipse(hx,hy,50,51,7,2)&&hy>=51) p='shade';
+      if(f.open>0) {
+        const eyeY=34+(1-f.open)*1.5;
+        if(ellipse(hx,hy,38,eyeY,3.3,4*f.open)||ellipse(hx,hy,62,eyeY,3.3,4*f.open)) p='ink';
+        if(f.open>.75 && (ellipse(hx,hy,37,32.5,1.25,1.4)||ellipse(hx,hy,61,32.5,1.25,1.4))) p='shine';
+      } else {
+        for(const cx of [38,62]) {
+          const dx=hx-cx;
+          if(Math.abs(dx)<3.8 && Math.abs(hy-(35+.07*dx*dx))<.8) p='ink';
+        }
+      }
+      if(ellipse(hx,hy,48.5,41.8,2,.8)) p='shade';
+      for(const [cx,cy] of [[36,19],[48,16],[61,20]]) {
+        const d=((hx-cx)/2.7)**2+((hy-cy)/2.3)**2;
+        if(d>.52&&d<1&&hy>cy-.6&&p==='fur') p='shade';
+      }
+      for(const [cx,cy] of [[24,36],[24,45],[76,36],[76,45]]) {
+        const d=((ex-cx)/2.7)**2+((ey-cy)/2.3)**2;
+        if(d>.52&&d<1&&ey>cy-.6&&p==='fur') p='shade';
+      }
+      if(y>88&&y<91&&((x>35&&x<36)||(x>39&&x<40)||(x>59&&x<60)||(x>63&&x<64))) p='shade';
+      return p;
+    }
+    let gridPath='';
+    for(let k=0;k<=N;k++) gridPath+=`M${k} 0V${N}M0 ${k}H${N}`;
+    const framePaths=params.map(f=>{
+      const a=f.tail*Math.PI/180;
+      const tail=[[68,74],[79,71],[85,61],[90,62],[91,72],[84,82],[69,86]].map(([x,y])=>[
+        70+(x-70)*Math.cos(a)-(y-80)*Math.sin(a),
+        80+(x-70)*Math.sin(a)+(y-80)*Math.cos(a)
+      ]);
+      const paths={};
+      for(let y=0;y<N;y++) {
+        const row=Array.from({length:N},(_,x)=>pixel((x+.5)*U,(y+.5)*U,f,tail));
+        for(let x=0;x<N;) {
+          const c=row[x], start=x;
+          while(x<N&&row[x]===c)x++;
+          if(c)paths[c]=(paths[c]||'')+`M${start} ${y}h${x-start}v1H${start}z`;
+        }
+      }
+      return paths;
+    });
+    function svgFrame(index,withGrid=false) {
+      const svg=document.createElementNS(ns,'svg');
+      svg.setAttribute('viewBox',`0 0 ${N} ${N}`);
+      svg.setAttribute('class','pdm-art');
+      svg.setAttribute('role','img');
+      svg.setAttribute('aria-label',`96 곱하기 96픽셀 강아지, ${index+1}번 프레임, ${labels[index]}`);
+      for(const [color,d] of Object.entries(framePaths[index])) {
+        const path=document.createElementNS(ns,'path');
+        path.setAttribute('class',color); path.setAttribute('d',d); svg.appendChild(path);
+      }
+      if(withGrid) {
+        const path=document.createElementNS(ns,'path');
+        path.setAttribute('class','pdm-gridlines'); path.setAttribute('d',gridPath); svg.appendChild(path);
+      }
+      return svg;
+    }
+    const stage=root.querySelector('#pdm-stage');
+    const frames=root.querySelector('#pdm-frames');
+    const status=root.querySelector('#pdm-status');
+    const play=root.querySelector('#pdm-play');
+    const announcement=root.querySelector('#pdm-announcement');
+    const selectors=[];
+    let current=0, timer=null;
+    function show(index,announce=false) {
+      current=(index+8)%8;
+      stage.replaceChildren(svgFrame(current,true));
+      const text=`${String(current+1).padStart(2,'0')} / 08 · ${labels[current]}`;
+      status.textContent=text;
+      selectors.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===current)));
+      if(announce)announcement.textContent=text;
+    }
+    function stop() {
+      if(timer!==null)clearInterval(timer);
+      timer=null; play.textContent='재생'; play.setAttribute('aria-pressed','false');
+    }
+    for(let i=0;i<8;i++) {
+      const figure=document.createElement('figure');
+      const button=document.createElement('button');
+      button.type='button'; button.className='btn';
+      button.textContent=String(i+1).padStart(2,'0');
+      button.setAttribute('aria-label',`${i+1}번 프레임 선택: ${labels[i]}`);
+      button.setAttribute('aria-pressed',String(i===0));
+      button.addEventListener('click',()=>{stop();show(i,true);});
+      selectors.push(button); figure.appendChild(button);
+      const art=document.createElement('div');art.className='pdm-thumb';art.appendChild(svgFrame(i));figure.appendChild(art);
+      const caption=document.createElement('figcaption');caption.className='text-small text-muted';caption.textContent=labels[i];figure.appendChild(caption);
+      frames.appendChild(figure);
+    }
+    play.addEventListener('click',()=>{
+      if(timer!==null){stop();return;}
+      play.textContent='정지';play.setAttribute('aria-pressed','true');
+      timer=setInterval(()=>{if(!root.isConnected){stop();return;}show(current+1);},125);
+    });
+    root.querySelector('#pdm-prev').addEventListener('click',()=>{stop();show(current-1,true);});
+    root.querySelector('#pdm-next').addEventListener('click',()=>{stop();show(current+1,true);});
+    root.querySelector('#pdm-grid').addEventListener('change',e=>root.classList.toggle('pdm-grid-on',e.target.checked));
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
+    show(0);
+  })();
+  </script>
+</div>

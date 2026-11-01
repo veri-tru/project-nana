@@ -1,0 +1,17 @@
+{
+  "localLinks": 218,
+  "missingLinks": [],
+  "contextIds": [
+    "CTX_ACTION_FINISHED",
+    "CTX_CONTACT_CHANGE",
+    "CTX_PLAY_EXCHANGE",
+    "CTX_REST_CHECK",
+    "CTX_SLEEP_REQUEST",
+    "CTX_TARGET_MOVES",
+    "CTX_TARGET_PRESENT",
+    "CTX_TARGET_UNAVAILABLE",
+    "CTX_WALK_CHECK"
+  ],
+  "frames": 36,
+  "protectedAssetsUnchanged": 34
+}

@@ -1,0 +1,132 @@
+{
+  "status": "packaging_passed",
+  "visualReview": "static_sheets_reviewed",
+  "playbackReview": "pending_step_3",
+  "deviceReview": "not_run",
+  "userApproval": "pending",
+  "scenes": [
+    {
+      "id": "A-rest",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceSha256": "d89bced498e9a7358d38d83b601530c8a914bbc795cdc7cf359df35e5436e042",
+      "frames": 12,
+      "allDistinct": true,
+      "canvasSize": [
+        400,
+        400
+      ],
+      "cropAndPadNoScale": true,
+      "seams": [
+        [
+          0,
+          364,
+          724,
+          1086,
+          1448
+        ],
+        [
+          0,
+          363,
+          724,
+          1086,
+          1448
+        ],
+        [
+          0,
+          365,
+          725,
+          1086,
+          1448
+        ]
+      ],
+      "darkPixelBottomProxy": 360,
+      "timingAligned125ms": true,
+      "totalMs": 2500
+    },
+    {
+      "id": "B-walk",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceSha256": "08db8a02913640c228f9eec8fbfcff915e3c11ca007b4d836f5ab8f777a32dc3",
+      "frames": 12,
+      "allDistinct": true,
+      "canvasSize": [
+        400,
+        400
+      ],
+      "cropAndPadNoScale": true,
+      "seams": [
+        [
+          0,
+          366,
+          725,
+          1086,
+          1448
+        ],
+        [
+          0,
+          368,
+          727,
+          1086,
+          1448
+        ],
+        [
+          0,
+          366,
+          724,
+          1086,
+          1448
+        ]
+      ],
+      "darkPixelBottomProxy": 360,
+      "timingAligned125ms": true,
+      "totalMs": 1500
+    },
+    {
+      "id": "C-alternate",
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "sourceSha256": "cd4044ed96f8d7f347e5af6527f245d9d927a89fd03cae019475c522c36c19ea",
+      "frames": 12,
+      "allDistinct": true,
+      "canvasSize": [
+        400,
+        400
+      ],
+      "cropAndPadNoScale": true,
+      "seams": [
+        [
+          0,
+          368,
+          730,
+          1091,
+          1448
+        ],
+        [
+          0,
+          369,
+          729,
+          1091,
+          1448
+        ],
+        [
+          0,
+          368,
+          729,
+          1092,
+          1448
+        ]
+      ],
+      "darkPixelBottomProxy": 360,
+      "timingAligned125ms": true,
+      "totalMs": 3000
+    }
+  ]
+}

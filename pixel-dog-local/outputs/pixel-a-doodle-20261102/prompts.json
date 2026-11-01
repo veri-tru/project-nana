@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "tool": "built-in image_gen",
+  "reference": "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/pixel-style-references-20261102/A-soft-simple.png",
+  "base": "Use case: style-transfer. Edit the attached A dog character into ONE new proposal that adds PARTIAL, restrained doodle-inspired deformation while retaining A's pixel art identity.\nThe attachment is the exact visual base, not a loose mood reference. Keep thin warm charcoal stair-stepped pixel contour, soft large-area gray/ivory shading, cream background, small pink tongue, low dark-gray tail to right, and the gray-white dog's distinctive white forehead blaze joining white muzzle/beard, gray short floppy ears, gray body, white bib and feet. Whole seated dog, same front three-quarter composition and canvas, comfortable blank margins, similar visual size.\nKeep fur simple: large clean unbroken color fields, only 2–3 broad shadow planes, NO fur streaks, tiny scattered tonal patches, curly hair, noise or increased texture. Doodle influence is in selective SHAPE and proportion decisions, NOT scribble texture, extra floating marks, crayons or a complete medium change. All curves retain visible pixel staircase edges. The dog must remain recognizably the same individual, with only modest deformation. No huge head, exaggerated long torso/legs/neck, long spaniel ears, googly eyes, invented fur markings, props, labels, text, extra characters, frames, or multi-panel sheet. This is one static style candidate.\n",
+  "variants": [
+    {
+      "id": "A1-face",
+      "label": "A1 얼굴 중심",
+      "detail": "VARIANT A1: Local doodle deformation ONLY in face and facial contour. Keep body's proportions and seated posture close to source. Make white cheeks/beard gently bulbous like two softly unequal rounded dumpling shapes, about 12% broader; tiny rounded bean-shaped dark eyes with minimal/no glossy iris detail, slightly irregular handcrafted nose, a tiny casually offset curved mouth and pink tongue. Face reads relaxed and endearingly naive, NOT a realistic painted face. Retain the forehead blaze and short gray floppy ears. Subtle asymmetry is in drawn contour, never new asymmetric coat spots. Head stays same approximate height. Main visible distinction: round soft doodle face on original A body."
+    },
+    {
+      "id": "A2-body",
+      "label": "A2 몸통·발 중심",
+      "detail": "VARIANT A2: Local doodle deformation in BODY AND PAWS. Keep A's head, facial features and upright face orientation close to source. Compress seated torso and leg height by about 12–15%, round the haunch into a simple soft bean shape and widen the small white front paws about 15% into softly rounded mitten shapes with minimal toe marks. Preserve plausible four-limb seated dog anatomy and gray-white layout. Neck must remain short and natural. Body feels gently squat and pleasantly handmade without becoming extreme chibi or obese. Keep a simple compact low gray tail. Main visible distinction: compact bean-shaped body and round paws beneath original A face. Keep full character similarly framed, do not crop."
+    },
+    {
+      "id": "A3-gesture",
+      "label": "A3 자세·비대칭 중심",
+      "detail": "VARIANT A3: Local doodle deformation in relaxed GESTURE and contour rhythm. Preserve A's head size and body length, but tilt the whole head a modest 8 degrees, let one short floppy ear sit a little higher/fold a little differently, lean the seated torso subtly in the opposite direction for balance. One front paw is a little forward, both firmly on ground; no lifted paw. Give the cheeks and ears a lightly irregular hand-shaped silhouette, small simple dark eyes, an off-center tiny smile/tongue. Recognizable and calm, not distorted or anatomically awkward. DO NOT stretch body or make mismatched huge eyes. Main visible distinction: charming slightly tilted head and unforced asymmetrical seated silhouette. Maintain gray-white marking topology as it follows the pose."
+    }
+  ],
+  "status": "USER_REVIEW_PENDING",
+  "outputs": {
+    "A1-face.png": "exec-7270b06f-69f8-4b68-9fd4-18ab64bf9d03.png",
+    "A2-body.png": "exec-ff19f120-4a4a-46b9-bcc1-1638395cdc18.png",
+    "A3-gesture.png": "exec-85e012b6-aa8e-4a05-b90c-6b916e0d1b77.png"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "status": "CANDIDATE",
+  "scenes": [
+    {
+      "id": "A-rest",
+      "refs": [
+        "outputs/dog-crayon-round-eyes-20261101/P1-round-eyes.png",
+        "outputs/dog-crayon-p1-policy-20261101/P1-02-lie.png"
+      ],
+      "prompt": "Create a production animation sprite sheet with EXACTLY 12 sequential frames in a REGULAR 4 COLUMN by 3 ROW grid, read left-to-right then top-to-bottom. Entire sheet 2048 by 1536 if supported, each cell square, no borders, labels, text or gutters. Each cell contains ONE complete dog, ample padding, no cropping. Reference images define the SAME individual dog and warm rough crayon on ivory paper style: gray short drooping ears and gray back, cream-white forehead blaze muzzle beard chest paws, tiny solid round dark dot eyes WITHOUT whites, dark brown textured outlines, full long furry LOW tail. Preserve proportions, coat regions, character size and camera throughout. No human eyebrows, no eye dots sliding across a stationary face; show attention using anatomically plausible small head rotation. Whole body support baseline at 86% of each cell, stable body registration and canvas. No props/people rendered. These are animation in-betweens, not independent pose variations. Scene A: use SECOND image's supported lying body posture in all 12 frames, torso, legs and tail absolutely still. Head supported by neck not on paws. Body faces lower-left. Mouth relaxed slightly open with small tongue visible, same baseline throughout, no panting or licking. Frame1 initial forward three-quarter head. Frames2,3,4 gently rotate head toward offscreen viewer-left target (small side profile), frame5 at target, frame6 same with brief closed eyelids blink, frame7 eyes open, frame8 holds. Frames9,10,11 gently rotate back, frame12 matches frame1. Smooth small steps, nose and muzzle rotate with skull, paws stay planted, no raised paw.",
+      "tool": "image_gen built-in",
+      "styleRevision": {
+        "id": "A-rest",
+        "prompt": "Edit the FIRST reference sprite sheet, preserving its EXACT 4-column 3-row grid, all twelve frame positions, the complete same dog identity, animation sequence, paper background, gray/cream coat coverage and dark dot eyes. SECOND reference is the CURRENT APPROVED STYLE for outline strength, fur fill and face marks. Apply its much LIGHTER, THINNER, broken soft brown outer contour to ALL twelve dogs in first sheet; preserve dense gray crayon fill, cream beard and white paws, small imperfect hand-drawn dark filled eyes/nose and pink tongue. Do NOT turn fur into empty outlines. Do NOT add symmetric highlights/holes in nose or eyes. Do not add labels, borders, extra objects. Keep bottom ground and body root registered within each cell. This is a conservative style update.",
+        "refs": [
+          "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-1fb467cc-36af-45fc-99d3-404b9fccc0d9.png",
+          "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-outline-levels-20261101/A-weak.png"
+        ]
+      },
+      "sourceFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-1fb467cc-36af-45fc-99d3-404b9fccc0d9.png",
+      "finalFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-978a9ab7-6295-4818-a239-a3fe38d2d7b9.png"
+    },
+    {
+      "id": "B-walk",
+      "refs": [
+        "outputs/dog-crayon-round-eyes-20261101/P1-round-eyes.png",
+        "outputs/dog-crayon-p1-policy-20261101/P1-01-walk.png"
+      ],
+      "prompt": "Create a production animation sprite sheet with EXACTLY 12 sequential frames in a REGULAR 4 COLUMN by 3 ROW grid, read left-to-right then top-to-bottom. Entire sheet 2048 by 1536 if supported, each cell square, no borders, labels, text or gutters. Each cell contains ONE complete dog, ample padding, no cropping. Reference images define the SAME individual dog and warm rough crayon on ivory paper style: gray short drooping ears and gray back, cream-white forehead blaze muzzle beard chest paws, tiny solid round dark dot eyes WITHOUT whites, dark brown textured outlines, full long furry LOW tail. Preserve proportions, coat regions, character size and camera throughout. No human eyebrows, no eye dots sliding across a stationary face; show attention using anatomically plausible small head rotation. Whole body support baseline at 86% of each cell, stable body registration and canvas. No props/people rendered. These are animation in-betweens, not independent pose variations. Scene B: use SECOND image's standing walking body, heading screen-left, tail trailing right. Animate a slow four-legged WALK IN PLACE throughout all 12 frames, maintaining torso orientation to left and alternating visible paw support plausibly, no airborne trot. Body root remains registered; actual translation supplied separately. Frame1 head initially forward toward left. Frames2-5 smoothly turn head slightly back toward camera and rear-side target (offscreen right-front of camera), only a modest over-shoulder check, never twist neck 180 degrees. Frames6-7 hold turned head while legs KEEP STEPPING. Frames8-11 smoothly turn head forward to left again. Frame12 completes step cycle returning toward frame1. Mouth stays relaxed slightly open with small visible tongue across whole sequence. No new licking, panting or emotional face. Keep same four legs, body volume and coat patches, low furry tail.",
+      "tool": "image_gen built-in",
+      "styleRevision": {
+        "id": "B-walk",
+        "prompt": "Edit the FIRST reference sprite sheet, preserving its EXACT 4-column 3-row grid, all twelve frame positions, the complete same dog identity, animation sequence, paper background, gray/cream coat coverage and dark dot eyes. SECOND reference is the CURRENT APPROVED STYLE for outline strength, fur fill and face marks. Apply its much LIGHTER, THINNER, broken soft brown outer contour to ALL twelve dogs in first sheet; preserve dense gray crayon fill, cream beard and white paws, small imperfect hand-drawn dark filled eyes/nose and pink tongue. Do NOT turn fur into empty outlines. Do NOT add symmetric highlights/holes in nose or eyes. Do not add labels, borders, extra objects. Keep bottom ground and body root registered within each cell. This is a conservative style update. Also improve head check: frames4-7 nose points slightly screen-right, toward a nearby rear-side offscreen target on camera side; body continues facing screen-left and legs keep walking. Transition gently from leftward head frame1 through near-front frame3 to slight rightward three-quarter frames4-7, then back to left by frame11. Keep neck rotation plausible, never twist 180 degrees.",
+        "refs": [
+          "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-6bce2079-1b9d-46fb-89fc-7bc8280c343c.png",
+          "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-outline-levels-20261101/A-weak.png"
+        ]
+      },
+      "sourceFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-6bce2079-1b9d-46fb-89fc-7bc8280c343c.png",
+      "finalFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-71085c0c-4d47-4262-827d-ca39c92c8987.png"
+    },
+    {
+      "id": "C-alternate",
+      "refs": [
+        "outputs/dog-crayon-round-eyes-20261101/P1-round-eyes.png"
+      ],
+      "prompt": "Create a production animation sprite sheet with EXACTLY 12 sequential frames in a REGULAR 4 COLUMN by 3 ROW grid, read left-to-right then top-to-bottom. Entire sheet 2048 by 1536 if supported, each cell square, no borders, labels, text or gutters. Each cell contains ONE complete dog, ample padding, no cropping. Reference images define the SAME individual dog and warm rough crayon on ivory paper style: gray short drooping ears and gray back, cream-white forehead blaze muzzle beard chest paws, tiny solid round dark dot eyes WITHOUT whites, dark brown textured outlines, full long furry LOW tail. Preserve proportions, coat regions, character size and camera throughout. No human eyebrows, no eye dots sliding across a stationary face; show attention using anatomically plausible small head rotation. Whole body support baseline at 86% of each cell, stable body registration and canvas. No props/people rendered. These are animation in-betweens, not independent pose variations. Scene C: use reference's seated pose, all four visible limbs/body/tail remain absolutely stationary. A known toy is offscreen lower-left and known person offscreen upper-left closer to camera; neither is drawn. Frame1 neutral forward three-quarter head, small relaxed open mouth tongue visible. Frames2-3 lower/turn head gently toward toy lower-left, frame4 holds toy gaze. Frames5-6 lift head gradually toward person upper-left and closer to camera, frame7 holds person gaze. Frames8-9 gently lower toward toy again. Frame10 starts return, frame11 near neutral, frame12 neutral matches frame1. Head and muzzle actually change pitch/yaw with no body relocation, no eye dot drift. Preserve relaxed mouth configuration throughout; no lip lick or panting inserted. Clear but subtle successive pose changes, consistent ears and beard volume.",
+      "tool": "image_gen built-in",
+      "styleRevision": {
+        "id": "C-alternate",
+        "prompt": "Edit the FIRST reference sprite sheet, preserving its EXACT 4-column 3-row grid, all twelve frame positions, the complete same dog identity, animation sequence, paper background, gray/cream coat coverage and dark dot eyes. SECOND reference is the CURRENT APPROVED STYLE for outline strength, fur fill and face marks. Apply its much LIGHTER, THINNER, broken soft brown outer contour to ALL twelve dogs in first sheet; preserve dense gray crayon fill, cream beard and white paws, small imperfect hand-drawn dark filled eyes/nose and pink tongue. Do NOT turn fur into empty outlines. Do NOT add symmetric highlights/holes in nose or eyes. Do not add labels, borders, extra objects. Keep bottom ground and body root registered within each cell. This is a conservative style update.",
+        "refs": [
+          "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-cabe780e-23d3-49b5-8e7b-547b0263e3c5.png",
+          "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/dog-crayon-outline-levels-20261101/A-weak.png"
+        ]
+      },
+      "sourceFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-cabe780e-23d3-49b5-8e7b-547b0263e3c5.png",
+      "finalFile": "C:\\Users\\verib\\.codex\\generated_images\\01a19523-87cd-7c11-bd05-3df91c3d821c\\exec-baa53d1a-3169-49b1-a35b-d67ed670e034.png"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "tool": "built-in image_gen",
+  "requested_canvas_px": [
+    48,
+    48
+  ],
+  "excluded_style": "낙서형",
+  "initial": [
+    {
+      "id": "02",
+      "name": "chibi",
+      "label": "② SD·치비형",
+      "direction": "EXTREME SD / CHIBI. The head is enormous, about 60-65 percent of the character's total HEIGHT and about twice the torso's width. Torso is tiny under the head and legs are VERY short stubby 2-3 pixel feet. Baby-like, super cute, oversized rounded floppy ears, eyes somewhat larger but black and simple, small muzzle and nose. A strongly top-heavy two-head-tall chibi dog. No normal adult-long torso or tall legs. Maintain clearly gray ears, white middle forehead and muzzle, a tiny gray back and white feet.",
+      "prompt": "Use case: stylized-concept. Create ONE NEW strongly DEFORMED/stylized 48x48 pixel-art dog character, based on the same individual dog in the two reference photos (standing anatomy/coat and close-up face). This is a new character design with deliberately changed proportions, NOT another realistic proportioned dog or a photographic pixelation. Keep the individual's key identifiers: cool medium-dark gray floppy ears and gray upper coat, broad off-white central forehead blaze connected to white muzzle, off-white chest and little white paws, near-black eyes and nose. No breed identification, no invented spots, collars, clothing, tongue, pink cheeks, props, text, labels, UI, floor shadow, checkerboard. One full-body neutral standing character, mild three-quarter view facing screen left with head looking toward viewer, four short white paws on shared ground, all parts visible with transparent padding. Genuine transparent background. Crisp low-resolution pixel art DESIGNED ON A 48x48 LOGICAL GRID; hard uniform square pixel clusters, no antialiasing, blurring, smooth brushwork, gradients or detailed fur noise. Entire character stays inside a square canvas with at least 4 logical pixels of padding. Keep face readable using distinct dark eye clusters, simple black nose, clean white blaze. Render an enlarged integer nearest-neighbor representation of that 48x48 logical grid if needed. Limited neutral gray/ivory/charcoal palette, clear silhouette, handcrafted game sprite quality. DESIGN DIRECTION BELOW IS THE MAIN REQUIREMENT:\nEXTREME SD / CHIBI. The head is enormous, about 60-65 percent of the character's total HEIGHT and about twice the torso's width. Torso is tiny under the head and legs are VERY short stubby 2-3 pixel feet. Baby-like, super cute, oversized rounded floppy ears, eyes somewhat larger but black and simple, small muzzle and nose. A strongly top-heavy two-head-tall chibi dog. No normal adult-long torso or tall legs. Maintain clearly gray ears, white middle forehead and muzzle, a tiny gray back and white feet."
+    },
+    {
+      "id": "03",
+      "name": "round",
+      "label": "③ 둥글둥글형",
+      "direction": "ROUND PLUSH BLOB. Both HEAD and BODY are broad round circular/oval blobs of similar VISUAL MASS, a soft chunky bean-shaped body, short drooping round ears, two or four tiny white nubs for feet below a big round belly. Silhouette very round, low and plump, feels like a soft squishy plush. Head is NOT disproportionately gigantic like a chibi, body remains a substantial round blob. Almost no angular corners except pixel staircase. Gray round body, white bib and muzzle, clearly readable tiny eyes and black nose.",
+      "prompt": "Use case: stylized-concept. Create ONE NEW strongly DEFORMED/stylized 48x48 pixel-art dog character, based on the same individual dog in the two reference photos (standing anatomy/coat and close-up face). This is a new character design with deliberately changed proportions, NOT another realistic proportioned dog or a photographic pixelation. Keep the individual's key identifiers: cool medium-dark gray floppy ears and gray upper coat, broad off-white central forehead blaze connected to white muzzle, off-white chest and little white paws, near-black eyes and nose. No breed identification, no invented spots, collars, clothing, tongue, pink cheeks, props, text, labels, UI, floor shadow, checkerboard. One full-body neutral standing character, mild three-quarter view facing screen left with head looking toward viewer, four short white paws on shared ground, all parts visible with transparent padding. Genuine transparent background. Crisp low-resolution pixel art DESIGNED ON A 48x48 LOGICAL GRID; hard uniform square pixel clusters, no antialiasing, blurring, smooth brushwork, gradients or detailed fur noise. Entire character stays inside a square canvas with at least 4 logical pixels of padding. Keep face readable using distinct dark eye clusters, simple black nose, clean white blaze. Render an enlarged integer nearest-neighbor representation of that 48x48 logical grid if needed. Limited neutral gray/ivory/charcoal palette, clear silhouette, handcrafted game sprite quality. DESIGN DIRECTION BELOW IS THE MAIN REQUIREMENT:\nROUND PLUSH BLOB. Both HEAD and BODY are broad round circular/oval blobs of similar VISUAL MASS, a soft chunky bean-shaped body, short drooping round ears, two or four tiny white nubs for feet below a big round belly. Silhouette very round, low and plump, feels like a soft squishy plush. Head is NOT disproportionately gigantic like a chibi, body remains a substantial round blob. Almost no angular corners except pixel staircase. Gray round body, white bib and muzzle, clearly readable tiny eyes and black nose."
+    },
+    {
+      "id": "04",
+      "name": "geometric",
+      "label": "④ 기하학형",
+      "direction": "GEOMETRIC CONSTRUCTION. Deliberately construct a playful dog from a small set of unmistakable basic shapes: a pale rounded-square/circle head, two dark gray folded triangular/trapezoidal floppy ears, a horizontally oriented gray RECTANGLE torso, four tiny off-white square paws, a small triangular tail and black square nose. The white blaze is one straight pale rectangular strip. Flat large color regions, strong angular silhouette and negative spaces, no fur texture or soft plush rendering. 5-7 colors maximum. This must look structurally geometric rather than a normal illustrated dog.",
+      "prompt": "Use case: stylized-concept. Create ONE NEW strongly DEFORMED/stylized 48x48 pixel-art dog character, based on the same individual dog in the two reference photos (standing anatomy/coat and close-up face). This is a new character design with deliberately changed proportions, NOT another realistic proportioned dog or a photographic pixelation. Keep the individual's key identifiers: cool medium-dark gray floppy ears and gray upper coat, broad off-white central forehead blaze connected to white muzzle, off-white chest and little white paws, near-black eyes and nose. No breed identification, no invented spots, collars, clothing, tongue, pink cheeks, props, text, labels, UI, floor shadow, checkerboard. One full-body neutral standing character, mild three-quarter view facing screen left with head looking toward viewer, four short white paws on shared ground, all parts visible with transparent padding. Genuine transparent background. Crisp low-resolution pixel art DESIGNED ON A 48x48 LOGICAL GRID; hard uniform square pixel clusters, no antialiasing, blurring, smooth brushwork, gradients or detailed fur noise. Entire character stays inside a square canvas with at least 4 logical pixels of padding. Keep face readable using distinct dark eye clusters, simple black nose, clean white blaze. Render an enlarged integer nearest-neighbor representation of that 48x48 logical grid if needed. Limited neutral gray/ivory/charcoal palette, clear silhouette, handcrafted game sprite quality. DESIGN DIRECTION BELOW IS THE MAIN REQUIREMENT:\nGEOMETRIC CONSTRUCTION. Deliberately construct a playful dog from a small set of unmistakable basic shapes: a pale rounded-square/circle head, two dark gray folded triangular/trapezoidal floppy ears, a horizontally oriented gray RECTANGLE torso, four tiny off-white square paws, a small triangular tail and black square nose. The white blaze is one straight pale rectangular strip. Flat large color regions, strong angular silhouette and negative spaces, no fur texture or soft plush rendering. 5-7 colors maximum. This must look structurally geometric rather than a normal illustrated dog."
+    },
+    {
+      "id": "05",
+      "name": "minimal",
+      "label": "⑤ 미니멀형",
+      "direction": "ULTRA MINIMAL SILHOUETTE MASCOT. Reduce the dog to the fewest possible pixel clusters: simple compact gray silhouette with softly rounded head/body, two drooping ear lobes, clean white central face/muzzle area and chest, tiny white feet. Face is ONLY two black dot eyes and one small black nose; no mouth, eye shines, fur lines, joints, toes, hatching, shading or texture. 4-5 flat colors including the dark features, no outer border. Lots of calm negative space and very clear silhouette at actual 48px. Refined simple pictogram-like pixel mascot. Differ from geometric by having a flowing compact soft silhouette rather than visibly separate polygons.",
+      "prompt": "Use case: stylized-concept. Create ONE NEW strongly DEFORMED/stylized 48x48 pixel-art dog character, based on the same individual dog in the two reference photos (standing anatomy/coat and close-up face). This is a new character design with deliberately changed proportions, NOT another realistic proportioned dog or a photographic pixelation. Keep the individual's key identifiers: cool medium-dark gray floppy ears and gray upper coat, broad off-white central forehead blaze connected to white muzzle, off-white chest and little white paws, near-black eyes and nose. No breed identification, no invented spots, collars, clothing, tongue, pink cheeks, props, text, labels, UI, floor shadow, checkerboard. One full-body neutral standing character, mild three-quarter view facing screen left with head looking toward viewer, four short white paws on shared ground, all parts visible with transparent padding. Genuine transparent background. Crisp low-resolution pixel art DESIGNED ON A 48x48 LOGICAL GRID; hard uniform square pixel clusters, no antialiasing, blurring, smooth brushwork, gradients or detailed fur noise. Entire character stays inside a square canvas with at least 4 logical pixels of padding. Keep face readable using distinct dark eye clusters, simple black nose, clean white blaze. Render an enlarged integer nearest-neighbor representation of that 48x48 logical grid if needed. Limited neutral gray/ivory/charcoal palette, clear silhouette, handcrafted game sprite quality. DESIGN DIRECTION BELOW IS THE MAIN REQUIREMENT:\nULTRA MINIMAL SILHOUETTE MASCOT. Reduce the dog to the fewest possible pixel clusters: simple compact gray silhouette with softly rounded head/body, two drooping ear lobes, clean white central face/muzzle area and chest, tiny white feet. Face is ONLY two black dot eyes and one small black nose; no mouth, eye shines, fur lines, joints, toes, hatching, shading or texture. 4-5 flat colors including the dark features, no outer border. Lots of calm negative space and very clear silhouette at actual 48px. Refined simple pictogram-like pixel mascot. Differ from geometric by having a flowing compact soft silhouette rather than visibly separate polygons."
+    }
+  ],
+  "refinements": [
+    {
+      "id": "04",
+      "name": "geometric",
+      "label": "④ 기하학형",
+      "prompt": "A single flat GEOMETRIC pixel dog icon on a genuinely transparent background. Design on a 48 by 48 logical pixel grid, integer enlarged for display. The visual language is a construction from BASIC POLYGONS, like a geometric wooden toy or tangram dog, NOT a natural dog illustration. Sideways standing left, head facing viewer. HEAD is a clean off-white SQUARE with sharp corners. EARS are two charcoal folded TRIANGLES attached to the square. Upper outer face has two solid gray rectangular blocks with one straight WHITE RECTANGLE down the center forehead continuing into a white square muzzle. Face features are two tiny black square eyes and a black square nose. BODY is one flat medium-gray horizontal RECTANGLE. Chest is a white vertical RECTANGLE. Four legs/paws are very short ivory RECTANGLES with narrow negative-space gaps. Tail is one small gray TRIANGLE. Use exactly 4 FLAT colors: medium gray, charcoal gray, ivory white, near black. NO shading, gradients, fur, rounded furry contours, highlights, shadows, noisy pixels, natural anatomy, huge round shiny eyes, outlines, text, background or checkered transparency pattern. Each shape should be unmistakably a square, rectangle or triangle. One complete small dog isolated, padding on all sides, actual look of handcrafted clean 48px game icon. Keep the individual dog's gray ears/back and white blaze/muzzle/chest/paws, but strongly abstract anatomy into polygons."
+    },
+    {
+      "id": "05",
+      "name": "minimal",
+      "label": "⑤ 미니멀형",
+      "prompt": "ONE ultra-minimal pixel-art dog mascot isolated on genuinely transparent background. 48x48 LOGICAL pixels, integer nearest-neighbor enlargement. A compact soft silhouette, round gray head with small drooping gray ear lobes, short softly rounded gray oval body, very short tiny white feet. Gray upper head and ears, one clean WHITE CENTRAL STRIPE down forehead opening into a simple white muzzle oval; white chest patch and white paws. Only two small solid near-black dot eyes and one black dot nose, with no mouth or glints. EXACTLY THREE FLAT SOLID COLORS: medium neutral gray, ivory white, near black. NO shading, gradient, fur lines, mottled texture, sparkles, outlining, joints, toes, painterly edges or realistic detail. Soft coherent silhouette formed from very few pixel clusters with flowing rounded pixel staircase contours, NOT separate angular polygons or toy-block shapes. The result should be as simple and instantly readable as a little app pictogram or elementary pixel mascot. Neutral standing pose, mild 3/4 view facing left, all feet at one baseline. Plenty of transparent margins. No text, accessories, floor, scene, shadow, checkered background. Distinct from chibi by moderate head/body proportions; distinct from round blob by very economical compact shape. White forehead/muzzle and little white feet are the recognizable individual traits."
+    }
+  ],
+  "selected": [
+    {
+      "id": "02",
+      "name": "chibi",
+      "label": "② SD·치비형",
+      "file": "exec-6d6dc110-f89e-4590-a59a-12225e1babba.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-6d6dc110-f89e-4590-a59a-12225e1babba.png"
+    },
+    {
+      "id": "03",
+      "name": "round",
+      "label": "③ 둥글둥글형",
+      "file": "exec-0a9e10f0-a305-40e9-9053-1f1269af938d.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-0a9e10f0-a305-40e9-9053-1f1269af938d.png"
+    },
+    {
+      "id": "04",
+      "name": "geometric",
+      "label": "④ 기하학형",
+      "file": "exec-a832a6c3-b1b2-42f1-a665-885e46218849.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-a832a6c3-b1b2-42f1-a665-885e46218849.png"
+    },
+    {
+      "id": "05",
+      "name": "minimal",
+      "label": "⑤ 미니멀형",
+      "file": "exec-dd5a4bce-1991-4fbb-867e-cbebb650680b.png",
+      "source": "C:/Users/verib/.codex/generated_images/01a1481a-ccb4-7c01-ab9d-59788a0b4db4/exec-dd5a4bce-1991-4fbb-867e-cbebb650680b.png"
+    }
+  ]
+}

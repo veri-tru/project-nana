@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-17",
+  "method": "Exploratory keyword expansion; not a systematic review",
+  "search_calls": 11,
+  "requested_results": 72,
+  "returned_result_entries": 72,
+  "searches": [
+    {
+      "query": "Peer reviewed empirical studies of observable positive emotion indicators in domestic dogs positive affect contentment anticipation enjoyment body posture relaxed facial expression behavior ethogram.",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: Owner perceptions of companion dog expressions of positive emotional states and the contexts in which they occur | Animal Welfare | Cambridge Core\nURL: https://www.cambridge.org/core/journals/animal-welfare/article/owner-perceptions-of-companion-dog-expressions-of-positive-emotional-states-and-the-contexts-in-which-they-occur/EE013ECF42ADC6914227E8ED6348088B\nPublished: 2023-01-01T22:14:58.000Z\nAuthor: EL Buckland, HA Volk, CC Burn, SM Abeyesinghe",
+        "Title: Behaviors expressed by whippets and Italian greyhounds when in two positive emotional states, as perceived by Italian caretakers\nURL: https://dogbehavior.it/dogbehavior/article/download/129/94/624\nPublished: N/A\nAuthor: N/A",
+        "Title: Dogs and humans respond to emotionally competent stimuli by producing different facial actions | Scientific Reports\nURL: https://www.nature.com/articles/s41598-017-15091-4\nPublished: 2017-11-14T10:52:16.000Z\nAuthor: Caeiro, Cátia, Guo, Kun, Mills, Daniel",
+        "Title: Evaluating the accuracy of facial expressions as emotion indicators across contexts in dogs | Animal Cognition | Springer Nature Link\nURL: https://link.springer.com/article/10.1007/s10071-021-01532-1\nPublished: 2021-08-02T00:00:00.000Z\nAuthor: Bremhorst, A., Mills, D. S., Würbel, H., Riemer, S.",
+        "Title: Long-Lasting Chews Elicit Positive Emotional States in Dogs during Short Periods of Social Isolation - PMC\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9951671/\nPublished: 2023-02-04T00:00:00.000Z\nAuthor: Hannah E Flint, Megan Atkinson, James Lush, Alysia B G Hunt, Tammie King",
+        "Title: Evaluation of indicators of acute emotional states in dogs | Scientific Reports\nURL: https://www.nature.com/articles/s41598-024-56859-9\nPublished: 2024-03-17T01:00:56.000Z\nAuthor: Flint, Hannah E., Weller, Jennifer E., Parry-Howells, Nia, Ellerby, Zack W., McKay, Stephanie L.",
+        "Title: Explainable automated recognition of emotional states from canine facial expressions: the case of positive anticipation and frustration - PMC\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9803655/\nPublished: N/A\nAuthor: N/A"
+      ]
+    },
+    {
+      "query": "Original research domestic dogs play face relaxed open mouth rapid facial mimicry play bow play panting dog laughter social play behavioural sequence.",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: Unveiling the “secret” of play in dogs (Canis lupus familiaris): Asymmetry and signals.\nURL: https://doi.org/10.1037/com0000035\nPublished: 2016-04-28T00:00:00.000Z\nAuthor: Giada Cordoni, Velia Nicotra, Elisabetta Palagi",
+        "Title: Dogs produce distinctive play pants: Confirming Simonet\nURL: https://doi.org/10.46867/ijcp.2023.35.5620\nPublished: 2023-01-28T00:00:00.000Z\nAuthor: Shelly Volsche, Cameron Brown, Hannah Gunnip, Makayla Kiperash, Holly Root‐Gutteridge, Alexandra Horowitz",
+        "Title: Rapid mimicry and emotional contagion in domestic dogs\nURL: https://royalsocietypublishing.org/doi/full/10.1098/rsos.150505\nPublished: N/A\nAuthor: Palagi Elisabetta ,  \n    Nicotra Velia  and  \n    Cordoni Giada",
+        "Title: Rapid mimicry and emotional contagion in domestic dogs\nURL: https://ncbi.nlm.nih.gov/pmc/articles/PMC4807458/\nPublished: N/A\nAuthor: N/A",
+        "Title: The relaxed open mouth is a true signal in dogs: demonstrating Tinbergen's ritualization process\nURL: https://doi.org/10.1016/j.anbehav.2022.03.015\nPublished: 2022-05-04T00:00:00.000Z\nAuthor: Veronica Maglieri, Anna Zanoli, Fosca Mastrandrea, Elisabetta Palagi",
+        "Title: Play Signals as Punctuation: The Structure of Social Play in Canids\nURL: https://web-archive.southampton.ac.uk/cogprints.org/158/1/199709003.html\nPublished: N/A\nAuthor: N/A",
+        "Title: Rapid mimicry and emotional contagion in domestic dogs | Royal Society Open Science | The Royal Society\nURL: https://royalsocietypublishing.org/rsos/article/2/12/150505/113496\nPublished: 2015-12-01T15:14:55.000Z\nAuthor: Palagi, Elisabetta, Nicotra, Velia, Cordoni, Giada"
+      ]
+    },
+    {
+      "query": "Original experiments dogs preferences petting praise voluntary contact seeking affiliative behaviour reunion positive human dog interaction.",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: Shut up and pet me! Domestic dogs (Canis lupus familiaris) prefer petting to vocal praise in concurrent and single-alternative choice procedures\nURL: https://doi.org/10.1016/j.beproc.2014.08.019\nPublished: 2014-08-27T00:00:00.000Z\nAuthor: Erica N. Feuerbacher, Clive D. L. Wynne",
+        "Title: Shut up and pet me! Domestic dogs (Canis lupus familiaris) prefer petting to vocal praise in concurrent and single-alternative choice procedures - ScienceDirect\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0376635714001879\nPublished: 2015-01-01T09:52:15.000Z\nAuthor: G. Barrera",
+        "Title: Dogs' endocrine and behavioural responses at reunion are affected by how the human initiates contact\nURL: https://doi.org/10.1016/j.physbeh.2013.10.009\nPublished: 2013-10-25T00:00:00.000Z\nAuthor: Therese Rehn, Linda Handlin, Kerstin Uvnäs‐Moberg, Linda Jane Keeling",
+        "Title: N/A\nURL: https://pdfs.semanticscholar.org/9b9a/ddeccc3aa2e373d1b9cc4e10fa4e6bde915a.pdf\nPublished: N/A\nAuthor: N/A",
+        "Title: Free-ranging dogs prefer petting over food in repeated interactions with unfamiliar humans\nURL: https://doi.org/10.1242/jeb.166371\nPublished: 2017-01-01T00:00:00.000Z\nAuthor: Debottam Bhattacharjee, Shubhra Sau, Jayjit Das, Anindita Bhadra",
+        "Title: Dogs' endocrine and behavioural responses at reunion are affected by how the human initiates contact\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0031938413003375\nPublished: N/A\nAuthor: N/A",
+        "Title: Attachment Behavior of Adult Dogs (Canis familiaris) Living at Rescue Centers: Forming New Bonds\nURL: https://cpb-us-w2.wpmucdn.com/about.illinoisstate.edu/dist/6/45/files/2019/10/attachment-behavior-of-adult-dogs-living-in-rescue-centers-forming-new-bonds-gacsi-topal-miklosi-doka-csanyi-201.pdf\nPublished: N/A\nAuthor: N/A"
+      ]
+    },
+    {
+      "query": "Original studies pet dogs sniffing nosework positive judgement bias enrichment agency choice exploration positive welfare.",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: Let me sniff! Nosework induces positive judgment bias in pet dogs\nURL: https://doi.org/10.1016/j.applanim.2018.12.009\nPublished: 2018-12-06T00:00:00.000Z\nAuthor: Charlotte Duranton, Alexandra Horowitz",
+        "Title: Let me sniff! Nosework induces positive judgment bias in pet dogs\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0168159118304325?dgcid=raven_sd_aip\nPublished: N/A\nAuthor: N/A",
+        "Title: Finding Hidden Food in Nosework Increases Dogs' Optimism\nURL: https://www.companionanimalpsychology.com/2019/02/finding-hidden-food-in-nosework.html\nPublished: 2019-02-06T18:30:00.000Z\nAuthor: Zazie Todd, PhD",
+        "Title: Let me sniff! Nosework induces positive judgment bias in pet dogs\nURL: https://barnard.edu/sites/default/files/inline-files/Let%20me%20sniff.pdf\nPublished: N/A\nAuthor: C. Duranton",
+        "Title: Let me sniff! Nosework induces positive judgment bias in pet ...\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0168159118304325?dgcid=rss_sd_all\nPublished: N/A\nAuthor: N/A",
+        "Title: Let me sniff! Nosework induces positive judgment bias in pet dogs\nURL: https://psychology.barnard.edu/sites/default/files/inline-files/Let%20me%20sniff.pdf\nPublished: N/A\nAuthor: C. Duranton",
+        "Title: Canine Nosework as an Intervention for Behavior Change in ...\nURL: https://vtechworks.lib.vt.edu/items/ab375dd2-a6dc-4ea9-bc48-3d490d5ffacf\nPublished: N/A\nAuthor: Semione, Nisa"
+      ]
+    },
+    {
+      "query": "Original research dog positive reward anticipation behavioral indicators frustration comparison tail wagging ear position jumping lip licking valence arousal.",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: Differences in facial expressions during positive anticipation and frustration in dogs awaiting a reward | Scientific Reports\nURL: https://www.nature.com/articles/s41598-019-55714-6\nPublished: 2019-12-17T20:41:28.000Z\nAuthor: Bremhorst, Annika, Sutter, Nicole A., Würbel, Hanno, Mills, Daniel S., Riemer, Stefanie",
+        "Title: Evaluation of indicators of acute emotional states in dogs | Scientific Reports\nURL: https://www.nature.com/articles/s41598-024-56859-9\nPublished: 2024-03-17T01:00:56.000Z\nAuthor: Flint, Hannah E., Weller, Jennifer E., Parry-Howells, Nia, Ellerby, Zack W., McKay, Stephanie L.",
+        "Title: Differences in facial expressions during positive anticipation and frustration in dogs awaiting a reward\nURL: https://doi.org/10.1038/s41598-019-55714-6\nPublished: 2019-12-17T00:00:00.000Z\nAuthor: Annika Bremhorst, Nicole Alessandra Sutter, Hanno Würbel, Daniel Simon Mills, Stefanie Riemer",
+        "Title: Evaluating the accuracy of facial expressions as emotion indicators across contexts in dogs | Animal Cognition | Springer Nature Link\nURL: https://link.springer.com/article/10.1007/s10071-021-01532-1\nPublished: 2021-08-02T00:00:00.000Z\nAuthor: Bremhorst, A., Mills, D. S., Würbel, H., Riemer, S.",
+        "Title: [PDF] Hundars beteenderespons på upprepade positiva händelser ...\nURL: https://stud.epsilon.slu.se/3653/1/westerback_t_111206.pdf\nPublished: N/A\nAuthor: Patrik & Therése",
+        "Title: Audience effect on domestic dogs’ behavioural displays and facial expressions | Scientific Reports\nURL: https://www.nature.com/articles/s41598-022-13566-7\nPublished: 2022-06-13T07:08:54.000Z\nAuthor: Pedretti, Giulia, Canori, Chiara, Marshall-Pescini, Sarah, Palme, Rupert, Pelosi, Annalisa",
+        "Title: The identification of facial expressions of emotions in dogs (Canis familiaris) using a Facial Action Coding System\nURL: https://doi.org/10.24385/lincoln.24326728.v1\nPublished: 2021-06-01T00:00:00.000Z\nAuthor: Author, Unknown"
+      ]
+    },
+    {
+      "query": "강아지가 즐거울 때 편안할 때 반가울 때 하는 행동 놀이 초대 장난감 가져오기 몸 비비기 우다다 행동 관찰 연구",
+      "requested_results": 7,
+      "segments": 7,
+      "headers": [
+        "Title: 【獣医師監修】犬が喜んでいるときの仕草を知ろう｜好きなおもちゃや音楽もあわせてご紹介 - petan\nURL: https://petan.jp/dog-delightful/\nPublished: 2023-10-18T16:31:53.000Z\nAuthor: N/A",
+        "Title: How do guide dogs and pet dogs (Canis familiaris) ask their owners for their toy and for playing?\nURL: https://doi.org/10.1007/s10071-009-0279-z\nPublished: 2009-09-30T00:00:00.000Z\nAuthor: Florence Gaunet",
+        "Title: 신난 강아지 행동 5가지 - 이럴 땐 같이 놀아주세요! – 비마이펫 라이프\nURL: https://mypetlife.co.kr/141188/\nPublished: 2023-01-02T07:22:26.000Z\nAuthor: 몽이언니",
+        "Title: Human-dog communication: How body language and non-verbal cues are key to clarity in dog directed play, petting and hugging behaviour by humans\nURL: https://doi.org/10.1016/j.applanim.2024.106206\nPublished: 2024-02-23T00:00:00.000Z\nAuthor: Elizabeth Ann Walsh, Lieve Lucia Meers, William Ellery Samuels, Dorien Boonen, A. Claus, Carolina Duarte-Gan, et al.",
+        "Title: Examining dog–human play: the characteristics, affect, and vocalizations of a unique interspecific interaction\nURL: https://doctorcroom.com/wp-content/uploads/2019/06/horowitz-hecht-2016-examining-dog-human-play.pdf\nPublished: N/A\nAuthor: Alexandra Horowitz",
+        "Title: Current Available Propositions – FIDO Research\nURL: https://fido.uoguelph.ca/props/\nPublished: N/A\nAuthor: N/A",
+        "Title: A Descriptive Methodology for Studying the Ontogeny of Object Play and Breed Differences in Dogs (Canis lupus familiaris)\nURL: https://doi.org/10.3390/ani13081371\nPublished: 2023-04-17T00:00:00.000Z\nAuthor: Karen M. Davis, Adam M. Partin, Gordon M. Burghardt, Cary M. Springer, Julia D. Albright"
+      ]
+    },
+    {
+      "query": "Original empirical dog contentment calm positive emotional state resting relaxed body posture eyes blinking ears positive valence low arousal behavioural indicators.",
+      "requested_results": 6,
+      "segments": 6,
+      "headers": [
+        "Title: Owner perceptions of companion dog expressions of positive emotional states and the contexts in which they occur | Animal Welfare | Cambridge Core\nURL: https://www.cambridge.org/core/journals/animal-welfare/article/owner-perceptions-of-companion-dog-expressions-of-positive-emotional-states-and-the-contexts-in-which-they-occur/EE013ECF42ADC6914227E8ED6348088B\nPublished: 2023-01-01T22:14:58.000Z\nAuthor: EL Buckland, HA Volk, CC Burn, SM Abeyesinghe",
+        "Title: Evaluation of indicators of acute emotional states in dogs\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10944520/\nPublished: N/A\nAuthor: N/A",
+        "Title: Evaluation of indicators of acute emotional states in dogs\nURL: https://doi.org/10.1038/s41598-024-56859-9\nPublished: 2024-03-17T00:00:00.000Z\nAuthor: Hannah E. Flint, Jennifer E. Weller, Nia Parry-Howells, Zack W. Ellerby, Stephanie L. McKay, Tammie King",
+        "Title: I segnali calmanti nel cane: da mito a realtà scientifica? [Calming signals in dogs: From myth to scientific reality?]\nURL: http://hdl.handle.net/11568/511672\nPublished: 2014-01-01T00:00:00.000Z\nAuthor: Angelo Gazzano, Marcella Zilocchi, Elaine Cristina Ricci, Caterina Falaschi, Maria Angela Bedini, Giovanna Guardini, et al.",
+        "Title: Differences in facial expressions during positive anticipation and frustration in dogs awaiting a reward | Scientific Reports\nURL: https://www.nature.com/articles/s41598-019-55714-6\nPublished: 2019-12-17T20:41:28.000Z\nAuthor: Bremhorst, Annika, Sutter, Nicole A., Würbel, Hanno, Mills, Daniel S., Riemer, Stefanie",
+        "Title: Assessing positive emotional states in dogs using heart rate and heartrate variability\nURL: https://www.diva-portal.org/smash/get/diva2:882249/FULLTEXT01.pdf\nPublished: N/A\nAuthor: Manja Zupan, Julia Buskas, Jordi Altimiras and Linda J. Keeling"
+      ]
+    },
+    {
+      "query": "Scientific study dog zoomies frenetic random activity periods FRAPs positive emotion joy running bouncing spinning play solicitation empirical.",
+      "requested_results": 6,
+      "segments": 6,
+      "headers": [
+        "Title: Behaviors expressed by whippets and Italian greyhounds when in two positive emotional states, as perceived by Italian caretakers\nURL: https://dogbehavior.it/dogbehavior/article/download/129/94/624\nPublished: N/A\nAuthor: N/A",
+        "Title: Where Do We Stand in the Domestic Dog ( Canis familiaris ) Positive-Emotion Assessment: A State-of-the-Art Review and Future Directions\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7506079/\nPublished: 2020-09-08T00:00:00.000Z\nAuthor: Erika Csoltova, Emira Mehinagic",
+        "Title: Playful Fun in Dogs\nURL: http://www.cell.com/article/S0960982214011221/pdf\nPublished: N/A\nAuthor: Marc Bekoff",
+        "Title: Hormonal Correlates of Exploratory and Play-Soliciting Behavior in Domestic Dogs\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6139352/\nPublished: 2018-09-10T00:00:00.000Z\nAuthor: Alejandra Rossi, Francisco J. Parada, Rosemary Stewart, Casey Barwell, Gregory E. Demas, Colin Allen",
+        "Title: Evaluation of indicators of acute emotional states in dogs | Scientific Reports\nURL: https://www.nature.com/articles/s41598-024-56859-9\nPublished: 2024-03-17T01:00:56.000Z\nAuthor: Flint, Hannah E., Weller, Jennifer E., Parry-Howells, Nia, Ellerby, Zack W., McKay, Stephanie L.",
+        "Title: What are zoomies? | Cornell University College of Veterinary Medicine\nURL: https://www.vet.cornell.edu/departments-centers-and-institutes/canine-health-center/health-info/what-are-zoomies\nPublished: N/A\nAuthor: N/A"
+      ]
+    },
+    {
+      "query": "Original research dog object play ethogram pouncing tossing carrying tugging shaking chase fetch play solicitation owner toy behaviors.",
+      "requested_results": 6,
+      "segments": 6,
+      "headers": [
+        "Title: A Descriptive Methodology for Studying the Ontogeny of Object Play and Breed Differences in Dogs (Canis lupus familiaris)\nURL: https://www.mdpi.com/2076-2615/13/8/1371\nPublished: 2023-04-16T21:32:07.000Z\nAuthor: Karen M. Davis, Adam M. Partin, Gordon M. Burghardt, Cary M. Springer, Julia D. Albright",
+        "Title: Appendix S1. Ethogram. Ethogram and sampling methods\nURL: https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0056938.s001&type=supplementary\nPublished: N/A\nAuthor: therehn",
+        "Title: A Descriptive Methodology for Studying the Ontogeny of Object Play and Breed Differences in Dogs ( Canis lupus familiaris )\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10135149/\nPublished: N/A\nAuthor: N/A",
+        "Title: How do guide dogs and pet dogs (Canis familiaris) ask their owners for their toy and for playing?\nURL: https://doi.org/10.1007/s10071-009-0279-z\nPublished: 2009-09-30T00:00:00.000Z\nAuthor: Florence Gaunet",
+        "Title: A Descriptive Methodology for Studying the Ontogeny of Object Play and Breed Differences in Dogs (Canis lupus familiaris)\nURL: https://doi.org/10.3390/ani13081371\nPublished: 2023-04-17T00:00:00.000Z\nAuthor: Karen M. Davis, Adam M. Partin, Gordon M. Burghardt, Cary M. Springer, Julia D. Albright",
+        "Title: Making fetch happen: Prevalence and characteristics of fetching behavior in owned domestic cats (Felis catus) and dogs (Canis familiaris) - PMC\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11373866/\nPublished: 2024-09-04T00:00:00.000Z\nAuthor: Mikel Delgado, Judith L. Stella, Candace Croney, James A. Serpell"
+      ]
+    },
+    {
+      "query": "Maglieri Zanoli Mastrandrea Palagi 2022 relaxed open mouth true signal dogs ritualization full paper PDF",
+      "requested_results": 6,
+      "segments": 6,
+      "headers": [
+        "Title: The relaxed open mouth is a true signal in dogs: demonstrating Tinbergen's ritualization process\nURL: https://doi.org/10.1016/j.anbehav.2022.03.015\nPublished: 2022-05-04T00:00:00.000Z\nAuthor: Veronica Maglieri, Anna Zanoli, Fosca Mastrandrea, Elisabetta Palagi",
+        "Title: The relaxed open mouth is a true signal in dogs: demonstrating Tinbergen's ritualisation process\nURL: https://arpi.unipi.it/handle/11568/1164797\nPublished: 2022-01-01T00:00:00.000Z\nAuthor: Maglieri, Veronica, Zanoli, Anna, Mastrandrea, Fosca, Palagi, Elisabetta",
+        "Title: N/A\nURL: https://www.biorxiv.org/content/10.1101/2022.01.04.474955.full.pdf\nPublished: N/A\nAuthor: N/A",
+        "Title: The relaxed open mouth is a true signal in dogs: demonstrating Tinbergen's ritualization process\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0003347222000835\nPublished: 2022-06-01T21:32:03.000Z\nAuthor: D.J. Barr",
+        "Title: The relaxed open mouth is a true signal in dogs: demonstrating Tinbergen's ritualization process\nURL: https://iris.unito.it/handle/2318/2053411\nPublished: 2022-01-01T00:00:00.000Z\nAuthor: Maglieri, V., Zanoli, A., Mastrandrea, F., Palagi, E.",
+        "Title: Play communication in dogs and wolves\nURL: https://tesidottorato.depositolegale.it/handle/20.500.14242/215834\nPublished: 2024-02-21T09:30:38.000Z\nAuthor: Maglieri, Veronica"
+      ]
+    },
+    {
+      "query": "Original research dog human play solicitation signals bowing lunging chase self handicapping role reversal response to play signals Rooney Bradshaw Robinson.",
+      "requested_results": 6,
+      "segments": 6,
+      "headers": [
+        "Title: Do dogs respond to play signals given by humans?\nURL: https://doi.org/10.1006/anbe.2000.1661\nPublished: 2001-04-01T00:00:00.000Z\nAuthor: Nicola J. Rooney, John W.S. Bradshaw, I. H. ROBINSON",
+        "Title: Do dogs respond to play signals given by humans?  - ePrints Soton\nURL: https://eprints.soton.ac.uk/55602/\nPublished: 2000-06-12T00:00:00.000Z\nAuthor: Rooney, N.J., Bradshaw, J.W.S., Robinson, I.H.",
+        "Title: Regular Articles Do dogs respond to play signals given by humans?\nURL: https://www.sciencedirect.com/science/article/abs/pii/S0003347200916610\nPublished: N/A\nAuthor: N/A",
+        "Title: A comparison of dog–dog and dog–human play behaviour\nURL: https://doi.org/10.1016/s0168-1591(99)00078-7\nPublished: 2000-02-01T00:00:00.000Z\nAuthor: Nicola J. Rooney, John W.S. Bradshaw, Ian Robinson",
+        "Title: Play behaviour of the domestic dog Canis familiaris, and its effects upon the dog-human relationship  - ePrints Soton\nURL: https://eprints.soton.ac.uk/463831/\nPublished: N/A\nAuthor: Rooney, Nicola Jane",
+        "Title: Do dogs respond to play signals given by humans?\nURL: https://www.researchgate.net/publication/223385700_Do_dogs_respond_to_play_signals_given_by_humans\nPublished: 2001-04-01T21:00:18.000Z\nAuthor: Nicola J. Rooney, John W.S. Bradshaw, Ian H. Robinson"
+      ]
+    }
+  ],
+  "fetches": [
+    {
+      "key": "pos_flint24",
+      "url": "https://www.nature.com/articles/s41598-024-56859-9",
+      "core_source_id": "L28"
+    },
+    {
+      "key": "pos_chew23",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9951671/",
+      "core_source_id": "L37"
+    },
+    {
+      "key": "pos_buckland",
+      "url": "https://www.cambridge.org/core/journals/animal-welfare/article/owner-perceptions-of-companion-dog-expressions-of-positive-emotional-states-and-the-contexts-in-which-they-occur/EE013ECF42ADC6914227E8ED6348088B",
+      "core_source_id": "L39"
+    },
+    {
+      "key": "pos_mimicry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807458/",
+      "core_source_id": null
+    },
+    {
+      "key": "pos_playface",
+      "url": "https://doi.org/10.1016/j.anbehav.2022.03.015",
+      "core_source_id": null
+    },
+    {
+      "key": "pos_playpant",
+      "url": "https://doi.org/10.46867/ijcp.2023.35.5620",
+      "core_source_id": "L31"
+    },
+    {
+      "key": "pos_sniff",
+      "url": "https://barnard.edu/sites/default/files/inline-files/Let%20me%20sniff.pdf",
+      "core_source_id": "L36"
+    },
+    {
+      "key": "pos_petting",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0376635714001879",
+      "core_source_id": "L34"
+    },
+    {
+      "key": "pos_mimicry_full",
+      "url": "https://royalsocietypublishing.org/rsos/article/2/12/150505/113496",
+      "core_source_id": "L29"
+    },
+    {
+      "key": "pos_reunion",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031938413003375",
+      "core_source_id": "L35"
+    },
+    {
+      "key": "pos_face21",
+      "url": "https://link.springer.com/article/10.1007/s10071-021-01532-1",
+      "core_source_id": "L38"
+    },
+    {
+      "key": "pos_object",
+      "url": "https://www.mdpi.com/2076-2615/13/8/1371",
+      "core_source_id": "L32"
+    },
+    {
+      "key": "pos_fetch",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373866/",
+      "core_source_id": "L33"
+    },
+    {
+      "key": "pos_facepaper",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347222000835",
+      "core_source_id": "L30"
+    },
+    {
+      "key": "pos_rooney",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347200916610",
+      "core_source_id": null
+    },
+    {
+      "key": "pos_rossi",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139352/",
+      "core_source_id": null
+    },
+    {
+      "key": "pos_zoomies",
+      "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/canine-health-center/health-info/what-are-zoomies",
+      "core_source_id": null
+    }
+  ],
+  "limitations": [
+    "Search hits are not unique papers or fully reviewed sources.",
+    "Additional web open of MDPI and Royal Society failed; direct MDPI HTML read returned 403. Exa related text was available but MDPI Table 1 definitions were not extracted.",
+    "Search metadata dates/authors may differ from publication; retained primary page bibliography.",
+    "No closed Korean cafe retrieval or new community anecdotes in this expansion."
+  ],
+  "unique_returned_urls": 63
+}

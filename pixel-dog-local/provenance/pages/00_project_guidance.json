@@ -1,0 +1,407 @@
+{
+  "title": "반려견 디지털 트윈 앱 개발 지침과 첫 시제품 범위",
+  "page_id": "page_2bb72844316c8191a60de47d43c6d311",
+  "url": "https://chatgpt.com/space/page_2bb72844316c8191a60de47d43c6d311",
+  "sequence": 7,
+  "updated_at": "2026-10-17T03:37:45.894607Z",
+  "exported_date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "blocks": [
+    {
+      "id": "5b441167-258b-4ff3-a6fa-7d2efd3f7802",
+      "kind": "markdown",
+      "hash": "ca2755522fd772a7b86de139b169f14d677dab1490f47f2c73c5b458a7fc22dc",
+      "markdown": "실제 반려견의 외형과 습관을 반영한 2D 모바일 앱을 개발한다. 현재 프로젝트의 대상은 개이며, 고양이는 별도의 후속 프로젝트로 진행한다. Android와 iOS를 모두 지원하되, Android의 플로팅 캐릭터를 먼저 검증하고 공통 앱과 홈 화면 위젯으로 확장한다. 사용자에게는 휴대폰을 사용하는 동안 자신의 반려견과 함께하는 경험을 제공한다."
+    },
+    {
+      "id": "1a18e4dd-a7bc-4ba0-9fdb-fc60d0474a7e",
+      "kind": "markdown",
+      "hash": "046e696eb3fc914f5be8cb665cc3d011b065d9f84fa6d2bab1a67bc7e31cee57",
+      "markdown": "# 확정한 방향"
+    },
+    {
+      "id": "8705707a-a73a-4f1c-99b4-8ed06ec3f0be",
+      "kind": "markdown",
+      "hash": "0d2039882e1d68d364b00d689b1408bf5e890813c44509ed3f34d29ad86d08a0",
+      "markdown": "- 표현 방식은 2D 일러스트로 시작한다."
+    },
+    {
+      "id": "3b37f8de-0323-48d4-b6a2-4443ce73c185",
+      "kind": "markdown",
+      "hash": "4f6b561b9e23575e89e47f14abf79026ab7b4f99322387295a08a11e47bf4d0c",
+      "markdown": "- 실제 개체의 외형과 관찰된 행동 특성을 반영한다."
+    },
+    {
+      "id": "6c6a4f10-fc0f-405d-aedd-f5f83e020fc1",
+      "kind": "markdown",
+      "hash": "d38bc354ab3e1bb40dc6c5d2a1336996a1134442719c1c0ddc147d1fd4ea8466",
+      "markdown": "- Android와 iOS를 모두 지원한다."
+    },
+    {
+      "id": "898c7f99-76d2-40cf-940a-c2eead722667",
+      "kind": "markdown",
+      "hash": "8e5c865362554aa7f1959112c93b1acf66dfea9bcabd7707963ca88c6336b623",
+      "markdown": "- 두 플랫폼의 공통 기능은 앱 내 상호작용과 홈 화면 위젯으로 구성한다."
+    },
+    {
+      "id": "c4cef2c8-c2d1-48ca-8fbb-2d804ed952bc",
+      "kind": "markdown",
+      "hash": "9c5e404ef78a364bb7681cf9170ade5e5952302ced2d73dfb9f8a076c59fbd10",
+      "markdown": "- Android에는 다른 앱 위에 캐릭터를 표시하는 플로팅 모드를 추가한다."
+    },
+    {
+      "id": "4cecaf20-d6d7-4061-84b9-d079d5d0f939",
+      "kind": "markdown",
+      "hash": "4f01ab4699cbbc6c29d7489641a19e80e73b52580282658dd2288261509e77b6",
+      "markdown": "- 첫 검증 대상은 Android 플로팅 모드다."
+    },
+    {
+      "id": "e909d039-b759-4cb6-b880-3dbdbc92149c",
+      "kind": "markdown",
+      "hash": "1bb7c49135e94f169358aa7f5012de70edeef2d38df1a7bcaf4f4a1f19ead336",
+      "markdown": "현재 작업용 프로젝트명은 ‘반려견 디지털 트윈 앱 개발’로 정한다. 개를 대상으로 문헌검토, 자료 수집, 행동 설계, 시제품과 보호자 평가를 진행한다. 고양이의 문헌과 행동 항목은 후속 프로젝트 자료로 구분해 보존한다. 서비스명, 구체적인 일러스트 화풍과 최종 개발 도구는 아직 결정하지 않았다."
+    },
+    {
+      "id": "994c462f-e7a8-49ef-b1df-06b7fe82201c",
+      "kind": "markdown",
+      "hash": "0fd0ce8a0ddbf8315d4910e7378bb6d1cc2d99f17c3498d25f55a607ad087b34",
+      "markdown": "# 목표 사용자와 시장 검증"
+    },
+    {
+      "id": "62757311-b84a-4148-9943-2c933ece9304",
+      "kind": "markdown",
+      "hash": "17748be7332fe84eed30f068664ba56aa937060637bca12a0395873fc8ad9959",
+      "markdown": "현재 우선 과제는 목표 사용자 정의, 시장조사, 경쟁사 분석이다. 국내 출시를 우선 가정하고, 현재 반려견의 사진·영상을 기록하며 고유한 행동을 화면에서도 보고 싶어 하는 보호자를 초기 고객 가설로 둔다. 연령·성별과 유료 구매의향은 검증 전 확정하지 않는다."
+    },
+    {
+      "id": "7410d958-db65-4850-871b-fc381f03c9c0",
+      "kind": "markdown",
+      "hash": "36a7f3a056afb97a6758244ccd448768547ff44fb9e14543f5721fe7621d7270",
+      "markdown": "사진 기반 캐릭터와 위젯·플로팅은 기존 서비스와 겹친다. 미감과 움직임의 완성도를 첫 선택·결제의 핵심 가치로 두고, 실제 행동의 순서·타이밍을 반영하는 추가 가치와 자료 제공 부담을 검증한다. 개인화 결과물의 일회성 구매와 선택형 확장 구매를 수익모델의 우선 가설로 둔다. 공개 자료, 개발자의 제품 방향, 고객 검증 결과를 구분한다."
+    },
+    {
+      "id": "db251e4d-db0c-4b63-bbc9-da286ca26f1a",
+      "kind": "markdown",
+      "hash": "34b0e5fff7edb7e97792c7aa6a2c9baa70c0c8a62b9e8613ab35df169d65e3eb",
+      "markdown": "[반려견 개인화 앱 목표 사용자와 시장 및 경쟁사 분석](https://chatgpt.com/space/page_a5326522de1481919f01b08bbd2027cf)에 국내 수요 기반, 직접·인접 경쟁사, 공개 가격, 리뷰 사례와 고객 인터뷰 계획을 정리했다."
+    },
+    {
+      "id": "3ea38211-454a-43cb-bc08-c9cc470922c3",
+      "kind": "markdown",
+      "hash": "261715616e7203f0252d6154315c4623a2cba6c200435fde2156672cba28751b",
+      "markdown": "[반려견 앱 경쟁사의 매출 구조와 사업 현황](https://chatgpt.com/space/page_81ed1bf410ac8191935ae6b2acfb9fc4)에 과금 상품, 공개 실적과 추정치의 구분, 미감을 강점으로 삼는 수익모델 가설을 정리했다."
+    },
+    {
+      "id": "3b774beb-dfef-4d4f-ac54-ba025b3e96bb",
+      "kind": "markdown",
+      "hash": "0feefb15fc7a2220473857cd77dccc3ddda67615c31ef4756da2ce5b513c7734",
+      "markdown": "Pixel Pals를 화면 배치와 짧은 상호작용의 우선 벤치마크로 삼는다. 작은 크기의 미감·동작 연결·표시 설정·유료 확장을 비교하고, 우리 앱의 실제 반려견 외형과 습관 개인화에 적용한다. [Pixel Pals 벤치마킹과 반려견 앱 적용안](https://chatgpt.com/space/page_b7f9051b614881919ab90d1fd484fc4e)에 시제품 범위와 실기기 확인 과제를 정리했다."
+    },
+    {
+      "id": "788ba23f-a21d-4dbd-bfca-991d3ead218e",
+      "kind": "markdown",
+      "hash": "dee77928879c16160d5f99bb8d71acb4c59be27ac5c222a5f30ef67c49c3e150",
+      "markdown": "# 현재 설계 가정"
+    },
+    {
+      "id": "d7c05d96-aff8-4c64-82d1-58951196cac2",
+      "kind": "markdown",
+      "hash": "54c6b0c7621f8f5f09c0022be40115602f8eaf962253ef9bc2b90547765b6759",
+      "markdown": "2026-10-17 기준으로 Claude Haiku 5.5를 기본 분석 모델로 가정한다. 사진과 영상 프레임에서 행동 후보를 추출하고, 보호자가 확인한 기록을 프로필로 만들어 기기 내 행동 엔진이 재생한다. 첫 개인화는 반려견 한 마리, 기본 동작 8종과 필요한 전환, 대표 행동 최대 3개로 검증한다. 수량과 촬영 조건은 파일럿의 시작 설정이며 검증된 최소 자료량은 아니다."
+    },
+    {
+      "id": "5fc4d6ce-d452-462f-a418-47cf7d27b0cc",
+      "kind": "markdown",
+      "hash": "465d1cbef69b527b0f63bece56a73d45cc12046cd73d0f8966bdf80be58446c7",
+      "markdown": "캐릭터 애니메이션은 8fps를 시제품 기본값으로 채택한다. 기본 프레임 간격은 125ms이며, 동작당 그림 수는 동작 길이와 반복·정지 구간에 맞춰 정한다. 휴식 자세는 같은 그림을 길게 유지하고, 탭·드래그의 입력 처리는 애니메이션 갱신과 분리한다. 앱 내 재생과 Android 플로팅에 적용하며, 홈 화면 위젯은 별도의 OS 표시 범위를 따른다. 픽셀 원본 해상도는 64×64px를 후보로 검토 중이며, 작은 화면의 외형 식별과 동작 전환 품질을 시안에서 확인한다."
+    },
+    {
+      "id": "382bcd10-5c54-41a0-aacb-ebf88359f517",
+      "kind": "markdown",
+      "hash": "3e48a7ab7be895cdd1dd75b9bd3ee1d2520bbdfdaf72989bec0b10d825281457",
+      "markdown": "M0에서 목표 사용자와 경쟁 대안, 행동 개인화의 추가 가치·수집 부담·결제 방식을 먼저 검증한다. 기술·제품 개발 단계는 G0 Android 표시 검증, G1 한 마리 개인화, G2 탐색 파일럿, G3 Android·iOS 앱과 위젯 제공으로 유지하되 M0 결과에 따라 범위를 조정한다. 아래 첫 Android 시제품의 3가지 상태는 G0 범위이며, 실제 자료와 AI를 연결하는 G1에서 동작을 확장한다. 데이터 수집 문서의 P0·P1·P2 우선순위는 별도로 유지한다."
+    },
+    {
+      "id": "64a138c9-b824-4b80-9652-34d080363ec1",
+      "kind": "markdown",
+      "hash": "6b8a4a01274b697facae48a9fda375e74b38a171b7b9e64977a12eb7633d58d2",
+      "markdown": "[Claude Haiku 5.5 기반 반려견 앱 상세 기획과 설계](https://chatgpt.com/space/page_8fca22aa5ebc81919fc79b040858f4b9)에 사용자 흐름, 데이터 위계, AI 출력 계약, 2D 제작 공정, 플랫폼별 표시 범위, 비용 통제와 검증 기준을 정리했다."
+    },
+    {
+      "id": "e2a3af51-326c-46bd-ad7e-29260c828308",
+      "kind": "markdown",
+      "hash": "2ba9e379215fb44870b400a3bd7f48e56f1bcb2e49691c68330e8c8f195b7622",
+      "markdown": "[픽셀 반려견 외형과 움직임 구현을 위한 GitHub 조사](https://chatgpt.com/space/page_e4ad0a22e6b08191b29b495970da71f8)에 외형 편집, 강아지 동작 자산, 행동 전환, 8fps 재생과 생성 자동화 후보를 정리했다. Pixelorama·Aseprite·vscode-pets·Flame을 우선 검토하며, 도구 채택은 첫 개체 시안과 G0 결과로 결정한다."
+    },
+    {
+      "id": "83a10c89-307b-4bc9-bcc0-1ca72ad85b7c",
+      "kind": "markdown",
+      "hash": "23350e3b1cb0432c71db6d43d8f310f5f119a3089103a0f600c609f680f7fe35",
+      "markdown": "# ChatGPT 프로젝트 지침"
+    },
+    {
+      "id": "0286f94a-bcdb-4d12-b429-e34c37c1c877",
+      "kind": "markdown",
+      "hash": "290c199c2d21baad7e5fa5fd1bb7aec3c4ab3aea7240a84911c9c9b9918ca910",
+      "markdown": "이 프로젝트에서 기획과 개발 파트너로서 실제 반려견 데이터를 반영한 2D 모바일 앱 개발을 지원한다. 현재 수집 양식, 행동 분류, 애니메이션과 평가 설계는 개를 기준으로 작성하며, 고양이 연구 결과를 개의 근거로 적용하지 않는다. 고양이의 구현과 검증은 후속 프로젝트에서 별도로 진행한다."
+    },
+    {
+      "id": "b772d309-a522-4e56-8205-f564e95fad2e",
+      "kind": "markdown",
+      "hash": "50177f2819b4781917f000ff90215bb154450db039ac2cb597aac7d16d75dec8",
+      "markdown": "1. Android와 iOS를 모두 지원하되, Android 플로팅 모드의 기술 검증을 먼저 수행한다. 공통 앱과 홈 위젯은 이후 단계에서 확장한다."
+    },
+    {
+      "id": "ef292ef3-4112-4477-ad2e-b33b65535551",
+      "kind": "markdown",
+      "hash": "164d4ea4e42af0ddd2a3ff50745d28ad78c9e16af66fe9c69fb599385eb6ad23",
+      "markdown": "2. 사진과 영상에서 외형 특징을 확인하고, 영상 및 보호자 기록에서 습관과 상황별 반응을 정리한다. 영상에서 관찰한 사실, 보호자 보고, 시스템의 추정을 구분한다."
+    },
+    {
+      "id": "557b740e-0607-4451-9bde-4e5b87dc0019",
+      "kind": "markdown",
+      "hash": "bb0eeaf7c6df7948188e1cba8711d87ccccffda277bc9c4eeb2638147f57d261",
+      "markdown": "3. 외형 자료, 애니메이션, 행동 선택 규칙, 사용자 입력, 플랫폼별 표시 기능을 분리해 설계한다. 같은 개체의 정보가 앱과 위젯에서 일관되게 사용되도록 한다."
+    },
+    {
+      "id": "9358af9b-aab4-4416-9794-3a23b3582a35",
+      "kind": "markdown",
+      "hash": "bcbc0e050e47f1c18428996ad419fcfacf0b9bd222a4cd8b11db20002832880d",
+      "markdown": "4. 행동 개인화에는 상황, 반응이 나타나는 빈도, 반응까지 걸리는 시간, 지속시간, 선호와 회피를 검토한다. 자료가 없는 행동이나 감정을 실제 개체의 특성으로 단정하지 않는다."
+    },
+    {
+      "id": "383a7311-36dd-4eda-be2f-c2467aab0582",
+      "kind": "markdown",
+      "hash": "2ca29fbac0ff45e0b13996f755b1409de53d397c743ae319ee8dae9171956675",
+      "markdown": "5. 초기에는 한 개체와 소수의 행동으로 작동하는 시제품을 만든다. 실제 개체 자료를 받기 전에는 임시 캐릭터와 예시 행동값을 사용하고 이를 명확히 표시한다."
+    },
+    {
+      "id": "64323092-9538-4309-98fb-b1faac141ced",
+      "kind": "markdown",
+      "hash": "9ef4c5b6865986d3c87b800624bf07a9abbb1952071e78c320ddd9067a677343",
+      "markdown": "6. Android 플로팅 모드는 사용자가 직접 켜고 끌 수 있게 한다. 캐릭터 밖의 화면 조작을 방해하지 않고, 권한 거부·철회와 서비스 종료에 대응한다. 모든 화면에서 영구적으로 유지된다고 약속하지 않는다."
+    },
+    {
+      "id": "b73325d8-8af9-422d-b623-8d6fe9477c2e",
+      "kind": "markdown",
+      "hash": "481f7bb0a4822f190e86a30cfabf28e2dc61de2dba677b23444e6a45b738a633",
+      "markdown": "7. iOS는 앱 내 상호작용과 홈 화면 위젯을 중심으로 설계한다. Android의 자유로운 오버레이와 동일한 동작을 전제로 삼지 않는다. 위젯의 애니메이션과 갱신은 운영체제가 허용하는 범위에서 구현한다."
+    },
+    {
+      "id": "9e04a0c9-46c0-4f4b-acf9-0cc00115c326",
+      "kind": "markdown",
+      "hash": "9f778e55a2e37abf412c4125ec1dc6de8df595836cc14627a331b3f3f02fac6b",
+      "markdown": "8. Claude Haiku 5.5 직접 API를 사진·영상 프레임의 행동 후보 추출과 보호자 설명의 구조화에 사용하는 것으로 가정한다. 관찰 자료·보호자 보고·파생값·제작 기본값을 구분하고, 확인된 프로필을 기기 내 규칙으로 재생한다. 외형 일러스트와 동작 자산은 별도 제작 공정으로 관리하며, 개체별 AI 모델 학습을 초기 필수 요건으로 두지 않는다."
+    },
+    {
+      "id": "b15eb1d1-2ed5-46c5-b120-c69c7690bf21",
+      "kind": "markdown",
+      "hash": "e3539a5bb8bb4cceb7f92fa9a1a1c292f7db1283a80f51508b98f8baa13f984a",
+      "markdown": "9. 사진·영상·음성의 저장 위치, 이용 범위와 삭제 방법을 설계한다. G0 표시 시제품은 계정·서버 없이 검증한다. G1 외부 AI 분석부터는 API 키 보호와 사용자별 자료 접근을 위한 인증 서버를 두고, 원본은 기기에 유지하며 사용자가 확인한 분석용 프레임을 전송하는 흐름을 기본안으로 한다."
+    },
+    {
+      "id": "933d940a-e446-4767-a519-1781fca9a399",
+      "kind": "markdown",
+      "hash": "9ee751cf4f197793f050af68db85374e30e7f4ca929d6dc996a7a5f3d3ee122e",
+      "markdown": "10. 기술 지원 여부, 정책, 라이브러리, 비용에 관한 설명은 최신 공식 자료로 확인하고 근거를 제시한다. 가정과 확정 사항을 구분한다."
+    },
+    {
+      "id": "82ba607a-e2c8-4c05-a491-cb9a4e76298f",
+      "kind": "markdown",
+      "hash": "c2898f235bfe02d7fb5a0dcf8e1008078997280593a3d290a2f9c13fc37830b7",
+      "markdown": "11. 코드 작성, 빌드 성공, 설치 성공, 실기기 검증을 구분해 보고한다. 웹 미리보기만으로 모바일 오버레이가 검증되었다고 판단하지 않는다."
+    },
+    {
+      "id": "cf69fded-fd23-4efc-ba30-1a8efd58d75d",
+      "kind": "markdown",
+      "hash": "4f9e024ba03afd152571c3d0cca167b5f068e12f0451ef42da6655fa8fc3478b",
+      "markdown": "12. 각 단계에서 작동하는 결과물과 남은 문제를 정리한다. 최종 개발 도구와 배포 방식은 요구사항 및 기술 검증 결과에 따라 결정한다."
+    },
+    {
+      "id": "e3cdff22-bc72-4dd1-bb52-2aa3eedd6d1e",
+      "kind": "markdown",
+      "hash": "cf926dd41af20b62e29d348439f8413e2b45bb780fe06db4ac14445d8d2303aa",
+      "markdown": "# 첫 Android 시제품"
+    },
+    {
+      "id": "c6f3fffa-21c5-48a0-bd40-6fb0347d520e",
+      "kind": "markdown",
+      "hash": "ac87ec24ecf597ededdc012a2b6cb10e4e0aba3423551a46caeeba5556192cc5",
+      "markdown": "첫 시제품의 목적은 ‘다른 앱을 사용하는 동안 작은 반려동물이 자연스럽게 보이고, 필요할 때 반응하며, 휴대폰 조작을 방해하지 않는가’를 확인하는 것이다. 아래 항목은 이를 위한 초기 구현 범위다."
+    },
+    {
+      "id": "e9250d8a-7a24-4327-928f-6b3dc29f7df7",
+      "kind": "markdown",
+      "hash": "6f79a74f7858fc6455d31ce7ac17855933c4852ce1f2b6f4d59ee06592febf07",
+      "markdown": "- 한 마리의 임시 2D 개 캐릭터를 배경 없이 표시한다."
+    },
+    {
+      "id": "65ecea75-9702-4844-9efe-386eaf23d257",
+      "kind": "markdown",
+      "hash": "414fe51e1e0473e7a2f5197000d1490706cd89377da7d9839ac199dac129751a",
+      "markdown": "- 걷기, 쉬기, 잠들기의 기본 동작을 구현한다."
+    },
+    {
+      "id": "00a41ffc-530c-42c4-be01-cff2e4168394",
+      "kind": "markdown",
+      "hash": "69b60574bcbebcd64c4783ed2656df6c292f03644f2d7b2b3580a07a1ae56a05",
+      "markdown": "- 탭하면 짧은 반응을 보이고, 드래그하면 위치를 옮긴다."
+    },
+    {
+      "id": "26f49ae7-454a-4a2b-b73e-bbf5a50c3470",
+      "kind": "markdown",
+      "hash": "d4ec64c289ac9d91c7927efeaca0685ba328878c22670408d2aaa2e871de3bad",
+      "markdown": "- 화면 가장자리를 벗어나지 않도록 위치를 조정한다."
+    },
+    {
+      "id": "a1c46228-5b73-461c-9996-95ddc22ca722",
+      "kind": "markdown",
+      "hash": "4bd8561c2ff1af7f53e6ba1f65fec37a04306e5ec78338978b51ae5db041d2f4",
+      "markdown": "- 앱에서 시작·중지하고, 실행 중에도 쉽게 종료할 수 있게 한다."
+    },
+    {
+      "id": "875daa46-6dab-4f65-9ddc-d0506185f931",
+      "kind": "markdown",
+      "hash": "b143041bee8b39dc086ba4c9e80aa25e5b923b745524f4175c0c23b8469a852c",
+      "markdown": "- 화면이 꺼지면 애니메이션을 중지하는 방향으로 설계한다."
+    },
+    {
+      "id": "9881c79c-ae89-4955-a370-108933451b7e",
+      "kind": "markdown",
+      "hash": "4f65c37e74e7b4a2322466c37f9acab168aa97364d06ad9c9a3db31e8c9e8de1",
+      "markdown": "- 행동 선택 규칙과 캐릭터 그림을 교체할 수 있게 구성한다."
+    },
+    {
+      "id": "2cb665d1-17d0-4e7b-80bc-44ff65257061",
+      "kind": "markdown",
+      "hash": "c210567f12a50423a3f5ae1fa53ed5eb4c6df3cb57519190136432cc29b0d6ff",
+      "markdown": "영상에서 외형과 습관을 자동 추출하는 기능, 음성 호출, 결제, 커뮤니티와 다중 동물은 후속 단계로 둔다."
+    },
+    {
+      "id": "70bf782b-08af-4298-800f-b5f7d0b01c5b",
+      "kind": "markdown",
+      "hash": "f20fba236ff01066dcffe7b9538c00138b7cf569b372e349c6b2aca5f13d70bd",
+      "markdown": "# 시제품 완료 기준"
+    },
+    {
+      "id": "85201970-a5e0-40d6-b1f3-e079feeca712",
+      "kind": "markdown",
+      "hash": "9183d6c624b458c3d9d7886814fcd2b6fdfc9429ccb83f48c888e867b478c342",
+      "markdown": "- 사용자가 권한을 허용한 경우에만 플로팅 모드가 시작된다."
+    },
+    {
+      "id": "a6fd9427-a8d8-48c4-aa00-f9ef8d20d492",
+      "kind": "markdown",
+      "hash": "13ee3cc0820bdedf0a1d58fe84be05f51bb364a16c818bb7080ce708bf896f2a",
+      "markdown": "- 홈 화면과 오버레이를 허용하는 일반 앱에서 캐릭터가 표시된다."
+    },
+    {
+      "id": "06756d90-7a6d-4f77-a412-3d1220820c9d",
+      "kind": "markdown",
+      "hash": "290acb5c3edeb2b6251733c9b8e250e17062f4fb9457878e52d3a086bfc6d49b",
+      "markdown": "- 세 가지 기본 동작이 전환되고 탭과 드래그가 구분된다."
+    },
+    {
+      "id": "fad59ec7-df2b-4357-926a-e7e619168d34",
+      "kind": "markdown",
+      "hash": "1367340e0b71178187dec8edab574971309b903935b69fe8bc56a48a73301a77",
+      "markdown": "- 캐릭터가 차지하지 않는 영역에서는 다른 앱을 정상적으로 조작할 수 있다."
+    },
+    {
+      "id": "cb5e219f-5ad5-4a1a-840b-72b7ad75d4d8",
+      "kind": "markdown",
+      "hash": "7e01f8aac077a40be410af92df8720c70fc170f57f6f39e87d3128fd6aecdf28",
+      "markdown": "- 화면 회전과 표시 영역 변경 후에도 캐릭터를 조작하고 종료할 수 있다."
+    },
+    {
+      "id": "a4c9e3e1-656a-4d15-ae6f-49f0f21bfbb2",
+      "kind": "markdown",
+      "hash": "3993f973fdec470dfac67245078e6e961117135aac6850e3dda24fc70ef7e79d",
+      "markdown": "- 사용자가 종료하거나 권한을 철회하면 캐릭터와 관련 실행 작업이 정리된다."
+    },
+    {
+      "id": "9c710fdd-7049-407d-a8b5-4d07d7692f8c",
+      "kind": "markdown",
+      "hash": "1c5ac7a30b9af6dfc29dbdceab6517d2bc37fd0dc00cbcc2816f5380a5cafa4e",
+      "markdown": "- 화면 꺼짐과 복귀 상황에서 중복 표시나 불필요한 애니메이션 실행이 발생하지 않는다."
+    },
+    {
+      "id": "46e809cb-1488-475a-b996-dbc4be6c46ff",
+      "kind": "markdown",
+      "hash": "495877b5ba7718553c842b92086754e591cc56c2d1d2c88b0b00a662d187de9d",
+      "markdown": "- 실제 Android 기기에서 발열, 배터리 사용, 반응 속도를 확인하고 기종과 OS 버전을 기록한다."
+    },
+    {
+      "id": "a1497df6-2d19-464f-932b-9066adcaeab5",
+      "kind": "markdown",
+      "hash": "d33636e6e97cecd946068a948922f4691f8427cb48c5d871fb1838ffaa0f38dc",
+      "markdown": "OS나 다른 앱이 오버레이를 제한하는 상황은 정상적인 제약으로 처리한다. Android 문서는 시스템이 오버레이의 위치·크기·표시 여부를 변경할 수 있다고 명시하며, 앱 창이 비시스템 오버레이를 차단하는 API도 제공한다. [Android 오버레이 창](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#TYPE_APPLICATION_OVERLAY), [오버레이 차단 API](https://developer.android.com/reference/android/view/Window#setHideOverlayWindows(boolean))"
+    },
+    {
+      "id": "cebb47cd-3341-4243-9f53-d142234ac83e",
+      "kind": "markdown",
+      "hash": "f8398173c5a1fd502b179e9ed1559d356b46bfac63739c9f611005ba2a20d253",
+      "markdown": "# 실제 반려견 데이터 적용"
+    },
+    {
+      "id": "44393c39-55b5-4df8-9638-0ae70508c7a8",
+      "kind": "markdown",
+      "hash": "52bc154546b97c9458fd918e8ed0e46e1a94d6d9e306cbf68f9bcd5f8d091b49",
+      "markdown": "플로팅 기능을 검증한 뒤 반려견 한 마리의 사진, 일상 동영상과 보호자 설명을 적용한다. 자료 수량과 촬영 조건은 첫 결과물을 확인하면서 정하며, 정해진 수량만으로 충분한 재현이 가능하다고 가정하지 않는다."
+    },
+    {
+      "id": "0d1bd570-5ff9-4152-ba71-028aff639e8f",
+      "kind": "markdown",
+      "hash": "8c475e1e5500a550edc60229bd4a3435bcec91d666124543d06226a79b11ecbf",
+      "markdown": "각 행동 기록에는 행동명, 발생 상황, 반응, 빈도, 지속시간, 근거 자료와 보호자 확인 여부를 연결한다. 예를 들어 ‘장난감을 보여 주면 고개를 기울인다’는 기록은 관찰된 상황과 동작을 함께 보존한다. 반복 관찰 자료가 부족하면 정확한 확률을 부여하지 않고 보호자가 수정할 수 있는 임시값으로 관리한다."
+    },
+    {
+      "id": "365a6570-541a-446c-a34e-1e50a963610c",
+      "kind": "markdown",
+      "hash": "c9867003b3b0e82a8054ada88d98658ba38ed000fadfbaeb98af6d33bc695220",
+      "markdown": "외형 유사성, 대표 습관의 재현, 입력에 대한 반응, 반복 움직임의 자연스러움을 따로 검토한다. 보호자 평가와 영상 대조를 함께 사용한다."
+    },
+    {
+      "id": "3fb6245a-e54d-4d69-8a27-c43cb9764d75",
+      "kind": "markdown",
+      "hash": "221582b20c27e486e6c6818275e617ce88ef6fd18465ad5fc023287bae0c6654",
+      "markdown": "# 플랫폼별 확장"
+    },
+    {
+      "id": "809f75fa-014f-468f-a1b8-505d8c011174",
+      "kind": "markdown",
+      "hash": "5ed528b4e9176f630165984e1213b022efb606cfa09c669b035154fb82c7f7ff",
+      "markdown": "1. Android 플로팅 검증: 권한, 표시, 기본 동작, 입력, 종료를 확인한다."
+    },
+    {
+      "id": "cf889929-ba66-4947-bd30-6f46c6340a52",
+      "kind": "markdown",
+      "hash": "6f3e04b2832ba3e8ae1da52b198f5a9f7a1ba732f250ab72a0fc341e97f15943",
+      "markdown": "2. 반려견 한 마리 개인화: 실제 자료를 바탕으로 외형과 대표 습관을 적용한다."
+    },
+    {
+      "id": "b8de00fc-493a-4570-a7ad-496a5668f5d7",
+      "kind": "markdown",
+      "hash": "103efcf2dabc4b26b9352309bd014a33adba90cb1930248657efe343326df914",
+      "markdown": "3. 공통 앱: 등록, 자료 관리, 행동 수정, 앱 내 상호작용을 Android와 iOS에 제공한다."
+    },
+    {
+      "id": "90b32b47-4026-4952-9fa7-94f0270c25fe",
+      "kind": "markdown",
+      "hash": "ff9fcb728e2c6e38747744c7e819254ba339d00809cae6c383c76fe1c38aaad8",
+      "markdown": "4. 홈 화면 위젯: 각 플랫폼이 허용하는 갱신과 상호작용 범위에서 개체의 모습과 상태를 표시한다."
+    },
+    {
+      "id": "af774b4d-0cf6-41d7-8735-c9dc70f5648c",
+      "kind": "markdown",
+      "hash": "1af9e5ccbe1fb8cdde4f38e795b6a4d9bcdfe925ea7fbdf4f579df9f3029aa22",
+      "markdown": "Android 오버레이는 별도의 표시 권한을 요구한다. 장시간 실행에 포그라운드 서비스를 사용하는 경우 관련 알림과 실행 제한을 반영해야 한다. [Android 오버레이 권한](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#TYPE_APPLICATION_OVERLAY), [포그라운드 서비스](https://developer.android.com/develop/background-work/services/fgs)"
+    },
+    {
+      "id": "205d4145-7568-4e6e-a64d-92d572a066b5",
+      "kind": "markdown",
+      "hash": "2a6fc1a1d3c388c0410439c3bd92a8d5f382eadd9bc27eae56876b4c6a012d91",
+      "markdown": "Apple의 위젯은 버튼과 토글을 통한 상호작용을 지원하지만, 위젯과 Live Activities의 데이터 변경 애니메이션은 최대 2초로 제한된다. iOS 홈 위젯은 지속적인 게임 애니메이션 대신 상태 표시와 짧은 반응에 맞춰 설계한다. [위젯 상호작용](https://developer.apple.com/documentation/widgetkit/adding-interactivity-to-widgets-and-live-activities), [위젯 애니메이션](https://developer.apple.com/documentation/widgetkit/animating-data-updates-in-widgets-and-live-activities)"
+    }
+  ]
+}

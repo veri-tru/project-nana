@@ -1,0 +1,10 @@
+{
+  "protected_artifacts_unchanged": 5,
+  "review_items_with_valid_ids": 14,
+  "priority_1_items": 4,
+  "exact_duplicate_groups_reviewed": 3,
+  "all_review_local_links_exist": true,
+  "sqlite_integrity": "ok",
+  "migration_applied": false,
+  "status": "passed"
+}
