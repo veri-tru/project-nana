@@ -1,0 +1,16 @@
+{
+  "id": "nana-b2-c2-role-palette",
+  "version": "0.3.0",
+  "styles": {
+    "B2": {
+      "outline": "#87796B",
+      "seam": "#AD9782"
+    },
+    "C2": {
+      "outline": "#35251E",
+      "seam": "#77604C"
+    }
+  },
+  "status": "canonical_visual_review_pending",
+  "identity_geometry_shared_between_styles": true
+}

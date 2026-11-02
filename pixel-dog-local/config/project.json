@@ -283,8 +283,8 @@
       ]
     },
     "prototype": {
-      "entrypoint": "tools/static_maker/render_v02.py",
-      "version": "0.2.0",
+      "entrypoint": "tools/static_maker/render_v03.py",
+      "version": "0.3.0",
       "runtime": "python",
       "storage": "sqlite_local_prototype",
       "supported_canvas_px": [
@@ -297,14 +297,14 @@
       ],
       "style_scope": "B2_C2_shared_geometry_outline_and_seam_color_roles_visual_review_pending",
       "source_image_inputs": false,
-      "automated_tests_passed": 14,
+      "automated_tests_passed": 22,
       "visual_acceptance": "pending",
       "photo_extraction": false,
       "animation": false,
       "active_release_management": false,
       "legacy_entrypoint": "tools/static_maker/maker.py",
-      "editor_entrypoint": "tools/static_maker/editor_v02.py",
-      "authoring_state_schema": 2,
+      "editor_entrypoint": "tools/static_maker/editor_v03.py",
+      "authoring_state_schema": 3,
       "observation_and_authoring_revisions": "separate",
       "supported_coat_parts": [
         "crown",
@@ -313,8 +313,12 @@
         "chest",
         "paws"
       ],
-      "browser_validation": "chromium_local_edit_save_reload_restore_and_invalid_combination_passed",
-      "verification": "tools/static_maker/VERIFY-v02.md"
+      "browser_validation": "chromium_v02_v03_upgrade_edit_save_reload_restore_and_embedded_report_passed",
+      "verification": "tools/static_maker/VERIFY-v03.md",
+      "legacy_authoring_schema": 2,
+      "legacy_static_entrypoint": "tools/static_maker/render_v02.py",
+      "explicit_authoring_migration": true,
+      "comparison_report": "self_contained_html_old_package_only_and_manual_adjustment"
     }
   }
 }
