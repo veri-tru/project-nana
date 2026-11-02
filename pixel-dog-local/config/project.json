@@ -1,14 +1,15 @@
 {
-  "schema_version": "0.2-draft",
+  "schema_version": "0.3-draft",
   "project_id": "pixel-dog",
   "display_name": "반려견 픽셀 캐릭터 앱",
   "implementation_status": "handoff_ready_app_not_implemented",
-  "as_of": "2026-10-18",
+  "as_of": "2026-11-02",
   "timezone": "Asia/Seoul",
   "spec_documents": {
     "current_status": "docs/current-spec.md",
     "personalization_draft": "docs/personalization-spec.md",
-    "asset_draft": "docs/asset-spec.md"
+    "asset_draft": "docs/asset-spec.md",
+    "profile_generation_draft": "docs/profile-generation-spec.md"
   },
   "scope": {
     "species": "dog",
@@ -27,7 +28,16 @@
     "resolution": {
       "status": "not_final",
       "selected_canvas_px": null,
-      "candidate_canvas_px": [[64, 64], [96, 96]],
+      "candidate_canvas_px": [
+        [
+          64,
+          64
+        ],
+        [
+          96,
+          96
+        ]
+      ],
       "display_width_dp": null,
       "display_scale": null,
       "discussed_candidate_px": [
@@ -79,24 +89,85 @@
   },
   "input_plan": {
     "status": "design_direction_not_implemented",
-    "first_input": ["existing_photo", "short_owner_response"],
+    "first_input": [
+      "existing_photo"
+    ],
     "video_required_for_first_input": false,
-    "optional_followup": ["photo", "owner_response", "short_video"]
+    "optional_followup": [
+      "photo",
+      "owner_response",
+      "short_video"
+    ],
+    "user_steps": [
+      "photo_upload",
+      "coat_choice_and_appearance_preview",
+      "behavior_setup_and_result_review"
+    ],
+    "followup_mode": "inline_when_identity_critical_or_conflicting",
+    "required_attribute_questionnaire": false,
+    "behavior_answers_allow_unknown_or_later": true,
+    "result_acceptance_scope": "shown_rendering_not_unobserved_facts"
   },
   "personalization_draft": {
     "status": "review_draft_not_implemented",
     "breed_reference_role": "initial_candidate_only",
     "mixed_or_unknown_breed_uses_same_profile_flow": true,
     "identity_feature_limit": 3,
-    "identity_feature_selection": "up_to_limit_without_inferred_fill",
+    "identity_feature_selection": "optional_owner_emphasis_or_correction_for_internal_review",
     "compatibility_default": "untested",
-    "priority": ["individual_appearance_structure", "asset_motion_compatibility", "single_dog_likeness_review"],
+    "priority": [
+      "individual_appearance_structure",
+      "asset_motion_compatibility",
+      "single_dog_likeness_review"
+    ],
     "ab_proposal": {
       "shared_clip_and_transition_versions": true,
-      "variable_fields": ["behavior_selection", "frequency", "onset_and_wait_timing"],
+      "variable_fields": [
+        "behavior_selection",
+        "frequency",
+        "onset_and_wait_timing"
+      ],
       "clip_internal_speed_fixed": true,
-      "evaluations": ["appearance_likeness", "cuteness", "dog_specific_behavior"]
+      "evaluations": [
+        "appearance_likeness",
+        "cuteness",
+        "dog_specific_behavior"
+      ]
+    },
+    "profile_generation_contract": {
+      "status": "design_not_implemented",
+      "identity_key": "dog_id",
+      "persistent_sections": [
+        "evidence",
+        "appearance",
+        "behavior",
+        "render_preferences",
+        "selection_and_change_history"
+      ],
+      "generation_requires": [
+        "dog_id",
+        "profile_revision",
+        "appearance_revision",
+        "behavior_revision",
+        "render_preferences_id_and_version",
+        "style_policy_id_and_version",
+        "action_request",
+        "invariants",
+        "allowed_changes",
+        "unresolved_fields",
+        "design_defaults"
+      ],
+      "reference_assets": "optional_for_first_static_candidate_required_for_motion_expansion",
+      "selection_scope_required": true,
+      "overwrite_confirmed_values_automatically": false,
+      "unknown_observations_remain_unknown": true,
+      "generated_assets_are_observation_evidence": false,
+      "draft_and_active_release_separate": true,
+      "activation_unit": "validated_release",
+      "stale_results_auto_activate": false,
+      "reused_assets_require_profile_compatibility": true,
+      "shared_art_style_selected": null,
+      "acceptance_scenarios": "docs/profile-generation-spec.md#9-구현-완료를-판단할-시나리오"
     }
   }
 }
-

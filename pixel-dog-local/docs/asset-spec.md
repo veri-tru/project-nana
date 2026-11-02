@@ -1,5 +1,11 @@
 # 픽셀 자산 규격 초안
 
+## 2026-11-02 개체 프로필과 생성·자산 버전 연결
+
+개체 자산은 dog_id, 생성 당시 profile_revision, 표현 설정·제품 화풍 버전과 기준 자산을 필수로 연결한다. 새 동작에서 외형을 다시 임의 추정하지 않는다. 개체와 무관한 화풍 연구는 style_study로 구분하고 개체 자산으로 자동 승격하지 않는다. [생성 입력·수정 전파·사용 묶음 규칙](profile-generation-spec.md)을 따른다.
+
+프로필 수정은 자산의 depends_on_fields와 대조해 재생성·재검수 범위를 정한다. 새로운 프로필과 유효성이 확인된 자산만 같은 release에 포함하고 한 번에 사용 대상으로 전환한다. 생성 실패·오래된 결과는 사용 중인 묶음을 자동 변경하지 않는다. 아래 크레용풍 P1 규정은 해당 이전 후보의 범위이며 모든 개체의 눈·눈꺼풀을 공통 모양으로 고정하는 기준이 아니다.
+
 상태: 제안. G0과 첫 개체 시안 결과를 반영해 버전 1을 고정합니다.
 
 공통 사양의 확정 여부는 [현재 사양](current-spec.md)을 먼저 확인합니다. 몸통·부품·동작의 실제 호환 판정과 개인화 연결 구조는 [개체 개인화 설계](personalization-spec.md)에 있습니다.
@@ -32,6 +38,12 @@
 | 필드 | 용도 |
 | --- | --- |
 | asset_id, version | 자산과 수정 이력 |
+| dog_id, profile_revision, appearance_revision, behavior_revision | 대상 개체와 생성 입력의 변경되지 않는 스냅샷 |
+| render_preferences_id/version, style_policy_id/version | 개체 표현 선택과 제품 화풍 규칙 |
+| job_id, reference_asset_refs, generation_recipe | 생성 작업·기준 이미지의 정확한 버전/해시·제작 기록 |
+| selection_scope, review_scope | 승인한 부위·표현·방향·동작 범위. 부분 선택을 전체 승인으로 확대하지 않음 |
+| depends_on_fields, unresolved_fields, design_defaults | 변경 영향 속성·미확인값·제작용 임시값 |
+| release_id, compatibility_with_profile | 사용 묶음과 재사용 자산의 해당 프로필 적합성 판정 |
 | canvas_width_px, canvas_height_px | 원본 해상도 |
 | clip_id, direction | 동작·방향 |
 | frames | 각 프레임 영역과 duration_ms |
