@@ -10,7 +10,8 @@
     "personalization_draft": "docs/personalization-spec.md",
     "asset_draft": "docs/asset-spec.md",
     "profile_generation_draft": "docs/profile-generation-spec.md",
-    "style_reference_policy": "docs/style-reference-policy.md"
+    "style_reference_policy": "docs/style-reference-policy.md",
+    "canonical_comparison_styles": "docs/b2-c2-style-spec.md"
   },
   "scope": {
     "species": "dog",
@@ -192,8 +193,37 @@
           "style_fidelity",
           "output_format"
         ],
-        "high_resolution_preview_is_native_pixel_asset": false
-      }
+        "high_resolution_preview_is_native_pixel_asset": false,
+        "canonical_manifest": "references/styles/b2-c2/v1/manifest.json"
+      },
+      "canonical_comparison_style_ids": [
+        "nana-soft-B2-v1",
+        "nana-contrast-C2-v1"
+      ]
     }
+  },
+  "art_style": {
+    "status": "canonical_comparison_references",
+    "selected_product_style_id": null,
+    "reference_manifest": "references/styles/b2-c2/v1/manifest.json",
+    "styles": [
+      {
+        "style_policy_id": "nana-soft-B2-v1",
+        "version": "1.0.0",
+        "label": "B2"
+      },
+      {
+        "style_policy_id": "nana-contrast-C2-v1",
+        "version": "1.0.0",
+        "label": "C2"
+      }
+    ],
+    "numeric_rules_status": "authoring_defaults_not_source_measurements",
+    "authoring_reference_canvas_px": [
+      96,
+      96
+    ],
+    "native_asset_validation": "not_performed",
+    "identity_geometry_shared": false
   }
 }

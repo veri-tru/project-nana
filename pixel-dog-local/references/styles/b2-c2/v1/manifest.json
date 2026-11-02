@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-02",
+  "status": "canonical_comparison_references",
+  "selection_evidence": [
+    "b2를 정본으로 세부규격작성",
+    "c2도 함께 비교로 정본화하자."
+  ],
+  "selected_product_style_id": null,
+  "source": {
+    "file": "reference-sheet.png",
+    "source_kind": "conversation_generated_image",
+    "original_filename": "exec-9063a517-946e-4531-861a-347b696f0540.png",
+    "sha256": "654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744",
+    "width_px": 1774,
+    "height_px": 887,
+    "byte_length": 1494963,
+    "modified": false,
+    "native_pixel_asset": false
+  },
+  "styles": [
+    {
+      "style_policy_id": "nana-soft-B2-v1",
+      "version": "1.0.0",
+      "label": "B2",
+      "region_xywh_px": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "region_normalized_xywh": [
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "outline_role": "soft_tinted"
+    },
+    {
+      "style_policy_id": "nana-contrast-C2-v1",
+      "version": "1.0.0",
+      "label": "C2",
+      "region_xywh_px": [
+        887,
+        0,
+        887,
+        887
+      ],
+      "region_normalized_xywh": [
+        0.5,
+        0,
+        0.5,
+        1
+      ],
+      "outline_role": "dark_tinted_high_contrast"
+    }
+  ],
+  "reference_role": "style_reference",
+  "exclude": [
+    "other_panel",
+    "labels",
+    "background",
+    "divider"
+  ],
+  "scope": [
+    "outline_treatment",
+    "color_masses",
+    "shading_simplification",
+    "fur_simplification",
+    "pixel_edge_appearance"
+  ],
+  "identity_transfer_allowed": false,
+  "applies_to_eye_geometry": false,
+  "spec": "../../../../docs/b2-c2-style-spec.md",
+  "numeric_rules_status": "authoring_defaults_not_source_measurements",
+  "final_canvas_px": null,
+  "validation_status": "documentation_only_no_new_assets"
+}
