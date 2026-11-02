@@ -11,7 +11,8 @@
     "asset_draft": "docs/asset-spec.md",
     "profile_generation_draft": "docs/profile-generation-spec.md",
     "style_reference_policy": "docs/style-reference-policy.md",
-    "canonical_comparison_styles": "docs/b2-c2-style-spec.md"
+    "canonical_comparison_styles": "docs/b2-c2-style-spec.md",
+    "roadmap": "docs/roadmap.md"
   },
   "scope": {
     "species": "dog",
@@ -159,7 +160,7 @@
         "unresolved_fields",
         "design_defaults"
       ],
-      "reference_assets": "optional_for_first_static_candidate_required_for_motion_expansion",
+      "reference_assets": "image_model_motion_expansion_requires_reviewed_identity_asset_planned_renderer_requires_reviewed_individual_structure_and_packages",
       "selection_scope_required": true,
       "overwrite_confirmed_values_automatically": false,
       "unknown_observations_remain_unknown": true,
@@ -194,7 +195,9 @@
           "output_format"
         ],
         "high_resolution_preview_is_native_pixel_asset": false,
-        "canonical_manifest": "references/styles/b2-c2/v1/manifest.json"
+        "canonical_manifest": "references/styles/b2-c2/v1/manifest.json",
+        "actual_image_requirement_scope": "image_model_style_reproduction_jobs",
+        "planned_renderer_reference_mode": "versioned_packages_after_validation_not_implemented"
       },
       "canonical_comparison_style_ids": [
         "nana-soft-B2-v1",
@@ -225,5 +228,59 @@
     ],
     "native_asset_validation": "not_performed",
     "identity_geometry_shared": false
+  },
+  "production_pipeline_plan": {
+    "status": "proposed_not_implemented",
+    "goal": "repeatable_profile_and_package_based_output",
+    "milestones": [
+      "scope_and_io_contract",
+      "persistent_profiles",
+      "single_dog_static_renderer",
+      "cross_dog_reuse",
+      "base_motion_packages",
+      "photo_extraction_and_three_step_flow",
+      "android_integration_and_limited_pilot"
+    ],
+    "initial_renderer_approach": "versioned_pixel_parts_masks_palette_and_pose_packages",
+    "input_contract": [
+      "dog_id",
+      "profile_revision",
+      "individual_render_structure_id_and_version",
+      "style_package_id_version_hash",
+      "motion_package_id_version_hash_when_applicable",
+      "renderer_version",
+      "output_grid",
+      "direction",
+      "pose_or_clip",
+      "frame_or_time"
+    ],
+    "canonical_image_role": "package_authoring_and_visual_regression_review",
+    "production_render_image_inputs": "not_required_after_validated_package_route_exists",
+    "image_model_reference_requirement_unchanged": true,
+    "renderer_location": "undecided",
+    "same_pinned_inputs_repeatable_pixels": true,
+    "automatic_photo_extraction": "not_implemented_separate_milestone",
+    "initial_review_dog_count_proposal": 3,
+    "acceptance_required": [
+      "no_reference_image_reads_at_render_time",
+      "repeatable_pixel_output",
+      "profile_identity_isolation",
+      "style_geometry_separation",
+      "cross_dog_reuse",
+      "visual_identity_and_style_review",
+      "motion_compatibility_when_applicable"
+    ],
+    "schedule": {
+      "status": "estimate_not_commitment",
+      "weeks_range": [
+        8,
+        12
+      ],
+      "assumptions": [
+        "one_developer",
+        "one_pixel_asset_author",
+        "owner_review_and_test_devices_available"
+      ]
+    }
   }
 }
