@@ -2,7 +2,7 @@
   "schema_version": "0.3-draft",
   "project_id": "pixel-dog",
   "display_name": "반려견 픽셀 캐릭터 앱",
-  "implementation_status": "handoff_ready_app_not_implemented",
+  "implementation_status": "static_maker_prototype_android_not_implemented",
   "as_of": "2026-11-02",
   "timezone": "Asia/Seoul",
   "spec_documents": {
@@ -230,7 +230,7 @@
     "identity_geometry_shared": false
   },
   "production_pipeline_plan": {
-    "status": "proposed_not_implemented",
+    "status": "static_prototype_implemented_visual_acceptance_pending",
     "goal": "repeatable_profile_and_package_based_output",
     "milestones": [
       "scope_and_io_contract",
@@ -281,6 +281,27 @@
         "one_pixel_asset_author",
         "owner_review_and_test_devices_available"
       ]
+    },
+    "prototype": {
+      "entrypoint": "tools/static_maker/maker.py",
+      "version": "0.1.0",
+      "runtime": "python",
+      "storage": "sqlite_local_prototype",
+      "supported_canvas_px": [
+        96,
+        96
+      ],
+      "supported_views": [
+        "front_face",
+        "front_seated"
+      ],
+      "style_scope": "B2_C2_outline_color_only",
+      "source_image_inputs": false,
+      "automated_tests_passed": 5,
+      "visual_acceptance": "pending",
+      "photo_extraction": false,
+      "animation": false,
+      "active_release_management": false
     }
   }
 }

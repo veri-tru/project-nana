@@ -1,0 +1,10 @@
+{
+  "package_id": "nana-static-style-prototype",
+  "version": "0.1.0",
+  "status": "visual_review_pending",
+  "styles": {
+    "B2": {"outline": "#817369"},
+    "C2": {"outline": "#2C1B16"}
+  },
+  "scope": "96px front face and seated; outline-only comparison, not approved canonical reproduction"
+}

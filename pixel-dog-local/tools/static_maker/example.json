@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-example",
+  "appearance": {
+    "geometry": {
+      "head_width": 36,
+      "head_height": 28,
+      "ear_width": 11,
+      "ear_length": 24,
+      "eye_spacing": 18,
+      "eye_radius": 3,
+      "eye_y": 26,
+      "muzzle_width": 20,
+      "muzzle_height": 12,
+      "body_width": 30,
+      "body_height": 40,
+      "leg_width": 9,
+      "left_occlusion": 1,
+      "right_occlusion": 1
+    },
+    "colors": {
+      "coat": "#D6D6D2",
+      "coat_shadow": "#A4A5A1",
+      "ear": "#B7B8B4",
+      "ear_shadow": "#898C89",
+      "muzzle": "#ECE9E0",
+      "muzzle_shadow": "#C5C1B7",
+      "iris": "#62452D",
+      "pupil": "#261C18",
+      "nose": "#302B28",
+      "nose_light": "#716A60",
+      "highlight": "#A18D75",
+      "collar": "#A63B36"
+    },
+    "unresolved": []
+  },
+  "render": {
+    "coat_length": "medium",
+    "collar_visible": true,
+    "owner_selected": false
+  },
+  "behavior": {
+    "habits": null
+  },
+  "evidence": [
+    {
+      "kind": "synthetic",
+      "fields": [
+        "all"
+      ],
+      "source": "test-fixture",
+      "note": "Fictional dog; no user observation"
+    }
+  ]
+}
