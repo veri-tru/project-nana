@@ -283,8 +283,8 @@
       ]
     },
     "prototype": {
-      "entrypoint": "tools/static_maker/maker.py",
-      "version": "0.1.0",
+      "entrypoint": "tools/static_maker/render_v02.py",
+      "version": "0.2.0",
       "runtime": "python",
       "storage": "sqlite_local_prototype",
       "supported_canvas_px": [
@@ -295,13 +295,26 @@
         "front_face",
         "front_seated"
       ],
-      "style_scope": "B2_C2_outline_color_only",
+      "style_scope": "B2_C2_shared_geometry_outline_and_seam_color_roles_visual_review_pending",
       "source_image_inputs": false,
-      "automated_tests_passed": 5,
+      "automated_tests_passed": 14,
       "visual_acceptance": "pending",
       "photo_extraction": false,
       "animation": false,
-      "active_release_management": false
+      "active_release_management": false,
+      "legacy_entrypoint": "tools/static_maker/maker.py",
+      "editor_entrypoint": "tools/static_maker/editor_v02.py",
+      "authoring_state_schema": 2,
+      "observation_and_authoring_revisions": "separate",
+      "supported_coat_parts": [
+        "crown",
+        "ears",
+        "cheeks",
+        "chest",
+        "paws"
+      ],
+      "browser_validation": "chromium_local_edit_save_reload_restore_and_invalid_combination_passed",
+      "verification": "tools/static_maker/VERIFY-v02.md"
     }
   }
 }
