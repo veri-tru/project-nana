@@ -9,7 +9,8 @@
     "current_status": "docs/current-spec.md",
     "personalization_draft": "docs/personalization-spec.md",
     "asset_draft": "docs/asset-spec.md",
-    "profile_generation_draft": "docs/profile-generation-spec.md"
+    "profile_generation_draft": "docs/profile-generation-spec.md",
+    "style_reference_policy": "docs/style-reference-policy.md"
   },
   "scope": {
     "species": "dog",
@@ -167,7 +168,32 @@
       "stale_results_auto_activate": false,
       "reused_assets_require_profile_compatibility": true,
       "shared_art_style_selected": null,
-      "acceptance_scenarios": "docs/profile-generation-spec.md#9-구현-완료를-판단할-시나리오"
+      "acceptance_scenarios": "docs/profile-generation-spec.md#9-구현-완료를-판단할-시나리오",
+      "style_reference_contract": {
+        "status": "design_not_implemented",
+        "actual_image_required_for_style_reproduction": true,
+        "reference_roles": [
+          "identity_photo",
+          "style_reference",
+          "approved_identity_asset",
+          "pose_reference"
+        ],
+        "manifest_fields": [
+          "file_id",
+          "version",
+          "hash",
+          "input_order",
+          "used_region",
+          "role"
+        ],
+        "identity_transfer_from_style_reference": false,
+        "visual_checks": [
+          "identity_preservation",
+          "style_fidelity",
+          "output_format"
+        ],
+        "high_resolution_preview_is_native_pixel_asset": false
+      }
     }
   }
 }
