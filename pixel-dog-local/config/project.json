@@ -3,7 +3,7 @@
   "project_id": "pixel-dog",
   "display_name": "반려견 픽셀 캐릭터 앱",
   "implementation_status": "static_maker_prototype_android_not_implemented",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "timezone": "Asia/Seoul",
   "spec_documents": {
     "current_status": "docs/current-spec.md",
@@ -29,18 +29,9 @@
     "input_clock": "independent",
     "movement_clock": "elapsed_time",
     "resolution": {
-      "status": "not_final",
-      "selected_canvas_px": null,
-      "candidate_canvas_px": [
-        [
-          64,
-          64
-        ],
-        [
-          96,
-          96
-        ]
-      ],
+      "status": "confirmed",
+      "selected_canvas_px": [64, 64],
+      "candidate_canvas_px": [],
       "display_width_dp": null,
       "display_scale": null,
       "discussed_candidate_px": [
@@ -206,6 +197,8 @@
     }
   },
   "art_style": {
+    "pixel_outline_color_count": 1,
+    "pixel_interior_color_limit": 4,
     "status": "canonical_comparison_references",
     "selected_product_style_id": null,
     "reference_manifest": "references/styles/b2-c2/v1/manifest.json",
@@ -223,8 +216,8 @@
     ],
     "numeric_rules_status": "authoring_defaults_not_source_measurements",
     "authoring_reference_canvas_px": [
-      96,
-      96
+      64,
+      64
     ],
     "native_asset_validation": "not_performed",
     "identity_geometry_shared": false
