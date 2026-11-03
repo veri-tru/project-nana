@@ -19,12 +19,19 @@ def union(*masks):
     for m in masks:out=ImageChops.lighter(out,m)
     return out
 
-def build(state,style='B2',view='full'):
+def build(state,style='B2',view='full',*,projection=None,turn=0):
     validate(state)
     shapes=json.loads((PACKAGE/'shapes.json').read_text())
     styles=json.loads((PACKAGE/'styles.json').read_text())['styles']
     if style not in styles or view not in ('face','full'):raise ValueError('unsupported style/view')
     g=state['geometry']; colors={**state['colors'],**styles[style]}
+    if projection is not None:
+        # The experimental part round uses a single contour and four shared
+        # fills selected from this dog's palette, in both the body and face.
+        colors.update(seam=colors['outline'],ear=colors['muzzle_shadow'],
+                      ear_shadow=colors['nose'],coat_shadow=colors['nose'],
+                      iris=colors['nose'],pupil=colors['nose'],collar=colors['nose'],
+                      nose_light=colors['coat'],highlight=colors['muzzle'])
     coat={k:shapes['lengths'][v] for k,v in state['coat'].items()}
     masks={}; layers=[]
     hw=g['head_width']/2; top=shapes['head_top']+g['head_drop']; chin=top+g['head_height']
@@ -171,6 +178,11 @@ def build(state,style='B2',view='full'):
         (44,my-mh/2),(48,my-mh/2+depth),(52,my-mh/2),
         (48+mw-2,my-mh/2+2),(48+mw,my-1),(48+mw-1,my+3),
         (53,my+mh/2),(48,my+mh/2-1),(43,my+mh/2),(48-mw+1,my+3)])
+    if projection is not None:
+        from muzzle import masks as muzzle_masks, ROLES
+        part=muzzle_masks((96,96),(48,my),(2*mw,mh),(g['nose_width'],g['nose_height']),
+                          projection,turn,transform,lobe_depth=depth/mh)
+        muzzle=part['muzzle']
     for side,sign in [('screen_left',-1),('screen_right',1)]:
         ex,ey=anchors[side+'_eye_center'];rx=g['eye_rx'];ry=g['eye_ry']
         socket=ellipse(side+'_socket',(ex-rx-1,ey-ry,ex+rx+1,ey+ry+1))
@@ -195,17 +207,21 @@ def build(state,style='B2',view='full'):
         highlight=Image.new('L',(96,96));ImageDraw.Draw(highlight).point(transform((ex-1,ey)),fill=255)
         paint(side+'_highlight',highlight,'highlight',visible)
         paint(side+'_eyelid',lid,'coat');paint(side+'_front_fur',fur,'coat')
-    paint('muzzle',muzzle,'muzzle',facial)
-    shade=poly('muzzle_shadow',[(48-mw,my+2),(43,my+mh/2),(48,my+mh/2-1),
-           (53,my+mh/2),(48+mw,my+2),(53,my+mh/2-1),(48,my+mh/2-2),(43,my+mh/2-1)])
-    paint('muzzle_shadow',shade,'muzzle_shadow',ImageChops.multiply(muzzle,facial))
-    nw=g['nose_width']/2;nh=g['nose_height'];ny=my-1
-    nose=poly('nose',[(48-nw+1,ny-nh/2),(48+nw-1,ny-nh/2),(48+nw,ny),
-                      (50,ny+nh/2),(46,ny+nh/2),(48-nw,ny)])
-    paint('nose',nose,'nose',muzzle)
-    line('nose_light',[(48-nw+2,ny-nh/2+1),(49,ny-nh/2+1)],'nose_light',nose)
-    line('philtrum',[(48,ny+nh/2),(48,ny+nh/2+2)],'nose',muzzle)
-    line('mouth',[(46,ny+nh/2+2),(50,ny+nh/2+2)],'nose',muzzle)
+    if projection is None:
+        paint('muzzle',muzzle,'muzzle',facial)
+        shade=poly('muzzle_shadow',[(48-mw,my+2),(43,my+mh/2),(48,my+mh/2-1),
+               (53,my+mh/2),(48+mw,my+2),(53,my+mh/2-1),(48,my+mh/2-2),(43,my+mh/2-1)])
+        paint('muzzle_shadow',shade,'muzzle_shadow',ImageChops.multiply(muzzle,facial))
+        nw=g['nose_width']/2;nh=g['nose_height'];ny=my-1
+        nose=poly('nose',[(48-nw+1,ny-nh/2),(48+nw-1,ny-nh/2),(48+nw,ny),
+                          (50,ny+nh/2),(46,ny+nh/2),(48-nw,ny)])
+        paint('nose',nose,'nose',muzzle)
+        line('nose_light',[(48-nw+2,ny-nh/2+1),(49,ny-nh/2+1)],'nose_light',nose)
+        line('philtrum',[(48,ny+nh/2),(48,ny+nh/2+2)],'nose',muzzle)
+        line('mouth',[(46,ny+nh/2+2),(50,ny+nh/2+2)],'nose',muzzle)
+    else:
+        for name,mask in part.items():
+            paint(name,mask,ROLES[name],facial)
     output=Image.new('RGBA',(96,96))
     for name,m,role in layers:
         layer=Image.new('RGBA',(96,96),colors[role]);layer.putalpha(m);output.alpha_composite(layer)
