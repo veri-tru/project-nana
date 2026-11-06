@@ -1,3 +1,5 @@
+현재 통합 명령은 `python -m tools.dog_engine body -- ...`이며 기존 CLI도 유지한다. 이 제작기는 2D 작화 프로필을 사용하고 머리 3D 메시와 자동 연결하지 않는다. 문서의 B2/C2 출력은 과거 구현 이름이며 현재 머리 B2 정본의 화풍 승인과 다르다. [엔진 구조](../../docs/engine-organization.md).
+
 # Nana 정적 제작기 0.3
 
 휘핏(guide-054), 닥스훈트(guide-016), 골든 리트리버(guide-002)는 앉기 수정 후보를 별도로 등록했다. 이 디렉터리에서 `python render_v03.py render-standing guide-054 --pose seated-candidate --out ../../private-data/whippet-seated-preview`로 새 폴더에 출력한다. B 프로필은 `seated_limbs`에서 어깨·팔꿈치·앞발목·발가락 뿌리·발끝 또는 고관절·무릎·비절·발가락 뿌리·발끝의 (x, y, 반경)을 지정한다. 64×64에서 분절의 반경을 보간한 면이 다리와 발을 그린다. [세 개체 비교](../../private-data/seated-rebuild-r1/comparison.png).

@@ -1,24 +1,15 @@
 # 반려견 픽셀 캐릭터 앱
 
-새 개체 표현: [잭 러셀 귀 3종 비교](outputs/jack-russell-ear-study-20261106/README.md). 승인된 A를 기준으로 접힌 귀·반쯤 선 귀·선 귀를 비교했으며 선택은 대기 중이다.
+현재는 **머리 3D 모델 투영 + 별도의 2D 전신 정적 제작기** 단계다. [엔진 구조·상충 정리](docs/engine-organization.md) · [실행 안내](tools/dog_engine/README.md) · [현재 사양](docs/current-spec.md).
 
-새 픽셀 화풍 시안: [잭 러셀 B2 3안](outputs/jack-russell-b2-20261106/README.md). 골격 B를 참조한 3행×5시점 고해상도 비교판이며, A 기준·B 옅은·C 깊은 음영이다. 흰 얼굴과 갈색 귀는 제작 배색이며 사용자 선택은 첫 행 A(기준 음영)다.
+- 실행: 프로젝트 폴더에서 `python -m tools.dog_engine status`, 환경·입력 확인은 `doctor`, 전체 회귀 검사는 `verify`.
+- 머리: 5품종·9프리셋, 짧은 목과 5시점. 골든은 adult-B, 잭 러셀은 B가 작업 형상 기본값이다.
+- 현재 머리 화풍: [breed-head-soft-B2-v1](references/styles/breed-head-b2/v1/manifest.json). [골든](outputs/golden-b2-canonical-20261106/selection.json)·[잭 러셀](outputs/jack-russell-b2-20261106/selection.json)의 고해상도 시안 A를 선택했다. A는 음영 행 이름이며 형상 B와 충돌하지 않는다.
+- [기존 native64 P1/P2/P3](outputs/golden-pixel-refresh-20261106/README.md)는 화풍 불일치로 거절됐다. 진단 경로로만 보존하고, 승인된 native64 실행 자산으로 사용하지 않는다.
+- [잭 러셀 귀 비교](outputs/jack-russell-ear-study-20261106/README.md)는 선택 대기다. 엔진의 개체별 귀 변경은 미구현이다.
+- 저장: [머리 v2/13 로컬 체크포인트](docs/head-engine-checkpoint.md), 이후 전체 진행 보존 커밋 `8671571`. 새 실행 패키지와 보존본의 역할은 정리 문서를 따른다.
 
-새 골격 후보: [잭 러셀 테리어 머리·턱 3안](outputs/jack-russell-head-v1/README.md). 주둥이 길이 -6% / 기준 / +6%를 같은 실제 3D 모델의 다섯 시점과 턱 회전으로 비교한다.
-
-현재 머리 화풍: [기존 B2 품종 시안 정본](references/styles/breed-head-b2/v1/manifest.json). [골든 재작화](outputs/golden-b2-canonical-20261106/README.md)는 수정 adult-B 형상을 이 화풍으로 표현한 고해상도 시안이며, 사용자 선택은 첫 행 A(기준 음영)다. 앞선 native64 골든 3안은 화풍 불일치로 REJECTED/BLOCKED이며 현재 추천안이 아니다.
-
-이전 구현 기록: [체급·품종·개체 계층형 머리 엔진](tools/head_engine/README.md)과 [골든 64×64 픽셀 3안](outputs/golden-pixel-refresh-20261106/README.md). 수정 B 골격을 작업 기준으로 5시점을 직접 출력했다. 머리/짧은 목 범위이며 형상·화풍의 사용자 선택은 대기 중이다.
-
-엔진 저장 지점: [머리 엔진 v2/13 체크포인트](docs/head-engine-checkpoint.md) — 2026-11-06, 현재 B안과 A/C 비교안·재생성 입력·검토 기록 보존.
-
-2026-11-06 현재: `skull-based-heads-v2` 13의 A/B/C가 독립 외형·기술 PASS와 전달 검사 READY를 통과했다. 검은 코는 v1 B의 실제 정점을 보존하고, 얼굴 연결은 피부 정점을 다듬었으며 귀는 품종별로 구성했다. 사용자 선택은 PENDING이다. 이전 `skull-based-heads-v1`은 사용자가 거절한 REJECTED / BLOCKED 이력으로 유지한다.
-
-현재 작업: [검은 코 복구·얼굴 연결·품종별 귀 A/B/C](outputs/skull-based-heads-v2/README.md). 60셀 외형 검토, 12개 실제 메시 검증, 전체 재생성 및 전달 검사 완료. 골든·닥스 귀뿌리의 작은 캡 형태는 MINOR로 기록했다. 이 체크포인트 당시 실제 모델 학습과 픽셀 간략화는 미실행이었다. 이후 골든 native64 출력은 화풍 불일치로 거절됐으며 현재 B2 재작화는 위 안내를 따른다.
-
-기반 골격: [공통 머리 골격의 입체 구조 후보 06](outputs/head-skeleton-volume-v2/README.md)이 독립 외형·기술 검토와 전달 검사를 통과했다. 사용자 선택은 대기 중이다. 학습 참고 기반을 먼저 잡고 픽셀 간략화는 이후 진행한다. 실제 모델 학습은 아직 실행하지 않았다. 이전 선 도해 `head-skeleton-v1`은 구조 FAIL / 전달 BLOCKED 이력으로 보존한다.
-
-이전 머리 외피 후보: [네 개체의 머리·턱·짧은 목 v2](outputs/head-neck-volume-v2/README.md). 독립 외형·기술 리뷰와 재생성 검사를 통과한 정적 후보이며 사용자 최종 승인은 대기 중입니다.
+## 전신 제작기와 기존 작업
 
 나나의 64×64 갸웃한 앉기는 중간 음영 ②를 선택했다. [엔진 재출력과 4색 음영 규격](tools/static_maker/README.md) · [선택된 앉기 원본](private-data/nana-seated-medium-v1/export/standing.png)
 

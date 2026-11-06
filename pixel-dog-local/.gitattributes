@@ -29,3 +29,4 @@ outputs/skull-based-heads-v2/** -text
 references/styles/breed-head-b2/** -text
 tools/head_engine/** -text
 tools/review/** -text
+tools/dog_engine/** -text

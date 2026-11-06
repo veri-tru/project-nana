@@ -1,0 +1,6 @@
+# Versions used for checkpoint regression on Python 3.12 / Windows.
+numpy==1.26.4
+Pillow==12.2.0
+scipy==1.17.1
+numba==0.68.0
+llvmlite==0.50.0
