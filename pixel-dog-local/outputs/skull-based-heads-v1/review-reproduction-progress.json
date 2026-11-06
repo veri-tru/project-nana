@@ -1,0 +1,52 @@
+{
+  "images": {
+    "heads-A.png": {
+      "bytes_equal": true,
+      "sha256": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+      "candidate_sha256": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+      "size": [
+        2400,
+        1500
+      ]
+    },
+    "heads-B.png": {
+      "bytes_equal": true,
+      "sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+      "candidate_sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+      "size": [
+        2400,
+        1500
+      ]
+    },
+    "heads-C.png": {
+      "bytes_equal": true,
+      "sha256": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0",
+      "candidate_sha256": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0",
+      "size": [
+        2400,
+        1500
+      ]
+    }
+  },
+  "geometry": {
+    "A": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    },
+    "B": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    },
+    "C": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    }
+  },
+  "source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d"
+}

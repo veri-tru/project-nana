@@ -1,0 +1,51 @@
+{
+  "breed": "jack_russell",
+  "size_class": "small",
+  "size_basis": "Authored classification; model units are not cm. No class-based face scaling.",
+  "variant": "B",
+  "rostral_length_multiplier": 1.0,
+  "profile": {
+    "dorsal": [
+      [
+        -15.0,
+        28.0
+      ],
+      [
+        -28.0,
+        28.0
+      ],
+      [
+        -39.0,
+        20.0
+      ],
+      [
+        -54.0,
+        17.0
+      ],
+      [
+        -69.0,
+        13.0
+      ],
+      [
+        -77.0,
+        11.0
+      ]
+    ],
+    "widths": [
+      18.5,
+      17.5,
+      12.5,
+      10.5,
+      7.8
+    ],
+    "hinge_x": -15.0
+  },
+  "control_muzzle_to_cranium_x_ratio": 0.8636363636363636,
+  "variation_scope": "Only dorsal x coordinates anterior to stop change; jaw/body rebuilding follows that change.",
+  "surface_relaxation": "B 400 iterations",
+  "muzzle_half_width": 10.8,
+  "muzzle_half_height": 10.0,
+  "nose_scale": 4.3,
+  "eye_radius": 3.2,
+  "authored_not_measured": true
+}

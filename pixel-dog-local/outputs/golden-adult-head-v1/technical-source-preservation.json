@@ -1,0 +1,14 @@
+{
+  "../head-skeleton-v1/profiles.json": true,
+  "../head-skeleton-volume-v2/build.py": true,
+  "../head-skeleton-volume-v2/geometry.pkl": true,
+  "../head-skeleton-volume-v2/profiles.json": true,
+  "../head-skeleton-volume-v2/raster.py": true,
+  "../head-skeleton-volume-v2/references.json": true,
+  "../skull-based-heads-v1/build.py": true,
+  "../skull-based-heads-v1/geometry.pkl": true,
+  "build.py": true,
+  "geometry.pkl": true,
+  "parameters.json": true,
+  "references.json": true
+}

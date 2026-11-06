@@ -1,0 +1,315 @@
+{
+  "images": {
+    "structure.png": {
+      "sha256": "6079e3c79447d6e56f70fde26701fff23a9218503f3992d6486aec5feeb5b6de",
+      "candidate_sha256": "6079e3c79447d6e56f70fde26701fff23a9218503f3992d6486aec5feeb5b6de",
+      "bytes_equal": true,
+      "size": [
+        1840,
+        1550
+      ]
+    },
+    "jaw-motion.png": {
+      "sha256": "a7eeae38412d17ed7c44b5ac5e393f4fd7765b7058973709bab5cafa1f79079f",
+      "candidate_sha256": "a7eeae38412d17ed7c44b5ac5e393f4fd7765b7058973709bab5cafa1f79079f",
+      "bytes_equal": true,
+      "size": [
+        1840,
+        1130
+      ]
+    },
+    "structure-detail.png": {
+      "sha256": "f4b82cb52db856372ed7b1f69cae9733516e6fbfd22bc086ac2c76af6487fe59",
+      "candidate_sha256": "f4b82cb52db856372ed7b1f69cae9733516e6fbfd22bc086ac2c76af6487fe59",
+      "bytes_equal": true,
+      "size": [
+        1600,
+        1150
+      ]
+    },
+    "jaw-detail.png": {
+      "sha256": "b655e686eba6966a4fbc4fe9c12455e4c59475e2f809c214242e30cff3317841",
+      "candidate_sha256": "b655e686eba6966a4fbc4fe9c12455e4c59475e2f809c214242e30cff3317841",
+      "bytes_equal": true,
+      "size": [
+        1600,
+        1440
+      ]
+    },
+    "joint-detail.png": {
+      "sha256": "68cb5cfe56b939c30849e247506a194322e7fb4c215d87abd53bb7d9697effac",
+      "candidate_sha256": "68cb5cfe56b939c30849e247506a194322e7fb4c215d87abd53bb7d9697effac",
+      "bytes_equal": true,
+      "size": [
+        1840,
+        1120
+      ]
+    }
+  },
+  "geometry": {
+    "golden": {
+      "exact_all_arrays_parameters_profiles": true
+    },
+    "whippet": {
+      "exact_all_arrays_parameters_profiles": true
+    },
+    "dachshund": {
+      "exact_all_arrays_parameters_profiles": true
+    },
+    "maltipoo": {
+      "exact_all_arrays_parameters_profiles": true
+    }
+  },
+  "region_exports": {
+    "golden": {
+      "arrays_exact": true,
+      "sha256": "4c373b7fd2ae4b5a2ce2f9af670b26da1a455cc6ee267ebb9ff6608c55ab8a88",
+      "region_counts": {
+        "upper": {
+          "1": 12164,
+          "2": 4465,
+          "3": 1803,
+          "4": 2174,
+          "5": 3310,
+          "6": 1696,
+          "7": 3195,
+          "8": 1283
+        },
+        "jaw": {
+          "9": 6288,
+          "10": 2463,
+          "11": 1371,
+          "12": 480
+        },
+        "cartilage": {
+          "13": 940
+        }
+      }
+    },
+    "whippet": {
+      "arrays_exact": true,
+      "sha256": "4cf0ce603ea843d22e42b3e89f6d0945d46d171f64ad283ff793cf7540a5f3fb",
+      "region_counts": {
+        "upper": {
+          "1": 7241,
+          "2": 3308,
+          "3": 2550,
+          "4": 2971,
+          "5": 3635,
+          "6": 976,
+          "7": 2865,
+          "8": 826
+        },
+        "jaw": {
+          "9": 6376,
+          "10": 2267,
+          "11": 868,
+          "12": 489
+        },
+        "cartilage": {
+          "13": 608
+        }
+      }
+    },
+    "dachshund": {
+      "arrays_exact": true,
+      "sha256": "fd04eb1e8edaeae4b14a9f3a0b5b52f0bae784eee014e65d4607c07b71bf0d2f",
+      "region_counts": {
+        "upper": {
+          "1": 9250,
+          "2": 4398,
+          "3": 2880,
+          "4": 3313,
+          "5": 3796,
+          "6": 1291,
+          "7": 3015,
+          "8": 1027
+        },
+        "jaw": {
+          "9": 6476,
+          "10": 2288,
+          "11": 1083,
+          "12": 479
+        },
+        "cartilage": {
+          "13": 766
+        }
+      }
+    },
+    "maltipoo": {
+      "arrays_exact": true,
+      "sha256": "512ecedb729eb4af7e90d8a9f763305a8932d5bd68943ee20a99da63383b483c",
+      "region_counts": {
+        "upper": {
+          "1": 9812,
+          "2": 4467,
+          "3": 1533,
+          "4": 2319,
+          "5": 3057,
+          "6": 1445,
+          "7": 2906,
+          "8": 1399
+        },
+        "jaw": {
+          "9": 5639,
+          "10": 1890,
+          "11": 1069,
+          "12": 478
+        },
+        "cartilage": {
+          "13": 700
+        }
+      }
+    }
+  },
+  "source_sha256": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+  "geometry_sha256": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+  "regions_json_exact": true,
+  "controls": {
+    "crown_height": {
+      "breed": "golden",
+      "delta": 0.75,
+      "part": "upper",
+      "surface_field_max_change": 0.7499936943486765,
+      "surface_samples_changed_gt_001": 9686,
+      "fresh_mesh_vertices": 30408,
+      "saved_mesh_vertices": 30090,
+      "fresh_mesh_exact": false,
+      "fixed_grid_bounds": [
+        [
+          -79.32,
+          8
+        ],
+        [
+          -10,
+          39.0
+        ],
+        [
+          -32.550000000000004,
+          32.550000000000004
+        ]
+      ]
+    },
+    "forehead_height": {
+      "breed": "golden",
+      "delta": 0.75,
+      "part": "upper",
+      "surface_field_max_change": 0.7672495367680715,
+      "surface_samples_changed_gt_001": 6495,
+      "fresh_mesh_vertices": 30232,
+      "saved_mesh_vertices": 30090,
+      "fresh_mesh_exact": false,
+      "fixed_grid_bounds": [
+        [
+          -79.32,
+          8
+        ],
+        [
+          -10,
+          39.0
+        ],
+        [
+          -32.550000000000004,
+          32.550000000000004
+        ]
+      ]
+    },
+    "derived_maxilla_width": {
+      "breed": "golden",
+      "delta": 0.75,
+      "part": "upper",
+      "surface_field_max_change": 0.6147422136129688,
+      "surface_samples_changed_gt_001": 13306,
+      "fresh_mesh_vertices": 30278,
+      "saved_mesh_vertices": 30090,
+      "fresh_mesh_exact": false,
+      "fixed_grid_bounds": [
+        [
+          -79.32,
+          8
+        ],
+        [
+          -10,
+          39.0
+        ],
+        [
+          -32.550000000000004,
+          32.550000000000004
+        ]
+      ]
+    },
+    "nasal_base_x": {
+      "breed": "golden",
+      "delta": 0.75,
+      "part": "upper",
+      "surface_field_max_change": 0.75,
+      "surface_samples_changed_gt_001": 5033,
+      "fresh_mesh_vertices": 29940,
+      "saved_mesh_vertices": 30090,
+      "fresh_mesh_exact": false,
+      "fixed_grid_bounds": [
+        [
+          -79.32,
+          8
+        ],
+        [
+          -10,
+          39.0
+        ],
+        [
+          -32.550000000000004,
+          32.550000000000004
+        ]
+      ]
+    },
+    "soft_nose_tip_x": {
+      "breed": "golden",
+      "delta": 0.75,
+      "part": "cartilage",
+      "surface_field_max_change": 0.7483243738894773,
+      "surface_samples_changed_gt_001": 939,
+      "fresh_mesh_vertices": 884,
+      "saved_mesh_vertices": 940,
+      "fresh_mesh_exact": false,
+      "fixed_grid_bounds": [
+        [
+          -79.32,
+          8
+        ],
+        [
+          -10,
+          39.0
+        ],
+        [
+          -32.550000000000004,
+          32.550000000000004
+        ]
+      ]
+    }
+  },
+  "inputs": {
+    "../head-skeleton-v1/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "__pycache__/raster.raster-6.py312.1.nbc": "df33acdfd671eb8eb6e6e3a3cfa5eec9a7a9e3e900720868449e60ed3d13a33a",
+    "__pycache__/raster.raster-6.py312.nbi": "963438c86a99e955db7538d04dc04a537669ab2ee828a4a99f3a406b92dd44a9",
+    "build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+    "profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+    "references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+    "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+    "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+    "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+  },
+  "source_unchanged": true,
+  "all_guarded_inputs_unchanged": true,
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.2.0",
+    "numba": "0.68.0"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "all_exact": true
+}

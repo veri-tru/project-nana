@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Precisely edit reference1 JACK RUSSELL EAR STUDY. ONLY change the ears in middle row 2 (all five views). Preserve ALL other pixels: rows1/3 unchanged, all faces/eyes/noses/skulls/neck shapes and facial shading in row2 unchanged, labels/layout/background unchanged.\nProblem: row2 currently looks almost identical to folded row1. Row2 must clearly depict SEMI-ERECT ears with lower half upright and only upper tip folding forward.\nKeep ear roots attached at same original places. Raise lower half of tan ear leaf visibly ABOVE the crown as a supported upright stem/triangular base, about 25-30 image pixels above the current middle row ear upper boundary. Let the distal upper third turn forward/down in a distinct soft fold, a SHORT flap, not entire ear lying on temple. In FRONT this forms two elevated ear bases with short folded tips, visibly taller than row1, but not pointed fully upright like row3. In SIDE and3/4 show erect lower section and a visible bend near upper third with tip directed toward muzzle, no flat large hanging patch. BACK depicts raised back surface with folded tips partly occluded, TOP depicts these folded ears coherently. Don't make rabbit ears, don't relocate attachment, don't make disconnected tabs. Same unrolled tan ear size across configs; upright height change comes from fold location. Match reference's pixel scale, muted brown outline, soft tan stepped shadows exactly. No extra colors, no black cavities.\nThis is a small ear-only correction. Keep rows1 and3 entirely as-is.",
+  "referenced_image_paths": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/jack-russell-ear-study-20261106/iterations/01/comparison.png"
+  ],
+  "transparent_background": false,
+  "reason": "Implementer inspection: middle semi-erect ears insufficiently distinct from folded baseline."
+}

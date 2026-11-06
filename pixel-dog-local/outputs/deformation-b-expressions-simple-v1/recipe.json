@@ -1,0 +1,353 @@
+{
+  "states": [
+    [
+      "neutral",
+      "기본"
+    ],
+    [
+      "half",
+      "반쯤 감기"
+    ],
+    [
+      "closed",
+      "눈 감기"
+    ],
+    [
+      "open",
+      "입 벌림"
+    ],
+    [
+      "tongue",
+      "혀 내밀기"
+    ],
+    [
+      "lick",
+      "코 핥기"
+    ]
+  ],
+  "head_scale": 1.7,
+  "primary_camera": 38,
+  "side_camera": 90,
+  "comparison_camera": 38,
+  "comparison_degrees": [
+    4,
+    6,
+    8
+  ],
+  "mouth_style": {
+    "golden": [
+      0.22,
+      1.0
+    ],
+    "whippet": [
+      0.13,
+      0.58
+    ],
+    "dachshund": [
+      0.2,
+      0.85
+    ]
+  },
+  "pixels_per_unit": 5.30747793842136,
+  "side_pixels_per_unit": 4.037558730256422,
+  "evidence": {
+    "golden": {
+      "neutral": {},
+      "half": {},
+      "closed": {},
+      "open": {
+        "jaw_degrees": 6.0
+      },
+      "tongue": {
+        "jaw_degrees": 6.0,
+        "tongue": {
+          "root": [
+            -15.187484546694735,
+            -1.695200541217553,
+            4.850844202310793e-16
+          ],
+          "tip": [
+            -25.911486023810788,
+            -3.447408112279297,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -21.616287687747498,
+            -2.3708949790314815,
+            1.0063050463589587e-15
+          ],
+          "lip_center": [
+            -21.616287687747498,
+            -1.8154081122792975,
+            1.0063050463589587e-15
+          ],
+          "lip_half_thickness": 0.5554868667521838,
+          "outside_max_thickness": 1.734,
+          "contact_distance": null
+        }
+      },
+      "lick": {
+        "jaw_degrees": 4.0,
+        "tongue": {
+          "root": [
+            -15.261607201014028,
+            -1.2612834807047786,
+            4.850844202310793e-16
+          ],
+          "tip": [
+            -23.187565772818672,
+            8.07018352391552,
+            0.0
+          ],
+          "contact": [
+            -23.187565772818672,
+            8.07018352391552,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -21.71007548469809,
+            -1.712204309701645,
+            1.0063050463589587e-15
+          ],
+          "lip_center": [
+            -21.71007548469809,
+            -1.3411508303618154,
+            1.0063050463589587e-15
+          ],
+          "lip_half_thickness": 0.37105347933982974,
+          "outside_max_thickness": 1.3259999999999998,
+          "contact_distance": 0.0
+        }
+      }
+    },
+    "whippet": {
+      "neutral": {
+        "posterior_skull_trim": true
+      },
+      "half": {
+        "posterior_skull_trim": true
+      },
+      "closed": {
+        "posterior_skull_trim": true
+      },
+      "open": {
+        "jaw_degrees": 3.4799999999999995,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "source_jaw_axis": [
+          -3.91368721,
+          -1.424465650000002,
+          0.0
+        ],
+        "hinge_axis": [
+          [
+            -3.91368721,
+            5.364588049999997,
+            5.925
+          ],
+          [
+            -3.91368721,
+            5.364588049999997,
+            -5.925
+          ]
+        ]
+      },
+      "tongue": {
+        "jaw_degrees": 3.4799999999999995,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "source_jaw_axis": [
+          -3.91368721,
+          -1.424465650000002,
+          0.0
+        ],
+        "hinge_axis": [
+          [
+            -3.91368721,
+            5.364588049999997,
+            5.925
+          ],
+          [
+            -3.91368721,
+            5.364588049999997,
+            -5.925
+          ]
+        ],
+        "tongue": {
+          "root": [
+            -17.677480104309044,
+            -1.1676805672795905,
+            2.5148265436746284e-16
+          ],
+          "tip": [
+            -27.891533308022996,
+            -1.7654605905749987,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -23.299386325383715,
+            -0.8923091375339377,
+            2.536457527899173e-16
+          ],
+          "lip_center": [
+            -23.299386325383715,
+            -0.5654605905749989,
+            2.536457527899173e-16
+          ],
+          "lip_half_thickness": 0.32684854695893883,
+          "outside_max_thickness": 1.2750000000000001,
+          "contact_distance": null
+        }
+      },
+      "lick": {
+        "jaw_degrees": 2.32,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "source_jaw_axis": [
+          -3.91368721,
+          -1.424465650000002,
+          0.0
+        ],
+        "hinge_axis": [
+          [
+            -3.91368721,
+            5.364588049999997,
+            5.925
+          ],
+          [
+            -3.91368721,
+            5.364588049999997,
+            -5.925
+          ]
+        ],
+        "tongue": {
+          "root": [
+            -17.80690145367846,
+            -0.887701618991504,
+            2.5148265436746284e-16
+          ],
+          "tip": [
+            -25.217483871568433,
+            7.390542535464361,
+            0.0
+          ],
+          "contact": [
+            -25.217483871568433,
+            7.390542535464361,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -23.42208078418926,
+            -0.49857430167423994,
+            2.536457527899173e-16
+          ],
+          "lip_center": [
+            -23.42208078418926,
+            -0.27964897016643236,
+            2.536457527899173e-16
+          ],
+          "lip_half_thickness": 0.21892533150780757,
+          "outside_max_thickness": 0.9750000000000001,
+          "contact_distance": 0.0
+        }
+      }
+    },
+    "dachshund": {
+      "neutral": {},
+      "half": {},
+      "closed": {},
+      "open": {
+        "jaw_degrees": 5.1
+      },
+      "tongue": {
+        "jaw_degrees": 5.1,
+        "tongue": {
+          "root": [
+            -11.590490809694744,
+            1.7525607178862286,
+            9.424347231279782e-16
+          ],
+          "tip": [
+            -23.65588418723368,
+            0.22501254539103788,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -19.00003030091076,
+            1.091276935470951,
+            -2.6872653200540193e-16
+          ],
+          "lip_center": [
+            -19.00003030091076,
+            1.553012545391038,
+            -2.6872653200540193e-16
+          ],
+          "lip_half_thickness": 0.4617356099200869,
+          "outside_max_thickness": 1.4110000000000003,
+          "contact_distance": null
+        }
+      },
+      "lick": {
+        "jaw_degrees": 3.4,
+        "tongue": {
+          "root": [
+            -11.563250452581743,
+            2.0828681820997716,
+            9.424347231279782e-16
+          ],
+          "tip": [
+            -20.963351053013433,
+            9.907330288378994,
+            0.0
+          ],
+          "contact": [
+            -20.963351053013433,
+            9.907330288378994,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -18.989146516069333,
+            1.6416886641542217,
+            -2.6872653200540193e-16
+          ],
+          "lip_center": [
+            -18.989146516069333,
+            1.9493089900429927,
+            -2.6872653200540193e-16
+          ],
+          "lip_half_thickness": 0.30762032588877114,
+          "outside_max_thickness": 1.0790000000000002,
+          "contact_distance": 0.0
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "deformation-b-expressions-simple-v1\\preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+    "deformation-b-round-eyes-v1\\preview.py": "29ccbb7a79694540ceabe72311d5b86062177c6396477fe64cb2eb388cb62e24",
+    "deformation-b-heads-v1\\preview.py": "0041692ee9f25fc1e4dd179f5952efe8dc12ec95330f843a0448b1eca0d025c2",
+    "deformation-b-face-v3\\preview.py": "9da720d13f6472359bd2882bbc390a1f70c7b9e4e28206db3d9eb88f489db11e",
+    "deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+    "deformation-rig-b-v1\\B.json": "fabc3715d0f6af6ac38d1fbd8a9dcc56975d3757cb73b1bf35379d372b9a306e"
+  },
+  "image_sha256": {
+    "expressions.png": "49270e383a1f9b3f1f6ed62f2a7f2f0adddabe29ea487e1812fad0cc82eb23d2",
+    "expressions-side.png": "b77885d47813b777cee865eeaebd060b468003fa9260668368765e58a250ee26",
+    "mouth-options.png": "41a2fef13fc96113d5d951ea9e5f52b5a802baf09efe86f7442d8f179e3d833b"
+  },
+  "classification": "authored static action examples; not measured anatomy or affect inference",
+  "status": "USER_REVIEW_PENDING"
+}

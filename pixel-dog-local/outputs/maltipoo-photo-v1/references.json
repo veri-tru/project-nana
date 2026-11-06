@@ -1,0 +1,24 @@
+{
+  "selection": "User explicitly chose first photo basic form + second mouth/tongue reference",
+  "references": [
+    {
+      "path": "C:\\Users\\verib\\personal project\\nana\\.codex-remote-attachments\\01a1a744-36e5-7233-ac4f-68fc9cfbfd7a\\3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80\\1-55765.jpg",
+      "sha256": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+      "role": "Selected basic exterior: trimmed crown, rounded cheek/muzzle/chin coat, ears, short visible neck",
+      "source": "User supplied",
+      "measured_anatomy": false
+    },
+    {
+      "path": "C:\\Users\\verib\\personal project\\nana\\.codex-remote-attachments\\01a1a744-36e5-7233-ac4f-68fc9cfbfd7a\\3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80\\2-55764.jpg",
+      "sha256": "944a3a905be153f8c3c21208a1e43b2c4320f664a45b851501a0d759c2b40629",
+      "role": "Mouth opening and short wide tongue support only; long coat is not the neutral silhouette",
+      "source": "User supplied",
+      "measured_anatomy": false
+    }
+  ],
+  "observations": [
+    "Coat silhouette and anatomical skin/bone must not be conflated",
+    "Two photographs are not assumed to show the same individual",
+    "B stylization and common nose family remain; other three dogs unchanged"
+  ]
+}

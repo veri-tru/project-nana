@@ -1,0 +1,34 @@
+{
+  "source_guard_current": {
+    "../head-skeleton-volume-v2/build.py": true,
+    "../head-skeleton-volume-v2/profiles.json": true,
+    "../head-skeleton-volume-v2/geometry.pkl": true,
+    "../head-skeleton-volume-v2/raster.py": true,
+    "../head-skeleton-volume-v2/review-status.json": true,
+    "../skull-based-heads-v1/build.py": true,
+    "../skull-based-heads-v2/build.py": true,
+    "../skull-based-heads-v2/geometry.pkl": true,
+    "../golden-adult-head-v1/model-B.pkl": true,
+    "../golden-b2-canonical-20261106/comparison.png": true,
+    "../golden-b2-canonical-20261106/selection.json": true
+  },
+  "canonical_reviewed_inputs": {
+    "head-skeleton-volume-v2": {
+      "build.py": true,
+      "profiles.json": true,
+      "raster.py": true
+    },
+    "skull-based-heads-v2": {
+      "build.py": true,
+      "geometry.pkl": true,
+      "parameters.json": true
+    }
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.2.0",
+    "numba": "0.68.0"
+  }
+}

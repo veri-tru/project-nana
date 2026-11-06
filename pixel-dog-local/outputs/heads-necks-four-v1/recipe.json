@@ -1,0 +1,552 @@
+{
+  "breeds": [
+    "golden",
+    "whippet",
+    "dachshund",
+    "maltipoo"
+  ],
+  "head_scale": 1.7,
+  "neck": {
+    "golden": {
+      "bottom": -8.0,
+      "lean": 1.6,
+      "width": 0.95
+    },
+    "whippet": {
+      "bottom": -2.0,
+      "lean": 1.5,
+      "width": 0.72
+    },
+    "dachshund": {
+      "bottom": -7.0,
+      "lean": 1.3,
+      "width": 0.9
+    },
+    "maltipoo": {
+      "bottom": -5.5,
+      "lean": 2.0,
+      "width": 0.9
+    }
+  },
+  "nose_scale": {
+    "golden": 0.78,
+    "whippet": 0.62,
+    "dachshund": 0.72,
+    "maltipoo": 0.58
+  },
+  "evidence": {
+    "golden": {
+      "neutral": {
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      },
+      "half": {
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      },
+      "closed": {
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      },
+      "open": {
+        "jaw_degrees": 6.0,
+        "jaw_axis": [
+          -2.795000000000001,
+          0.6450000000000031,
+          0.0
+        ],
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      },
+      "tongue": {
+        "jaw_degrees": 6.0,
+        "jaw_axis": [
+          -2.795000000000001,
+          0.6450000000000031,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -14.574398838094178,
+            -1.6307626366627748,
+            2.1965822377240363e-16
+          ],
+          "tip": [
+            -25.911486023810788,
+            -3.354617529720418,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -20.390116270546375,
+            -2.2420191699219267,
+            6.29062554292467e-16
+          ],
+          "lip_center": [
+            -20.390116270546375,
+            -1.7226175297204178,
+            6.29062554292467e-16
+          ],
+          "lip_half_thickness": 0.5194016402015088,
+          "outside_max_thickness": 1.734,
+          "contact_distance": null
+        },
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      },
+      "lick": {
+        "jaw_degrees": 4.0,
+        "jaw_axis": [
+          -2.795000000000001,
+          0.6450000000000031,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -14.646646117224602,
+            -1.218281212646057,
+            2.1965822377240363e-16
+          ],
+          "tip": [
+            -23.220663779093474,
+            7.58659407999559,
+            0.0
+          ],
+          "contact": [
+            -23.220663779093474,
+            7.58659407999559,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -20.480153317119232,
+            -1.6261997735842033,
+            6.29062554292467e-16
+          ],
+          "lip_center": [
+            -20.480153317119232,
+            -1.279227564357257,
+            6.29062554292467e-16
+          ],
+          "lip_half_thickness": 0.3469722092269462,
+          "outside_max_thickness": 1.3259999999999998,
+          "contact_distance": 0.0
+        },
+        "neck": {
+          "start_x": -1.9950000000000008,
+          "bottom_y": -8.0,
+          "modified_vertices": 20160,
+          "shared_surface": true
+        }
+      }
+    },
+    "whippet": {
+      "neutral": {
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      },
+      "half": {
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      },
+      "closed": {
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      },
+      "open": {
+        "jaw_degrees": 3.4799999999999995,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      },
+      "tongue": {
+        "jaw_degrees": 3.4799999999999995,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -17.04249770203415,
+            -1.1423115760084215,
+            6.085124138266639e-16
+          ],
+          "tip": [
+            -27.891533308022996,
+            -1.8269769567969658,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -22.02430241058087,
+            -0.9257500786717202,
+            2.478419266742384e-16
+          ],
+          "lip_center": [
+            -22.02430241058087,
+            -0.6269769567969657,
+            2.478419266742384e-16
+          ],
+          "lip_half_thickness": 0.29877312187475447,
+          "outside_max_thickness": 1.2750000000000001,
+          "contact_distance": null
+        },
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      },
+      "lick": {
+        "jaw_degrees": 2.32,
+        "jaw_axis": [
+          -3.91368721,
+          5.364588049999997,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -17.171535603516396,
+            -0.8751926875924096,
+            6.085124138266639e-16
+          ],
+          "tip": [
+            -25.175015557019947,
+            6.55802696117779,
+            0.0
+          ],
+          "contact": [
+            -25.175015557019947,
+            6.55802696117779,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -22.147935177574304,
+            -0.5578217444624184,
+            2.478419266742384e-16
+          ],
+          "lip_center": [
+            -22.147935177574304,
+            -0.3575728602833144,
+            2.478419266742384e-16
+          ],
+          "lip_half_thickness": 0.20024888417910397,
+          "outside_max_thickness": 0.9750000000000001,
+          "contact_distance": 0.0
+        },
+        "neck": {
+          "start_x": -3.11368721,
+          "bottom_y": -2.0,
+          "modified_vertices": 21600,
+          "shared_surface": true
+        }
+      }
+    },
+    "dachshund": {
+      "neutral": {
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      },
+      "half": {
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      },
+      "closed": {
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      },
+      "open": {
+        "jaw_degrees": 5.1,
+        "jaw_axis": [
+          -0.44520285000000026,
+          0.9996891600000026,
+          0.0
+        ],
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      },
+      "tongue": {
+        "jaw_degrees": 5.1,
+        "jaw_axis": [
+          -0.44520285000000026,
+          0.9996891600000026,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -10.857156693127743,
+            1.8180090441894345,
+            1.1416496976030096e-15
+          ],
+          "tip": [
+            -23.65588418723368,
+            0.31925813526765423,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -17.53336206777676,
+            1.2221735880773628,
+            3.3505177339953717e-16
+          ],
+          "lip_center": [
+            -17.53336206777676,
+            1.6472581352676543,
+            3.3505177339953717e-16
+          ],
+          "lip_half_thickness": 0.4250845471902916,
+          "outside_max_thickness": 1.4110000000000003,
+          "contact_distance": null
+        },
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      },
+      "lick": {
+        "jaw_degrees": 3.4,
+        "jaw_axis": [
+          -0.44520285000000026,
+          0.9996891600000026,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -10.828297499582188,
+            2.1265324330864366,
+            1.1416496976030096e-15
+          ],
+          "tip": [
+            -20.953010787939668,
+            9.293324434805807,
+            0.0
+          ],
+          "contact": [
+            -20.953010787939668,
+            9.293324434805807,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -17.519240610070224,
+            1.7290171661275506,
+            3.3505177339953717e-16
+          ],
+          "lip_center": [
+            -17.519240610070224,
+            2.0121855114637897,
+            3.3505177339953717e-16
+          ],
+          "lip_half_thickness": 0.28316834533623914,
+          "outside_max_thickness": 1.0790000000000002,
+          "contact_distance": 0.0
+        },
+        "neck": {
+          "start_x": 0.3547971499999998,
+          "bottom_y": -7.0,
+          "modified_vertices": 18864,
+          "shared_surface": true
+        }
+      }
+    },
+    "maltipoo": {
+      "neutral": {
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      },
+      "half": {
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      },
+      "closed": {
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      },
+      "open": {
+        "jaw_degrees": 6.0,
+        "jaw_axis": [
+          -0.8,
+          3.5,
+          0.0
+        ],
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      },
+      "tongue": {
+        "jaw_degrees": 6.0,
+        "jaw_axis": [
+          -0.8,
+          3.5,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -7.087190509919196,
+            3.1809853086358366,
+            9.497036073538782e-17
+          ],
+          "tip": [
+            -12.533592268821774,
+            1.6358050718525226,
+            0.0
+          ],
+          "contact": null,
+          "lip_floor_contact": [
+            -9.858022729345358,
+            2.889759107163553,
+            1.6450853098315422e-16
+          ],
+          "lip_center": [
+            -9.858022729345358,
+            3.1558050718525226,
+            1.6450853098315422e-16
+          ],
+          "lip_half_thickness": 0.26604596468896974,
+          "outside_max_thickness": 1.6150000000000002,
+          "contact_distance": null
+        },
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      },
+      "lick": {
+        "jaw_degrees": 4.0,
+        "jaw_axis": [
+          -0.8,
+          3.5,
+          0.0
+        ],
+        "tongue": {
+          "root": [
+            -7.094493975504068,
+            3.400599428235248,
+            9.497036073538782e-17
+          ],
+          "tip": [
+            -9.835698498281152,
+            6.452189560611926,
+            0.0
+          ],
+          "contact": [
+            -9.835698498281152,
+            6.452189560611926,
+            0.0
+          ],
+          "lip_floor_contact": [
+            -9.873801926665502,
+            3.206251283801279,
+            1.6450853098315422e-16
+          ],
+          "lip_center": [
+            -9.873801926665502,
+            3.383679439031685,
+            1.6450853098315422e-16
+          ],
+          "lip_half_thickness": 0.17742815523040634,
+          "outside_max_thickness": 1.235,
+          "contact_distance": 0.0
+        },
+        "neck": {
+          "start_x": 0.0,
+          "bottom_y": -5.5,
+          "modified_vertices": 22176,
+          "shared_surface": true
+        }
+      }
+    }
+  },
+  "pixels_per_unit": {
+    "heads-necks.png": 4.6677402676177175,
+    "mouth-neck-check.png": 5.8777836644418056
+  },
+  "input_sha256": {
+    "heads-necks-four-v1\\preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+    "heads-necks-four-v1\\head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "deformation-b-expressions-simple-v1\\preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+    "deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+    "heads-necks-four-v1\\maltipoo-authored.json": "ba23ca298436fc44c6c92e285b782b0b3283aa00044057bef6df7920f3811a63"
+  },
+  "image_sha256": {
+    "heads-necks.png": "9022d04b3754fc63ef2ca8e7684d8765ba76f5bd091ffa465d5f962c257d9461",
+    "mouth-neck-check.png": "0aaa96d494a736263cd856e8070c0534873a669bde22c3fedf1111eb80e1b788"
+  },
+  "status": "USER_REVIEW_PENDING"
+}

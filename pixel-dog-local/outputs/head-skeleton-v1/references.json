@@ -1,0 +1,48 @@
+{
+  "selection": "Skeleton first per latest user request. Photo1 gross external proportions only; no skull measurement.",
+  "references": [
+    {
+      "path": "C:\\Users\\verib\\personal project\\nana\\.codex-remote-attachments\\01a1a744-36e5-7233-ac4f-68fc9cfbfd7a\\3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80\\1-55765.jpg",
+      "sha256": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+      "role": "Gross external proportions only; groomed coat is not measured skull geometry",
+      "source": "User supplied",
+      "measured_anatomy": false
+    }
+  ],
+  "observations": [
+    "Coat silhouette and bone structure must not be conflated",
+    "All coordinates are authored design values, not measurements",
+    "Current correction shortens Golden, Whippet, Dachshund muzzle length; Maltipoo is unchanged",
+    "Scope remains structural guide; SK01-SK03 anatomical inadequacy remains unresolved"
+  ],
+  "sources": [
+    {
+      "url": "https://www.imaios.com/en/vet-anatomy/dog/dog-head",
+      "access": "full public descriptive page; not interactive CT dataset"
+    },
+    {
+      "url": "https://www.imaios.com/en/vet-anatomy/anatomical-structures/frontal-bone-11073890488",
+      "access": "public anatomy definition"
+    },
+    {
+      "url": "https://www.bsavalibrary.com/content/chapter/10.22233/9781910443187.chap8",
+      "access": "search excerpt only; body 403"
+    },
+    {
+      "url": "https://elsevier-elibrary.com/contents/fullcontent/58986/epubcontent_v2/OEBPS/B9781416066071000116.htm",
+      "access": "search excerpt only; body inaccessible"
+    },
+    {
+      "url": "https://www.ukcdogs.com/whippet",
+      "access": "public standard"
+    },
+    {
+      "url": "https://www.ukcdogs.com/dachshund",
+      "access": "public standard"
+    },
+    {
+      "url": "https://grca.org/find-a-golden/more-topics-before-you-buy/akc-breed-standard/",
+      "access": "public standard"
+    }
+  ]
+}

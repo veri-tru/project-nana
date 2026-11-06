@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "comparison.png": "1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3"
+  },
+  "inputs": {
+    "generation.json": "47ed2c2f72b7fc7064809d8051904b8f0d2fcf4c2d7fb70993d1c7da126d32d4",
+    "source.json": "ef4e8f966deeef38a82cd5cd7b97c7b0d11f63ab5cdb3683da111c61d76b00d9",
+    "../../references/styles/breed-head-b2/v1/reference-sheet.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+    "../../references/styles/breed-head-b2/v1/manifest.json": "b4b663e1bdc45968d34e50a7e5035f6b826e9400e165f29942e4e11d25938c86",
+    "../golden-b2-canonical-20261106/comparison.png": "7f3a47af0bcb09237bf2881a1bd5221e8a19eb1c4fa2669e584db5e41575d31f",
+    "../golden-b2-canonical-20261106/selection.json": "410778e309cca85c610cf153588cfd4fa352d2cbf77abcf30b328263e81c5cc4",
+    "../jack-russell-head-v1/exterior-comparison.png": "fdb3b2848b4307bdd58133c61a2e8c9eb738a1abef681f9126ece6b553ca7f78",
+    "../jack-russell-head-v1/skeleton-comparison.png": "64a3f7614649db565aae1fef250b71110d4f51368ecb01320af6dd64b177b475",
+    "../jack-russell-head-v1/model-B.pkl": "41f66238527a282df6d395924e4033c39bd35ae7788d3967370a45857b600dd7",
+    "../jack-russell-head-v1/parameters-B.json": "a4914dfbc09881ef12ade90417594ec979f4ba85fb9411acb5c05347748bc102",
+    "../jack-russell-head-v1/review-status.json": "ae727650ed59db9320aa48a03a1e92410f8556987eb384e4efa0de742310568f",
+    "../../private-data/jack-russell-reference-v1/fci-cover.png": "7ab90054ac93ec2f7505ca7c15aab1e5bb3b93260270caab792a56a009c5b171",
+    "../../private-data/jack-russell-reference-v1/fci-345.pdf": "189825f27731344a5c728538786c9184a3b6db7124521b91b9f2eda9f1d8dd01"
+  }
+}

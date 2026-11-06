@@ -1,0 +1,47 @@
+{
+  "variant": "C",
+  "strength": 1.25,
+  "profile": {
+    "dorsal": [
+      [
+        -16.0,
+        31.5
+      ],
+      [
+        -34.0,
+        27.375
+      ],
+      [
+        -46.0,
+        17.625
+      ],
+      [
+        -60.28,
+        16.25
+      ],
+      [
+        -73.32,
+        13.25
+      ],
+      [
+        -81.32,
+        10.0
+      ]
+    ],
+    "widths": [
+      24.75,
+      23.75,
+      18.75,
+      15.75,
+      11.0
+    ],
+    "hinge_x": -16
+  },
+  "muzzle_envelope_half_width": 16.75,
+  "muzzle_envelope_height": 12.3,
+  "jaw_body_multiplier": 1.15,
+  "nose_template_scale": 5.4,
+  "eye_radius": 3.7,
+  "surface_relaxation_variant": "B",
+  "authored_not_measured": true
+}

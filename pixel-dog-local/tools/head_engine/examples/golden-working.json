@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "size_class": "large",
+  "breed": "golden",
+  "individual": {
+    "id": "golden-working",
+    "overrides": {},
+    "evidence": {}
+  },
+  "display": {
+    "mode": "normalized",
+    "scene_scale": 3.2
+  }
+}

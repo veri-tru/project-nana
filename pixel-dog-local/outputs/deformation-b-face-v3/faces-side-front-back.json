@@ -1,0 +1,28 @@
+{
+  "cameras": [
+    {
+      "label": "측면",
+      "azimuth_degrees": 90,
+      "elevation_degrees": 0
+    },
+    {
+      "label": "정면",
+      "azimuth_degrees": 0,
+      "elevation_degrees": 0
+    },
+    {
+      "label": "뒷면",
+      "azimuth_degrees": 180,
+      "elevation_degrees": 0
+    }
+  ],
+  "common_pixels_per_unit": 9.542279154686854,
+  "view_specific_geometry_changes": false,
+  "model_revision": "ear_corner_fillet_v6",
+  "inputs_sha256": {
+    "preview.py": "ac2453b1ef3df0cf84e924520b1191726598909864bb0caa119866150278bae1",
+    "B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a"
+  },
+  "image_sha256": "3be75a094fe6b6944a03a0d0ae0eb876ee06c1883a72ff6327c27db2cc28473a"
+}

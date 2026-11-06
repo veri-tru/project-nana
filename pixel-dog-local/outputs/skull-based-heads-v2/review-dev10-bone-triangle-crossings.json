@@ -1,0 +1,56 @@
+{
+  "frozen_cache_path": "iterations/10/geometry.pkl",
+  "cache_sha256": "643a4b1b7444ca71ff64cc4c7dac5e9babb51c4d056a5cd74bc6bed70b7c8931",
+  "scope": "Skin/bone triangle pair crossings after projected AABB broadphase; edge/triangle and coplanar checks. Floating-tolerance diagnostic, not a formal exact-arithmetic proof.",
+  "breeds": {
+    "golden": {
+      "upper": {
+        "aabb_candidates": 69,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      },
+      "jaw": {
+        "aabb_candidates": 43,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      }
+    },
+    "whippet": {
+      "upper": {
+        "aabb_candidates": 14,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      },
+      "jaw": {
+        "aabb_candidates": 44,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      }
+    },
+    "dachshund": {
+      "upper": {
+        "aabb_candidates": 12,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      },
+      "jaw": {
+        "aabb_candidates": 37,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      }
+    },
+    "maltipoo": {
+      "upper": {
+        "aabb_candidates": 13,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      },
+      "jaw": {
+        "aabb_candidates": 48,
+        "intersecting_pairs": 0,
+        "first_pairs": []
+      }
+    }
+  },
+  "frozen_cache_stable": true
+}

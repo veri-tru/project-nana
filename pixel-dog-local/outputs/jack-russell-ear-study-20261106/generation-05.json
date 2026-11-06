@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "LOCAL IMAGE EDIT. Keep this whole board unchanged, except the lower tan ear of row2 TOP (middle row, rightmost dog, lower ear).\nDo NOT change that ear's outer boundary or its size, and do NOT move its attachment. Keep its existing compact outline. Change ONLY the shading/overlap INSIDE that tan ear from ONE FLAT LEAF into TWO CONNECTED PLANES:\n1) Inside the ear's UPPER-RIGHT quadrant, near the back of the skull, draw a short broad slightly darker TAN BASE PLANE. This plane is attached inward/up/right to the head. It is entirely INSIDE the current ear outline. It must NOT protrude downward.\n2) The LEFT two-thirds of the ear is a lighter TAN FOLDED TIP pointing to the LEFT (nose direction), lying over that base.\n3) Draw a short but clearly visible BROWN angular crease line between the two planes, from the ear's upper middle edge diagonally down/right to its lower-right edge, plus a small shadow under the folded tip. This crease is the visible fold. Match the clearly bent two-plane structure of the UPPER ear of this SAME row2 TOP dog, reflected vertically. Distinct tan base plus lighter cap, NOT one uniform flat patch.\nNo new pixels outside the old ear outline. No column, no dangling stem, no extra ear, no more length. The requested change is an INNER FOLD LINE AND TWO TAN PLANES ONLY. All other face pixels, other 14 dogs, upper ear, labels and background exactly retained. Same B2 colored-pixel line weight, not a black hole.",
+  "referenced_image_paths": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/jack-russell-ear-study-20261106/iterations/04/comparison.png"
+  ],
+  "transparent_background": false,
+  "reason": "Visual reviewer confirmed revision04 unresolved; preserve silhouette and articulate base/cap as two internal planes."
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "LOCAL CORRECTION ONLY. Edit this exact 3x5 Jack Russell ear comparison board. Keep all pixels unchanged except the LOWER ear in the RIGHTMOST TOP cell of MIDDLE ROW 2 (approx image x=1390..1473,y=585..650 at1536x1024).\nThat single lower ear currently incorrectly stays as a broad low flat hanging triangle from baseline row1. It must be the matching counterpart of the TOP/UPPER ear IN THE SAME CELL, since row2 represents TWO SEMI-ERECT EARS: an upright tan base with a short folded forward tip. Match that upper ear's raised tan stem and small folded cap, mirrored across the dog's central longitudinal axis (the head points left). The hinge and free tip on BOTH ears point toward the nose at LEFT. Reduce the current broad flat flap and give the lower ear a supported tapered base with a clearly articulated short forward-folded cap and modest underside tan shadow. It is the same physical semi-erect configuration as both row2 FRONT and BACK ears. Do not add a third ear. Do not change left/right markings or skull shape.\nALL OTHER CELLS, the upper ear in this cell, face, eyes, nose, muzzle, neck, color/shading/pixel steps, background, labels, separators must stay exactly as they are. No global redraw, smoothness or palette changes. Same B2 soft pixel style. Only correct that one bottom ear in row2 top-view cell.",
+  "referenced_image_paths": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/jack-russell-ear-study-20261106/iterations/02/comparison.png"
+  ],
+  "transparent_background": false,
+  "reason": "Independent reviews identified row2 TOP lower ear retained folded baseline configuration."
+}

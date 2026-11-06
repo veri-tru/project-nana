@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "heads-A.png",
+      "sha256": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5"
+    },
+    {
+      "path": "heads-B.png",
+      "sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440"
+    },
+    {
+      "path": "heads-C.png",
+      "sha256": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+    }
+  ],
+  "inputs": {
+    "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+    "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+    "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+    "../deformation-b-round-eyes-v1/round-eyes-before-after.png": "fc7f9a5626f54bc1e9e9165bc1f6187addaace903e7a8fdb7588c6adbd8fbd9c",
+    "../head-skeleton-v1/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.1.nbc": "df33acdfd671eb8eb6e6e3a3cfa5eec9a7a9e3e900720868449e60ed3d13a33a",
+    "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.nbi": "963438c86a99e955db7538d04dc04a537669ab2ee828a4a99f3a406b92dd44a9",
+    "../head-skeleton-volume-v2/build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+    "../head-skeleton-volume-v2/geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+    "../head-skeleton-volume-v2/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "../head-skeleton-volume-v2/raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+    "../head-skeleton-volume-v2/references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+    "build.py": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+    "geometry.pkl": "f332953619225f439f62ba955f7d01ca9c73ac24c374f1ae06f7069e6b637b89",
+    "parameters.json": "8391d478b00d22d84da5b85a68d041d3416627f3eff1d5f2a63ce712ad5890ca",
+    "references.json": "00dac371c404cccf967e8c931f356746bfe740754257016df5bc2888ade14cdd",
+    "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+    "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+    "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+    "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082",
+    "../head-skeleton-volume-v2/review-status.json": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e"
+  },
+  "reviews": {
+    "visual": {
+      "status": "PASS",
+      "reviewer": "skull_skin_visual",
+      "artifacts": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      },
+      "coverage_complete": true,
+      "unresolved": {
+        "V09": "MINOR",
+        "V11": "MINOR"
+      },
+      "report": "visual-review.md",
+      "report_sha256": "d700208c617e86966a2daa719ff7e68635f1282a40970f78613b27ad1d2bd541",
+      "coverage": [
+        "heads-A.png: four breeds x side/oblique/front/rear/top",
+        "heads-B.png: four breeds x side/oblique/front/rear/top",
+        "heads-C.png: four breeds x side/oblique/front/rear/top",
+        "All 60 cells opened and compared with actual photos and B round-eye style; failure regression and declared volume comparison"
+      ]
+    },
+    "technical": {
+      "status": "PASS",
+      "reviewer": "/root/maltipoo_photo_technical",
+      "artifacts": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      },
+      "inputs": {
+        "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+        "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+        "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+        "../deformation-b-round-eyes-v1/round-eyes-before-after.png": "fc7f9a5626f54bc1e9e9165bc1f6187addaace903e7a8fdb7588c6adbd8fbd9c",
+        "../head-skeleton-v1/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+        "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.1.nbc": "df33acdfd671eb8eb6e6e3a3cfa5eec9a7a9e3e900720868449e60ed3d13a33a",
+        "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.nbi": "963438c86a99e955db7538d04dc04a537669ab2ee828a4a99f3a406b92dd44a9",
+        "../head-skeleton-volume-v2/build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+        "../head-skeleton-volume-v2/geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+        "../head-skeleton-volume-v2/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+        "../head-skeleton-volume-v2/raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+        "../head-skeleton-volume-v2/references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+        "build.py": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+        "geometry.pkl": "f332953619225f439f62ba955f7d01ca9c73ac24c374f1ae06f7069e6b637b89",
+        "parameters.json": "8391d478b00d22d84da5b85a68d041d3416627f3eff1d5f2a63ce712ad5890ca",
+        "references.json": "00dac371c404cccf967e8c931f356746bfe740754257016df5bc2888ade14cdd",
+        "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+        "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+        "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+        "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+        "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+        "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082",
+        "../head-skeleton-volume-v2/review-status.json": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e"
+      },
+      "coverage_complete": true,
+      "unresolved": {},
+      "report": "technical-review.md",
+      "report_sha256": "ac27a600364d015ffdb4aa9b20a34fef786e88944eae55c4ca5f2176bbc77498",
+      "coverage": [
+        "heads-A.png: four breeds x side/oblique/front/rear/top",
+        "heads-B.png: four breeds x side/oblique/front/rear/top",
+        "heads-C.png: four breeds x side/oblique/front/rear/top",
+        "12 saved models and 36 closed surfaces; sampled bone containment; eye/nose/ear attachment",
+        "Common nasal template; declared variant isolation; actual skeletal mesh input dependency",
+        "Full independent geometry/metadata/PNG reproduction and transitive input provenance; see report for bounded reuse"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "USER_PUFFED_FACES",
+      "severity": "BLOCKER",
+      "resolved": true,
+      "detail": "User rejected uniformly swollen bun-like faces; global ellipse envelope inflated all breeds.",
+      "resolution_report": "visual-review.md",
+      "resolved_against": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      }
+    },
+    {
+      "id": "USER_CONICAL_MUZZLES",
+      "severity": "BLOCKER",
+      "resolved": true,
+      "detail": "All muzzle sections converge to one nasal template; upper lip/muzzle pad have no independent anterior support.",
+      "resolution_report": "visual-review.md",
+      "resolved_against": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      }
+    },
+    {
+      "id": "V09",
+      "severity": "MINOR",
+      "resolved": false,
+      "detail": "Nonblocking finding retained in visual-review.md",
+      "report": "visual-review.md"
+    },
+    {
+      "id": "V11",
+      "severity": "MINOR",
+      "resolved": false,
+      "detail": "Nonblocking finding retained in visual-review.md",
+      "report": "visual-review.md"
+    },
+    {
+      "id": "USER_MUZZLE_LUMP",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "detail": "Explicit user rejection supersedes previous MINOR interpretation of under-nose cap."
+    },
+    {
+      "id": "USER_EARS_SWEPT_BACK",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "detail": "All ears appear swept backwards; adjust relaxed breed-specific hanging direction."
+    }
+  ],
+  "user_decision": "REJECTED",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "heads-B.png": "d8c5e9c5a9978dca01cb096146408dea469f9f2a93ff783a8c016d300eedee32"
+      },
+      "reason": "All faces became bun-like."
+    },
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "iterations/07/heads-B.png": "32e5208d51697d5d0aa2084c57053ab4c475c2506d02e5f5a578e60df9cb06b5"
+      },
+      "reason": "All muzzles converge like unnatural cones."
+    },
+    {
+      "event": "REVISION_UNDER_REVIEW",
+      "artifacts": {
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440"
+      },
+      "reason": "Pass11 revision, prior rejection events retained. No delivery authorization inferred."
+    },
+    {
+      "event": "VISUAL_REVIEW_COMPLETE",
+      "artifacts": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      },
+      "reason": "60 cells PASS after actual photo and multiview review; technical final pending. Initial failures and 11 reassessment remain archived."
+    },
+    {
+      "event": "INDEPENDENT_REVIEWS_COMPLETE",
+      "artifacts": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      },
+      "reason": "Technical and visual PASS on the same three candidate files; prior user rejection and initial review failures remain archived. User selection is pending."
+    },
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "heads-A.png": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+        "heads-B.png": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+        "heads-C.png": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0"
+      },
+      "reason": "Under-nose volume reads as a separate small round lump; all ears appear swept back. Explicit request for geometric integration and relaxed ear direction."
+    }
+  ]
+}

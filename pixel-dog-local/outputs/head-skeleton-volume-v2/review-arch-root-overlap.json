@@ -1,0 +1,207 @@
+{
+  "source_sha256": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+  "source_unchanged": true,
+  "field_only": true,
+  "breeds": {
+    "golden": {
+      "R": {
+        "root": [
+          -41.0,
+          11.0,
+          -12.299999999999999
+        ],
+        "base_at_root": -0.36822437974722816,
+        "overlap_samples_both_lt_minus01": 4818,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 38.54400000000001,
+        "overlap_bbox": [
+          [
+            -43.6,
+            7.8,
+            -13.499999999999998
+          ],
+          [
+            -39.2,
+            14.4,
+            -10.299999999999999
+          ]
+        ],
+        "min_base_in_arch": -1.684972408824984
+      },
+      "L": {
+        "root": [
+          -41.0,
+          11.0,
+          12.299999999999999
+        ],
+        "base_at_root": -0.36822437974722816,
+        "overlap_samples_both_lt_minus01": 4818,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 38.54400000000001,
+        "overlap_bbox": [
+          [
+            -43.6,
+            7.8,
+            10.299999999999999
+          ],
+          [
+            -39.2,
+            14.4,
+            13.499999999999998
+          ]
+        ],
+        "min_base_in_arch": -1.684972408824984
+      }
+    },
+    "whippet": {
+      "R": {
+        "root": [
+          -39.0,
+          11.0,
+          -8.2
+        ],
+        "base_at_root": -0.4732149692744283,
+        "overlap_samples_both_lt_minus01": 5692,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 45.53600000000001,
+        "overlap_bbox": [
+          [
+            -41.6,
+            7.8,
+            -9.0
+          ],
+          [
+            -36.6,
+            14.4,
+            -6.199999999999999
+          ]
+        ],
+        "min_base_in_arch": -2.1633653669858104
+      },
+      "L": {
+        "root": [
+          -39.0,
+          11.0,
+          8.2
+        ],
+        "base_at_root": -0.4732149692744283,
+        "overlap_samples_both_lt_minus01": 5692,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 45.53600000000001,
+        "overlap_bbox": [
+          [
+            -41.6,
+            7.8,
+            6.199999999999999
+          ],
+          [
+            -36.6,
+            14.4,
+            9.0
+          ]
+        ],
+        "min_base_in_arch": -2.1633653669858104
+      }
+    },
+    "dachshund": {
+      "R": {
+        "root": [
+          -39.0,
+          11.0,
+          -10.25
+        ],
+        "base_at_root": 0.12181812759034175,
+        "overlap_samples_both_lt_minus01": 3757,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 30.056000000000008,
+        "overlap_bbox": [
+          [
+            -41.6,
+            7.8,
+            -10.85
+          ],
+          [
+            -37.2,
+            14.4,
+            -8.05
+          ]
+        ],
+        "min_base_in_arch": -1.6379647543469198
+      },
+      "L": {
+        "root": [
+          -39.0,
+          11.0,
+          10.25
+        ],
+        "base_at_root": 0.12181812759034175,
+        "overlap_samples_both_lt_minus01": 3757,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 30.056000000000008,
+        "overlap_bbox": [
+          [
+            -41.6,
+            7.8,
+            8.05
+          ],
+          [
+            -37.2,
+            14.4,
+            10.850000000000001
+          ]
+        ],
+        "min_base_in_arch": -1.6379647543469198
+      }
+    },
+    "maltipoo": {
+      "R": {
+        "root": [
+          -30.0,
+          11.0,
+          -12.299999999999999
+        ],
+        "base_at_root": -0.231875141441098,
+        "overlap_samples_both_lt_minus01": 3460,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 27.680000000000007,
+        "overlap_bbox": [
+          [
+            -32.6,
+            9.2,
+            -13.299999999999997
+          ],
+          [
+            -28.2,
+            13.8,
+            -10.299999999999999
+          ]
+        ],
+        "min_base_in_arch": -1.4725162904827536
+      },
+      "L": {
+        "root": [
+          -30.0,
+          11.0,
+          12.299999999999999
+        ],
+        "base_at_root": -0.231875141441098,
+        "overlap_samples_both_lt_minus01": 3460,
+        "sample_spacing": 0.2,
+        "overlap_volume_estimate": 27.680000000000007,
+        "overlap_bbox": [
+          [
+            -32.6,
+            9.2,
+            10.299999999999999
+          ],
+          [
+            -28.2,
+            13.8,
+            13.299999999999997
+          ]
+        ],
+        "min_base_in_arch": -1.4725162904827536
+      }
+    }
+  }
+}

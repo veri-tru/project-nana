@@ -311,15 +311,53 @@ def export(state,revision,directory,previous_state=None):
         shutil.rmtree(tmp,ignore_errors=True);raise
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--db',required=True)
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--db')
     sub=ap.add_subparsers(dest='cmd',required=True)
     s=sub.add_parser('migrate');s.add_argument('dog');s.add_argument('--from-authoring',type=int);s.add_argument('--expected',type=int,required=True)
     s=sub.add_parser('render');s.add_argument('dog');s.add_argument('--revision',type=int);s.add_argument('--out',required=True)
+    s=sub.add_parser('render-standing');s.add_argument('dog');s.add_argument('--out',required=True)
+    source=s.add_mutually_exclusive_group()
+    source.add_argument('--profile',help='explicit pose file (default: registered working baseline)')
+    source.add_argument('--pose',help='select a registered pose for the same dog')
+    s.add_argument('--stages',action='store_true',help='also export silhouette, flat colors, shading and visible part IDs')
+    s=sub.add_parser('render-roster');s.add_argument('--out',required=True)
     s=sub.add_parser('save');s.add_argument('state');s.add_argument('--expected',type=int,required=True);s.add_argument('--reason',required=True)
     s=sub.add_parser('restore');s.add_argument('dog');s.add_argument('--target',type=int,required=True);s.add_argument('--expected',type=int,required=True)
     s=sub.add_parser('state');s.add_argument('dog');s.add_argument('--revision',type=int)
     s=sub.add_parser('history');s.add_argument('dog')
-    args=ap.parse_args();store=StateStore(args.db)
+    args=ap.parse_args()
+    if args.cmd=='render-roster':
+        from standing64 import export_roster
+        if args.db:
+            ap.error('render-roster uses the registered database of each dog')
+        try:
+            export_roster(args.out)
+        except (KeyError,ValueError,OSError) as error:
+            ap.exit(2,str(error)+'\n')
+        print(args.out)
+        return
+    if not args.db:
+        if args.cmd!='render-standing' or args.profile:
+            ap.error('--db is required for this operation')
+        from standing64 import baseline_database
+        try:
+            args.db=baseline_database(args.dog)
+        except (KeyError,ValueError,OSError) as error:
+            ap.exit(2,str(error)+'\n')
+    if args.cmd=='render-standing':
+        from standing64 import export as export_standing
+        if not Path(args.db).is_file():
+            ap.error('registered profile database not found')
+        store=maker.Store(args.db,read_only=True)
+        try:
+            export_standing(store,args.dog,args.profile,args.out,include_stages=args.stages,pose=args.pose)
+            print(args.out)
+        except (KeyError,TypeError,IndexError,ValueError,OSError) as e:
+            ap.exit(2,str(e)+'\n')
+        finally:
+            store.close()
+        return
+    store=StateStore(args.db)
     try:
         if args.cmd=='migrate':
             state,rev=store.state_get(args.dog,args.from_authoring);print(store.state_save(migrate(state,rev),args.expected,'explicit v0.2 to v0.3 migration'))

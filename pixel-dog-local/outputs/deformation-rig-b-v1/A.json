@@ -1,0 +1,2667 @@
+{
+  "version": "deformation-rig-b-v1/A",
+  "structure": "B",
+  "units": "original integrated B design units; pre-style shoulder-to-hip span = 30",
+  "axes": [
+    "caudal",
+    "up",
+    "anatomical left"
+  ],
+  "face_scale": 0.568,
+  "pitch_controls": [
+    "body.head",
+    "body.left_carpus",
+    "body.left_elbow",
+    "body.left_hip",
+    "body.left_mcp",
+    "body.left_mtp",
+    "body.left_shoulder",
+    "body.left_stifle",
+    "body.left_tarsus",
+    "body.lumbar_pivot",
+    "body.neck",
+    "body.pelvis",
+    "body.right_carpus",
+    "body.right_elbow",
+    "body.right_hip",
+    "body.right_mcp",
+    "body.right_mtp",
+    "body.right_shoulder",
+    "body.right_stifle",
+    "body.right_tarsus",
+    "body.tail_distal",
+    "body.tail_mid",
+    "body.tail_proximal",
+    "body.tail_root",
+    "face.L_ear_fold",
+    "face.L_ear_root",
+    "face.R_ear_fold",
+    "face.R_ear_root",
+    "face.jaw_axis"
+  ],
+  "breeds": {
+    "whippet": {
+      "name": "휘핏",
+      "nodes": {
+        "body.pelvis": {
+          "parent": null,
+          "offset": [
+            29.4,
+            31.16,
+            0
+          ]
+        },
+        "body.lumbar_pivot": {
+          "parent": "body.pelvis",
+          "offset": [
+            -5.88,
+            8.0,
+            0
+          ]
+        },
+        "body.left_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            3.6
+          ]
+        },
+        "body.right_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            -3.6
+          ]
+        },
+        "body.tail_root": {
+          "parent": "body.pelvis",
+          "offset": [
+            3.92,
+            1.0,
+            0
+          ]
+        },
+        "body.ribcage": {
+          "parent": "body.lumbar_pivot",
+          "offset": [
+            -18.62,
+            -1.0,
+            0
+          ]
+        },
+        "body.neck": {
+          "parent": "body.ribcage",
+          "offset": [
+            -6.79,
+            2.91,
+            0.0
+          ]
+        },
+        "body.left_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            4.0
+          ]
+        },
+        "body.right_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            -4.0
+          ]
+        },
+        "body.left_shoulder": {
+          "parent": "body.left_scapula_fixed",
+          "offset": [
+            -4.9,
+            -8.0,
+            0.0
+          ]
+        },
+        "body.left_elbow": {
+          "parent": "body.left_shoulder",
+          "offset": [
+            4.9,
+            -10.0,
+            0.0
+          ]
+        },
+        "body.left_carpus": {
+          "parent": "body.left_elbow",
+          "offset": [
+            -0.98,
+            -16.32,
+            0.0
+          ]
+        },
+        "body.left_mcp": {
+          "parent": "body.left_carpus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.left_foretoe": {
+          "parent": "body.left_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.left_stifle": {
+          "parent": "body.left_hip",
+          "offset": [
+            -4.9,
+            -11.0,
+            0.0
+          ]
+        },
+        "body.left_tarsus": {
+          "parent": "body.left_stifle",
+          "offset": [
+            8.82,
+            -11.52,
+            0.0
+          ]
+        },
+        "body.left_mtp": {
+          "parent": "body.left_tarsus",
+          "offset": [
+            -0.98,
+            -6.72,
+            0.0
+          ]
+        },
+        "body.left_hindtoe": {
+          "parent": "body.left_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.right_shoulder": {
+          "parent": "body.right_scapula_fixed",
+          "offset": [
+            -4.9,
+            -8.0,
+            0.0
+          ]
+        },
+        "body.right_elbow": {
+          "parent": "body.right_shoulder",
+          "offset": [
+            4.9,
+            -10.0,
+            0.0
+          ]
+        },
+        "body.right_carpus": {
+          "parent": "body.right_elbow",
+          "offset": [
+            -0.98,
+            -16.32,
+            0.0
+          ]
+        },
+        "body.right_mcp": {
+          "parent": "body.right_carpus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.right_foretoe": {
+          "parent": "body.right_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.right_stifle": {
+          "parent": "body.right_hip",
+          "offset": [
+            -4.9,
+            -11.0,
+            0.0
+          ]
+        },
+        "body.right_tarsus": {
+          "parent": "body.right_stifle",
+          "offset": [
+            8.82,
+            -11.52,
+            0.0
+          ]
+        },
+        "body.right_mtp": {
+          "parent": "body.right_tarsus",
+          "offset": [
+            -0.98,
+            -6.72,
+            0.0
+          ]
+        },
+        "body.right_hindtoe": {
+          "parent": "body.right_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.head": {
+          "parent": "body.neck",
+          "offset": [
+            -4.85,
+            4.85,
+            0.0
+          ]
+        },
+        "body.tail_mid": {
+          "parent": "body.tail_proximal",
+          "offset": [
+            2.624457366,
+            -7.210637356,
+            0.0
+          ]
+        },
+        "body.tail_tip": {
+          "parent": "body.tail_distal",
+          "offset": [
+            4.454423831,
+            0.626028439,
+            0.0
+          ]
+        },
+        "body.tail_proximal": {
+          "parent": "body.tail_root",
+          "offset": [
+            1.705416433,
+            -8.023353512,
+            0.0
+          ]
+        },
+        "body.tail_distal": {
+          "parent": "body.tail_mid",
+          "offset": [
+            4.303310448,
+            -4.303310448,
+            0.0
+          ]
+        },
+        "face.neck_mount": {
+          "parent": "body.head",
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "face.skull": {
+          "parent": "face.neck_mount",
+          "offset": [
+            -5.68,
+            6.816,
+            0.0
+          ]
+        },
+        "face.crown": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            6.816,
+            0.0
+          ]
+        },
+        "face.occiput": {
+          "parent": "face.skull",
+          "offset": [
+            5.68,
+            4.544,
+            0.0
+          ]
+        },
+        "face.stop": {
+          "parent": "face.skull",
+          "offset": [
+            -4.544,
+            1.704,
+            0.0
+          ]
+        },
+        "face.nose": {
+          "parent": "face.stop",
+          "offset": [
+            -11.36,
+            -3.976,
+            0.0
+          ]
+        },
+        "face.nose_bottom": {
+          "parent": "face.nose",
+          "offset": [
+            0.0,
+            -0.9656,
+            0.0
+          ]
+        },
+        "face.upper_lip": {
+          "parent": "face.stop",
+          "offset": [
+            -10.792,
+            -5.112,
+            0.0
+          ]
+        },
+        "face.jaw_axis": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            0.0
+          ]
+        },
+        "face.chin": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -18.744,
+            -3.408,
+            0.0
+          ]
+        },
+        "face.L_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            4.4304
+          ]
+        },
+        "face.L_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            1.136,
+            4.544
+          ]
+        },
+        "face.L_eye_inner": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            -1.4768
+          ]
+        },
+        "face.L_eye_outer": {
+          "parent": "face.L_eye",
+          "offset": [
+            0.568,
+            0.284,
+            1.4768
+          ]
+        },
+        "face.L_upper_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.L_lower_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.L_pupil": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.L_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            6.816
+          ]
+        },
+        "face.L_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            5.99808
+          ]
+        },
+        "face.L_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            2.1016
+          ]
+        },
+        "face.L_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            3.408,
+            6.1344
+          ]
+        },
+        "face.L_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            5.4528
+          ]
+        },
+        "face.L_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            4.63488
+          ]
+        },
+        "face.L_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -3.976,
+            3.0104
+          ]
+        },
+        "face.L_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -2.84,
+            2.649152
+          ]
+        },
+        "face.L_ear_fold": {
+          "parent": "face.L_ear_root",
+          "offset": [
+            2.84,
+            1.136,
+            2.9536
+          ]
+        },
+        "face.L_ear_tip": {
+          "parent": "face.L_ear_fold",
+          "offset": [
+            2.84,
+            -2.84,
+            0.0
+          ]
+        },
+        "face.R_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            -4.4304
+          ]
+        },
+        "face.R_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            1.136,
+            -4.544
+          ]
+        },
+        "face.R_eye_inner": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            1.4768
+          ]
+        },
+        "face.R_eye_outer": {
+          "parent": "face.R_eye",
+          "offset": [
+            0.568,
+            0.284,
+            -1.4768
+          ]
+        },
+        "face.R_upper_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.R_lower_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.R_pupil": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.R_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            -6.816
+          ]
+        },
+        "face.R_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            -5.99808
+          ]
+        },
+        "face.R_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            -2.1016
+          ]
+        },
+        "face.R_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            3.408,
+            -6.1344
+          ]
+        },
+        "face.R_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            -5.4528
+          ]
+        },
+        "face.R_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            -4.63488
+          ]
+        },
+        "face.R_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -3.976,
+            -3.0104
+          ]
+        },
+        "face.R_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -2.84,
+            -2.649152
+          ]
+        },
+        "face.R_ear_fold": {
+          "parent": "face.R_ear_root",
+          "offset": [
+            2.84,
+            1.136,
+            -2.9536
+          ]
+        },
+        "face.R_ear_tip": {
+          "parent": "face.R_ear_fold",
+          "offset": [
+            2.84,
+            -2.84,
+            0.0
+          ]
+        }
+      },
+      "surfaces": {
+        "ribcage": {
+          "owner": "body.ribcage",
+          "offsets": [
+            [
+              -7.84,
+              -6,
+              0
+            ],
+            [
+              -4.9,
+              -1,
+              0
+            ],
+            [
+              -0.98,
+              0,
+              0
+            ],
+            [
+              9.8,
+              -1,
+              0
+            ],
+            [
+              13.719999999999999,
+              -3,
+              0
+            ],
+            [
+              12.74,
+              -13,
+              0
+            ],
+            [
+              8.82,
+              -16,
+              0
+            ],
+            [
+              0.0,
+              -18,
+              0
+            ],
+            [
+              -4.9,
+              -17,
+              0
+            ],
+            [
+              -7.84,
+              -14,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -7.84,
+              0,
+              -1.75
+            ],
+            [
+              -2.94,
+              0,
+              -4.4
+            ],
+            [
+              2.94,
+              0,
+              -5.0
+            ],
+            [
+              9.8,
+              0,
+              -4.25
+            ],
+            [
+              13.719999999999999,
+              0,
+              -2.8
+            ],
+            [
+              13.719999999999999,
+              0,
+              2.8
+            ],
+            [
+              9.8,
+              0,
+              4.25
+            ],
+            [
+              2.94,
+              0,
+              5.0
+            ],
+            [
+              -2.94,
+              0,
+              4.4
+            ],
+            [
+              -7.84,
+              0,
+              1.75
+            ]
+          ]
+        },
+        "pelvis": {
+          "owner": "body.pelvis",
+          "offsets": [
+            [
+              -4.9,
+              3,
+              0
+            ],
+            [
+              -1.96,
+              5,
+              0
+            ],
+            [
+              2.94,
+              3,
+              0
+            ],
+            [
+              4.9,
+              0,
+              0
+            ],
+            [
+              1.96,
+              -3,
+              0
+            ],
+            [
+              -1.96,
+              -2,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -4.9,
+              0,
+              -2.925
+            ],
+            [
+              -0.98,
+              0,
+              -4.5
+            ],
+            [
+              2.94,
+              0,
+              -4.185
+            ],
+            [
+              4.9,
+              0,
+              -2.16
+            ],
+            [
+              4.9,
+              0,
+              2.16
+            ],
+            [
+              2.94,
+              0,
+              4.185
+            ],
+            [
+              -0.98,
+              0,
+              4.5
+            ],
+            [
+              -4.9,
+              0,
+              2.925
+            ]
+          ]
+        }
+      },
+      "pelvic_dorsum": {
+        "owner": "body.pelvis",
+        "offset": [
+          -1.96,
+          5,
+          0
+        ]
+      },
+      "rear_brisket": {
+        "owner": "body.ribcage",
+        "offset": [
+          8.82,
+          -16,
+          0
+        ]
+      },
+      "tail_profile": {
+        "chain": [
+          "body.tail_root",
+          "body.tail_proximal",
+          "body.tail_mid",
+          "body.tail_distal",
+          "body.tail_tip"
+        ],
+        "segment_lengths": [
+          8.202599999999999,
+          7.673399999999999,
+          6.0858,
+          4.498200000000001
+        ],
+        "length_basis": "authored ratio informed by long tapering breed tail; not measured",
+        "core_radius": [
+          0.9309999999999999,
+          0.7153999999999999,
+          0.48019999999999996,
+          0.294,
+          0.098
+        ],
+        "underside_feather": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "neutral_segment_angles_deg": [
+          -78,
+          -70,
+          -45,
+          8
+        ],
+        "visibility": {
+          "neutral": "shown",
+          "source": "partially occluded by hind legs; fine tip visible"
+        },
+        "evidence": "../integrated-rig-b-v1/review.md#꼬리-후속-조사--2026-11-05"
+      },
+      "belly_guide": {
+        "owner": "body.pelvis",
+        "offset": [
+          -4.9,
+          -2,
+          0
+        ]
+      },
+      "jaw_hinges": [
+        "face.R_jaw_hinge",
+        "face.L_jaw_hinge"
+      ],
+      "references": [
+        "https://www.ukcdogs.com/whippet",
+        "https://www.ukcdogs.com/whippet"
+      ]
+    },
+    "dachshund": {
+      "name": "닥스훈트",
+      "nodes": {
+        "body.pelvis": {
+          "parent": null,
+          "offset": [
+            29.4,
+            16.64,
+            0
+          ]
+        },
+        "body.lumbar_pivot": {
+          "parent": "body.pelvis",
+          "offset": [
+            -4.9,
+            3.0,
+            0
+          ]
+        },
+        "body.left_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            3.2
+          ]
+        },
+        "body.right_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            -3.2
+          ]
+        },
+        "body.tail_root": {
+          "parent": "body.pelvis",
+          "offset": [
+            3.92,
+            1.0,
+            0
+          ]
+        },
+        "body.ribcage": {
+          "parent": "body.lumbar_pivot",
+          "offset": [
+            -19.6,
+            1.0,
+            0
+          ]
+        },
+        "body.neck": {
+          "parent": "body.ribcage",
+          "offset": [
+            -6.79,
+            2.91,
+            0.0
+          ]
+        },
+        "body.left_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            4.0
+          ]
+        },
+        "body.right_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            -4.0
+          ]
+        },
+        "body.left_shoulder": {
+          "parent": "body.left_scapula_fixed",
+          "offset": [
+            -4.9,
+            -5.0,
+            0.0
+          ]
+        },
+        "body.left_elbow": {
+          "parent": "body.left_shoulder",
+          "offset": [
+            4.9,
+            -7.0,
+            0.0
+          ]
+        },
+        "body.left_carpus": {
+          "parent": "body.left_elbow",
+          "offset": [
+            -0.98,
+            -6.24,
+            0.0
+          ]
+        },
+        "body.left_mcp": {
+          "parent": "body.left_carpus",
+          "offset": [
+            -0.98,
+            -1.44,
+            0.0
+          ]
+        },
+        "body.left_foretoe": {
+          "parent": "body.left_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.left_stifle": {
+          "parent": "body.left_hip",
+          "offset": [
+            -4.9,
+            -6.0,
+            0.0
+          ]
+        },
+        "body.left_tarsus": {
+          "parent": "body.left_stifle",
+          "offset": [
+            8.82,
+            -5.84,
+            0.0
+          ]
+        },
+        "body.left_mtp": {
+          "parent": "body.left_tarsus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.left_hindtoe": {
+          "parent": "body.left_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.right_shoulder": {
+          "parent": "body.right_scapula_fixed",
+          "offset": [
+            -4.9,
+            -5.0,
+            0.0
+          ]
+        },
+        "body.right_elbow": {
+          "parent": "body.right_shoulder",
+          "offset": [
+            4.9,
+            -7.0,
+            0.0
+          ]
+        },
+        "body.right_carpus": {
+          "parent": "body.right_elbow",
+          "offset": [
+            -0.98,
+            -6.24,
+            0.0
+          ]
+        },
+        "body.right_mcp": {
+          "parent": "body.right_carpus",
+          "offset": [
+            -0.98,
+            -1.44,
+            0.0
+          ]
+        },
+        "body.right_foretoe": {
+          "parent": "body.right_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.right_stifle": {
+          "parent": "body.right_hip",
+          "offset": [
+            -4.9,
+            -6.0,
+            0.0
+          ]
+        },
+        "body.right_tarsus": {
+          "parent": "body.right_stifle",
+          "offset": [
+            8.82,
+            -5.84,
+            0.0
+          ]
+        },
+        "body.right_mtp": {
+          "parent": "body.right_tarsus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.right_hindtoe": {
+          "parent": "body.right_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.head": {
+          "parent": "body.neck",
+          "offset": [
+            -2.91,
+            1.94,
+            0.0
+          ]
+        },
+        "body.tail_mid": {
+          "parent": "body.tail_proximal",
+          "offset": [
+            4.261772952,
+            -1.222043732,
+            0.0
+          ]
+        },
+        "body.tail_tip": {
+          "parent": "body.tail_distal",
+          "offset": [
+            2.595398219,
+            -0.136019061,
+            0.0
+          ]
+        },
+        "body.tail_proximal": {
+          "parent": "body.tail_root",
+          "offset": [
+            4.635715364,
+            -0.985351721,
+            0.0
+          ]
+        },
+        "body.tail_distal": {
+          "parent": "body.tail_mid",
+          "offset": [
+            3.396427023,
+            -0.910069875,
+            0.0
+          ]
+        },
+        "face.neck_mount": {
+          "parent": "body.head",
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "face.skull": {
+          "parent": "face.neck_mount",
+          "offset": [
+            -5.68,
+            6.816,
+            0.0
+          ]
+        },
+        "face.crown": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            6.816,
+            0.0
+          ]
+        },
+        "face.occiput": {
+          "parent": "face.skull",
+          "offset": [
+            5.68,
+            4.544,
+            0.0
+          ]
+        },
+        "face.stop": {
+          "parent": "face.skull",
+          "offset": [
+            -4.544,
+            1.136,
+            0.0
+          ]
+        },
+        "face.nose": {
+          "parent": "face.stop",
+          "offset": [
+            -12.496,
+            -3.408,
+            0.0
+          ]
+        },
+        "face.nose_bottom": {
+          "parent": "face.nose",
+          "offset": [
+            0.0,
+            -0.9656,
+            0.0
+          ]
+        },
+        "face.upper_lip": {
+          "parent": "face.stop",
+          "offset": [
+            -11.928,
+            -4.544,
+            0.0
+          ]
+        },
+        "face.jaw_axis": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            0.0
+          ]
+        },
+        "face.chin": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -19.88,
+            -3.976,
+            0.0
+          ]
+        },
+        "face.L_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            4.7996
+          ]
+        },
+        "face.L_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            0.568,
+            4.828
+          ]
+        },
+        "face.L_eye_inner": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            -1.3064
+          ]
+        },
+        "face.L_eye_outer": {
+          "parent": "face.L_eye",
+          "offset": [
+            0.568,
+            0.284,
+            1.3064
+          ]
+        },
+        "face.L_upper_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.L_lower_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.L_pupil": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.L_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            7.384
+          ]
+        },
+        "face.L_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            6.49792
+          ]
+        },
+        "face.L_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            2.272
+          ]
+        },
+        "face.L_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            3.976,
+            6.6456
+          ]
+        },
+        "face.L_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            5.9072
+          ]
+        },
+        "face.L_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            5.02112
+          ]
+        },
+        "face.L_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -3.408,
+            3.408
+          ]
+        },
+        "face.L_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -3.408,
+            2.99904
+          ]
+        },
+        "face.L_ear_fold": {
+          "parent": "face.L_ear_root",
+          "offset": [
+            3.408,
+            -5.112,
+            3.5784
+          ]
+        },
+        "face.L_ear_tip": {
+          "parent": "face.L_ear_fold",
+          "offset": [
+            -2.272,
+            -8.52,
+            -1.704
+          ]
+        },
+        "face.R_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            -4.7996
+          ]
+        },
+        "face.R_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            0.568,
+            -4.828
+          ]
+        },
+        "face.R_eye_inner": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            1.3064
+          ]
+        },
+        "face.R_eye_outer": {
+          "parent": "face.R_eye",
+          "offset": [
+            0.568,
+            0.284,
+            -1.3064
+          ]
+        },
+        "face.R_upper_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.R_lower_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.R_pupil": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.R_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            -7.384
+          ]
+        },
+        "face.R_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            -6.49792
+          ]
+        },
+        "face.R_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            -2.272
+          ]
+        },
+        "face.R_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            3.976,
+            -6.6456
+          ]
+        },
+        "face.R_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            -5.9072
+          ]
+        },
+        "face.R_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            -5.02112
+          ]
+        },
+        "face.R_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -3.408,
+            -3.408
+          ]
+        },
+        "face.R_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -3.408,
+            -2.99904
+          ]
+        },
+        "face.R_ear_fold": {
+          "parent": "face.R_ear_root",
+          "offset": [
+            3.408,
+            -5.112,
+            -3.5784
+          ]
+        },
+        "face.R_ear_tip": {
+          "parent": "face.R_ear_fold",
+          "offset": [
+            -2.272,
+            -8.52,
+            1.704
+          ]
+        }
+      },
+      "surfaces": {
+        "ribcage": {
+          "owner": "body.ribcage",
+          "offsets": [
+            [
+              -7.84,
+              -3,
+              0
+            ],
+            [
+              -4.9,
+              -1,
+              0
+            ],
+            [
+              -0.98,
+              0,
+              0
+            ],
+            [
+              12.74,
+              -1,
+              0
+            ],
+            [
+              16.66,
+              -3,
+              0
+            ],
+            [
+              15.68,
+              -8,
+              0
+            ],
+            [
+              11.76,
+              -11,
+              0
+            ],
+            [
+              0.0,
+              -13,
+              0
+            ],
+            [
+              -4.9,
+              -12,
+              0
+            ],
+            [
+              -7.84,
+              -9,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -7.84,
+              0,
+              -1.75
+            ],
+            [
+              -2.94,
+              0,
+              -4.4
+            ],
+            [
+              2.94,
+              0,
+              -5.0
+            ],
+            [
+              12.74,
+              0,
+              -4.25
+            ],
+            [
+              16.66,
+              0,
+              -2.8
+            ],
+            [
+              16.66,
+              0,
+              2.8
+            ],
+            [
+              12.74,
+              0,
+              4.25
+            ],
+            [
+              2.94,
+              0,
+              5.0
+            ],
+            [
+              -2.94,
+              0,
+              4.4
+            ],
+            [
+              -7.84,
+              0,
+              1.75
+            ]
+          ]
+        },
+        "pelvis": {
+          "owner": "body.pelvis",
+          "offsets": [
+            [
+              -3.92,
+              3,
+              0
+            ],
+            [
+              -1.96,
+              5,
+              0
+            ],
+            [
+              2.94,
+              3,
+              0
+            ],
+            [
+              4.9,
+              0,
+              0
+            ],
+            [
+              1.96,
+              -3,
+              0
+            ],
+            [
+              -1.96,
+              -2,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -3.92,
+              0,
+              -2.6
+            ],
+            [
+              -0.98,
+              0,
+              -4.0
+            ],
+            [
+              2.94,
+              0,
+              -3.72
+            ],
+            [
+              4.9,
+              0,
+              -1.92
+            ],
+            [
+              4.9,
+              0,
+              1.92
+            ],
+            [
+              2.94,
+              0,
+              3.72
+            ],
+            [
+              -0.98,
+              0,
+              4.0
+            ],
+            [
+              -3.92,
+              0,
+              2.6
+            ]
+          ]
+        }
+      },
+      "pelvic_dorsum": {
+        "owner": "body.pelvis",
+        "offset": [
+          -1.96,
+          5,
+          0
+        ]
+      },
+      "rear_brisket": {
+        "owner": "body.ribcage",
+        "offset": [
+          11.76,
+          -11,
+          0
+        ]
+      },
+      "tail_profile": {
+        "chain": [
+          "body.tail_root",
+          "body.tail_proximal",
+          "body.tail_mid",
+          "body.tail_distal",
+          "body.tail_tip"
+        ],
+        "segment_lengths": [
+          4.73928,
+          4.43352,
+          3.5162400000000003,
+          2.5989600000000004
+        ],
+        "length_basis": "authored ratio for smooth coat; breed standard gives no numeric length",
+        "core_radius": [
+          1.078,
+          0.8231999999999999,
+          0.6076,
+          0.3724,
+          0.1176
+        ],
+        "underside_feather": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "neutral_segment_angles_deg": [
+          -12,
+          -16,
+          -15,
+          -3
+        ],
+        "visibility": {
+          "neutral": "shown",
+          "source": "occluded in source photograph; neutral rig is a breed estimate"
+        },
+        "evidence": "../integrated-rig-b-v1/review.md#꼬리-후속-조사--2026-11-05"
+      },
+      "belly_guide": {
+        "owner": "body.pelvis",
+        "offset": [
+          -4.9,
+          -7,
+          0
+        ]
+      },
+      "jaw_hinges": [
+        "face.R_jaw_hinge",
+        "face.L_jaw_hinge"
+      ],
+      "references": [
+        "https://www.ukcdogs.com/dachshund",
+        "https://www.ukcdogs.com/dachshund"
+      ]
+    },
+    "golden": {
+      "name": "골든 리트리버",
+      "nodes": {
+        "body.pelvis": {
+          "parent": null,
+          "offset": [
+            29.4,
+            27.28,
+            0
+          ]
+        },
+        "body.lumbar_pivot": {
+          "parent": "body.pelvis",
+          "offset": [
+            -4.9,
+            5.0,
+            0
+          ]
+        },
+        "body.left_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            4.8
+          ]
+        },
+        "body.right_hip": {
+          "parent": "body.pelvis",
+          "offset": [
+            0.0,
+            0.0,
+            -4.8
+          ]
+        },
+        "body.tail_root": {
+          "parent": "body.pelvis",
+          "offset": [
+            3.92,
+            1.0,
+            0
+          ]
+        },
+        "body.ribcage": {
+          "parent": "body.lumbar_pivot",
+          "offset": [
+            -19.6,
+            1.0,
+            0
+          ]
+        },
+        "body.neck": {
+          "parent": "body.ribcage",
+          "offset": [
+            -6.79,
+            2.91,
+            0.0
+          ]
+        },
+        "body.left_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            6.0
+          ]
+        },
+        "body.right_scapula_fixed": {
+          "parent": "body.ribcage",
+          "offset": [
+            0.0,
+            0.0,
+            -6.0
+          ]
+        },
+        "body.left_shoulder": {
+          "parent": "body.left_scapula_fixed",
+          "offset": [
+            -4.9,
+            -7.0,
+            0.0
+          ]
+        },
+        "body.left_elbow": {
+          "parent": "body.left_shoulder",
+          "offset": [
+            4.9,
+            -9.0,
+            0.0
+          ]
+        },
+        "body.left_carpus": {
+          "parent": "body.left_elbow",
+          "offset": [
+            -0.98,
+            -13.44,
+            0.0
+          ]
+        },
+        "body.left_mcp": {
+          "parent": "body.left_carpus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.left_foretoe": {
+          "parent": "body.left_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.left_stifle": {
+          "parent": "body.left_hip",
+          "offset": [
+            -4.9,
+            -10.0,
+            0.0
+          ]
+        },
+        "body.left_tarsus": {
+          "parent": "body.left_stifle",
+          "offset": [
+            8.82,
+            -9.6,
+            0.0
+          ]
+        },
+        "body.left_mtp": {
+          "parent": "body.left_tarsus",
+          "offset": [
+            -0.98,
+            -5.76,
+            0.0
+          ]
+        },
+        "body.left_hindtoe": {
+          "parent": "body.left_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.right_shoulder": {
+          "parent": "body.right_scapula_fixed",
+          "offset": [
+            -4.9,
+            -7.0,
+            0.0
+          ]
+        },
+        "body.right_elbow": {
+          "parent": "body.right_shoulder",
+          "offset": [
+            4.9,
+            -9.0,
+            0.0
+          ]
+        },
+        "body.right_carpus": {
+          "parent": "body.right_elbow",
+          "offset": [
+            -0.98,
+            -13.44,
+            0.0
+          ]
+        },
+        "body.right_mcp": {
+          "parent": "body.right_carpus",
+          "offset": [
+            -0.98,
+            -2.88,
+            0.0
+          ]
+        },
+        "body.right_foretoe": {
+          "parent": "body.right_mcp",
+          "offset": [
+            -3.12,
+            -0.96,
+            0.0
+          ]
+        },
+        "body.right_stifle": {
+          "parent": "body.right_hip",
+          "offset": [
+            -4.9,
+            -10.0,
+            0.0
+          ]
+        },
+        "body.right_tarsus": {
+          "parent": "body.right_stifle",
+          "offset": [
+            8.82,
+            -9.6,
+            0.0
+          ]
+        },
+        "body.right_mtp": {
+          "parent": "body.right_tarsus",
+          "offset": [
+            -0.98,
+            -5.76,
+            0.0
+          ]
+        },
+        "body.right_hindtoe": {
+          "parent": "body.right_mtp",
+          "offset": [
+            -3.12,
+            -1.92,
+            0.0
+          ]
+        },
+        "body.head": {
+          "parent": "body.neck",
+          "offset": [
+            -4.85,
+            4.85,
+            0.0
+          ]
+        },
+        "body.tail_mid": {
+          "parent": "body.tail_proximal",
+          "offset": [
+            5.9412738,
+            0.624453038,
+            0.0
+          ]
+        },
+        "body.tail_tip": {
+          "parent": "body.tail_distal",
+          "offset": [
+            3.330599917,
+            1.082177514,
+            0.0
+          ]
+        },
+        "body.tail_proximal": {
+          "parent": "body.tail_root",
+          "offset": [
+            6.386,
+            0.0,
+            0.0
+          ]
+        },
+        "body.tail_distal": {
+          "parent": "body.tail_mid",
+          "offset": [
+            4.597261153,
+            1.146225946,
+            0.0
+          ]
+        },
+        "face.neck_mount": {
+          "parent": "body.head",
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "face.skull": {
+          "parent": "face.neck_mount",
+          "offset": [
+            -5.68,
+            6.816,
+            0.0
+          ]
+        },
+        "face.crown": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            6.816,
+            0.0
+          ]
+        },
+        "face.occiput": {
+          "parent": "face.skull",
+          "offset": [
+            5.68,
+            4.544,
+            0.0
+          ]
+        },
+        "face.stop": {
+          "parent": "face.skull",
+          "offset": [
+            -4.544,
+            2.84,
+            0.0
+          ]
+        },
+        "face.nose": {
+          "parent": "face.stop",
+          "offset": [
+            -9.656,
+            -5.112,
+            0.0
+          ]
+        },
+        "face.nose_bottom": {
+          "parent": "face.nose",
+          "offset": [
+            0.0,
+            -0.9656,
+            0.0
+          ]
+        },
+        "face.upper_lip": {
+          "parent": "face.stop",
+          "offset": [
+            -9.088,
+            -6.248,
+            0.0
+          ]
+        },
+        "face.jaw_axis": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            0.0
+          ]
+        },
+        "face.chin": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -17.04,
+            -5.68,
+            0.0
+          ]
+        },
+        "face.L_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            6.2764
+          ]
+        },
+        "face.L_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            0.568,
+            6.248
+          ]
+        },
+        "face.L_eye_inner": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            -1.5336
+          ]
+        },
+        "face.L_eye_outer": {
+          "parent": "face.L_eye",
+          "offset": [
+            0.568,
+            0.284,
+            1.5336
+          ]
+        },
+        "face.L_upper_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.L_lower_lid": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.L_pupil": {
+          "parent": "face.L_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.L_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            9.656
+          ]
+        },
+        "face.L_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            8.49728
+          ]
+        },
+        "face.L_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            3.124
+          ]
+        },
+        "face.L_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            1.136,
+            8.6904
+          ]
+        },
+        "face.L_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            7.7248
+          ]
+        },
+        "face.L_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            6.56608
+          ]
+        },
+        "face.L_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -5.112,
+            5.112
+          ]
+        },
+        "face.L_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -5.112,
+            4.49856
+          ]
+        },
+        "face.L_ear_fold": {
+          "parent": "face.L_ear_root",
+          "offset": [
+            2.272,
+            -2.272,
+            3.2376
+          ]
+        },
+        "face.L_ear_tip": {
+          "parent": "face.L_ear_fold",
+          "offset": [
+            -1.704,
+            -5.112,
+            -1.704
+          ]
+        },
+        "face.R_brow": {
+          "parent": "face.skull",
+          "offset": [
+            0.284,
+            6.248,
+            -6.2764
+          ]
+        },
+        "face.R_eye": {
+          "parent": "face.skull",
+          "offset": [
+            -3.976,
+            0.568,
+            -6.248
+          ]
+        },
+        "face.R_eye_inner": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.4544,
+            -0.284,
+            1.5336
+          ]
+        },
+        "face.R_eye_outer": {
+          "parent": "face.R_eye",
+          "offset": [
+            0.568,
+            0.284,
+            -1.5336
+          ]
+        },
+        "face.R_upper_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            0.8236,
+            0.0
+          ]
+        },
+        "face.R_lower_lid": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.284,
+            -0.6248,
+            0.0
+          ]
+        },
+        "face.R_pupil": {
+          "parent": "face.R_eye",
+          "offset": [
+            -0.3408,
+            0.0,
+            0.0
+          ]
+        },
+        "face.R_temple": {
+          "parent": "face.skull",
+          "offset": [
+            1.704,
+            3.408,
+            -9.656
+          ]
+        },
+        "face.R_cheek": {
+          "parent": "face.skull",
+          "offset": [
+            0.0,
+            -3.408,
+            -8.49728
+          ]
+        },
+        "face.R_nose_wing": {
+          "parent": "face.nose",
+          "offset": [
+            0.4544,
+            0.0,
+            -3.124
+          ]
+        },
+        "face.R_ear_root": {
+          "parent": "face.skull",
+          "offset": [
+            2.84,
+            1.136,
+            -8.6904
+          ]
+        },
+        "face.R_jaw_hinge": {
+          "parent": "face.skull",
+          "offset": [
+            3.976,
+            -1.704,
+            -7.7248
+          ]
+        },
+        "face.R_mouth_corner": {
+          "parent": "face.skull",
+          "offset": [
+            -3.408,
+            -3.408,
+            -6.56608
+          ]
+        },
+        "face.R_muzzle_side": {
+          "parent": "face.stop",
+          "offset": [
+            -4.544,
+            -5.112,
+            -5.112
+          ]
+        },
+        "face.R_jaw_side": {
+          "parent": "face.jaw_axis",
+          "offset": [
+            -12.496,
+            -5.112,
+            -4.49856
+          ]
+        },
+        "face.R_ear_fold": {
+          "parent": "face.R_ear_root",
+          "offset": [
+            2.272,
+            -2.272,
+            -3.2376
+          ]
+        },
+        "face.R_ear_tip": {
+          "parent": "face.R_ear_fold",
+          "offset": [
+            -1.704,
+            -5.112,
+            1.704
+          ]
+        }
+      },
+      "surfaces": {
+        "ribcage": {
+          "owner": "body.ribcage",
+          "offsets": [
+            [
+              -7.84,
+              -5,
+              0
+            ],
+            [
+              -4.9,
+              -1,
+              0
+            ],
+            [
+              -0.98,
+              0,
+              0
+            ],
+            [
+              12.74,
+              -1,
+              0
+            ],
+            [
+              16.66,
+              -3,
+              0
+            ],
+            [
+              15.68,
+              -11,
+              0
+            ],
+            [
+              11.76,
+              -14,
+              0
+            ],
+            [
+              0.0,
+              -16,
+              0
+            ],
+            [
+              -4.9,
+              -15,
+              0
+            ],
+            [
+              -7.84,
+              -12,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -7.84,
+              0,
+              -2.625
+            ],
+            [
+              -2.94,
+              0,
+              -6.6
+            ],
+            [
+              2.94,
+              0,
+              -7.5
+            ],
+            [
+              12.74,
+              0,
+              -6.375
+            ],
+            [
+              16.66,
+              0,
+              -4.2
+            ],
+            [
+              16.66,
+              0,
+              4.2
+            ],
+            [
+              12.74,
+              0,
+              6.375
+            ],
+            [
+              2.94,
+              0,
+              7.5
+            ],
+            [
+              -2.94,
+              0,
+              6.6
+            ],
+            [
+              -7.84,
+              0,
+              2.625
+            ]
+          ]
+        },
+        "pelvis": {
+          "owner": "body.pelvis",
+          "offsets": [
+            [
+              -3.92,
+              3,
+              0
+            ],
+            [
+              -1.96,
+              5,
+              0
+            ],
+            [
+              2.94,
+              3,
+              0
+            ],
+            [
+              4.9,
+              0,
+              0
+            ],
+            [
+              1.96,
+              -3,
+              0
+            ],
+            [
+              -1.96,
+              -2,
+              0
+            ]
+          ],
+          "top_offsets": [
+            [
+              -3.92,
+              0,
+              -3.9
+            ],
+            [
+              -0.98,
+              0,
+              -6.0
+            ],
+            [
+              2.94,
+              0,
+              -5.58
+            ],
+            [
+              4.9,
+              0,
+              -2.88
+            ],
+            [
+              4.9,
+              0,
+              2.88
+            ],
+            [
+              2.94,
+              0,
+              5.58
+            ],
+            [
+              -0.98,
+              0,
+              6.0
+            ],
+            [
+              -3.92,
+              0,
+              3.9
+            ]
+          ]
+        }
+      },
+      "pelvic_dorsum": {
+        "owner": "body.pelvis",
+        "offset": [
+          -1.96,
+          5,
+          0
+        ]
+      },
+      "rear_brisket": {
+        "owner": "body.ribcage",
+        "offset": [
+          11.76,
+          -14,
+          0
+        ]
+      },
+      "tail_profile": {
+        "chain": [
+          "body.tail_root",
+          "body.tail_proximal",
+          "body.tail_mid",
+          "body.tail_distal",
+          "body.tail_tip"
+        ],
+        "segment_lengths": [
+          6.386,
+          5.974,
+          4.738,
+          3.5020000000000007
+        ],
+        "length_basis": "tail-root height minus projected hock height when hanging vertically",
+        "core_radius": [
+          1.5891428571428574,
+          1.3340952380952382,
+          1.0201904761904763,
+          0.5885714285714286,
+          0.1863809523809524
+        ],
+        "underside_feather": [
+          0.2942857142857143,
+          2.4033333333333338,
+          3.040952380952381,
+          1.7166666666666668,
+          0.0
+        ],
+        "neutral_segment_angles_deg": [
+          0,
+          6,
+          14,
+          18
+        ],
+        "visibility": {
+          "neutral": "shown",
+          "source": "raised feathered silhouette visible; skeletal tip obscured by coat"
+        },
+        "evidence": "../integrated-rig-b-v1/review.md#꼬리-후속-조사--2026-11-05"
+      },
+      "belly_guide": {
+        "owner": "body.pelvis",
+        "offset": [
+          -4.9,
+          -7,
+          0
+        ]
+      },
+      "jaw_hinges": [
+        "face.R_jaw_hinge",
+        "face.L_jaw_hinge"
+      ],
+      "references": [
+        "https://grca.org/find-a-golden/more-topics-before-you-buy/akc-breed-standard/",
+        "https://www.royalkennelclub.org.uk/breed-standards/gundog/retriever-golden/"
+      ]
+    }
+  },
+  "deformation": {
+    "head_scale": 1.42,
+    "trunk_span": 0.98,
+    "lower_leg": 0.96,
+    "neck": 0.97,
+    "paw_scale": 1.04
+  }
+}

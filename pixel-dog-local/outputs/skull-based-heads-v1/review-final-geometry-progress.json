@@ -1,0 +1,820 @@
+{
+  "source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "cache_sha256": "f332953619225f439f62ba955f7d01ca9c73ac24c374f1ae06f7069e6b637b89",
+  "variants": {
+    "A": {
+      "golden": {
+        "topology": {
+          "skin": {
+            "vertices": 50362,
+            "faces": 100720,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 1650,
+            "faces": 3296,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1648,
+            "faces": 3292,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 90282,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.31704484716387427,
+            "minimum_distance": 0.2930319309234619,
+            "worst_point": [
+              -29.919998168945312,
+              8.850000381469727,
+              -28.138471603393555
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.29308837918706443,
+            "triangle_distance_samples": 1205
+          },
+          "jaw": {
+            "samples": 31802,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.5735654678463824,
+            "minimum_distance": 0.5552552342414856,
+            "worst_point": [
+              -20.81999969482422,
+              -7.102046966552734,
+              -17.600000381469727
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.5681659347611603,
+            "triangle_distance_samples": 1976
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 3064,
+            "outside_samples": 1882,
+            "crossing_faces": 190
+          },
+          "eye_1": {
+            "inside_samples": 3018,
+            "outside_samples": 1922,
+            "crossing_faces": 186
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -14.0,
+              25.0,
+              -19.95
+            ],
+            "local_overlap_samples": 583
+          },
+          {
+            "root": [
+              -14.0,
+              25.0,
+              19.95
+            ],
+            "local_overlap_samples": 583
+          }
+        ],
+        "nose": {
+          "material_vertices": 547,
+          "material_components": 1,
+          "shared_boundary_edges": 184
+        }
+      },
+      "whippet": {
+        "topology": {
+          "skin": {
+            "vertices": 39626,
+            "faces": 79248,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 1138,
+            "faces": 2272,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1136,
+            "faces": 2268,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 73128,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.7405380483657638,
+            "minimum_distance": 0.7117663025856018,
+            "worst_point": [
+              -12.649996757507324,
+              12.100000381469727,
+              19.797245025634766
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.7119132965142809,
+            "triangle_distance_samples": 1399
+          },
+          "jaw": {
+            "samples": 29996,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.46568247424594134,
+            "minimum_distance": 0.44492805004119873,
+            "worst_point": [
+              -19.799999237060547,
+              -7.018160343170166,
+              -12.850000381469727
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.4558611849049585,
+            "triangle_distance_samples": 2865
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 2156,
+            "outside_samples": 1254,
+            "crossing_faces": 157
+          },
+          "eye_1": {
+            "inside_samples": 2161,
+            "outside_samples": 1243,
+            "crossing_faces": 150
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -15.0,
+              22.0,
+              -14.25
+            ],
+            "local_overlap_samples": 859
+          },
+          {
+            "root": [
+              -15.0,
+              22.0,
+              14.25
+            ],
+            "local_overlap_samples": 865
+          }
+        ],
+        "nose": {
+          "material_vertices": 320,
+          "material_components": 1,
+          "shared_boundary_edges": 139
+        }
+      },
+      "dachshund": {
+        "topology": {
+          "skin": {
+            "vertices": 50028,
+            "faces": 100052,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 1
+          },
+          "eye_-1": {
+            "vertices": 1338,
+            "faces": 2672,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1340,
+            "faces": 2676,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 86922,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.8844825833291168,
+            "minimum_distance": 0.8473865985870361,
+            "worst_point": [
+              -27.700000762939453,
+              8.200000762939453,
+              24.198869705200195
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.8502465137863056,
+            "triangle_distance_samples": 1323
+          },
+          "jaw": {
+            "samples": 30974,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.4648025757435228,
+            "minimum_distance": 0.451911598443985,
+            "worst_point": [
+              -19.89999771118164,
+              -6.842386722564697,
+              -15.549999237060547
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.46097460043577887,
+            "triangle_distance_samples": 2244
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 2504,
+            "outside_samples": 1506,
+            "crossing_faces": 174
+          },
+          "eye_1": {
+            "inside_samples": 2500,
+            "outside_samples": 1516,
+            "crossing_faces": 167
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -13.0,
+              25.0,
+              -18.0
+            ],
+            "local_overlap_samples": 458
+          },
+          {
+            "root": [
+              -13.0,
+              25.0,
+              18.0
+            ],
+            "local_overlap_samples": 459
+          }
+        ],
+        "nose": {
+          "material_vertices": 431,
+          "material_components": 1,
+          "shared_boundary_edges": 157
+        }
+      },
+      "maltipoo": {
+        "topology": {
+          "skin": {
+            "vertices": 46005,
+            "faces": 92006,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 1
+          },
+          "eye_-1": {
+            "vertices": 2744,
+            "faces": 5484,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 2738,
+            "faces": 5472,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 80834,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -1.4505945700179699,
+            "minimum_distance": 1.038038730621338,
+            "worst_point": [
+              -31.50400161743164,
+              8.850000381469727,
+              22.700000762939453
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 1.0383456161926385,
+            "triangle_distance_samples": 940
+          },
+          "jaw": {
+            "samples": 27224,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.9147694210518793,
+            "minimum_distance": 0.8647284507751465,
+            "worst_point": [
+              -39.04999923706055,
+              -5.6029133796691895,
+              -11.09999942779541
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.8650355606229851,
+            "triangle_distance_samples": 1747
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 5151,
+            "outside_samples": 3077,
+            "crossing_faces": 236
+          },
+          "eye_1": {
+            "inside_samples": 5148,
+            "outside_samples": 3062,
+            "crossing_faces": 230
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -10.0,
+              26.0,
+              -23.939999999999998
+            ],
+            "local_overlap_samples": 731
+          },
+          {
+            "root": [
+              -10.0,
+              26.0,
+              23.939999999999998
+            ],
+            "local_overlap_samples": 730
+          }
+        ],
+        "nose": {
+          "material_vertices": 323,
+          "material_components": 1,
+          "shared_boundary_edges": 146
+        }
+      }
+    },
+    "C": {
+      "golden": {
+        "topology": {
+          "skin": {
+            "vertices": 51326,
+            "faces": 102648,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 1646,
+            "faces": 3288,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1644,
+            "faces": 3284,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 90282,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.7154714641854447,
+            "minimum_distance": 0.675751268863678,
+            "worst_point": [
+              -29.919998168945312,
+              8.850000381469727,
+              -28.138471603393555
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.6763346023942491,
+            "triangle_distance_samples": 1189
+          },
+          "jaw": {
+            "samples": 31802,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.8389654247703113,
+            "minimum_distance": 0.8036139011383057,
+            "worst_point": [
+              -42.91999816894531,
+              -6.046934127807617,
+              12.29999828338623
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.8076737313892128,
+            "triangle_distance_samples": 2061
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 3038,
+            "outside_samples": 1896,
+            "crossing_faces": 192
+          },
+          "eye_1": {
+            "inside_samples": 3010,
+            "outside_samples": 1918,
+            "crossing_faces": 184
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -14.0,
+              25.0,
+              -19.95
+            ],
+            "local_overlap_samples": 727
+          },
+          {
+            "root": [
+              -14.0,
+              25.0,
+              19.95
+            ],
+            "local_overlap_samples": 726
+          }
+        ],
+        "nose": {
+          "material_vertices": 547,
+          "material_components": 1,
+          "shared_boundary_edges": 184
+        }
+      },
+      "whippet": {
+        "topology": {
+          "skin": {
+            "vertices": 40154,
+            "faces": 80304,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 1132,
+            "faces": 2260,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1132,
+            "faces": 2260,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 73128,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -1.0404155082817255,
+            "minimum_distance": 1.003156304359436,
+            "worst_point": [
+              -12.649996757507324,
+              12.100000381469727,
+              19.797245025634766
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 1.003263623640021,
+            "triangle_distance_samples": 1802
+          },
+          "jaw": {
+            "samples": 29996,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.712985088955314,
+            "minimum_distance": 0.691133975982666,
+            "worst_point": [
+              -19.14999771118164,
+              -6.795608043670654,
+              13.150001525878906
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.700659771029567,
+            "triangle_distance_samples": 3728
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 2143,
+            "outside_samples": 1249,
+            "crossing_faces": 156
+          },
+          "eye_1": {
+            "inside_samples": 2127,
+            "outside_samples": 1265,
+            "crossing_faces": 151
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -15.0,
+              22.0,
+              -14.25
+            ],
+            "local_overlap_samples": 1000
+          },
+          {
+            "root": [
+              -15.0,
+              22.0,
+              14.25
+            ],
+            "local_overlap_samples": 1008
+          }
+        ],
+        "nose": {
+          "material_vertices": 319,
+          "material_components": 1,
+          "shared_boundary_edges": 140
+        }
+      },
+      "dachshund": {
+        "topology": {
+          "skin": {
+            "vertices": 50676,
+            "faces": 101348,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 1340,
+            "faces": 2676,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 1346,
+            "faces": 2688,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 86922,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -1.2073648928976297,
+            "minimum_distance": 1.1610890626907349,
+            "worst_point": [
+              -27.700000762939453,
+              8.200000762939453,
+              24.198869705200195
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 1.161111974398594,
+            "triangle_distance_samples": 1992
+          },
+          "jaw": {
+            "samples": 30974,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -0.6478382461227348,
+            "minimum_distance": 0.629127025604248,
+            "worst_point": [
+              -44.599998474121094,
+              -5.661087512969971,
+              9.80000114440918
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 0.6363507728652809,
+            "triangle_distance_samples": 2459
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 2513,
+            "outside_samples": 1503,
+            "crossing_faces": 175
+          },
+          "eye_1": {
+            "inside_samples": 2510,
+            "outside_samples": 1524,
+            "crossing_faces": 168
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -13.0,
+              25.0,
+              -18.0
+            ],
+            "local_overlap_samples": 619
+          },
+          {
+            "root": [
+              -13.0,
+              25.0,
+              18.0
+            ],
+            "local_overlap_samples": 620
+          }
+        ],
+        "nose": {
+          "material_vertices": 430,
+          "material_components": 1,
+          "shared_boundary_edges": 156
+        }
+      },
+      "maltipoo": {
+        "topology": {
+          "skin": {
+            "vertices": 47270,
+            "faces": 94536,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_-1": {
+            "vertices": 2726,
+            "faces": 5448,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          },
+          "eye_1": {
+            "vertices": 2728,
+            "faces": 5452,
+            "components": 1,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "euler": 2,
+            "zero_area_faces": 0,
+            "near_zero_double_area_lt_1e10": 0
+          }
+        },
+        "bones": {
+          "upper": {
+            "samples": 80834,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -2.116787666031523,
+            "minimum_distance": 1.1906754970550537,
+            "worst_point": [
+              -31.50400161743164,
+              8.850000381469727,
+              22.700000762939453
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 1.1911861943998736,
+            "triangle_distance_samples": 512
+          },
+          "jaw": {
+            "samples": 27224,
+            "outside_actual_mesh": 0,
+            "outside_raw_field": 0,
+            "maximum_raw_field": -1.141923868890295,
+            "minimum_distance": 1.0902308225631714,
+            "worst_point": [
+              -39.04999923706055,
+              -5.6029133796691895,
+              -11.09999942779541
+            ],
+            "all_sampled_minimum_certified": true,
+            "omitted_triangle_lower_bound": 1.0935022705883435,
+            "triangle_distance_samples": 1400
+          }
+        },
+        "eyes": {
+          "eye_-1": {
+            "inside_samples": 5152,
+            "outside_samples": 3022,
+            "crossing_faces": 232
+          },
+          "eye_1": {
+            "inside_samples": 5144,
+            "outside_samples": 3036,
+            "crossing_faces": 231
+          }
+        },
+        "ears": [
+          {
+            "root": [
+              -10.0,
+              26.0,
+              -23.939999999999998
+            ],
+            "local_overlap_samples": 1055
+          },
+          {
+            "root": [
+              -10.0,
+              26.0,
+              23.939999999999998
+            ],
+            "local_overlap_samples": 1054
+          }
+        ],
+        "nose": {
+          "material_vertices": 320,
+          "material_components": 1,
+          "shared_boundary_edges": 147
+        }
+      }
+    }
+  },
+  "variant_isolation": {},
+  "nose_template": {}
+}

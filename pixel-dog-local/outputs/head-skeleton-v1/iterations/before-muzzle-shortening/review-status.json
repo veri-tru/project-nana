@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "chain-guide.png",
+      "sha256": "13bcd34baf030ea07842ae6526d7903796a44c19a97f74f7d6a55c205531fc16"
+    },
+    {
+      "path": "comparison.png",
+      "sha256": "1eaf26f3c4d6b5e5dda6e09a571a316e984db789c69851241805cb3b0c13f792"
+    }
+  ],
+  "inputs": {
+    "skeleton.py": "6287902a8de664b6a1b8322a7f3623a603ad47b92023b3c78831a70a5f480950",
+    "profiles.json": "577c9403e14afa384c4665de6b014f5f61fca8396e42738829b430df03187070",
+    "references.json": "98f99097743f2ba70ba36f036134311419201928479f5ae85d1eb31c7b4e58d0"
+  },
+  "reviews": {
+    "technical": {
+      "status": "NOT_REVIEWED",
+      "reviewer": "/root/maltipoo_photo_technical"
+    },
+    "visual": {
+      "status": "NOT_REVIEWED",
+      "reviewer": "/root/maltipoo_photo_visual"
+    }
+  },
+  "findings": [
+    {
+      "id": "SK01",
+      "severity": "MAJOR",
+      "resolved": false,
+      "description": "Dorsal contour guide and elliptical sections do not represent cranial/maxillary supporting volumes; cannot serve as requested skull foundation."
+    },
+    {
+      "id": "SK02",
+      "severity": "MAJOR",
+      "resolved": false,
+      "description": "Mandibular centerline lacks mandibular body depth, ascending ramus/coronoid and explicit articular support; articulation transform alone does not establish anatomy."
+    },
+    {
+      "id": "SK03",
+      "severity": "MAJOR",
+      "resolved": false,
+      "description": "Authored breed profiles have not been validated against matched skull views; groomed Maltipoo silhouette is insufficient skeletal evidence."
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "IMPLEMENTER_FAILED_REVIEW",
+      "date": "2026-11-06",
+      "artifacts": {
+        "chain-guide.png": "13bcd34baf030ea07842ae6526d7903796a44c19a97f74f7d6a55c205531fc16",
+        "comparison.png": "1eaf26f3c4d6b5e5dda6e09a571a316e984db789c69851241805cb3b0c13f792"
+      },
+      "note": "User challenged skeletal correctness. Implementer identified missing structural volumes. Independent reviewers errored from model capacity; no PASS issued. Question is not recorded as explicit USER_REJECTED."
+    }
+  ]
+}

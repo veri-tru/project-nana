@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "user_instruction": "A",
+  "selected_variant": "A",
+  "selected_row": 1,
+  "views": [
+    "SIDE",
+    "3-4",
+    "FRONT",
+    "BACK",
+    "TOP"
+  ],
+  "artifact": "comparison.png",
+  "sha256": "1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3",
+  "scope": "Jack Russell B2 concept row A only; B/C unselected. Geometry reference remains B. Not native64 runtime approval.",
+  "geometry_reference": "jack-russell-B",
+  "style_id": "breed-head-soft-B2-v1"
+}

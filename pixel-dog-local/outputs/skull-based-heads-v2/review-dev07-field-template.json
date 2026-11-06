@@ -1,0 +1,265 @@
+{
+  "development_field_only": true,
+  "source_sha256": "a10b4cef167537b1659417743d1eec050a80216cc49d0c55b3ee49894d3bd435",
+  "baseline_source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "variant": "B",
+  "breeds": {
+    "golden": {
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "outside": 1396,
+          "max_field": 4.526969909667969,
+          "worst_point": [
+            -40.60918045043945,
+            9.283333778381348,
+            -19.116666793823242
+          ]
+        },
+        "jaw": {
+          "samples": 31802,
+          "outside": 0,
+          "max_field": -0.7462463189014201,
+          "worst_point": [
+            -42.91999816894531,
+            -6.046934127807617,
+            12.29999828338623
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "uncapped_radial_envelope_with_broad_polynomial_front",
+          "intersection_blend": 5.5,
+          "front_coefficients": {
+            "y2": 0.018,
+            "normalized_z2": 2.0,
+            "normalized_z4": 8.0,
+            "cheek_limit_x": -36.0
+          },
+          "nose_template_preserved": true,
+          "upper_orbit_blend_y": [
+            14,
+            18
+          ],
+          "nasal_collar_field": null
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "nose": {
+        "normalized_samples": 9261,
+        "normalized_old_template_max_delta": 0.0,
+        "normalized_cross_breed_template_max_delta": 0.0,
+        "size_unchanged": true,
+        "center_unchanged": true
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ]
+    },
+    "whippet": {
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "outside": 1941,
+          "max_field": 6.203861236572266,
+          "worst_point": [
+            -40.203861236572266,
+            10.366665840148926,
+            -11.089348793029785
+          ]
+        },
+        "jaw": {
+          "samples": 29996,
+          "outside": 0,
+          "max_field": -0.5579652206666529,
+          "worst_point": [
+            -32.47490310668945,
+            -4.150000095367432,
+            -12.850000381469727
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "uncapped_radial_envelope_with_broad_polynomial_front",
+          "intersection_blend": 5.5,
+          "front_coefficients": {
+            "y2": 0.018,
+            "normalized_z2": 2.0,
+            "normalized_z4": 8.0,
+            "cheek_limit_x": -34.0
+          },
+          "nose_template_preserved": true,
+          "upper_orbit_blend_y": [
+            14,
+            18
+          ],
+          "nasal_collar_field": null
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "nose": {
+        "normalized_samples": 9261,
+        "normalized_old_template_max_delta": 0.0,
+        "normalized_cross_breed_template_max_delta": 2.886579864025407e-15,
+        "size_unchanged": true,
+        "center_unchanged": true
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ]
+    },
+    "dachshund": {
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "outside": 1772,
+          "max_field": 5.618064880371094,
+          "worst_point": [
+            -39.65950393676758,
+            10.366665840148926,
+            14.133334159851074
+          ]
+        },
+        "jaw": {
+          "samples": 30974,
+          "outside": 0,
+          "max_field": -0.551440617794619,
+          "worst_point": [
+            -33.05848693847656,
+            -3.5,
+            15.000001907348633
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "uncapped_radial_envelope_with_broad_polynomial_front",
+          "intersection_blend": 5.5,
+          "front_coefficients": {
+            "y2": 0.018,
+            "normalized_z2": 2.0,
+            "normalized_z4": 8.0,
+            "cheek_limit_x": -34.0
+          },
+          "nose_template_preserved": true,
+          "upper_orbit_blend_y": [
+            14,
+            18
+          ],
+          "nasal_collar_field": null
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "nose": {
+        "normalized_samples": 9261,
+        "normalized_old_template_max_delta": 0.0,
+        "normalized_cross_breed_template_max_delta": 2.886579864025407e-15,
+        "size_unchanged": true,
+        "center_unchanged": true
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ]
+    },
+    "maltipoo": {
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "outside": 2706,
+          "max_field": 7.269115447998047,
+          "worst_point": [
+            -32.2727165222168,
+            9.283333778381348,
+            19.666667938232422
+          ]
+        },
+        "jaw": {
+          "samples": 27224,
+          "outside": 0,
+          "max_field": -1.0283466449710836,
+          "worst_point": [
+            -38.400001525878906,
+            -5.730159282684326,
+            -11.09999942779541
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "uncapped_radial_envelope_with_broad_polynomial_front",
+          "intersection_blend": 5.5,
+          "front_coefficients": {
+            "y2": 0.018,
+            "normalized_z2": 2.0,
+            "normalized_z4": 8.0,
+            "cheek_limit_x": -25.0
+          },
+          "nose_template_preserved": true,
+          "upper_orbit_blend_y": [
+            14,
+            18
+          ],
+          "nasal_collar_field": null
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "nose": {
+        "normalized_samples": 9261,
+        "normalized_old_template_max_delta": 0.0,
+        "normalized_cross_breed_template_max_delta": 1.6930901125533637e-15,
+        "size_unchanged": true,
+        "center_unchanged": true
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ]
+    }
+  },
+  "source_stable": true
+}

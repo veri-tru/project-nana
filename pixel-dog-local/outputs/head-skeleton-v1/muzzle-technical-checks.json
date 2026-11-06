@@ -1,0 +1,428 @@
+{
+  "source_unchanged_from_before": true,
+  "saved_rigs_exactly_rebuilt": true,
+  "breeds": {
+    "golden": {
+      "profile_changes": [
+        [
+          3,
+          0,
+          -65,
+          -57.78
+        ],
+        [
+          4,
+          0,
+          -82,
+          -68.32
+        ],
+        [
+          5,
+          0,
+          -90,
+          -76.32
+        ]
+      ],
+      "other_profile_fields_exact": true,
+      "changed_nodes": [
+        "nasal_bridge",
+        "nasal_base",
+        "nose_tip",
+        "maxilla_front",
+        "nasal_floor",
+        "chin",
+        "L_jaw_front",
+        "R_jaw_front"
+      ],
+      "unchanged_nodes": [
+        "cranium",
+        "crown",
+        "forehead",
+        "stop",
+        "occiput",
+        "skull_rear",
+        "maxilla_back",
+        "jaw_axis",
+        "mandible",
+        "L_tmj",
+        "L_orbit",
+        "L_ear_root",
+        "L_zygoma",
+        "L_ramus",
+        "L_jaw_body",
+        "R_tmj",
+        "R_orbit",
+        "R_ear_root",
+        "R_zygoma",
+        "R_ramus",
+        "R_jaw_body",
+        "C1",
+        "C2"
+      ],
+      "node_deltas": {
+        "nasal_bridge": [
+          7.219999999999999,
+          0.0,
+          0.0
+        ],
+        "nasal_base": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "nose_tip": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "maxilla_front": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "nasal_floor": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "chin": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "L_jaw_front": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ],
+        "R_jaw_front": [
+          13.680000000000007,
+          0.0,
+          0.0
+        ]
+      },
+      "stop_to_tip_x_before": 44,
+      "stop_to_tip_x_after": 30.319999999999993,
+      "reduction_percent": 31.090909090909108,
+      "nasal_base_to_tip_vector_exact": true,
+      "same_node_topology": true,
+      "geometry_exact": false,
+      "jaw_rigid_errors": {
+        "9": 0.0,
+        "18": 0.0
+      }
+    },
+    "whippet": {
+      "profile_changes": [
+        [
+          3,
+          0,
+          -73,
+          -63.43
+        ],
+        [
+          4,
+          0,
+          -104,
+          -84.2
+        ],
+        [
+          5,
+          0,
+          -112,
+          -92.2
+        ]
+      ],
+      "other_profile_fields_exact": true,
+      "changed_nodes": [
+        "nasal_bridge",
+        "nasal_base",
+        "nose_tip",
+        "maxilla_front",
+        "nasal_floor",
+        "chin",
+        "L_jaw_front",
+        "R_jaw_front"
+      ],
+      "unchanged_nodes": [
+        "cranium",
+        "crown",
+        "forehead",
+        "stop",
+        "occiput",
+        "skull_rear",
+        "maxilla_back",
+        "jaw_axis",
+        "mandible",
+        "L_tmj",
+        "L_orbit",
+        "L_ear_root",
+        "L_zygoma",
+        "L_ramus",
+        "L_jaw_body",
+        "R_tmj",
+        "R_orbit",
+        "R_ear_root",
+        "R_zygoma",
+        "R_ramus",
+        "R_jaw_body",
+        "C1",
+        "C2"
+      ],
+      "node_deltas": {
+        "nasal_bridge": [
+          9.57,
+          0.0,
+          0.0
+        ],
+        "nasal_base": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "nose_tip": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "maxilla_front": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "nasal_floor": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "chin": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "L_jaw_front": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ],
+        "R_jaw_front": [
+          19.799999999999997,
+          0.0,
+          0.0
+        ]
+      },
+      "stop_to_tip_x_before": 68,
+      "stop_to_tip_x_after": 48.2,
+      "reduction_percent": 29.117647058823525,
+      "nasal_base_to_tip_vector_exact": true,
+      "same_node_topology": true,
+      "geometry_exact": false,
+      "jaw_rigid_errors": {
+        "9": 0.0,
+        "18": 0.0
+      }
+    },
+    "dachshund": {
+      "profile_changes": [
+        [
+          3,
+          0,
+          -70,
+          -60.9
+        ],
+        [
+          4,
+          0,
+          -96,
+          -77.8
+        ],
+        [
+          5,
+          0,
+          -104,
+          -85.8
+        ]
+      ],
+      "other_profile_fields_exact": true,
+      "changed_nodes": [
+        "nasal_bridge",
+        "nasal_base",
+        "nose_tip",
+        "maxilla_front",
+        "nasal_floor",
+        "chin",
+        "L_jaw_front",
+        "R_jaw_front"
+      ],
+      "unchanged_nodes": [
+        "cranium",
+        "crown",
+        "forehead",
+        "stop",
+        "occiput",
+        "skull_rear",
+        "maxilla_back",
+        "jaw_axis",
+        "mandible",
+        "L_tmj",
+        "L_orbit",
+        "L_ear_root",
+        "L_zygoma",
+        "L_ramus",
+        "L_jaw_body",
+        "R_tmj",
+        "R_orbit",
+        "R_ear_root",
+        "R_zygoma",
+        "R_ramus",
+        "R_jaw_body",
+        "C1",
+        "C2"
+      ],
+      "node_deltas": {
+        "nasal_bridge": [
+          9.100000000000001,
+          0.0,
+          0.0
+        ],
+        "nasal_base": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "nose_tip": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "maxilla_front": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "nasal_floor": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "chin": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "L_jaw_front": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ],
+        "R_jaw_front": [
+          18.200000000000003,
+          0.0,
+          0.0
+        ]
+      },
+      "stop_to_tip_x_before": 60,
+      "stop_to_tip_x_after": 41.8,
+      "reduction_percent": 30.333333333333336,
+      "nasal_base_to_tip_vector_exact": true,
+      "same_node_topology": true,
+      "geometry_exact": false,
+      "jaw_rigid_errors": {
+        "9": 0.0,
+        "18": 0.0
+      }
+    },
+    "maltipoo": {
+      "profile_changes": [],
+      "other_profile_fields_exact": true,
+      "changed_nodes": [],
+      "unchanged_nodes": [
+        "cranium",
+        "crown",
+        "forehead",
+        "stop",
+        "nasal_bridge",
+        "nasal_base",
+        "nose_tip",
+        "occiput",
+        "skull_rear",
+        "maxilla_back",
+        "maxilla_front",
+        "nasal_floor",
+        "jaw_axis",
+        "mandible",
+        "chin",
+        "L_tmj",
+        "L_orbit",
+        "L_ear_root",
+        "L_zygoma",
+        "L_ramus",
+        "L_jaw_body",
+        "L_jaw_front",
+        "R_tmj",
+        "R_orbit",
+        "R_ear_root",
+        "R_zygoma",
+        "R_ramus",
+        "R_jaw_body",
+        "R_jaw_front",
+        "C1",
+        "C2"
+      ],
+      "node_deltas": {},
+      "stop_to_tip_x_before": 29,
+      "stop_to_tip_x_after": 29,
+      "reduction_percent": 0.0,
+      "nasal_base_to_tip_vector_exact": true,
+      "same_node_topology": true,
+      "geometry_exact": true,
+      "jaw_rigid_errors": {
+        "9": 0.0,
+        "18": 0.0
+      }
+    }
+  },
+  "images": {
+    "comparison.png": {
+      "sha256": "af5b7f882f552f16c73b9fa3614442e3fa2239065d09ee9daa1e9a26e0e5cf14",
+      "candidate_sha256": "af5b7f882f552f16c73b9fa3614442e3fa2239065d09ee9daa1e9a26e0e5cf14",
+      "bytes_equal": true,
+      "size": [
+        1660,
+        1470
+      ],
+      "maltipoo_row_pixels_exact": true
+    },
+    "chain-guide.png": {
+      "sha256": "a8f4ed751acab9b47b15e6fc0a1257d79621cfed9bba691b56291c70d3e5c79b",
+      "candidate_sha256": "a8f4ed751acab9b47b15e6fc0a1257d79621cfed9bba691b56291c70d3e5c79b",
+      "bytes_equal": true,
+      "size": [
+        1360,
+        850
+      ]
+    }
+  },
+  "inputs": {
+    "skeleton.py": "6287902a8de664b6a1b8322a7f3623a603ad47b92023b3c78831a70a5f480950",
+    "profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "references.json": "cab5787245c05674a92c32a415c7575d158c4b5417113107461f16a06b6e5117",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082",
+    "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7"
+  },
+  "before_evidence": {
+    "chain-guide.png": "13bcd34baf030ea07842ae6526d7903796a44c19a97f74f7d6a55c205531fc16",
+    "comparison.png": "1eaf26f3c4d6b5e5dda6e09a571a316e984db789c69851241805cb3b0c13f792",
+    "profiles.json": "577c9403e14afa384c4665de6b014f5f61fca8396e42738829b430df03187070",
+    "review-status.json": "e6b166ef09efefe0a2c66999cc16b72575d39513f0aac4e2ffb701a8b2548e08",
+    "rigs.json": "1e84625f6ac7e8679f286454d983c6034126b03ca374a477c1338dcaf0f1afc7",
+    "skeleton.py": "6287902a8de664b6a1b8322a7f3623a603ad47b92023b3c78831a70a5f480950"
+  },
+  "source_unchanged_during_review": true,
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0"
+  }
+}

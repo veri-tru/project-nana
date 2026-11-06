@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "B2-soft.png",
+      "sha256": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6"
+    },
+    {
+      "path": "C2-clear.png",
+      "sha256": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+    }
+  ],
+  "inputs": {
+    "../skull-based-heads-v2/heads-B.png": "467704b1e8b204840dfc37c0b44a099c6e0ead38e5e7dd6ec545fdeefd8e589f",
+    "../../references/styles/b2-c2/v1/reference-sheet.png": "654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744",
+    "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+    "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+    "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+    "prompts.json": "ff05b756d20594edba2673e95af8c6cd2bb54aa8eed6621e8d5ecdebe4973a61",
+    "../skull-based-heads-v2/references.json": "96874f0d9b3598bc36ad7223653af7ee001f0ec20044baaf33cf829a5e6c130c",
+    "../skull-based-heads-v2/parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230"
+  },
+  "reviews": {
+    "visual": {
+      "status": "PASS",
+      "reviewer": "/root/pixel_visual_review",
+      "artifacts": {
+        "B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "C2-clear.png": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+      },
+      "coverage_complete": true,
+      "unresolved": {
+        "V01": "MINOR",
+        "V02": "MINOR"
+      },
+      "report": "visual-review.md",
+      "report_sha256": "c22ba51fd0167b0ea063285bd8671c072a123c05704967b898f1399ed72592c2",
+      "coverage": [
+        "Both final sheets, four breeds and five views each; 40 cells; current skeleton-derived exterior and actual style/identity references; see report for scope and limits."
+      ]
+    },
+    "technical": {
+      "status": "PASS",
+      "reviewer": "pixel_technical_review",
+      "artifacts": {
+        "B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "C2-clear.png": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+      },
+      "inputs": {
+        "../skull-based-heads-v2/heads-B.png": "467704b1e8b204840dfc37c0b44a099c6e0ead38e5e7dd6ec545fdeefd8e589f",
+        "../../references/styles/b2-c2/v1/reference-sheet.png": "654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744",
+        "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+        "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+        "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+        "prompts.json": "ff05b756d20594edba2673e95af8c6cd2bb54aa8eed6621e8d5ecdebe4973a61",
+        "../skull-based-heads-v2/references.json": "96874f0d9b3598bc36ad7223653af7ee001f0ec20044baaf33cf829a5e6c130c",
+        "../skull-based-heads-v2/parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230"
+      },
+      "coverage_complete": true,
+      "unresolved": {},
+      "report": "technical-review.md",
+      "report_sha256": "f200a70f297920103afc0420eb707e510e5e6c4cf1c334e4f8c7e7754e1f81c2",
+      "coverage": [
+        "Both final sheets, four breeds and five views each; 40 cells; current skeleton-derived exterior and actual style/identity references; see report for scope and limits."
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "V01",
+      "severity": "MINOR",
+      "resolved": false,
+      "report": "visual-review.md"
+    },
+    {
+      "id": "V02",
+      "severity": "MINOR",
+      "resolved": false,
+      "report": "visual-review.md"
+    },
+    {
+      "id": "USER-GOLDEN-PROPORTIONS",
+      "severity": "MAJOR",
+      "resolved": false,
+      "description": "2026-11-06 사용자: 골든은 대형견이므로 얼굴 스켈레톤 수정 필요. 후속 골든 비율 수정 중. 이전 검토는 당시 시안에 대한 기록이다."
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "INDEPENDENT_REVIEWS_COMPLETE",
+      "date": "2026-11-06",
+      "artifacts": {
+        "B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "C2-clear.png": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+      }
+    },
+    {
+      "event": "USER_CORRECTION_REQUESTED",
+      "date": "2026-11-06",
+      "scope": "golden head proportions",
+      "artifacts": {
+        "B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "C2-clear.png": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+      },
+      "note": "전체 품종/화풍 거절 또는 사용자 승인으로 확대하지 않는다."
+    }
+  ]
+}

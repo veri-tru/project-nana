@@ -1,0 +1,19 @@
+{
+  "user_request": "골드리트리버는 대형견이라 얼굴스켈레톤 좀 손봐야할듯",
+  "standard": {
+    "url": "https://grca.org/about-the-breed/akc-breed-standard/",
+    "checked": "2026-11-06",
+    "section": "Head, Eyes, Ears",
+    "use": "넓고 완만한 두개부, 깊고 넓으며 두개부로 이어지는 주둥이라는 정성적 방향. 실제 치수로 환산하지 않음."
+  },
+  "photo": "../deformation-b-face-v2/golden-reference.png",
+  "anatomy_manifest": "../head-skeleton-volume-v2/references.json",
+  "baseline_skeleton": "../head-skeleton-volume-v2/geometry.pkl",
+  "baseline_exterior": "../skull-based-heads-v2/geometry.pkl",
+  "unchanged_breeds": [
+    "whippet",
+    "dachshund",
+    "maltipoo"
+  ],
+  "measurements_are_authored": true
+}

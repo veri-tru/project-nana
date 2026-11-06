@@ -1,0 +1,22 @@
+{
+  "golden": {
+    "input_head_geometry_error": 0.0,
+    "input_head_material_error": 0.0,
+    "input_ears_geometry_error": 0.0
+  },
+  "whippet": {
+    "input_head_geometry_error": 0.0,
+    "input_head_material_error": 0.0,
+    "input_ears_geometry_error": 0.0
+  },
+  "dachshund": {
+    "input_head_geometry_error": 3.552713678800501e-15,
+    "input_head_material_error": 3.538502824085299e-12,
+    "input_ears_geometry_error": 2.999014014903878e-08
+  },
+  "maltipoo": {
+    "input_head_geometry_error": 3.197442310920451e-14,
+    "input_head_material_error": 4.263256414560601e-12,
+    "input_ears_geometry_error": 3.432664996694257e-08
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "golden": {
+    "before_stop_to_tip": 44,
+    "after_stop_to_tip": 30.319999999999993,
+    "reduction_percent": 31.1,
+    "nasal_segment_length_preserved": 8.0,
+    "bridge_and_maxilla_scale": 0.62
+  },
+  "whippet": {
+    "before_stop_to_tip": 68,
+    "after_stop_to_tip": 48.2,
+    "reduction_percent": 29.1,
+    "nasal_segment_length_preserved": 8.0,
+    "bridge_and_maxilla_scale": 0.67
+  },
+  "dachshund": {
+    "before_stop_to_tip": 60,
+    "after_stop_to_tip": 41.8,
+    "reduction_percent": 30.3,
+    "nasal_segment_length_preserved": 8.0,
+    "bridge_and_maxilla_scale": 0.65
+  },
+  "maltipoo": {
+    "unchanged": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "attachments.png",
+      "sha256": "ec29153ade030928d97a1ba1b8ea3ac7bda17a217606b461e3f9db855b235687"
+    },
+    {
+      "path": "expressions.png",
+      "sha256": "1613f2a9c15442f0e73e80a63a0cc4cd9e3cc4a10c0ecc257c14c62d37cf3aef"
+    },
+    {
+      "path": "maltipoo-detail.png",
+      "sha256": "0038ec80bc48f16d3a1e6eae1567f1a3895c9bfd7104bc47469f08436df57854"
+    },
+    {
+      "path": "mouth-side.png",
+      "sha256": "0d3091a4d2280abccb6f27f4b103281cffaba3496aa356dcc95ad2a18538cc07"
+    },
+    {
+      "path": "views.png",
+      "sha256": "f23dd80db19e7bb3984d6f662b00c26671e3188d8d6f94f48c957b4f09bf5327"
+    }
+  ],
+  "inputs": {
+    "preview.py": "407ad00bb06895a78183e8889bab604d5028230a270e9cc247db7d9131d7656c"
+  },
+  "reviews": {
+    "technical": {
+      "status": "NOT_REVIEWED",
+      "reviewer": "/root/maltipoo_photo_technical"
+    },
+    "visual": {
+      "status": "NOT_REVIEWED",
+      "reviewer": "/root/maltipoo_photo_visual"
+    }
+  },
+  "findings": [
+    {
+      "id": "EXTERIOR_REBUILD_REQUIRED",
+      "severity": "MAJOR",
+      "resolved": false,
+      "description": "Earlier independent visual failures preserved; later diagnostic-only detail iterations are not a reviewed artifact set. User redirected work to head skeleton first."
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "SCOPE_REDIRECTED",
+      "date": "2026-11-05",
+      "note": "User explicitly requested crown-forehead-maxilla-nose skeleton rebuild before skin. Exterior work stopped; no PASS or approval inherited."
+    }
+  ]
+}

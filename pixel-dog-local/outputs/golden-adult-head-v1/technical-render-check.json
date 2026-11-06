@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "exterior-comparison.png": {
+      "size": [
+        2400,
+        1480
+      ],
+      "mode": "RGB",
+      "pixels_exact": true,
+      "bytes_exact": true,
+      "sha256": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674"
+    },
+    "skeleton-comparison.png": {
+      "size": [
+        2400,
+        1480
+      ],
+      "mode": "RGB",
+      "pixels_exact": true,
+      "bytes_exact": true,
+      "sha256": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36"
+    },
+    "jaw-check.png": {
+      "size": [
+        2000,
+        1260
+      ],
+      "mode": "RGB",
+      "pixels_exact": true,
+      "bytes_exact": true,
+      "sha256": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+    }
+  },
+  "cells": {
+    "exterior": 20,
+    "skeleton": 20,
+    "jaw": 12
+  },
+  "projection_scales": {
+    "exterior": 3.65,
+    "skeleton": 3.65,
+    "jaw": 4.0
+  },
+  "same_model_per_row": true
+}

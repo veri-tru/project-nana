@@ -1,0 +1,242 @@
+{
+  "source_sha256": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+  "parameters_json_exact": true,
+  "breeds": {
+    "golden": {
+      "normals": {
+        "upper": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 0.9994849813928761,
+          "ao_range": [
+            0.38,
+            1.0
+          ]
+        },
+        "jaw": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        },
+        "cartilage": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "rigidity": {
+        "0": {
+          "inverse_max_error": 0.0,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "5": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "10": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "15": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "20": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        }
+      }
+    },
+    "whippet": {
+      "normals": {
+        "upper": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 0.9998564279268193,
+          "ao_range": [
+            0.38,
+            1.0
+          ]
+        },
+        "jaw": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        },
+        "cartilage": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "rigidity": {
+        "0": {
+          "inverse_max_error": 0.0,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "5": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "10": {
+          "inverse_max_error": 2.842170943040401e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "15": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "20": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        }
+      }
+    },
+    "dachshund": {
+      "normals": {
+        "upper": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 0.9996548868028713,
+          "ao_range": [
+            0.38,
+            1.0
+          ]
+        },
+        "jaw": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        },
+        "cartilage": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "rigidity": {
+        "0": {
+          "inverse_max_error": 0.0,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "5": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "10": {
+          "inverse_max_error": 2.842170943040401e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "15": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "20": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        }
+      }
+    },
+    "maltipoo": {
+      "normals": {
+        "upper": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 0.9995732521894019,
+          "ao_range": [
+            0.38,
+            1.0
+          ]
+        },
+        "jaw": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        },
+        "cartilage": {
+          "length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "winding_agreement": 1.0,
+          "ao_range": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "rigidity": {
+        "0": {
+          "inverse_max_error": 0.0,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "5": {
+          "inverse_max_error": 7.105427357601002e-15,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "10": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "15": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        },
+        "20": {
+          "inverse_max_error": 1.4210854715202004e-14,
+          "paired_tmj_axis_max_error": 0.0
+        }
+      }
+    }
+  }
+}

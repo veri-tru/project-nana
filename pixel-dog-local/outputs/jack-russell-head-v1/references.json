@@ -1,0 +1,52 @@
+{
+  "breed": "Jack Russell Terrier / FCI 345; not Parson Russell Terrier",
+  "access_date": "2026-11-06",
+  "standards": [
+    {
+      "url": "https://www.fci.be/Nomenclature/Standards/345g03-en.pdf",
+      "local": "../../private-data/jack-russell-reference-v1/fci-345.pdf",
+      "pages": "1 photograph examples; 3 head/eyes/ears/neck",
+      "role": "qualitative proportions and breed cue; not skull measurements"
+    },
+    {
+      "url": "https://www.royalkennelclub.com/breed-standards/terrier/jack-russell-terrier",
+      "updated": "2025-01-01",
+      "role": "Head/skull and ear position qualitative cross-check"
+    }
+  ],
+  "photos": [
+    {
+      "path": "../../private-data/jack-russell-reference-v1/fci-cover.png",
+      "role": "FCI cover breed photographs; viewed locally, not redistributed in result boards"
+    }
+  ],
+  "generic_anatomy": [
+    {
+      "path": "../../private-data/skull-anatomy-v2/lateral.jpg",
+      "role": "IMAIOS generic dog skull relationships; not Jack Russell matched CT"
+    },
+    {
+      "path": "../../private-data/skull-anatomy-v2/dorsal.jpg",
+      "role": "IMAIOS generic dog skull relationships; not Jack Russell matched CT"
+    },
+    {
+      "path": "../../private-data/skull-anatomy-v2/rostral.jpg",
+      "role": "IMAIOS generic dog skull relationships; not Jack Russell matched CT"
+    }
+  ],
+  "authored_controls": {
+    "dorsal_landmarks": [
+      "crown",
+      "frontal",
+      "stop",
+      "nasal_mid",
+      "maxillary_tip",
+      "nose_tip"
+    ],
+    "units": "arbitrary authoring units",
+    "variants": "Only anterior x coordinates about stop multiply .94/1/1.06",
+    "no_individual_photo": true,
+    "no_measured_breed_skull": true,
+    "scope": "Skull and mandible mesh plus neutral exterior/short-neck and button-ear proxy. No cervical vertebrae, teeth, full body or pixel art."
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "development_field_only": true,
+  "source_sha256": "955bab390a2f0a9aae8d8ec8181aabaa520f891a534e157014e4b3a3b4e1b1c7",
+  "baseline_source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "variant": "B",
+  "breeds": {
+    "golden": {
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "outside": 0,
+          "max_field": -0.6739795516586383,
+          "worst_point": [
+            -32.52000045776367,
+            8.850000381469727,
+            -27.239953994750977
+          ]
+        },
+        "jaw": {
+          "samples": 31802,
+          "outside": 0,
+          "max_field": -0.024033979331274935,
+          "worst_point": [
+            -62.192630767822266,
+            -3.2833335399627686,
+            -9.029621124267578
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "constrained_biharmonic_front_surface_and_monotone_axial_warp",
+          "regularization": 0.0001,
+          "fixed_count": 4094,
+          "active_constraint_count": 186,
+          "iterations": 2,
+          "max_forward": 11.57761966994493,
+          "max_retraction": 14.719966472279374,
+          "bone_front_margin": 0.5,
+          "nose_template_and_upper_orbit_preserved": true
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "warp": {
+        "tested_x_intervals": 967280,
+        "nonpositive_intervals": 30,
+        "minimum_finite_slope": -0.4612919886069733,
+        "worst_midpoint": [
+          -76.57,
+          12.5,
+          -9.75
+        ],
+        "local_derivative_h001": -0.4767500294988736,
+        "worst_old_core": 2.768366498809994,
+        "worst_new_core": 1.9654131003860145,
+        "reconstructed_warp_matches_core": 0.0
+      },
+      "nose": {
+        "template_field_max_delta": 0.0,
+        "baseline_nasal_material_vertices": 547,
+        "max_core_delta_at_nasal_material": 0.0,
+        "max_exterior_delta_at_nasal_material": 0.0,
+        "max_core_delta_in_preserve_band": 0.0
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ],
+      "upper_boundary": {
+        "max_dwarp_dy_jump_estimate": 1.4867072578397256,
+        "x_z": [
+          -76.32,
+          9.0
+        ],
+        "finite_value_jump_below": 0.0014867072578397256
+      }
+    },
+    "whippet": {
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "outside": 0,
+          "max_field": -0.9029106679827937,
+          "worst_point": [
+            -12.649996757507324,
+            12.100000381469727,
+            19.797245025634766
+          ]
+        },
+        "jaw": {
+          "samples": 29996,
+          "outside": 0,
+          "max_field": -0.2113677081133094,
+          "worst_point": [
+            -80.372314453125,
+            -2.959948778152466,
+            4.112236022949219
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "constrained_biharmonic_front_surface_and_monotone_axial_warp",
+          "regularization": 0.0001,
+          "fixed_count": 4387,
+          "active_constraint_count": 110,
+          "iterations": 2,
+          "max_forward": 12.398916512777603,
+          "max_retraction": 20.67893843236395,
+          "bone_front_margin": 0.5,
+          "nose_template_and_upper_orbit_preserved": true
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "warp": {
+        "tested_x_intervals": 1104240,
+        "nonpositive_intervals": 16,
+        "minimum_finite_slope": -0.398878420589142,
+        "worst_midpoint": [
+          -91.45,
+          7.25,
+          8.25
+        ],
+        "local_derivative_h001": -0.41545198189396615,
+        "worst_old_core": 2.8524076776126197,
+        "worst_new_core": 1.718137879848668,
+        "reconstructed_warp_matches_core": 0.0
+      },
+      "nose": {
+        "template_field_max_delta": 0.0,
+        "baseline_nasal_material_vertices": 319,
+        "max_core_delta_at_nasal_material": 0.0,
+        "max_exterior_delta_at_nasal_material": 0.0,
+        "max_core_delta_in_preserve_band": 0.0
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ],
+      "upper_boundary": {
+        "max_dwarp_dy_jump_estimate": 1.332812401884098,
+        "x_z": [
+          -92.2,
+          0.0
+        ],
+        "finite_value_jump_below": 0.001332812401884098
+      }
+    },
+    "dachshund": {
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "outside": 0,
+          "max_field": -1.0447014713290912,
+          "worst_point": [
+            -27.700000762939453,
+            8.200000762939453,
+            24.198869705200195
+          ]
+        },
+        "jaw": {
+          "samples": 30974,
+          "outside": 0,
+          "max_field": -0.20724014338872898,
+          "worst_point": [
+            -72.68074798583984,
+            -3.050779342651367,
+            5.98422384262085
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "constrained_biharmonic_front_surface_and_monotone_axial_warp",
+          "regularization": 0.0001,
+          "fixed_count": 4251,
+          "active_constraint_count": 152,
+          "iterations": 2,
+          "max_forward": 9.687799731639366,
+          "max_retraction": 13.398123475083175,
+          "bone_front_margin": 0.5,
+          "nose_template_and_upper_orbit_preserved": true
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "warp": {
+        "tested_x_intervals": 1048600,
+        "nonpositive_intervals": 0,
+        "minimum_finite_slope": 0.546707913618377,
+        "worst_midpoint": [
+          -81.05,
+          4.25,
+          0.0
+        ],
+        "local_derivative_h001": 0.5411256753262705,
+        "worst_old_core": -5.25,
+        "worst_new_core": -4.334895341035676,
+        "reconstructed_warp_matches_core": 0.0
+      },
+      "nose": {
+        "template_field_max_delta": 0.0,
+        "baseline_nasal_material_vertices": 431,
+        "max_core_delta_at_nasal_material": 0.0,
+        "max_exterior_delta_at_nasal_material": 0.0,
+        "max_core_delta_in_preserve_band": 0.0
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ],
+      "upper_boundary": {
+        "max_dwarp_dy_jump_estimate": 0.39411440559433686,
+        "x_z": [
+          -85.8,
+          -9.0
+        ],
+        "finite_value_jump_below": 0.00039411440559433686
+      }
+    },
+    "maltipoo": {
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "outside": 0,
+          "max_field": -1.4213003985126917,
+          "worst_point": [
+            -38.504703521728516,
+            8.633334159851074,
+            -11.805290222167969
+          ]
+        },
+        "jaw": {
+          "samples": 27224,
+          "outside": 0,
+          "max_field": -0.0730375163465471,
+          "worst_point": [
+            -48.50357437133789,
+            -3.2833335399627686,
+            -9.043612480163574
+          ]
+        }
+      },
+      "metadata": {
+        "patch": {
+          "method": "constrained_biharmonic_front_surface_and_monotone_axial_warp",
+          "regularization": 0.0001,
+          "fixed_count": 3979,
+          "active_constraint_count": 171,
+          "iterations": 2,
+          "max_forward": 9.558308910096414,
+          "max_retraction": 11.983613490771397,
+          "bone_front_margin": 0.5,
+          "nose_template_and_upper_orbit_preserved": true
+        },
+        "base_face_variant": "B",
+        "unchanged_baseline_sections": true,
+        "unchanged_baseline_muzzle_support": true
+      },
+      "warp": {
+        "tested_x_intervals": 860280,
+        "nonpositive_intervals": 0,
+        "minimum_finite_slope": 0.1014117590249981,
+        "worst_midpoint": [
+          -63.25,
+          13.25,
+          8.25
+        ],
+        "local_derivative_h001": 0.09022384303492004,
+        "worst_old_core": 2.893677507877051,
+        "worst_new_core": 1.229081463153281,
+        "reconstructed_warp_matches_core": 0.0
+      },
+      "nose": {
+        "template_field_max_delta": 0.0,
+        "baseline_nasal_material_vertices": 324,
+        "max_core_delta_at_nasal_material": 0.0,
+        "max_exterior_delta_at_nasal_material": 0.0,
+        "max_core_delta_in_preserve_band": 0.0
+      },
+      "eyes": [
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        },
+        {
+          "center_max_delta": 0.0,
+          "normal_max_delta": 0.0,
+          "radius_same": true
+        }
+      ],
+      "upper_boundary": {
+        "max_dwarp_dy_jump_estimate": 1.9159138015538701,
+        "x_z": [
+          -64.0,
+          6.0
+        ],
+        "finite_value_jump_below": 0.0019159138015538701
+      }
+    }
+  }
+}

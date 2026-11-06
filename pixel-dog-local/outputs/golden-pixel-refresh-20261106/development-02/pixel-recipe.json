@@ -1,0 +1,108 @@
+{
+  "renderer": "head-native64-v1",
+  "resolved_profile_sha256": "dbc7809ef0ded534e4132887e27fe2e24b111b6965102c501a36c78c72cd52e7",
+  "source_model": {
+    "breed": "golden",
+    "path": "outputs/golden-adult-head-v1/model-B.pkl",
+    "sha256": "9ccdb84a4d3f03604b3f49195a1b919224e92641c04640781fde535c10dbf122",
+    "selector": [
+      "exterior"
+    ],
+    "review_status": "outputs/golden-adult-head-v1/review-status.json",
+    "review_status_sha256": "a608f16458339098b98f14b30c7ed6709ba3683506acb5b65c8723bd080fcd07"
+  },
+  "plan": {
+    "mode": "normalized",
+    "pixels_per_model_unit": 0.589058763577882,
+    "extent_px": 54.0,
+    "bounds_model_units": [
+      [
+        91.67166900634766,
+        58.75736999511719
+      ],
+      [
+        84.064572683926,
+        58.02347244872125
+      ],
+      [
+        74.94018936157227,
+        58.75736999511719
+      ],
+      [
+        74.94018936157227,
+        58.75736999511719
+      ],
+      [
+        91.67166900634766,
+        74.94018936157227
+      ]
+    ],
+    "relative_scale_applied": false
+  },
+  "frame_order": [
+    "측면",
+    "사선",
+    "정면",
+    "후면",
+    "윗면"
+  ],
+  "frame_size": [
+    64,
+    64
+  ],
+  "atlas_size": [
+    320,
+    64
+  ],
+  "styles": {
+    "P1-soft": {
+      "outline": [
+        110,
+        76,
+        45
+      ],
+      "thresholds": [
+        0.77,
+        0.89
+      ],
+      "label": "P1 · B2 부드러운 음영"
+    },
+    "P2-depth": {
+      "outline": [
+        110,
+        76,
+        45
+      ],
+      "thresholds": [
+        0.81,
+        0.93
+      ],
+      "label": "P2 · B2 깊이 강조"
+    },
+    "P3-contrast": {
+      "outline": [
+        48,
+        34,
+        23
+      ],
+      "thresholds": [
+        0.81,
+        0.93
+      ],
+      "label": "P3 · C2 선명한 윤곽"
+    }
+  },
+  "outline_colors": 1,
+  "fill_colors_max": 4,
+  "comparison_scale": 6,
+  "anti_aliasing": false,
+  "source_grid": "direct 64x64 depth-buffer raster",
+  "user_selection": "PENDING",
+  "native_scene_scale": 0.4,
+  "eye_nose_policy": "Visible nose <=2px wide: add one inward column within silhouette. Visible eye >=3px: 3px diamond or 4px octagon at projected centroid. No hidden eyes or highlights invented.",
+  "limitations": [
+    "Head-only adapter; full body and animation are not produced.",
+    "Relative scale is authored, not measured centimeters.",
+    "Device rendering has not been tested."
+  ]
+}

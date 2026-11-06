@@ -1,0 +1,14 @@
+{
+  "artifacts": {
+    "comparison.png": "201306cc1ba82859cdf0f927634295451c4cd16c166ccfd4e4c5d5ac38512752"
+  },
+  "inputs": {
+    "../../references/styles/breed-head-b2/v1/reference-sheet.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+    "../../references/styles/breed-head-b2/v1/manifest.json": "b4b663e1bdc45968d34e50a7e5035f6b826e9400e165f29942e4e11d25938c86",
+    "../skeleton-pixel-concepts-20261106/B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+    "../golden-pixel-refresh-20261106/engine-reference.png": "45c75c02ff081898fb7532bc200c4acd3fbd609d289ae2fc0cfa31b792f88741",
+    "../golden-adult-head-v1/model-B.pkl": "9ccdb84a4d3f03604b3f49195a1b919224e92641c04640781fde535c10dbf122",
+    "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+    "generation.json": "110fc67b76bbbddc7467e88a6041ae42d2b816bfe616825d6377f6d7deab5c4d"
+  }
+}

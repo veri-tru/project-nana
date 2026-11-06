@@ -1,0 +1,55 @@
+{
+  "method": "Complete +X ray candidates via projected-triangle centroid radius bound; 0.00001 coordinate perturbation avoids shared-edge double counts. Not a continuous-triangle containment proof.",
+  "cache_sha256": "a790311f8becc7dbced2e657b7b1b80ba878069517bae9270352bc95aa6e66c0",
+  "breeds": {
+    "golden": {
+      "upper": {
+        "samples": 90282,
+        "outside": 0,
+        "first_outside": []
+      },
+      "jaw": {
+        "samples": 31802,
+        "outside": 0,
+        "first_outside": []
+      }
+    },
+    "whippet": {
+      "upper": {
+        "samples": 73128,
+        "outside": 0,
+        "first_outside": []
+      },
+      "jaw": {
+        "samples": 29996,
+        "outside": 0,
+        "first_outside": []
+      }
+    },
+    "dachshund": {
+      "upper": {
+        "samples": 86922,
+        "outside": 0,
+        "first_outside": []
+      },
+      "jaw": {
+        "samples": 30974,
+        "outside": 0,
+        "first_outside": []
+      }
+    },
+    "maltipoo": {
+      "upper": {
+        "samples": 80834,
+        "outside": 0,
+        "first_outside": []
+      },
+      "jaw": {
+        "samples": 27224,
+        "outside": 0,
+        "first_outside": []
+      }
+    }
+  },
+  "cache_stable": true
+}

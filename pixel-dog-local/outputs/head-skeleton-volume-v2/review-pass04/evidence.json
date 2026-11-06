@@ -1,0 +1,16 @@
+{
+  "preflight_source_sha256": "76a51079beff0799b385a2989b0e57afa9e2d0482456a4865b6db360c7f69992",
+  "geometry_sha256": "3703cbde6ae2c74179331bedc1bf6c3c1d5ec1af51f8afcb41809d6707137895",
+  "artifacts": {
+    "structure.png": "dddc8a236e4a2cf938c9a3073c214d0c04739e74790ee3c83738534c1421be45",
+    "jaw-motion.png": "943b9f22d1f1610834daf3c728e17f7fe837dafa21c163df0d0e4df4e40ca9c1",
+    "structure-detail.png": "af967e71e8810f84cf698f8c64d7d563319105041df115f1d0301905ec80331d",
+    "jaw-detail.png": "da05b752808b76a091aac1d0baf7b3049749f2029d12d456b59003d6c6357615",
+    "joint-detail.png": "806bba4db13212cbfee27a13f866be4c12588beaec94d4f700d92d13a0cbfcea"
+  },
+  "status": "FAIL_PREFLIGHT",
+  "unresolved": [
+    "Whippet remaining actual upper-jaw penetration",
+    "Maltipoo anterior ramus/arch penetration during opening"
+  ]
+}

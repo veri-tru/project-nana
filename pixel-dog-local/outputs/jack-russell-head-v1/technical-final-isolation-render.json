@@ -1,0 +1,105 @@
+{
+  "guards_before": {
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\head-skeleton-volume-v2\\build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\head-skeleton-volume-v2\\profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\head-skeleton-volume-v2\\geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\head-skeleton-volume-v2\\raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\skull-based-heads-v2\\build.py": "37e6843526018bec5c1f501f4feb8253b7a097f1905fd4c9b9ae63b5ded3a384",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\skull-based-heads-v2\\geometry.pkl": "3321e3644b2647bb29238898995646d29b0e1fce64851e672d8267f3b7bc2cf9",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\skull-based-heads-v2\\parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\build.py": "3e383a3b5766a8086896e40e1aae8e07f46defa9282dbc00e022171b02284b54",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\exterior_seed.py": "7e6e0090b6e2e839ea35538c21e27295d4cb02fea3b88aeb4e636987a381b870",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\references.json": "a6aac3a012e03c99e6177ddf321d2874d4797c947f83092b8c5e477370c39dff",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\source-guards.json": "e51a2f84054bfcbb1912875e1c57457ca30f3f4d5cf58d9f7f95bf0d9f0a2afe",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\model-A.pkl": "6823abc6b566d334e5d3862baf63fcea9f692faa7b31cf1b86b852c8495050d0",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\model-B.pkl": "41f66238527a282df6d395924e4033c39bd35ae7788d3967370a45857b600dd7",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\model-C.pkl": "37cb6cc1d5a2dbec4735c49a62504c951abe9c95113ec2a7376a6eb0123bfb12",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\exterior-comparison.png": "fdb3b2848b4307bdd58133c61a2e8c9eb738a1abef681f9126ece6b553ca7f78",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\skeleton-comparison.png": "64a3f7614649db565aae1fef250b71110d4f51368ecb01320af6dd64b177b475",
+    "C:\\Users\\verib\\personal project\\nana\\pixel-dog-local\\outputs\\jack-russell-head-v1\\jaw-check.png": "896d3c6749a09eb92815d26e07204022089cf3d5318101b0b613d4d9d2721716"
+  },
+  "variants": {},
+  "method": "AST-loaded individual audit functions; actual saved triangles; no prior full-review execution. Ray-parity vertices/centroids plus triangle intersections. Minimum is certified over samples, not all continuous surface points.",
+  "variation_isolation": {
+    "A": {
+      "changed_settings": [
+        "variant",
+        "rostral_length_multiplier",
+        "profile",
+        "control_muzzle_to_cranium_x_ratio"
+      ],
+      "changed_dorsal_indices": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "only_anterior_x": true,
+      "widths_hinge_fixed": true,
+      "rostral_delta_exact": true
+    },
+    "C": {
+      "changed_settings": [
+        "variant",
+        "rostral_length_multiplier",
+        "profile",
+        "control_muzzle_to_cranium_x_ratio"
+      ],
+      "changed_dorsal_indices": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "only_anterior_x": true,
+      "widths_hinge_fixed": true,
+      "rostral_delta_exact": true
+    }
+  },
+  "render_reproduction": {
+    "exterior-comparison.png": {
+      "png_bytes_exact": true,
+      "dimensions": [
+        2400,
+        1190
+      ],
+      "mode": "RGB",
+      "pixels_exact": true
+    },
+    "skeleton-comparison.png": {
+      "png_bytes_exact": true,
+      "dimensions": [
+        2400,
+        1190
+      ],
+      "mode": "RGB",
+      "pixels_exact": true
+    },
+    "jaw-check.png": {
+      "png_bytes_exact": true,
+      "dimensions": [
+        1800,
+        1210
+      ],
+      "mode": "RGB",
+      "pixels_exact": true
+    }
+  },
+  "guards_unchanged": true
+}

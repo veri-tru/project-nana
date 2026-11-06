@@ -1,0 +1,336 @@
+{
+  "parent_sha256": "51126b70dabea924c1df833ee2fe1b70ce3b894e277ef828b3f5b529c4c27d68",
+  "keep": "Silhouette, stance, near/far leg values, ear overlap, eye and nose, open mouth aperture and lower jaw.",
+  "omit": "Isolated tongue color, photographic fur strands and collar detail.",
+  "parts": {
+    "trunk": {
+      "fill": "white",
+      "planes": [
+        {
+          "last": 2,
+          "color": "light",
+          "polygon": [
+            [
+              13,
+              31
+            ],
+            [
+              19,
+              32
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              32,
+              35
+            ],
+            [
+              36,
+              35
+            ],
+            [
+              40,
+              32
+            ],
+            [
+              43,
+              30
+            ],
+            [
+              46,
+              27
+            ],
+            [
+              49,
+              26
+            ],
+            [
+              51,
+              38
+            ],
+            [
+              38,
+              43
+            ],
+            [
+              13,
+              40
+            ]
+          ]
+        },
+        {
+          "last": 1,
+          "color": "grey",
+          "polygon": [
+            [
+              18,
+              37
+            ],
+            [
+              21,
+              35
+            ],
+            [
+              26,
+              35
+            ],
+            [
+              27,
+              36
+            ],
+            [
+              34,
+              38
+            ],
+            [
+              38,
+              40
+            ],
+            [
+              27,
+              39
+            ],
+            [
+              19,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    "tail": {
+      "fill": "light",
+      "planes": []
+    },
+    "hind-near": {
+      "fill": "light",
+      "planes": [
+        {
+          "last": 1,
+          "color": "grey",
+          "polygon": [
+            [
+              20,
+              35
+            ],
+            [
+              23,
+              35
+            ],
+            [
+              22,
+              40
+            ],
+            [
+              15,
+              43
+            ],
+            [
+              11,
+              49
+            ],
+            [
+              10,
+              49
+            ],
+            [
+              13,
+              42
+            ],
+            [
+              17,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "hind-far": {
+      "fill": "grey",
+      "planes": []
+    },
+    "fore-near": {
+      "fill": "light",
+      "planes": []
+    },
+    "fore-far": {
+      "fill": "grey",
+      "planes": []
+    },
+    "head": {
+      "fill": "light",
+      "planes": [
+        {
+          "last": 1,
+          "color": "grey",
+          "polygon": [
+            [
+              41,
+              19
+            ],
+            [
+              44,
+              20
+            ],
+            [
+              46,
+              22
+            ],
+            [
+              48,
+              23
+            ],
+            [
+              50,
+              22
+            ],
+            [
+              49,
+              25
+            ],
+            [
+              44,
+              25
+            ],
+            [
+              41,
+              23
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "omit_details_from": [
+    "oral_cavity",
+    "head"
+  ],
+  "clear_face_planes": true,
+  "required_planes": {
+    "tail": [
+      {
+        "color": "white",
+        "polygon": [
+          [
+            7,
+            23
+          ],
+          [
+            11,
+            23
+          ],
+          [
+            16,
+            25
+          ],
+          [
+            16,
+            27
+          ],
+          [
+            12,
+            26
+          ],
+          [
+            9,
+            26
+          ],
+          [
+            7,
+            25
+          ]
+        ]
+      }
+    ],
+    "trunk": [
+      {
+        "color": "light",
+        "polygon": [
+          [
+            48,
+            27
+          ],
+          [
+            50,
+            28
+          ],
+          [
+            49,
+            33
+          ],
+          [
+            47,
+            36
+          ],
+          [
+            45,
+            37
+          ],
+          [
+            45,
+            35
+          ],
+          [
+            43,
+            36
+          ],
+          [
+            43,
+            34
+          ],
+          [
+            41,
+            35
+          ],
+          [
+            43,
+            32
+          ],
+          [
+            46,
+            30
+          ]
+        ]
+      },
+      {
+        "color": "grey",
+        "polygon": [
+          [
+            48,
+            30
+          ],
+          [
+            49,
+            31
+          ],
+          [
+            48,
+            34
+          ],
+          [
+            47,
+            36
+          ],
+          [
+            46,
+            35
+          ],
+          [
+            44,
+            36
+          ],
+          [
+            45,
+            33
+          ]
+        ]
+      }
+    ]
+  },
+  "fixed_pigment_parts": [
+    "near-ear",
+    "lower_jaw"
+  ]
+}

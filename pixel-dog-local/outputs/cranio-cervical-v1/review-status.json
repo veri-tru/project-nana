@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "structure.png",
+      "sha256": "38348065b4a424c59edb42fd5cd2d55871caaf5c6ebb4af5eac9aa0b906744f1"
+    },
+    {
+      "path": "expressions.png",
+      "sha256": "6cfa5e33238ec72b80ebd068f461bdd378f443d47c13f2ebde21f143ce1e4cdd"
+    }
+  ],
+  "inputs": {
+    "preview.py": "ccebfccc71a6ebbc86d6a8e64c3cbe12da7da17ff4c054c5ad3294a5c70b436a",
+    "head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "expressions.py": "b24a4f6fb1ade495aa9809387410f654e497f97a4b5d96125bb326a3591c6c6a",
+    "..\\heads-necks-four-v1\\preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+    "..\\deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "..\\deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a"
+  },
+  "reviews": {
+    "technical": {
+      "status": "NOT_REVIEWED",
+      "reviewer": "/root/cranio_cervical_review",
+      "report": "review.md",
+      "report_sha256": "4a2af2d5cdcf535c30f6c7dc089745452a47a3c0b392b60aea28f5c2254c1f83",
+      "artifacts": {
+        "structure.png": "38348065b4a424c59edb42fd5cd2d55871caaf5c6ebb4af5eac9aa0b906744f1",
+        "expressions.png": "6cfa5e33238ec72b80ebd068f461bdd378f443d47c13f2ebde21f143ce1e4cdd"
+      },
+      "coverage_complete": false,
+      "coverage": [
+        "Historical technical checks passed for documented scope; new policy input closure and full required views have not been reassessed."
+      ],
+      "prior_result": "PASS_SCOPED",
+      "inputs": {
+        "preview.py": "ccebfccc71a6ebbc86d6a8e64c3cbe12da7da17ff4c054c5ad3294a5c70b436a",
+        "head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+        "expressions.py": "b24a4f6fb1ade495aa9809387410f654e497f97a4b5d96125bb326a3591c6c6a",
+        "..\\heads-necks-four-v1\\preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+        "..\\deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+        "..\\deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a"
+      }
+    },
+    "visual": {
+      "status": "FAIL",
+      "reviewer": "/root/visual_gate_reassessment",
+      "report": "visual-review-v2.md",
+      "report_sha256": "0033408d9a5c6e351471148e497c00181dd965b1ae0dfa81ad0d4383ebeffbc3",
+      "artifacts": {
+        "structure.png": "38348065b4a424c59edb42fd5cd2d55871caaf5c6ebb4af5eac9aa0b906744f1",
+        "expressions.png": "6cfa5e33238ec72b80ebd068f461bdd378f443d47c13f2ebde21f143ce1e4cdd"
+      },
+      "coverage_complete": false,
+      "coverage": [
+        "All four dogs: side neutral/open and three-quarter neutral/open/tongue/lick opened.",
+        "Required front/rear/top and intermediate jaw views missing.",
+        "Full-history context shared; not a fully blinded first-look review."
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "V01",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "summary": "Maltipoo beak-shaped muzzle"
+    },
+    {
+      "id": "V02",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "summary": "Maltipoo rod neck and triangular throat"
+    },
+    {
+      "id": "V03",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "summary": "Whippet swollen bowl-shaped underside"
+    },
+    {
+      "id": "V04",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "summary": "Whippet plate neck and abrupt jaw-neck corner"
+    },
+    {
+      "id": "V05",
+      "severity": "MAJOR",
+      "resolved": false,
+      "summary": "Golden obscured junction and angular transition"
+    },
+    {
+      "id": "V06",
+      "severity": "MAJOR",
+      "resolved": false,
+      "summary": "Dachshund obscured unverified junction"
+    },
+    {
+      "id": "V07",
+      "severity": "MAJOR",
+      "resolved": false,
+      "summary": "Golden/dachshund cut-plane mouth and plate jaw"
+    },
+    {
+      "id": "V08",
+      "severity": "MAJOR",
+      "resolved": false,
+      "summary": "Maltipoo exposed rectangular patch"
+    }
+  ],
+  "user_decision": "REJECTED",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "date": "2026-11-05",
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "structure.png": "38348065b4a424c59edb42fd5cd2d55871caaf5c6ebb4af5eac9aa0b906744f1",
+        "expressions.png": "6cfa5e33238ec72b80ebd068f461bdd378f443d47c13f2ebde21f143ce1e4cdd"
+      }
+    }
+  ],
+  "note": "Authoritative review state. Generators must not overwrite this file. Previous technical PASS does not authorize delivery."
+}

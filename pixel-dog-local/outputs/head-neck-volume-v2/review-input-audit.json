@@ -1,0 +1,34 @@
+{
+  "reviewer": "/root/volume_technical_review",
+  "mode": "input-audit-only",
+  "source_unchanged": true,
+  "inputs": {
+    "../cranio-cervical-v1/expressions.py": "b24a4f6fb1ade495aa9809387410f654e497f97a4b5d96125bb326a3591c6c6a",
+    "../cranio-cervical-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "../cranio-cervical-v1/preview.py": "ccebfccc71a6ebbc86d6a8e64c3cbe12da7da17ff4c054c5ad3294a5c70b436a",
+    "../deformation-b-expressions-simple-v1/preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+    "../deformation-b-face-v2/preview.py": "937e27122d0231a6745bc2329aff07db01d5665b48d1efd24ed027022b7e4b19",
+    "../deformation-b-face-v3/B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "../deformation-b-face-v3/preview.py": "9da720d13f6472359bd2882bbc390a1f70c7b9e4e28206db3d9eb88f489db11e",
+    "../deformation-b-face-v3/profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+    "../deformation-b-heads-v1/preview.py": "0041692ee9f25fc1e4dd179f5952efe8dc12ec95330f843a0448b1eca0d025c2",
+    "../deformation-b-round-eyes-v1/preview.py": "29ccbb7a79694540ceabe72311d5b86062177c6396477fe64cb2eb388cb62e24",
+    "../deformation-rig-b-v1/B.json": "fabc3715d0f6af6ac38d1fbd8a9dcc56975d3757cb73b1bf35379d372b9a306e",
+    "../deformation-rig-b-v1/preview.py": "9d7d9beefa043b1c08caac1a86b05a688b88664265f301c5dbedcf2a056ff1f3",
+    "preview.py": "fdea37a9dedf03de99c13d327e637df0361fd3da1e44831ecdc5f8ee4ab6e4ea",
+    "../heads-necks-four-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "../heads-necks-four-v1/preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+    "../integrated-rig-b-v1/build.py": "e72f1c02c4517dd4a07d4d24e8b2c7d564448c285dfe58433c5ce903fd43efbd",
+    "../integrated-rig-b-v1/preview.py": "dd32361f84e4eb281ad1472bb48a8f3fd203d26d5e247febee2d2b7481fd4d4a",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+  },
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.2.0"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "images": {}
+}

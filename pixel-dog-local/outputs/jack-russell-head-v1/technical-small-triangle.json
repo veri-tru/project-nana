@@ -1,0 +1,34 @@
+{
+  "variant": "B",
+  "part": "jaw",
+  "face_index": 2695,
+  "vertex_dtype": "float32",
+  "face_dtype": "int32",
+  "vertices": [
+    [
+      -53.349998474121094,
+      -4.150000095367432,
+      9.675002098083496
+    ],
+    [
+      -53.350006103515625,
+      -4.150000095367432,
+      9.67499828338623
+    ],
+    [
+      -53.349998474121094,
+      -4.1500020027160645,
+      9.67499828338623
+    ]
+  ],
+  "edge_lengths": [
+    4.264961199760036e-06,
+    8.529922399520072e-06,
+    7.864199877963372e-06
+  ],
+  "double_area": 3.334262652028585e-11,
+  "signed_area_along_stored_normal": 1.424788352620901e-11,
+  "relative_double_area_over_max_edge2": 0.4582575694955839,
+  "zero_area": false,
+  "interpretation": "Tiny sampling cell with healthy relative shape, not a collinear/sliver face. Preserved unchanged with the initial mandible; static rendering and discrete jaw-motion audit passed."
+}

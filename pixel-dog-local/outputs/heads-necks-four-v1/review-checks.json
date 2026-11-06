@@ -1,0 +1,471 @@
+{
+  "breeds": [
+    "golden",
+    "whippet",
+    "dachshund",
+    "maltipoo"
+  ],
+  "geometry": {
+    "golden": {
+      "neck_start_x": -1.9950000000000008,
+      "neck_vertex_count": 20160,
+      "minimum_head_surface_y": -8.0,
+      "reference_head_min_y": -3.9176697804657863,
+      "states": [
+        {
+          "state": "neutral",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 2.048222613534314e-10,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "half",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 2.048222613534314e-10,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "closed",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 2.048222613534314e-10,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "open",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 7.216449660063518e-15,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "tongue",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 7.216449660063518e-15,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "lick",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 7.216449660063518e-15,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        }
+      ]
+    },
+    "whippet": {
+      "neck_start_x": -3.11368721,
+      "neck_vertex_count": 21600,
+      "minimum_head_surface_y": -2.000000000000001,
+      "reference_head_min_y": -3.3345449848764135,
+      "states": [
+        {
+          "state": "neutral",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "half",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "closed",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "open",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "tongue",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "lick",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.2878587085651816e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        }
+      ]
+    },
+    "dachshund": {
+      "neck_start_x": 0.3547971499999998,
+      "neck_vertex_count": 18864,
+      "minimum_head_surface_y": -7.000000000000002,
+      "reference_head_min_y": -1.4715788012685884,
+      "states": [
+        {
+          "state": "neutral",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.0872219813194844e-12,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "half",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.0872219813194844e-12,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "closed",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.0872219813194844e-12,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "open",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.1546319456101628e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "tongue",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.1546319456101628e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        },
+        {
+          "state": "lick",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0,
+          "outside_neck_and_nose_geometry_error": 1.1546319456101628e-14,
+          "outside_neck_and_nose_material_error": 0.0,
+          "ears_exact": true
+        }
+      ]
+    },
+    "maltipoo": {
+      "neck_start_x": 0.0,
+      "neck_vertex_count": 22176,
+      "minimum_head_surface_y": -5.500000000000002,
+      "reference_head_min_y": -1.07887693636002,
+      "states": [
+        {
+          "state": "neutral",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        },
+        {
+          "state": "half",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        },
+        {
+          "state": "closed",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        },
+        {
+          "state": "open",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        },
+        {
+          "state": "tongue",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        },
+        {
+          "state": "lick",
+          "finite": true,
+          "angular_seam_error": 0.0,
+          "rear_cap_pair_error": 0.0,
+          "rear_cap_z_error": 0.0,
+          "neck_stationary_error": 0.0,
+          "neck_material_stationary_error": 0.0
+        }
+      ]
+    }
+  },
+  "tongues": {
+    "golden": [
+      {
+        "state": "tongue",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.5875926340205906,
+        "lip_contact_error": 1.74879562918242e-16,
+        "tip_contact_error": null,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 6.605
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -2.220446049250313e-16,
+        "roof_clearance": 0.39268050128004856,
+        "lip_contact_error": 1.49896768215636e-16,
+        "tip_contact_error": 0.0,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 6.605
+      }
+    ],
+    "whippet": [
+      {
+        "state": "tongue",
+        "floor_clearance": -2.220446049250313e-16,
+        "roof_clearance": 0.3702560069593885,
+        "lip_contact_error": 1.2858791391047212e-16,
+        "tip_contact_error": null,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 9.040097996456497
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -2.220446049250313e-16,
+        "roof_clearance": 0.24765660573455456,
+        "lip_contact_error": 1.1021821192326179e-16,
+        "tip_contact_error": 0.0,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 9.040097996456497
+      }
+    ],
+    "dachshund": [
+      {
+        "state": "tongue",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.4451475421416866,
+        "lip_contact_error": 1.4230395806092245e-16,
+        "tip_contact_error": null,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 4.095248540014179
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -2.220446049250313e-16,
+        "roof_clearance": 0.2963081185428953,
+        "lip_contact_error": 1.2197482119507636e-16,
+        "tip_contact_error": 0.0,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 4.095248540014179
+      }
+    ],
+    "maltipoo": [
+      {
+        "state": "tongue",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.31292823619364807,
+        "lip_contact_error": 1.6287802428659799e-16,
+        "tip_contact_error": null,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 4.0
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.20898196361550125,
+        "lip_contact_error": 1.3960973510279825e-16,
+        "tip_contact_error": 0.0,
+        "neck_begins_behind_oral_corner": true,
+        "oral_corner_to_neck_margin": 4.0
+      }
+    ]
+  },
+  "images": {
+    "heads-necks.png": {
+      "bytes_match": true,
+      "size": [
+        1510,
+        1110
+      ],
+      "scale": 4.6677402676177175,
+      "sha256": "58c8e262537bea84f9750821dd478c5b2bb951d0669c5782ff4faa5a253141b5"
+    },
+    "mouth-neck-check.png": {
+      "bytes_match": true,
+      "size": [
+        1510,
+        1110
+      ],
+      "scale": 5.8777836644418056,
+      "sha256": "3ded4f05801bc9afcafacff15e8c19e7b43b9807a59f844b5625e4bc41117098"
+    }
+  },
+  "hashes": {
+    "recipe_inputs_match": true,
+    "recipe_images_match": true,
+    "source_files_unchanged": true,
+    "preview_sha256": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af"
+  },
+  "nose_scaling": {
+    "golden": {
+      "scale": 0.78,
+      "uniform_nose_error": 0.0,
+      "outside_blend_error": 0.0,
+      "ear_geometry_exact": true,
+      "materials_exact": true,
+      "longitudinal_rows_ordered": true
+    },
+    "whippet": {
+      "scale": 0.62,
+      "uniform_nose_error": 0.0,
+      "outside_blend_error": 0.0,
+      "ear_geometry_exact": true,
+      "materials_exact": true,
+      "longitudinal_rows_ordered": true
+    },
+    "dachshund": {
+      "scale": 0.72,
+      "uniform_nose_error": 0.0,
+      "outside_blend_error": 0.0,
+      "ear_geometry_exact": true,
+      "materials_exact": true,
+      "longitudinal_rows_ordered": true
+    },
+    "maltipoo": {
+      "scale": 0.58,
+      "uniform_nose_error": 0.0,
+      "outside_blend_error": 0.0,
+      "ear_geometry_exact": true,
+      "materials_exact": true,
+      "longitudinal_rows_ordered": true
+    }
+  },
+  "maltipoo": {
+    "eye_radii": [
+      1.4,
+      1.4
+    ],
+    "curly_head_x_error": 0.0,
+    "ear_attachment_max_error": 4.718447854656915e-16,
+    "ear_attachment_within_1e_12": true
+  },
+  "shared_nose": {
+    "NOSE_WIDTH": 4.1,
+    "NOSE_HEIGHT": 2.2,
+    "NOSE_FRONT_ROUND": 4.1,
+    "NOSE_HEIGHT_ROUND": 1.35,
+    "NOSE_TOP_DEPTH": 3.6,
+    "same_as_retained_generator": true
+  }
+}

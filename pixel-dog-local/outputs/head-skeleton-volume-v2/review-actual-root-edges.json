@@ -1,0 +1,90 @@
+{
+  "golden": {
+    "R": {
+      "root": [
+        -41.0,
+        11.0,
+        -12.299999999999999
+      ],
+      "local_arch_base_shared_edges": 89,
+      "shared_edge_max_length": 1.0133830308914185,
+      "shared_edge_vertices": 89
+    },
+    "L": {
+      "root": [
+        -41.0,
+        11.0,
+        12.299999999999999
+      ],
+      "local_arch_base_shared_edges": 83,
+      "shared_edge_max_length": 1.08487868309021,
+      "shared_edge_vertices": 83
+    }
+  },
+  "whippet": {
+    "R": {
+      "root": [
+        -39.0,
+        11.0,
+        -8.2
+      ],
+      "local_arch_base_shared_edges": 87,
+      "shared_edge_max_length": 1.1089138984680176,
+      "shared_edge_vertices": 87
+    },
+    "L": {
+      "root": [
+        -39.0,
+        11.0,
+        8.2
+      ],
+      "local_arch_base_shared_edges": 101,
+      "shared_edge_max_length": 1.1015284061431885,
+      "shared_edge_vertices": 99
+    }
+  },
+  "dachshund": {
+    "R": {
+      "root": [
+        -39.0,
+        11.0,
+        -10.25
+      ],
+      "local_arch_base_shared_edges": 102,
+      "shared_edge_max_length": 1.118467092514038,
+      "shared_edge_vertices": 101
+    },
+    "L": {
+      "root": [
+        -39.0,
+        11.0,
+        10.25
+      ],
+      "local_arch_base_shared_edges": 96,
+      "shared_edge_max_length": 1.02603018283844,
+      "shared_edge_vertices": 96
+    }
+  },
+  "maltipoo": {
+    "R": {
+      "root": [
+        -30.0,
+        11.0,
+        -12.299999999999999
+      ],
+      "local_arch_base_shared_edges": 88,
+      "shared_edge_max_length": 1.0153318643569946,
+      "shared_edge_vertices": 88
+    },
+    "L": {
+      "root": [
+        -30.0,
+        11.0,
+        12.299999999999999
+      ],
+      "local_arch_base_shared_edges": 93,
+      "shared_edge_max_length": 1.025956153869629,
+      "shared_edge_vertices": 92
+    }
+  }
+}

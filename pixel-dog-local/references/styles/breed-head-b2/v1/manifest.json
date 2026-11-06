@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "style_id": "breed-head-soft-B2-v1",
+  "status": "USER_SELECTED_STYLE_REFERENCE",
+  "date": "2026-11-06",
+  "user_instruction": "기존 시안으로 정본화하고 다시만들어",
+  "selection_context": "Immediately preceding comparison showed B2 / SOFT PIXEL. Canonicalize its visual treatment, not the obsolete golden anatomy.",
+  "file": "reference-sheet.png",
+  "sha256": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+  "source": "../../../../outputs/skeleton-pixel-concepts-20261106/B2-soft.png",
+  "scope": [
+    "pixel density appearance",
+    "soft coat-related outline",
+    "connected gentle shadow clusters",
+    "round solid eyes",
+    "cross-breed visual consistency"
+  ],
+  "geometry_authority": "Reviewed current breed model; original golden row is style only and does not override adult-B geometry.",
+  "asset_kind": "high-resolution style reference; not native64 executable sprite",
+  "native_runtime_target": [
+    64,
+    64
+  ],
+  "c2_status": "historical alternative; not current default",
+  "rejected_style": "outputs/golden-pixel-refresh-20261106 P1/P2/P3"
+}

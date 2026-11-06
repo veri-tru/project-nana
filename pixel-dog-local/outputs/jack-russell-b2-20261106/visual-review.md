@@ -1,0 +1,36 @@
+# Independent visual review — Jack Russell B2
+
+Reviewer: `/root/jack_pixel_visual`  
+Verdict: **PASS**, with one nonblocking MINOR observation.  
+Scope: high-resolution static concept board; not native64, five-color execution, exact mesh reprojection, measured anatomy, animation, or user approval.
+
+## Independence and inspection order
+
+The saved `comparison.png` was opened first, before reference images or any technical verdict. Initial observation: all 15 cells have connected muzzle/nose, folded ears and supported necks; the oblique column appears close to side and the top column includes both eyes. The supplied generation intent was available in the task briefing, so this is an independent result inspection, not a claim of fully blind requirements review. No technical verdict was read.
+
+Then opened the actual shape reference `../jack-russell-head-v1/exterior-comparison.png` (row B), its skeleton comparison, the FCI cover containing actual breed photographs, the canonical `reference-sheet.png`, and the approved Golden comparison row A. The FCI cover photographs supply breed-level visual context, not this authored coat or individual identity. The PDF body and model binary were not used as substitutes for visible appearance; their hashes are bound to the supplied evidence set, while technical verification belongs to the separate reviewer.
+
+## Coverage — comparison.png, all 15 cells
+
+| Row | Side | 3-4 | Front | Back | Top |
+|---|---|---|---|---|---|
+| A | Long substantial muzzle, attached nose, restrained brow, jaw-to-neck curve and ear attachment inspected; intact | Same main silhouette, far ear and wider nose visible; JV01 | Symmetric eye placement, nose centered below eyes, cheek/chin support and two folded ears intact | White crown, bilateral tan ears and centered supported neck; no misplaced facial marks | Tapered substantial muzzle, two eyes and bilateral attached ears; crown remains white |
+| B | Same recognizable proportions and markings; lighter jaw/neck shadow retains separation | Lighter shadow retains cheek and ear separation; JV01 | Reduced lower-face shadow remains readable; nose/eye/ear layout stable | Lighter lower skull and neck remain distinguishable | Lighter connected shadow; muzzle and ear silhouettes remain readable |
+| C | Deeper connected lower muzzle/neck shadow; no beak or swollen underjaw | Deeper cheek/ear shadow retains solid connected structure; JV01 | Deeper chin/neck plane remains coherent; no detached nose | Deeper lower skull shadow supports neck; no flat plate attachment | Deeper underside shading does not erase muzzle width or ear attachment |
+
+Coverage is complete for the sole deliverable artifact. All rows and views were directly inspected. The concept board is not evidence that these five drawings were rendered from a single 3D mesh; exact view correspondence is not approved by this visual review.
+
+## Reference comparison
+
+- **Breed/shape:** The model-B long, slightly tapering but substantial muzzle, modest forehead transition, relatively low cranium, short supported neck and small forward-folding ears remain recognizable. The forward ears are clearly shorter than the Golden hanging ears. No detached nose, funnel muzzle, exaggerated bowl-like lower jaw, neck plate, root separation or self-intersection is visible. The folded ear surfaces are simplified but have readable roots and overlapping edges in side, front, rear and top views.
+- **Style:** Colored brown outlines have the restrained weight and staircase rhythm of the canonical series. Round dark dot eyes, broad ivory/tan regions and connected stepped warm beige shadows match the canonical Maltipoo/Whippet language and approved Golden A, with coat-appropriate lower contrast. There is no reversion to the previously rejected hard-outline/different-shading language, conspicuous dithering, hair-strand detail or glossy 3D finish.
+- **Variation:** A reads as the standard shadow balance, B lighter, C deeper. Shape and tan-on-ears-only markings remain perceptually stable across rows. This is visual similarity, not pixel-identical geometry certification. No material unrequested change is visible.
+- **View interpretation:** Both eyes in top views occur in the actual neutral exterior reference as well as canonical style sheets; they are not a newly introduced defect. The rear views consistently omit nose/eyes. There is no open-mouth or expression-transition claim requiring intermediate frames.
+
+## Findings
+
+**JV01 — MINOR, unresolved.** `comparison.png` / A, B and C / 3-4 / view angle. Direct observation: the oblique views have very similar muzzle projection and near-eye position to the side views, with the far ear supplying the clearest turn cue. The neutral model-B oblique reference has a more apparent rotation and larger change in visible muzzle plane. Canonical Golden A likewise uses a shallow turn, and these drawings retain a distinct far ear and wider visible nose, so this is not a missing view, broken structure or different pixel style. If a later revision targets more precise model correspondence, increase the oblique turn while preserving the same head proportions; recheck all three oblique cells and their side/front relationships. This does not block this high-resolution style concept.
+
+No unresolved BLOCKER or MAJOR issues. This PASS permits candidate delivery only when the independent technical review and delivery gate also pass; the user's final choice remains pending.
+
+<!-- review-verdict: {"reviewer":"/root/jack_pixel_visual","status":"PASS","artifacts":{"comparison.png":"1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3"},"inputs":{"generation.json":"47ed2c2f72b7fc7064809d8051904b8f0d2fcf4c2d7fb70993d1c7da126d32d4","source.json":"ef4e8f966deeef38a82cd5cd7b97c7b0d11f63ab5cdb3683da111c61d76b00d9","../../references/styles/breed-head-b2/v1/reference-sheet.png":"e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6","../../references/styles/breed-head-b2/v1/manifest.json":"b4b663e1bdc45968d34e50a7e5035f6b826e9400e165f29942e4e11d25938c86","../golden-b2-canonical-20261106/comparison.png":"7f3a47af0bcb09237bf2881a1bd5221e8a19eb1c4fa2669e584db5e41575d31f","../golden-b2-canonical-20261106/selection.json":"410778e309cca85c610cf153588cfd4fa352d2cbf77abcf30b328263e81c5cc4","../jack-russell-head-v1/exterior-comparison.png":"fdb3b2848b4307bdd58133c61a2e8c9eb738a1abef681f9126ece6b553ca7f78","../jack-russell-head-v1/skeleton-comparison.png":"64a3f7614649db565aae1fef250b71110d4f51368ecb01320af6dd64b177b475","../jack-russell-head-v1/model-B.pkl":"41f66238527a282df6d395924e4033c39bd35ae7788d3967370a45857b600dd7","../jack-russell-head-v1/parameters-B.json":"a4914dfbc09881ef12ade90417594ec979f4ba85fb9411acb5c05347748bc102","../jack-russell-head-v1/review-status.json":"ae727650ed59db9320aa48a03a1e92410f8556987eb384e4efa0de742310568f","../../private-data/jack-russell-reference-v1/fci-cover.png":"7ab90054ac93ec2f7505ca7c15aab1e5bb3b93260270caab792a56a009c5b171","../../private-data/jack-russell-reference-v1/fci-345.pdf":"189825f27731344a5c728538786c9184a3b6db7124521b91b9f2eda9f1d8dd01"},"coverage_complete":true,"unresolved":{"JV01":"MINOR"}} -->

@@ -1,0 +1,26 @@
+{
+  "preflight_source_sha256": "9c6f9ed922c20d15e6b299f2aa10355d727524ea586397913307ac1a6818b96c",
+  "geometry_sha256": "166be3f485fdff5922906f13c537f0193a1d39a9e1a49cbcf76fe6e45dd7d2fc",
+  "artifacts": {
+    "structure.png": "9079ff78c980e59a9c9e392a8a9c004abc5ae033160bc8485ee5a2f3d655cb3d",
+    "jaw-motion.png": "9ce5dd70581829cfe01754e733bda8e5c39e6647cf771420601253219299c844",
+    "structure-detail.png": "f4b82cb52db856372ed7b1f69cae9733516e6fbfd22bc086ac2c76af6487fe59",
+    "jaw-detail.png": "b655e686eba6966a4fbc4fe9c12455e4c59475e2f809c214242e30cff3317841",
+    "joint-detail.png": "68cb5cfe56b939c30849e247506a194322e7fb4c215d87abd53bb7d9697effac"
+  },
+  "status": "FAIL_ARCH_ROOT",
+  "contact_checks": "sampled actual meshes clear including TMJ bands",
+  "unresolved": [
+    "Maltipoo anterior arch root has no local 3D overlap with recessed maxillary/cranial base despite global one-component mesh"
+  ],
+  "reproduction": {
+    "status": "INTERRUPTED_BEFORE_COMPARISON",
+    "completed_fresh_builds": [
+      "golden",
+      "whippet",
+      "dachshund"
+    ],
+    "complete_report": false,
+    "reason": "Parent requested stop after independent root attachment defect confirmed"
+  }
+}

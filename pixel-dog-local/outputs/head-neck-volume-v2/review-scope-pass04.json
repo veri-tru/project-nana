@@ -1,0 +1,242 @@
+{
+  "source_sha256": "33f8b82092f0efbd9b15926d7a899b05c21c1ea47ebecada15295e4bd614148e",
+  "geometry_sha256": "5dd45883882ca9e14bfbd76c55d169f17470621aa8943fa976ae3b9ddf7ec612",
+  "breeds": {
+    "golden": {
+      "nose": {
+        "source_dark_faces": 9880,
+        "source_dark_x_range": [
+          -24.485669578916443,
+          -21.38769619159489
+        ],
+        "source_dark_depth_range": [
+          0.02581644489434609,
+          3.1237898322158983
+        ],
+        "current_field_range": [
+          -0.009030450950540392,
+          0.011118926924266359
+        ],
+        "absolute_field_p95": 0.0010577818150117881,
+        "nearest_vertex_distance_p95": 0.12643818390071382,
+        "source_dark_faces_in_rebuilt_blend": 0
+      },
+      "controls": {
+        "head.occipital_joint": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.42836985768273816,
+          "surface_vertices_changed_more_than_01": 11938
+        },
+        "neck.C1": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.23273877589660857,
+          "surface_vertices_changed_more_than_01": 12686
+        },
+        "neck.C2": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.2159993010962568,
+          "surface_vertices_changed_more_than_01": 13263
+        },
+        "neck.lower": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.75,
+          "surface_vertices_changed_more_than_01": 12518
+        }
+      },
+      "mouth": {
+        "neutral": {
+          "exposed_rostral_x_max": -11.100000000000001,
+          "min_field": -5.6829474284203485e-05,
+          "vertices_below_minus_01": 0
+        },
+        "mid": {
+          "exposed_rostral_x_max": -11.100000000000001,
+          "min_field": 0.5294412544570266,
+          "vertices_below_minus_01": 0
+        },
+        "open": {
+          "exposed_rostral_x_max": -11.100000000000001,
+          "min_field": 0.9770432607834538,
+          "vertices_below_minus_01": 0
+        }
+      }
+    },
+    "whippet": {
+      "nose": {
+        "source_dark_faces": 10230,
+        "source_dark_x_range": [
+          -26.46959134550628,
+          -24.01209154363392
+        ],
+        "source_dark_depth_range": [
+          0.021941962516716984,
+          2.479441764389076
+        ],
+        "current_field_range": [
+          -0.09557781164937884,
+          0.11304684233973179
+        ],
+        "absolute_field_p95": 0.06468433864483338,
+        "nearest_vertex_distance_p95": 0.12782182629532757,
+        "source_dark_faces_in_rebuilt_blend": 0
+      },
+      "controls": {
+        "head.occipital_joint": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.2586735149876894,
+          "surface_vertices_changed_more_than_01": 11024
+        },
+        "neck.C1": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.21476249384682222,
+          "surface_vertices_changed_more_than_01": 12302
+        },
+        "neck.C2": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.17943414952269476,
+          "surface_vertices_changed_more_than_01": 9109
+        },
+        "neck.lower": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.75,
+          "surface_vertices_changed_more_than_01": 7168
+        }
+      },
+      "mouth": {
+        "neutral": {
+          "exposed_rostral_x_max": -14.653785199999998,
+          "min_field": 2.505206736103105e-05,
+          "vertices_below_minus_01": 0
+        },
+        "mid": {
+          "exposed_rostral_x_max": -14.653785199999998,
+          "min_field": 0.6559703766791407,
+          "vertices_below_minus_01": 0
+        },
+        "open": {
+          "exposed_rostral_x_max": -14.653785199999998,
+          "min_field": 1.2938752324804095,
+          "vertices_below_minus_01": 0
+        }
+      }
+    },
+    "dachshund": {
+      "nose": {
+        "source_dark_faces": 10866,
+        "source_dark_x_range": [
+          -22.23261859081772,
+          -19.34768463523812
+        ],
+        "source_dark_depth_range": [
+          0.02326559641596404,
+          2.908199551995562
+        ],
+        "current_field_range": [
+          -0.006020837253121858,
+          0.007654486610366995
+        ],
+        "absolute_field_p95": 0.0006656301546351662,
+        "nearest_vertex_distance_p95": 0.12492814005465433,
+        "source_dark_faces_in_rebuilt_blend": 0
+      },
+      "controls": {
+        "head.occipital_joint": {
+          "fixed_head_world_error": 8.881784197001252e-16,
+          "surface_field_max_change": 0.30605554812204716,
+          "surface_vertices_changed_more_than_01": 12882
+        },
+        "neck.C1": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.1970154603088311,
+          "surface_vertices_changed_more_than_01": 13616
+        },
+        "neck.C2": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.18916556525375852,
+          "surface_vertices_changed_more_than_01": 9238
+        },
+        "neck.lower": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.75,
+          "surface_vertices_changed_more_than_01": 8097
+        }
+      },
+      "mouth": {
+        "neutral": {
+          "exposed_rostral_x_max": -6.2404513900000005,
+          "min_field": -0.004162108402172404,
+          "vertices_below_minus_01": 0
+        },
+        "mid": {
+          "exposed_rostral_x_max": -6.2404513900000005,
+          "min_field": 0.3634946370431993,
+          "vertices_below_minus_01": 0
+        },
+        "open": {
+          "exposed_rostral_x_max": -6.2404513900000005,
+          "min_field": 0.6853058444606327,
+          "vertices_below_minus_01": 0
+        }
+      }
+    },
+    "maltipoo": {
+      "nose": {
+        "source_dark_faces": 17908,
+        "source_dark_x_range": [
+          -11.121574733909359,
+          -8.790172960901208
+        ],
+        "source_dark_depth_range": [
+          0.012017534912413197,
+          2.3434193079205645
+        ],
+        "current_field_range": [
+          -1.0614495887486355,
+          0.006898180014301897
+        ],
+        "absolute_field_p95": 0.4746424084677944,
+        "nearest_vertex_distance_p95": 0.30767033370632774,
+        "source_dark_faces_in_rebuilt_blend": 6088
+      },
+      "controls": {
+        "head.occipital_joint": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.1483358993385946,
+          "surface_vertices_changed_more_than_01": 12919
+        },
+        "neck.C1": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.13588213891843248,
+          "surface_vertices_changed_more_than_01": 12661
+        },
+        "neck.C2": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.237993782380781,
+          "surface_vertices_changed_more_than_01": 9331
+        },
+        "neck.lower": {
+          "fixed_head_world_error": 0.0,
+          "surface_field_max_change": 0.75,
+          "surface_vertices_changed_more_than_01": 8185
+        }
+      },
+      "mouth": {
+        "neutral": {
+          "exposed_rostral_x_max": -6.5,
+          "min_field": -0.31976055060859854,
+          "vertices_below_minus_01": 254
+        },
+        "mid": {
+          "exposed_rostral_x_max": -6.5,
+          "min_field": -0.0818184398025672,
+          "vertices_below_minus_01": 0
+        },
+        "open": {
+          "exposed_rostral_x_max": -6.5,
+          "min_field": 0.06964580185255476,
+          "vertices_below_minus_01": 0
+        }
+      }
+    }
+  }
+}

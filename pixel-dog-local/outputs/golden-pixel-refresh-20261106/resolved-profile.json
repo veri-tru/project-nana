@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "catalog_sha256": "6f31c28416c166a3ebf394b243ff21801f0e8fb9650204b703511fb020741922",
+  "request": {
+    "schema_version": 1,
+    "size_class": "large",
+    "breed": "golden",
+    "individual": {
+      "id": "golden-working",
+      "overrides": {},
+      "evidence": {}
+    },
+    "display": {
+      "mode": "normalized",
+      "scene_scale": 3.2
+    }
+  },
+  "breed": "golden",
+  "size_class": "large",
+  "individual_id": "golden-working",
+  "values": {
+    "relative_scale": 1.15,
+    "geometry_preset": "golden-adult-B"
+  },
+  "provenance": {
+    "relative_scale": {
+      "layer": "size_class",
+      "kind": "authored_default",
+      "source": "catalog.size_classes.large"
+    },
+    "geometry_preset": {
+      "layer": "breed",
+      "kind": "reviewed_working_preset",
+      "source": "catalog.breeds.golden"
+    }
+  },
+  "source": {
+    "breed": "golden",
+    "path": "outputs/golden-adult-head-v1/model-B.pkl",
+    "sha256": "9ccdb84a4d3f03604b3f49195a1b919224e92641c04640781fde535c10dbf122",
+    "selector": [
+      "exterior"
+    ],
+    "review_status": "outputs/golden-adult-head-v1/review-status.json",
+    "review_status_sha256": "a608f16458339098b98f14b30c7ed6709ba3683506acb5b65c8723bd080fcd07"
+  },
+  "display": {
+    "mode": "normalized",
+    "scene_scale": 3.2,
+    "normalized_max_extent_px": 320.0,
+    "relative_scale_applied": false,
+    "units": "authored_model_units_not_cm"
+  },
+  "selection": "WORKING_DEFAULT_USER_REVIEW_PENDING",
+  "limitations": [
+    "Size classes do not select skull geometry or infer weight.",
+    "Relative scale is authored display scale, not measured physical size.",
+    "Individual evidence is recorded, not independently authenticated.",
+    "No new skeleton, pose, animation or native pixel asset is generated."
+  ]
+}

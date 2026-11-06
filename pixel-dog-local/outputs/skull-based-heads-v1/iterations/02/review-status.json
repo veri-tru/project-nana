@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "heads-B.png",
+      "sha256": "d8c5e9c5a9978dca01cb096146408dea469f9f2a93ff783a8c016d300eedee32"
+    }
+  ],
+  "inputs": {},
+  "reviews": {
+    "visual": {
+      "status": "FAIL"
+    },
+    "technical": {
+      "status": "NOT_REVIEWED"
+    }
+  },
+  "findings": [
+    {
+      "id": "USER_PUFFED_FACES",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "detail": "User rejected uniformly swollen bun-like faces; global ellipse envelope inflated all breeds."
+    }
+  ],
+  "user_decision": "REJECTED",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "heads-B.png": "d8c5e9c5a9978dca01cb096146408dea469f9f2a93ff783a8c016d300eedee32"
+      },
+      "reason": "All faces became bun-like."
+    }
+  ]
+}

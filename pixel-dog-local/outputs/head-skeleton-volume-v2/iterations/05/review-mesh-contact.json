@@ -1,0 +1,570 @@
+{
+  "golden": {
+    "0": {
+      "samples": 172,
+      "minimum_signed_mesh_distance": 0.09720993041992188,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -18.737323760986328,
+        14.700000762939453,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -18.640113830566406,
+        14.700000762939453,
+        16.85000228881836
+      ],
+      "tmj_band": {
+        "samples": 32,
+        "minimum_signed_mesh_distance": 0.6427112815745123,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -16.270000457763672,
+          12.04916000366211,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -16.2664341505295,
+          12.691861390712008,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7790829746345649
+    },
+    "5": {
+      "samples": 103,
+      "minimum_signed_mesh_distance": 0.526702487224025,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -18.90523558193875,
+        13.811294397905018,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -18.43572998046875,
+        14.049999237060547,
+        16.85000228881836
+      ],
+      "tmj_band": {
+        "samples": 33,
+        "minimum_signed_mesh_distance": 0.6326399520333027,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -15.798477892057555,
+          12.056615054657604,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -15.794967482475112,
+          12.689245267288381,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7790829746345649
+    },
+    "10": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 30,
+        "minimum_signed_mesh_distance": 0.6239011918133521,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -15.978490557154164,
+          12.066352822463369,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -15.975028650993393,
+          12.690244409481382,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7790829746345649
+    },
+    "15": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 35,
+        "minimum_signed_mesh_distance": 0.6308892905092918,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -16.158666922098586,
+          12.060364397592238,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -16.15516621617739,
+          12.691243975592169,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7790829746345649
+    },
+    "20": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 33,
+        "minimum_signed_mesh_distance": 0.656678195039095,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -16.33763573596013,
+          12.038695355573395,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -16.270000457763672,
+          12.69188117980957,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7790829746345649
+    }
+  },
+  "whippet": {
+    "0": {
+      "samples": 76,
+      "minimum_signed_mesh_distance": 0.4841460114818026,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -16.942157745361328,
+        14.049999237060547,
+        11.849998474121094
+      ],
+      "nearest_upper_point": [
+        -16.482309358154616,
+        14.201448308424895,
+        11.849998474121094
+      ],
+      "tmj_band": {
+        "samples": 22,
+        "minimum_signed_mesh_distance": 0.6300163269042969,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -13.949999809265137,
+          12.06412124633789,
+          11.849998474121094
+        ],
+        "nearest_upper_point": [
+          -13.949999809265137,
+          12.694137573242188,
+          11.849998474121094
+        ]
+      },
+      "broadphase_field_threshold": 0.6943113327026367
+    },
+    "5": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 17,
+        "minimum_signed_mesh_distance": 0.6358206174591586,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.130090095432154,
+          12.060624445581354,
+          11.849998474121094
+        ],
+        "nearest_upper_point": [
+          -14.121750972387746,
+          12.696390374688125,
+          11.849998474121094
+        ]
+      },
+      "broadphase_field_threshold": 0.6943113327026367
+    },
+    "10": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 19,
+        "minimum_signed_mesh_distance": 0.6573473593076938,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.309190317422384,
+          12.041445048554884,
+          11.849998474121094
+        ],
+        "nearest_upper_point": [
+          -14.300568861683331,
+          12.698735867971783,
+          11.849998474121094
+        ]
+      },
+      "broadphase_field_threshold": 0.6943113327026367
+    },
+    "15": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 21,
+        "minimum_signed_mesh_distance": 0.6440167698440754,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -13.825718937679314,
+          12.054173166717808,
+          11.849998474121094
+        ],
+        "nearest_upper_point": [
+          -13.848859544769729,
+          12.697774061794783,
+          11.849998474121094
+        ]
+      },
+      "broadphase_field_threshold": 0.6943113327026367
+    },
+    "20": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 19,
+        "minimum_signed_mesh_distance": 0.6332639507122518,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.005415117815936,
+          12.061546013080022,
+          11.849998474121094
+        ],
+        "nearest_upper_point": [
+          -13.99710952545248,
+          12.69475549532676,
+          11.849998474121094
+        ]
+      },
+      "broadphase_field_threshold": 0.6943113327026367
+    }
+  },
+  "dachshund": {
+    "0": {
+      "samples": 132,
+      "minimum_signed_mesh_distance": 0.24785304821196397,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -17.696392059326172,
+        14.049999237060547,
+        14.350000381469727
+      ],
+      "nearest_upper_point": [
+        -17.459849704093397,
+        14.124018475700876,
+        14.350000381469727
+      ],
+      "tmj_band": {
+        "samples": 29,
+        "minimum_signed_mesh_distance": 0.6456222534179688,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.70000171661377,
+          12.044857025146484,
+          14.350000381469727
+        ],
+        "nearest_upper_point": [
+          -14.70000171661377,
+          12.690479278564453,
+          14.350000381469727
+        ]
+      },
+      "broadphase_field_threshold": 0.7515673250117216
+    },
+    "5": {
+      "samples": 65,
+      "minimum_signed_mesh_distance": 0.6523989956118926,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -18.039112165110875,
+        13.799581714565871,
+        14.350000381469727
+      ],
+      "nearest_upper_point": [
+        -17.436687469482422,
+        14.049999237060547,
+        14.350000381469727
+      ],
+      "tmj_band": {
+        "samples": 28,
+        "minimum_signed_mesh_distance": 0.6273447982086128,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.87936433349342,
+          12.063222300018136,
+          14.350000381469727
+        ],
+        "nearest_upper_point": [
+          -14.879056915147267,
+          12.690567022904498,
+          14.350000381469727
+        ]
+      },
+      "broadphase_field_threshold": 0.7515673250117216
+    },
+    "10": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 28,
+        "minimum_signed_mesh_distance": 0.6247702360558911,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -15.059645060636994,
+          12.065885207378964,
+          14.350000381469727
+        ],
+        "nearest_upper_point": [
+          -15.059338910092196,
+          12.69065536842475,
+          14.350000381469727
+        ]
+      },
+      "broadphase_field_threshold": 0.7515673250117216
+    },
+    "15": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 28,
+        "minimum_signed_mesh_distance": 0.6379180834125258,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -15.239471852854448,
+          12.052825480896043,
+          14.350000381469727
+        ],
+        "nearest_upper_point": [
+          -15.239159265475134,
+          12.690743487722814,
+          14.350000381469727
+        ]
+      },
+      "broadphase_field_threshold": 0.7515673250117216
+    },
+    "20": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 31,
+        "minimum_signed_mesh_distance": 0.6471933699491806,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -14.732732379520503,
+          12.043301870264711,
+          14.350000381469727
+        ],
+        "nearest_upper_point": [
+          -14.732415229555425,
+          12.690495162505968,
+          14.350000381469727
+        ]
+      },
+      "broadphase_field_threshold": 0.7515673250117216
+    }
+  },
+  "maltipoo": {
+    "0": {
+      "samples": 184,
+      "minimum_signed_mesh_distance": 0.04012298583984375,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -14.680255889892578,
+        14.700000762939453,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -14.640132904052734,
+        14.700000762939453,
+        16.85000228881836
+      ],
+      "tmj_band": {
+        "samples": 33,
+        "minimum_signed_mesh_distance": 0.6395033547914696,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -11.75,
+          12.05169677734375,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -11.751611945381311,
+          12.69119810058056,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7884170182087222
+    },
+    "5": {
+      "samples": 104,
+      "minimum_signed_mesh_distance": 0.49194982329945797,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -14.869327669866497,
+        13.814435933142226,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -14.437442779541016,
+        14.049999237060547,
+        16.85000228881836
+      ],
+      "tmj_band": {
+        "samples": 33,
+        "minimum_signed_mesh_distance": 0.6250686610343718,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -11.929768481999435,
+          12.06567838736868,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -11.931344044938854,
+          12.69074506269918,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7884170182087222
+    },
+    "10": {
+      "samples": 7,
+      "minimum_signed_mesh_distance": 0.9039915948411557,
+      "inside_gt_001": 0,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -15.190859008725312,
+        13.549842468553303,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -14.424536095619379,
+        14.029373485685973,
+        16.85000228881836
+      ],
+      "tmj_band": {
+        "samples": 32,
+        "minimum_signed_mesh_distance": 0.6263536298712098,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -12.110071468257804,
+          12.063938937575019,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -12.111650272067738,
+          12.69029057765539,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7884170182087222
+    },
+    "15": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 35,
+        "minimum_signed_mesh_distance": 0.6433484819132446,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -12.289536744179761,
+          12.04649166622601,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -12.29115838750764,
+          12.689838104354795,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7884170182087222
+    },
+    "20": {
+      "samples": 0,
+      "tmj_band": {
+        "samples": 35,
+        "minimum_signed_mesh_distance": 0.6406137467367448,
+        "inside_gt_001": 0,
+        "inside_gt_01": 0,
+        "inside_gt_035": 0,
+        "nearest_search_certified": true,
+        "worst_sample": [
+          -11.788555414717145,
+          12.050489197987647,
+          16.85000228881836
+        ],
+        "nearest_upper_point": [
+          -11.790170159392657,
+          12.691100909641222,
+          16.85000228881836
+        ]
+      },
+      "broadphase_field_threshold": 0.7884170182087222
+    }
+  }
+}

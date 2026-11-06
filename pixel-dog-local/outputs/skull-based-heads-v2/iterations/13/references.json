@@ -1,0 +1,55 @@
+{
+  "references": [
+    {
+      "role": "skeleton",
+      "path": "../head-skeleton-volume-v2/geometry.pkl",
+      "sha256": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154"
+    },
+    {
+      "role": "skeleton_profile",
+      "path": "../head-skeleton-volume-v2/profiles.json",
+      "sha256": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323"
+    },
+    {
+      "role": "round_eyes_style",
+      "path": "../deformation-b-round-eyes-v1/round-eyes-before-after.png",
+      "sha256": "fc7f9a5626f54bc1e9e9165bc1f6187addaace903e7a8fdb7588c6adbd8fbd9c"
+    },
+    {
+      "role": "golden_photo",
+      "path": "../deformation-b-face-v2/golden-reference.png",
+      "sha256": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef"
+    },
+    {
+      "role": "dachshund_photo",
+      "path": "../../private-data/breed-standing-pair-v1/dachshund-source.png",
+      "sha256": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc"
+    },
+    {
+      "role": "whippet_photo",
+      "path": "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg",
+      "sha256": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2"
+    },
+    {
+      "role": "maltipoo_basic_photo",
+      "path": "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg",
+      "sha256": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7"
+    },
+    {
+      "role": "user_selected_black_nose_only",
+      "path": "../skull-based-heads-v1/heads-B.png",
+      "sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440"
+    },
+    {
+      "role": "prior_black_nose_geometry",
+      "path": "../skull-based-heads-v1/geometry.pkl",
+      "sha256": "f332953619225f439f62ba955f7d01ca9c73ac24c374f1ae06f7069e6b637b89"
+    }
+  ],
+  "notes": [
+    "Skeleton geometry is a direct generation input; photographs and style plate are manually inspected design references.",
+    "No original photo pixels are copied into the candidate boards.",
+    "User selected first Maltipoo photo for basic exterior; second photo is reserved for later mouth and tongue work.",
+    "Prior v1 is user-rejected as a complete face. User explicitly selected only its black nose for restoration; it is a construction seed and comparison source, not inherited visual approval."
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "whippet": {
+    "name": "휘핏",
+    "source": "https://www.ukcdogs.com/whippet",
+    "anchors": {
+      "neck_mount": [
+        0,
+        33,
+        -10
+      ],
+      "skull": [
+        0,
+        21,
+        0
+      ],
+      "crown": [
+        0,
+        9,
+        -3
+      ],
+      "occiput": [
+        0,
+        13,
+        -10
+      ],
+      "nose_bottom": [
+        0,
+        26.7,
+        28
+      ],
+      "stop": [
+        0,
+        18,
+        8
+      ],
+      "nose": [
+        0,
+        25,
+        28
+      ],
+      "upper_lip": [
+        0,
+        27,
+        27
+      ],
+      "chin": [
+        0,
+        30,
+        26
+      ],
+      "L_brow": [
+        7.800000000000001,
+        10,
+        -0.5
+      ],
+      "L_eye": [
+        8,
+        19,
+        7
+      ],
+      "L_eye_inner": [
+        5.4,
+        19.5,
+        7.8
+      ],
+      "L_eye_outer": [
+        10.6,
+        18.5,
+        6
+      ],
+      "L_upper_lid": [
+        8,
+        17.55,
+        7.5
+      ],
+      "L_lower_lid": [
+        8,
+        20.1,
+        7.5
+      ],
+      "L_pupil": [
+        8,
+        19,
+        7.6
+      ],
+      "L_temple": [
+        12,
+        15,
+        -3
+      ],
+      "L_cheek": [
+        10.56,
+        27,
+        0
+      ],
+      "L_nose_wing": [
+        3.7,
+        25,
+        27.2
+      ],
+      "L_ear_root": [
+        10.8,
+        15,
+        -5
+      ],
+      "L_jaw_hinge": [
+        9.600000000000001,
+        24,
+        -7
+      ],
+      "L_mouth_corner": [
+        8.16,
+        27,
+        6
+      ],
+      "L_muzzle_side": [
+        5.3,
+        25,
+        16
+      ],
+      "L_jaw_side": [
+        4.664,
+        29,
+        15
+      ],
+      "L_ear_fold": [
+        16,
+        13,
+        -10
+      ],
+      "L_ear_tip": [
+        16,
+        18,
+        -15
+      ],
+      "R_brow": [
+        -7.800000000000001,
+        10,
+        -0.5
+      ],
+      "R_eye": [
+        -8,
+        19,
+        7
+      ],
+      "R_eye_inner": [
+        -5.4,
+        19.5,
+        7.8
+      ],
+      "R_eye_outer": [
+        -10.6,
+        18.5,
+        6
+      ],
+      "R_upper_lid": [
+        -8,
+        17.55,
+        7.5
+      ],
+      "R_lower_lid": [
+        -8,
+        20.1,
+        7.5
+      ],
+      "R_pupil": [
+        -8,
+        19,
+        7.6
+      ],
+      "R_temple": [
+        -12,
+        15,
+        -3
+      ],
+      "R_cheek": [
+        -10.56,
+        27,
+        0
+      ],
+      "R_nose_wing": [
+        -3.7,
+        25,
+        27.2
+      ],
+      "R_ear_root": [
+        -10.8,
+        15,
+        -5
+      ],
+      "R_jaw_hinge": [
+        -9.600000000000001,
+        24,
+        -7
+      ],
+      "R_mouth_corner": [
+        -8.16,
+        27,
+        6
+      ],
+      "R_muzzle_side": [
+        -5.3,
+        25,
+        16
+      ],
+      "R_jaw_side": [
+        -4.664,
+        29,
+        15
+      ],
+      "R_ear_fold": [
+        -16,
+        13,
+        -10
+      ],
+      "R_ear_tip": [
+        -16,
+        18,
+        -15
+      ]
+    },
+    "parents": {
+      "neck_mount": "body.head",
+      "skull": "neck_mount",
+      "crown": "skull",
+      "occiput": "skull",
+      "stop": "skull",
+      "nose": "stop",
+      "nose_bottom": "nose",
+      "upper_lip": "stop",
+      "jaw_axis": "skull",
+      "chin": "jaw_axis",
+      "L_brow": "skull",
+      "L_eye": "skull",
+      "L_eye_inner": "L_eye",
+      "L_eye_outer": "L_eye",
+      "L_upper_lid": "L_eye",
+      "L_lower_lid": "L_eye",
+      "L_pupil": "L_eye",
+      "L_temple": "skull",
+      "L_cheek": "skull",
+      "L_nose_wing": "nose",
+      "L_ear_root": "skull",
+      "L_jaw_hinge": "skull",
+      "L_mouth_corner": "skull",
+      "L_muzzle_side": "stop",
+      "L_jaw_side": "jaw_axis",
+      "L_ear_fold": "L_ear_root",
+      "L_ear_tip": "L_ear_fold",
+      "R_brow": "skull",
+      "R_eye": "skull",
+      "R_eye_inner": "R_eye",
+      "R_eye_outer": "R_eye",
+      "R_upper_lid": "R_eye",
+      "R_lower_lid": "R_eye",
+      "R_pupil": "R_eye",
+      "R_temple": "skull",
+      "R_cheek": "skull",
+      "R_nose_wing": "nose",
+      "R_ear_root": "skull",
+      "R_jaw_hinge": "skull",
+      "R_mouth_corner": "skull",
+      "R_muzzle_side": "stop",
+      "R_jaw_side": "jaw_axis",
+      "R_ear_fold": "R_ear_root",
+      "R_ear_tip": "R_ear_fold"
+    },
+    "jaw_axis": [
+      "R_jaw_hinge",
+      "L_jaw_hinge"
+    ]
+  },
+  "dachshund": {
+    "name": "닥스훈트",
+    "source": "https://www.ukcdogs.com/dachshund",
+    "anchors": {
+      "neck_mount": [
+        0,
+        33,
+        -10
+      ],
+      "skull": [
+        0,
+        21,
+        0
+      ],
+      "crown": [
+        0,
+        9,
+        -3
+      ],
+      "occiput": [
+        0,
+        13,
+        -10
+      ],
+      "nose_bottom": [
+        0,
+        26.7,
+        30
+      ],
+      "stop": [
+        0,
+        19,
+        8
+      ],
+      "nose": [
+        0,
+        25,
+        30
+      ],
+      "upper_lip": [
+        0,
+        27,
+        29
+      ],
+      "chin": [
+        0,
+        31,
+        28
+      ],
+      "L_brow": [
+        8.450000000000001,
+        10,
+        -0.5
+      ],
+      "L_eye": [
+        8.5,
+        20,
+        7
+      ],
+      "L_eye_inner": [
+        6.2,
+        20.5,
+        7.8
+      ],
+      "L_eye_outer": [
+        10.8,
+        19.5,
+        6
+      ],
+      "L_upper_lid": [
+        8.5,
+        18.55,
+        7.5
+      ],
+      "L_lower_lid": [
+        8.5,
+        21.1,
+        7.5
+      ],
+      "L_pupil": [
+        8.5,
+        20,
+        7.6
+      ],
+      "L_temple": [
+        13,
+        15,
+        -3
+      ],
+      "L_cheek": [
+        11.44,
+        27,
+        0
+      ],
+      "L_nose_wing": [
+        4.0,
+        25,
+        29.2
+      ],
+      "L_ear_root": [
+        11.700000000000001,
+        14,
+        -5
+      ],
+      "L_jaw_hinge": [
+        10.4,
+        24,
+        -7
+      ],
+      "L_mouth_corner": [
+        8.84,
+        27,
+        6
+      ],
+      "L_muzzle_side": [
+        6.0,
+        25,
+        16
+      ],
+      "L_jaw_side": [
+        5.28,
+        30,
+        15
+      ],
+      "L_ear_fold": [
+        18,
+        23,
+        -11
+      ],
+      "L_ear_tip": [
+        15,
+        38,
+        -7
+      ],
+      "R_brow": [
+        -8.450000000000001,
+        10,
+        -0.5
+      ],
+      "R_eye": [
+        -8.5,
+        20,
+        7
+      ],
+      "R_eye_inner": [
+        -6.2,
+        20.5,
+        7.8
+      ],
+      "R_eye_outer": [
+        -10.8,
+        19.5,
+        6
+      ],
+      "R_upper_lid": [
+        -8.5,
+        18.55,
+        7.5
+      ],
+      "R_lower_lid": [
+        -8.5,
+        21.1,
+        7.5
+      ],
+      "R_pupil": [
+        -8.5,
+        20,
+        7.6
+      ],
+      "R_temple": [
+        -13,
+        15,
+        -3
+      ],
+      "R_cheek": [
+        -11.44,
+        27,
+        0
+      ],
+      "R_nose_wing": [
+        -4.0,
+        25,
+        29.2
+      ],
+      "R_ear_root": [
+        -11.700000000000001,
+        14,
+        -5
+      ],
+      "R_jaw_hinge": [
+        -10.4,
+        24,
+        -7
+      ],
+      "R_mouth_corner": [
+        -8.84,
+        27,
+        6
+      ],
+      "R_muzzle_side": [
+        -6.0,
+        25,
+        16
+      ],
+      "R_jaw_side": [
+        -5.28,
+        30,
+        15
+      ],
+      "R_ear_fold": [
+        -18,
+        23,
+        -11
+      ],
+      "R_ear_tip": [
+        -15,
+        38,
+        -7
+      ]
+    },
+    "parents": {
+      "neck_mount": "body.head",
+      "skull": "neck_mount",
+      "crown": "skull",
+      "occiput": "skull",
+      "stop": "skull",
+      "nose": "stop",
+      "nose_bottom": "nose",
+      "upper_lip": "stop",
+      "jaw_axis": "skull",
+      "chin": "jaw_axis",
+      "L_brow": "skull",
+      "L_eye": "skull",
+      "L_eye_inner": "L_eye",
+      "L_eye_outer": "L_eye",
+      "L_upper_lid": "L_eye",
+      "L_lower_lid": "L_eye",
+      "L_pupil": "L_eye",
+      "L_temple": "skull",
+      "L_cheek": "skull",
+      "L_nose_wing": "nose",
+      "L_ear_root": "skull",
+      "L_jaw_hinge": "skull",
+      "L_mouth_corner": "skull",
+      "L_muzzle_side": "stop",
+      "L_jaw_side": "jaw_axis",
+      "L_ear_fold": "L_ear_root",
+      "L_ear_tip": "L_ear_fold",
+      "R_brow": "skull",
+      "R_eye": "skull",
+      "R_eye_inner": "R_eye",
+      "R_eye_outer": "R_eye",
+      "R_upper_lid": "R_eye",
+      "R_lower_lid": "R_eye",
+      "R_pupil": "R_eye",
+      "R_temple": "skull",
+      "R_cheek": "skull",
+      "R_nose_wing": "nose",
+      "R_ear_root": "skull",
+      "R_jaw_hinge": "skull",
+      "R_mouth_corner": "skull",
+      "R_muzzle_side": "stop",
+      "R_jaw_side": "jaw_axis",
+      "R_ear_fold": "R_ear_root",
+      "R_ear_tip": "R_ear_fold"
+    },
+    "jaw_axis": [
+      "R_jaw_hinge",
+      "L_jaw_hinge"
+    ]
+  },
+  "golden": {
+    "name": "골든 리트리버",
+    "source": "https://www.royalkennelclub.org.uk/breed-standards/gundog/retriever-golden/",
+    "anchors": {
+      "neck_mount": [
+        0,
+        33,
+        -10
+      ],
+      "skull": [
+        0,
+        21,
+        0
+      ],
+      "crown": [
+        0,
+        9,
+        -3
+      ],
+      "occiput": [
+        0,
+        13,
+        -10
+      ],
+      "nose_bottom": [
+        0,
+        26.7,
+        25
+      ],
+      "stop": [
+        0,
+        16,
+        8
+      ],
+      "nose": [
+        0,
+        25,
+        25
+      ],
+      "upper_lip": [
+        0,
+        27,
+        24
+      ],
+      "chin": [
+        0,
+        34,
+        23
+      ],
+      "L_brow": [
+        11.05,
+        10,
+        -0.5
+      ],
+      "L_eye": [
+        11,
+        20,
+        7
+      ],
+      "L_eye_inner": [
+        8.3,
+        20.5,
+        7.8
+      ],
+      "L_eye_outer": [
+        13.7,
+        19.5,
+        6
+      ],
+      "L_upper_lid": [
+        11,
+        18.55,
+        7.5
+      ],
+      "L_lower_lid": [
+        11,
+        21.1,
+        7.5
+      ],
+      "L_pupil": [
+        11,
+        20,
+        7.6
+      ],
+      "L_temple": [
+        17,
+        15,
+        -3
+      ],
+      "L_cheek": [
+        14.96,
+        27,
+        0
+      ],
+      "L_nose_wing": [
+        5.5,
+        25,
+        24.2
+      ],
+      "L_ear_root": [
+        15.3,
+        19,
+        -5
+      ],
+      "L_jaw_hinge": [
+        13.600000000000001,
+        24,
+        -7
+      ],
+      "L_mouth_corner": [
+        11.56,
+        27,
+        6
+      ],
+      "L_muzzle_side": [
+        9,
+        25,
+        16
+      ],
+      "L_jaw_side": [
+        7.92,
+        33,
+        15
+      ],
+      "L_ear_fold": [
+        21,
+        23,
+        -9
+      ],
+      "L_ear_tip": [
+        18,
+        32,
+        -6
+      ],
+      "R_brow": [
+        -11.05,
+        10,
+        -0.5
+      ],
+      "R_eye": [
+        -11,
+        20,
+        7
+      ],
+      "R_eye_inner": [
+        -8.3,
+        20.5,
+        7.8
+      ],
+      "R_eye_outer": [
+        -13.7,
+        19.5,
+        6
+      ],
+      "R_upper_lid": [
+        -11,
+        18.55,
+        7.5
+      ],
+      "R_lower_lid": [
+        -11,
+        21.1,
+        7.5
+      ],
+      "R_pupil": [
+        -11,
+        20,
+        7.6
+      ],
+      "R_temple": [
+        -17,
+        15,
+        -3
+      ],
+      "R_cheek": [
+        -14.96,
+        27,
+        0
+      ],
+      "R_nose_wing": [
+        -5.5,
+        25,
+        24.2
+      ],
+      "R_ear_root": [
+        -15.3,
+        19,
+        -5
+      ],
+      "R_jaw_hinge": [
+        -13.600000000000001,
+        24,
+        -7
+      ],
+      "R_mouth_corner": [
+        -11.56,
+        27,
+        6
+      ],
+      "R_muzzle_side": [
+        -9,
+        25,
+        16
+      ],
+      "R_jaw_side": [
+        -7.92,
+        33,
+        15
+      ],
+      "R_ear_fold": [
+        -21,
+        23,
+        -9
+      ],
+      "R_ear_tip": [
+        -18,
+        32,
+        -6
+      ]
+    },
+    "parents": {
+      "neck_mount": "body.head",
+      "skull": "neck_mount",
+      "crown": "skull",
+      "occiput": "skull",
+      "stop": "skull",
+      "nose": "stop",
+      "nose_bottom": "nose",
+      "upper_lip": "stop",
+      "jaw_axis": "skull",
+      "chin": "jaw_axis",
+      "L_brow": "skull",
+      "L_eye": "skull",
+      "L_eye_inner": "L_eye",
+      "L_eye_outer": "L_eye",
+      "L_upper_lid": "L_eye",
+      "L_lower_lid": "L_eye",
+      "L_pupil": "L_eye",
+      "L_temple": "skull",
+      "L_cheek": "skull",
+      "L_nose_wing": "nose",
+      "L_ear_root": "skull",
+      "L_jaw_hinge": "skull",
+      "L_mouth_corner": "skull",
+      "L_muzzle_side": "stop",
+      "L_jaw_side": "jaw_axis",
+      "L_ear_fold": "L_ear_root",
+      "L_ear_tip": "L_ear_fold",
+      "R_brow": "skull",
+      "R_eye": "skull",
+      "R_eye_inner": "R_eye",
+      "R_eye_outer": "R_eye",
+      "R_upper_lid": "R_eye",
+      "R_lower_lid": "R_eye",
+      "R_pupil": "R_eye",
+      "R_temple": "skull",
+      "R_cheek": "skull",
+      "R_nose_wing": "nose",
+      "R_ear_root": "skull",
+      "R_jaw_hinge": "skull",
+      "R_mouth_corner": "skull",
+      "R_muzzle_side": "stop",
+      "R_jaw_side": "jaw_axis",
+      "R_ear_fold": "R_ear_root",
+      "R_ear_tip": "R_ear_fold"
+    },
+    "jaw_axis": [
+      "R_jaw_hinge",
+      "L_jaw_hinge"
+    ]
+  }
+}

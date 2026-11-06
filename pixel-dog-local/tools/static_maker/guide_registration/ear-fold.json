@@ -1,0 +1,143 @@
+{
+  "002": {
+    "parent_sha256": "7ef2cdffd204772c289f16999adfd846cfe36b1d5e4c4be3a05e047ce03bf09e",
+    "observation": "The near ear hangs below the eye, lies over the cheek, and has a softly rounded free end. The root blends into the upper head.",
+    "part": {
+      "name": "near-ear",
+      "shape": [
+        [
+          45,
+          14
+        ],
+        [
+          47,
+          14
+        ],
+        [
+          48,
+          16
+        ],
+        [
+          49,
+          17
+        ],
+        [
+          48,
+          19
+        ],
+        [
+          47,
+          20
+        ],
+        [
+          46,
+          20
+        ],
+        [
+          44,
+          19
+        ],
+        [
+          43,
+          16
+        ]
+      ],
+      "fill": "grey",
+      "markings": [
+        {
+          "color": "light",
+          "polygon": [
+            [
+              45,
+              14
+            ],
+            [
+              46,
+              14
+            ],
+            [
+              47,
+              15
+            ],
+            [
+              45,
+              15
+            ],
+            [
+              44,
+              16
+            ]
+          ]
+        },
+        {
+          "color": "dark",
+          "polygon": [
+            [
+              48,
+              16
+            ],
+            [
+              49,
+              17
+            ],
+            [
+              48,
+              19
+            ],
+            [
+              47,
+              20
+            ],
+            [
+              45,
+              19
+            ],
+            [
+              47,
+              19
+            ],
+            [
+              48,
+              18
+            ]
+          ]
+        }
+      ]
+    },
+    "free_edge": [
+      [
+        44,
+        19
+      ],
+      [
+        46,
+        20
+      ],
+      [
+        47,
+        20
+      ],
+      [
+        48,
+        19
+      ],
+      [
+        48,
+        18
+      ],
+      [
+        49,
+        17
+      ],
+      [
+        48,
+        16
+      ]
+    ],
+    "edge_stops": [
+      4,
+      5,
+      7
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/layered_native_technical",
+  "artifact_hashes_verified": 5,
+  "input_hashes_verified": 42,
+  "all_five_pngs_byte_identical_on_reproduction": true,
+  "native_projection_equals_reviewed_renderer_all_views": true,
+  "source_arrays_unchanged": true,
+  "saved_board_nearest_6x_and_native_1x_all_15_cells": true,
+  "p3_only_outline_recolor_pixels": 819,
+  "frames": {
+    "P1-soft": [
+      {
+        "opaque_pixels": 1286,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1263,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 4
+      },
+      {
+        "opaque_pixels": 1638,
+        "opaque_colors": 5
+      }
+    ],
+    "P2-depth": [
+      {
+        "opaque_pixels": 1286,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1263,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 4
+      },
+      {
+        "opaque_pixels": 1638,
+        "opaque_colors": 5
+      }
+    ],
+    "P3-contrast": [
+      {
+        "opaque_pixels": 1286,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1263,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 5
+      },
+      {
+        "opaque_pixels": 1234,
+        "opaque_colors": 4
+      },
+      {
+        "opaque_pixels": 1638,
+        "opaque_colors": 5
+      }
+    ]
+  }
+}

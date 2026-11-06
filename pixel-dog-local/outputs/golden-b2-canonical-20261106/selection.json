@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "user_instruction": "A로",
+  "selected_variant": "A",
+  "selected_row": 1,
+  "views": [
+    "SIDE",
+    "3-4",
+    "FRONT",
+    "BACK",
+    "TOP"
+  ],
+  "artifact": "comparison.png",
+  "sha256": "7f3a47af0bcb09237bf2881a1bd5221e8a19eb1c4fa2669e584db5e41575d31f",
+  "scope": "Golden B2 concept variant A, first row of revision02; B/C remain unselected. Not approval of native64 runtime assets or a switch to geometry model A.",
+  "geometry_reference": "adult-B",
+  "style_id": "breed-head-soft-B2-v1"
+}

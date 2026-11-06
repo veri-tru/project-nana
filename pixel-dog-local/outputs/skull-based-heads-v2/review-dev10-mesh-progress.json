@@ -1,0 +1,326 @@
+{
+  "scope": "B actual saved surface; no analytic containment or full reproduction",
+  "hashes": {
+    "build.py": "2f0fa0573af072a9fb8bd7702fbb7aae6bfaad5a489083bd49ec8f756dc9747f",
+    "geometry.pkl": "643a4b1b7444ca71ff64cc4c7dac5e9babb51c4d056a5cd74bc6bed70b7c8931",
+    "heads-B.png": "7cfa4ab5dce70cf80479a1756f99fd434df2544783f8f4db1f02e838a7a675f1"
+  },
+  "breeds": {
+    "golden": {
+      "topology": {
+        "skin": {
+          "vertices": 52216,
+          "faces": 104428,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1648,
+          "faces": 3292,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1646,
+          "faces": 3288,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 31802,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2988,
+          "outside_samples": 1952,
+          "crossing_faces": 193,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2910,
+          "outside_samples": 2024,
+          "crossing_faces": 179,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 547,
+        "old_count": 547,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "whippet": {
+      "topology": {
+        "skin": {
+          "vertices": 38511,
+          "faces": 77018,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1136,
+          "faces": 2268,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1138,
+          "faces": 2272,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 29996,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2123,
+          "outside_samples": 1281,
+          "crossing_faces": 156,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2099,
+          "outside_samples": 1311,
+          "crossing_faces": 146,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 319,
+        "old_count": 319,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "dachshund": {
+      "topology": {
+        "skin": {
+          "vertices": 52602,
+          "faces": 105200,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1340,
+          "faces": 2676,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1344,
+          "faces": 2684,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 30974,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2467,
+          "outside_samples": 1549,
+          "crossing_faces": 169,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2452,
+          "outside_samples": 1576,
+          "crossing_faces": 161,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 431,
+        "old_count": 431,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "maltipoo": {
+      "topology": {
+        "skin": {
+          "vertices": 45568,
+          "faces": 91132,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 2732,
+          "faces": 5460,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 2736,
+          "faces": 5468,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 27224,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 5119,
+          "outside_samples": 3073,
+          "crossing_faces": 236,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 5147,
+          "outside_samples": 3057,
+          "crossing_faces": 232,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 324,
+        "old_count": 324,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    }
+  }
+}
