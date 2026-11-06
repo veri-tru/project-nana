@@ -41,7 +41,7 @@ def make_server(db,dog,port=8765,engine=None):
             if not self.same_origin():return self.send_json({'error':'local origin required'},403)
             path=urlparse(self.path).path
             if path=='/':
-                data=(ROOT/'editor.html').read_text().replace('__SESSION_TOKEN__',token).encode()
+                data=(ROOT/'editor.html').read_text(encoding='utf-8').replace('__SESSION_TOKEN__',token).encode()
                 self.send_response(200);self.send_header('Content-Type','text/html; charset=utf-8');self.send_header('Content-Length',str(len(data)));self.send_header('Cache-Control','no-store');self.end_headers();self.wfile.write(data);return
             if path!='/api/state':return self.send_json({'error':'not found'},404)
             store=store_factory(db)

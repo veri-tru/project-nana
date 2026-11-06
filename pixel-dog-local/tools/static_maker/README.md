@@ -1,4 +1,99 @@
+현재 통합 명령은 `python -m tools.dog_engine body -- ...`이며 기존 CLI도 유지한다. 이 제작기는 2D 작화 프로필을 사용하고 머리 3D 메시와 자동 연결하지 않는다. 문서의 B2/C2 출력은 과거 구현 이름이며 현재 머리 B2 정본의 화풍 승인과 다르다. [엔진 구조](../../docs/engine-organization.md).
+
 # Nana 정적 제작기 0.3
+
+휘핏(guide-054), 닥스훈트(guide-016), 골든 리트리버(guide-002)는 앉기 수정 후보를 별도로 등록했다. 이 디렉터리에서 `python render_v03.py render-standing guide-054 --pose seated-candidate --out ../../private-data/whippet-seated-preview`로 새 폴더에 출력한다. B 프로필은 `seated_limbs`에서 어깨·팔꿈치·앞발목·발가락 뿌리·발끝 또는 고관절·무릎·비절·발가락 뿌리·발끝의 (x, y, 반경)을 지정한다. 64×64에서 분절의 반경을 보간한 면이 다리와 발을 그린다. [세 개체 비교](../../private-data/seated-rebuild-r1/comparison.png).
+
+### 나나의 갸웃한 앉기 · 중간 음영
+
+이 폴더에서 아래 명령을 실행하면 등록된 나나 관찰 DB와 선택 프로필로 64×64 PNG를 재생성한다. 출력에는 새 경로를 사용한다.
+
+```sh
+python render_v03.py render-standing nana-review-20261103 --pose seated --stages --out ../../private-data/nana-seated-check
+```
+
+`standing.png`는 기존 CLI의 공통 파일명이다. `review.json`에 실제 자세 `seated`, 선택 상태, 관찰 revision, 작화 및 출력 해시를 남긴다. `--pose`를 생략하면 나나의 서기 기준본을 출력한다. `render-roster`는 나나 폴더에 기존 기본 자세와 `seated/`를 함께 발행한다.
+
+**두 털색과 전용 음영 두 색.** 64×64 v2 프로필에서 `coat_lighting`을 선택하면 부위 채움·무늬·얼굴 털색은 `white`와 `grey`를 쓴다. 실제 RGB는 개체 팔레트에서 지정한다. 각 음영 영역은 `part`, `base`, `runs`로 작성한다. 예를 들어 `{"part":"haunch","base":"grey","runs":[[48,43,45],[49,42,45]]}`는 최종 격자의 y=48에서 x=43~45, 다음 줄에서 x=42~45에 이어지는 면이다. 엔진은 상하좌우로 연결됐는지 검사하고 보이는 부위와 해당 털색 안에서만 `white → light`, `grey → dark`를 적용한다. 눈·코·입 픽셀은 보호한다. 이 방식에서는 기존 `shadows`를 비우고, 눈·코·입의 추가 세부 표현은 head의 `details.feature`로 지정한다.
+
+**작화 기준.** `coat_lighting.direction`에 화면 기준 `upper-left` 또는 `upper-right` 중 하나를 지정하고 그 방향에 맞게 영역을 그린다. 나나의 ②는 왼쪽 위 광원, 중간 깊이 옆구리 그늘, 짧은 눈가 음영, 턱을 따라 이어지는 목털과 흰 가슴 경계를 사용한다. 넓은 털무늬는 사진 속 양쪽 몸통을 대조하고, 떨어진 밝은 점은 눈 반사인지 털무늬인지 구분한다. 귀와 정수리의 붙은 털끝은 원본 1배에서 확인한다. 머리 비율과 구체적인 음영 좌표는 자세별 작화값이다.
+
+가이드 25개체의 현재 얼굴 후보는 `private-data/face-recheck-v4`에 있다. 사진에서 관찰된 눈·코·입을 최종 격자에 투영한 뒤 실제 어두운 눈동자와 코·입선이 각각 표시되는지 검사한다. 가려진 눈과 확인하기 어려운 입선은 생략한다. 기존 개체와 복구 선택본은 이전 등록을 사용한다.
+
+전신 윤곽 재등록 실험은 다음 명령으로 재출력한다. 사진과 관찰 DB가 포함된 가이드 등록 폴더를 입력하고 새 출력 폴더를 지정한다. 세 머리 배율에서 같은 개체의 몸통·다리 입력과 팔레트가 유지된다.
+
+```sh
+python body_pilot.py ../../private-data/face-recheck-v4 ../../private-data/body-pilot-repeat
+python body_pilot.py ../../private-data/face-recheck-v4 ../../private-data/face-tone-repeat --face-shading
+python body_pilot.py ../../private-data/face-recheck-v4 ../../private-data/face-details-repeat --face-details
+python body_pilot.py ../../private-data/face-recheck-v4 ../../private-data/ear-fold-repeat --ear-fold
+```
+
+`--face-details`는 위 사진에서 R4 C의 프로필을 재생성하고 저장한 해시가 맞는지 확인한다. 등록된 두 개체에만 입·눈썹 비교를 적용한다. 새 A·B·C는 각 개체의 입 안쪽 너비 또는 눈썹 한쪽의 색 픽셀 수를 1·2·3칸으로 달리한다.
+
+`--ear-fold`는 골든 리트리버의 입 B를 재생성해 등록 해시를 확인한 뒤, 가까운 귀를 머리에 붙은 독립 부위로 추가한다. 세 안에서 귀의 위치와 면적을 고정하고 볼과 맞닿은 진한 선의 길이만 바꾼다.
+
+
+골든 입 벌림 비교는 귀 B 프로필을 입력으로 사용한다. 등록 자료의 입꼬리와 아래턱을 고정하고 입 앞쪽의 틈을 1·2·3칸으로 달리한다.
+
+```sh
+python mouth_study.py ../../private-data/golden-ear-r2/002/B.json ../../private-data/face-recheck-v4/profiles.sqlite ../../private-data/mouth-opening-repeat
+```
+
+## 등록 개체의 64×64 서기 출력
+
+골든 측면의 단순화 실험은 선택한 입 C를 입력으로 사용한다. 등록 자료에서 꼬리·가슴에 공통으로 남길 면과 단계별로 생략할 털 음영을 나누고, 실루엣·구강 틈과 지정된 식별 부위의 픽셀이 기준과 같은지 검사한다.
+
+```sh
+python coat_study.py ../../private-data/golden-mouth-open-r3/C.json ../../private-data/face-recheck-v4/profiles.sqlite guide_registration/golden-coat-budget.json ../../private-data/coat-budget-repeat
+```
+
+등록된 30개체는 관찰 DB와 작업 프로필을 개체 ID로 찾는다. 다음 명령은 이 폴더에서 실행하며 출력 위치는 새 폴더로 지정한다.
+
+```sh
+python render_v03.py render-standing guide-008 --out ../../private-data/preview-008
+python render_v03.py render-roster --out ../../private-data/preview-all
+```
+
+전체 출력은 각 개체의 관찰 기록, 작화 파일, 완성 픽셀 해시를 검사하고 30건이 모두 맞으면 저장한다. `index.json`과 개별 `review.json`에 사진 자세와 선택 상태를 기록한다. 가이드 신규 25개체는 후보 B를 작업 기준으로 쓴다. 나나·실개체 02·03과 기존 가이드 016·054는 각자의 기존 DB를 사용한다. `render-standing`은 기존 명령 이름이며 출력 자세는 프로필의 `pose`를 따른다.
+
+가이드 25개체의 비공개 입력을 다시 만들 때는 제공받은 가이드 PDF와 322종 표가 든 보조 ZIP을 사용한다. 사진은 캡션 ID와 지면 위치로 연결한다. `guide_registration/landmarks.json`은 사진을 보고 수동 등록한 부위별 윤곽, 눈·코·입, 귀 안쪽 선과 팔레트다. 좌표 범위 0~64는 사진 가로·세로 전체에 각각 대응한다. 실제 픽셀로 옮길 때 사진의 종횡비를 복원한다. 윤곽 안의 명암을 네 내부색으로 묶으며, A·B·C는 귀 안쪽 선의 색만 바꾼다. 각 후보에서 표시하는 눈과 코가 최종 픽셀에 실제로 남는지 검사한다.
+
+```sh
+python register_guide.py --pdf <가이드PDF> --tables <보조ZIP> --out ../../private-data/guide-poses-final
+python guide_gallery.py ../../private-data/guide-poses-final
+```
+
+PDF를 읽는 등록 단계는 PyMuPDF 1.28.0에서 검증했다. 비교판은 기존 휘핏·닥스훈트 작업 폴더도 사용한다. 일반 재출력에는 등록된 비공개 프로필과 SQLite 파일이 필요하다.
+
+이 폴더에서 등록된 관찰 DB와 해당 개체의 서기 작화 JSON으로 실행한다.
+
+```sh
+python render_v03.py --db <관찰DB> render-standing <개체ID> --profile <서기작화JSON> --out <새폴더>
+```
+
+`render-standing`은 개체 ID, 관찰 revision과 SHA-256을 확인한 뒤 64×64 `standing.png`를 출력한다. `review.json`에 포맷 버전, DB 출처와 작화 데이터·RGBA·PNG 해시를 기록한다. 관찰 DB는 읽기 전용으로 연다. `format`이 `standing64-v1`인 기존 프로필은 기존 출력 방식을 사용한다.
+
+### standing64-v2 작화 프로필
+
+휘핏(`guide-054`)과 닥스훈트(`guide-016`)의 작업 기준본은 위 명령에서 `--profile <서기작화JSON>`을 생략해 출력한다. 관찰 DB는 `private-data/breed-standing-pair-v1/profiles.sqlite`를 쓴다. `standing-baselines.json`은 개체별 작화 파일과 기대 해시를 지정한다. 원본 파일을 찾지 못하거나 작화 데이터 또는 출력 픽셀이 달라지면 저장 전에 중단한다. 두 기준본은 머리 ③이 적용된 코·입 수정본이며 입선의 중간 농도는 작업용이다. 다음 시안을 만들 때에는 이 프로필의 사본에서 수정하고 기준 출력과 직접 대조한다.
+
+`render-standing`에 `--stages`를 추가하면 같은 원본 실행에서 S1(단색 외곽), S2(부위·고유 무늬·눈코입·겹침선), shade(음영까지), S3(코 표면과 최종 세부 표현까지)를 PNG로 저장한다. S3는 standing.png와 같다. 모든 단계가 털 사이 틈까지 같은 투명 영역을 쓴다. ownership.png는 각 픽셀에서 앞에 보이는 부위의 번호를 담으며 배경은 0이다. review.json에 부위 번호와 단계별 파일 해시를 기록한다.
+
+**공통 몸통 부품.** v2의 parts 항목에서 기존 shape 대신 component를 지정한다. 지원값은 trunk(몸통), chest(가슴), near_foreleg·far_foreleg(가까운·먼 앞다리)다. parts의 순서는 뒤에서 앞으로 쓴다. morphology에 trunk_length, chest_depth, belly_tuck, foreleg_width를 64 격자의 픽셀 단위로 둔다. stance에는 withers(등 앞쪽 기준점), facing(화면 오른쪽 1, 왼쪽 −1), feet(각 앞다리 component 이름별 접지점)를 둔다. 머리·몸통은 기존 head_anchor에서 연결한다. 부품의 mark와 음영은 markings·shadows에 uv 다각형으로 지정할 수 있다. u는 해당 부위의 앞끝에서 뒤끝까지, v는 위에서 아래까지 0~1 범위다. seam_over에 뒤쪽 부위 이름을 넣으면 실제로 겹치면서 뒤쪽 부위가 보이는 경계만 그린다. 뒷다리·꼬리는 기존 명시 좌표를 사용하므로 몸길이를 크게 바꿀 때 연결 상태를 별도로 확인한다.
+
+**얼굴 가림.** head_view는 이미 자세에 맞게 배치된 얼굴에 적용한다. angle은 front·oblique·profile이고, 돌아간 얼굴에는 near_eye에 개체 기준 left 혹은 right를 지정한다. 각 눈에도 side를 붙인다. oblique는 far_visible을 직접 지정하고 profile은 먼쪽 눈을 숨긴다. foreground에는 눈·코·입을 덮는 털 영역의 머리 좌표를, jaw_over에는 턱 아래와 맞닿는 몸 부위 이름을 넣는다. 얼굴의 그림자와 details에는 feature를 coat·nose·mouth·left_eye·right_eye 중 하나로 표시한다. 눈은 i(윤곽색)·d(어두운색)·w(밝은색)로 표현한다. 기존 눈이 털무늬에 찍혀 있다면 먼저 털과 분리한다. stages를 켜면 눈별로 최종 화면에서 실제 달라지는 픽셀 수(eye_contribution_px)가 기록된다. 이 값은 눈으로 읽히는지에 대한 원본 1배 검수와 함께 사용한다. head_view는 얼굴을 새 각도로 자동 회전시키지 않는다.
+
+같은 CLI에서 `format`을 `standing64-v2`로 지정한다. 기존 부위 다각형·팔레트·눈·코·입 형식에 다음 항목을 사용할 수 있다.
+
+- `head_parts`에 머리와 함께 움직일 부위 이름을 넣는다. 기본값은 `["head"]`다. 먼 쪽 귀가 별도 부위이면 `["head", "far ear"]`를 사용한다. `head_anchor`를 기준으로 `head_scale`을 적용해 털무늬의 면을 함께 확대하고 눈 중심·코·입 위치를 옮긴다. 눈의 반사점은 원래 픽셀 크기를 유지한다. 이미 확대된 좌표로 저장한 프로필에는 배율 1을 사용한다.
+- 가는 다리에는 해당 부위에 `"outline_neighbors": 4`를 지정할 수 있다. 대각선 모서리만 투명 영역과 닿은 칸에는 털색이 남는다. 기본값 8은 기존 외곽선을 사용한다.
+- `nose_surface`는 기존 `nose` 다각형에서 실제로 보이는 부분에 칠한다. 예를 들어 `{"color":"dark","reflection":{"at":[60,16],"color":"white"}}`는 해당 코 안에 반사점 한 칸을 찍는다. `reflection`은 선택 항목이다. 닫힌 입선은 `mouth`로 따로 지정하며 빈 배열이면 생략한다.
+- `details`는 팔레트 안에서 눈꺼풀·줄무늬·귀의 그늘·다리 겹침선을 지정하는 배열이다. 예를 들어 `{"part":"near front","color":"outline","polygon":[[22,39],[22,44]]}`는 가까운 앞다리의 보이는 부분에만 선을 그린다. 한 좌표는 점, 두 좌표는 선, 세 좌표 이상은 면이다. 기본 음영과 코 표면을 그린 뒤 배열 순서대로 적용하며 마지막 색이 남는다.
+
+좌표는 프로필 입력 격자를 기준으로 한다. 사진 비율로 등록한 새 v2 프로필에서 `head_scale`을 생략하면 머리·귀의 길이와 높이를 기본 1.55배로 그린다. 엔진은 `head_anchor`와 확대 그룹의 모든 외곽점을 확인하고, 한 칸 여백이 부족하면 자동 배율을 낮춘다. 원래 외곽을 줄이지는 않는다. `review.json`의 `applied_head_scale`에서 적용값을 확인할 수 있다.
+
+배율을 명시한 프로필은 그 값을 사용한다. 휘핏과 닥스훈트의 기존 ③은 1.42배이며, 이미 머리를 확대해 저장한 좌표는 1이 원래 시안의 표시 배율이다. 수동 배율을 지정할 때는 코끝과 귀 끝 여백을 전신에서 확인한다.
 
 ## 같은 얼굴을 두 시점에서 확인하기
 
@@ -122,3 +217,11 @@ python review_face.py private/face-review.json output/face-review.html
 목록에는 `title`, `status`, 문자열 배열 `notes`, 배열 `images`를 넣는다. 각 이미지 항목은 `path`, `label`, `role`, `roi: [x, y, width, height]`가 필수다. 경로는 목록 파일 기준이고 영역은 원본 픽셀 좌표다. 실제 작은 원본 PNG에만 `native: true`를, 새 후보에만 `candidate: true`를 지정한다. 사진의 수동 표시 영역은 해부학적 실측으로 사용하지 않는다. 기존 출력 파일은 덮어쓰지 않는다.
 
 얼굴 재작업에서 6개 머리 보기, 원본 이미지 5개의 독립 로드, 표시 폭 192/256px, 네이티브 1·2·4배, 배경 전환, 390px 화면, 외부 요청/JS 오류 없음과 잘못된 영역 거절을 확인했다. 브라우저 검사는 HTML 내용 로드 방식이며 실제 기기·file:// 탐색 검증은 아니다. 새 얼굴의 96px·14색·공통 기하·재출력 일치는 기술 확인이며, 화풍·닮음은 부분 충족/보호자 미검수로 남았다. 개인 사진·목록·개체 결과는 공개 Git에서 제외한다.
+
+## 사진에서 자세를 추려 64×64에 그리기
+
+골든 측면 예제는 격자에서 직접 그린 전신을 등록한다. 먼 쪽 두 다리의 위쪽을 고정하고 발만 앞으로 0·1·2칸 옮긴 세 프로필과 PNG를 각각 내보낸다. 다음 명령은 이 디렉터리에서 실행하며 출력 경로는 새 이름을 사용한다.
+
+```sh
+python native_pose_study.py ../../private-data/face-recheck-v4/profiles.sqlite guide_registration/golden-native-stance.json ../../private-data/native-stance-repeat
+```

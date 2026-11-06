@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "comparison.png",
+      "sha256": "39583b0226ca59f792bd11e55750d8f5f4a4ea1e0b6e059dd0fb8cf0f3f71b07"
+    }
+  ],
+  "inputs": {
+    "../jack-russell-b2-20261106/comparison.png": "1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3",
+    "../jack-russell-b2-20261106/selection.json": "1e8e0daf7326ede4334794d0d6c7e95d6b4311de1a265f24c7be709fde007003",
+    "../jack-russell-b2-20261106/review-status.json": "58eacf2d9c1e37d515e605555ac6577ec70d3931f109ea8d6cbdc6cb70bd6d91",
+    "../../references/styles/breed-head-b2/v1/reference-sheet.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+    "../../private-data/jack-russell-reference-v1/fci-cover.png": "7ab90054ac93ec2f7505ca7c15aab1e5bb3b93260270caab792a56a009c5b171",
+    "../../private-data/ear-form-reference-20261106/fci-088.pdf": "7bd19e9f4b28efb72b552ae65372744f4d2cf1e559d395ab50283e4eb62eab55",
+    "../../private-data/ear-form-reference-20261106/fci-088-cover.png": "dda61001545befc0f940cb204604b1f328062e48169e5f60f6833854a1010873",
+    "../../private-data/ear-form-reference-20261106/fci-166.pdf": "2487733045de6d55b8beb9231f9332dbed8f633fade2522dec819df21b58ae40",
+    "../../private-data/ear-form-reference-20261106/fci-166-cover.png": "d3683cf4e5ff5b936063d7c563101f27f690ac5a797529ba312e49bcbf0ff630",
+    "generation-06.json": "9a8dcde2056e6299c3253037852f37d28fbf8274164133748ed3765f1f276ab1",
+    "source.json": "f9909cd57a48f327d102780c776c010025f313b5bd7064d6c5d31e51c77944aa"
+  },
+  "reviews": {
+    "visual": {
+      "reviewer": "/root/jack_ears_visual",
+      "status": "PASS",
+      "artifacts": {
+        "comparison.png": "39583b0226ca59f792bd11e55750d8f5f4a4ea1e0b6e059dd0fb8cf0f3f71b07"
+      },
+      "inputs": {
+        "../jack-russell-b2-20261106/comparison.png": "1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3",
+        "../jack-russell-b2-20261106/selection.json": "1e8e0daf7326ede4334794d0d6c7e95d6b4311de1a265f24c7be709fde007003",
+        "../jack-russell-b2-20261106/review-status.json": "58eacf2d9c1e37d515e605555ac6577ec70d3931f109ea8d6cbdc6cb70bd6d91",
+        "../../references/styles/breed-head-b2/v1/reference-sheet.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "../../private-data/jack-russell-reference-v1/fci-cover.png": "7ab90054ac93ec2f7505ca7c15aab1e5bb3b93260270caab792a56a009c5b171",
+        "../../private-data/ear-form-reference-20261106/fci-088.pdf": "7bd19e9f4b28efb72b552ae65372744f4d2cf1e559d395ab50283e4eb62eab55",
+        "../../private-data/ear-form-reference-20261106/fci-088-cover.png": "dda61001545befc0f940cb204604b1f328062e48169e5f60f6833854a1010873",
+        "../../private-data/ear-form-reference-20261106/fci-166.pdf": "2487733045de6d55b8beb9231f9332dbed8f633fade2522dec819df21b58ae40",
+        "../../private-data/ear-form-reference-20261106/fci-166-cover.png": "d3683cf4e5ff5b936063d7c563101f27f690ac5a797529ba312e49bcbf0ff630",
+        "generation-06.json": "9a8dcde2056e6299c3253037852f37d28fbf8274164133748ed3765f1f276ab1",
+        "source.json": "f9909cd57a48f327d102780c776c010025f313b5bd7064d6c5d31e51c77944aa"
+      },
+      "coverage_complete": true,
+      "unresolved": {},
+      "report": "visual-review.md",
+      "report_sha256": "c809fa20b51fccd35f556b8e29ab3b9811d170376470fe6f6c68ea3047b8f280",
+      "coverage": [
+        "All 15 cells, approvedA, canonicalB2 and actual ear-structure refs; see independent report."
+      ]
+    },
+    "technical": {
+      "status": "PASS",
+      "reviewer": "/root/jack_ears_technical",
+      "artifacts": {
+        "comparison.png": "39583b0226ca59f792bd11e55750d8f5f4a4ea1e0b6e059dd0fb8cf0f3f71b07"
+      },
+      "inputs": {
+        "../jack-russell-b2-20261106/comparison.png": "1973bd6f58c8766286d09fe9e4f4eef7f36206ddb6e1e7b44828fa3bd39ce1c3",
+        "../jack-russell-b2-20261106/selection.json": "1e8e0daf7326ede4334794d0d6c7e95d6b4311de1a265f24c7be709fde007003",
+        "../jack-russell-b2-20261106/review-status.json": "58eacf2d9c1e37d515e605555ac6577ec70d3931f109ea8d6cbdc6cb70bd6d91",
+        "../../references/styles/breed-head-b2/v1/reference-sheet.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+        "../../private-data/jack-russell-reference-v1/fci-cover.png": "7ab90054ac93ec2f7505ca7c15aab1e5bb3b93260270caab792a56a009c5b171",
+        "../../private-data/ear-form-reference-20261106/fci-088.pdf": "7bd19e9f4b28efb72b552ae65372744f4d2cf1e559d395ab50283e4eb62eab55",
+        "../../private-data/ear-form-reference-20261106/fci-088-cover.png": "dda61001545befc0f940cb204604b1f328062e48169e5f60f6833854a1010873",
+        "../../private-data/ear-form-reference-20261106/fci-166.pdf": "2487733045de6d55b8beb9231f9332dbed8f633fade2522dec819df21b58ae40",
+        "../../private-data/ear-form-reference-20261106/fci-166-cover.png": "d3683cf4e5ff5b936063d7c563101f27f690ac5a797529ba312e49bcbf0ff630",
+        "generation-06.json": "9a8dcde2056e6299c3253037852f37d28fbf8274164133748ed3765f1f276ab1",
+        "source.json": "f9909cd57a48f327d102780c776c010025f313b5bd7064d6c5d31e51c77944aa"
+      },
+      "coverage_complete": true,
+      "unresolved": {
+        "JET02": "MINOR"
+      },
+      "report": "technical-review.md",
+      "report_sha256": "1b4f92b2409e677461cac2c1609c75674ef14b6bc456855b601cc50abb267b86",
+      "coverage": [
+        "All 15 cells, approvedA, canonicalB2 and actual ear-structure refs; see independent report."
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "JET02",
+      "severity": "MINOR",
+      "resolved": false,
+      "report": "technical-review.md"
+    },
+    {
+      "id": "EAR-V01",
+      "severity": "MAJOR",
+      "resolved": true,
+      "description": "Revision06 directly rereviewed; corresponding semi folds and uninterrupted upright leaves."
+    },
+    {
+      "id": "EAR-V02",
+      "severity": "MAJOR",
+      "resolved": true,
+      "description": "Revision06 directly rereviewed; corresponding semi folds and uninterrupted upright leaves."
+    },
+    {
+      "id": "JET01",
+      "severity": "MAJOR",
+      "resolved": true,
+      "description": "Revision06 directly rereviewed; corresponding semi folds and uninterrupted upright leaves."
+    },
+    {
+      "id": "JET03",
+      "severity": "MAJOR",
+      "resolved": true,
+      "description": "Revision06 directly rereviewed; corresponding semi folds and uninterrupted upright leaves."
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "READY",
+  "history": [
+    {
+      "event": "DEVELOPMENT_FAILED",
+      "iteration": "02",
+      "artifacts": {
+        "comparison.png": "5a62c4340e4630f8943cd96dbcc7784df987b1d61fe4c4f96390f395b14d3dbc"
+      },
+      "reason": "Ear-view consistency or correction spillover; independent reports preserved."
+    },
+    {
+      "event": "DEVELOPMENT_FAILED",
+      "iteration": "05",
+      "artifacts": {
+        "comparison.png": "5d0eeeadc9b0693b406e9496cc8455f7d1726d97b69cffc6a66dcaf5a0812310"
+      },
+      "reason": "Ear-view consistency or correction spillover; independent reports preserved."
+    },
+    {
+      "event": "INDEPENDENT_REVIEWS_COMPLETE",
+      "iteration": "06",
+      "artifacts": {
+        "comparison.png": "39583b0226ca59f792bd11e55750d8f5f4a4ea1e0b6e059dd0fb8cf0f3f71b07"
+      }
+    }
+  ]
+}

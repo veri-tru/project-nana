@@ -1,0 +1,18 @@
+{
+  "golden": {
+    "self_crossing_sections": 0,
+    "examples": []
+  },
+  "whippet": {
+    "self_crossing_sections": 0,
+    "examples": []
+  },
+  "dachshund": {
+    "self_crossing_sections": 0,
+    "examples": []
+  },
+  "maltipoo": {
+    "self_crossing_sections": 0,
+    "examples": []
+  }
+}

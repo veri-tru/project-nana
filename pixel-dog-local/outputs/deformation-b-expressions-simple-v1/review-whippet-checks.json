@@ -1,0 +1,51 @@
+{
+  "unchanged_states": {
+    "golden": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    },
+    "whippet": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": false,
+      "tongue": false,
+      "lick": false
+    },
+    "dachshund": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    }
+  },
+  "nose_eye_material_error": 0.0,
+  "nose_eye_vertex_error": 2.3377045926510255e-11,
+  "jaw_profiles": {
+    "before": {
+      "front_x": -21.820018707689588,
+      "exposed_length": 9.66623350123309,
+      "max_depth": 1.6498931194686102,
+      "max_width": 6.420226995987479
+    },
+    "after": {
+      "front_x": -25.217483871568433,
+      "exposed_length": 13.063698665111936,
+      "max_depth": 1.1000000000000014,
+      "max_width": 5.964207872411988
+    }
+  },
+  "tongue_lateral_clearance": {
+    "tongue": 0.8006840553739216,
+    "lick": 0.9506840553739232
+  },
+  "comparison_byte_identical": true,
+  "comparison_sha256": "69799416854167d245510d6a7bbd135347c6e6729c985a593a744e91789e29dd",
+  "comparison_recipe_exact": true
+}

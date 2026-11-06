@@ -1,0 +1,24 @@
+{
+  "sha256": {
+    "whippet_neutral_comparison.py": "8c69a154beb47cbcb2422fc8b5932bd1897cd1f05700a67a09d27322beed3072",
+    "preview-before-whippet-neutral.py": "2b9c32e343c6f165080b501c8e11ee150d8d6b2d1a6c64f1b96778d0ccaba62a",
+    "preview.py": "d72aad4b2d52bed42651a6931a05d7db9c2ab46fdbb77d271224578310d11a5d",
+    "whippet-neutral-before-after.png": "2d8a98bdf8bd03a2a8cfb1ebda01b4ebca9d389706e86b24be3c4f2c49f40934"
+  },
+  "change": {
+    "breed": "whippet",
+    "rest_depth_scale_max": 0.55,
+    "rest_depth_cap": 1.1,
+    "rest_width_scale": 0.76,
+    "oral_margin": "shallow arc with horizontal end tangents; front height lowered 2 local units",
+    "arc_dip": 0.5,
+    "corner_drop": 0.5,
+    "jaw_half_width_cap": 2.98,
+    "cheek_transition_length": 5.0
+  },
+  "views": [
+    90,
+    38
+  ],
+  "status": "USER_REVIEW_PENDING"
+}

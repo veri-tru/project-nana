@@ -1,0 +1,36 @@
+{
+  "artifacts": {
+    "exterior-comparison.png": true,
+    "skeleton-comparison.png": true,
+    "jaw-check.png": true
+  },
+  "inputs": {
+    "build.py": true,
+    "exterior_seed.py": true,
+    "parameters.json": true,
+    "references.json": true,
+    "model-A.pkl": true,
+    "model-B.pkl": true,
+    "model-C.pkl": true,
+    "parameters-A.json": true,
+    "parameters-B.json": true,
+    "parameters-C.json": true,
+    "../head-skeleton-volume-v2/build.py": true,
+    "../head-skeleton-volume-v2/raster.py": true,
+    "../head-skeleton-volume-v2/geometry.pkl": true,
+    "../head-skeleton-volume-v2/profiles.json": true,
+    "../head-skeleton-volume-v2/references.json": true,
+    "../head-skeleton-volume-v2/review-status.json": true,
+    "../skull-based-heads-v1/build.py": true,
+    "../skull-based-heads-v2/build.py": true,
+    "../skull-based-heads-v2/geometry.pkl": true,
+    "../skull-based-heads-v2/parameters.json": true,
+    "../skull-based-heads-v2/review-status.json": true,
+    "../deformation-b-face-v2/golden-reference.png": true,
+    "../../private-data/skull-anatomy-v2/lateral.jpg": true,
+    "../../private-data/skull-anatomy-v2/dorsal.jpg": true,
+    "../../private-data/skull-anatomy-v2/rostral.jpg": true,
+    "../../../../../../../Windows/Fonts/malgun.ttf": true,
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": true
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "unchanged_states": {
+    "golden": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    },
+    "whippet": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": false,
+      "tongue": false,
+      "lick": false
+    },
+    "dachshund": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    }
+  },
+  "profiles": {
+    "before": {
+      "front_x": -25.217483871568433,
+      "length": 13.063698665111936,
+      "max_depth": 1.1000000000000014,
+      "max_width": 5.964207872411988,
+      "visible_floor_slope": -0.3406494987556288
+    },
+    "after": {
+      "front_x": -23.943434435113865,
+      "length": 11.789649228657368,
+      "max_depth": 1.1000000000000014,
+      "max_width": 5.96,
+      "visible_floor_slope": -0.07197278885196444
+    }
+  },
+  "jaw": [
+    {
+      "degrees": 2.32,
+      "inverse_error": 7.105427357601002e-15,
+      "hinge_error": 0.0,
+      "ears_exact": true
+    },
+    {
+      "degrees": 3.4799999999999995,
+      "inverse_error": 7.105427357601002e-15,
+      "hinge_error": 0.0,
+      "ears_exact": true
+    },
+    {
+      "degrees": 4.64,
+      "inverse_error": 7.105427357601002e-15,
+      "hinge_error": 0.0,
+      "ears_exact": true
+    }
+  ],
+  "tongue": [
+    {
+      "state": "tongue",
+      "floor_clearance": -2.220446049250313e-16,
+      "roof_clearance": 0.4024573896985844,
+      "lateral_clearance": 0.6224113910499052,
+      "lip_support_error": 1.698846763187466e-16,
+      "contact_error": null
+    },
+    {
+      "state": "lick",
+      "floor_clearance": -2.220446049250313e-16,
+      "roof_clearance": 0.26840828721129906,
+      "lateral_clearance": 0.7724113910499033,
+      "lip_support_error": 1.1021821192326179e-16,
+      "contact_error": 0.0
+    }
+  ],
+  "nose_eye_material_error": 0.0,
+  "nose_eye_vertex_error": 2.3377045926510255e-11,
+  "renders": {
+    "expressions.png": {
+      "byte_identical": true,
+      "sha256": "2652ad6e1161bfed902dc9c238cdf97ae03eefacc4f8a59342015e11d87492af"
+    },
+    "expressions-side.png": {
+      "byte_identical": true,
+      "sha256": "e02349ca34a534ba76cd2dad78d3acddc7905c97fadc032242ec35573114c5d8"
+    },
+    "mouth-options.png": {
+      "byte_identical": true,
+      "sha256": "daf3c79ba1ecea39b79f57089528d5543fc07d3c6db413830395d531d09d7892"
+    },
+    "whippet-neutral-before-after.png": {
+      "byte_identical": true,
+      "sha256": "2d8a98bdf8bd03a2a8cfb1ebda01b4ebca9d389706e86b24be3c4f2c49f40934"
+    }
+  },
+  "recipe_inputs_exact": true,
+  "recipe_images_exact": true,
+  "comparison_recipe_exact": true,
+  "source_sha256": "d72aad4b2d52bed42651a6931a05d7db9c2ab46fdbb77d271224578310d11a5d"
+}

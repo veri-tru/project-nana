@@ -1,0 +1,51 @@
+{
+  "old_breeds_unchanged": true,
+  "old_presets_unchanged": true,
+  "non_breed_preset_fields_unchanged": {
+    "schema_version": true,
+    "size_classes": true,
+    "size_class_basis": true,
+    "renderer_inputs": true
+  },
+  "added_breeds": [
+    "jack_russell"
+  ],
+  "added_presets": [
+    "jack-russell-A",
+    "jack-russell-B",
+    "jack-russell-C"
+  ],
+  "source_code_unchanged": {
+    "tools\\head_engine\\engine.py": true,
+    "tools\\head_engine\\pixel.py": true
+  },
+  "new_pins": {
+    "A": {
+      "breed": true,
+      "path": true,
+      "model_hash": true,
+      "status_path": true,
+      "status_hash": true,
+      "selector": true
+    },
+    "B": {
+      "breed": true,
+      "path": true,
+      "model_hash": true,
+      "status_path": true,
+      "status_hash": true,
+      "selector": true
+    },
+    "C": {
+      "breed": true,
+      "path": true,
+      "model_hash": true,
+      "status_path": true,
+      "status_hash": true,
+      "selector": true
+    }
+  },
+  "review_ready": true,
+  "user_pending": "PENDING",
+  "catalog_sha256": "05d8544b5d76ecb62e9482766d83bf20b353fd28c5f7e29a9f931ddc6de981bd"
+}

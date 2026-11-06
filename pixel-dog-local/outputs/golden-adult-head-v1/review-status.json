@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "exterior-comparison.png",
+      "sha256": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674"
+    },
+    {
+      "path": "skeleton-comparison.png",
+      "sha256": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36"
+    },
+    {
+      "path": "jaw-check.png",
+      "sha256": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+    }
+  ],
+  "inputs": {
+    "build.py": "885b85b9d9ec1380fe7f1549359b77949dd0ccf6130782042d1c244f70d98898",
+    "exterior_seed.py": "1d2dc33999af309e5e3add4885408817c45047ee236ac68286f79189f6701102",
+    "parameters.json": "8444d5c83ae838d303c9683730ef6b85d918e18b3f4d09715316318a53d2c2e3",
+    "references.json": "3d20e0b322ed00be58e00f77ffca33a2e41d47800e2795240bd6abf1edea41fd",
+    "model-A.pkl": "e6844a219181cba6e8a62139dd7229e2dc6656e6e40a110cac27dcb66ed099c8",
+    "model-B.pkl": "9ccdb84a4d3f03604b3f49195a1b919224e92641c04640781fde535c10dbf122",
+    "model-C.pkl": "2aead49c66c118880a21d9d9a1c1129694df49b07c692811b31764697e64f0be",
+    "parameters-A.json": "4d1e0bc80b91088a05c4e74086b49d8d72b54e65d5707cc4ff00abb4605f4435",
+    "parameters-B.json": "cd1910fce896650a2ef027208f8a1ddf37f36ad00dc5c81311503fc3c9c2d987",
+    "parameters-C.json": "a8bc6c3d01d6bef464b28d252123949a92d9c8e7c019f40eaa81d91dc0388a4b",
+    "../head-skeleton-volume-v2/build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+    "../head-skeleton-volume-v2/raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+    "../head-skeleton-volume-v2/geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+    "../head-skeleton-volume-v2/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "../head-skeleton-volume-v2/references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+    "../head-skeleton-volume-v2/review-status.json": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e",
+    "../skull-based-heads-v1/build.py": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+    "../skull-based-heads-v2/build.py": "37e6843526018bec5c1f501f4feb8253b7a097f1905fd4c9b9ae63b5ded3a384",
+    "../skull-based-heads-v2/geometry.pkl": "3321e3644b2647bb29238898995646d29b0e1fce64851e672d8267f3b7bc2cf9",
+    "../skull-based-heads-v2/parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230",
+    "../skull-based-heads-v2/review-status.json": "4debc35e3aa60ac15e448d4d57541d933c4cf8b9cce560aa0428fc5285791892",
+    "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+    "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+    "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+    "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+  },
+  "reviews": {
+    "visual": {
+      "status": "PASS",
+      "reviewer": "golden_visual_review",
+      "artifacts": {
+        "exterior-comparison.png": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674",
+        "skeleton-comparison.png": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36",
+        "jaw-check.png": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+      },
+      "coverage_complete": true,
+      "unresolved": {
+        "GAV-EAR-CAP": "MINOR"
+      },
+      "report": "visual-review.md",
+      "report_sha256": "0cf3e5ca40fd70e6bb18d97950f9d3fe48398f03b9f9c222648714ea5a42d12a",
+      "coverage": [
+        "All three final boards: 52 cells. All A/B/C actual saved geometry checked; A full-model regeneration and every board byte-exact rerender. See independent report for role-specific evidence."
+      ]
+    },
+    "technical": {
+      "status": "PASS",
+      "reviewer": "pixel_technical_review",
+      "artifacts": {
+        "exterior-comparison.png": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674",
+        "skeleton-comparison.png": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36",
+        "jaw-check.png": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+      },
+      "inputs": {
+        "build.py": "885b85b9d9ec1380fe7f1549359b77949dd0ccf6130782042d1c244f70d98898",
+        "exterior_seed.py": "1d2dc33999af309e5e3add4885408817c45047ee236ac68286f79189f6701102",
+        "parameters.json": "8444d5c83ae838d303c9683730ef6b85d918e18b3f4d09715316318a53d2c2e3",
+        "references.json": "3d20e0b322ed00be58e00f77ffca33a2e41d47800e2795240bd6abf1edea41fd",
+        "model-A.pkl": "e6844a219181cba6e8a62139dd7229e2dc6656e6e40a110cac27dcb66ed099c8",
+        "model-B.pkl": "9ccdb84a4d3f03604b3f49195a1b919224e92641c04640781fde535c10dbf122",
+        "model-C.pkl": "2aead49c66c118880a21d9d9a1c1129694df49b07c692811b31764697e64f0be",
+        "parameters-A.json": "4d1e0bc80b91088a05c4e74086b49d8d72b54e65d5707cc4ff00abb4605f4435",
+        "parameters-B.json": "cd1910fce896650a2ef027208f8a1ddf37f36ad00dc5c81311503fc3c9c2d987",
+        "parameters-C.json": "a8bc6c3d01d6bef464b28d252123949a92d9c8e7c019f40eaa81d91dc0388a4b",
+        "../head-skeleton-volume-v2/build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+        "../head-skeleton-volume-v2/raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+        "../head-skeleton-volume-v2/geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+        "../head-skeleton-volume-v2/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+        "../head-skeleton-volume-v2/references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+        "../head-skeleton-volume-v2/review-status.json": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e",
+        "../skull-based-heads-v1/build.py": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+        "../skull-based-heads-v2/build.py": "37e6843526018bec5c1f501f4feb8253b7a097f1905fd4c9b9ae63b5ded3a384",
+        "../skull-based-heads-v2/geometry.pkl": "3321e3644b2647bb29238898995646d29b0e1fce64851e672d8267f3b7bc2cf9",
+        "../skull-based-heads-v2/parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230",
+        "../skull-based-heads-v2/review-status.json": "4debc35e3aa60ac15e448d4d57541d933c4cf8b9cce560aa0428fc5285791892",
+        "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+        "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+        "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+        "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+        "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+        "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+      },
+      "coverage_complete": true,
+      "unresolved": {},
+      "report": "technical-review.md",
+      "report_sha256": "fe5aca73eb253fa8cdef9a2d49e365adbc141542f094b504c3ccc583f234d296",
+      "coverage": [
+        "All three final boards: 52 cells. All A/B/C actual saved geometry checked; A full-model regeneration and every board byte-exact rerender. See independent report for role-specific evidence."
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "TG01",
+      "severity": "MAJOR",
+      "resolved": true,
+      "description": "Iteration01 B/C ear-root tunnels resolved in iteration02; confirmed on actual saved meshes and images."
+    },
+    {
+      "id": "GAV-EAR-CAP",
+      "severity": "MINOR",
+      "resolved": false,
+      "report": "visual-review.md"
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "READY",
+  "history": [
+    {
+      "event": "DEVELOPMENT_FAILED",
+      "iteration": "01",
+      "finding": "TG01: B/C ear-root through-holes",
+      "record": "iterations/01/technical-findings.md"
+    },
+    {
+      "event": "REVISED_CANDIDATES",
+      "iteration": "02",
+      "artifacts": {
+        "exterior-comparison.png": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674",
+        "skeleton-comparison.png": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36",
+        "jaw-check.png": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+      },
+      "change": "Ear placement width now follows 55 percent of cranial width increase."
+    },
+    {
+      "event": "INDEPENDENT_REVIEWS_COMPLETE",
+      "date": "2026-11-06",
+      "artifacts": {
+        "exterior-comparison.png": "74ccb1f736d048a04b4eda1d375cc59b65cec99ecd30c9130cd4af77872e6674",
+        "skeleton-comparison.png": "e325fa606f0a31fe87ac6bf49ba3203577208656fc6a79f4f2a607eb026b5b36",
+        "jaw-check.png": "b990b1d6e813b772cdc8cce415410d281d85e6bc6c784f38533e58cae721dffc"
+      }
+    }
+  ]
+}

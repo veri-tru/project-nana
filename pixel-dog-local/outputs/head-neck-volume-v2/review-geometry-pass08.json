@@ -1,0 +1,299 @@
+{
+  "source_sha256": "45b700fd9f65eb1d6e24230681fe5dc2b6f9eb511451ad2961d36d4d4995eed3",
+  "geometry_sha256": "ddb3e2751c1744dd35283030955b440ca81c9d367683b13dbc9b753c6e9e9371",
+  "development_diagnostic": true,
+  "breeds": {
+    "golden": {
+      "topology": {
+        "head": {
+          "vertices": 61113,
+          "faces": 122222,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 9.094947017729282e-13,
+          "zero_area": 1,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "normal_winding_agreement": 1.0
+        },
+        "jaw": {
+          "vertices": 22752,
+          "faces": 45500,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 3.778950485866517e-10,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.999999958259095,
+            1.0000000414411696
+          ],
+          "normal_winding_agreement": 1.0
+        }
+      },
+      "states": {
+        "neutral": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -2.2001055708720805,
+          "anterior_jaw_inside_head_vertices": 1607
+        },
+        "mid": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -1.906974909700263,
+          "anterior_jaw_inside_head_vertices": 1375
+        },
+        "open": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -1.6378943710305214,
+          "anterior_jaw_inside_head_vertices": 1282
+        },
+        "tongue": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -1.6378943710305214,
+          "anterior_jaw_inside_head_vertices": 1282,
+          "tongue_jaw_field_min": 3.7964692996472304e-05,
+          "tongue_head_field_min": 1.5317887878599654,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": 3.5506243229137424
+        },
+        "lick": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -1.7964107022909004,
+          "anterior_jaw_inside_head_vertices": 1318,
+          "tongue_jaw_field_min": 4.341131301152857e-05,
+          "tongue_head_field_min": -9.778895623979711e-06,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": -2.45522784325658e-07
+        }
+      }
+    },
+    "whippet": {
+      "topology": {
+        "head": {
+          "vertices": 46590,
+          "faces": 93176,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 2.8782165539809057e-10,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "normal_winding_agreement": 1.0
+        },
+        "jaw": {
+          "vertices": 13478,
+          "faces": 26952,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 2.122339320046683e-09,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999581759669,
+            1.000000041619205
+          ],
+          "normal_winding_agreement": 1.0
+        }
+      },
+      "states": {
+        "neutral": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.9662506852662769,
+          "anterior_jaw_inside_head_vertices": 1086
+        },
+        "mid": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.6804743369095907,
+          "anterior_jaw_inside_head_vertices": 660
+        },
+        "open": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.41351986800615415,
+          "anterior_jaw_inside_head_vertices": 203
+        },
+        "tongue": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.41351986800615415,
+          "anterior_jaw_inside_head_vertices": 203,
+          "tongue_jaw_field_min": 0.00011970426967049263,
+          "tongue_head_field_min": 1.4609221316037169,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": 3.285441135084986
+        },
+        "lick": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.5715149014773792,
+          "anterior_jaw_inside_head_vertices": 485,
+          "tongue_jaw_field_min": 1.7864928663868794e-07,
+          "tongue_head_field_min": -9.060453501213983e-06,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": -8.757345995036303e-07
+        }
+      }
+    },
+    "dachshund": {
+      "topology": {
+        "head": {
+          "vertices": 50291,
+          "faces": 100578,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 1.8189894035458565e-12,
+          "zero_area": 5,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "normal_winding_agreement": 1.0
+        },
+        "jaw": {
+          "vertices": 17356,
+          "faces": 34708,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 1.0436419999277182e-09,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999555590698,
+            1.0000000409955254
+          ],
+          "normal_winding_agreement": 1.0
+        }
+      },
+      "states": {
+        "neutral": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.2861312642139957,
+          "anterior_jaw_inside_head_vertices": 74
+        },
+        "mid": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.06912752937845135,
+          "anterior_jaw_inside_head_vertices": 0
+        },
+        "open": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": 0.09325202902517621,
+          "anterior_jaw_inside_head_vertices": 0
+        },
+        "tongue": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": 0.09325202902517621,
+          "anterior_jaw_inside_head_vertices": 0,
+          "tongue_jaw_field_min": 3.183539866719265e-06,
+          "tongue_head_field_min": 1.6423755291681288,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": 3.6898346048568706
+        },
+        "lick": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": 0.002438090373021312,
+          "anterior_jaw_inside_head_vertices": 0,
+          "tongue_jaw_field_min": 3.203996526250119e-05,
+          "tongue_head_field_min": -4.776503601533477e-07,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": -4.776503601533477e-07
+        }
+      }
+    },
+    "maltipoo": {
+      "topology": {
+        "head": {
+          "vertices": 39002,
+          "faces": 78000,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 2.4190208169905247e-10,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999403953552,
+            1.0
+          ],
+          "normal_winding_agreement": 1.0
+        },
+        "jaw": {
+          "vertices": 11300,
+          "faces": 22596,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "min_area": 1.8154309006926705e-08,
+          "zero_area": 0,
+          "finite": true,
+          "normal_length_range": [
+            0.9999999521877878,
+            1.0000000403274885
+          ],
+          "normal_winding_agreement": 1.0
+        }
+      },
+      "states": {
+        "neutral": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.015030326170050068,
+          "anterior_jaw_inside_head_vertices": 0
+        },
+        "mid": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.08260897736710404,
+          "anterior_jaw_inside_head_vertices": 0
+        },
+        "open": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.3019160755241461,
+          "anterior_jaw_inside_head_vertices": 84
+        },
+        "tongue": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.3019160755241461,
+          "anterior_jaw_inside_head_vertices": 84,
+          "tongue_jaw_field_min": 1.223894757844235e-06,
+          "tongue_head_field_min": -7.803438694442555e-06,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": 3.4516854004362876
+        },
+        "lick": {
+          "jaw_pose_max_error": 0.0,
+          "anterior_jaw_head_field_min": -0.15632983535759615,
+          "anterior_jaw_inside_head_vertices": 12,
+          "tongue_jaw_field_min": -6.064728949498055e-06,
+          "tongue_head_field_min": -9.84554055052933e-06,
+          "tongue_vertices_inside_jaw": 0,
+          "tongue_vertices_inside_head": 0,
+          "tip_head_field": -4.3772240587713895e-07
+        }
+      }
+    }
+  }
+}

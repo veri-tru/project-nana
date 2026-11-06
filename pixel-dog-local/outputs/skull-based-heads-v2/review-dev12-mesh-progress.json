@@ -1,0 +1,653 @@
+{
+  "scope": "B actual saved surface; no analytic containment or full reproduction",
+  "hashes": {
+    "build.py": "23e63c78c8f315438150a00b6bcc015dfcb19e38a3129f1a75635fc8fcc545d1",
+    "geometry.pkl": "60a3578d5682fbec885f429f89d8f28a06c1267ae1e2a972222568c628970b2f",
+    "heads-B.png": "42e96c8df0c6957da60b788ab187ab656ced2b15e385bc648e8e45b889e77f06"
+  },
+  "breeds": {
+    "golden": {
+      "topology": {
+        "skin": {
+          "vertices": 52216,
+          "faces": 104428,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1648,
+          "faces": 3292,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1646,
+          "faces": 3288,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "outside_actual_mesh": 17,
+          "outside_bbox": [
+            [
+              -35.89568328857422,
+              8.200000762939453,
+              -25.403614044189453
+            ],
+            [
+              -35.119998931884766,
+              9.008614540100098,
+              -24.75
+            ]
+          ],
+          "first_outside": [
+            [
+              -35.77000045776367,
+              8.200000762939453,
+              -24.81011390686035
+            ],
+            [
+              -35.89568328857422,
+              8.850000381469727,
+              -24.75
+            ],
+            [
+              -35.77000045776367,
+              8.850000381469727,
+              -24.876272201538086
+            ],
+            [
+              -35.12507247924805,
+              8.850000381469727,
+              -25.399999618530273
+            ],
+            [
+              -35.119998931884766,
+              8.800722122192383,
+              -25.399999618530273
+            ],
+            [
+              -35.119998931884766,
+              8.850000381469727,
+              -25.403614044189453
+            ],
+            [
+              -35.119998931884766,
+              8.864625930786133,
+              -25.399999618530273
+            ],
+            [
+              -35.83161163330078,
+              8.416666984558105,
+              -24.770036697387695
+            ],
+            [
+              -35.811893463134766,
+              8.633334159851074,
+              -24.8121280670166
+            ],
+            [
+              -35.811893463134766,
+              9.003739356994629,
+              -24.792091369628906
+            ]
+          ]
+        },
+        "jaw": {
+          "samples": 31802,
+          "outside_actual_mesh": 623,
+          "outside_bbox": [
+            [
+              -60.91310501098633,
+              -6.068306922912598,
+              -12.596049308776855
+            ],
+            [
+              -42.27000045776367,
+              -3.9062225818634033,
+              12.449498176574707
+            ]
+          ],
+          "first_outside": [
+            [
+              -60.49931335449219,
+              -4.800000190734863,
+              -9.15000057220459
+            ],
+            [
+              -60.470001220703125,
+              -4.815481185913086,
+              -9.15000057220459
+            ],
+            [
+              -60.470001220703125,
+              -4.800000190734863,
+              -9.173632621765137
+            ],
+            [
+              -60.470001220703125,
+              -4.278823375701904,
+              -9.800000190734863
+            ],
+            [
+              -59.81999969482422,
+              -5.032492637634277,
+              -9.15000057220459
+            ],
+            [
+              -59.81999969482422,
+              -4.800000190734863,
+              -9.743393898010254
+            ],
+            [
+              -59.88764190673828,
+              -4.800000190734863,
+              9.699999809265137
+            ],
+            [
+              -59.81999969482422,
+              -4.839641094207764,
+              9.699999809265137
+            ],
+            [
+              -59.81999969482422,
+              -4.800000190734863,
+              9.747553825378418
+            ],
+            [
+              -59.81999969482422,
+              -4.773885250091553,
+              -9.800000190734863
+            ]
+          ]
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2967,
+          "outside_samples": 1973,
+          "crossing_faces": 187,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2893,
+          "outside_samples": 2041,
+          "crossing_faces": 184,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 547,
+        "old_count": 547,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "whippet": {
+      "topology": {
+        "skin": {
+          "vertices": 38511,
+          "faces": 77018,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1136,
+          "faces": 2268,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1138,
+          "faces": 2272,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 29996,
+          "outside_actual_mesh": 1625,
+          "outside_bbox": [
+            [
+              -83.34675598144531,
+              -5.660937786102295,
+              -8.679587364196777
+            ],
+            [
+              -38.43333435058594,
+              -2.633333206176758,
+              8.451004028320312
+            ]
+          ],
+          "first_outside": [
+            [
+              -83.19165802001953,
+              -3.5,
+              -0.5
+            ],
+            [
+              -82.8499984741211,
+              -3.718916893005371,
+              -0.5
+            ],
+            [
+              -83.34675598144531,
+              -3.5,
+              0.14999961853027344
+            ],
+            [
+              -82.8499984741211,
+              -3.812865734100342,
+              0.14999961853027344
+            ],
+            [
+              -82.19999694824219,
+              -3.9071717262268066,
+              -0.5
+            ],
+            [
+              -82.19999694824219,
+              -3.962312698364258,
+              0.14999961853027344
+            ],
+            [
+              -80.9000015258789,
+              -3.7229228019714355,
+              -2.450000762939453
+            ],
+            [
+              -80.9000015258789,
+              -3.5,
+              -3.0719947814941406
+            ],
+            [
+              -80.9000015258789,
+              -2.9742794036865234,
+              -3.75
+            ],
+            [
+              -80.9000015258789,
+              -2.8499999046325684,
+              -3.8360118865966797
+            ]
+          ]
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2109,
+          "outside_samples": 1295,
+          "crossing_faces": 159,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2081,
+          "outside_samples": 1329,
+          "crossing_faces": 149,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 319,
+        "old_count": 319,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "dachshund": {
+      "topology": {
+        "skin": {
+          "vertices": 52602,
+          "faces": 105200,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 1340,
+          "faces": 2676,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 1344,
+          "faces": 2684,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "outside_actual_mesh": 0,
+          "outside_bbox": null,
+          "first_outside": []
+        },
+        "jaw": {
+          "samples": 30974,
+          "outside_actual_mesh": 1127,
+          "outside_bbox": [
+            [
+              -72.76667022705078,
+              -6.058773517608643,
+              -10.621522903442383
+            ],
+            [
+              -38.75,
+              -3.4181785583496094,
+              10.240399360656738
+            ]
+          ],
+          "first_outside": [
+            [
+              -72.55000305175781,
+              -4.150000095367432,
+              -5.003410816192627
+            ],
+            [
+              -72.55000305175781,
+              -3.592294692993164,
+              -5.799999713897705
+            ],
+            [
+              -72.55000305175781,
+              -4.113221168518066,
+              -5.150000095367432
+            ],
+            [
+              -72.41790008544922,
+              -4.150000095367432,
+              -5.150000095367432
+            ],
+            [
+              -71.9000015258789,
+              -4.2817182540893555,
+              -5.150000095367432
+            ],
+            [
+              -71.9000015258789,
+              -4.150000095367432,
+              -5.443413257598877
+            ],
+            [
+              -71.9000015258789,
+              -4.150000095367432,
+              5.461354732513428
+            ],
+            [
+              -71.9000015258789,
+              -3.957101821899414,
+              -5.799999713897705
+            ],
+            [
+              -71.9000015258789,
+              -3.5,
+              -6.131472110748291
+            ],
+            [
+              -71.9000015258789,
+              -3.8532252311706543,
+              5.899999141693115
+            ]
+          ]
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 2453,
+          "outside_samples": 1563,
+          "crossing_faces": 168,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 2440,
+          "outside_samples": 1588,
+          "crossing_faces": 160,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 431,
+        "old_count": 431,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    },
+    "maltipoo": {
+      "topology": {
+        "skin": {
+          "vertices": 45568,
+          "faces": 91132,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_-1": {
+          "vertices": 2732,
+          "faces": 5460,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        },
+        "eye_1": {
+          "vertices": 2736,
+          "faces": 5468,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "outside_actual_mesh": 1,
+          "outside_bbox": [
+            [
+              -31.42498779296875,
+              8.850000381469727,
+              -22.799999237060547
+            ],
+            [
+              -31.42498779296875,
+              8.850000381469727,
+              -22.799999237060547
+            ]
+          ],
+          "first_outside": [
+            [
+              -31.42498779296875,
+              8.850000381469727,
+              -22.799999237060547
+            ]
+          ]
+        },
+        "jaw": {
+          "samples": 27224,
+          "outside_actual_mesh": 178,
+          "outside_bbox": [
+            [
+              -46.849998474121094,
+              -5.841403961181641,
+              -11.353339195251465
+            ],
+            [
+              -37.75,
+              -4.738617420196533,
+              10.999999046325684
+            ]
+          ],
+          "first_outside": [
+            [
+              -46.849998474121094,
+              -4.888388633728027,
+              -9.15000057220459
+            ],
+            [
+              -46.20000076293945,
+              -5.165574073791504,
+              -9.15000057220459
+            ],
+            [
+              -45.62540817260742,
+              -4.800000190734863,
+              -9.800000190734863
+            ],
+            [
+              -45.54999923706055,
+              -4.839258670806885,
+              -9.800000190734863
+            ],
+            [
+              -45.54999923706055,
+              -4.800000190734863,
+              -9.827042579650879
+            ],
+            [
+              -45.54999923706055,
+              -5.329300880432129,
+              -9.15000057220459
+            ],
+            [
+              -45.54999923706055,
+              -4.952974796295166,
+              9.699999809265137
+            ],
+            [
+              -44.900001525878906,
+              -5.122982978820801,
+              -9.800000190734863
+            ],
+            [
+              -44.900001525878906,
+              -4.800000190734863,
+              -10.05962085723877
+            ],
+            [
+              -44.900001525878906,
+              -5.431814193725586,
+              -9.15000057220459
+            ]
+          ]
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "inside_samples": 5109,
+          "outside_samples": 3083,
+          "crossing_faces": 233,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        },
+        "eye_1": {
+          "inside_samples": 5137,
+          "outside_samples": 3067,
+          "crossing_faces": 231,
+          "arrays_exact_old_B": {
+            "v": true,
+            "f": true,
+            "n": true,
+            "c": true
+          }
+        }
+      },
+      "black_nose": {
+        "count": 324,
+        "old_count": 324,
+        "sorted_coordinates_byte_exact": true,
+        "max_nearest_old_distance": 0.0
+      },
+      "finite_arrays": true
+    }
+  }
+}

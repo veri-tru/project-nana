@@ -1,0 +1,186 @@
+{
+  "golden": {
+    "0": {
+      "samples": 106,
+      "minimum_signed_mesh_distance": -0.5416611090211213,
+      "inside_gt_01": 95,
+      "inside_gt_035": 25,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -18.08536148071289,
+        13.399999618530273,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -18.60477175387451,
+        13.534313754734411,
+        16.924630956070967
+      ]
+    },
+    "10": {
+      "samples": 9,
+      "minimum_signed_mesh_distance": -0.035900020759567546,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -26.113631605274584,
+        13.397581777279445,
+        15.54999828338623
+      ],
+      "nearest_upper_point": [
+        -26.10745335911729,
+        13.423014805151137,
+        15.574570663373423
+      ]
+    },
+    "20": {
+      "samples": 21,
+      "minimum_signed_mesh_distance": -0.28413566132421014,
+      "inside_gt_01": 12,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -26.468554622984207,
+        13.266539502457116,
+        15.273421287536621
+      ],
+      "nearest_upper_point": [
+        -26.422904817861653,
+        13.126209780930015,
+        15.51623137502177
+      ]
+    }
+  },
+  "whippet": {
+    "0": {
+      "samples": 81,
+      "minimum_signed_mesh_distance": -0.41878730570964745,
+      "inside_gt_01": 58,
+      "inside_gt_035": 6,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -16.211406707763672,
+        13.399999618530273,
+        11.849998474121094
+      ],
+      "nearest_upper_point": [
+        -16.61224675260087,
+        13.500617428523567,
+        11.782277560138697
+      ]
+    },
+    "10": {
+      "samples": 62,
+      "minimum_signed_mesh_distance": -0.5330272995414284,
+      "inside_gt_01": 48,
+      "inside_gt_035": 13,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -23.615784400479818,
+        12.416954772948081,
+        -10.698343276977539
+      ],
+      "nearest_upper_point": [
+        -23.440522625877527,
+        12.392157890542261,
+        -11.201122082261369
+      ]
+    },
+    "20": {
+      "samples": 72,
+      "minimum_signed_mesh_distance": -0.6745456886762532,
+      "inside_gt_01": 64,
+      "inside_gt_035": 26,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -24.075030938890144,
+        12.487482871816471,
+        -10.647380828857422
+      ],
+      "nearest_upper_point": [
+        -24.08149325392466,
+        12.39227711163314,
+        -11.315142753366471
+      ]
+    }
+  },
+  "dachshund": {
+    "0": {
+      "samples": 77,
+      "minimum_signed_mesh_distance": -0.495525743651865,
+      "inside_gt_01": 68,
+      "inside_gt_035": 22,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -17.134090423583984,
+        13.399999618530273,
+        14.350000381469727
+      ],
+      "nearest_upper_point": [
+        -17.609913152878267,
+        13.522528655010873,
+        14.285773221110503
+      ]
+    },
+    "10": {
+      "samples": 3,
+      "minimum_signed_mesh_distance": 0.02907111850051275,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -24.46583030379812,
+        12.663405341775423,
+        13.0388822555542
+      ],
+      "nearest_upper_point": [
+        -24.457114342897334,
+        12.674188430662527,
+        13.013330602955989
+      ]
+    },
+    "20": {
+      "samples": 4,
+      "minimum_signed_mesh_distance": 0.04365546598293162,
+      "inside_gt_01": 0,
+      "inside_gt_035": 0,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -24.358802479943165,
+        12.517597334714614,
+        12.990046501159668
+      ],
+      "nearest_upper_point": [
+        -24.361940581831504,
+        12.53452698370146,
+        12.949929933361469
+      ]
+    }
+  },
+  "maltipoo": {
+    "0": {
+      "samples": 73,
+      "minimum_signed_mesh_distance": -0.5439133433318675,
+      "inside_gt_01": 57,
+      "inside_gt_035": 26,
+      "nearest_search_certified": true,
+      "worst_sample": [
+        -14.083454132080078,
+        13.399999618530273,
+        16.85000228881836
+      ],
+      "nearest_upper_point": [
+        -14.60536007385831,
+        13.53409842073027,
+        16.923984882984502
+      ]
+    },
+    "10": {
+      "samples": 0
+    },
+    "20": {
+      "samples": 0
+    }
+  }
+}

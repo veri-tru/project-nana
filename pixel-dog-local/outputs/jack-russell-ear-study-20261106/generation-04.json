@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Correct ONE tiny local defect in this exact image, no global redraw. Only change BOTTOM EAR in MIDDLE ROW RIGHTMOST TOP-VIEW cell. It currently looks like a cut-off tan leg extending downward with a flat cut bottom at y644. That is wrong.\nMake this lower ear a VERTICAL MIRROR of the UPPER EAR IN THE SAME CELL about the head's left-to-right centerline. This means: the lower ear's root/base must point UP AND RIGHT, inward into the skull, while its folded small cap lies outward DOWN AND LEFT, pointing toward nose at LEFT. The upper ear in that cell has its root down/right and cap up/left; the lower ear must have the OPPOSITE vertical arrangement. The lower ear's stem must rise INSIDE the head's lower-right boundary (around x1440,y592), NOT extend downward outside the head. The small cap is a closed rounded triangular tan flap at approx x1400..1457,y596..624, with the bend/shadow along its INNER/top edge. Complete the outline, no flat cropped edge, no dangling column, no detached piece, no third ear. Keep overall ear compact, entirely within y590..635, with the root on its top/right side merging naturally into skull. Only ear pixels and minimal contact area can change; face, head outline away from root, all other14cells including upper ear, typography, color, lighting and layout must remain as-is. This is the same semi-erect ear seen from TOP, not from FRONT.",
+  "referenced_image_paths": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/jack-russell-ear-study-20261106/iterations/03/comparison.png"
+  ],
+  "transparent_background": false,
+  "reason": "Implementer rejected revision03: bottom top-view ear root extended outward like a cut column; invert root-cap vertical relationship."
+}

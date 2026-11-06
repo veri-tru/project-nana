@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "views.png",
+      "sha256": "ad625378de94d723e30bf6aaefbed49193c6cd672531947a3da2e383e9340369"
+    },
+    {
+      "path": "attachments.png",
+      "sha256": "5fa54baa1cb12d11eb6f2c2404dc1f52f05531d81e3c011762dbaa9cdd33fd5e"
+    },
+    {
+      "path": "expressions.png",
+      "sha256": "b99527e00b59ae5b1b1995696fdb261940e013907195e6dd17740978bb10f584"
+    },
+    {
+      "path": "mouth-side.png",
+      "sha256": "e39c718ce287ae0c9dd93726deaa0e6d5b95bc5a34194cdacc0d439437442605"
+    }
+  ],
+  "inputs": {
+    "../cranio-cervical-v1/expressions.py": "b24a4f6fb1ade495aa9809387410f654e497f97a4b5d96125bb326a3591c6c6a",
+    "../cranio-cervical-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "../cranio-cervical-v1/preview.py": "ccebfccc71a6ebbc86d6a8e64c3cbe12da7da17ff4c054c5ad3294a5c70b436a",
+    "../deformation-b-expressions-simple-v1/preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+    "../deformation-b-face-v2/__pycache__/preview.raster-207.py312.1.nbc": "a0c63699688705eccd3044b02db4443cc7ca1080fcc6d654c6f107a7a0a3f795",
+    "../deformation-b-face-v2/__pycache__/preview.raster-207.py312.nbi": "104c3fcd47e7cd24949df8dfa852ccbfe5d4fe9069bf510beb714ec2b2ae93f7",
+    "../deformation-b-face-v2/preview.py": "937e27122d0231a6745bc2329aff07db01d5665b48d1efd24ed027022b7e4b19",
+    "../deformation-b-face-v3/B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "../deformation-b-face-v3/preview.py": "9da720d13f6472359bd2882bbc390a1f70c7b9e4e28206db3d9eb88f489db11e",
+    "../deformation-b-face-v3/profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+    "../deformation-b-heads-v1/preview.py": "0041692ee9f25fc1e4dd179f5952efe8dc12ec95330f843a0448b1eca0d025c2",
+    "../deformation-b-round-eyes-v1/preview.py": "29ccbb7a79694540ceabe72311d5b86062177c6396477fe64cb2eb388cb62e24",
+    "../deformation-rig-b-v1/B.json": "fabc3715d0f6af6ac38d1fbd8a9dcc56975d3757cb73b1bf35379d372b9a306e",
+    "../deformation-rig-b-v1/preview.py": "9d7d9beefa043b1c08caac1a86b05a688b88664265f301c5dbedcf2a056ff1f3",
+    "preview.py": "cdab4db38cb579e46a4b01ae7a3803f59d960af281b49fc464ffea5ff8cf150b",
+    "../heads-necks-four-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+    "../heads-necks-four-v1/preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+    "../integrated-rig-b-v1/build.py": "e72f1c02c4517dd4a07d4d24e8b2c7d564448c285dfe58433c5ce903fd43efbd",
+    "../integrated-rig-b-v1/preview.py": "dd32361f84e4eb281ad1472bb48a8f3fd203d26d5e247febee2d2b7481fd4d4a",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+  },
+  "reviews": {
+    "technical": {
+      "status": "PASS",
+      "reviewer": "/root/volume_technical_review",
+      "artifacts": {
+        "views.png": "ad625378de94d723e30bf6aaefbed49193c6cd672531947a3da2e383e9340369",
+        "attachments.png": "5fa54baa1cb12d11eb6f2c2404dc1f52f05531d81e3c011762dbaa9cdd33fd5e",
+        "expressions.png": "b99527e00b59ae5b1b1995696fdb261940e013907195e6dd17740978bb10f584",
+        "mouth-side.png": "e39c718ce287ae0c9dd93726deaa0e6d5b95bc5a34194cdacc0d439437442605"
+      },
+      "inputs": {
+        "../cranio-cervical-v1/expressions.py": "b24a4f6fb1ade495aa9809387410f654e497f97a4b5d96125bb326a3591c6c6a",
+        "../cranio-cervical-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+        "../cranio-cervical-v1/preview.py": "ccebfccc71a6ebbc86d6a8e64c3cbe12da7da17ff4c054c5ad3294a5c70b436a",
+        "../deformation-b-expressions-simple-v1/preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+        "../deformation-b-face-v2/__pycache__/preview.raster-207.py312.1.nbc": "a0c63699688705eccd3044b02db4443cc7ca1080fcc6d654c6f107a7a0a3f795",
+        "../deformation-b-face-v2/__pycache__/preview.raster-207.py312.nbi": "104c3fcd47e7cd24949df8dfa852ccbfe5d4fe9069bf510beb714ec2b2ae93f7",
+        "../deformation-b-face-v2/preview.py": "937e27122d0231a6745bc2329aff07db01d5665b48d1efd24ed027022b7e4b19",
+        "../deformation-b-face-v3/B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+        "../deformation-b-face-v3/preview.py": "9da720d13f6472359bd2882bbc390a1f70c7b9e4e28206db3d9eb88f489db11e",
+        "../deformation-b-face-v3/profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+        "../deformation-b-heads-v1/preview.py": "0041692ee9f25fc1e4dd179f5952efe8dc12ec95330f843a0448b1eca0d025c2",
+        "../deformation-b-round-eyes-v1/preview.py": "29ccbb7a79694540ceabe72311d5b86062177c6396477fe64cb2eb388cb62e24",
+        "../deformation-rig-b-v1/B.json": "fabc3715d0f6af6ac38d1fbd8a9dcc56975d3757cb73b1bf35379d372b9a306e",
+        "../deformation-rig-b-v1/preview.py": "9d7d9beefa043b1c08caac1a86b05a688b88664265f301c5dbedcf2a056ff1f3",
+        "preview.py": "cdab4db38cb579e46a4b01ae7a3803f59d960af281b49fc464ffea5ff8cf150b",
+        "../heads-necks-four-v1/head_surface.py": "641698f6b62ebe2bc14f6eeeaae6089b1f2c0f20659d2fb86d4f64f3803bd221",
+        "../heads-necks-four-v1/preview.py": "5a64539f866de6653101f30066059fab97663a08f6b39d2a2d6a344a4b6e23af",
+        "../integrated-rig-b-v1/build.py": "e72f1c02c4517dd4a07d4d24e8b2c7d564448c285dfe58433c5ce903fd43efbd",
+        "../integrated-rig-b-v1/preview.py": "dd32361f84e4eb281ad1472bb48a8f3fd203d26d5e247febee2d2b7481fd4d4a",
+        "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082"
+      },
+      "coverage_complete": true,
+      "unresolved": {},
+      "report": "technical-review.md",
+      "report_sha256": "691d703bb7be7ba481c379a3eebaeaafc4dc956a9d6785c736a9bbb7d8945a78",
+      "coverage": [
+        "All four dogs: side/front/oblique",
+        "All four dogs: rear/top/ear-hidden side/oblique",
+        "All four dogs: seven oblique static states",
+        "All four dogs: five ear-hidden mouth states"
+      ]
+    },
+    "visual": {
+      "status": "PASS",
+      "reviewer": "/root/volume_visual_review",
+      "artifacts": {
+        "views.png": "ad625378de94d723e30bf6aaefbed49193c6cd672531947a3da2e383e9340369",
+        "attachments.png": "5fa54baa1cb12d11eb6f2c2404dc1f52f05531d81e3c011762dbaa9cdd33fd5e",
+        "expressions.png": "b99527e00b59ae5b1b1995696fdb261940e013907195e6dd17740978bb10f584",
+        "mouth-side.png": "e39c718ce287ae0c9dd93726deaa0e6d5b95bc5a34194cdacc0d439437442605"
+      },
+      "coverage_complete": true,
+      "unresolved": {
+        "VV09": "MINOR"
+      },
+      "report": "visual-review.md",
+      "report_sha256": "7f3db5f72d401dd956690718869fb49baa8bd739f221156430f43182527d2c30",
+      "coverage": [
+        "All four dogs: side/front/oblique",
+        "All four dogs: rear/top/ear-hidden side/oblique",
+        "All four dogs: seven oblique static states",
+        "All four dogs: five ear-hidden mouth states"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "VV01",
+      "severity": "BLOCKER",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV02",
+      "severity": "BLOCKER",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV03",
+      "severity": "BLOCKER",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV04",
+      "severity": "MAJOR",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV05",
+      "severity": "MAJOR",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV06",
+      "severity": "MAJOR",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV07",
+      "severity": "MAJOR",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV08",
+      "severity": "MAJOR",
+      "resolved": true,
+      "evidence": "visual-review.md"
+    },
+    {
+      "id": "VV09",
+      "severity": "MINOR",
+      "resolved": false,
+      "description": "Faint broad shading bands on Maltipoo nasal bridge; no structural discontinuity",
+      "evidence": "visual-review.md"
+    }
+  ],
+  "user_decision": "PENDING",
+  "delivery": "READY",
+  "history": [
+    {
+      "event": "REVIEW_REQUESTED",
+      "pass": "09",
+      "artifacts": {
+        "views.png": "ad625378de94d723e30bf6aaefbed49193c6cd672531947a3da2e383e9340369",
+        "attachments.png": "5fa54baa1cb12d11eb6f2c2404dc1f52f05531d81e3c011762dbaa9cdd33fd5e",
+        "expressions.png": "b99527e00b59ae5b1b1995696fdb261940e013907195e6dd17740978bb10f584",
+        "mouth-side.png": "e39c718ce287ae0c9dd93726deaa0e6d5b95bc5a34194cdacc0d439437442605"
+      }
+    },
+    {
+      "event": "INDEPENDENT_REVIEW_COMPLETE",
+      "pass": "09",
+      "artifacts": {
+        "views.png": "ad625378de94d723e30bf6aaefbed49193c6cd672531947a3da2e383e9340369",
+        "attachments.png": "5fa54baa1cb12d11eb6f2c2404dc1f52f05531d81e3c011762dbaa9cdd33fd5e",
+        "expressions.png": "b99527e00b59ae5b1b1995696fdb261940e013907195e6dd17740978bb10f584",
+        "mouth-side.png": "e39c718ce287ae0c9dd93726deaa0e6d5b95bc5a34194cdacc0d439437442605"
+      },
+      "technical": "PASS",
+      "visual": "PASS",
+      "user_decision": "PENDING"
+    }
+  ]
+}

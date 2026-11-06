@@ -1,0 +1,398 @@
+"""Implicit head/cervical volume and independently posed mandible. Authored, not measured anatomy."""
+import copy, hashlib, importlib.util, json, sys
+from pathlib import Path
+import numpy as np
+from scipy.interpolate import PchipInterpolator
+from scipy.ndimage import map_coordinates, distance_transform_edt, gaussian_filter
+from scipy.spatial import cKDTree
+from skimage.measure import marching_cubes
+from PIL import Image, ImageDraw
+
+HERE=Path(__file__).resolve().parent
+spec=importlib.util.spec_from_file_location('volume_baseline',HERE.parent/'cranio-cervical-v1/preview.py')
+old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)
+model=old.model
+BREEDS=old.BREEDS; NAMES=old.NAMES
+STEP=.20
+STATES=['neutral','half','closed','mid','open','tongue','lick']
+LABELS=['기본','반쯤 감기','눈 감기','입 벌림 · 중간','입 벌림','혀 내밀기','코 핥기']
+ORAL=np.array([80.,49.,45.])
+PARAMS={
+ 'golden':dict(lip=1.2,lip_front=3.6,depth=2.2,neck_depth=6.4,neck_width=7.2,angle=8.,front=.6),
+ 'whippet':dict(lip=3.3,lip_front=4.1,depth=1.2,neck_depth=4.9,neck_width=4.8,angle=7.,front=.6),
+ 'dachshund':dict(lip=3.6,lip_front=5.6,depth=1.7,neck_depth=5.6,neck_width=6.1,angle=8.,front=.6),
+ 'maltipoo':dict(lip=1.0,lip_front=1.8,depth=2.1,neck_depth=5.4,neck_width=6.1,angle=19.,front=.6)}
+MALTIPOO_COAT=np.array([236.,221.,194.])
+
+def union(a,b,k=1.):
+    h=np.clip(.5+.5*(b-a)/k,0,1)
+    return b*(1-h)+a*h-k*h*(1-h)
+
+def ellipsoid(q,c,r):
+    v=(q-np.asarray(c))/r
+    k0=np.linalg.norm(v,axis=-1);k1=np.linalg.norm(v/r,axis=-1)
+    return k0*(k0-1)/np.maximum(k1,1e-7)
+
+def capsule(q,a,b,r):
+    d=b-a;t=np.clip(np.sum((q-a)*d,axis=-1)/np.dot(d,d),0,1)
+    return np.linalg.norm(q-a-t[...,None]*d,axis=-1)-r
+
+def inputs():
+    rigs,raw=old.inputs()
+    for b in BREEDS:
+        rigs[b]['neck_skin'].update(width=PARAMS[b]['neck_width'],depth=PARAMS[b]['neck_depth'])
+        # Shift the cervical support forward under the skull while retaining
+        # the complete head/face world pose by compensating its local offset.
+        rigs[b]['nodes']['neck.lower']['offset'][0]-=2.2
+        rigs[b]['nodes']['body.head']['offset'][0]+=2.2
+    for name,node in rigs['maltipoo']['nodes'].items():
+        if any(name.endswith('_'+part) for part in ['eye','pupil','brow','upper_lid','lower_lid','eye_inner','eye_outer']):
+            node['offset'][0]-=1.1
+            node['offset'][1]-=.3
+    return rigs,raw
+
+def sections(rig,raw,b):
+    profile=old.base.profile_for(rig,raw,b)
+    if b=='maltipoo':profile['eye_radius']=(1.5,1.5)
+    features=model.head_features(rig,b,profile)
+    if b=='maltipoo':
+        # Closed thick pendulous ears, with their broad root embedded in the
+        # rebuilt cranium. No separate sheet connector or decorative outline.
+        t=np.linspace(0,1,121);theta=np.linspace(0,2*np.pi,161)
+        knots=[0,.14,.48,.78,1]
+        yy=PchipInterpolator(knots,[10.5,9.1,5.5,2.6,.5])(t)
+        xx=PchipInterpolator(knots,[1.8,2.5,4.0,4.7,4.7])(t)
+        zz=PchipInterpolator(knots,[5.6,7.8,10.0,10.2,9.6])(t)
+        width=PchipInterpolator(knots,[0,3.2,4.9,4.4,0])(t)
+        depth=PchipInterpolator(knots,[0,1.8,2.3,2.1,0])(t)
+        tip=np.sqrt(np.clip(1-((t-.78)/.22)**2,0,1))
+        width=np.where(t>.78,4.4*tip,width)
+        depth=np.where(t>.78,2.1*tip,depth)
+        features=features[:1]
+        for sign in (1,-1):
+            ear=np.stack(np.broadcast_arrays(xx[:,None]+width[:,None]*np.cos(theta),yy[:,None],sign*(zz[:,None]+depth[:,None]*np.sin(theta))),axis=-1)
+            features.append((ear,np.array([220.,199.,165.])))
+    v,col=features[0];v=v.copy()
+    # Alter the envelope itself, not only the articulated lower-jaw strip.
+    if b=='whippet':
+        lo=v[:,:,1].min(1); hi=v[:,:,1].max(1)
+        target=np.maximum(lo,2.5-.5*model.smoothstep((v[:,0,0]+18)/14))
+        w=1-model.smoothstep((v[:,0,0]+5)/8)
+        v[:,:,1]+=(target-lo)[:,None]*w[:,None]*np.clip((hi[:,None]-v[:,:,1])/np.maximum(.01,hi-lo)[:,None],0,1)
+    if b=='maltipoo':
+        # Broad whisker pads behind the small nasal leather; keep the eye/ear area.
+        x=v[:,0,0];w=model.smoothstep((x-(x[0]+2.80))/1.0)*(1-model.smoothstep((x+5.0)/2.5))
+        v[:,:,2]*=1+.55*w[:,None]
+        lo=v[:,:,1].min(1);hi=v[:,:,1].max(1)
+        v[:,:,1]-=1.35*w[:,None]*np.clip((hi[:,None]-v[:,:,1])/np.maximum(.01,hi-lo)[:,None],0,1)
+    # A regular radial table preserves the authored upper head and nose.
+    keep=np.r_[True,np.diff(v[:,0,0])>1e-6];v=v[keep]
+    xs=v[:,0,0];cy=(v[:,:,1].max(1)+v[:,:,1].min(1))/2
+    theta=np.linspace(0,2*np.pi,361)
+    radius=[]
+    for row,c in zip(v,cy):
+        ang=np.mod(np.arctan2(row[:,2],row[:,1]-c),2*np.pi)
+        order=np.argsort(ang);a=ang[order];rr=np.hypot(row[order,1]-c,row[order,2])
+        a,idx=np.unique(a,return_index=True);rr=rr[idx]
+        radius.append(np.interp(theta,np.r_[a[-1]-2*np.pi,a,a[0]+2*np.pi],np.r_[rr[-1],rr,rr[0]]))
+    radius=np.array(radius)
+    s=dict(xs=xs,cy=cy,radius=radius,features=features,profile=profile,modified=v)
+    # Convert the radial occupancy to a true Euclidean distance volume before
+    # joining the neck. A radial residual is not a distance at the rear cap.
+    s['sdf_origin']=np.array([xs[0]-2,-14.,-16.]);s['sdf_step']=.20
+    axes=[np.arange(s['sdf_origin'][i],end+.20,.20) for i,end in enumerate([20.,22.,16.])]
+    q=np.stack(np.meshgrid(*axes,indexing='ij'),axis=-1)
+    raw_distance=raw_head_field(q,s,b)
+    inside=raw_distance<0
+    distance=(distance_transform_edt(~inside)-distance_transform_edt(inside))*.20
+    # Sub-voxel boundary correction retains the smooth authored contour and
+    # nasal family, while EDT supplies valid distances away from the surface.
+    gradient=np.gradient(raw_distance,.20)
+    magnitude=np.sqrt(sum(g*g for g in gradient))
+    local=raw_distance/np.maximum(magnitude,1.)
+    weight=1-model.smoothstep((np.abs(raw_distance)-.35)/.65)
+    distance=distance*(1-weight)+local*weight
+    s['head_distance']=gaussian_filter(distance,1.2).astype(np.float32)
+    return s
+
+def lip_height(x,s,b):
+    p=PARAMS[b];t=np.clip((x-s['xs'][0]-p['front'])/max(1,-5-s['xs'][0]),0,1)
+    return p['lip_front']+(p['lip']-p['lip_front'])*np.sin(t*np.pi/2)
+
+def raw_head_field(q,s,b):
+    x,y,z=np.moveaxis(q,-1,0);xs=s['xs'];cy=np.interp(x,xs,s['cy'])
+    a=np.mod(np.arctan2(z,y-cy),2*np.pi)
+    ix=np.interp(x,xs,np.arange(len(xs)))
+    radius=map_coordinates(s['radius'],[ix.ravel(),(a*360/(2*np.pi)).ravel()],order=1,mode='nearest').reshape(x.shape)
+    d=np.hypot(y-cy,z)-radius
+    d=np.maximum(d,np.maximum(xs[0]-x,x-xs[-1]))
+    if b=='maltipoo':
+        skull=ellipsoid(q,[-.5,6.0,0],[8.0,7.5,8.6])
+        muzzle=ellipsoid(q,[-5.9,4.1,0],[4.3,3.6,6.3])
+        rebuilt=union(skull,muzzle,3.0)
+        # A low rounded whisker pad joins the cheeks; no ring around the eyes.
+        whiskers=ellipsoid(q,[-7.0,3.6,0],[3.4,2.8,5.2])
+        rebuilt=union(rebuilt,whiskers,2.0)
+        nose=np.maximum(d,x-(xs[0]+2.9))
+        filled=union(rebuilt,nose,1.2)
+        protection=(1-model.smoothstep((x-(xs[0]+2.55))/.5))*model.smoothstep((y-3.1)/.9)
+        d=d*protection+filled*(1-protection)
+    return d
+
+def head_field(q,s,rig,b):
+    x,y,z=np.moveaxis(q,-1,0);xs=s['xs']
+    coords=np.moveaxis((q-s['sdf_origin'])/s['sdf_step'],-1,0)
+    d=map_coordinates(s['head_distance'],coords.reshape(3,-1),order=1,mode='constant',cval=50).reshape(x.shape)
+    world={k:np.array(v) for k,v in model.pose(rig).items()};o=world['body.head']
+    ctr=np.array([world[k]-o for k in ['head.occipital_joint','neck.C1','neck.C2','neck.lower']])
+    neck=np.full(x.shape,1e3)
+    for i in range(3):
+        for t in np.linspace(0,1,9):
+            c=ctr[i]*(1-t)+ctr[i+1]*t
+            progress=(i+t)/3
+            # Broad base-of-skull support; taper only slightly toward the cut.
+            r=np.array([rig['neck_skin']['depth'],4.4,rig['neck_skin']['width']])*(1-.10*progress)
+            neck=union(neck,ellipsoid(q,c,r),.35)
+    # The oral roof follows the curved lip, rising into the rear cheek before
+    # the cervical mass. It does not stretch down with the rotating jaw.
+    hinge=world['face.jaw_axis']-o
+    corner=world['face.L_mouth_corner'][0]-o[0]
+    rear=model.smoothstep((x-(corner-2.5))/3.0)
+    floor=lip_height(x,s,b)
+    width=np.interp(x,xs,np.abs(s['modified'][:,:,2]).max(1))*.96
+    if b=='maltipoo':width=np.maximum(width,5.1*np.sqrt(np.clip(1-((x+6.6)/4.7)**2,0,1)))
+    thick=PARAMS[b]['depth']*.52
+    floor=floor-thick+thick*np.sqrt(np.clip(1-(z/np.maximum(width,.1))**2,0,1))
+    floor-=PARAMS[b]['depth']*rear
+    # The mouth corner is anterior to TMJ. Keep the cheek over the ascending
+    # ramus, rather than cutting a triangle all the way up to the hinge.
+    throat=model.smoothstep((x-(hinge[0]-2.0))/6.0)
+    floor-=np.maximum(2.,PARAMS[b]['lip']-PARAMS[b]['depth']-ctr[-1,1]+1)*throat
+    cut=floor-y
+    d=-union(-d,-cut,.8)
+    return np.maximum(union(d,neck,3.2),ctr[-1,1]-y)
+
+def extract(field,bounds,step=STEP):
+    axes=[np.arange(a,b+step,step) for a,b in bounds]
+    q=np.stack(np.meshgrid(*axes,indexing='ij'),axis=-1)
+    values=field(q).astype(np.float32)
+    v,f,n,_=marching_cubes(values,0,spacing=(step,)*3,allow_degenerate=False)
+    v+=np.array([a[0] for a in bounds]);n=-n
+    # skimage normals point into a negative-inside field; recompute smooth
+    # outward normals from the gradient so shading is independent of winding.
+    return v,f,n
+
+def jaw_mesh(s,rig,b):
+    p=PARAMS[b];pose=model.pose(rig);hinge=np.array(pose['face.jaw_axis'])-pose['body.head']
+    start=s['xs'][0]+p['front'];end=hinge[0]-1.2
+    x=np.linspace(start,end,100)
+    width=np.interp(x,s['xs'],np.abs(s['modified'][:,:,2]).max(1))*.86
+    if b=='maltipoo':
+        width=np.maximum(width,4.0*np.sqrt(np.clip(1-((x+7.5)/3.4)**2,0,1)))
+    # Keep the mandibular footprint under the upper muzzle/nasal width in
+    # dorsal view; a broad whisker-pad radius is not a lower-jaw radius.
+    width=np.minimum(width,{'golden':6.2,'whippet':3.3,'dachshund':5.0,'maltipoo':4.8}[b])
+    width*=np.sqrt(np.clip((x-start)/1.1,0,1));width=np.maximum(width,.08)
+    corner=pose['face.L_mouth_corner'][0]-pose['body.head'][0]
+    narrow=model.smoothstep((x-corner)/max(1,end-corner))
+    hinge_width=abs(pose['face.L_jaw_hinge'][2]-pose['body.head'][2])*.82
+    width=width*(1-narrow)+hinge_width*narrow
+    yy=lip_height(x,s,b)-p['depth']*.52
+    thick=p['depth']*.52
+    if b=='maltipoo':
+        # Seat the mandibular top on the actual closed upper-muzzle underside.
+        samples=np.linspace(-4,12,321)
+        q=np.stack(np.broadcast_arrays(x[:,None],samples[None,:],np.zeros((len(x),len(samples)))),axis=-1)
+        values=head_field(q,s,rig,b)
+        first=(values<0).argmax(1)
+        first=np.maximum(first,1)
+        lo=samples[first-1];hi=samples[first]
+        for _ in range(12):
+            mid=(lo+hi)/2
+            hit=head_field(np.column_stack([x,mid,x*0]),s,rig,b)<0
+            hi=np.where(hit,mid,hi);lo=np.where(hit,lo,mid)
+        roof=(lo+hi)/2
+        taper=np.sqrt(np.clip((x-start)/1.4,0,1))
+        fitted=roof-np.maximum(.04,thick*taper)+.02
+        w=1-model.smoothstep((x-(corner-2.0))/2.0)
+        yy=yy*(1-w)+fitted*w
+    def field(q):
+        xx,y,z=np.moveaxis(q,-1,0)
+        cy=np.interp(xx,x,yy);w=np.interp(xx,x,width)
+        taper=np.sqrt(np.clip((xx-start)/1.4,0,1))
+        h=np.maximum(.04,thick*taper)
+        d=(np.sqrt(((y-cy)/h)**2+(z/w)**2)-1)*h
+        d=np.maximum(d,np.maximum(start-xx,xx-end))
+        for sign in (1,-1):
+            a=np.array([end-.9,yy[-1],sign*width[-1]*.80])
+            h=np.array(pose[f'face.{"L" if sign==1 else "R"}_jaw_hinge'])-pose['body.head']
+            d=union(d,capsule(q,a,h,p['depth']*.49),.7)
+        if b=='maltipoo':
+            avoid=np.minimum(-head_field(q,s,rig,b)-.015,(corner-1.-xx)*2.)
+            d=np.maximum(d,avoid)
+        return d
+    v,f,n=extract(field,[(start-2,hinge[0]+2),(-5,hinge[1]+2),(-12,12)],.17)
+    return dict(v=v,f=f,n=n,hinge=hinge,field=field,x=x,y=yy,width=width,thick=thick)
+
+def rotate(v,hinge,degrees):
+    a=np.radians(degrees);r=np.array([[np.cos(a),-np.sin(a),0],[np.sin(a),np.cos(a),0],[0,0,1]])
+    return (v-hinge)@r.T+hinge
+
+def colors(v,s,rig,b,state):
+    body=np.array(model.old.COLORS.get(b,([239,228,210],[220,199,172]))[0],float)
+    if b=='maltipoo':body=MALTIPOO_COAT.copy()
+    c=np.tile(body,(len(v),1));x,y,z=v.T
+    # Transfer the original nasal material only, through the retained rostral
+    # parameterization. Eye dots use unchanged centers and circular radii.
+    ov,oc=s['features'][0]
+    centers=(ov[:-1,:-1]+ov[1:,:-1]+ov[1:,1:]+ov[:-1,1:])/4
+    if b=='maltipoo': nose_end=s['xs'][0]+2.9
+    else:nose_end=s['xs'][0]+4.4*model.NOSE_SCALE[b]
+    mask=x<nose_end
+    dist,ix=cKDTree(centers.reshape(-1,3)).query(v[mask],k=4)
+    weights=1/np.maximum(dist,.02)**2;weights/=weights.sum(1)[:,None]
+    c[mask]=(oc.reshape(-1,3)[ix]*weights[:,:,None]).sum(1)
+    if b=='maltipoo':
+        pigment=model.smoothstep((150-c[mask].max(1))/65)
+        pigment*=1-model.smoothstep((dist.min(1)-.15)/.35)
+        c[mask]=body*(1-pigment[:,None])+c[mask]*pigment[:,None]
+    pose=model.pose(rig);radius=s['profile']['eye_radius'][0]
+    for side,sign in [('L',1),('R',-1)]:
+        eye=np.array(pose[f'face.{side}_eye'])-pose['body.head']
+        chosen=np.argmin((x-eye[0])**2+(y-eye[1])**2+np.where(sign*z>0,0,1e5))
+        center=v[chosen];u=(x-eye[0])/radius;w=(y-eye[1])/radius
+        ds=np.sum((v-center)**2,axis=1)/radius**2;alpha=np.clip((1.1-ds)*5,0,1)*(sign*z>0)
+        if state=='half':alpha*=model.smoothstep((-w+.12)/.20)
+        if state=='closed':alpha=np.exp(-((w+.10+.18*u*u)/.10)**2)*np.clip((1-ds)*5,0,1)*(sign*z>0)
+        c=c*(1-alpha[:,None])+np.array([41,34,27])*alpha[:,None]
+        if state!='closed':
+            glint=np.exp(-((u+.25)**2/.03+(w-.21)**2/.05))*.70*alpha
+            c=c*(1-glint[:,None])+np.array([244,232,207])*glint[:,None]
+    return c
+
+def tongue_mesh(jaw,s,b,angle,lick=False,nose_contact=None,headfield=None):
+    # Samples are authored on the actual jaw centerline before rigid posing.
+    start=jaw['x'][0]+5;tip=jaw['x'][0]-((1.8 if b=='maltipoo' else 1.1) if not lick else .4)
+    t=np.linspace(0,1,90);x=start+(tip-start)*t
+    y=np.interp(x,jaw['x'],jaw['y'])+jaw['thick']+.32
+    pts=rotate(np.column_stack([x,y,np.zeros_like(x)]),jaw['hinge'],angle)
+    if lick:
+        nasal_y=float((s['features'][0][0][0,:,1].max()+s['features'][0][0][0,:,1].min())/2)
+        contact=np.array([s['xs'][0],nasal_y,0]) if nose_contact is None else nose_contact
+        w=model.smoothstep((t-.50)/.5)
+        pts=pts*(1-w[:,None])+contact*w[:,None]
+        if b=='maltipoo' and headfield is not None:
+            xx=np.linspace(s['xs'][0]-3,jaw['hinge'][0],240)
+            q=np.stack(np.broadcast_arrays(xx[None,:],pts[:,1,None],np.zeros((len(t),len(xx)))),axis=-1)
+            inside=headfield(q)<0
+            first=inside.argmax(1);front=xx[first]
+            valid=inside.any(1)&(pts[:,1]>PARAMS[b]['lip_front']-.5)
+            route=front-.30*(1-model.smoothstep((t-.92)/.08))
+            pts[:,0]=np.where(valid,np.minimum(pts[:,0],route),pts[:,0])
+            pts[-1]=contact
+    else:pts[:,1]-=(1.4 if b=='maltipoo' else .8)*model.smoothstep((t-.6)/.4)
+    width={'golden':1.65,'whippet':.95,'dachshund':1.2,'maltipoo':1.7}[b]
+    theta=np.linspace(0,2*np.pi,49)
+    taper=np.sqrt(np.clip(t/.07,0,1)*np.clip((1-t)/.12,0,1))
+    v=pts[:,None,:]+np.stack(np.broadcast_arrays(np.zeros((90,49)),(.32*taper)[:,None]*np.cos(theta),(width*taper)[:,None]*np.sin(theta)),axis=-1)
+    return v,np.array([202,117,122])
+
+def keep_outside(v,field,clearance=0.):
+    v=v.copy()
+    for _ in range(5):
+        d=field(v);mask=d<clearance-1e-5
+        if not np.any(mask):break
+        q=v[mask];grad=[]
+        for axis in np.eye(3)*.015:
+            grad.append((field(q+axis)-field(q-axis))/.03)
+        grad=np.stack(grad,axis=-1);grad/=np.maximum(np.linalg.norm(grad,axis=-1,keepdims=True),1e-6)
+        v[mask]+=(clearance-d[mask])[:,None]*grad
+    return v
+
+def build(breeds=BREEDS):
+    rigs,raw=inputs();heads={};evidence={}
+    for b in breeds:
+        s=sections(rigs[b],raw[b],b)
+        v,f,n=extract(lambda q:head_field(q,s,rigs[b],b),[(s['xs'][0]-1,19),(-13,20),(-15,15)])
+        jaw=jaw_mesh(s,rigs[b],b);states={}
+        for state in STATES:
+            angle=PARAMS[b]['angle']*(.5 if state=='mid' else .70 if state=='lick' else 1 if state in ['open','tongue'] else 0)
+            jv=rotate(jaw['v'],jaw['hinge'],angle);jn=rotate(jaw['n'],np.zeros(3),angle)
+            jc=np.tile(np.array(model.old.COLORS.get(b,([239,228,210],))[0]),(len(jv),1)).astype(float)
+            if b=='maltipoo':jc[:]=MALTIPOO_COAT
+            top=jaw['v'][:,1]-(np.interp(jaw['v'][:,0],jaw['x'],jaw['y']))
+            oral=model.smoothstep((top-jaw['thick']*.3)/.3)
+            if b=='maltipoo' and angle==0:oral*=0
+            jc=jc*(1-oral[:,None])+ORAL*oral[:,None]
+            grids=s['features'][1:]
+            if state in ['tongue','lick']:
+                contact=v[np.argmin((v[:,0]-s['xs'][0])**2+v[:,2]**2)]
+                tv,tc=tongue_mesh(jaw,s,b,angle,state=='lick',contact,lambda q:head_field(q,s,rigs[b],b))
+                for _ in range(4):
+                    tv=rotate(keep_outside(rotate(tv,jaw['hinge'],-angle),jaw['field']),jaw['hinge'],angle)
+                    tv=keep_outside(tv,lambda q:head_field(q,s,rigs[b],b))
+                grids=grids+[(tv,tc)]
+            states[state]=dict(tri=[(v,f,n,colors(v,s,rigs[b],b,state)),(jv,jaw['f'],jn,jc)],grids=grids)
+        heads[b]=states;evidence[b]=dict(sections=s,jaw=jaw,head=(v,f,n))
+        print('Built',b,flush=True)
+    return heads,evidence,rigs
+
+def polys(mesh,angle,elev=0,ears=True):
+    a,e=np.radians([angle,elev]);right=np.array([np.sin(a),0,np.cos(a)]);front=np.array([-np.cos(a)*np.cos(e),np.sin(e),np.sin(a)*np.cos(e)]);up=np.cross(front,right);view=np.column_stack([right,up,front])
+    vv=[];cc=[];light=np.array([-.47,.70,.54])
+    for v,f,n,c in mesh['tri']:
+        verts=v@view;norm=n@view
+        shade=.78+.22*np.maximum(0,norm@light)+.065*np.maximum(0,norm[:,1])
+        rgba=c*shade[:,None]
+        ix=f[:,[0,1,2,2]];vv.append(verts[ix]);cc.append(rgba[ix])
+    grids=mesh['grids'] if ears else mesh['grids'][2:]
+    if grids:
+        v,c=model.polys(grids,angle,elev);vv.append(v);cc.append(c)
+    return np.concatenate(vv)*1.7,np.concatenate(cc)
+
+def board(heads,rows,title):
+    if isinstance(rows,str) and rows=='maltipoo-detail':return maltipoo_detail(heads)
+    im=Image.new('RGB',(1600,120+300*len(rows)),model.BG);d=ImageDraw.Draw(im)
+    model.label(im,25,20,title,27,bold=True)
+    for j,name in enumerate(NAMES):model.label(im,45+400*j,78,name,21,bold=True)
+    for i,(label,state,angle,elev,ears) in enumerate(rows):
+        top=115+300*i;d.line((20,top,1580,top),fill=model.LINE);model.label(im,24,top+8,label,16,bold=True)
+        for j,b in enumerate(BREEDS):
+            v,c=polys(heads[b][state],angle,elev,ears);lo=v[:,:,:2].min((0,1));hi=v[:,:,:2].max((0,1))
+            scale=5.4;center=np.array([200+j*400,top+162])-(lo+hi)/2*[scale,-scale]
+            model.paint(im,v,c,center,scale)
+    return im
+
+def maltipoo_detail(heads):
+    im=Image.new('RGB',(1230,1110),model.BG);d=ImageDraw.Draw(im)
+    model.label(im,25,20,'말티푸 · 사용자 사진 기준',29,bold=True)
+    for j,label in enumerate(['측면','정면','사선']):model.label(im,35+j*410,85,label,20,bold=True)
+    for i,(state,label) in enumerate([('neutral','기본'),('open','입 벌림'),('tongue','혀 내밀기')]):
+        top=120+330*i;d.line((20,top,1210,top),fill=model.LINE)
+        model.label(im,24,top+8,label,16,bold=True)
+        for j,angle in enumerate([90,0,38]):
+            v,c=polys(heads['maltipoo'][state],angle,0,True)
+            lo=v[:,:,:2].min((0,1));hi=v[:,:,:2].max((0,1));scale=7.2
+            center=np.array([205+j*410,top+182])-(lo+hi)/2*[scale,-scale]
+            model.paint(im,v,c,center,scale)
+    return im
+
+BOARDS={
+ 'views.png':[('측면','neutral',90,0,True),('정면','neutral',0,0,True),('사선','neutral',38,0,True)],
+ 'attachments.png':[('후면','neutral',180,0,True),('윗면','neutral',90,90,True),('귀 숨김 · 측면','neutral',90,0,False),('귀 숨김 · 사선','neutral',38,0,False)],
+ 'expressions.png':[(label,state,38,0,True) for label,state in zip(LABELS,STATES)],
+ 'mouth-side.png':[(label,state,90,0,False) for label,state in zip(LABELS,STATES) if state in ['neutral','mid','open','tongue','lick']]}
+BOARDS['maltipoo-detail.png']='maltipoo-detail'
+
+def main():
+    heads,evidence,rigs=build()
+    import pickle
+    with (HERE/'geometry.pkl').open('wb') as f:
+        # Closures are not serialized; evaluator remains available in source.
+        simple={b:{'jaw':{k:v for k,v in ev['jaw'].items() if k!='field'},'head':ev['head']} for b,ev in evidence.items()}
+        pickle.dump(dict(heads=heads,evidence=simple,rigs=rigs),f)
+    for name,rows in BOARDS.items():
+        board(heads,rows,'머리·턱·목 · 볼륨 재구성').save(HERE/name);print('Saved',name,flush=True)
+    (HERE/'rigs.json').write_text(json.dumps(rigs,ensure_ascii=False,indent=2),encoding='utf-8')
+
+if __name__=='__main__':main()

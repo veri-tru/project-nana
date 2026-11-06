@@ -1,0 +1,1076 @@
+{
+  "rig": {
+    "name": "말티푸 작화 후보",
+    "nodes": {
+      "body.head": {
+        "parent": null,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.neck_mount": {
+        "parent": "body.head",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.skull": {
+        "parent": "body.head",
+        "offset": [
+          -1.5,
+          7.0,
+          0.0
+        ]
+      },
+      "face.crown": {
+        "parent": "body.head",
+        "offset": [
+          -1.0,
+          15.0,
+          0.0
+        ]
+      },
+      "face.occiput": {
+        "parent": "body.head",
+        "offset": [
+          5.0,
+          7.0,
+          0.0
+        ]
+      },
+      "face.stop": {
+        "parent": "body.head",
+        "offset": [
+          -7.0,
+          8.0,
+          0.0
+        ]
+      },
+      "face.nose": {
+        "parent": "body.head",
+        "offset": [
+          -13.4,
+          5.0,
+          0.0
+        ]
+      },
+      "face.nose_bottom": {
+        "parent": "body.head",
+        "offset": [
+          -12.7,
+          3.2,
+          0.0
+        ]
+      },
+      "face.upper_lip": {
+        "parent": "body.head",
+        "offset": [
+          -10.5,
+          2.0,
+          0.0
+        ]
+      },
+      "face.jaw_axis": {
+        "parent": "body.head",
+        "offset": [
+          -0.8,
+          3.5,
+          0.0
+        ]
+      },
+      "face.chin": {
+        "parent": "body.head",
+        "offset": [
+          -8.0,
+          0.8,
+          0.0
+        ]
+      },
+      "face.L_brow": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          10.200000000000001,
+          7.5
+        ]
+      },
+      "face.L_eye": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          7.5
+        ]
+      },
+      "face.L_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          6.1
+        ]
+      },
+      "face.L_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          8.9
+        ]
+      },
+      "face.L_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          9.700000000000001,
+          7.5
+        ]
+      },
+      "face.L_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.100000000000001,
+          7.5
+        ]
+      },
+      "face.L_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          7.5
+        ]
+      },
+      "face.L_temple": {
+        "parent": "body.head",
+        "offset": [
+          3.0,
+          7.0,
+          8.0
+        ]
+      },
+      "face.L_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -3.6120000000000005,
+          0.19780000000000314,
+          8.91684
+        ]
+      },
+      "face.L_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -12.0,
+          4.8,
+          3.5
+        ]
+      },
+      "face.L_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.0,
+          9.3,
+          7.7
+        ]
+      },
+      "face.L_jaw_hinge": {
+        "parent": "body.head",
+        "offset": [
+          -0.8,
+          3.5,
+          6.0
+        ]
+      },
+      "face.L_mouth_corner": {
+        "parent": "body.head",
+        "offset": [
+          -4.0,
+          1.3,
+          5.0
+        ]
+      },
+      "face.L_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -8.0,
+          4.0,
+          5.0
+        ]
+      },
+      "face.L_jaw_side": {
+        "parent": "body.head",
+        "offset": [
+          -5.0,
+          1.0,
+          5.0
+        ]
+      },
+      "face.L_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          4.5,
+          8.7
+        ]
+      },
+      "face.L_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          -1.7,
+          8.5
+        ]
+      },
+      "face.R_brow": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          10.200000000000001,
+          -7.5
+        ]
+      },
+      "face.R_eye": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -7.5
+        ]
+      },
+      "face.R_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -6.1
+        ]
+      },
+      "face.R_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -8.9
+        ]
+      },
+      "face.R_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          9.700000000000001,
+          -7.5
+        ]
+      },
+      "face.R_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.100000000000001,
+          -7.5
+        ]
+      },
+      "face.R_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -7.5
+        ]
+      },
+      "face.R_temple": {
+        "parent": "body.head",
+        "offset": [
+          3.0,
+          7.0,
+          -8.0
+        ]
+      },
+      "face.R_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -3.6120000000000005,
+          0.19780000000000314,
+          -8.91684
+        ]
+      },
+      "face.R_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -12.0,
+          4.8,
+          -3.5
+        ]
+      },
+      "face.R_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.0,
+          9.3,
+          -7.7
+        ]
+      },
+      "face.R_jaw_hinge": {
+        "parent": "body.head",
+        "offset": [
+          -0.8,
+          3.5,
+          -6.0
+        ]
+      },
+      "face.R_mouth_corner": {
+        "parent": "body.head",
+        "offset": [
+          -4.0,
+          1.3,
+          -5.0
+        ]
+      },
+      "face.R_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -8.0,
+          4.0,
+          -5.0
+        ]
+      },
+      "face.R_jaw_side": {
+        "parent": "body.head",
+        "offset": [
+          -5.0,
+          1.0,
+          -5.0
+        ]
+      },
+      "face.R_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          4.5,
+          -8.7
+        ]
+      },
+      "face.R_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          -1.7,
+          -8.5
+        ]
+      }
+    }
+  },
+  "profile": {
+    "top": [
+      [
+        5,
+        5,
+        0.0
+      ],
+      [
+        4,
+        11,
+        0.0
+      ],
+      [
+        1,
+        15,
+        0.0
+      ],
+      [
+        -3,
+        15,
+        0.0
+      ],
+      [
+        -6,
+        12,
+        0.0
+      ],
+      [
+        -7.5,
+        8,
+        0.0
+      ],
+      [
+        -10.5,
+        6.3,
+        0.0
+      ],
+      [
+        -13.4,
+        5.8,
+        0.0
+      ]
+    ],
+    "bottom": [
+      [
+        5,
+        5,
+        0.0
+      ],
+      [
+        3,
+        0,
+        0.0
+      ],
+      [
+        -1,
+        -1,
+        0.0
+      ],
+      [
+        -5,
+        0,
+        0.0
+      ],
+      [
+        -8,
+        1.8,
+        0.0
+      ],
+      [
+        -11.5,
+        2.7,
+        0.0
+      ],
+      [
+        -13.4,
+        4.4,
+        0.0
+      ]
+    ],
+    "mouth": [
+      [
+        -12.1,
+        3.5,
+        0.0
+      ],
+      [
+        -10,
+        2.3,
+        0.0
+      ],
+      [
+        -7,
+        1.4,
+        0.0
+      ],
+      [
+        -4,
+        1.3,
+        0.0
+      ]
+    ],
+    "nose": [
+      [
+        -11.7992,
+        7.516400000000002,
+        0.0
+      ],
+      [
+        -13.003200000000001,
+        7.714199999999998,
+        0.0
+      ],
+      [
+        -13.7256,
+        6.725200000000003,
+        0.0
+      ],
+      [
+        -13.4848,
+        4.5494,
+        0.0
+      ],
+      [
+        -12.882800000000001,
+        3.164799999999998,
+        0.0
+      ],
+      [
+        -11.9196,
+        3.9559999999999977,
+        0.0
+      ],
+      [
+        -11.5584,
+        5.934000000000003,
+        0.0
+      ]
+    ],
+    "ear": [
+      [
+        1.8,
+        10,
+        0.0
+      ],
+      [
+        5.5,
+        9.2,
+        0.0
+      ],
+      [
+        7,
+        4.5,
+        0.0
+      ],
+      [
+        6,
+        -1,
+        0.0
+      ],
+      [
+        2.5,
+        -3,
+        0.0
+      ],
+      [
+        0,
+        -1,
+        0.0
+      ],
+      [
+        0.2,
+        5.5,
+        0.0
+      ]
+    ],
+    "ridge": [
+      [
+        2.0,
+        8.0,
+        0.0
+      ],
+      [
+        3.5,
+        4.0,
+        0.0
+      ],
+      [
+        3.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "ear_registration": {
+      "source_root": [
+        -3.1550000000000002,
+        48.955,
+        8.363999999999999
+      ],
+      "target_root": [
+        -5.305,
+        46.998000000000005,
+        8.363999999999999
+      ],
+      "translation": [
+        -2.1499999999999995,
+        -1.9569999999999936,
+        0
+      ],
+      "classification": "authored B head attachment; not measured anatomy"
+    },
+    "photo": "private-data/guide-roster/002/source.jpg",
+    "crop": [
+      460,
+      14,
+      650,
+      146
+    ],
+    "half_width": 9.5,
+    "notes": "near-side profile observed; open source mouth replaced by authored closed lower jaw; hidden width symmetric",
+    "source_observations": {
+      "photo": "private-data/guide-roster/002/source.jpg",
+      "crop": [
+        460,
+        14,
+        650,
+        146
+      ],
+      "direction": 1,
+      "pitch": 0,
+      "scale": 0.215,
+      "mount": [
+        518,
+        97
+      ],
+      "half_width": 10.2,
+      "top": [
+        [
+          491,
+          49
+        ],
+        [
+          513,
+          32
+        ],
+        [
+          539,
+          27
+        ],
+        [
+          558,
+          33
+        ],
+        [
+          570,
+          43
+        ],
+        [
+          579,
+          55
+        ],
+        [
+          604,
+          57
+        ],
+        [
+          625,
+          59
+        ],
+        [
+          631,
+          65
+        ]
+      ],
+      "bottom": [
+        [
+          491,
+          98
+        ],
+        [
+          515,
+          113
+        ],
+        [
+          545,
+          114
+        ],
+        [
+          559,
+          111
+        ],
+        [
+          583,
+          110
+        ],
+        [
+          608,
+          108
+        ],
+        [
+          621,
+          99
+        ],
+        [
+          628,
+          84
+        ],
+        [
+          631,
+          65
+        ]
+      ],
+      "mouth": [
+        [
+          558,
+          104
+        ],
+        [
+          576,
+          103
+        ],
+        [
+          594,
+          102
+        ],
+        [
+          608,
+          99
+        ],
+        [
+          620,
+          91
+        ],
+        [
+          625,
+          81
+        ]
+      ],
+      "nose": [
+        [
+          616,
+          59
+        ],
+        [
+          626,
+          58
+        ],
+        [
+          632,
+          63
+        ],
+        [
+          630,
+          74
+        ],
+        [
+          625,
+          81
+        ],
+        [
+          617,
+          77
+        ],
+        [
+          614,
+          67
+        ]
+      ],
+      "ear": [
+        [
+          493,
+          48
+        ],
+        [
+          505,
+          40
+        ],
+        [
+          518,
+          43
+        ],
+        [
+          526,
+          56
+        ],
+        [
+          533,
+          73
+        ],
+        [
+          541,
+          94
+        ],
+        [
+          539,
+          107
+        ],
+        [
+          531,
+          114
+        ],
+        [
+          515,
+          114
+        ],
+        [
+          499,
+          108
+        ],
+        [
+          486,
+          96
+        ],
+        [
+          477,
+          81
+        ],
+        [
+          480,
+          62
+        ]
+      ],
+      "ridge": [
+        [
+          505,
+          44
+        ],
+        [
+          518,
+          57
+        ],
+        [
+          529,
+          77
+        ],
+        [
+          535,
+          99
+        ]
+      ],
+      "points": {
+        "crown": [
+          539,
+          27
+        ],
+        "occiput": [
+          491,
+          49
+        ],
+        "stop": [
+          579,
+          55
+        ],
+        "nose": [
+          629,
+          65
+        ],
+        "nose_bottom": [
+          625,
+          81
+        ],
+        "upper_lip": [
+          620,
+          91
+        ],
+        "chin": [
+          608,
+          108
+        ],
+        "skull": [
+          532,
+          65
+        ],
+        "brow": [
+          560,
+          44
+        ],
+        "eye": [
+          562,
+          55
+        ],
+        "temple": [
+          515,
+          63
+        ],
+        "cheek": [
+          548,
+          96
+        ],
+        "mouth_corner": [
+          558,
+          104
+        ],
+        "muzzle_side": [
+          596,
+          83
+        ],
+        "jaw_hinge": [
+          531,
+          94
+        ],
+        "jaw_side": [
+          568,
+          110
+        ],
+        "nose_wing": [
+          622,
+          69
+        ],
+        "ear_root": [
+          505,
+          44
+        ],
+        "ear_fold": [
+          519,
+          74
+        ],
+        "ear_tip": [
+          530,
+          113
+        ]
+      },
+      "notes": "near-side profile observed; open source mouth replaced by authored closed lower jaw; hidden width symmetric"
+    },
+    "coordinates": "integrated world xyz; ear/ridge xy at z=0 before lateral placement",
+    "bindings": {
+      "top": {
+        "owner": "face.skull",
+        "offsets": [
+          [
+            8.815,
+            3.44,
+            0
+          ],
+          [
+            4.085,
+            7.095,
+            0
+          ],
+          [
+            -1.505,
+            8.17,
+            0
+          ],
+          [
+            -5.59,
+            6.88,
+            0
+          ],
+          [
+            -8.17,
+            4.73,
+            0
+          ],
+          [
+            -10.105,
+            2.15,
+            0
+          ],
+          [
+            -15.48,
+            1.72,
+            0
+          ],
+          [
+            -19.995,
+            1.29,
+            0
+          ],
+          [
+            -21.285,
+            0.0,
+            0
+          ]
+        ]
+      },
+      "bottom": {
+        "owner": "face.jaw_axis",
+        "offsets": [
+          [
+            8.6,
+            -0.86,
+            0.0
+          ],
+          [
+            3.44,
+            -4.085,
+            0.0
+          ],
+          [
+            -3.01,
+            -4.3,
+            0.0
+          ],
+          [
+            -6.02,
+            -3.655,
+            0.0
+          ],
+          [
+            -11.18,
+            -3.44,
+            0.0
+          ],
+          [
+            -16.555,
+            -3.01,
+            0.0
+          ],
+          [
+            -19.35,
+            -1.075,
+            0.0
+          ],
+          [
+            -20.855,
+            2.15,
+            0.0
+          ],
+          [
+            -21.5,
+            6.235,
+            0.0
+          ]
+        ]
+      },
+      "mouth": {
+        "owner": "face.skull",
+        "offsets": [
+          [
+            -5.59,
+            -8.385,
+            0
+          ],
+          [
+            -9.46,
+            -8.17,
+            0
+          ],
+          [
+            -13.33,
+            -7.955,
+            0
+          ],
+          [
+            -16.34,
+            -7.31,
+            0
+          ],
+          [
+            -18.92,
+            -5.59,
+            0
+          ],
+          [
+            -19.995,
+            -3.44,
+            0
+          ]
+        ]
+      },
+      "nose": {
+        "owner": "face.skull",
+        "offsets": [
+          [
+            -18.06,
+            1.29,
+            0
+          ],
+          [
+            -20.21,
+            1.505,
+            0
+          ],
+          [
+            -21.5,
+            0.43,
+            0
+          ],
+          [
+            -21.07,
+            -1.935,
+            0
+          ],
+          [
+            -19.995,
+            -3.44,
+            0
+          ],
+          [
+            -18.275,
+            -2.58,
+            0
+          ],
+          [
+            -17.63,
+            -0.43,
+            0
+          ]
+        ]
+      }
+    },
+    "nose_color": [
+      47,
+      44,
+      40
+    ]
+  },
+  "provenance": "Authored mixed-breed candidate, not measured anatomy; cream curly-coat interpretation"
+}

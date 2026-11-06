@@ -1,0 +1,43 @@
+{
+  "cache_sha256": "60a3578d5682fbec885f429f89d8f28a06c1267ae1e2a972222568c628970b2f",
+  "scope": "All skin triangle pairs whose AABBs overlap, excluding pairs sharing any vertex. Noncoplanar segment/triangle hits and coplanar 2D positive-area overlap. Floating tolerances stated in source; not a formal proof of all self-contact.",
+  "breeds": {
+    "golden": {
+      "skin_faces": 104428,
+      "max_triangle_centroid_radius": 0.7369513972133843,
+      "nonadjacent_aabb_candidates": 73595,
+      "intersecting_pairs": 0,
+      "coplanar_overlapping_pairs": 0,
+      "first_pairs": [],
+      "first_pair_centers": []
+    },
+    "whippet": {
+      "skin_faces": 77018,
+      "max_triangle_centroid_radius": 0.7461455548503645,
+      "nonadjacent_aabb_candidates": 49789,
+      "intersecting_pairs": 0,
+      "coplanar_overlapping_pairs": 0,
+      "first_pairs": [],
+      "first_pair_centers": []
+    },
+    "dachshund": {
+      "skin_faces": 105200,
+      "max_triangle_centroid_radius": 0.7363802371641814,
+      "nonadjacent_aabb_candidates": 65275,
+      "intersecting_pairs": 0,
+      "coplanar_overlapping_pairs": 0,
+      "first_pairs": [],
+      "first_pair_centers": []
+    },
+    "maltipoo": {
+      "skin_faces": 91132,
+      "max_triangle_centroid_radius": 0.7443941096317351,
+      "nonadjacent_aabb_candidates": 61639,
+      "intersecting_pairs": 0,
+      "coplanar_overlapping_pairs": 0,
+      "first_pairs": [],
+      "first_pair_centers": []
+    }
+  },
+  "cache_stable": true
+}

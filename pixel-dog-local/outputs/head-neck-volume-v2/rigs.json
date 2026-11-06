@@ -1,0 +1,1610 @@
+{
+  "golden": {
+    "name": "golden",
+    "nodes": {
+      "neck.lower": {
+        "parent": null,
+        "offset": [
+          6.504999999999998,
+          -3.4799999999999995,
+          0.0
+        ]
+      },
+      "neck.C2": {
+        "parent": "neck.lower",
+        "offset": [
+          -2.484,
+          5.7,
+          0.0
+        ]
+      },
+      "neck.C1": {
+        "parent": "neck.C2",
+        "offset": [
+          -1.516,
+          3.1999999999999993,
+          0.0
+        ]
+      },
+      "head.occipital_joint": {
+        "parent": "neck.C1",
+        "offset": [
+          -0.5999999999999996,
+          1.1000000000000005,
+          0.0
+        ]
+      },
+      "body.head": {
+        "parent": "head.occipital_joint",
+        "offset": [
+          -1.9049999999999985,
+          -6.5200000000000005,
+          0.0
+        ]
+      },
+      "face.neck_mount": {
+        "parent": "body.head",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.skull": {
+        "parent": "body.head",
+        "offset": [
+          -3.0100000000000007,
+          6.880000000000003,
+          0.0
+        ]
+      },
+      "face.crown": {
+        "parent": "body.head",
+        "offset": [
+          -4.515,
+          15.050000000000004,
+          0.0
+        ]
+      },
+      "face.occiput": {
+        "parent": "body.head",
+        "offset": [
+          5.804999999999999,
+          10.32,
+          0.0
+        ]
+      },
+      "face.stop": {
+        "parent": "body.head",
+        "offset": [
+          -13.115000000000002,
+          9.030000000000001,
+          0.0
+        ]
+      },
+      "face.nose": {
+        "parent": "body.head",
+        "offset": [
+          -23.865000000000002,
+          6.880000000000003,
+          0.0
+        ]
+      },
+      "face.nose_bottom": {
+        "parent": "body.head",
+        "offset": [
+          -23.005000000000003,
+          3.440000000000005,
+          0.0
+        ]
+      },
+      "face.upper_lip": {
+        "parent": "body.head",
+        "offset": [
+          -21.930000000000003,
+          1.2899999999999991,
+          0.0
+        ]
+      },
+      "face.jaw_axis": {
+        "parent": "face.skull",
+        "offset": [
+          0.21499999999999986,
+          -0.7700000000000005,
+          0.0
+        ]
+      },
+      "face.chin": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          -16.555,
+          -8.474999999999998,
+          0.0
+        ]
+      },
+      "face.L_brow": {
+        "parent": "body.head",
+        "offset": [
+          -9.030000000000001,
+          11.395000000000003,
+          7.956
+        ]
+      },
+      "face.L_eye": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          7.854
+        ]
+      },
+      "face.L_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          6.254
+        ]
+      },
+      "face.L_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          9.454
+        ]
+      },
+      "face.L_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.93,
+          7.854
+        ]
+      },
+      "face.L_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          8.329999999999998,
+          7.854
+        ]
+      },
+      "face.L_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          7.854
+        ]
+      },
+      "face.L_temple": {
+        "parent": "body.head",
+        "offset": [
+          0.6449999999999987,
+          7.310000000000002,
+          10.2
+        ]
+      },
+      "face.L_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -6.45,
+          0.2150000000000034,
+          9.588
+        ]
+      },
+      "face.L_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -22.360000000000003,
+          6.020000000000003,
+          4.692
+        ]
+      },
+      "face.L_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          0.6449999999999987,
+          9.438000000000002,
+          8.364
+        ]
+      },
+      "face.L_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          8.058
+        ]
+      },
+      "face.L_mouth_corner": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -5.805000000000001,
+          -7.6149999999999975,
+          -1.3259999999999996
+        ]
+      },
+      "face.L_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -16.770000000000003,
+          3.010000000000005,
+          6.834
+        ]
+      },
+      "face.L_jaw_side": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -7.955000000000003,
+          -8.904999999999998,
+          -1.734
+        ]
+      },
+      "face.L_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          -2.365000000000001,
+          2.9879999999999995,
+          10.506
+        ]
+      },
+      "face.L_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          -4.730000000000001,
+          -5.3969999999999985,
+          9.792
+        ]
+      },
+      "face.R_brow": {
+        "parent": "body.head",
+        "offset": [
+          -9.030000000000001,
+          11.395000000000003,
+          -7.956
+        ]
+      },
+      "face.R_eye": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          -7.854
+        ]
+      },
+      "face.R_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          -6.254
+        ]
+      },
+      "face.R_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          -9.454
+        ]
+      },
+      "face.R_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.93,
+          -7.854
+        ]
+      },
+      "face.R_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          8.329999999999998,
+          -7.854
+        ]
+      },
+      "face.R_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -9.46,
+          9.030000000000001,
+          -7.854
+        ]
+      },
+      "face.R_temple": {
+        "parent": "body.head",
+        "offset": [
+          0.6449999999999987,
+          7.310000000000002,
+          -10.2
+        ]
+      },
+      "face.R_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -6.45,
+          0.2150000000000034,
+          -9.588
+        ]
+      },
+      "face.R_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -22.360000000000003,
+          6.020000000000003,
+          -4.692
+        ]
+      },
+      "face.R_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          0.6449999999999987,
+          9.438000000000002,
+          -8.364
+        ]
+      },
+      "face.R_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          -8.058
+        ]
+      },
+      "face.R_mouth_corner": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -5.805000000000001,
+          -7.6149999999999975,
+          1.3259999999999996
+        ]
+      },
+      "face.R_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -16.770000000000003,
+          3.010000000000005,
+          -6.834
+        ]
+      },
+      "face.R_jaw_side": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -7.955000000000003,
+          -8.904999999999998,
+          1.734
+        ]
+      },
+      "face.R_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          -2.365000000000001,
+          2.9879999999999995,
+          -10.506
+        ]
+      },
+      "face.R_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          -4.730000000000001,
+          -5.3969999999999985,
+          -9.792
+        ]
+      }
+    },
+    "provenance": "Authored simplified occipital-C1-C2-lower cervical chain; not measured anatomy",
+    "neck_skin": {
+      "width": 7.2,
+      "depth": 6.4
+    }
+  },
+  "whippet": {
+    "name": "whippet",
+    "nodes": {
+      "neck.lower": {
+        "parent": null,
+        "offset": [
+          6.711618329999999,
+          -3.8181363000000017,
+          0.0
+        ]
+      },
+      "neck.C2": {
+        "parent": "neck.lower",
+        "offset": [
+          -2.267999999999999,
+          5.13,
+          0.0
+        ]
+      },
+      "neck.C1": {
+        "parent": "neck.C2",
+        "offset": [
+          -1.3320000000000007,
+          2.7699999999999996,
+          0.0
+        ]
+      },
+      "head.occipital_joint": {
+        "parent": "neck.C1",
+        "offset": [
+          -0.5999999999999996,
+          1.1000000000000005,
+          0.0
+        ]
+      },
+      "body.head": {
+        "parent": "head.occipital_joint",
+        "offset": [
+          -2.51161833,
+          -5.181863699999998,
+          0.0
+        ]
+      },
+      "face.neck_mount": {
+        "parent": "body.head",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.skull": {
+        "parent": "body.head",
+        "offset": [
+          -2.7826689799999995,
+          5.40214572,
+          0.0
+        ]
+      },
+      "face.crown": {
+        "parent": "body.head",
+        "offset": [
+          2.15866645,
+          14.89859001,
+          0.0
+        ]
+      },
+      "face.occiput": {
+        "parent": "body.head",
+        "offset": [
+          6.4116183300000005,
+          8.981863699999998,
+          0.0
+        ]
+      },
+      "face.stop": {
+        "parent": "body.head",
+        "offset": [
+          -12.784227820000002,
+          8.526737009999998,
+          0.0
+        ]
+      },
+      "face.nose": {
+        "parent": "body.head",
+        "offset": [
+          -25.658577160000004,
+          5.123847939999997,
+          0.0
+        ]
+      },
+      "face.nose_bottom": {
+        "parent": "body.head",
+        "offset": [
+          -24.945966090000002,
+          1.8841511199999985,
+          0.0
+        ]
+      },
+      "face.upper_lip": {
+        "parent": "body.head",
+        "offset": [
+          -22.11747986,
+          -0.11888797000000295,
+          0.0
+        ]
+      },
+      "face.jaw_axis": {
+        "parent": "face.skull",
+        "offset": [
+          -1.1310182300000005,
+          -0.03755767000000265,
+          0.0
+        ]
+      },
+      "face.chin": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          -15.496852040000004,
+          -8.113931789999999,
+          0.0
+        ]
+      },
+      "face.L_brow": {
+        "parent": "body.head",
+        "offset": [
+          -5.01289318,
+          10.88872936,
+          5.85
+        ]
+      },
+      "face.L_eye": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          5.775
+        ]
+      },
+      "face.L_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          4.175000000000001
+        ]
+      },
+      "face.L_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          7.375
+        ]
+      },
+      "face.L_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.96251917,
+          5.775
+        ]
+      },
+      "face.L_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          8.362519169999999,
+          5.775
+        ]
+      },
+      "face.L_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          5.775
+        ]
+      },
+      "face.L_temple": {
+        "parent": "body.head",
+        "offset": [
+          1.6929290600000009,
+          6.564588049999998,
+          7.5
+        ]
+      },
+      "face.L_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -5.4210778,
+          -2.089746489999996,
+          7.05
+        ]
+      },
+      "face.L_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -23.972844680000005,
+          4.337777969999998,
+          3.45
+        ]
+      },
+      "face.L_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          1.6929290600000009,
+          10.412519170000003,
+          6.15
+        ]
+      },
+      "face.L_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          5.925
+        ]
+      },
+      "face.L_mouth_corner": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -8.240097989999999,
+          -7.222222339999997,
+          -0.9749999999999996
+        ]
+      },
+      "face.L_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -17.40825663,
+          2.644848920000001,
+          5.025
+        ]
+      },
+      "face.L_jaw_side": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -7.434339440000001,
+          -8.795118759999998,
+          -1.2749999999999995
+        ]
+      },
+      "face.L_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          7.563838130000001,
+          11.266364440000004,
+          7.7250000000000005
+        ]
+      },
+      "face.L_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          12.59490692,
+          2.2504190200000025,
+          7.2
+        ]
+      },
+      "face.R_brow": {
+        "parent": "body.head",
+        "offset": [
+          -5.01289318,
+          10.88872936,
+          -5.85
+        ]
+      },
+      "face.R_eye": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          -5.775
+        ]
+      },
+      "face.R_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          -4.175000000000001
+        ]
+      },
+      "face.R_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          -7.375
+        ]
+      },
+      "face.R_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.96251917,
+          -5.775
+        ]
+      },
+      "face.R_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          8.362519169999999,
+          -5.775
+        ]
+      },
+      "face.R_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -5.864468979999999,
+          9.062519170000002,
+          -5.775
+        ]
+      },
+      "face.R_temple": {
+        "parent": "body.head",
+        "offset": [
+          1.6929290600000009,
+          6.564588049999998,
+          -7.5
+        ]
+      },
+      "face.R_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -5.4210778,
+          -2.089746489999996,
+          -7.05
+        ]
+      },
+      "face.R_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -23.972844680000005,
+          4.337777969999998,
+          -3.45
+        ]
+      },
+      "face.R_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          1.6929290600000009,
+          10.412519170000003,
+          -6.15
+        ]
+      },
+      "face.R_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          -5.925
+        ]
+      },
+      "face.R_mouth_corner": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -8.240097989999999,
+          -7.222222339999997,
+          0.9749999999999996
+        ]
+      },
+      "face.R_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -17.40825663,
+          2.644848920000001,
+          -5.025
+        ]
+      },
+      "face.R_jaw_side": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -7.434339440000001,
+          -8.795118759999998,
+          1.2749999999999995
+        ]
+      },
+      "face.R_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          7.563838130000001,
+          11.266364440000004,
+          -7.7250000000000005
+        ]
+      },
+      "face.R_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          12.59490692,
+          2.2504190200000025,
+          -7.2
+        ]
+      }
+    },
+    "provenance": "Authored simplified occipital-C1-C2-lower cervical chain; not measured anatomy",
+    "neck_skin": {
+      "width": 4.8,
+      "depth": 4.9
+    }
+  },
+  "dachshund": {
+    "name": "dachshund",
+    "nodes": {
+      "neck.lower": {
+        "parent": null,
+        "offset": [
+          7.47901103,
+          -4.54822065,
+          0.0
+        ]
+      },
+      "neck.C2": {
+        "parent": "neck.lower",
+        "offset": [
+          -2.0519999999999996,
+          4.5600000000000005,
+          0.0
+        ]
+      },
+      "neck.C1": {
+        "parent": "neck.C2",
+        "offset": [
+          -1.1480000000000006,
+          2.34,
+          0.0
+        ]
+      },
+      "head.occipital_joint": {
+        "parent": "neck.C1",
+        "offset": [
+          -0.5999999999999996,
+          1.1,
+          0.0
+        ]
+      },
+      "body.head": {
+        "parent": "head.occipital_joint",
+        "offset": [
+          -3.67901103,
+          -3.45177935,
+          0.0
+        ]
+      },
+      "face.neck_mount": {
+        "parent": "body.head",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.skull": {
+        "parent": "body.head",
+        "offset": [
+          -1.4094975400000003,
+          6.640791870000001,
+          0.0
+        ]
+      },
+      "face.crown": {
+        "parent": "body.head",
+        "offset": [
+          -1.4281229199999999,
+          14.843209389999998,
+          0.0
+        ]
+      },
+      "face.occiput": {
+        "parent": "body.head",
+        "offset": [
+          7.57901103,
+          7.25177935,
+          0.0
+        ]
+      },
+      "face.stop": {
+        "parent": "body.head",
+        "offset": [
+          -10.37689318,
+          11.180997089999998,
+          0.0
+        ]
+      },
+      "face.nose": {
+        "parent": "body.head",
+        "offset": [
+          -21.70566829,
+          8.08755266,
+          0.0
+        ]
+      },
+      "face.nose_bottom": {
+        "parent": "body.head",
+        "offset": [
+          -20.99471002,
+          5.644834020000001,
+          0.0
+        ]
+      },
+      "face.upper_lip": {
+        "parent": "body.head",
+        "offset": [
+          -19.497660699999997,
+          3.7944774899999985,
+          0.0
+        ]
+      },
+      "face.jaw_axis": {
+        "parent": "face.skull",
+        "offset": [
+          0.96429469,
+          -1.22483801,
+          0.0
+        ]
+      },
+      "face.chin": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          -15.995645419999999,
+          -4.042463319999999,
+          0.0
+        ]
+      },
+      "face.L_brow": {
+        "parent": "body.head",
+        "offset": [
+          -5.81806257,
+          11.945975220000001,
+          6.474
+        ]
+      },
+      "face.L_eye": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          6.391
+        ]
+      },
+      "face.L_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          4.791
+        ]
+      },
+      "face.L_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          7.991
+        ]
+      },
+      "face.L_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          11.040325840000001,
+          6.391
+        ]
+      },
+      "face.L_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          9.44032584,
+          6.391
+        ]
+      },
+      "face.L_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          6.391
+        ]
+      },
+      "face.L_temple": {
+        "parent": "body.head",
+        "offset": [
+          2.1012116599999997,
+          6.615953860000001,
+          8.3
+        ]
+      },
+      "face.L_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -2.90779064,
+          1.8143433000000009,
+          7.802
+        ]
+      },
+      "face.L_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -20.704116589999998,
+          7.712513749999999,
+          3.818
+        ]
+      },
+      "face.L_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.1012116599999997,
+          12.46432584,
+          6.806
+        ]
+      },
+      "face.L_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          6.557
+        ]
+      },
+      "face.L_mouth_corner": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -3.2952485400000002,
+          -5.358827699999998,
+          -1.0790000000000006
+        ]
+      },
+      "face.L_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -13.743549439999999,
+          5.5628698499999985,
+          5.561
+        ]
+      },
+      "face.L_jaw_side": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -8.01924502,
+          -5.632033279999997,
+          -1.4110000000000005
+        ]
+      },
+      "face.L_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          2.5488957999999995,
+          3.147348059999999,
+          8.549
+        ]
+      },
+      "face.L_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          -2.8276952500000005,
+          -5.9367812099999995,
+          7.968
+        ]
+      },
+      "face.R_brow": {
+        "parent": "body.head",
+        "offset": [
+          -5.81806257,
+          11.945975220000001,
+          -6.474
+        ]
+      },
+      "face.R_eye": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          -6.391
+        ]
+      },
+      "face.R_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          -4.791
+        ]
+      },
+      "face.R_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          -7.991
+        ]
+      },
+      "face.R_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          11.040325840000001,
+          -6.391
+        ]
+      },
+      "face.R_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          9.44032584,
+          -6.391
+        ]
+      },
+      "face.R_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -6.30611004,
+          10.140325840000003,
+          -6.391
+        ]
+      },
+      "face.R_temple": {
+        "parent": "body.head",
+        "offset": [
+          2.1012116599999997,
+          6.615953860000001,
+          -8.3
+        ]
+      },
+      "face.R_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -2.90779064,
+          1.8143433000000009,
+          -7.802
+        ]
+      },
+      "face.R_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -20.704116589999998,
+          7.712513749999999,
+          -3.818
+        ]
+      },
+      "face.R_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.1012116599999997,
+          12.46432584,
+          -6.806
+        ]
+      },
+      "face.R_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          -6.557
+        ]
+      },
+      "face.R_mouth_corner": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -3.2952485400000002,
+          -5.358827699999998,
+          1.0790000000000006
+        ]
+      },
+      "face.R_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -13.743549439999999,
+          5.5628698499999985,
+          -5.561
+        ]
+      },
+      "face.R_jaw_side": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -8.01924502,
+          -5.632033279999997,
+          1.4110000000000005
+        ]
+      },
+      "face.R_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          2.5488957999999995,
+          3.147348059999999,
+          -8.549
+        ]
+      },
+      "face.R_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          -2.8276952500000005,
+          -5.9367812099999995,
+          -7.968
+        ]
+      }
+    },
+    "provenance": "Authored simplified occipital-C1-C2-lower cervical chain; not measured anatomy",
+    "neck_skin": {
+      "width": 6.1,
+      "depth": 5.6
+    }
+  },
+  "maltipoo": {
+    "name": "maltipoo",
+    "nodes": {
+      "neck.lower": {
+        "parent": null,
+        "offset": [
+          4.8999999999999995,
+          -5.3,
+          0.0
+        ]
+      },
+      "neck.C2": {
+        "parent": "neck.lower",
+        "offset": [
+          -2.0519999999999996,
+          4.845000000000001,
+          0.0
+        ]
+      },
+      "neck.C1": {
+        "parent": "neck.C2",
+        "offset": [
+          -1.1480000000000001,
+          2.5549999999999997,
+          0.0
+        ]
+      },
+      "head.occipital_joint": {
+        "parent": "neck.C1",
+        "offset": [
+          -0.6000000000000001,
+          1.1,
+          0.0
+        ]
+      },
+      "body.head": {
+        "parent": "head.occipital_joint",
+        "offset": [
+          -1.0999999999999996,
+          -3.2,
+          0.0
+        ]
+      },
+      "face.neck_mount": {
+        "parent": "body.head",
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "face.skull": {
+        "parent": "body.head",
+        "offset": [
+          -1.5,
+          7.0,
+          0.0
+        ]
+      },
+      "face.crown": {
+        "parent": "body.head",
+        "offset": [
+          -1.0,
+          15.0,
+          0.0
+        ]
+      },
+      "face.occiput": {
+        "parent": "body.head",
+        "offset": [
+          5.0,
+          7.0,
+          0.0
+        ]
+      },
+      "face.stop": {
+        "parent": "body.head",
+        "offset": [
+          -7.0,
+          8.0,
+          0.0
+        ]
+      },
+      "face.nose": {
+        "parent": "body.head",
+        "offset": [
+          -13.4,
+          5.0,
+          0.0
+        ]
+      },
+      "face.nose_bottom": {
+        "parent": "body.head",
+        "offset": [
+          -12.7,
+          3.2,
+          0.0
+        ]
+      },
+      "face.upper_lip": {
+        "parent": "body.head",
+        "offset": [
+          -10.5,
+          2.0,
+          0.0
+        ]
+      },
+      "face.jaw_axis": {
+        "parent": "face.skull",
+        "offset": [
+          0.7,
+          -1.2000000000000002,
+          0.0
+        ]
+      },
+      "face.chin": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          -7.2,
+          -5.0,
+          0.0
+        ]
+      },
+      "face.L_brow": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          10.200000000000001,
+          7.5
+        ]
+      },
+      "face.L_eye": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          7.5
+        ]
+      },
+      "face.L_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          6.1
+        ]
+      },
+      "face.L_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          8.9
+        ]
+      },
+      "face.L_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          9.700000000000001,
+          7.5
+        ]
+      },
+      "face.L_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.100000000000001,
+          7.5
+        ]
+      },
+      "face.L_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          7.5
+        ]
+      },
+      "face.L_temple": {
+        "parent": "body.head",
+        "offset": [
+          3.0,
+          7.0,
+          8.0
+        ]
+      },
+      "face.L_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -3.6120000000000005,
+          0.19780000000000314,
+          8.91684
+        ]
+      },
+      "face.L_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -12.0,
+          4.8,
+          3.5
+        ]
+      },
+      "face.L_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.0,
+          9.3,
+          7.7
+        ]
+      },
+      "face.L_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          6.0
+        ]
+      },
+      "face.L_mouth_corner": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -3.2,
+          -4.5,
+          -1.0
+        ]
+      },
+      "face.L_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -8.0,
+          4.0,
+          5.0
+        ]
+      },
+      "face.L_jaw_side": {
+        "parent": "face.L_jaw_hinge",
+        "offset": [
+          -4.2,
+          -4.8,
+          -1.0
+        ]
+      },
+      "face.L_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          4.5,
+          8.7
+        ]
+      },
+      "face.L_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          -1.7,
+          8.5
+        ]
+      },
+      "face.R_brow": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          10.200000000000001,
+          -7.5
+        ]
+      },
+      "face.R_eye": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -7.5
+        ]
+      },
+      "face.R_eye_inner": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -6.1
+        ]
+      },
+      "face.R_eye_outer": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -8.9
+        ]
+      },
+      "face.R_upper_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          9.700000000000001,
+          -7.5
+        ]
+      },
+      "face.R_lower_lid": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.100000000000001,
+          -7.5
+        ]
+      },
+      "face.R_pupil": {
+        "parent": "body.head",
+        "offset": [
+          -4.7,
+          8.8,
+          -7.5
+        ]
+      },
+      "face.R_temple": {
+        "parent": "body.head",
+        "offset": [
+          3.0,
+          7.0,
+          -8.0
+        ]
+      },
+      "face.R_cheek": {
+        "parent": "body.head",
+        "offset": [
+          -3.6120000000000005,
+          0.19780000000000314,
+          -8.91684
+        ]
+      },
+      "face.R_nose_wing": {
+        "parent": "body.head",
+        "offset": [
+          -12.0,
+          4.8,
+          -3.5
+        ]
+      },
+      "face.R_ear_root": {
+        "parent": "body.head",
+        "offset": [
+          2.0,
+          9.3,
+          -7.7
+        ]
+      },
+      "face.R_jaw_hinge": {
+        "parent": "face.jaw_axis",
+        "offset": [
+          0.0,
+          0.0,
+          -6.0
+        ]
+      },
+      "face.R_mouth_corner": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -3.2,
+          -4.5,
+          1.0
+        ]
+      },
+      "face.R_muzzle_side": {
+        "parent": "body.head",
+        "offset": [
+          -8.0,
+          4.0,
+          -5.0
+        ]
+      },
+      "face.R_jaw_side": {
+        "parent": "face.R_jaw_hinge",
+        "offset": [
+          -4.2,
+          -4.8,
+          1.0
+        ]
+      },
+      "face.R_ear_fold": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          4.5,
+          -8.7
+        ]
+      },
+      "face.R_ear_tip": {
+        "parent": "body.head",
+        "offset": [
+          3.5,
+          -1.7,
+          -8.5
+        ]
+      }
+    },
+    "provenance": "Authored simplified occipital-C1-C2-lower cervical chain; not measured anatomy",
+    "neck_skin": {
+      "width": 6.1,
+      "depth": 5.4
+    }
+  }
+}

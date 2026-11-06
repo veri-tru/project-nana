@@ -60,7 +60,10 @@ def validate(p):
     return p
 
 class Store:
-    def __init__(self, path):
+    def __init__(self, path, *, read_only=False):
+        if read_only:
+            self.db = sqlite3.connect(Path(path).resolve().as_uri() + '?mode=ro', uri=True)
+            return
         self.db = sqlite3.connect(path)
         self.db.execute('PRAGMA foreign_keys=ON')
         self.db.executescript('''

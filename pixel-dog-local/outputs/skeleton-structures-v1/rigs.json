@@ -1,0 +1,584 @@
+{
+  "A": {
+    "title": "몸통 한 덩어리",
+    "structure": "몸통 1개에 네 다리와 목을 연결",
+    "control": "몸통 고정  /  앞다리만 굽힘",
+    "use": "정지 자세에서 체형 비율을 맞추기 쉽다.",
+    "limit": "가슴만 따로 들 수 없다.",
+    "graph": {
+      "body": [
+        "neck",
+        "near_scapula_fixed",
+        "far_scapula_fixed",
+        "near_hip",
+        "far_hip",
+        "tail_root"
+      ],
+      "near_scapula_fixed": [
+        "near_shoulder"
+      ],
+      "near_shoulder": [
+        "near_elbow"
+      ],
+      "near_elbow": [
+        "near_carpus"
+      ],
+      "near_carpus": [
+        "near_mcp"
+      ],
+      "near_mcp": [
+        "near_foretoe"
+      ],
+      "near_hip": [
+        "near_stifle"
+      ],
+      "near_stifle": [
+        "near_tarsus"
+      ],
+      "near_tarsus": [
+        "near_mtp"
+      ],
+      "near_mtp": [
+        "near_hindtoe"
+      ],
+      "far_scapula_fixed": [
+        "far_shoulder"
+      ],
+      "far_shoulder": [
+        "far_elbow"
+      ],
+      "far_elbow": [
+        "far_carpus"
+      ],
+      "far_carpus": [
+        "far_mcp"
+      ],
+      "far_mcp": [
+        "far_foretoe"
+      ],
+      "far_hip": [
+        "far_stifle"
+      ],
+      "far_stifle": [
+        "far_tarsus"
+      ],
+      "far_tarsus": [
+        "far_mtp"
+      ],
+      "far_mtp": [
+        "far_hindtoe"
+      ],
+      "neck": [
+        "head"
+      ],
+      "tail_root": [
+        "tail_mid"
+      ],
+      "tail_mid": [
+        "tail_tip"
+      ]
+    },
+    "front_chains": {
+      "rest": {
+        "near": [
+          [
+            28.0,
+            29.0
+          ],
+          [
+            22.0,
+            36.0
+          ],
+          [
+            25.999999999999996,
+            43.0
+          ],
+          [
+            24,
+            53
+          ],
+          [
+            22,
+            56
+          ],
+          [
+            19,
+            57
+          ]
+        ],
+        "far": [
+          [
+            25.0,
+            28.0
+          ],
+          [
+            19.0,
+            34.0
+          ],
+          [
+            25.0,
+            40.0
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      },
+      "lift": {
+        "near": [
+          [
+            28.0,
+            29.0
+          ],
+          [
+            22.0,
+            36.0
+          ],
+          [
+            28.636843774138907,
+            40.57736875482778
+          ],
+          [
+            20,
+            46
+          ],
+          [
+            18,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ],
+        "far": [
+          [
+            25.0,
+            28.0
+          ],
+          [
+            19.0,
+            34.0
+          ],
+          [
+            25.0,
+            40.0
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      }
+    }
+  },
+  "B": {
+    "title": "흉곽과 골반 분리",
+    "structure": "골반과 흉곽 사이에 허리 회전축 추가",
+    "control": "허리 +12°  /  양어깨와 목이 함께 이동",
+    "use": "앉거나 일어날 때 가슴 기울기를 조절한다.",
+    "limit": "양쪽 어깨가 흉곽을 함께 따라간다.",
+    "graph": {
+      "pelvis": [
+        "lumbar_pivot",
+        "near_hip",
+        "far_hip",
+        "tail_root"
+      ],
+      "lumbar_pivot": [
+        "ribcage"
+      ],
+      "ribcage": [
+        "neck",
+        "near_scapula_fixed",
+        "far_scapula_fixed"
+      ],
+      "near_scapula_fixed": [
+        "near_shoulder"
+      ],
+      "near_shoulder": [
+        "near_elbow"
+      ],
+      "near_elbow": [
+        "near_carpus"
+      ],
+      "near_carpus": [
+        "near_mcp"
+      ],
+      "near_mcp": [
+        "near_foretoe"
+      ],
+      "near_hip": [
+        "near_stifle"
+      ],
+      "near_stifle": [
+        "near_tarsus"
+      ],
+      "near_tarsus": [
+        "near_mtp"
+      ],
+      "near_mtp": [
+        "near_hindtoe"
+      ],
+      "far_scapula_fixed": [
+        "far_shoulder"
+      ],
+      "far_shoulder": [
+        "far_elbow"
+      ],
+      "far_elbow": [
+        "far_carpus"
+      ],
+      "far_carpus": [
+        "far_mcp"
+      ],
+      "far_mcp": [
+        "far_foretoe"
+      ],
+      "far_hip": [
+        "far_stifle"
+      ],
+      "far_stifle": [
+        "far_tarsus"
+      ],
+      "far_tarsus": [
+        "far_mtp"
+      ],
+      "far_mtp": [
+        "far_hindtoe"
+      ],
+      "neck": [
+        "head"
+      ],
+      "tail_root": [
+        "tail_mid"
+      ],
+      "tail_mid": [
+        "tail_tip"
+      ]
+    },
+    "front_chains": {
+      "rest": {
+        "near": [
+          [
+            28.0,
+            29.0
+          ],
+          [
+            22.0,
+            36.0
+          ],
+          [
+            25.999999999999996,
+            43.0
+          ],
+          [
+            24,
+            53
+          ],
+          [
+            22,
+            56
+          ],
+          [
+            19,
+            57
+          ]
+        ],
+        "far": [
+          [
+            25.0,
+            28.0
+          ],
+          [
+            19.0,
+            34.0
+          ],
+          [
+            25.0,
+            40.0
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      },
+      "lift": {
+        "near": [
+          [
+            29.859965119937822,
+            27.303613976769718
+          ],
+          [
+            22.535697679810674,
+            32.90317703699981
+          ],
+          [
+            27.587696512827414,
+            39.18627402743354
+          ],
+          [
+            20,
+            46
+          ],
+          [
+            18,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ],
+        "far": [
+          [
+            27.133434008554165,
+            25.701731303582633
+          ],
+          [
+            20.017078259244776,
+            30.323146763078917
+          ],
+          [
+            21.93438185201237,
+            38.58897684439322
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      }
+    }
+  },
+  "C": {
+    "title": "좌우 견갑 독립",
+    "structure": "단일 몸통에 좌우 견갑 회전축을 각각 연결",
+    "control": "가까운 견갑 +25°  /  반대 어깨 고정",
+    "use": "한쪽 앞발을 뻗을 때 어깨부터 움직인다.",
+    "limit": "좌우 견갑을 각각 맞춰야 한다.",
+    "graph": {
+      "body": [
+        "neck",
+        "near_scapular_pivot",
+        "far_scapular_pivot",
+        "near_hip",
+        "far_hip",
+        "tail_root"
+      ],
+      "near_scapular_pivot": [
+        "near_scapula"
+      ],
+      "far_scapular_pivot": [
+        "far_scapula"
+      ],
+      "near_scapula": [
+        "near_shoulder"
+      ],
+      "near_shoulder": [
+        "near_elbow"
+      ],
+      "near_elbow": [
+        "near_carpus"
+      ],
+      "near_carpus": [
+        "near_mcp"
+      ],
+      "near_mcp": [
+        "near_foretoe"
+      ],
+      "near_hip": [
+        "near_stifle"
+      ],
+      "near_stifle": [
+        "near_tarsus"
+      ],
+      "near_tarsus": [
+        "near_mtp"
+      ],
+      "near_mtp": [
+        "near_hindtoe"
+      ],
+      "far_scapula": [
+        "far_shoulder"
+      ],
+      "far_shoulder": [
+        "far_elbow"
+      ],
+      "far_elbow": [
+        "far_carpus"
+      ],
+      "far_carpus": [
+        "far_mcp"
+      ],
+      "far_mcp": [
+        "far_foretoe"
+      ],
+      "far_hip": [
+        "far_stifle"
+      ],
+      "far_stifle": [
+        "far_tarsus"
+      ],
+      "far_tarsus": [
+        "far_mtp"
+      ],
+      "far_mtp": [
+        "far_hindtoe"
+      ],
+      "neck": [
+        "head"
+      ],
+      "tail_root": [
+        "tail_mid"
+      ],
+      "tail_mid": [
+        "tail_tip"
+      ]
+    },
+    "front_chains": {
+      "rest": {
+        "near": [
+          [
+            28.0,
+            29.0
+          ],
+          [
+            22.0,
+            36.0
+          ],
+          [
+            25.999999999999996,
+            43.0
+          ],
+          [
+            24,
+            53
+          ],
+          [
+            22,
+            56
+          ],
+          [
+            19,
+            57
+          ]
+        ],
+        "far": [
+          [
+            25.0,
+            28.0
+          ],
+          [
+            19.0,
+            34.0
+          ],
+          [
+            25.0,
+            40.0
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      },
+      "lift": {
+        "near": [
+          [
+            28.0,
+            29.0
+          ],
+          [
+            19.603825445595206,
+            32.80844493881235
+          ],
+          [
+            25.98157457679336,
+            37.74041371603521
+          ],
+          [
+            20,
+            46
+          ],
+          [
+            18,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ],
+        "far": [
+          [
+            25.0,
+            28.0
+          ],
+          [
+            19.0,
+            34.0
+          ],
+          [
+            25.0,
+            40.0
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      }
+    }
+  }
+}

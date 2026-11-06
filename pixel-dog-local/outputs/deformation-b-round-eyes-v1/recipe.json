@@ -1,0 +1,65 @@
+{
+  "scope": "eye material shape only on B 1.70 heads",
+  "settings": {
+    "golden": {
+      "previous_radius": [
+        1.632,
+        0.9179999999999999
+      ],
+      "radius": [
+        1.224,
+        1.224
+      ],
+      "tilt": 0.0,
+      "power": 2.0,
+      "head_scale": 1.7
+    },
+    "whippet": {
+      "previous_radius": [
+        1.2,
+        0.6749999999999999
+      ],
+      "radius": [
+        0.9,
+        0.9
+      ],
+      "tilt": 0.0,
+      "power": 2.0,
+      "head_scale": 1.7
+    },
+    "dachshund": {
+      "previous_radius": [
+        1.328,
+        0.747
+      ],
+      "radius": [
+        0.996,
+        0.996
+      ],
+      "tilt": 0.0,
+      "power": 2.0,
+      "head_scale": 1.7
+    }
+  },
+  "pixels_per_model_unit": 5.169965486285447,
+  "cameras": [
+    [
+      "측면",
+      90
+    ],
+    [
+      "정면",
+      0
+    ]
+  ],
+  "status": "USER_REVIEW_PENDING",
+  "projection": "same head-attached eye material in both cameras; no view-specific eye scaling",
+  "input_sha256": {
+    "deformation-b-heads-v1\\preview.py": "0041692ee9f25fc1e4dd179f5952efe8dc12ec95330f843a0448b1eca0d025c2",
+    "deformation-b-heads-v1\\heads-B.npz": "8679684441ee101f513bad820f2a2525b6e8bc858b45f12f93367132b9b74ab6",
+    "deformation-b-face-v3\\preview.py": "9da720d13f6472359bd2882bbc390a1f70c7b9e4e28206db3d9eb88f489db11e",
+    "deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a"
+  },
+  "image_sha256": "fc7f9a5626f54bc1e9e9165bc1f6187addaace903e7a8fdb7588c6adbd8fbd9c"
+}

@@ -1,0 +1,77 @@
+{
+  "A": {
+    "skin_topology": {
+      "vertices": 54598,
+      "faces": 109192,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "euler": 2,
+      "zero_area_faces": 0,
+      "near_zero_double_area_lt_1e10": 0
+    },
+    "bone_arrays_equal_iteration1": true,
+    "eye_radii": [
+      3.7,
+      3.7
+    ],
+    "nose_size": 5.4,
+    "widths": [
+      23.25,
+      22.25,
+      17.25,
+      14.25,
+      10.0
+    ]
+  },
+  "B": {
+    "skin_topology": {
+      "vertices": 55476,
+      "faces": 110948,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "euler": 2,
+      "zero_area_faces": 0,
+      "near_zero_double_area_lt_1e10": 0
+    },
+    "bone_arrays_equal_iteration1": true,
+    "eye_radii": [
+      3.7,
+      3.7
+    ],
+    "nose_size": 5.4,
+    "widths": [
+      24.0,
+      23.0,
+      18.0,
+      15.0,
+      10.5
+    ]
+  },
+  "C": {
+    "skin_topology": {
+      "vertices": 56300,
+      "faces": 112596,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "euler": 2,
+      "zero_area_faces": 0,
+      "near_zero_double_area_lt_1e10": 0
+    },
+    "bone_arrays_equal_iteration1": true,
+    "eye_radii": [
+      3.7,
+      3.7
+    ],
+    "nose_size": 5.4,
+    "widths": [
+      24.75,
+      23.75,
+      18.75,
+      15.75,
+      11.0
+    ]
+  }
+}

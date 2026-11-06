@@ -2,8 +2,8 @@
   "schema_version": "0.3-draft",
   "project_id": "pixel-dog",
   "display_name": "반려견 픽셀 캐릭터 앱",
-  "implementation_status": "static_maker_prototype_android_not_implemented",
-  "as_of": "2026-11-03",
+  "implementation_status": "local_head_and_static_body_renderers_visual_acceptance_incomplete",
+  "as_of": "2026-11-06",
   "timezone": "Asia/Seoul",
   "spec_documents": {
     "current_status": "docs/current-spec.md",
@@ -12,7 +12,8 @@
     "profile_generation_draft": "docs/profile-generation-spec.md",
     "style_reference_policy": "docs/style-reference-policy.md",
     "canonical_comparison_styles": "docs/b2-c2-style-spec.md",
-    "roadmap": "docs/roadmap.md"
+    "roadmap": "docs/roadmap.md",
+    "engine_organization": "docs/engine-organization.md"
   },
   "scope": {
     "species": "dog",
@@ -30,7 +31,10 @@
     "movement_clock": "elapsed_time",
     "resolution": {
       "status": "confirmed",
-      "selected_canvas_px": [64, 64],
+      "selected_canvas_px": [
+        64,
+        64
+      ],
       "candidate_canvas_px": [],
       "display_width_dp": null,
       "display_scale": null,
@@ -186,32 +190,43 @@
           "output_format"
         ],
         "high_resolution_preview_is_native_pixel_asset": false,
-        "canonical_manifest": "references/styles/b2-c2/v1/manifest.json",
+        "canonical_manifest": "references/styles/breed-head-b2/v1/manifest.json",
         "actual_image_requirement_scope": "image_model_style_reproduction_jobs",
-        "planned_renderer_reference_mode": "versioned_packages_after_validation_not_implemented"
+        "planned_renderer_reference_mode": "versioned_packages_after_validation_not_implemented",
+        "historical_canonical_manifest": "references/styles/b2-c2/v1/manifest.json",
+        "canonical_scope": "head_only"
       },
       "canonical_comparison_style_ids": [
         "nana-soft-B2-v1",
         "nana-contrast-C2-v1"
-      ]
+      ],
+      "head_art_style_selected": "breed-head-soft-B2-v1"
     }
   },
   "art_style": {
     "pixel_outline_color_count": 1,
     "pixel_interior_color_limit": 4,
-    "status": "canonical_comparison_references",
+    "status": "head_canonical_selected_product_release_pending",
     "selected_product_style_id": null,
-    "reference_manifest": "references/styles/b2-c2/v1/manifest.json",
+    "reference_manifest": "references/styles/breed-head-b2/v1/manifest.json",
     "styles": [
+      {
+        "style_policy_id": "breed-head-soft-B2-v1",
+        "version": "1.0.0",
+        "label": "B2 breed head",
+        "status": "selected_head_reference"
+      },
       {
         "style_policy_id": "nana-soft-B2-v1",
         "version": "1.0.0",
-        "label": "B2"
+        "label": "B2",
+        "status": "historical_comparison"
       },
       {
         "style_policy_id": "nana-contrast-C2-v1",
         "version": "1.0.0",
-        "label": "C2"
+        "label": "C2",
+        "status": "historical_comparison"
       }
     ],
     "numeric_rules_status": "authoring_defaults_not_source_measurements",
@@ -219,8 +234,11 @@
       64,
       64
     ],
-    "native_asset_validation": "not_performed",
-    "identity_geometry_shared": false
+    "native_asset_validation": "head_native64_style_rejected",
+    "identity_geometry_shared": false,
+    "selected_head_style_id": "breed-head-soft-B2-v1",
+    "selection_scope": "head_concept_style_not_full_body_or_native64_release",
+    "historical_reference_manifest": "references/styles/b2-c2/v1/manifest.json"
   },
   "production_pipeline_plan": {
     "status": "static_prototype_implemented_visual_acceptance_pending",
@@ -250,7 +268,7 @@
     "canonical_image_role": "package_authoring_and_visual_regression_review",
     "production_render_image_inputs": "not_required_after_validated_package_route_exists",
     "image_model_reference_requirement_unchanged": true,
-    "renderer_location": "undecided",
+    "renderer_location": "local_python_tools",
     "same_pinned_inputs_repeatable_pixels": true,
     "automatic_photo_extraction": "not_implemented_separate_milestone",
     "initial_review_dog_count_proposal": 3,
@@ -281,16 +299,17 @@
       "runtime": "python",
       "storage": "sqlite_local_prototype",
       "supported_canvas_px": [
-        96,
-        96
+        64,
+        64
       ],
       "supported_views": [
         "front_face",
-        "front_seated"
+        "front_seated",
+        "registered_authored_pose"
       ],
-      "style_scope": "B2_C2_shared_geometry_outline_and_seam_color_roles_visual_review_pending",
+      "style_scope": "historical_B2_C2_renderer_labels_not_current_head_canonical_approval",
       "source_image_inputs": false,
-      "automated_tests_passed": 22,
+      "automated_tests_passed": 52,
       "visual_acceptance": "pending",
       "photo_extraction": false,
       "animation": false,
@@ -311,7 +330,28 @@
       "legacy_authoring_schema": 2,
       "legacy_static_entrypoint": "tools/static_maker/render_v02.py",
       "explicit_authoring_migration": true,
-      "comparison_report": "self_contained_html_old_package_only_and_manual_adjustment"
-    }
+      "comparison_report": "self_contained_html_old_package_only_and_manual_adjustment",
+      "supported_canvas_by_route": {
+        "legacy_front": [
+          96,
+          96
+        ],
+        "authored_pose": [
+          64,
+          64
+        ]
+      },
+      "verification_environment": "2026-11-06 local Windows Python 3.12 / Pillow 12.2.0"
+    },
+    "active_entrypoint": "python -m tools.dog_engine"
+  },
+  "head_engine": {
+    "entrypoint": "python -m tools.dog_engine head",
+    "catalog": "tools/head_engine/catalog.json",
+    "scope": "head_and_short_neck",
+    "native64_route": "diagnostic_only_rejected_styles",
+    "full_body_integration": false,
+    "individual_ear_deformation": false,
+    "frozen_checkpoint": "8671571"
   }
 }

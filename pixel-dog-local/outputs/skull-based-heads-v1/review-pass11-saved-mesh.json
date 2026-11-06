@@ -1,0 +1,548 @@
+{
+  "scope": "B saved mesh preflight only; no reproduction",
+  "source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "cache_sha256": "a790311f8becc7dbced2e657b7b1b80ba878069517bae9270352bc95aa6e66c0",
+  "image_sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+  "breeds": {
+    "golden": {
+      "topology": {
+        "skin": {
+          "vertices": 50844,
+          "faces": 101684,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 2.2730818239234661e-10
+        },
+        "eye_-1": {
+          "vertices": 1648,
+          "faces": 3292,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 8.008965680764077e-07
+        },
+        "eye_1": {
+          "vertices": 1646,
+          "faces": 3288,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 1.8221077254765858e-07
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "max_signed_mesh_distance": -0.4848666489124298,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 83319,
+          "worst_point": [
+            -29.919998168945312,
+            8.850000381469727,
+            -28.138471603393555
+          ],
+          "minimum_signed_mesh_distance": -19.406490325927734,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.383324531559552,
+          "minimum_clearance_certified": true
+        },
+        "jaw": {
+          "samples": 31802,
+          "max_signed_mesh_distance": -0.7160965204238892,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 26323,
+          "worst_point": [
+            -42.91999816894531,
+            -6.046934127807617,
+            12.29999828338623
+          ],
+          "minimum_signed_mesh_distance": -15.305037498474121,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.3408013317489007,
+          "minimum_clearance_certified": true
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "samples": 4940,
+          "max_signed_mesh_distance": 1.6518347263336182,
+          "outside_gt_001": 1867,
+          "outside_gt_01": 1793,
+          "all_nearest_certified": false,
+          "uncertified": 1226,
+          "worst_point": [
+            -40.60335159301758,
+            20.2130126953125,
+            -17.629560470581055
+          ],
+          "minimum_signed_mesh_distance": -3.133786201477051,
+          "inside_vertices_and_centroids": 3056,
+          "surface_crossing_faces": 188
+        },
+        "eye_1": {
+          "samples": 4934,
+          "max_signed_mesh_distance": 1.6570570468902588,
+          "outside_gt_001": 1910,
+          "outside_gt_01": 1827,
+          "all_nearest_certified": false,
+          "uncertified": 1207,
+          "worst_point": [
+            -40.694149017333984,
+            20.107297897338867,
+            17.76746940612793
+          ],
+          "minimum_signed_mesh_distance": -3.1308865547180176,
+          "inside_vertices_and_centroids": 2997,
+          "surface_crossing_faces": 190
+        }
+      },
+      "ears": [
+        {
+          "root": [
+            -14.0,
+            25.0,
+            -19.95
+          ],
+          "local_overlap_samples": 660,
+          "overlap_sample_volume": 142.55999999999997,
+          "saved_surface_vertices_near_root": 725
+        },
+        {
+          "root": [
+            -14.0,
+            25.0,
+            19.95
+          ],
+          "local_overlap_samples": 658,
+          "overlap_sample_volume": 142.128,
+          "saved_surface_vertices_near_root": 722
+        }
+      ],
+      "nose": {
+        "material_vertices": 547,
+        "material_components": 1,
+        "boundary_shared_edges": 184,
+        "part": "same closed skin mesh"
+      }
+    },
+    "whippet": {
+      "topology": {
+        "skin": {
+          "vertices": 39808,
+          "faces": 79612,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 7.275957614183426e-09
+        },
+        "eye_-1": {
+          "vertices": 1136,
+          "faces": 2268,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 2.3124668677096892e-07
+        },
+        "eye_1": {
+          "vertices": 1138,
+          "faces": 2272,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 2.4536014645951455e-08
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "max_signed_mesh_distance": -0.8574317097663879,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 60318,
+          "worst_point": [
+            -12.649996757507324,
+            12.100000381469727,
+            19.797245025634766
+          ],
+          "minimum_signed_mesh_distance": -18.90230941772461,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.5157082112179063,
+          "minimum_clearance_certified": true
+        },
+        "jaw": {
+          "samples": 29996,
+          "max_signed_mesh_distance": -0.5667770504951477,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 22004,
+          "worst_point": [
+            -19.799999237060547,
+            -7.018160343170166,
+            -12.850000381469727
+          ],
+          "minimum_signed_mesh_distance": -12.497187614440918,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.3339921484155215,
+          "minimum_clearance_certified": true
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "samples": 3404,
+          "max_signed_mesh_distance": 1.3848737478256226,
+          "outside_gt_001": 1247,
+          "outside_gt_01": 1175,
+          "all_nearest_certified": false,
+          "uncertified": 440,
+          "worst_point": [
+            -35.703094482421875,
+            19.83819007873535,
+            -13.308612823486328
+          ],
+          "minimum_signed_mesh_distance": -2.6147594451904297,
+          "inside_vertices_and_centroids": 2135,
+          "surface_crossing_faces": 156
+        },
+        "eye_1": {
+          "samples": 3410,
+          "max_signed_mesh_distance": 1.3849886655807495,
+          "outside_gt_001": 1253,
+          "outside_gt_01": 1190,
+          "all_nearest_certified": false,
+          "uncertified": 444,
+          "worst_point": [
+            -35.70799255371094,
+            20.072240829467773,
+            13.120331764221191
+          ],
+          "minimum_signed_mesh_distance": -2.616553783416748,
+          "inside_vertices_and_centroids": 2145,
+          "surface_crossing_faces": 148
+        }
+      },
+      "ears": [
+        {
+          "root": [
+            -15.0,
+            22.0,
+            -14.25
+          ],
+          "local_overlap_samples": 934,
+          "overlap_sample_volume": 201.74399999999997,
+          "saved_surface_vertices_near_root": 605
+        },
+        {
+          "root": [
+            -15.0,
+            22.0,
+            14.25
+          ],
+          "local_overlap_samples": 940,
+          "overlap_sample_volume": 203.03999999999996,
+          "saved_surface_vertices_near_root": 603
+        }
+      ],
+      "nose": {
+        "material_vertices": 319,
+        "material_components": 1,
+        "boundary_shared_edges": 141,
+        "part": "same closed skin mesh"
+      }
+    },
+    "dachshund": {
+      "topology": {
+        "skin": {
+          "vertices": 50238,
+          "faces": 100472,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 1,
+          "minimum_double_area": 6.343032791542172e-11
+        },
+        "eye_-1": {
+          "vertices": 1340,
+          "faces": 2676,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 1.6325283448772972e-07
+        },
+        "eye_1": {
+          "vertices": 1344,
+          "faces": 2684,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 4.073916263606026e-07
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "max_signed_mesh_distance": -1.0044317245483398,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 74416,
+          "worst_point": [
+            -27.700000762939453,
+            8.200000762939453,
+            24.198869705200195
+          ],
+          "minimum_signed_mesh_distance": -19.39807891845703,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.6292935915943572,
+          "minimum_clearance_certified": true
+        },
+        "jaw": {
+          "samples": 30974,
+          "max_signed_mesh_distance": -0.574479877948761,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 23446,
+          "worst_point": [
+            -44.599998474121094,
+            -5.661087512969971,
+            9.80000114440918
+          ],
+          "minimum_signed_mesh_distance": -13.908136367797852,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.3104400196435946,
+          "minimum_clearance_certified": true
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "samples": 4016,
+          "max_signed_mesh_distance": 1.4988940954208374,
+          "outside_gt_001": 1499,
+          "outside_gt_01": 1416,
+          "all_nearest_certified": false,
+          "uncertified": 684,
+          "worst_point": [
+            -37.29711151123047,
+            20.11267852783203,
+            -16.020389556884766
+          ],
+          "minimum_signed_mesh_distance": -2.832379102706909,
+          "inside_vertices_and_centroids": 2500,
+          "surface_crossing_faces": 174
+        },
+        "eye_1": {
+          "samples": 4028,
+          "max_signed_mesh_distance": 1.498041033744812,
+          "outside_gt_001": 1515,
+          "outside_gt_01": 1439,
+          "all_nearest_certified": false,
+          "uncertified": 700,
+          "worst_point": [
+            -37.28494644165039,
+            20.015708923339844,
+            16.078716278076172
+          ],
+          "minimum_signed_mesh_distance": -2.8321139812469482,
+          "inside_vertices_and_centroids": 2499,
+          "surface_crossing_faces": 169
+        }
+      },
+      "ears": [
+        {
+          "root": [
+            -13.0,
+            25.0,
+            -18.0
+          ],
+          "local_overlap_samples": 536,
+          "overlap_sample_volume": 115.77599999999998,
+          "saved_surface_vertices_near_root": 843
+        },
+        {
+          "root": [
+            -13.0,
+            25.0,
+            18.0
+          ],
+          "local_overlap_samples": 539,
+          "overlap_sample_volume": 116.42399999999998,
+          "saved_surface_vertices_near_root": 842
+        }
+      ],
+      "nose": {
+        "material_vertices": 431,
+        "material_components": 1,
+        "boundary_shared_edges": 157,
+        "part": "same closed skin mesh"
+      }
+    },
+    "maltipoo": {
+      "topology": {
+        "skin": {
+          "vertices": 46641,
+          "faces": 93278,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 1.333705060811434e-10
+        },
+        "eye_-1": {
+          "vertices": 2732,
+          "faces": 5460,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 7.835168905684226e-07
+        },
+        "eye_1": {
+          "vertices": 2736,
+          "faces": 5468,
+          "components": 1,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "zero_area_faces": 0,
+          "near_zero_double_area_lt_1e10": 0,
+          "minimum_double_area": 2.206929320624301e-07
+        }
+      },
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "max_signed_mesh_distance": -1.118017554283142,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 77998,
+          "worst_point": [
+            -31.50400161743164,
+            8.850000381469727,
+            22.700000762939453
+          ],
+          "minimum_signed_mesh_distance": -19.96857452392578,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.5768632225111894,
+          "minimum_clearance_certified": true
+        },
+        "jaw": {
+          "samples": 27224,
+          "max_signed_mesh_distance": -0.9763677716255188,
+          "outside_gt_001": 0,
+          "outside_gt_01": 0,
+          "all_nearest_certified": false,
+          "uncertified": 23657,
+          "worst_point": [
+            -39.04999923706055,
+            -5.6029133796691895,
+            -11.09999942779541
+          ],
+          "minimum_signed_mesh_distance": -15.969399452209473,
+          "minimum_unsearched_triangle_distance_lower_bound": 1.4135769211626679,
+          "minimum_clearance_certified": true
+        }
+      },
+      "eyes": {
+        "eye_-1": {
+          "samples": 8192,
+          "max_signed_mesh_distance": 2.14790678024292,
+          "outside_gt_001": 3037,
+          "outside_gt_01": 2915,
+          "all_nearest_certified": false,
+          "uncertified": 2572,
+          "worst_point": [
+            -33.83957290649414,
+            21.515710830688477,
+            -17.242752075195312
+          ],
+          "minimum_signed_mesh_distance": -4.076834201812744,
+          "inside_vertices_and_centroids": 5137,
+          "surface_crossing_faces": 238
+        },
+        "eye_1": {
+          "samples": 8204,
+          "max_signed_mesh_distance": 2.148320436477661,
+          "outside_gt_001": 3034,
+          "outside_gt_01": 2909,
+          "all_nearest_certified": false,
+          "uncertified": 2581,
+          "worst_point": [
+            -33.87622833251953,
+            21.517396926879883,
+            17.19529914855957
+          ],
+          "minimum_signed_mesh_distance": -4.076329231262207,
+          "inside_vertices_and_centroids": 5156,
+          "surface_crossing_faces": 231
+        }
+      },
+      "ears": [
+        {
+          "root": [
+            -10.0,
+            26.0,
+            -23.939999999999998
+          ],
+          "local_overlap_samples": 885,
+          "overlap_sample_volume": 191.15999999999997,
+          "saved_surface_vertices_near_root": 922
+        },
+        {
+          "root": [
+            -10.0,
+            26.0,
+            23.939999999999998
+          ],
+          "local_overlap_samples": 885,
+          "overlap_sample_volume": 191.15999999999997,
+          "saved_surface_vertices_near_root": 926
+        }
+      ],
+      "nose": {
+        "material_vertices": 324,
+        "material_components": 1,
+        "boundary_shared_edges": 145,
+        "part": "same closed skin mesh"
+      }
+    }
+  },
+  "source_stable": true,
+  "cache_stable": true,
+  "image_stable": true,
+  "method_notes": [
+    "All saved bone vertices and face centroids classified independently by complete projected-triangle +X ray parity in review-pass11-ray-containment.json.",
+    "96-nearest-centroid closest triangles are not certified for every deep sample. Only the minimum-clearance statistic is certified when the global omitted-triangle lower bound exceeds that minimum.",
+    "No exhaustive continuous triangle-triangle self-intersection or containment proof; no full regeneration."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "preflight_source_sha256": "6ec60e1d15bdb0be3a10af2c79cb88f1d76d2405f719abfeba9b323fe2887111",
+  "geometry_sha256": "12f573ef113a229dda9eb027b4787b31f728ea27f0d391cb0a438f6470d31258",
+  "artifacts": {
+    "structure.png": "696c26e379fa90ac90d4a9c737790df4d45c809bfa8c1688a8f578b77bd75097",
+    "jaw-motion.png": "e49f24d2b4f95acd313e4d10ac8500feffa7c68fa9f285f445eab73bc224139f",
+    "structure-detail.png": "e5a82256a696cbad9f2cc499e010cfbd27e5436cbc85004b30366c88c525fa79",
+    "jaw-detail.png": "02bc5ef8519de93e1e3a585716ba3841cb4f607baaf14adeff7532fd906e0918"
+  },
+  "status": "FAIL_PREFLIGHT",
+  "unresolved": [
+    "Posterior cranial cap discontinuity at x=1",
+    "Actual mandibular collision with fixed temporal support outside TMJ exclusion"
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "method": "Largest RGB all channels <65 connected component in fixed nose crops; excludes antialias boundary; pixel proxy, not 3D surface area",
+  "measurements": {
+    "v1": {
+      "golden": {
+        "side": {
+          "area": 222,
+          "width": 17,
+          "height": 26
+        },
+        "oblique": {
+          "area": 822,
+          "width": 38,
+          "height": 29
+        },
+        "front": {
+          "area": 1136,
+          "width": 54,
+          "height": 27
+        },
+        "top": {
+          "area": 665,
+          "width": 17,
+          "height": 54
+        }
+      },
+      "whippet": {
+        "side": {
+          "area": 189,
+          "width": 14,
+          "height": 20
+        },
+        "oblique": {
+          "area": 483,
+          "width": 29,
+          "height": 23
+        },
+        "front": {
+          "area": 628,
+          "width": 38,
+          "height": 21
+        },
+        "top": {
+          "area": 323,
+          "width": 14,
+          "height": 38
+        }
+      },
+      "dachshund": {
+        "side": {
+          "area": 230,
+          "width": 16,
+          "height": 24
+        },
+        "oblique": {
+          "area": 644,
+          "width": 33,
+          "height": 25
+        },
+        "front": {
+          "area": 839,
+          "width": 46,
+          "height": 23
+        },
+        "top": {
+          "area": 505,
+          "width": 18,
+          "height": 46
+        }
+      },
+      "maltipoo": {
+        "side": {
+          "area": 92,
+          "width": 12,
+          "height": 20
+        },
+        "oblique": {
+          "area": 524,
+          "width": 30,
+          "height": 24
+        },
+        "front": {
+          "area": 728,
+          "width": 42,
+          "height": 23
+        },
+        "top": {
+          "area": 387,
+          "width": 12,
+          "height": 42
+        }
+      }
+    },
+    "A": {
+      "golden": {
+        "side": {
+          "area": 222,
+          "width": 17,
+          "height": 26
+        },
+        "oblique": {
+          "area": 820,
+          "width": 39,
+          "height": 29
+        },
+        "front": {
+          "area": 1136,
+          "width": 54,
+          "height": 27
+        },
+        "top": {
+          "area": 665,
+          "width": 17,
+          "height": 54
+        }
+      },
+      "whippet": {
+        "side": {
+          "area": 190,
+          "width": 14,
+          "height": 20
+        },
+        "oblique": {
+          "area": 490,
+          "width": 28,
+          "height": 23
+        },
+        "front": {
+          "area": 631,
+          "width": 38,
+          "height": 21
+        },
+        "top": {
+          "area": 325,
+          "width": 14,
+          "height": 38
+        }
+      },
+      "dachshund": {
+        "side": {
+          "area": 234,
+          "width": 17,
+          "height": 23
+        },
+        "oblique": {
+          "area": 646,
+          "width": 33,
+          "height": 26
+        },
+        "front": {
+          "area": 852,
+          "width": 46,
+          "height": 23
+        },
+        "top": {
+          "area": 502,
+          "width": 18,
+          "height": 46
+        }
+      },
+      "maltipoo": {
+        "side": {
+          "area": 92,
+          "width": 12,
+          "height": 20
+        },
+        "oblique": {
+          "area": 527,
+          "width": 30,
+          "height": 24
+        },
+        "front": {
+          "area": 729,
+          "width": 42,
+          "height": 23
+        },
+        "top": {
+          "area": 387,
+          "width": 12,
+          "height": 42
+        }
+      }
+    },
+    "B": {
+      "golden": {
+        "side": {
+          "area": 222,
+          "width": 17,
+          "height": 26
+        },
+        "oblique": {
+          "area": 820,
+          "width": 39,
+          "height": 29
+        },
+        "front": {
+          "area": 1136,
+          "width": 54,
+          "height": 27
+        },
+        "top": {
+          "area": 665,
+          "width": 17,
+          "height": 54
+        }
+      },
+      "whippet": {
+        "side": {
+          "area": 190,
+          "width": 14,
+          "height": 20
+        },
+        "oblique": {
+          "area": 490,
+          "width": 28,
+          "height": 23
+        },
+        "front": {
+          "area": 631,
+          "width": 38,
+          "height": 21
+        },
+        "top": {
+          "area": 325,
+          "width": 14,
+          "height": 38
+        }
+      },
+      "dachshund": {
+        "side": {
+          "area": 234,
+          "width": 17,
+          "height": 23
+        },
+        "oblique": {
+          "area": 646,
+          "width": 33,
+          "height": 26
+        },
+        "front": {
+          "area": 852,
+          "width": 46,
+          "height": 23
+        },
+        "top": {
+          "area": 502,
+          "width": 18,
+          "height": 46
+        }
+      },
+      "maltipoo": {
+        "side": {
+          "area": 92,
+          "width": 12,
+          "height": 20
+        },
+        "oblique": {
+          "area": 529,
+          "width": 31,
+          "height": 24
+        },
+        "front": {
+          "area": 729,
+          "width": 42,
+          "height": 23
+        },
+        "top": {
+          "area": 387,
+          "width": 12,
+          "height": 42
+        }
+      }
+    },
+    "C": {
+      "golden": {
+        "side": {
+          "area": 222,
+          "width": 17,
+          "height": 26
+        },
+        "oblique": {
+          "area": 820,
+          "width": 39,
+          "height": 29
+        },
+        "front": {
+          "area": 1136,
+          "width": 54,
+          "height": 27
+        },
+        "top": {
+          "area": 665,
+          "width": 17,
+          "height": 54
+        }
+      },
+      "whippet": {
+        "side": {
+          "area": 192,
+          "width": 14,
+          "height": 20
+        },
+        "oblique": {
+          "area": 490,
+          "width": 28,
+          "height": 23
+        },
+        "front": {
+          "area": 631,
+          "width": 38,
+          "height": 21
+        },
+        "top": {
+          "area": 325,
+          "width": 14,
+          "height": 38
+        }
+      },
+      "dachshund": {
+        "side": {
+          "area": 234,
+          "width": 17,
+          "height": 23
+        },
+        "oblique": {
+          "area": 646,
+          "width": 33,
+          "height": 26
+        },
+        "front": {
+          "area": 852,
+          "width": 46,
+          "height": 23
+        },
+        "top": {
+          "area": 502,
+          "width": 18,
+          "height": 46
+        }
+      },
+      "maltipoo": {
+        "side": {
+          "area": 92,
+          "width": 12,
+          "height": 20
+        },
+        "oblique": {
+          "area": 530,
+          "width": 31,
+          "height": 24
+        },
+        "front": {
+          "area": 729,
+          "width": 42,
+          "height": 23
+        },
+        "top": {
+          "area": 387,
+          "width": 12,
+          "height": 42
+        }
+      }
+    }
+  }
+}

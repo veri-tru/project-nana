@@ -1,0 +1,61 @@
+{
+  "scope": "heads only; body not modified or rendered",
+  "classification": "existing authored B scale applied to photo-registered completed heads",
+  "head_scale": 1.7,
+  "pivot": "body.head; origin in each local head mesh",
+  "transform_matrix": [
+    [
+      1.7,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.7,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.7,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cameras": [
+    {
+      "label": "측면",
+      "azimuth": 90,
+      "elevation": 0
+    },
+    {
+      "label": "정면",
+      "azimuth": 0,
+      "elevation": 0
+    },
+    {
+      "label": "뒷면",
+      "azimuth": 180,
+      "elevation": 0
+    }
+  ],
+  "pixels_per_model_unit": 3.9291737695769395,
+  "independent_panel_auto_fit": false,
+  "body_proportion_claim": false,
+  "inputs_sha256": {
+    "deformation-b-face-v3\\preview.py": "ac2453b1ef3df0cf84e924520b1191726598909864bb0caa119866150278bae1",
+    "deformation-b-face-v3\\B.json": "f20990163e6763af041308b12bc703b6b12d0430da2d966714da52be15cf2e9c",
+    "deformation-b-face-v3\\profiles.json": "1a574306a6bf8eb010ed98a8f3711dfcc22decb55d6fdf6d2a754a3e4e3f995a",
+    "deformation-rig-b-v1\\B.json": "fabc3715d0f6af6ac38d1fbd8a9dcc56975d3757cb73b1bf35379d372b9a306e"
+  },
+  "image_sha256": "1abe7ea39aa99a8cd8ceea5ec1ee1ce1f89de223382b8396803bb3b5cdcda537",
+  "mesh_archive_sha256": "8679684441ee101f513bad820f2a2525b6e8bc858b45f12f93367132b9b74ab6",
+  "status": "USER_REVIEW_PENDING"
+}

@@ -1,0 +1,196 @@
+{
+  "golden": {
+    "neutral_exact": true,
+    "unchanged_geometry_material_changes": 0,
+    "jaw": [
+      {
+        "angle": 4.0,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 7.105427357601002e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 6.0,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 5.329070518200751e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 8.0,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 7.105427357601002e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      }
+    ],
+    "tongue": [
+      {
+        "state": "tongue",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.6201982137253079,
+        "root_error": 0.0,
+        "contact_error": null,
+        "lip_support_error": 1.748795629182421e-16,
+        "outside_max_thickness": 1.7340000000000018,
+        "recorded_outside_thickness": 1.734,
+        "finite": true,
+        "seam_error": 3.497591258364841e-16
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.41443964891776136,
+        "root_error": 0.0,
+        "contact_error": 0.0,
+        "lip_support_error": 1.49896768215636e-16,
+        "outside_max_thickness": 1.3260000000000036,
+        "recorded_outside_thickness": 1.3259999999999998,
+        "finite": true,
+        "seam_error": 2.997935364312721e-16
+      }
+    ]
+  },
+  "whippet": {
+    "neutral_exact": true,
+    "unchanged_geometry_material_changes": 0,
+    "jaw": [
+      {
+        "angle": 2.32,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 4.440892098500626e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 3.4799999999999995,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 6.217248937900877e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 4.64,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 5.329070518200751e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      }
+    ],
+    "tongue": [
+      {
+        "state": "tongue",
+        "floor_clearance": -4.787836793695988e-16,
+        "roof_clearance": 0.4360671753379784,
+        "root_error": 0.0,
+        "contact_error": null,
+        "lip_support_error": 1.285879139104721e-16,
+        "outside_max_thickness": 1.275000000000002,
+        "recorded_outside_thickness": 1.2750000000000001,
+        "finite": true,
+        "seam_error": 2.5717582782094424e-16
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -6.661338147750939e-16,
+        "roof_clearance": 0.29139537652618686,
+        "root_error": 0.0,
+        "contact_error": 0.0,
+        "lip_support_error": 1.1021821192326178e-16,
+        "outside_max_thickness": 0.9750000000000036,
+        "recorded_outside_thickness": 0.9750000000000001,
+        "finite": true,
+        "seam_error": 2.2043642384652358e-16
+      }
+    ]
+  },
+  "dachshund": {
+    "neutral_exact": true,
+    "unchanged_geometry_material_changes": 0,
+    "jaw": [
+      {
+        "angle": 3.4,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 7.105427357601002e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 5.1,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 5.329070518200751e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      },
+      {
+        "angle": 6.8,
+        "rest_exact": true,
+        "inverse_error": 7.105427357601002e-15,
+        "pair_distance_error": 7.105427357601002e-15,
+        "hinge_error": 0.0,
+        "upper_exact": true,
+        "ears_exact": true
+      }
+    ],
+    "tongue": [
+      {
+        "state": "tongue",
+        "floor_clearance": -2.220446049250313e-16,
+        "roof_clearance": 0.4782643952511072,
+        "root_error": 0.0,
+        "contact_error": null,
+        "lip_support_error": 1.4230395806092245e-16,
+        "outside_max_thickness": 1.4110000000000016,
+        "recorded_outside_thickness": 1.4110000000000003,
+        "finite": true,
+        "seam_error": 2.846079161218451e-16
+      },
+      {
+        "state": "lick",
+        "floor_clearance": -4.440892098500626e-16,
+        "roof_clearance": 0.3184022295421456,
+        "root_error": 0.0,
+        "contact_error": 0.0,
+        "lip_support_error": 1.2197482119507638e-16,
+        "outside_max_thickness": 1.0790000000000035,
+        "recorded_outside_thickness": 1.0790000000000002,
+        "finite": true,
+        "seam_error": 2.439496423901528e-16
+      }
+    ]
+  },
+  "renders": {
+    "expressions.png": {
+      "byte_identical": true,
+      "sha256": "7737f14b10fe92a8bde160ff59c148daa973d7745d322e7046b6b39d5a10ba3a"
+    },
+    "expressions-side.png": {
+      "byte_identical": true,
+      "sha256": "fb83ec928d6ea907b6fc7426a3b3e7719c212fc3f6a5fc64c5b2a771fd9dd341"
+    },
+    "mouth-options.png": {
+      "byte_identical": true,
+      "sha256": "4b1f5119f738b09564ab47fa5f89ec74b92d2031faa8b5c15eeb108430e27c20"
+    }
+  },
+  "recipe_inputs_exact": true,
+  "recipe_images_exact": true,
+  "source_sha256": "2b9c32e343c6f165080b501c8e11ee150d8d6b2d1a6c64f1b96778d0ccaba62a"
+}

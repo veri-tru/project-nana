@@ -1,0 +1,32 @@
+{
+  "anatomy_reference_type": "Directly inspected public lateral/dorsal/rostral images from one IMAIOS dog-head CT atlas module; no CT segmentation or matched-breed measurements",
+  "images": [
+    {
+      "path": "../../private-data/skull-anatomy-v2/lateral.jpg",
+      "url": "https://cdn1.imaios.com/i/images/4/4/9/6/466944-10-ger-DE/dog-head-ct-3d-bones-horizontal-rotation-cranium.jpg?auto=format%2Ccompress&caption=1&ixlib=php-3.3.1&q=75&s=2cdd9629b1c7db100b97c5d1b1750c05&w=1280",
+      "sha256": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+      "role": "Reference inspection only; do not redistribute in generated boards"
+    },
+    {
+      "path": "../../private-data/skull-anatomy-v2/dorsal.jpg",
+      "url": "https://cdn1.imaios.com/i/images/1/7/9/6/466971-12-jpn-JP/dog-head-ct-3d-bones-vertical-rotation-dorsal.jpg?q=75&s=7ff150fd80992ddb86f1f125aff8323d&w=1037",
+      "sha256": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+      "role": "Reference inspection only; do not redistribute in generated boards"
+    },
+    {
+      "path": "../../private-data/skull-anatomy-v2/rostral.jpg",
+      "url": "https://cdn1.imaios.com/i/images/3/8/9/6/466983-9-por-BR/dog-head-ct-3d-bones-vertical-rotation-rostral.jpg?caption=1&q=75&s=96c5b0ec439f1f46883733bf7bb571b4&w=1280",
+      "sha256": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+      "role": "Reference inspection only; do not redistribute in generated boards"
+    }
+  ],
+  "profile_source": "../head-skeleton-v1/profiles.json",
+  "profile_source_sha256": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+  "assumptions": [
+    "Six sagittal control anchors and shortened muzzle input lengths preserved for every breed",
+    "Legacy width inputs retained as controls; arch outward offsets and temporal recesses are separately authored additions",
+    "Bone wall thickness, orbital/temporal void dimensions, maxillary depth, mandibular body/ramus/condyle dimensions are authored and require review",
+    "Maltipoo photo1 remains external identity reference only; hidden bone dimensions are not inferred as measured",
+    "No actual machine learning training performed; future reference data must retain current draft/review status"
+  ]
+}

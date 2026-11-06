@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "implementer": "/root",
+  "artifacts": [
+    {
+      "path": "heads-B.png",
+      "sha256": "32e5208d51697d5d0aa2084c57053ab4c475c2506d02e5f5a578e60df9cb06b5"
+    }
+  ],
+  "inputs": {},
+  "reviews": {
+    "visual": {
+      "status": "FAIL"
+    },
+    "technical": {
+      "status": "NOT_REVIEWED"
+    }
+  },
+  "findings": [
+    {
+      "id": "USER_PUFFED_FACES",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "detail": "User rejected uniformly swollen bun-like faces; global ellipse envelope inflated all breeds."
+    },
+    {
+      "id": "USER_CONICAL_MUZZLES",
+      "severity": "BLOCKER",
+      "resolved": false,
+      "detail": "All muzzle sections converge to one nasal template; upper lip/muzzle pad have no independent anterior support."
+    }
+  ],
+  "user_decision": "REJECTED",
+  "delivery": "BLOCKED",
+  "history": [
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "heads-B.png": "d8c5e9c5a9978dca01cb096146408dea469f9f2a93ff783a8c016d300eedee32"
+      },
+      "reason": "All faces became bun-like."
+    },
+    {
+      "event": "USER_REJECTED",
+      "artifacts": {
+        "iterations/07/heads-B.png": "32e5208d51697d5d0aa2084c57053ab4c475c2506d02e5f5a578e60df9cb06b5"
+      },
+      "reason": "All muzzles converge like unnatural cones."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Preserve original bytes used by SHA-256 catalogs and review records.
+# Scope is limited to the 2026-11-06 engine checkpoint and its dependencies.
+outputs/body-rig-breeds-v1/** -text
+outputs/cranio-cervical-v1/** -text
+outputs/deformation-b-expressions-simple-v1/** -text
+outputs/deformation-b-expressions-v1/** -text
+outputs/deformation-b-face-v2/** -text
+outputs/deformation-b-face-v3/** -text
+outputs/deformation-b-heads-v1/** -text
+outputs/deformation-b-round-eyes-v1/** -text
+outputs/deformation-rig-b-v1/** -text
+outputs/face-rig-breeds-v1/** -text
+outputs/golden-adult-head-v1/** -text
+outputs/golden-b2-canonical-20261106/** -text
+outputs/golden-pixel-refresh-20261106/** -text
+outputs/head-neck-volume-v2/** -text
+outputs/head-skeleton-v1/** -text
+outputs/head-skeleton-volume-v2/** -text
+outputs/heads-necks-four-v1/** -text
+outputs/integrated-rig-b-v1/** -text
+outputs/jack-russell-b2-20261106/** -text
+outputs/jack-russell-ear-study-20261106/** -text
+outputs/jack-russell-head-v1/** -text
+outputs/maltipoo-photo-v1/** -text
+outputs/skeleton-pixel-concepts-20261106/** -text
+outputs/skeleton-structures-v1/** -text
+outputs/skull-based-heads-v1/** -text
+outputs/skull-based-heads-v2/** -text
+references/styles/breed-head-b2/** -text
+tools/head_engine/** -text
+tools/review/** -text
+tools/dog_engine/** -text

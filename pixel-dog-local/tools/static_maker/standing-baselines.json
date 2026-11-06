@@ -1,0 +1,278 @@
+{
+  "guide-054": {
+    "profile": "../../private-data/standing-v2-verification/whippet-muzzle-middle.json",
+    "authoring_sha256": "f05b0b98fcf137539de130f332772ac0b13bfff85d025d2053b6d1251244fff8",
+    "rgba_sha256": "168a036d7595e2a786e0f9929d87c9212804d0f00358d7ccbcee3821f1e3dfee",
+    "database": "../../private-data/breed-standing-pair-v1/profiles.sqlite",
+    "status": "owner-confirmed-working-output",
+    "pose": "stand",
+    "poses": {
+      "seated-candidate": {
+        "pose": "seated-candidate",
+        "status": "candidate",
+        "profile": "../../private-data/seated-rebuild-r1/054-B.json",
+        "authoring_sha256": "1dc86dd5cc6f598e657b008af25b0053379c93a3b3e5b2ec67674535e8ebc0b5",
+        "rgba_sha256": "ab6405b580c59fa5d9e7f65a4fdc7f8266fc29b1648f7c46facfdb410dc25bf1"
+      }
+    }
+  },
+  "guide-016": {
+    "profile": "../../private-data/standing-v2-verification/dachshund-muzzle-middle.json",
+    "authoring_sha256": "a3610ab8f967c43148ecdbd5679c027e73c7248d7e6bd8e5e09b2206f2b3adc6",
+    "rgba_sha256": "c3652e97b7f97d501b8166c6e15048ae307b9bb517e802de4f14626089b33274",
+    "database": "../../private-data/breed-standing-pair-v1/profiles.sqlite",
+    "status": "owner-confirmed-working-output",
+    "pose": "stand",
+    "poses": {
+      "seated-candidate": {
+        "pose": "seated-candidate",
+        "status": "candidate",
+        "profile": "../../private-data/seated-rebuild-r1/016-B.json",
+        "authoring_sha256": "e02b723f8ce077b931b3910cf238dd655139733a9703ea73ea04ea40f5b78fd6",
+        "rgba_sha256": "37b0eb28ce17b597b2ac2c0f721d4d1619ad5319b0d5d41b403553e6d74643e2"
+      }
+    }
+  },
+  "guide-008": {
+    "profile": "../../private-data/face-recheck-v4/008/B.json",
+    "rgba_sha256": "b5c1c1fdd287d14eea6bd6fd33daf5d51f06e84d0ef83d7f4e72737df9e952dc",
+    "authoring_sha256": "0dba5b76d9bc0b52a1b2a6884ca3d9d237d922d86e3226cf42e8e36eda0b38c3",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-101": {
+    "profile": "../../private-data/face-recheck-v4/101/B.json",
+    "rgba_sha256": "6ba0d42e7ab5ec7f85fa927dbd9704c3ce07afbf7dfc6fd0d25751a31271efc1",
+    "authoring_sha256": "b296c5dc2d91abcc34bdcb73911bc402f4f4521439c2e6684f6bd64e0d639ff4",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-014": {
+    "profile": "../../private-data/face-recheck-v4/014/B.json",
+    "rgba_sha256": "f86a20f32814b7cb8dadd8f30693973cf4e61471f7602633d1d2272241a22f78",
+    "authoring_sha256": "7b69c0d8e696497df25dbe66bf13c0831fa184b9d7e948fb2c13c78ef4a27ad3",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-001": {
+    "profile": "../../private-data/face-recheck-v4/001/B.json",
+    "rgba_sha256": "34b17e93c657d71f5db00e8756f5e566b427d70b66d40e041a73bfbe1898da56",
+    "authoring_sha256": "58b66e54bb86a010d8d3a6e59476a9d0b6378543e537df5086fac5faeb4e743a",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-002": {
+    "profile": "../../private-data/face-recheck-v4/002/B.json",
+    "rgba_sha256": "8947c44facf785c1ae3cd7e3718904a062ef152595d3b8c05372649d7eaf5142",
+    "authoring_sha256": "77d24d271d7a0dc17a3bb9ee8463515173f630d21a0fd2d6fc11ff237cfacb8b",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite",
+    "poses": {
+      "seated-candidate": {
+        "pose": "seated-candidate",
+        "status": "candidate",
+        "profile": "../../private-data/seated-rebuild-r1/002-B.json",
+        "authoring_sha256": "874b396ffa9023f6e7f8c04e299d78a2d816382782ae55d3c17ce63587688e47",
+        "rgba_sha256": "71768a21921c557ed32ab668b7b75364262f2d5e2b355fa9d957719dc49106b3"
+      }
+    }
+  },
+  "guide-053": {
+    "profile": "../../private-data/face-recheck-v4/053/B.json",
+    "rgba_sha256": "33d030a5e936bfe5ce0bc07db5eb962bf0ee5fc96eb58f37f545c23be26bd1c9",
+    "authoring_sha256": "62f09486c945fb5a74fc81bda5ecec160c8acfb63d309f06e7d34ab679803ba4",
+    "pose": "seated",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-003": {
+    "profile": "../../private-data/face-recheck-v4/003/B.json",
+    "rgba_sha256": "37843e894e8d521bb9c73fd8da43818ef225df5e1c988f72fcb5d37b17d49bc2",
+    "authoring_sha256": "cb47208c00c7fd130de2b5ec9e974cdf808b04793d15e780f0d6a01dfb75ff8d",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-018": {
+    "profile": "../../private-data/face-recheck-v4/018/B.json",
+    "rgba_sha256": "baa59ac20ead2aa961828a35cf0cb07ec4a9d18681eb2ff98d9294c3e0249c8e",
+    "authoring_sha256": "8a0aefee769194bbe3124ebd444e698b93091cac2c04d2b0f75950d46c891112",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-022": {
+    "profile": "../../private-data/face-recheck-v4/022/B.json",
+    "rgba_sha256": "f30afa37e95843855cf44fc4cdc6f05a307a3aaf453157ae741ba024cd85066a",
+    "authoring_sha256": "e0512e876fe8b3bd4e327ecefe0ab7147dbfdb07f461d5cb54fda5a661bce8fb",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-004": {
+    "profile": "../../private-data/face-recheck-v4/004/B.json",
+    "rgba_sha256": "680b9353695c7795e5963f77c6aa45b59c42fc9ba9d7964af774a6f45a014392",
+    "authoring_sha256": "faee164c908e3ea534f9a19266c60a99eca64d38713077a68e4a343accec8b3d",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-031": {
+    "profile": "../../private-data/face-recheck-v4/031/B.json",
+    "rgba_sha256": "b7f86553a610b8a7ee3e8a687e49dd92a0a00882ff5debd5980b0429d0d2dce2",
+    "authoring_sha256": "aed5fdc2c88fc226659b9a019efd0b20a9603f4cfdcf4b64c3f5a6cbf9e617aa",
+    "pose": "lying",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-114": {
+    "profile": "../../private-data/face-recheck-v4/114/B.json",
+    "rgba_sha256": "26c24cb07687d34e4a897af1395ff303ea15228d2916a165308ab2e002950d16",
+    "authoring_sha256": "493e69b20b163315d5b03fa39afa57e3bb9e254aba1b39e8e74179a6c7afdcb8",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-055": {
+    "profile": "../../private-data/face-recheck-v4/055/B.json",
+    "rgba_sha256": "b946529a9f761446a11920ea963446a5eeb64a630739a470009016666bf6e60e",
+    "authoring_sha256": "b2fb7cd5f80931346a7624aef4636f33dd08068c88130ca3e01e023c9980a5a7",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-058": {
+    "profile": "../../private-data/face-recheck-v4/058/B.json",
+    "rgba_sha256": "62cad354d4eba3bc37c5217ee5860e925d4bf66c6313b9a96e47c6fe68cd5512",
+    "authoring_sha256": "dce98b9691705aeb90df84226b660e85d0fdfdf66037e16ade930966f9967fad",
+    "pose": "walk",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-093": {
+    "profile": "../../private-data/face-recheck-v4/093/B.json",
+    "rgba_sha256": "95a1dab0f9b0bdf55282d4c590055f41c5aaf686360e7c2f6672912141260485",
+    "authoring_sha256": "bc0bf55e3e7bc059277daffdb9f3adaa006be4c9b1c72d373c0480dbbddcc6ae",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-102": {
+    "profile": "../../private-data/face-recheck-v4/102/B.json",
+    "rgba_sha256": "5d667e80c0edeae5df77674fc01e144a97fe5de4b675fcc01af954f9010cca42",
+    "authoring_sha256": "3c19e9235f88e22a8cd755e2bc17602eff64ab7ea1d1691bc91af8148069483f",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-111": {
+    "profile": "../../private-data/face-recheck-v4/111/B.json",
+    "rgba_sha256": "fd40707a4a054055b8563e30877c89fdb7f7cb4b0607020baa519282a4fac202",
+    "authoring_sha256": "3f824789c28be2f7d77a256a86fe99a3c2b8e93ba1f7ebdccfd0447833305bd5",
+    "pose": "lying",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-019": {
+    "profile": "../../private-data/face-recheck-v4/019/B.json",
+    "rgba_sha256": "88338222a6eca79c3f1bc052072cabefb49f2fd571b58ec7e40b1226c1fd8793",
+    "authoring_sha256": "c2c3dbcd80274064692132ae04e5f022194f9ff0ce9065f0ea39b20394f46bc4",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-067": {
+    "profile": "../../private-data/face-recheck-v4/067/B.json",
+    "rgba_sha256": "6d739e16b437a5abef4e89f7b15e8a5efc079e6355fb34d9e3ca945c77ca5397",
+    "authoring_sha256": "52d71c425fd7239d57d633eb1266a0888815e86f401e9ab3ff53f9efb74001e8",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-012": {
+    "profile": "../../private-data/face-recheck-v4/012/B.json",
+    "rgba_sha256": "151f4af4618fb4e6c12cb3191011f16f8e1e7854149d989dd050896c6857d7be",
+    "authoring_sha256": "ea210ac278a0d7dc700d0be4bbee5ff49c2be495afbf61b2d07f430fb63eeb85",
+    "pose": "portrait",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-011": {
+    "profile": "../../private-data/face-recheck-v4/011/B.json",
+    "rgba_sha256": "ec2e2d6b733dac1317d9ec2a0cdce757dd50863e83c5a9d8e53414146433a82b",
+    "authoring_sha256": "baeb864d7854e799cf22e3da2ce90b21665d3e13331eacd29f16e25430e5f568",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-013": {
+    "profile": "../../private-data/face-recheck-v4/013/B.json",
+    "rgba_sha256": "36ed7c06d543afdebac7b2d39a945c85a6e21dab14cce55d39d5d0fdf5c1c5a3",
+    "authoring_sha256": "44d1ac33b20efc5d4bc75cac7d118ddae501d31b57c8a03698273a263bf43dd1",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-034": {
+    "profile": "../../private-data/face-recheck-v4/034/B.json",
+    "rgba_sha256": "dab129f5fc8c891dee97f660687064c533582315e606f377d65db104392941b1",
+    "authoring_sha256": "665c8936c4f0988e9931db2bc99b12186e2a3cda6a08eecad82b59e837e68b6b",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-032": {
+    "profile": "../../private-data/face-recheck-v4/032/B.json",
+    "rgba_sha256": "ff8d5c83b3c73dae2a9d6dceda7b9553dac79ebc77ced6e0911fb49c74e04c33",
+    "authoring_sha256": "6af0801ff5197d50e5c5e282240df5ffa9374ed9a6b77495ea3f1850b2902c08",
+    "pose": "stand",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "guide-027": {
+    "profile": "../../private-data/face-recheck-v4/027/B.json",
+    "rgba_sha256": "fa7bf0b2217915ac5c9814e1fb1f9f99468886ca0a29e107540b59f834eb10ee",
+    "authoring_sha256": "3de5b9855a209c9ae7bcafbf41047296a8d70e3ff25be304d193de24adbc4a6a",
+    "pose": "seated",
+    "status": "candidate",
+    "database": "../../private-data/face-recheck-v4/profiles.sqlite"
+  },
+  "nana-review-20261103": {
+    "profile": "../../private-data/nana-standing-review-20261103/maker/standing-photo1-v1.json",
+    "database": "../../private-data/nana-standing-review-20261103/maker.sqlite",
+    "authoring_sha256": "5d1031b23ede4ad149ae696b44297af68a311594fbb3efcbe335a938bd22ee9f",
+    "rgba_sha256": "89fe3f2b56fa9f41abe50a7c949531b8148b5a00fa5ae2e7d1166c73ef3d4d47",
+    "status": "owner-selected-combination",
+    "pose": "stand",
+    "poses": {
+      "seated": {
+        "profile": "../../private-data/nana-seated-medium-v1/nana-seated-medium-v1.json",
+        "authoring_sha256": "3901e0c7f8b8386394bbe9ddd37d1d7488cf636fb6d5d0953d3c67651be867f2",
+        "rgba_sha256": "5b330ae644f3b5c9ffbeb0b3b9c9ab5737dd8e71d71feec2ce8cc7a9e5b1c6e6",
+        "status": "owner-selected-working-output",
+        "pose": "seated"
+      }
+    }
+  },
+  "subject-02": {
+    "profile": "../../private-data/subject-02-front-reference-v1/hind-axis-chin-r1/combined.json",
+    "database": "../../private-data/subject-02-front-reference-v1/profiles.sqlite",
+    "authoring_sha256": "e3f8348935655b826e5c34188f0783550dfec7ac3345ad8099e69c173a07d26f",
+    "rgba_sha256": "355d1edf840671c329105213f18f78e30b3a63f62e5a6f848d0a2445eff906bc",
+    "status": "candidate",
+    "pose": "stand"
+  },
+  "subject-03": {
+    "profile": "../../private-data/subject-03-standing-v1/legs-r4/photo.json",
+    "database": "../../private-data/subject-03-standing-v1/profiles.sqlite",
+    "authoring_sha256": "08c5f1a64850e8b9311f7c82b8497b4549562adf7d5a2aa94c3edbaf2f3f9904",
+    "rgba_sha256": "a962a5e8d5e379deddf1691bdf272beb1301d511c2812c6f2ec5276efc830775",
+    "status": "owner-preferred-working-output",
+    "pose": "stand"
+  }
+}

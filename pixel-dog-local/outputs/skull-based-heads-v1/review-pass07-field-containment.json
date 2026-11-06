@@ -1,0 +1,192 @@
+{
+  "development_field_only": true,
+  "variant": "B",
+  "source_sha256": "ab5c7ea3ef992247e374f581b1a3f7e648c5f2767011fb9e5fae50854ed068b5",
+  "breeds": {
+    "golden": {
+      "upper": {
+        "samples": 90282,
+        "max_field": -0.2011977005152339,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -29.919998168945312,
+          8.850000381469727,
+          -28.138471603393555
+        ],
+        "clearance_p01": 0.9941532836348353,
+        "front": {
+          "samples": 1070,
+          "max_field": -1.4779767173425178,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 2462,
+          "max_field": -3.0558915476190687,
+          "outside_gt_0": 0
+        }
+      },
+      "jaw": {
+        "samples": 31802,
+        "max_field": -0.713142642240868,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -13.881973266601562,
+          -4.150000095367432,
+          -17.600000381469727
+        ],
+        "clearance_p01": 0.8836996921841502,
+        "front": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        }
+      }
+    },
+    "whippet": {
+      "upper": {
+        "samples": 73128,
+        "max_field": -0.6051562539541928,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -84.89305877685547,
+          10.799999237060547,
+          0.14999961853027344
+        ],
+        "clearance_p01": 1.0709596724283676,
+        "front": {
+          "samples": 708,
+          "max_field": -0.6051562539541928,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 1724,
+          "max_field": -2.3409085424743346,
+          "outside_gt_0": 0
+        }
+      },
+      "jaw": {
+        "samples": 29996,
+        "max_field": -0.135512060946808,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -11.874979972839355,
+          -4.150000095367432,
+          -12.850000381469727
+        ],
+        "clearance_p01": 0.7831555225527627,
+        "front": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        }
+      }
+    },
+    "dachshund": {
+      "upper": {
+        "samples": 86922,
+        "max_field": -0.49056246188310126,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -27.700000762939453,
+          8.850000381469727,
+          24.19521141052246
+        ],
+        "clearance_p01": 1.137813571518568,
+        "front": {
+          "samples": 889,
+          "max_field": -1.0625513739250128,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 2123,
+          "max_field": -2.756101920636386,
+          "outside_gt_0": 0
+        }
+      },
+      "jaw": {
+        "samples": 30974,
+        "max_field": -0.5977608747453651,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -46.79684066772461,
+          -5.449999809265137,
+          -9.69999885559082
+        ],
+        "clearance_p01": 0.726387984433978,
+        "front": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        }
+      }
+    },
+    "maltipoo": {
+      "upper": {
+        "samples": 80834,
+        "max_field": -0.66144025173908,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -23.450000762939453,
+          8.200000762939453,
+          -28.074216842651367
+        ],
+        "clearance_p01": 1.399136251477612,
+        "front": {
+          "samples": 943,
+          "max_field": -1.5819696934827707,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 2566,
+          "max_field": -3.3499999046325684,
+          "outside_gt_0": 0
+        }
+      },
+      "jaw": {
+        "samples": 27224,
+        "max_field": -0.9319191243341685,
+        "outside_gt_0": 0,
+        "outside_gt_01": 0,
+        "worst_point": [
+          -39.70000076293945,
+          -5.540023326873779,
+          10.999999046325684
+        ],
+        "clearance_p01": 1.2208554153275921,
+        "front": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        },
+        "rear": {
+          "samples": 0,
+          "max_field": null,
+          "outside_gt_0": 0
+        }
+      }
+    }
+  },
+  "source_stable": true
+}

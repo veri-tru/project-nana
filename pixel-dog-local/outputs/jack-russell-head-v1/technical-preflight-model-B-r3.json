@@ -1,0 +1,31 @@
+{
+  "model": "development\\model-B-r3.pkl",
+  "sha256": "bd2b8be40a78a14146a14fdd9b41f6f9f42bddae86f04dae3691090046f85fb2",
+  "skin_topology": {
+    "vertices": 39352,
+    "faces": 78700,
+    "components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "euler": 2,
+    "zero_area_faces": 0,
+    "near_zero_double_area_lt_1e10": 0
+  },
+  "containment": {
+    "upper": {
+      "samples": 77866,
+      "outside": 0,
+      "first_outside": []
+    },
+    "jaw": {
+      "samples": 25790,
+      "outside": 0,
+      "first_outside": []
+    },
+    "cartilage": {
+      "samples": 1622,
+      "outside": 0,
+      "first_outside": []
+    }
+  }
+}

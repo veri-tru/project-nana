@@ -1,0 +1,279 @@
+{
+  "B_reuse": {
+    "same_source": true,
+    "same_png": true,
+    "same_archived_parameters": true,
+    "same_topology": {
+      "golden": {
+        "skin": true,
+        "eye_-1": true,
+        "eye_1": true
+      },
+      "whippet": {
+        "skin": true,
+        "eye_-1": true,
+        "eye_1": true
+      },
+      "dachshund": {
+        "skin": true,
+        "eye_-1": true,
+        "eye_1": true
+      },
+      "maltipoo": {
+        "skin": true,
+        "eye_-1": true,
+        "eye_1": true
+      }
+    },
+    "limitation": "Prior B-only geometry pickle was not archived. Reuse is supported by unchanged source, identical PNG, archived metadata, matching topology, and an exact fresh full rebuild; no direct old-array byte comparison is claimed."
+  },
+  "all_arrays_finite": true,
+  "array_fingerprints": {
+    "B": {
+      "golden": {
+        "skin": {
+          "v": "e856d668c009f8265cb8217134bebf6cde46742fc962e7824f252583c9f17d5b",
+          "f": "47a63f10585533cd664db7c97075b33d060ffbadcbd52e768a32ea360d6d2143",
+          "n": "faf8aace218a372a2b4ef72b71c985364b207a1770e0214e3ff21f43d2b5c476",
+          "c": "a4177912c118875d10e5ca03df2b3f9b2acfd6885507c976f2cb5890e5beabe9"
+        },
+        "eye_-1": {
+          "v": "e4b69133c48b924059f8acf21c09c71ce34ed1f8dd1d50956d2fb3732eaeb57d",
+          "f": "43e5f5f4c67d882dde70765347808a060f8a1d04782911f067b20d0d396262d8",
+          "n": "e0704c610b9c3a9fc64e23b2474b3a269f47c91f0b4d9f13dccf1a0b9211f5f5",
+          "c": "86e54b109ce1c100f8f42ee7508cc853e233ce841e4ca2704ffd61cab7f3c338"
+        },
+        "eye_1": {
+          "v": "88bcf62fe6493d2ad2d27258a3affccd1775b091bfb35101cc5e9e6ce8f0162b",
+          "f": "80f511dcadffc97999de4af8e9374bacf058064754645d0920b096bf5e372c3a",
+          "n": "88a4cfe0f8a0f1fe2a2321c01293df83f9ae90868f6addcd017870ad8a9321fc",
+          "c": "f013958719c0374126532b15e363fd2d24ada7ee430df50e057f07bdd9660e2e"
+        }
+      },
+      "whippet": {
+        "skin": {
+          "v": "ae2c25253a4487b121d26bdf5a9d3d3279a43af7112ec7cd8bd281764e09c2e6",
+          "f": "8138a5e65f2f732ecbc617b8b05cba9a928489dae7e6e8967e14de1507e33aca",
+          "n": "adae1513e8841bda4155273b8b3445bd898de3db19ec28ddefa1abe6e51747e7",
+          "c": "f67c3621155eae431b37610d7731f9869bc4bbd2849afa6fb7899b2d95d82761"
+        },
+        "eye_-1": {
+          "v": "d2e99b441ed7112a3832fa91fa62effb5ea5e7c8b70271d7ec208e12337bb9c9",
+          "f": "4342b7cc4cd84809a005bca1ff03f949766b8e30e3bc1991c116ca0c79c3c0af",
+          "n": "37984a4e114e7277028d03ace73059937e01b5d764be2e8bec9ba0c6e8ecdf77",
+          "c": "e2c90b3d3e7a3cfb3f46ecdd28d342c83bee0e472ca5e9d72336ade2ea406339"
+        },
+        "eye_1": {
+          "v": "0af551ab2ae42c62e9edb3bef66f4d30e5d25ab64834a78eb5d247c9acc4bf8a",
+          "f": "f65fe8e006e6599cfb178241889b76260f54f6c13b147e39e9fc059b8c388163",
+          "n": "ec64f3410d5bcbd595c104183c5c2569eef090c1cf976aaf9dca503dc947bcf7",
+          "c": "6255228e0d72d1f93ff1bed45db8ea29ab327c14720b0b5253c67ae2dce7238e"
+        }
+      },
+      "dachshund": {
+        "skin": {
+          "v": "022f699ccafad120dd4e6ef6cb973959ab4f6639dc146d39ef7d84b84ac00b33",
+          "f": "3a4fe7ef28f5cdd60b303a8d49a930c3299505a1837c797dd4ac23d56e2d062c",
+          "n": "6e74b3b83ae2980567c8f1c59df13a2e4c2acd9cbc7638be87f6303f82a77d41",
+          "c": "eb966002e13de95581faf20d4fd8e45f6c26adffa4a8616b2f381078bbb000a4"
+        },
+        "eye_-1": {
+          "v": "d91ea7d26d51f03747c029b21f845f5563093401be382606a3133a3e61abe7fa",
+          "f": "ca3dc7daa501c28f4cd04216a147f86e89faacb19df3d4e0a7688bf06d26c9d3",
+          "n": "ce5a63ee2e55639b18dd11fb9f4f227b58f63b7baa188157685c605a0c316883",
+          "c": "f014c6835d30092f9b9aa1ba75386b216d7185b7e78147ab265dff395cc22763"
+        },
+        "eye_1": {
+          "v": "23ce7965e08f233327fa7db8773816e8fd58fc2a217f4f57427a743a0adb22ec",
+          "f": "626e8023b7e5b606f668ccbf182e61a4baa5ffbc07a60586c0260eb944396a49",
+          "n": "b43355649857e37cbab628b3caa6878973c907ee987bce6b582c46a107aec261",
+          "c": "a8f3c0cfa11e006e6784fa61c4556c9707a37dc86c3ae4d7f74e609627d23133"
+        }
+      },
+      "maltipoo": {
+        "skin": {
+          "v": "b56bb3005b9497acd73b6edc32459a11bd5654ea402be5420d21f6e6f77fd8c9",
+          "f": "7e5046e2250873b4f6c74a36ca6f37685922dfd1fa4aff2ae662c1c42be0b05b",
+          "n": "0f9c0039cc7bef1de3b1d654d6c1f151fa4b62c2737e067c4caa3aa63e1291d3",
+          "c": "b6e101c18798e1934f778fac140b7eecd55a3edd23e8319d664940622d271e7b"
+        },
+        "eye_-1": {
+          "v": "6048716aeda458f8ff0b0c0751249128f6735f7cc93208389a7d57bae558e89f",
+          "f": "221263223707d9ec0eca5c640e282169012dcb321ae8ac40a62311d1bdb04426",
+          "n": "877a00475260b493f252e48e96f214ad27a34feda2a7373f26bf2cea20070fb8",
+          "c": "678a77995bd5ff47f3285d856861f28f7aca5a09e99fdfb12dcdace0ad68a895"
+        },
+        "eye_1": {
+          "v": "fb06fcd272b563036fd5bebda9d79f1ec24c612e45bb3f96d469b0dafcf14b8c",
+          "f": "917a455e4d0dada52089be38f1d3a0ad5a14ff39ea84c9be6511dfe80c8753e7",
+          "n": "d96e305f70e6e9bd026cc18794201bbcf25f42f47000152e1c7ae17be67926b9",
+          "c": "f837d0d7e4610d55505114d8f6c1191ade450923c23fc3bc13bdafe61402a03c"
+        }
+      }
+    },
+    "A": {
+      "golden": {
+        "skin": {
+          "v": "3129eadf7a5bf9d05adf73d2b60a2510f0f11a24b1b4b60e80ef38df3a0d9b1e",
+          "f": "d858b0a38a6e629f1d1317c863c4e63c9e31247da639f6c749f4097893985880",
+          "n": "ddb345909edcbb9bcd72c5d742685176236c372c3cd9a5e870ce0cc60659acd6",
+          "c": "c5bfcb4f9f81afdb0a80094208a0f2314163366eff56c51b12d13dbb706f6348"
+        },
+        "eye_-1": {
+          "v": "840408ecf10d5541b3b3ca64b5e774d56c8437cb51730bddc120bf7140fe5c1c",
+          "f": "0756a769ea572a6f4ef8de80131276e5507704d9947898b524b211442a634f18",
+          "n": "2a5b670d416de1d693afd9f035fc2a9bb30c702191111b4263e8c050d094f66c",
+          "c": "bef69ec7ab920c2cbd5289abb972b592c8cc7a813d739e60edad93510f94b778"
+        },
+        "eye_1": {
+          "v": "7f1c8f3b5e081661b9a328573bea89522dc815df26a88b5e0e8abb1de61c735a",
+          "f": "87919c74339d1885628739936d378dbf5db27664c52451d603e396a831d6b516",
+          "n": "c20b93d83dca8802e8ea33318c7c788b8be5077f6f80d7a6804e39dbeebed12c",
+          "c": "8b022410915606b5953e8dff91021a7a66e960444b0b7324dcc6cc1052eb4af9"
+        }
+      },
+      "whippet": {
+        "skin": {
+          "v": "ad24c2637456b4afab926a018454bad4297539eab2f9eee5c1c6efe8bec8f14c",
+          "f": "c2feee5862b3c1c2930a0de5955bf11267d6a6b1d97219e138c08b98546804a3",
+          "n": "44bb55c0b9a1d95b56f655caef5cc9439477bd362db22b5ca1fe8e9df84f731a",
+          "c": "b3e0b64f017ff5b9f25bb2f6b2137670016bd8979579729b504785bd98393cf8"
+        },
+        "eye_-1": {
+          "v": "be250bf2ed1652b2323f29c1b92387e71aeb22f0c9a00119f065b130139ce657",
+          "f": "a056e75ddcb5186f48d98ac71434385705cfc2efb21af5bfb813eb362f1d8b82",
+          "n": "5988642a1b3a2e1f28a02f1574982dbb906b54ba30b48f37d587064ad3e122f6",
+          "c": "632981fd0f40b7deabdd5853660bc4b2c5e04b0617a760c9796d1de8c9be3d53"
+        },
+        "eye_1": {
+          "v": "ceb13724fc1b5da6d44bada31cc46203bc341ef466c5a6757342c0a2d57cdc49",
+          "f": "3461ffaecc90fdf99cd6db816f25b0b844abf35007a95d71ddb3f05ef3e8a6e7",
+          "n": "d37771b5d33d0c2ccf89957aa9645c5e0e1445ea63eb78e2d5955ce592a83e98",
+          "c": "ae12e64fc3e9336c2b915364c4aea4afdec8eccbac03b4148a1d4c75972f28bf"
+        }
+      },
+      "dachshund": {
+        "skin": {
+          "v": "7428f8788c445fb447a4430e0768418748520d06d4f07f4dd2780a94d9cc6746",
+          "f": "dddebbd6d515c1076407b6368c802123a37d14a821d501f5c582c97994c637bb",
+          "n": "88bc360fc8d9a73ba633d3be2b2bdc477ae40b3d16048f17ad1bb99ed3203275",
+          "c": "64e81ca1ccfb10c6fdc45a7bd5bd808aa896a1fb84e3797547cda71e1f5f8178"
+        },
+        "eye_-1": {
+          "v": "dea3e2d1ab41431a7346da606483f39b3409d2a32d7eb146fca6b15e2088135a",
+          "f": "ccac5ab2c6d1a734368f4010a49aa3cb1ee5e3ba032f50b84e0b27d45b0da9eb",
+          "n": "7a2212e7b487e3724b78ecaade53d4917143aa79489d39f3ade5f07cecdf2bec",
+          "c": "2d400a9b5330095a80a417e7a5c7d5c94d27d675a00b64c659e3b359baf303df"
+        },
+        "eye_1": {
+          "v": "614bea0466d215a0ba9dc5b7111719b7195abc3c7c664f12d5a523d968683872",
+          "f": "9443dd3bdab459600b7c863522048949e49420b2aa946b6ccd532b0b75e18fe4",
+          "n": "1f11fa24b5a99854c35be3b5aee6f989a0c7de887b4bfaae99217414457f7163",
+          "c": "1c5d390958a6c453fc3c60a6d5e2f185831fd002ace55705deef384267a5c680"
+        }
+      },
+      "maltipoo": {
+        "skin": {
+          "v": "afd08e737f111f7ea665aafb40aa30b21162acfe3c7096a7fbfb18e977ad9e21",
+          "f": "7ce7423f9478e37355e606912464ca4da231ceb8dfb21c222be86c80096afc32",
+          "n": "0cdcde43f4ec1e83f25e8a61bcb0a64400744e8c58a482e0dabc6d0b378faa57",
+          "c": "3e44c24227b95a145f1ca4981dd04ad1ce5c72c94cd56a56a656ba33777a8e83"
+        },
+        "eye_-1": {
+          "v": "01890cfe241578c5f1fe63e43f85bfc44e2859ae5918caee484e5cb9e0b7fc17",
+          "f": "52ed6fe0d1f93c45b8ec10023c945b793a5f5cc20ea07442173691763e60a31a",
+          "n": "2ca0c46440b860afe204dc384553359cbf04bb186a60e4dc8f7d416099e5b8f1",
+          "c": "ffb972ce7945e7e227fbb73871d68006a3f37aa53e0a792ac437df821069b273"
+        },
+        "eye_1": {
+          "v": "96d1625413f2a0c01a9cf2570154adc635c40ec25549b6372bfe7a390ce8437b",
+          "f": "c46251f2a3db75e9307938e07598602da9b22195ca523bfb00c1626ef8207d74",
+          "n": "f1015a83a7aed7174303155b6ffb31b9ac3e31aba6fbd7e60dbb4fd37f386784",
+          "c": "53a795e16d8b61c2c9981d848ee755e29246d525224254e5cd54729dd1097bce"
+        }
+      }
+    },
+    "C": {
+      "golden": {
+        "skin": {
+          "v": "1436283f48ad7f23de80b6c4c9e0f364d07695a75dc48cd2b5206804708c88b1",
+          "f": "b0ade4a16cd74f5b2208b8af025eefba190dec98501e72d95899721a0c6176fa",
+          "n": "bc3cb4655dc1710f003eae223a628ad191d230265835839fc97d8ece8285967b",
+          "c": "423d1a846f9e841a0229f283ab977e29b6a830022f4a327634b03b8ec7b157fa"
+        },
+        "eye_-1": {
+          "v": "a58186f55ed6a07d64a55a8aa3a4c4e7c5884a6e6e8c87f22260ad0b708d1bf5",
+          "f": "34f5d3ed1e03cdb954e74c2b62c57e86c603b2f80e375009cfbdc12ea1985bc5",
+          "n": "8e8bc2686b2cbc01c0a5e6c9cb814a5db62be898e08c477a3e8ccb2859ce68f1",
+          "c": "d2b9bfbdf062d4603c274a20b0c47f4b09ea1af78e1cdc4143e70e35064ea954"
+        },
+        "eye_1": {
+          "v": "dfb32196d6f5cc4099d31c5f039d59e587f54f191823bdd89a57e06185028c3d",
+          "f": "0795fa804044abf043f63af7b8e63929a53f0b6330e85c6fe7112b6d5e5b2658",
+          "n": "2d86e6799f8eadcd01a9f0f71d3146fdf3486429399f1c89b6a9e4ae7f3032ff",
+          "c": "2781ed0182e7c1068d4493ba4a13ad0e4463bec20e546e25849ba4aeeaa66d0b"
+        }
+      },
+      "whippet": {
+        "skin": {
+          "v": "f9437213b177915450c824fffccdc3be9c17d831fe405c8535717dc3feaee7b5",
+          "f": "e15cc847e5cda6a4e9e766b03011c244daa84fec30bc01060667bde70b8c7578",
+          "n": "8de3bf8338f338cdc8d67b6ae28550bcf039a49e2b9556da92625e2c2f44865a",
+          "c": "b35f2c5fa8efe55b9c6cf5f79eb6aa2b6af55d4aca5f46c56c0a42c82c5939a1"
+        },
+        "eye_-1": {
+          "v": "0b37bf64a61948265f2806cea77853a4faf1902de3caee00200fca53c66eda76",
+          "f": "2438f007569e3ce93a77a03aa13bac4e41bb08c01fd746bad997d96c8112b905",
+          "n": "692ee8600ad26b7a611599cfb648e82ec16f3ddf4c1300445d3dc9e64539858e",
+          "c": "b4c0e2d6d15f9e8d3d0a5e6825af0cd93d65fb8852df26ac5dfcaba87b70dbf3"
+        },
+        "eye_1": {
+          "v": "55d105832e3ee2f7241ba1c887f62d575e7d9a8fc333e11ee05f658e1b0c668a",
+          "f": "21180316904e29ba957ed7bf43e7fb0b5164620b14e541f2479127486ddcfacd",
+          "n": "46aa5c60ca51b1e8689c7066fbf3a375a443cbe2db707998784cdb200978dd84",
+          "c": "072829002d6f99a527e504f2f0e2a7dd3285c9c3689df46550350b1f6baf8f65"
+        }
+      },
+      "dachshund": {
+        "skin": {
+          "v": "723f6d03e0bd872b4b291a9d85d2cb940eb46d7deb60595e431ab3a72ff828b1",
+          "f": "7a78d7009f7f2f52c330935de96a98998487a11b261875b2de9a223a9d825d17",
+          "n": "1017a30a877b112e5b62c6ec1e8102fa2ec405c82f54adfaf91a3e11ec6e9b85",
+          "c": "eadc69f1429961e161dd303bb85523140f569fac46a1b50f2dfabc84e19e9e8e"
+        },
+        "eye_-1": {
+          "v": "6e51d1cb625fa70e8c723cdeaad2048d14aeda66e3269bb34a0470424d347406",
+          "f": "525e04a0d244d4fc6e84d1abebe8388d78d7fdbff1cc961fc1fb563820aeaeaf",
+          "n": "f119359d52d069a908613a926e5348c18932757a30086c31bfea924d30d9a133",
+          "c": "315f97f5324047286328a3bc6e008ca36d2a235741862cfa263dd3a69d837206"
+        },
+        "eye_1": {
+          "v": "0314dda23dd1fc7bf63bfd4808a44e19cb3c1507fe41cfbbd1300a159d1c6551",
+          "f": "262e77457874518eec0b98b94f5266b2b24379cb03f8e09db86ac70d7ee091ba",
+          "n": "16ec3e64e2138ce9a4de5c91dc4bf7321069956acbe129af4418b4cae8bffb81",
+          "c": "c6782f621a2edfad957187f3ed15827eab01bd4127d5ee8a1c20ed7286477c36"
+        }
+      },
+      "maltipoo": {
+        "skin": {
+          "v": "bdb459337958a3b9a0cffd39560380b21c9c460737b2f5d50919baa1197bfeac",
+          "f": "f71f74276582345e1bac18c3d93fcf36009d5c539e68e095ab5e1326600ac308",
+          "n": "8dc0e2d80ba2bef21572aa7ef8707d34884448430301ea7fbd61f050720ff036",
+          "c": "cc162689a29bb022e831d4ebf90d0ccd1b9fdeb376cfea87d4fa6da8f1c445d5"
+        },
+        "eye_-1": {
+          "v": "37820e5aafce7c35d652b1e4e92e00bcb22c7a43b614cc18596716fbf9ee484a",
+          "f": "9c9da299aef58e96a96bf8f6d416fb93a75fe8011d8c4ef516a2bf610b5f0cbe",
+          "n": "d366e0137c89432f8e4a8475c475c4bc65643e19d17c299dcd3b081bfed39e00",
+          "c": "912df3c736fcd84cf4751b4c564724a7e97f0c31c51bae189848160777c2ae25"
+        },
+        "eye_1": {
+          "v": "aa3c1bb9620472f18101063819f651549790a5de0fc764f549969a447b6123d6",
+          "f": "d49cedd20caf35189834ccd4f64845cda0ca111636e13d0203a321163a1f7cc1",
+          "n": "ad64f6d11781695570d18d80cb7568505cb184318e569571350d01bac302d598",
+          "c": "4d785404bdb076a0c95199c7fb601abeb562da4179c790d7d9554135b60b065b"
+        }
+      }
+    }
+  }
+}

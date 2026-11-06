@@ -1,0 +1,101 @@
+{
+  "images": {
+    "heads-A.png": {
+      "bytes_equal": true,
+      "sha256": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+      "candidate_sha256": "c2889fd909531aa8bc7cd6e298da68a0a1bcbfe038ea7226ea30a71b81947cc5",
+      "size": [
+        2400,
+        1500
+      ]
+    },
+    "heads-B.png": {
+      "bytes_equal": true,
+      "sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+      "candidate_sha256": "1858a944170e4bfa0ea6ab5662ac0287ea431b7a46e90f0dca15789490396440",
+      "size": [
+        2400,
+        1500
+      ]
+    },
+    "heads-C.png": {
+      "bytes_equal": true,
+      "sha256": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0",
+      "candidate_sha256": "d274f7c115dd7321267f1970fcb678a0a1f55c33b9542c0783dedc77bfdde9f0",
+      "size": [
+        2400,
+        1500
+      ]
+    }
+  },
+  "geometry": {
+    "A": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    },
+    "B": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    },
+    "C": {
+      "golden": true,
+      "whippet": true,
+      "dachshund": true,
+      "maltipoo": true
+    }
+  },
+  "source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "parameters_exact": true,
+  "prior_B_exact": null,
+  "inputs": {
+    "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+    "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+    "../deformation-b-face-v2/golden-reference.png": "2be4a6076f6730adbbab58d68536181bf15b528898084adae17b5f49f1b032ef",
+    "../deformation-b-round-eyes-v1/round-eyes-before-after.png": "fc7f9a5626f54bc1e9e9165bc1f6187addaace903e7a8fdb7588c6adbd8fbd9c",
+    "../head-skeleton-v1/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.1.nbc": "df33acdfd671eb8eb6e6e3a3cfa5eec9a7a9e3e900720868449e60ed3d13a33a",
+    "../head-skeleton-volume-v2/__pycache__/raster.raster-6.py312.nbi": "963438c86a99e955db7538d04dc04a537669ab2ee828a4a99f3a406b92dd44a9",
+    "../head-skeleton-volume-v2/build.py": "734b85527c58a0cf9bf598867dfabbd9bddf2dd91f50b8fef9ec9fbc6733419e",
+    "../head-skeleton-volume-v2/geometry.pkl": "eaec7d20d5ea8abbb8a14e728d6120f4f119e2d3ee238d4af5b3836f06e4d154",
+    "../head-skeleton-volume-v2/profiles.json": "aab232a82947fe4a81c6785e3c4e54ad458dca82c82a99e1aa9431ce8e29e323",
+    "../head-skeleton-volume-v2/raster.py": "f2747b235362f49c94d8a7121784d5d597464723649bd1a4b951396dbb289f15",
+    "../head-skeleton-volume-v2/references.json": "ae6dd24467d04a9666b1def48ff3f7cdcbdeb9708011a08940629c6b26a93c3d",
+    "build.py": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+    "geometry.pkl": "f332953619225f439f62ba955f7d01ca9c73ac24c374f1ae06f7069e6b637b89",
+    "parameters.json": "8391d478b00d22d84da5b85a68d041d3416627f3eff1d5f2a63ce712ad5890ca",
+    "references.json": "00dac371c404cccf967e8c931f356746bfe740754257016df5bc2888ade14cdd",
+    "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+    "../../private-data/skull-anatomy-v2/dorsal.jpg": "f7c059883e2ca7a9ba17f48385f62485e3c2c40b4189dbfff13052b417167a10",
+    "../../private-data/skull-anatomy-v2/lateral.jpg": "df1c09fa01836ce5fc28b5c51ca7ccf1333f9a3ce129d448af866709288e9cfd",
+    "../../private-data/skull-anatomy-v2/rostral.jpg": "8d8d140502b12b2fb37cbb19b2620ee9ef03bd504a961a333417d39204192ccb",
+    "../../../../../../../Windows/Fonts/malgun.ttf": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+    "../../../../../../../Windows/Fonts/malgunbd.ttf": "e8cbc0b2afcc14fb45dfb6086d5102c0b23a96e7b6e708f3122acde1b86c9082",
+    "../head-skeleton-volume-v2/review-status.json": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e"
+  },
+  "guarded_inputs_unchanged": true,
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.2.0",
+    "numba": "0.68.0"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "all_exact": true,
+  "prior_B_comparison_note": "Old cache absent; see review-final-auxiliary.json for separate unchanged-source/PNG/metadata/topology reuse evidence. This does not affect the exact current independent rebuild comparison.",
+  "source_status_gate": {
+    "path": "../head-skeleton-volume-v2/review-status.json",
+    "sha256": "5c9d76e0d6c23f260daf3fa4f327d9cbc2b8b4c8204567a19bcf7754a0ff7e1e",
+    "delivery_at_end": "READY",
+    "start_load_inputs_READY_guard_passed": true,
+    "last_write_utc": "2026-11-05T23:22:27.466376+00:00",
+    "first_reproduction_progress_utc": "2026-11-06T00:23:08.339885+00:00",
+    "last_write_predates_reproduction_progress_creation": true,
+    "start_full_status_hash_captured": false,
+    "note": "READY is checked by the real load_inputs at run start and reread at end. Full byte hash is recorded at end; no start byte hash was captured. Status gates eligibility but does not parameterize geometry."
+  }
+}

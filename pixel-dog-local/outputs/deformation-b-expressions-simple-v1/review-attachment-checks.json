@@ -1,0 +1,177 @@
+{
+  "other_breeds": {
+    "golden": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    },
+    "dachshund": {
+      "neutral": true,
+      "half": true,
+      "closed": true,
+      "open": true,
+      "tongue": true,
+      "lick": true
+    }
+  },
+  "whippet_states": {
+    "neutral": {
+      "ears_exact": true,
+      "protected_vertex_error": 3.9740978075067434e-11,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": true
+    },
+    "half": {
+      "ears_exact": true,
+      "protected_vertex_error": 3.9740978075067434e-11,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": true
+    },
+    "closed": {
+      "ears_exact": true,
+      "protected_vertex_error": 3.9740978075067434e-11,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": true
+    },
+    "open": {
+      "ears_exact": true,
+      "protected_vertex_error": 0.0,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": null
+    },
+    "tongue": {
+      "ears_exact": true,
+      "protected_vertex_error": 0.0,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": null
+    },
+    "lick": {
+      "ears_exact": true,
+      "protected_vertex_error": 0.0,
+      "protected_material_note": "closed state colors are exact; open palate may change outside protected exterior",
+      "closed_material_exact": null
+    }
+  },
+  "source_pivot": [
+    -3.91368721,
+    -1.424465650000002,
+    0.0
+  ],
+  "runtime_pivot": [
+    -3.91368721,
+    5.364588049999997,
+    0.0
+  ],
+  "hinge_endpoint_error": 0.0,
+  "ramus_after_hinge_max_x": 0.0,
+  "skull_floor": {
+    "-12": {
+      "old": -3.262705269909289,
+      "new_open_upper": -0.18483216615669512,
+      "new_closed": -1.1392050692941966
+    },
+    "-10": {
+      "old": -2.954751059839997,
+      "new_open_upper": 0.007539605203892123,
+      "new_closed": 0.007539605203892123
+    },
+    "-8": {
+      "old": -2.4134792812847445,
+      "new_open_upper": 0.9129630876420738,
+      "new_closed": 0.9129630876420738
+    },
+    "-6": {
+      "old": -2.072351475780297,
+      "new_open_upper": 2.5750905971772706,
+      "new_closed": 2.5750905971772706
+    },
+    "-4": {
+      "old": -2.3547018591518682,
+      "new_open_upper": 4.126909979041246,
+      "new_closed": 4.126909979041246
+    },
+    "0": {
+      "old": -1.7432462614107314,
+      "new_open_upper": 4.849765680520687,
+      "new_closed": 4.849765680520687
+    },
+    "3": {
+      "old": -0.008295359424867144,
+      "new_open_upper": 6.339382705629333,
+      "new_closed": 6.339382705629333
+    }
+  },
+  "rigid": [
+    {
+      "angle": 2.32,
+      "inverse_error": 7.105427357601002e-15,
+      "axis_motion": 0.0,
+      "rest_exact": true,
+      "upper_exact": true
+    },
+    {
+      "angle": 3.48,
+      "inverse_error": 7.105427357601002e-15,
+      "axis_motion": 0.0,
+      "rest_exact": true,
+      "upper_exact": true
+    },
+    {
+      "angle": 4.64,
+      "inverse_error": 7.105427357601002e-15,
+      "axis_motion": 0.0,
+      "rest_exact": true,
+      "upper_exact": true
+    }
+  ],
+  "tongue": [
+    {
+      "lick": false,
+      "floor_clearance": -2.220446049250313e-16,
+      "roof_clearance": 0.38327673710369464,
+      "side_clearance": 0.6224113910499038,
+      "lip_contact_error": 0.0,
+      "nose_contact_error": null
+    },
+    {
+      "lick": true,
+      "floor_clearance": -2.220446049250313e-16,
+      "roof_clearance": 0.2564499314455056,
+      "side_clearance": 0.7724113910499073,
+      "lip_contact_error": 0.0,
+      "nose_contact_error": 0.0
+    }
+  ],
+  "renders": {
+    "expressions.png": true,
+    "expressions-side.png": true,
+    "mouth-options.png": true,
+    "whippet-attachment-before-after.png": true
+  },
+  "hash_checks": {
+    "deformation-b-expressions-simple-v1\\preview.py": true,
+    "deformation-b-round-eyes-v1\\preview.py": true,
+    "deformation-b-heads-v1\\preview.py": true,
+    "deformation-b-face-v3\\preview.py": true,
+    "deformation-b-face-v3\\B.json": true,
+    "deformation-b-face-v3\\profiles.json": true,
+    "deformation-rig-b-v1\\B.json": true,
+    "expressions.png": true,
+    "expressions-side.png": true,
+    "mouth-options.png": true,
+    "whippet_attachment_comparison.py": true,
+    "preview-before-jaw-attachment.py": true,
+    "preview.py": true,
+    "whippet-attachment-before-after.png": true
+  },
+  "final_hashes": {
+    "preview.py": "bf8644368beaaea677bd82cb5760520951064373c59bdfdc58b1637ce0cabbe6",
+    "expressions.png": "49270e383a1f9b3f1f6ed62f2a7f2f0adddabe29ea487e1812fad0cc82eb23d2",
+    "expressions-side.png": "b77885d47813b777cee865eeaebd060b468003fa9260668368765e58a250ee26",
+    "mouth-options.png": "41a2fef13fc96113d5d951ea9e5f52b5a802baf09efe86f7442d8f179e3d833b",
+    "whippet-attachment-before-after.png": "da836aca4202819bd8a6a7c359fe100bb38a4256981cd8f3ffb4ba68cbd58aef"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "source_sha256": "955bab390a2f0a9aae8d8ec8181aabaa520f891a534e157014e4b3a3b4e1b1c7",
+  "breeds": {
+    "golden": {
+      "nonmonotone_locations": {
+        "min_new_core": 1.4967273951605384,
+        "max_new_core": 2.1587691398309103,
+        "inside_count": 0,
+        "within_one_voxel": 0,
+        "nearest_surface_point": [
+          -76.07,
+          12.5,
+          10.5
+        ]
+      },
+      "boundary_on_actual_surface": {
+        "samples": 81,
+        "max_warp_first_derivative_jump": 1.4867071347168803,
+        "point": [
+          -49.118543934673056,
+          16.0,
+          9.0
+        ],
+        "core_at_point": -3.729416953035525e-08
+      }
+    },
+    "whippet": {
+      "nonmonotone_locations": {
+        "min_new_core": 1.6921681178876675,
+        "max_new_core": 2.111446139838895,
+        "inside_count": 0,
+        "within_one_voxel": 0,
+        "nearest_surface_point": [
+          -91.95,
+          7.25,
+          8.25
+        ]
+      },
+      "boundary_on_actual_surface": {
+        "samples": 69,
+        "max_warp_first_derivative_jump": 1.3328123377647216,
+        "point": [
+          -66.89475522711874,
+          16.0,
+          0.0
+        ],
+        "core_at_point": 1.006776528811315e-08
+      }
+    },
+    "dachshund": {
+      "boundary_on_actual_surface": {
+        "samples": 81,
+        "max_warp_first_derivative_jump": 0.39411439531278347,
+        "point": [
+          -51.52819467559458,
+          16.0,
+          -9.0
+        ],
+        "core_at_point": 2.271232801831502e-08
+      }
+    },
+    "maltipoo": {
+      "boundary_on_actual_surface": {
+        "samples": 81,
+        "max_warp_first_derivative_jump": 1.9159132302277726,
+        "point": [
+          -43.15286164544523,
+          16.0,
+          6.0
+        ],
+        "core_at_point": -1.2446307096070086e-08
+      }
+    }
+  },
+  "source_stable": true
+}

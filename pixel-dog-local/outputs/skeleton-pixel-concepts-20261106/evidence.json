@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "B2-soft.png": "e15a82616528b4f05c51acc369ae4cbc25f6ffc781f1b1e11b1aea3f7fb1a3d6",
+    "C2-clear.png": "15dfdea480fa204f7119984c434ad3ebc2d27218869209ca93c6ef73f12a739c"
+  },
+  "inputs": {
+    "../skull-based-heads-v2/heads-B.png": "467704b1e8b204840dfc37c0b44a099c6e0ead38e5e7dd6ec545fdeefd8e589f",
+    "../../references/styles/b2-c2/v1/reference-sheet.png": "654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744",
+    "../../private-data/breed-standing-pair-v1/dachshund-source.png": "15b7e9545051ffc8970059748f9fd8d51e7ab6d9d683b95aa22638429f026cfc",
+    "../../../.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg": "9c439bdd4b2811a2a9f0eb578dda06909ec080a544e33071bd950b26504c3fb2",
+    "../../../.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg": "4ed0aa846afd7badf120f34fc2cc7bdd7e1ed6158a7c70c72ade8c7cf593afc7",
+    "prompts.json": "ff05b756d20594edba2673e95af8c6cd2bb54aa8eed6621e8d5ecdebe4973a61",
+    "../skull-based-heads-v2/references.json": "96874f0d9b3598bc36ad7223653af7ee001f0ec20044baaf33cf829a5e6c130c",
+    "../skull-based-heads-v2/parameters.json": "5d534c3ab7008f55d7a2f1523b5ee921ed75f724109d12a6f0fb5e8873139230"
+  }
+}

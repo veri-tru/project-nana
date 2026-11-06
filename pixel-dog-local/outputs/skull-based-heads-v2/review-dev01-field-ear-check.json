@@ -1,0 +1,554 @@
+{
+  "development_field_only": true,
+  "variant": "B",
+  "source_sha256": "a9d012596235a1b68cc929ab36909ca9074c866d78900a4138558a777a35069f",
+  "prior_source_sha256": "84ff23798e2d487de2dddaa2302f15eebd292affb4dec0c9ab3690b2df410b2d",
+  "coordinate_convention": "negative X is anterior; positive X is posterior; negative Y is inferior",
+  "breeds": {
+    "golden": {
+      "bones": {
+        "upper": {
+          "samples": 90282,
+          "max_field": -0.5162581556746595,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -29.919998168945312,
+            8.850000381469727,
+            -28.138471603393555
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 1.3785114324202878
+        },
+        "jaw": {
+          "samples": 31802,
+          "max_field": -0.7462463189014201,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -42.91999816894531,
+            -6.046934127807617,
+            12.29999828338623
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 0.9070888320908163
+        }
+      },
+      "ears": {
+        "0": {
+          "roots_exact": true,
+          "root_before": [
+            -14.0,
+            25.0,
+            -19.95
+          ],
+          "root_after": [
+            -14.0,
+            25.0,
+            -19.95
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -6.0,
+              -2.0,
+              0.0
+            ],
+            [
+              -15.0,
+              0.0,
+              0.0
+            ],
+            [
+              -15.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            10.0,
+            -33.0,
+            -5.670000000000002
+          ],
+          "after_tip_minus_root": [
+            -5.0,
+            -33.0,
+            -5.670000000000002
+          ],
+          "before_body_mean_posterior_offset": 8.333333333333334,
+          "after_body_mean_posterior_offset": -3.6666666666666665
+        },
+        "1": {
+          "roots_exact": true,
+          "root_before": [
+            -14.0,
+            25.0,
+            19.95
+          ],
+          "root_after": [
+            -14.0,
+            25.0,
+            19.95
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -6.0,
+              -2.0,
+              0.0
+            ],
+            [
+              -15.0,
+              0.0,
+              0.0
+            ],
+            [
+              -15.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            10.0,
+            -33.0,
+            5.670000000000002
+          ],
+          "after_tip_minus_root": [
+            -5.0,
+            -33.0,
+            5.670000000000002
+          ],
+          "before_body_mean_posterior_offset": 8.333333333333334,
+          "after_body_mean_posterior_offset": -3.6666666666666665
+        }
+      }
+    },
+    "whippet": {
+      "bones": {
+        "upper": {
+          "samples": 73128,
+          "max_field": -0.9364999188742197,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -13.29999828338623,
+            11.450000762939453,
+            20.007274627685547
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 1.3757828422205558
+        },
+        "jaw": {
+          "samples": 29996,
+          "max_field": -0.5878773089615166,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -19.14999771118164,
+            -6.795608043670654,
+            13.150001525878906
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 0.8744359365709881
+        }
+      },
+      "ears": {
+        "0": {
+          "roots_exact": true,
+          "root_before": [
+            -15.0,
+            22.0,
+            -14.25
+          ],
+          "root_after": [
+            -15.0,
+            22.0,
+            -14.25
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -5.0,
+              -4.0,
+              0.0
+            ],
+            [
+              -14.0,
+              -4.0,
+              0.0
+            ],
+            [
+              -19.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            24.0,
+            -13.0,
+            -4.5
+          ],
+          "after_tip_minus_root": [
+            5.0,
+            -14.0,
+            -4.5
+          ],
+          "before_body_mean_posterior_offset": 17.333333333333332,
+          "after_body_mean_posterior_offset": 4.666666666666667
+        },
+        "1": {
+          "roots_exact": true,
+          "root_before": [
+            -15.0,
+            22.0,
+            14.25
+          ],
+          "root_after": [
+            -15.0,
+            22.0,
+            14.25
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -5.0,
+              -4.0,
+              0.0
+            ],
+            [
+              -14.0,
+              -4.0,
+              0.0
+            ],
+            [
+              -19.0,
+              -1.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            24.0,
+            -13.0,
+            4.5
+          ],
+          "after_tip_minus_root": [
+            5.0,
+            -14.0,
+            4.5
+          ],
+          "before_body_mean_posterior_offset": 17.333333333333332,
+          "after_body_mean_posterior_offset": 4.666666666666667
+        }
+      }
+    },
+    "dachshund": {
+      "bones": {
+        "upper": {
+          "samples": 86922,
+          "max_field": -1.0201354095522164,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -14.050000190734863,
+            11.450000762939453,
+            23.59088706970215
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 1.695280557116748
+        },
+        "jaw": {
+          "samples": 30974,
+          "max_field": -0.5906942685901697,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -44.599998474121094,
+            -5.661087512969971,
+            9.80000114440918
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 0.7764938790264307
+        }
+      },
+      "ears": {
+        "0": {
+          "roots_exact": true,
+          "root_before": [
+            -13.0,
+            25.0,
+            -18.0
+          ],
+          "root_after": [
+            -13.0,
+            25.0,
+            -18.0
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -8.0,
+              0.0,
+              0.0
+            ],
+            [
+              -14.0,
+              0.0,
+              0.0
+            ],
+            [
+              -13.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            3.0,
+            -45.0,
+            -6.300000000000001
+          ],
+          "after_tip_minus_root": [
+            -10.0,
+            -45.0,
+            -6.300000000000001
+          ],
+          "before_body_mean_posterior_offset": 4.666666666666667,
+          "after_body_mean_posterior_offset": -7.0
+        },
+        "1": {
+          "roots_exact": true,
+          "root_before": [
+            -13.0,
+            25.0,
+            18.0
+          ],
+          "root_after": [
+            -13.0,
+            25.0,
+            18.0
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -8.0,
+              0.0,
+              0.0
+            ],
+            [
+              -14.0,
+              0.0,
+              0.0
+            ],
+            [
+              -13.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            3.0,
+            -45.0,
+            6.300000000000001
+          ],
+          "after_tip_minus_root": [
+            -10.0,
+            -45.0,
+            6.300000000000001
+          ],
+          "before_body_mean_posterior_offset": 4.666666666666667,
+          "after_body_mean_posterior_offset": -7.0
+        }
+      }
+    },
+    "maltipoo": {
+      "bones": {
+        "upper": {
+          "samples": 80834,
+          "max_field": -1.2189178466796875,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -59.88905334472656,
+            3.6499996185302734,
+            -0.05000000074505806
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 2.4134099958445963
+        },
+        "jaw": {
+          "samples": 27224,
+          "max_field": -1.0283466449710836,
+          "outside_gt_0": 0,
+          "outside_gt_01": 0,
+          "worst_point": [
+            -38.400001525878906,
+            -5.730159282684326,
+            -11.09999942779541
+          ],
+          "outside_bbox": null,
+          "clearance_p01": 1.268402854915298
+        }
+      },
+      "ears": {
+        "0": {
+          "roots_exact": true,
+          "root_before": [
+            -10.0,
+            26.0,
+            -23.939999999999998
+          ],
+          "root_after": [
+            -10.0,
+            26.0,
+            -23.939999999999998
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -7.0,
+              0.0,
+              0.0
+            ],
+            [
+              -10.0,
+              0.0,
+              0.0
+            ],
+            [
+              -10.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            3.0,
+            -31.0,
+            -1.0500000000000007
+          ],
+          "after_tip_minus_root": [
+            -7.0,
+            -31.0,
+            -1.0500000000000007
+          ],
+          "before_body_mean_posterior_offset": 4.666666666666667,
+          "after_body_mean_posterior_offset": -4.333333333333333
+        },
+        "1": {
+          "roots_exact": true,
+          "root_before": [
+            -10.0,
+            26.0,
+            23.939999999999998
+          ],
+          "root_after": [
+            -10.0,
+            26.0,
+            23.939999999999998
+          ],
+          "root_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "all_control_deltas": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              -7.0,
+              0.0,
+              0.0
+            ],
+            [
+              -10.0,
+              0.0,
+              0.0
+            ],
+            [
+              -10.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "before_tip_minus_root": [
+            3.0,
+            -31.0,
+            1.0500000000000007
+          ],
+          "after_tip_minus_root": [
+            -7.0,
+            -31.0,
+            1.0500000000000007
+          ],
+          "before_body_mean_posterior_offset": 4.666666666666667,
+          "after_body_mean_posterior_offset": -4.333333333333333
+        }
+      }
+    }
+  },
+  "source_stable": true
+}

@@ -1,0 +1,1202 @@
+{
+  "golden": {
+    "nodes": {
+      "cranium": {
+        "parent": "body.head",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "crown": {
+        "parent": "cranium",
+        "point": [
+          -16.0,
+          34.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "forehead": {
+        "parent": "cranium",
+        "point": [
+          -34.0,
+          28.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "stop": {
+        "parent": "cranium",
+        "point": [
+          -46.0,
+          17.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_bridge": {
+        "parent": "cranium",
+        "point": [
+          -57.78,
+          15.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_base": {
+        "parent": "cranium",
+        "point": [
+          -68.32,
+          12.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "nose_tip": {
+        "parent": "cranium",
+        "point": [
+          -76.32,
+          10.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "occiput": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          13.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "skull_rear": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          25.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_back": {
+        "parent": "cranium",
+        "point": [
+          -37.0,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_front": {
+        "parent": "cranium",
+        "point": [
+          -66.32,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "nasal_floor": {
+        "parent": "cranium",
+        "point": [
+          -75.32,
+          7.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "jaw_axis": {
+        "parent": "cranium",
+        "point": [
+          -16.0,
+          10.0,
+          0.0
+        ],
+        "kind": "revolute_axis_center"
+      },
+      "mandible": {
+        "parent": "jaw_axis",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "chin": {
+        "parent": "mandible",
+        "point": [
+          -67.32,
+          -2.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "L_tmj": {
+        "parent": "cranium",
+        "point": [
+          -16.0,
+          10.0,
+          16.8
+        ],
+        "kind": "joint_center"
+      },
+      "L_orbit": {
+        "parent": "cranium",
+        "point": [
+          -32.0,
+          19.0,
+          17.0
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "L_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          18.900000000000002
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "L_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          21.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "L_ramus": {
+        "parent": "mandible",
+        "point": [
+          -21.0,
+          0.0,
+          15.75
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -42.0,
+          -4.0,
+          12.75
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -65.32,
+          -2.0,
+          5.949999999999999
+        ],
+        "kind": "structural_guide"
+      },
+      "R_tmj": {
+        "parent": "cranium",
+        "point": [
+          -16.0,
+          10.0,
+          -16.8
+        ],
+        "kind": "joint_center"
+      },
+      "R_orbit": {
+        "parent": "cranium",
+        "point": [
+          -32.0,
+          19.0,
+          -17.0
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "R_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          -18.900000000000002
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "R_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          -21.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "R_ramus": {
+        "parent": "mandible",
+        "point": [
+          -21.0,
+          0.0,
+          -15.75
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -42.0,
+          -4.0,
+          -12.75
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -65.32,
+          -2.0,
+          -5.949999999999999
+        ],
+        "kind": "structural_guide"
+      },
+      "C1": {
+        "parent": "body.head",
+        "point": [
+          5.0,
+          4.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      },
+      "C2": {
+        "parent": "body.head",
+        "point": [
+          12.0,
+          -11.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      }
+    },
+    "dorsal_guide": [
+      "crown",
+      "forehead",
+      "stop",
+      "nasal_bridge",
+      "nasal_base",
+      "nose_tip"
+    ],
+    "widths": [
+      21,
+      20,
+      15,
+      12,
+      8.5
+    ],
+    "coordinate_note": "x caudal, y dorsal, z animal left; points in shared head-local rest space; parent declares motion ownership",
+    "scope": "authored 3D control scaffold, not measured bones or finished skin"
+  },
+  "whippet": {
+    "nodes": {
+      "cranium": {
+        "parent": "body.head",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "crown": {
+        "parent": "cranium",
+        "point": [
+          -15.0,
+          27.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "forehead": {
+        "parent": "cranium",
+        "point": [
+          -31.0,
+          25.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "stop": {
+        "parent": "cranium",
+        "point": [
+          -44.0,
+          19.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_bridge": {
+        "parent": "cranium",
+        "point": [
+          -63.43,
+          15.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_base": {
+        "parent": "cranium",
+        "point": [
+          -84.2,
+          11.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "nose_tip": {
+        "parent": "cranium",
+        "point": [
+          -92.2,
+          9.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "occiput": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          13.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "skull_rear": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          20.25,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_back": {
+        "parent": "cranium",
+        "point": [
+          -35.0,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_front": {
+        "parent": "cranium",
+        "point": [
+          -82.2,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "nasal_floor": {
+        "parent": "cranium",
+        "point": [
+          -91.2,
+          7.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "jaw_axis": {
+        "parent": "cranium",
+        "point": [
+          -14.0,
+          10.0,
+          0.0
+        ],
+        "kind": "revolute_axis_center"
+      },
+      "mandible": {
+        "parent": "jaw_axis",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "chin": {
+        "parent": "mandible",
+        "point": [
+          -83.2,
+          -2.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "L_tmj": {
+        "parent": "cranium",
+        "point": [
+          -14.0,
+          10.0,
+          12.0
+        ],
+        "kind": "joint_center"
+      },
+      "L_orbit": {
+        "parent": "cranium",
+        "point": [
+          -29.0,
+          19.0,
+          11.9
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "L_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          13.5
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "L_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          15.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "L_ramus": {
+        "parent": "mandible",
+        "point": [
+          -19.0,
+          0.0,
+          11.25
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -40.0,
+          -4.0,
+          8.5
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -81.2,
+          -2.0,
+          3.36
+        ],
+        "kind": "structural_guide"
+      },
+      "R_tmj": {
+        "parent": "cranium",
+        "point": [
+          -14.0,
+          10.0,
+          -12.0
+        ],
+        "kind": "joint_center"
+      },
+      "R_orbit": {
+        "parent": "cranium",
+        "point": [
+          -29.0,
+          19.0,
+          -11.9
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "R_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          -13.5
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "R_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          -15.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "R_ramus": {
+        "parent": "mandible",
+        "point": [
+          -19.0,
+          0.0,
+          -11.25
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -40.0,
+          -4.0,
+          -8.5
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -81.2,
+          -2.0,
+          -3.36
+        ],
+        "kind": "structural_guide"
+      },
+      "C1": {
+        "parent": "body.head",
+        "point": [
+          5.0,
+          4.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      },
+      "C2": {
+        "parent": "body.head",
+        "point": [
+          12.0,
+          -11.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      }
+    },
+    "dorsal_guide": [
+      "crown",
+      "forehead",
+      "stop",
+      "nasal_bridge",
+      "nasal_base",
+      "nose_tip"
+    ],
+    "widths": [
+      15,
+      14,
+      10,
+      6.5,
+      4.8
+    ],
+    "coordinate_note": "x caudal, y dorsal, z animal left; points in shared head-local rest space; parent declares motion ownership",
+    "scope": "authored 3D control scaffold, not measured bones or finished skin"
+  },
+  "dachshund": {
+    "nodes": {
+      "cranium": {
+        "parent": "body.head",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "crown": {
+        "parent": "cranium",
+        "point": [
+          -16.0,
+          31.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "forehead": {
+        "parent": "cranium",
+        "point": [
+          -31.0,
+          28.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "stop": {
+        "parent": "cranium",
+        "point": [
+          -44.0,
+          22.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_bridge": {
+        "parent": "cranium",
+        "point": [
+          -60.9,
+          17.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_base": {
+        "parent": "cranium",
+        "point": [
+          -77.8,
+          12.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "nose_tip": {
+        "parent": "cranium",
+        "point": [
+          -85.8,
+          10.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "occiput": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          13.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "skull_rear": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          23.25,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_back": {
+        "parent": "cranium",
+        "point": [
+          -35.0,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_front": {
+        "parent": "cranium",
+        "point": [
+          -75.8,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "nasal_floor": {
+        "parent": "cranium",
+        "point": [
+          -84.8,
+          7.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "jaw_axis": {
+        "parent": "cranium",
+        "point": [
+          -15.0,
+          10.0,
+          0.0
+        ],
+        "kind": "revolute_axis_center"
+      },
+      "mandible": {
+        "parent": "jaw_axis",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "chin": {
+        "parent": "mandible",
+        "point": [
+          -76.8,
+          -2.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "L_tmj": {
+        "parent": "cranium",
+        "point": [
+          -15.0,
+          10.0,
+          14.4
+        ],
+        "kind": "joint_center"
+      },
+      "L_orbit": {
+        "parent": "cranium",
+        "point": [
+          -29.0,
+          19.0,
+          14.45
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "L_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          16.2
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "L_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          18.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "L_ramus": {
+        "parent": "mandible",
+        "point": [
+          -20.0,
+          0.0,
+          13.5
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -40.0,
+          -4.0,
+          10.625
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -74.8,
+          -2.0,
+          4.55
+        ],
+        "kind": "structural_guide"
+      },
+      "R_tmj": {
+        "parent": "cranium",
+        "point": [
+          -15.0,
+          10.0,
+          -14.4
+        ],
+        "kind": "joint_center"
+      },
+      "R_orbit": {
+        "parent": "cranium",
+        "point": [
+          -29.0,
+          19.0,
+          -14.45
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "R_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          -16.2
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "R_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          -18.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "R_ramus": {
+        "parent": "mandible",
+        "point": [
+          -20.0,
+          0.0,
+          -13.5
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -40.0,
+          -4.0,
+          -10.625
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -74.8,
+          -2.0,
+          -4.55
+        ],
+        "kind": "structural_guide"
+      },
+      "C1": {
+        "parent": "body.head",
+        "point": [
+          5.0,
+          4.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      },
+      "C2": {
+        "parent": "body.head",
+        "point": [
+          12.0,
+          -11.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      }
+    },
+    "dorsal_guide": [
+      "crown",
+      "forehead",
+      "stop",
+      "nasal_bridge",
+      "nasal_base",
+      "nose_tip"
+    ],
+    "widths": [
+      18,
+      17,
+      12.5,
+      9.0,
+      6.5
+    ],
+    "coordinate_note": "x caudal, y dorsal, z animal left; points in shared head-local rest space; parent declares motion ownership",
+    "scope": "authored 3D control scaffold, not measured bones or finished skin"
+  },
+  "maltipoo": {
+    "nodes": {
+      "cranium": {
+        "parent": "body.head",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "crown": {
+        "parent": "cranium",
+        "point": [
+          -14.0,
+          35.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "forehead": {
+        "parent": "cranium",
+        "point": [
+          -27.0,
+          30.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "stop": {
+        "parent": "cranium",
+        "point": [
+          -35.0,
+          19.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_bridge": {
+        "parent": "cranium",
+        "point": [
+          -45.0,
+          14.0,
+          0.0
+        ],
+        "kind": "craniofacial_shape_landmark"
+      },
+      "nasal_base": {
+        "parent": "cranium",
+        "point": [
+          -57.0,
+          12.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "nose_tip": {
+        "parent": "cranium",
+        "point": [
+          -64.0,
+          10.0,
+          0.0
+        ],
+        "kind": "soft_tissue_anchor"
+      },
+      "occiput": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          13.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "skull_rear": {
+        "parent": "cranium",
+        "point": [
+          1.0,
+          26.25,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_back": {
+        "parent": "cranium",
+        "point": [
+          -26.0,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "maxilla_front": {
+        "parent": "cranium",
+        "point": [
+          -55.0,
+          3.5,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "nasal_floor": {
+        "parent": "cranium",
+        "point": [
+          -63.0,
+          7.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "jaw_axis": {
+        "parent": "cranium",
+        "point": [
+          -12.0,
+          10.0,
+          0.0
+        ],
+        "kind": "revolute_axis_center"
+      },
+      "mandible": {
+        "parent": "jaw_axis",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "kind": "rigid_group"
+      },
+      "chin": {
+        "parent": "mandible",
+        "point": [
+          -56.0,
+          -2.0,
+          0.0
+        ],
+        "kind": "structural_guide"
+      },
+      "L_tmj": {
+        "parent": "cranium",
+        "point": [
+          -12.0,
+          10.0,
+          16.8
+        ],
+        "kind": "joint_center"
+      },
+      "L_orbit": {
+        "parent": "cranium",
+        "point": [
+          -25.0,
+          19.0,
+          17.0
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "L_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          18.900000000000002
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "L_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          21.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "L_ramus": {
+        "parent": "mandible",
+        "point": [
+          -17.0,
+          0.0,
+          15.75
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -31.0,
+          -4.0,
+          12.75
+        ],
+        "kind": "structural_guide"
+      },
+      "L_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -54.0,
+          -2.0,
+          4.55
+        ],
+        "kind": "structural_guide"
+      },
+      "R_tmj": {
+        "parent": "cranium",
+        "point": [
+          -12.0,
+          10.0,
+          -16.8
+        ],
+        "kind": "joint_center"
+      },
+      "R_orbit": {
+        "parent": "cranium",
+        "point": [
+          -25.0,
+          19.0,
+          -17.0
+        ],
+        "kind": "orbital_position_guide"
+      },
+      "R_ear_root": {
+        "parent": "cranium",
+        "point": [
+          -8.0,
+          24.0,
+          -18.900000000000002
+        ],
+        "kind": "cartilage_attachment_guide"
+      },
+      "R_zygoma": {
+        "parent": "cranium",
+        "point": [
+          -20.0,
+          7.0,
+          -21.0
+        ],
+        "kind": "zygomatic_position_guide"
+      },
+      "R_ramus": {
+        "parent": "mandible",
+        "point": [
+          -17.0,
+          0.0,
+          -15.75
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_body": {
+        "parent": "mandible",
+        "point": [
+          -31.0,
+          -4.0,
+          -12.75
+        ],
+        "kind": "structural_guide"
+      },
+      "R_jaw_front": {
+        "parent": "mandible",
+        "point": [
+          -54.0,
+          -2.0,
+          -4.55
+        ],
+        "kind": "structural_guide"
+      },
+      "C1": {
+        "parent": "body.head",
+        "point": [
+          5.0,
+          4.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      },
+      "C2": {
+        "parent": "body.head",
+        "point": [
+          12.0,
+          -11.0,
+          0.0
+        ],
+        "kind": "cervical_guide"
+      }
+    },
+    "dorsal_guide": [
+      "crown",
+      "forehead",
+      "stop",
+      "nasal_bridge",
+      "nasal_base",
+      "nose_tip"
+    ],
+    "widths": [
+      21,
+      20,
+      15,
+      11,
+      6.5
+    ],
+    "coordinate_note": "x caudal, y dorsal, z animal left; points in shared head-local rest space; parent declares motion ownership",
+    "scope": "authored 3D control scaffold, not measured bones or finished skin"
+  }
+}

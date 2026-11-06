@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "copy_operation": "byte-identical copy",
+  "first_original": "C:/Users/verib/.codex/generated_images/01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea/exec-7ae2f1f3-532c-4f60-b8db-b81fd782b877.png",
+  "final_original": "C:/Users/verib/.codex/generated_images/01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea/exec-0d170239-785f-4c1e-bca2-de76560b88c2.png",
+  "review_only_ear_refs": [
+    "https://www.fci.be/Nomenclature/Standards/088g01-en.pdf",
+    "https://www.fci.be/Nomenclature/Standards/166g01-en.pdf"
+  ],
+  "revision02_original": "C:/Users/verib/.codex/generated_images/01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea/exec-54ff46ff-cfa9-49b2-9964-da13cca52287.png",
+  "revision03_original": "C:/Users/verib/.codex/generated_images/01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea/exec-4dfeb1c7-6001-4130-b60d-a046333fa4d6.png",
+  "revision04_original": "C:/Users/verib/.codex/generated_images/01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea/exec-3dbcc953-2fbb-4a95-af21-e5f106bc3640.png"
+}

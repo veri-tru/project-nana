@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "generated_on": "2026-11-06",
+  "scope": "Two high-resolution pixel-style concept sheets referencing current skeleton-derived heads. Not native 64x64 sprites, not exact mesh projections, no animation or learning.",
+  "references": [
+    "C:/Users/verib/personal project/nana/pixel-dog-local/outputs/skull-based-heads-v2/heads-B.png",
+    "C:/Users/verib/personal project/nana/pixel-dog-local/references/styles/b2-c2/v1/reference-sheet.png",
+    "C:/Users/verib/personal project/nana/pixel-dog-local/private-data/breed-standing-pair-v1/dachshund-source.png",
+    "C:/Users/verib/personal project/nana/.codex-attachments/768d9f11-0441-440b-a272-2d05ac586b78/6802266b-b4f1-4a70-9d32-d6584792f9da/55757.jpg",
+    "C:/Users/verib/personal project/nana/.codex-remote-attachments/01a1a744-36e5-7233-ac4f-68fc9cfbfd7a/3c2fda8b-ca8a-4fff-b7e4-601bfe9eaa80/1-55765.jpg"
+  ],
+  "prompts": {
+    "B2": "Use case: style-transfer. Asset: pixel-art concept comparison sheet, not an engine-ready sprite atlas.\nCreate a faithful pixel-art translation of input image 1, the CURRENT skeleton-derived v2/13 B dog head sheet. Retain its four rows of breeds and FIVE columns (left-facing side, left-facing three-quarter, front, back, top). Exactly 20 heads. Head and short neck only. Preserve each head's skull proportions, shortened muzzle length, round black eyes and individual nose size, ear attachment and short-neck connection from image 1. Make the muzzle a supported rounded volume, never a cone or beak, never a second blob below the black nose. Keep mouths neutrally closed, no tongues. Make the thin whippet lower jaw remain thin. Dachshund has longest hanging ears; golden has broad medium hanging ears; whippet small folded rose ears; Maltipoo short groomed rounded cheeks and padded hanging ears. Do not turn all heads into the same breed.\nInput 2 is STYLE ONLY: reference-sheet.png SHA256 654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744, original 1774x887. Never transfer its grey-white markings, head shape, eyes, tongue or hairstyle. Inputs 3/4/5 are identity references ONLY: red-brown dachshund, brindle-and-white whippet, cream short-groom Maltipoo. Golden's golden coat and broad ears follow current model input 1. Preserve CURRENT model's shortened stylized muzzle proportions rather than restoring photo-realistic long muzzles. Use photographs for coat and broad breed cues. Whippet: simplify brindle into 2-3 connected large grey-taupe patches with pale muzzle/neck; no scattered stripes. Hidden markings are illustrative estimates, avoid invented ornamental patterns.\nPixel medium: visibly square, coarse, crisp grid, approximately 64x64 logical cells per head-and-neck motif, flat connected colour clusters, intentional stair-step contours. Each dog has ONE outline hue plus at most FOUR fill hues total including eyes/nose and shadows. Solid darkest brown/black eyes and nose, no glossy gradients. Upper-left light; one large shadow under jaw, ear and far neck. No antialias blur, no dithering, no noise, no fine hairs, no dense curls, no 3D smooth shading. Fur is suggested with a few large contour steps, silhouette must remain anchored to input 1.\nLayout: landscape 2400x1600-style board, warm plain ivory background, generous equal cells and margins. Four rows ordered Golden Retriever, Whippet, Dachshund, Maltipoo. Five columns SIDE / 3-4 / FRONT / BACK / TOP. Small restrained readable labels. Title and tiny footer only; no decorative graphics or palettes. All heads same display logic and ample padding. Footer exact: \"PIXEL CONCEPT / USER REVIEW PENDING\". This is an artistic concept drawing, do not print \"native 64x64\", \"validated\", or imply exact mesh or sprite conversion.\nSTYLE VARIANT B2: use ONLY LEFT HALF of input 2 x=[0,887), y=[0,887), style ID nana-soft-B2-v1. Soft coat-related dark coloured outline, still crisp and continuous; eyes and nose darkest and more prominent than outline. Exact title: \"B2 / SOFT PIXEL\".",
+    "C2": "Use case: style-transfer. Asset: pixel-art concept comparison sheet, not an engine-ready sprite atlas.\nCreate a faithful pixel-art translation of input image 1, the CURRENT skeleton-derived v2/13 B dog head sheet. Retain its four rows of breeds and FIVE columns (left-facing side, left-facing three-quarter, front, back, top). Exactly 20 heads. Head and short neck only. Preserve each head's skull proportions, shortened muzzle length, round black eyes and individual nose size, ear attachment and short-neck connection from image 1. Make the muzzle a supported rounded volume, never a cone or beak, never a second blob below the black nose. Keep mouths neutrally closed, no tongues. Make the thin whippet lower jaw remain thin. Dachshund has longest hanging ears; golden has broad medium hanging ears; whippet small folded rose ears; Maltipoo short groomed rounded cheeks and padded hanging ears. Do not turn all heads into the same breed.\nInput 2 is STYLE ONLY: reference-sheet.png SHA256 654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744, original 1774x887. Never transfer its grey-white markings, head shape, eyes, tongue or hairstyle. Inputs 3/4/5 are identity references ONLY: red-brown dachshund, brindle-and-white whippet, cream short-groom Maltipoo. Golden's golden coat and broad ears follow current model input 1. Preserve CURRENT model's shortened stylized muzzle proportions rather than restoring photo-realistic long muzzles. Use photographs for coat and broad breed cues. Whippet: simplify brindle into 2-3 connected large grey-taupe patches with pale muzzle/neck; no scattered stripes. Hidden markings are illustrative estimates, avoid invented ornamental patterns.\nPixel medium: visibly square, coarse, crisp grid, approximately 64x64 logical cells per head-and-neck motif, flat connected colour clusters, intentional stair-step contours. Each dog has ONE outline hue plus at most FOUR fill hues total including eyes/nose and shadows. Solid darkest brown/black eyes and nose, no glossy gradients. Upper-left light; one large shadow under jaw, ear and far neck. No antialias blur, no dithering, no noise, no fine hairs, no dense curls, no 3D smooth shading. Fur is suggested with a few large contour steps, silhouette must remain anchored to input 1.\nLayout: landscape 2400x1600-style board, warm plain ivory background, generous equal cells and margins. Four rows ordered Golden Retriever, Whippet, Dachshund, Maltipoo. Five columns SIDE / 3-4 / FRONT / BACK / TOP. Small restrained readable labels. Title and tiny footer only; no decorative graphics or palettes. All heads same display logic and ample padding. Footer exact: \"PIXEL CONCEPT / USER REVIEW PENDING\". This is an artistic concept drawing, do not print \"native 64x64\", \"validated\", or imply exact mesh or sprite conversion.\nSTYLE VARIANT C2: use ONLY RIGHT HALF of input 2 x=[887,1774), y=[0,887), style ID nana-contrast-C2-v1. Deep espresso/near-black high-contrast outline, crisp one-logical-pixel thickness, not thicker than B2. Large connected flat coat-colour regions, colour-related shadows. Exact title: \"C2 / CLEAR PIXEL\"."
+  },
+  "generation_outputs": {
+    "B2": "Generated images are saved to C:\\Users\\verib\\.codex\\generated_images\\01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea as C:\\Users\\verib\\.codex\\generated_images\\01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea\\exec-75c0f495-cfce-4a4f-a2c9-416f048a6591.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "C2": "Generated images are saved to C:\\Users\\verib\\.codex\\generated_images\\01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea as C:\\Users\\verib\\.codex\\generated_images\\01a1aebb-c7c9-7ae3-a413-a5bb3ccf08ea\\exec-0a3a059f-831a-4b92-ad9b-8c6eb583a582.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "style_reference": {
+    "sha256": "654330121aa768fefddfbd0909e6975bb1b8bac539d533325364ba111cd8e744",
+    "B2": {
+      "id": "nana-soft-B2-v1",
+      "region": [
+        0,
+        0,
+        887,
+        887
+      ]
+    },
+    "C2": {
+      "id": "nana-contrast-C2-v1",
+      "region": [
+        887,
+        0,
+        1774,
+        887
+      ]
+    }
+  },
+  "limitations": [
+    "Image generation is nondeterministic; exact re-generation not claimed.",
+    "Independent generation may alter silhouette and cell scale between B2 and C2; these are exploratory concepts, not outline-only pixel-controlled A/B.",
+    "Native palette, grid, alpha and device checks not performed or claimed.",
+    "Whippet coat is a broad illustrative simplification; unseen markings are not confirmed.",
+    "Input model's B is a working checkpoint, not a user-approved final exterior."
+  ]
+}

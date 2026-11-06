@@ -1,0 +1,288 @@
+{
+  "breeds": {
+    "golden": {
+      "states": {
+        "neutral": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "half": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "closed": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "open": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "tongue": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "lick": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        }
+      },
+      "neck_start_x": 0.5049999999999986,
+      "neck_starts_behind_mouth": true,
+      "C2_perturbation_surface_change": 0.986466257639993,
+      "C2_perturbation_head_pose_error": 0.0,
+      "jaw_perturbation_neck_error": 0.0,
+      "ramus_hinge_endpoint_error": 0.0,
+      "jaw_rigid_rotation_distance_error": 7.105427357601002e-15,
+      "raw_x_min_step": 0.05163288978868863,
+      "skin_x_min_step": 0.05163288978868863,
+      "tongue": [
+        {
+          "lick": false,
+          "floor_clearance": -4.440892098500626e-16,
+          "roof_clearance": 0.5744199836231398,
+          "lip_contact_error": 1.74879562918242e-16,
+          "nose_contact_error": null
+        },
+        {
+          "lick": true,
+          "floor_clearance": -2.220446049250313e-16,
+          "roof_clearance": 0.3868230165348217,
+          "lip_contact_error": 1.49896768215636e-16,
+          "nose_contact_error": 0.0
+        }
+      ]
+    },
+    "whippet": {
+      "states": {
+        "neutral": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "half": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "closed": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "open": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "tongue": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "lick": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        }
+      },
+      "neck_start_x": 2.01161833,
+      "neck_starts_behind_mouth": true,
+      "C2_perturbation_surface_change": 0.9864533095801078,
+      "C2_perturbation_head_pose_error": 0.0,
+      "jaw_perturbation_neck_error": 0.0,
+      "ramus_hinge_endpoint_error": 0.0,
+      "jaw_rigid_rotation_distance_error": 7.105427357601002e-15,
+      "raw_x_min_step": 0.04388392503343397,
+      "skin_x_min_step": 0.04388392503343397,
+      "tongue": [
+        {
+          "lick": false,
+          "floor_clearance": -2.220446049250313e-16,
+          "roof_clearance": 0.3702560069593885,
+          "lip_contact_error": 1.2858791391047212e-16,
+          "nose_contact_error": null
+        },
+        {
+          "lick": true,
+          "floor_clearance": -2.220446049250313e-16,
+          "roof_clearance": 0.24765660573455456,
+          "lip_contact_error": 1.1021821192326179e-16,
+          "nose_contact_error": 0.0
+        }
+      ]
+    },
+    "dachshund": {
+      "states": {
+        "neutral": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "half": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "closed": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "open": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "tongue": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "lick": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        }
+      },
+      "neck_start_x": 2.77901103,
+      "neck_starts_behind_mouth": true,
+      "C2_perturbation_surface_change": 0.9897435594118984,
+      "C2_perturbation_head_pose_error": 0.0,
+      "jaw_perturbation_neck_error": 0.0,
+      "ramus_hinge_endpoint_error": 0.0,
+      "jaw_rigid_rotation_distance_error": 7.105427357601002e-15,
+      "raw_x_min_step": 0.04653119283192453,
+      "skin_x_min_step": 0.04653119283192453,
+      "tongue": [
+        {
+          "lick": false,
+          "floor_clearance": -2.220446049250313e-16,
+          "roof_clearance": 0.43745471278823267,
+          "lip_contact_error": 1.4230395806092245e-16,
+          "nose_contact_error": null
+        },
+        {
+          "lick": true,
+          "floor_clearance": -4.440892098500626e-16,
+          "roof_clearance": 0.2928878287881669,
+          "lip_contact_error": 1.2197482119507636e-16,
+          "nose_contact_error": 0.0
+        }
+      ]
+    },
+    "maltipoo": {
+      "states": {
+        "neutral": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "half": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "closed": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "open": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "tongue": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        },
+        "lick": {
+          "finite": true,
+          "neck_and_upper_head_error": 0.0,
+          "angular_seam_error": 0.0,
+          "ears_equal_source": true
+        }
+      },
+      "neck_start_x": 0.09999999999999964,
+      "neck_starts_behind_mouth": true,
+      "C2_perturbation_surface_change": 0.9873209002076733,
+      "C2_perturbation_head_pose_error": 0.0,
+      "jaw_perturbation_neck_error": 0.0,
+      "ramus_hinge_endpoint_error": 0.0,
+      "jaw_rigid_rotation_distance_error": 3.552713678800501e-15,
+      "raw_x_min_step": 0.01314362431397953,
+      "skin_x_min_step": 0.01314362431397953,
+      "tongue": [
+        {
+          "lick": false,
+          "floor_clearance": -4.440892098500626e-16,
+          "roof_clearance": 0.30360978898758173,
+          "lip_contact_error": 1.6287802428659799e-16,
+          "nose_contact_error": null
+        },
+        {
+          "lick": true,
+          "floor_clearance": -4.440892098500626e-16,
+          "roof_clearance": 0.2036642853495616,
+          "lip_contact_error": 1.3960973510279825e-16,
+          "nose_contact_error": 0.0
+        }
+      ]
+    }
+  },
+  "images": {
+    "structure.png": {
+      "bytes_match": true,
+      "size": [
+        1510,
+        1110
+      ],
+      "scale": 4.6677402676177175,
+      "sha256": "38348065b4a424c59edb42fd5cd2d55871caaf5c6ebb4af5eac9aa0b906744f1"
+    },
+    "expressions.png": {
+      "bytes_match": true,
+      "size": [
+        1510,
+        1110
+      ],
+      "scale": 5.8777836644418056,
+      "sha256": "6cfa5e33238ec72b80ebd068f461bdd378f443d47c13f2ebde21f143ce1e4cdd"
+    }
+  },
+  "hashes": {
+    "inputs_match": true,
+    "images_match": true
+  }
+}

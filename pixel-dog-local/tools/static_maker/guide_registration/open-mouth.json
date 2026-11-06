@@ -1,0 +1,126 @@
+{
+  "dog_id": "guide-002",
+  "parent_sha256": "38a3f037c9460e215cdc6585bdf9b39bdf0a55deea57d069f13d881095d21bbc",
+  "observation": "Near side view. A pale upper muzzle overlaps the dark mouth corner. A tongue surface lies along the recessed lower lip. The joint itself is hidden.",
+  "opening_steps": [
+    1,
+    2,
+    3
+  ],
+  "corner": [
+    50,
+    18
+  ],
+  "toward_corner": [
+    -1,
+    0
+  ],
+  "front_rim": [
+    56,
+    19
+  ],
+  "notch_start": [
+    55,
+    19
+  ],
+  "oral_cavity": [
+    [
+      50,
+      18
+    ],
+    [
+      52,
+      17
+    ],
+    [
+      55,
+      17
+    ],
+    [
+      55,
+      19
+    ],
+    [
+      54,
+      20
+    ],
+    [
+      52,
+      20
+    ],
+    [
+      50,
+      19
+    ]
+  ],
+  "lower_jaw": [
+    [
+      50,
+      18
+    ],
+    [
+      51,
+      19
+    ],
+    [
+      53,
+      20
+    ],
+    [
+      55,
+      20
+    ],
+    [
+      55,
+      21
+    ],
+    [
+      54,
+      21
+    ],
+    [
+      53,
+      22
+    ],
+    [
+      51,
+      22
+    ],
+    [
+      49,
+      21
+    ],
+    [
+      49,
+      20
+    ]
+  ],
+  "tongue": [
+    [
+      52,
+      18
+    ],
+    [
+      53,
+      18
+    ]
+  ],
+  "lip_shadow": [
+    [
+      50,
+      18
+    ],
+    [
+      52,
+      19
+    ],
+    [
+      51,
+      20
+    ],
+    [
+      50,
+      19
+    ]
+  ]
+}

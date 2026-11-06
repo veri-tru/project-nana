@@ -1,5 +1,18 @@
 # 반려견 픽셀 캐릭터 앱
 
+현재는 **머리 3D 모델 투영 + 별도의 2D 전신 정적 제작기** 단계다. [엔진 구조·상충 정리](docs/engine-organization.md) · [실행 안내](tools/dog_engine/README.md) · [현재 사양](docs/current-spec.md).
+
+- 실행: 프로젝트 폴더에서 `python -m tools.dog_engine status`, 환경·입력 확인은 `doctor`, 전체 회귀 검사는 `verify`.
+- 머리: 5품종·9프리셋, 짧은 목과 5시점. 골든은 adult-B, 잭 러셀은 B가 작업 형상 기본값이다.
+- 현재 머리 화풍: [breed-head-soft-B2-v1](references/styles/breed-head-b2/v1/manifest.json). [골든](outputs/golden-b2-canonical-20261106/selection.json)·[잭 러셀](outputs/jack-russell-b2-20261106/selection.json)의 고해상도 시안 A를 선택했다. A는 음영 행 이름이며 형상 B와 충돌하지 않는다.
+- [기존 native64 P1/P2/P3](outputs/golden-pixel-refresh-20261106/README.md)는 화풍 불일치로 거절됐다. 진단 경로로만 보존하고, 승인된 native64 실행 자산으로 사용하지 않는다.
+- [잭 러셀 귀 비교](outputs/jack-russell-ear-study-20261106/README.md)는 선택 대기다. 엔진의 개체별 귀 변경은 미구현이다.
+- 저장: [머리 v2/13 로컬 체크포인트](docs/head-engine-checkpoint.md), 이후 전체 진행 보존 커밋 `8671571`. 새 실행 패키지와 보존본의 역할은 정리 문서를 따른다.
+
+## 전신 제작기와 기존 작업
+
+나나의 64×64 갸웃한 앉기는 중간 음영 ②를 선택했다. [엔진 재출력과 4색 음영 규격](tools/static_maker/README.md) · [선택된 앉기 원본](private-data/nana-seated-medium-v1/export/standing.png)
+
 핵심 개발 목표는 여러 강아지에 같은 제작 절차를 적용하면서 각자의 특징을 살리는 **공통 픽셀 캐릭터 제작 엔진**이다. 나나는 첫 검증 개체다. [프로젝트 개요](docs/project-brief.md) · [재사용 검증 로드맵](docs/roadmap.md)
 
 [한 개체 정적 제작기 0.3](tools/static_maker/README.md): 목·어깨·골반·앞발과 얼굴 구조를 보완하고, 0.2/0.3 복원·로컬 편집·자체 이미지 포함 전후 비교를 구현했습니다. 자동 검사 22개와 기존/신규 브라우저 검증을 통과했습니다. 닮음·정본 화풍·실기기 검수는 남아 있으며 사진 자동 분석·동작·앱은 미구현입니다.
@@ -36,7 +49,7 @@
 | 항목 | 현재 기준 |
 | --- | --- |
 | 대상 | 개. 고양이는 후속 프로젝트 |
-| 표현 | B2·C2 비교 정본 v1.0. 최종 단일 화풍은 미선택 |
+| 표현 | 머리 화풍은 기존 B2 품종 시안 정본 `breed-head-soft-B2-v1`. C2는 이전 비교 이력 |
 | 애니메이션 | 기본 8fps, 기본 프레임 유지 125ms |
 | 해상도 | 픽셀 정본은 프레임당 64×64px. 96×96은 기존 제작기·시안의 참고 해상도 |
 | 개발 순서 | Android 플로팅 G0 → 한 마리 개인화 G1 → 탐색 파일럿 G2 → 양 플랫폼·위젯 G3 |
@@ -44,7 +57,7 @@
 | 행동 재생 | 기기 내 규칙과 사전 제작 자산. 프레임마다 AI 호출하지 않음 |
 | AI 분석 | 후속 G1. 보호자가 확인한 후보만 프로필에 적용 |
 
-현재 작화 기준은 [B2·C2 세부 규격](docs/b2-c2-style-spec.md)과 [정본 원본·manifest](references/styles/b2-c2/v1/manifest.json)입니다. B2의 부드러운 유색선과 C2의 짙은 윤곽을 동일 개체에 비교하며, 얼굴형·눈꺼풀은 개체별로 유지합니다.
+현재 머리 작화 기준은 [B2 현재 규격](docs/b2-c2-style-spec.md)과 [품종 시안 정본 manifest](references/styles/breed-head-b2/v1/manifest.json)입니다. 기존 B2의 픽셀 밀도·유색 윤곽·음영을 공통 적용하고 형상은 최신 품종/개체 모델을 따릅니다.
 
 ## 폴더 안내
 

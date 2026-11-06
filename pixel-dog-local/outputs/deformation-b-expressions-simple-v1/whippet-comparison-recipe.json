@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "whippet_comparison.py": "193ac2c39f152f6b0f08945852bbef02d533882a4c2402087f45adfa2ce5ad7f",
+    "preview-before-whippet-jaw.py": "208938d946fd9204eab7c2ea56a4d4361ff41ac3494359f5501963b2a6444007",
+    "preview.py": "2b9c32e343c6f165080b501c8e11ee150d8d6b2d1a6c64f1b96778d0ccaba62a",
+    "whippet-jaw-before-after.png": "69799416854167d245510d6a7bbd135347c6e6729c985a593a744e91789e29dd"
+  },
+  "change": {
+    "breed": "whippet",
+    "rest_depth_scale_max": 0.55,
+    "rest_depth_cap": 1.1,
+    "rest_width_scale": 0.76,
+    "oral_margin": "line between existing front and rear mouth landmarks"
+  },
+  "views": [
+    90,
+    38
+  ],
+  "status": "USER_REVIEW_PENDING"
+}
