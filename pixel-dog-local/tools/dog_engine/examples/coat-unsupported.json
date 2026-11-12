@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-example",
+  "target": "static-v03",
+  "intent": {"kind": "authored_example", "note": "가상 혼합 요청: 지원되는 귀 길이도 미지원 풍성함·몸통 길이와 함께 적용되지는 않는다."},
+  "regions": {
+    "ears": {"length": "long"},
+    "cheeks": {"volume": "full"},
+    "body": {"length_mm": 13}
+  },
+  "texture": "curly",
+  "grooming": "둥근 얼굴",
+  "reference_ids": []
+}

@@ -1,12 +1,12 @@
 # 엔진 구조와 현재 기준
 
-기준일: 2026-11-06. `8671571`은 정리 전 전체 작업의 보존 커밋이다. 현재 변경은 실행 코드 분리와 상충 기준 정리이며, 새 형상·작화·사용자 승인을 만들지 않는다. 정리 중에는 PR 생성과 main 병합을 보류했으며, 2026-11-06 사용자 지시 “머지하자”에 따라 병합을 재개한다.
+기준일: 2026-11-12. `8671571`은 실행 코드 분리 전 보존 커밋이고, 해당 정리는 11월 6일 PR #2를 통해 main에 병합됐다(`6721551`). 11월 7일의 C 선택·털 연결은 후속 로컬 변경이다. 현재 구현·지원 범위는 [현재 사양](current-spec.md), 환경·상태 드리프트 수정은 [11월 12일 기록](drift-cleanup-20261112.md)을 따른다. 아래 11월 6일 검증 수치는 당시 실적이며 현재 전체 검사 수치와 구분한다.
 
 ## 실행 경로
 
 | 구분 | 현재 경로 | 역할과 경계 |
 |---|---|---|
-| 통합 명령 | `python -m tools.dog_engine` | 상태·환경 확인, 머리 렌더, 전신 CLI, 회귀 검사 |
+| 통합 명령 | `./engine.ps1` → `.venv`의 `tools.dog_engine` | 고정된 전용 환경의 상태·환경 확인, 머리 렌더, 전신 CLI, 회귀 검사 |
 | 머리 설정·검증 | `tools/dog_engine/head.py` | 체급 → 품종 → 개체 설정. 체급은 표시 배율이며 얼굴형이나 실측 cm가 아니다. |
 | 머리 투영 | `tools/dog_engine/renderer.py`, `raster.py` | 검토된 저장 메시를 5시점으로 그린다. `outputs` 생성 코드를 실행하지 않는다. |
 | 모델 카탈로그 | `tools/head_engine/catalog.json` | 5품종·9프리셋과 원본 해시를 보존한다. 현재와 과거 엔진이 같은 검토 모델을 읽는다. |
@@ -29,16 +29,18 @@
 | 당시 ‘현재’, ‘미구현’, ‘방법론 PASS’ 문구 | 날짜별 문서는 이력이다. 최신 범위는 이 문서와 현재 사양, 선택·거절의 원본 JSON을 따른다. 후보 전달에는 독립 외형·기술 PASS가 모두 필요하다. |
 | requirements의 Pillow 12.3과 실제 검사 환경 불일치 | 이 체크포인트는 Pillow 12.2.0에서 검증했다. 현재 요구 버전을 실측 환경과 맞추고 과거 검토 보고서는 그대로 둔다. |
 
-`status`는 기존 선택 JSON과 해시가 일치하는 이미지를 읽는다. 상태는 `config/project.json`, 원본 모델 카탈로그, 선택·거절 기록을 합쳐 보여 주며 사용자 승인을 새로 추정하지 않는다.
+`status`는 기존 선택 JSON과 해시가 일치하는 이미지를 읽는다. 두 개체 C는 이미지·비공개 선택 기록·현재 검토 근거·사용자 수락의 일치도 확인한다. 털 지원 범위는 등록 모델 목록에서 읽는다. 상태는 `config/project.json`, 원본 모델 카탈로그, 선택·거절 기록을 합쳐 보여 주며 사용자 승인을 새로 추정하지 않는다.
 
 ## 실행과 검증
 
 프로젝트의 `pixel-dog-local` 폴더에서 실행한다.
 
 ```powershell
-python -m tools.dog_engine status
-python -m tools.dog_engine doctor
-python -m tools.dog_engine verify
+./engine.ps1 -Setup
+./engine.ps1 status
+./engine.ps1 doctor
+./engine.ps1 verify
+./.venv/Scripts/Activate.ps1
 python -m tools.dog_engine head resolve --profile tools/head_engine/examples/golden-working.json --output outputs/new-head/resolved-profile.json
 python -m tools.dog_engine head render --resolved outputs/new-head/resolved-profile.json --output-dir outputs/new-head
 python -m tools.dog_engine body -- render-standing guide-054 --out private-data/new-body
@@ -46,7 +48,7 @@ python -m tools.dog_engine body -- render-standing guide-054 --out private-data/
 
 새 출력은 기존 파일이나 검토 기록을 덮어쓰지 않는 폴더를 지정한다. 새 참조 그림은 검토 전 PENDING이며 원본 PASS를 승계하지 않는다. `pixel-diagnostic`은 거절된 화풍을 분석하기 위한 명시적 진단 명령이다. `pixel.export()` 직접 호출도 `diagnostic=True` 없이는 거절한다. 진단 비교판에는 거절 상태를 표시하고 recipe에는 BLOCKED와 NOT_VALIDATED를 남긴다.
 
-환경은 Windows / Python 3.12이며 `tools/dog_engine/requirements.txt`에 실제 사용 버전을 기록했다. 과거 생성 코드와의 비교 검사는 `verification-requirements.txt`의 scikit-image도 필요하다. 한글 참조 보드는 맑은 고딕 두 파일의 기존 해시를 요구한다. 글꼴을 자동 대체하거나 비공개 입력 검사를 생략하지 않는다. 라이브러리 설치나 폰트 배포는 이번 정리에서 수행하지 않았다.
+환경은 Windows / Python 3.12이며 `tools/dog_engine/verification-lock.txt`로 실행·비교 검사와 간접 의존성을 고정한다. `./engine.ps1 -Setup`은 전용 `.venv`에만 설치한다. 한글 참조 보드는 맑은 고딕 두 파일의 기존 해시를 요구한다. 글꼴을 자동 대체하거나 비공개 입력 검사를 생략하지 않는다. 전체 검사는 환경이 다르면 렌더 전에 중단한다.
 
 ## 보존과 회귀 기준
 
@@ -63,5 +65,9 @@ python -m tools.dog_engine body -- render-standing guide-054 --out private-data/
 `doctor`는 환경과 9개 모델의 입력 검증을 통과했다. 머리 v2/13, 골든 adult, 잭 러셀 머리, 골든 B2, 잭 러셀 B2, 잭 러셀 귀 비교의 기존 전달 기록 6개는 READY를 유지한다. `8671571` 대비 원본 outputs·head_engine·review 도구·B2 참조의 변경은 없다. 이 결과는 새 이미지 후보 승인이나 공개 clone 검증을 뜻하지 않는다. 기존 테스트의 Pillow getdata 사용 중단 예정 경고는 남아 있으며 실행 실패는 없었다.
 
 ## 남은 작업
+
+2026-11-07 털 표현 후속: [털·미용 표현 기준과 참조 자료](coat-grooming-reference.md)에 출처 5건과 실제 사진 4건의 관찰을 연결했다. v03 길이 초안에 이어 `coat head-prepare/head-native64`로 등록 말티푸 구조의 4부위 길이 → 새 3D 외피 → 직접 64px 진단 투영을 연결했다. [지원 범위와 검증 기록](coat-head-integration.md). 기존 모델·관찰 DB·P1/P2/P3 거절 상태는 유지한다. 후속 v2는 3D 정수리·가슴과 native64 가슴의 풍성함을 독립 연결했다([검증 기록](coat-fullness-integration.md)). 결·미용 형태, B2 native64 화풍과 통제된 실제 미용 비교는 후속이다.
+
+2026-11-07 추가: `ear_structure.py`와 `neck_structure.py`는 귀 분리/목·상흉부 진단 실험이며 카탈로그 기본값이나 전신 엔진으로 승격하지 않는다. `structure_gate.py`는 [전체 구조 검토 후 작화하는 필수 경로](anatomy-regression-policy.md)다. 귀·목 문제로 차단한 과거 시안은 보존하고, 후속 `neck-reference02`의 전체 검토를 거친 `pair-b2-retry04/C`는 두 개체 5시점의 표현 정본으로 선택됐다. 골든 P1/P2/P3 진단 경로와 등록 말티푸의 털 native64 경로는 별개이며 후자만 등록 semantic 부품을 명시적으로 지원한다. 이 연결은 B2 화풍 승인이나 전신 연결이 아니다.
 
 B2 정본과 일치하는 native64 머리 화풍, 개체별 귀 변형, 머리/전신 연결, 동작과 모바일 앱은 후속이다. 저장 모델의 pickle 형식, 비공개 원본 의존성, Windows 폰트 의존성도 남아 있다. 이번 정리를 완성된 공통 캐릭터 생성 엔진이나 배포 패키지로 표시하지 않는다.

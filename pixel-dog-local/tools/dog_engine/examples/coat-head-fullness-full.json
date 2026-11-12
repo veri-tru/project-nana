@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-maltipoo-coat",
+  "target": "native64",
+  "model_id": "maltipoo-neck02-soft-v2",
+  "intent": {
+    "kind": "authored_example",
+    "note": "Fixed long length and unchanged head fullness. Compare chest fullness only in native64. Crown and cheek fullness unsupported at this target."
+  },
+  "regions": {
+    "crown": {
+      "length": "long"
+    },
+    "cheeks": {
+      "length": "long"
+    },
+    "chest": {
+      "length": "long",
+      "volume": "full"
+    },
+    "ears": {
+      "length": "long"
+    }
+  }
+}

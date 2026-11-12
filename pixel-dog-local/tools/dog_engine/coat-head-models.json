@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "models": {
+    "maltipoo-neck02": {
+      "breed": "maltipoo",
+      "kind": "reviewed_structural_template_not_measured_individual",
+      "directory": "private-data/individual-pair-20261107/neck-reference02",
+      "model": "model-B.npz",
+      "model_sha256": "77d56d9ce2454a12d4ac2f9329c1a880414e5cc14da59730816c993213b27133",
+      "contract_sha256": "e9581c12e5d0a920cd5532e3e88e6ffe5256d74fc8ccd534381e94bcf4497f16",
+      "status_sha256": "1de33c3a753dede4dea6c76b0b5931fc29ff1bb2af7ef60c2544b0949b9fbd6a",
+      "length_regions": [
+        "crown",
+        "cheeks",
+        "ears",
+        "chest"
+      ],
+      "limits": [
+        "Authored envelope offsets, not physical hair length",
+        "No texture/fullness/grooming-shape support",
+        "Neutral native64 diagnostic only; no B2 style approval"
+      ],
+      "geometry_version": "envelope-v1"
+    },
+    "maltipoo-neck02-soft-v2": {
+      "breed": "maltipoo",
+      "kind": "reviewed_structural_template_not_measured_individual",
+      "directory": "private-data/individual-pair-20261107/neck-reference02",
+      "model": "model-B.npz",
+      "model_sha256": "77d56d9ce2454a12d4ac2f9329c1a880414e5cc14da59730816c993213b27133",
+      "contract_sha256": "e9581c12e5d0a920cd5532e3e88e6ffe5256d74fc8ccd534381e94bcf4497f16",
+      "status_sha256": "1de33c3a753dede4dea6c76b0b5931fc29ff1bb2af7ef60c2544b0949b9fbd6a",
+      "length_regions": [
+        "crown",
+        "cheeks",
+        "ears",
+        "chest"
+      ],
+      "limits": [
+        "Authored envelope length and spread, not physical hair length/count/density",
+        "Fullness supports crown/chest only; cheeks rejected after visual failure",
+        "Native64 fullness supports chest only; crown stages fail visual discrimination at this fixed framing",
+        "No texture, ear fullness or named grooming-shape support",
+        "Neutral native64 diagnostic only; no B2 style approval"
+      ],
+      "geometry_version": "envelope-v2",
+      "volume_regions": [
+        "crown",
+        "chest"
+      ],
+      "native_volume_regions": [
+        "chest"
+      ]
+    }
+  }
+}

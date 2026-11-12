@@ -1,0 +1,88 @@
+{
+  "schema_version": 3,
+  "dog_id": "synthetic-example",
+  "source_profile": {
+    "revision": 1,
+    "sha256": "73eae4da0f2224dd29bb3936dae76eb3f9db90b28d69f746e1163c667482fdf1"
+  },
+  "package": {
+    "id": "nana-front-static",
+    "version": "0.3.0",
+    "shapes_sha256": "d470eab6ed86bb8d107c20f9a9de82ba5fbc112cb9839333ec24f0d3cffc00db",
+    "styles_sha256": "eb5cfeb6aef3118153abce1055de3b4509b5049b7ff593612fa7e4ce62d86a87"
+  },
+  "geometry": {
+    "head_width": 36,
+    "head_height": 28,
+    "ear_width": 11,
+    "ear_length": 24,
+    "eye_spacing": 18,
+    "eye_y": 26,
+    "muzzle_width": 20,
+    "muzzle_height": 12,
+    "body_width": 30,
+    "body_height": 40,
+    "leg_width": 9,
+    "left_occlusion": 1,
+    "right_occlusion": 1,
+    "eye_rx": 3,
+    "eye_ry": 3,
+    "left_eye_offset": 0,
+    "right_eye_offset": 0,
+    "eye_tilt": 0,
+    "nose_width": 8,
+    "nose_height": 5,
+    "muzzle_offset": 0,
+    "jaw_width": 16,
+    "head_drop": 6,
+    "neck_width": 20,
+    "shoulder_width": 28,
+    "haunch_width": 28,
+    "foot_spacing": 16,
+    "muzzle_lobe_depth": 2,
+    "pupil_percent": 55
+  },
+  "colors": {
+    "coat": "#D6D6D2",
+    "coat_shadow": "#A4A5A1",
+    "ear": "#B7B8B4",
+    "ear_shadow": "#898C89",
+    "muzzle": "#ECE9E0",
+    "muzzle_shadow": "#C5C1B7",
+    "iris": "#62452D",
+    "pupil": "#261C18",
+    "nose": "#302B28",
+    "nose_light": "#716A60",
+    "highlight": "#A18D75",
+    "collar": "#A63B36"
+  },
+  "coat": {
+    "crown": "medium",
+    "ears": "medium",
+    "cheeks": "medium",
+    "chest": "medium",
+    "paws": "medium"
+  },
+  "collar_visible": true,
+  "migration": {
+    "from_schema": 2,
+    "from_authoring_revision": 1,
+    "from_state_sha256": "29aaac7b35c8250c62a77c23f4e47ff593fd75283ad4310e72161c303d2e6167",
+    "coordinate_convention": "screen_left_right",
+    "defaults": {
+      "head_drop": 6,
+      "neck_width": 20,
+      "shoulder_width": 28,
+      "haunch_width": 28,
+      "foot_spacing": 16,
+      "muzzle_lobe_depth": 2,
+      "pupil_percent": 55
+    },
+    "classification": "all_coordinates_and_colors_are_authoring_values"
+  },
+  "review": {
+    "identity": "unreviewed",
+    "style": "unreviewed",
+    "owner": "unreviewed"
+  }
+}

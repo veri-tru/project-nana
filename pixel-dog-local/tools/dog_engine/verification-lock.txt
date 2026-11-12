@@ -1,0 +1,8 @@
+# Windows / Python 3.12 complete verification environment, 2026-11-12.
+# Runtime versions remain owned by requirements.txt.
+-r verification-requirements.txt
+imageio==2.38.1
+lazy-loader==0.6
+networkx==3.7
+packaging==26.3
+tifffile==2026.3.3

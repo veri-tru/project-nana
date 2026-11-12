@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "status": "REFERENCE_ONLY",
+  "checked_date": "2026-11-07",
+  "scope": "Four captioned external grooming examples, visually inspected; no generated assets or runtime preset approval.",
+  "comparison_policy": {
+    "same_dog_pairs": [],
+    "measurements": "Source-caption body lengths only; no visual mm estimation.",
+    "limitations": [
+      "No controlled same-dog sequence.",
+      "No length or fullness scale calibrated from these photos.",
+      "No native64 verification."
+    ]
+  },
+  "references": [
+    {
+      "id": "ipet-schnauzer-6mm",
+      "label": "슈나우저: 몸통 6mm, 얼굴 장식털",
+      "view": "elevated_front",
+      "visible_regions": [
+        "crown",
+        "cheeks",
+        "muzzle",
+        "left_ear",
+        "right_ear",
+        "chest",
+        "front_legs",
+        "front_paws"
+      ],
+      "observations": [
+        {
+          "region": "crown",
+          "description": "정수리 털은 짧게 정리되어 있고 가운데 결이 갈라져 보인다."
+        },
+        {
+          "region": "muzzle",
+          "description": "코 양옆과 아래에 털을 남겨 둥근 수염 외곽을 만든다."
+        },
+        {
+          "region": "ears",
+          "description": "양쪽 귀가 접혀 내려오며 귀 외곽의 털은 짧게 정리되어 보인다."
+        },
+        {
+          "region": "chest",
+          "description": "목 아래에서 가슴으로 이어지는 털은 얼굴 수염보다 몸에 붙어 보인다."
+        }
+      ],
+      "limits": [
+        "고개를 들어 올려다본 사진이어서 실제 머리/몸 비율 비교에 부적합하다.",
+        "몸통 측면과 후면은 보이지 않고 다리/발 일부는 초점이 흐리다.",
+        "피모의 거친 정도나 실제 밀도를 이 사진으로 확정하지 않는다."
+      ],
+      "tags": [
+        "facial_furnishings",
+        "short_visible_chest",
+        "trimmed_ear_outline"
+      ],
+      "status": "REFERENCE_ONLY",
+      "provider": "I Pet Grooming",
+      "source_page_url": "https://www.ipetgrooming.co/fullgroomphotos",
+      "source_image_url": "https://static.wixstatic.com/media/ab75e3_ad6ea3c7f34d49eaac70409ace554c85~mv2.jpg",
+      "checked_date": "2026-11-07",
+      "source_claims": {
+        "breed_label": "Schnauzer",
+        "clipping_length": {
+          "value": 6,
+          "unit": "mm",
+          "region": "body",
+          "basis": "source_caption_not_image_measurement"
+        },
+        "long_ear_style": null
+      },
+      "observed_by": "coat_references",
+      "observation_method": "direct_view_of_downloaded_original",
+      "same_dog_group": null,
+      "identity_status": "not_verified",
+      "coat_density": null,
+      "coat_layers": null,
+      "local_reference": {
+        "path": "private-data/coat-references-20261107/ipet-schnauzer-6mm.jpg",
+        "sha256": "a953fa1cbf6b320b133eb44d6832e6ee7d16fd7a2f8217f23a2697bf49ae849f",
+        "dimensions_px": [
+          3024,
+          4032
+        ],
+        "storage": "git_ignored_reference_copy"
+      },
+      "use": [
+        "qualitative_region_description",
+        "grooming_reference"
+      ],
+      "not_valid_for": [
+        "same_dog_before_after",
+        "millimeters_to_pixels",
+        "density_measurement",
+        "breed_geometry_default",
+        "render_preset_approval"
+      ],
+      "rights": {
+        "license": "not_verified",
+        "redistribution": "not_authorized_by_this_record"
+      },
+      "render_support": "NOT_CLAIMED"
+    },
+    {
+      "id": "ipet-poodle-3mm",
+      "label": "푸들: 몸통 3mm, 둥근 머리",
+      "view": "front_slight_oblique",
+      "visible_regions": [
+        "crown",
+        "cheeks",
+        "muzzle",
+        "left_ear",
+        "right_ear",
+        "body_sides",
+        "front_legs",
+        "paws",
+        "tail"
+      ],
+      "observations": [
+        {
+          "region": "crown",
+          "description": "정수리는 둥글고 부풀어 보이는 외곽이며 몸통/다리보다 긴 털을 남긴 모습이다."
+        },
+        {
+          "region": "cheeks",
+          "description": "볼과 주둥이 주변은 둥글게 정리되어 있다."
+        },
+        {
+          "region": "ears",
+          "description": "귀는 머리 양옆으로 내려오며 둥근 머리 외곽에 이어진다."
+        },
+        {
+          "region": "legs",
+          "description": "앞다리 털은 몸에 붙는 짧은 외곽이며 발 부근에 더 짙은 털이 보인다."
+        }
+      ],
+      "limits": [
+        "하네스가 목과 가슴 중심부를 가리므로 가슴털/목 연결 근거로 부적합하다.",
+        "검은 털과 조명으로 얼굴 경계 일부가 어둡다.",
+        "몸통과 머리 길이의 정확한 차이는 측정할 수 없다."
+      ],
+      "tags": [
+        "rounded_crown",
+        "rounded_face",
+        "short_visible_legs",
+        "occluded_chest"
+      ],
+      "status": "REFERENCE_ONLY",
+      "provider": "I Pet Grooming",
+      "source_page_url": "https://www.ipetgrooming.co/fullgroomphotos",
+      "source_image_url": "https://static.wixstatic.com/media/ab75e3_f4c8a7ce398b434c8db5cfc7c82ebd4e~mv2.jpg",
+      "checked_date": "2026-11-07",
+      "source_claims": {
+        "breed_label": "Poodle",
+        "clipping_length": {
+          "value": 3,
+          "unit": "mm",
+          "region": "body",
+          "basis": "source_caption_not_image_measurement"
+        },
+        "long_ear_style": null
+      },
+      "observed_by": "coat_references",
+      "observation_method": "direct_view_of_downloaded_original",
+      "same_dog_group": null,
+      "identity_status": "not_verified",
+      "coat_density": null,
+      "coat_layers": null,
+      "local_reference": {
+        "path": "private-data/coat-references-20261107/ipet-poodle-3mm.jpg",
+        "sha256": "fae8f145808b67c881fccf5c72e2c64ac7da125c8529852bd3791d1ce6671fcd",
+        "dimensions_px": [
+          1080,
+          1440
+        ],
+        "storage": "git_ignored_reference_copy"
+      },
+      "use": [
+        "qualitative_region_description",
+        "grooming_reference"
+      ],
+      "not_valid_for": [
+        "same_dog_before_after",
+        "millimeters_to_pixels",
+        "density_measurement",
+        "breed_geometry_default",
+        "render_preset_approval"
+      ],
+      "rights": {
+        "license": "not_verified",
+        "redistribution": "not_authorized_by_this_record"
+      },
+      "render_support": "NOT_CLAIMED"
+    },
+    {
+      "id": "ipet-cavoodle-13mm",
+      "label": "캐부들: 몸통 13mm, 긴 귀털",
+      "view": "front_oblique_lying",
+      "visible_regions": [
+        "crown",
+        "cheeks",
+        "muzzle",
+        "left_ear",
+        "right_ear",
+        "chest",
+        "body_side",
+        "front_legs",
+        "front_paws"
+      ],
+      "observations": [
+        {
+          "region": "ears",
+          "description": "귀털은 얼굴 양옆을 따라 아래로 길게 늘어진다."
+        },
+        {
+          "region": "muzzle",
+          "description": "주둥이 양옆의 긴 털이 아래로 흐르고 턱 주변에도 털이 남아 있다."
+        },
+        {
+          "region": "body",
+          "description": "등과 옆구리에 물결처럼 굽은 털 무리가 보인다."
+        },
+        {
+          "region": "legs",
+          "description": "앞다리와 발에는 굽은 털이 남아 외곽이 고르지 않고 부풀어 보인다."
+        }
+      ],
+      "limits": [
+        "엎드린 자세여서 앉은 3mm 사진과 몸통/다리 볼륨을 정량 비교할 수 없다.",
+        "뒷부분은 가구와 화면 가장자리에 일부 가려지고 꼬리는 확인할 수 없다.",
+        "실제 모량과 피모 층은 미확인이다."
+      ],
+      "tags": [
+        "long_ear_fur",
+        "flowing_muzzle_fur",
+        "wavy_visible_body",
+        "fuller_visible_legs"
+      ],
+      "status": "REFERENCE_ONLY",
+      "provider": "I Pet Grooming",
+      "source_page_url": "https://www.ipetgrooming.co/fullgroomphotos",
+      "source_image_url": "https://static.wixstatic.com/media/ab75e3_0a33fa5f237c4a70a06c53ff32d18613~mv2.jpg",
+      "checked_date": "2026-11-07",
+      "source_claims": {
+        "breed_label": "Cavoodle",
+        "clipping_length": {
+          "value": 13,
+          "unit": "mm",
+          "region": "body",
+          "basis": "source_caption_not_image_measurement"
+        },
+        "long_ear_style": true
+      },
+      "observed_by": "coat_references",
+      "observation_method": "direct_view_of_downloaded_original",
+      "same_dog_group": null,
+      "identity_status": "not_verified",
+      "coat_density": null,
+      "coat_layers": null,
+      "local_reference": {
+        "path": "private-data/coat-references-20261107/ipet-cavoodle-13mm.jpg",
+        "sha256": "743c4a124543f4d957410801171c47eb47195fdda7d95516df940ad8982d8bf3",
+        "dimensions_px": [
+          1080,
+          1440
+        ],
+        "storage": "git_ignored_reference_copy"
+      },
+      "use": [
+        "qualitative_region_description",
+        "grooming_reference"
+      ],
+      "not_valid_for": [
+        "same_dog_before_after",
+        "millimeters_to_pixels",
+        "density_measurement",
+        "breed_geometry_default",
+        "render_preset_approval"
+      ],
+      "rights": {
+        "license": "not_verified",
+        "redistribution": "not_authorized_by_this_record"
+      },
+      "render_support": "NOT_CLAIMED"
+    },
+    {
+      "id": "ipet-cavoodle-3mm",
+      "label": "캐부들: 몸통 3mm, 긴 귀털",
+      "view": "front_seated",
+      "visible_regions": [
+        "crown",
+        "cheeks",
+        "muzzle",
+        "left_ear",
+        "right_ear",
+        "chest",
+        "front_legs",
+        "front_paws",
+        "tail_partial"
+      ],
+      "observations": [
+        {
+          "region": "ears",
+          "description": "귀털은 양쪽에서 아래로 늘어지고 끝부분의 굽은 결이 보인다."
+        },
+        {
+          "region": "muzzle",
+          "description": "주둥이 주변 털을 몸통보다 길게 남겼으며 코 아래를 감싸는 둥근 외곽이 보인다."
+        },
+        {
+          "region": "chest",
+          "description": "가슴과 앞다리는 짧게 정리되어 몸통 외곽이 비교적 선명하다."
+        },
+        {
+          "region": "crown",
+          "description": "정수리 털은 짧게 남아 위쪽으로 조금 솟고 눈 주변은 드러나 있다."
+        }
+      ],
+      "limits": [
+        "정면 위주여서 등·옆구리·후면 길이를 확인할 수 없다.",
+        "혀와 열린 입이 턱 주변 털의 경계를 일부 가린다.",
+        "13mm 사진과 동일 개체라는 근거가 없고 배색과 자세도 다르다."
+      ],
+      "tags": [
+        "long_ear_fur",
+        "rounded_muzzle_fur",
+        "short_visible_chest",
+        "short_visible_legs"
+      ],
+      "status": "REFERENCE_ONLY",
+      "provider": "I Pet Grooming",
+      "source_page_url": "https://www.ipetgrooming.co/fullgroomphotos",
+      "source_image_url": "https://static.wixstatic.com/media/ab75e3_2c0b191ec8b34e10a28ff4bf0db4d064~mv2.jpg",
+      "checked_date": "2026-11-07",
+      "source_claims": {
+        "breed_label": "Cavoodle",
+        "clipping_length": {
+          "value": 3,
+          "unit": "mm",
+          "region": "body",
+          "basis": "source_caption_not_image_measurement"
+        },
+        "long_ear_style": true
+      },
+      "observed_by": "coat_references",
+      "observation_method": "direct_view_of_downloaded_original",
+      "same_dog_group": null,
+      "identity_status": "not_verified",
+      "coat_density": null,
+      "coat_layers": null,
+      "local_reference": {
+        "path": "private-data/coat-references-20261107/ipet-cavoodle-3mm.jpg",
+        "sha256": "c21df0bbfb4acfa6e60c684eb57bbe986422d42907c09ad7e72a8a099461b7dc",
+        "dimensions_px": [
+          4032,
+          3024
+        ],
+        "storage": "git_ignored_reference_copy"
+      },
+      "use": [
+        "qualitative_region_description",
+        "grooming_reference"
+      ],
+      "not_valid_for": [
+        "same_dog_before_after",
+        "millimeters_to_pixels",
+        "density_measurement",
+        "breed_geometry_default",
+        "render_preset_approval"
+      ],
+      "rights": {
+        "license": "not_verified",
+        "redistribution": "not_authorized_by_this_record"
+      },
+      "render_support": "NOT_CLAIMED"
+    }
+  ],
+  "coverage_gaps": [
+    "same_dog_before_after",
+    "matched_view_scale_lighting",
+    "natural_short_smooth_coat",
+    "long_straight_flowing_coat",
+    "dense_double_coat",
+    "verified_wire_texture",
+    "quantified_fullness_levels"
+  ]
+}

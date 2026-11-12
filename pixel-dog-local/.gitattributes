@@ -1,5 +1,5 @@
 # Preserve original bytes used by SHA-256 catalogs and review records.
-# Scope is limited to the 2026-11-06 engine checkpoint and its dependencies.
+# Scope includes the checkpoint and hash-bound active engine dependencies.
 outputs/body-rig-breeds-v1/** -text
 outputs/cranio-cervical-v1/** -text
 outputs/deformation-b-expressions-simple-v1/** -text
@@ -29,4 +29,7 @@ outputs/skull-based-heads-v2/** -text
 references/styles/breed-head-b2/** -text
 tools/head_engine/** -text
 tools/review/** -text
-tools/dog_engine/** -text
+tools/dog_engine/** -text whitespace=cr-at-eol
+tools/static_maker/coat_bridge.py -text whitespace=cr-at-eol
+config/anatomy-rejections.json -text whitespace=cr-at-eol
+config/individual-pair-canonical.json -text whitespace=cr-at-eol

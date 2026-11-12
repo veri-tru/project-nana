@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "blocked_artifacts": [
+    {
+      "sha256": "1422ec5baf7f2a7e6a94778bc04af6b4341b88a40ce75d9629cba58e1d131c7c",
+      "decision": "USER_REJECTED",
+      "reason": "Ear and occiput fused; neck reads as a human bust",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "7db9a3592089ac53f728480b7bf00297ff75626b8371b776f2fb727a9f61c601",
+      "decision": "USER_REJECTED",
+      "reason": "Ear and occiput fused; neck reads as a human bust",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "c460963ba585e927bfcc07d6d93aded355ac3b7de590f9d16bcb423e58663145",
+      "decision": "USER_REJECTED",
+      "reason": "Ear and occiput fused; neck reads as a human bust",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "786b5fb66bad70307c75301e1c6b22fc6ecdd5dc25ac785deb627a83222a6e1f",
+      "decision": "INDEPENDENT_FAIL",
+      "reason": "Neck continuity missing; uncontrolled variants",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "0a5bfb51db0db114d26a9b4bda82cf0c0ee72d08d04555d8bbb9e8ecd6f80a9e",
+      "decision": "INDEPENDENT_FAIL",
+      "reason": "Neck continuity missing; uncontrolled variants",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "83213ab11b7006999ab775738a815905e8df8dced26f9c512c7450d2f313cd3e",
+      "decision": "INDEPENDENT_FAIL",
+      "reason": "Neck continuity missing; uncontrolled variants",
+      "date": "2026-11-07"
+    },
+    {
+      "sha256": "19690f73b663335336bd2bf489ffe9988202e03111653183af06f53db71434ec",
+      "decision": "INDEPENDENT_FAIL",
+      "reason": "Dog01 rear/top ear roots and occiput insufficiently distinct",
+      "date": "2026-11-07"
+    }
+  ],
+  "note": "Content hashes only. Private images remain outside Git. A new candidate needs a different hash and fresh full-scope review."
+}
