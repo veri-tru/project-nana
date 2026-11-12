@@ -26,6 +26,9 @@ STYLES={
 }
 
 def project(model,az,el):
+    unknown = set(model['parts']) - {'skin', 'eye_-1', 'eye_1'}
+    if unknown:
+        raise ValueError('Pixel diagnostic supports legacy skin/eye parts only; explicit semantic mapping required for: ' + ', '.join(sorted(unknown)))
     a,e=np.radians([az,el]);right=np.array([np.sin(a),0,np.cos(a)])
     front=np.array([-np.cos(a)*np.cos(e),np.sin(e),np.sin(a)*np.cos(e)])
     view=np.column_stack([right,np.cross(front,right),front])

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-maltipoo-coat",
+  "target": "head-3d",
+  "model_id": "maltipoo-neck02-soft-v2",
+  "intent": {
+    "kind": "authored_example",
+    "note": "3D crown/chest fullness only. Crown fullness cannot be exported to native64 at this framing."
+  },
+  "regions": {
+    "crown": {
+      "length": "long",
+      "volume": "full"
+    },
+    "cheeks": {
+      "length": "long"
+    },
+    "chest": {
+      "length": "long",
+      "volume": "full"
+    },
+    "ears": {
+      "length": "long"
+    }
+  }
+}

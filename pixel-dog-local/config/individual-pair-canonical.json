@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "user_instruction": "c를 정본으로하자",
+  "status": "USER_ACCEPTED",
+  "canonical_id": "individual-pair-b2-C-v1",
+  "selected_variant": "C",
+  "selected_rows": [
+    "01",
+    "02"
+  ],
+  "views": [
+    "FRONT",
+    "3/4",
+    "SIDE",
+    "BACK",
+    "TOP"
+  ],
+  "artifact": "private-data/individual-pair-20261107/pair-b2-retry04/C/comparison.png",
+  "sha256": "82f2a4699cf24719dc5b5bdc9c146a467fc9b80e5886577e435457f50f4e598d",
+  "style_id": "breed-head-soft-B2-v1",
+  "geometry_reference": "neck-reference02",
+  "scope": "Canonical high-resolution appearance of both independent dogs, head/neck/upper thorax, all five views. B remains unselected; A remains blocked. Not native64 or measured/exact-mesh anatomy approval.",
+  "selection_record": "private-data/individual-pair-20261107/pair-b2-retry04/selection.json",
+  "selection_sha256": "4985f75e4b4bf1bca686450cd8d9a6305812be855010dc755357b788e52214e2",
+  "privacy": "Local private image; only selection metadata is versioned"
+}

@@ -2,9 +2,11 @@
 
 현재는 **머리 3D 모델 투영 + 별도의 2D 전신 정적 제작기** 단계다. [엔진 구조·상충 정리](docs/engine-organization.md) · [실행 안내](tools/dog_engine/README.md) · [현재 사양](docs/current-spec.md).
 
-- 실행: 프로젝트 폴더에서 `python -m tools.dog_engine status`, 환경·입력 확인은 `doctor`, 전체 회귀 검사는 `verify`.
+- 실행: Python 3.12로 `./engine.ps1 -Setup`을 한 번 실행한 뒤 `./engine.ps1 status`, `./engine.ps1 doctor`, `./engine.ps1 verify`를 사용한다. 프로젝트 전용 `.venv`와 고정 의존성을 사용하며 전역 Python 환경과 분리한다.
 - 머리: 5품종·9프리셋, 짧은 목과 5시점. 골든은 adult-B, 잭 러셀은 B가 작업 형상 기본값이다.
 - 현재 머리 화풍: [breed-head-soft-B2-v1](references/styles/breed-head-b2/v1/manifest.json). [골든](outputs/golden-b2-canonical-20261106/selection.json)·[잭 러셀](outputs/jack-russell-b2-20261106/selection.json)의 고해상도 시안 A를 선택했다. A는 음영 행 이름이며 형상 B와 충돌하지 않는다.
+- 두 개체 정본: [individual-pair-b2-C-v1](config/individual-pair-canonical.json)의 C, 두 개체×5시점 전체가 선택됐다. 고해상도 외형 선택이며 native64 실행 자산 승인은 아니다.
+- 털: 등록 말티푸의 정수리·볼·귀·가슴 길이를 3D/native64 진단 경로에 연결했다. 풍성함은 3D 정수리·가슴, native64 가슴만 지원한다. [지원 범위](docs/coat-fullness-integration.md) · [최신 가슴 음영 수정](docs/coat-chest-tone-fix.md). 결과의 사용자 선택은 PENDING이다.
 - [기존 native64 P1/P2/P3](outputs/golden-pixel-refresh-20261106/README.md)는 화풍 불일치로 거절됐다. 진단 경로로만 보존하고, 승인된 native64 실행 자산으로 사용하지 않는다.
 - [잭 러셀 귀 비교](outputs/jack-russell-ear-study-20261106/README.md)는 선택 대기다. 엔진의 개체별 귀 변경은 미구현이다.
 - 저장: [머리 v2/13 로컬 체크포인트](docs/head-engine-checkpoint.md), 이후 전체 진행 보존 커밋 `8671571`. 새 실행 패키지와 보존본의 역할은 정리 문서를 따른다.
@@ -32,7 +34,7 @@
 1. 이 폴더 전체를 원하는 작업 위치에 압축 해제합니다.
 2. Codex 또는 사용하는 코드 편집기에서 이 폴더를 프로젝트 루트로 엽니다.
 3. [AGENTS.md](AGENTS.md), [프로젝트 개요](docs/project-brief.md), [현재 결정 기록](docs/decisions.md), [개발 인수인계](docs/handoff.md)를 읽습니다.
-4. [로컬 시작 프롬프트](prompts/start-local.md)를 사용해 Android G0 개발 환경 점검부터 진행합니다.
+4. [로컬 시작 프롬프트](prompts/start-local.md)를 사용해 현재 엔진·환경·미완료 항목을 먼저 확인합니다. Android G0 착수는 현재 작업 범위와 별도로 판단합니다.
 5. 시안은 [참고 시안 목록](references/previews/index.html)을 브라우저로 열어 확인합니다. 별도 서버나 설치가 필요 없는 복사본입니다.
 
 ## 이번 패키지에 포함한 것

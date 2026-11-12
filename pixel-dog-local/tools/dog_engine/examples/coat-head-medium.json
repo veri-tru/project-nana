@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-maltipoo-coat",
+  "target": "native64",
+  "model_id": "maltipoo-neck02",
+  "intent": {"kind": "authored_example", "note": "가상 길이 연결 검증: 중간 외피 변위이며 실제 mm·품종별 미용 또는 풍성함을 의미하지 않는다."},
+  "regions": {
+    "crown": {"length": "medium"},
+    "cheeks": {"length": "medium"},
+    "ears": {"length": "medium"},
+    "chest": {"length": "medium"}
+  }
+}

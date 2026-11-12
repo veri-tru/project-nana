@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "dog_id": "synthetic-example",
+  "target": "static-v03",
+  "intent": {"kind": "authored_example", "note": "가상 예제: 정수리는 짧게, 볼은 중간, 귀털은 길게 설정한다. 실제 개의 관찰이나 사용자 승인 아님."},
+  "regions": {
+    "crown": {"length": "short"},
+    "cheeks": {"length": "medium"},
+    "ears": {"length": "long"}
+  },
+  "texture": null,
+  "coat_layers": null,
+  "grooming": null,
+  "reference_ids": []
+}

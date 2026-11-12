@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["status", "doctor", "verify", "head", "body", "pixel-diagnostic"])
+    parser.add_argument("command", choices=["status", "doctor", "verify", "head", "body", "coat", "pixel-asset", "pixel-diagnostic", "ear-structure", "neck-structure", "structure-gate"])
     parser.add_argument("args", nargs=argparse.REMAINDER)
     args = parser.parse_args(argv)
     rest = args.args[1:] if args.args[:1] == ["--"] else args.args
@@ -26,11 +26,34 @@ def main(argv=None):
             from . import head
             head.main(rest)
             return 0
+        if args.command == "coat":
+            from . import coat
+            return coat.main(rest)
+        if args.command == "pixel-asset":
+            from . import pixel_asset
+            return pixel_asset.main(rest)
+        if args.command == "ear-structure":
+            from . import ear_structure
+            ear_structure.main(rest)
+            return 0
+        if args.command == "neck-structure":
+            from . import neck_structure
+            neck_structure.main(rest)
+            return 0
+        if args.command == "structure-gate":
+            from . import structure_gate
+            structure_gate.main(rest)
+            return 0
         if args.command == "body":
             return subprocess.call([sys.executable, str(ROOT / "tools/static_maker/render_v03.py"), *rest], cwd=ROOT)
         if args.command == "pixel-diagnostic":
             return subprocess.call([sys.executable, "-m", "tools.dog_engine.pixel", "--diagnostic", *rest], cwd=ROOT)
         if args.command == "verify":
+            from . import state
+            preflight = state.doctor()
+            if preflight["problems"]:
+                print(json.dumps(preflight, ensure_ascii=False, indent=2))
+                return 1
             failed = False
             for suite in ("tools/head_engine/tests", "tools/static_maker/tests", "tools/dog_engine/tests"):
                 result = subprocess.call([sys.executable, "-m", "unittest", "discover", "-s", suite, "-q"], cwd=ROOT)
